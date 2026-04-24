@@ -1,0 +1,3070 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি</title>
+  <meta name="description" content="জুলাই গণঅভ্যুত্থানের চেতনায় জার্মানি প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম। NCP Diaspora Alliance Germany।" />
+  <meta property="og:title" content="NCP Diaspora Alliance Germany" />
+  <meta property="og:description" content="জুলাই গণঅভ্যুত্থানের চেতনায় জার্মানি প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,700;1,9..144,900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" />
+
+  <style>
+    /* ══════════════════════════════════════════
+       DESIGN TOKENS
+    ══════════════════════════════════════════ */
+    :root {
+      --green-950: #021509;
+      --green-900: #062b12;
+      --green-800: #0a4220;
+      --green-700: #0d6130;
+      --green-600: #0e8a42;
+      --green-500: #12b558;
+      --green-400: #22d46e;
+      --green-300: #5ee090;
+      --green-200: #9aedb8;
+      --green-100: #d4f7e3;
+      --green-50:  #ecfcf3;
+
+      --red-900:  #5c0818;
+      --red-700:  #8f0f28;
+      --red-500:  #c01636;
+      --red-400:  #d92347;
+      --red-200:  #f4a7b6;
+      --red-50:   #fdf0f2;
+
+      --gold-600: #a07208;
+      --gold-500: #c99018;
+      --gold-400: #e0aa2a;
+      --gold-200: #f3d98a;
+      --gold-50:  #fdf8ec;
+
+      --ink-950: #06100a;
+      --ink-900: #0e1e14;
+      --ink-700: #2a3d30;
+      --ink-500: #4d6355;
+      --ink-300: #8fa898;
+      --ink-200: #bdd0c4;
+      --ink-100: #ddeae1;
+
+      --surface:   #f5faf7;
+      --surface-2: #edf5f0;
+      --white:     #ffffff;
+      --border:    rgba(18,90,50,.13);
+
+      --shadow-xs: 0 2px 8px rgba(6,16,10,.05);
+      --shadow-sm: 0 4px 18px rgba(6,16,10,.07);
+      --shadow-md: 0 12px 40px rgba(6,16,10,.1);
+      --shadow-lg: 0 28px 72px rgba(6,16,10,.15);
+      --shadow-xl: 0 48px 100px rgba(6,16,10,.2);
+
+      --r-sm: 8px;
+      --r-md: 16px;
+      --r-lg: 24px;
+      --r-xl: 36px;
+
+      --container: 1180px;
+      --nav-h: 78px;
+
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-ui:      'DM Sans', sans-serif;
+      --font-body:    'Hind Siliguri', sans-serif;
+      --font-mono:    'JetBrains Mono', monospace;
+
+      --ease-spring: cubic-bezier(.34,1.56,.64,1);
+      --ease-out:    cubic-bezier(.22,.61,.36,1);
+      --ease-in-out: cubic-bezier(.4,0,.2,1);
+    }
+
+    /* ── Reset ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font-body); color: var(--ink-900); background: var(--white); line-height: 1.62; overflow-x: hidden; }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button, input, select, textarea { font: inherit; }
+
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    /* ══════════════════════════════════════════
+       PROGRESS BAR
+    ══════════════════════════════════════════ */
+    #progress-bar {
+      position: fixed; top: 0; left: 0;
+      height: 3px; width: 0%;
+      background: linear-gradient(90deg, var(--red-500), var(--gold-400), var(--green-400));
+      z-index: 9999;
+      transition: width .08s linear;
+      transform-origin: left;
+    }
+
+    /* ══════════════════════════════════════════
+       BACK TO TOP
+    ══════════════════════════════════════════ */
+    #back-top {
+      position: fixed; bottom: 28px; right: 28px;
+      width: 46px; height: 46px; border-radius: 14px;
+      background: var(--green-800);
+      border: 1px solid rgba(255,255,255,.12);
+      color: #fff; cursor: pointer;
+      display: grid; place-items: center;
+      box-shadow: 0 8px 24px rgba(6,16,10,.25);
+      opacity: 0; transform: translateY(12px) scale(.9);
+      transition: opacity .3s var(--ease-out), transform .3s var(--ease-out), background .2s;
+      z-index: 800;
+    }
+    #back-top.visible { opacity: 1; transform: translateY(0) scale(1); }
+    #back-top:hover { background: var(--green-700); transform: translateY(-2px) scale(1.04); }
+    #back-top svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 2.5; }
+
+    /* ══════════════════════════════════════════
+       NAV
+    ══════════════════════════════════════════ */
+    .nav-wrap {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 900;
+      padding: 14px 0;
+      transition: padding .4s var(--ease-in-out);
+    }
+    .nav-wrap.scrolled { padding: 8px 0; }
+
+    .nav-inner {
+      width: min(var(--container), calc(100% - 32px));
+      margin: 0 auto;
+      height: var(--nav-h);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px;
+      border-radius: 22px;
+      background: rgba(255,255,255,.9);
+      border: 1px solid rgba(204,224,212,.7);
+      backdrop-filter: blur(20px) saturate(160%);
+      box-shadow: 0 8px 32px rgba(6,16,10,.07), 0 1px 0 rgba(255,255,255,.6) inset;
+      transition: height .4s var(--ease-in-out), box-shadow .4s;
+    }
+    .nav-wrap.scrolled .nav-inner { height: 64px; box-shadow: 0 12px 40px rgba(6,16,10,.11); }
+
+    .brand { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+
+    .brand-icon {
+      width: 44px; height: 44px; border-radius: 13px;
+      background: radial-gradient(circle at 30% 30%, #f7fcf9 0%, #e7f2ec 62%, #d7e7dd 100%);
+      display: grid; place-items: center;
+      box-shadow: 0 6px 18px rgba(13,97,48,.18);
+      position: relative; overflow: hidden;
+      flex-shrink: 0;
+    }
+    .brand-icon::after {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,.28) 0%, transparent 58%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .brand-icon img {
+      width: 30px; height: 30px;
+      display: block;
+      object-fit: contain;
+      object-position: center;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
+    }
+    .brand-icon svg { width: 20px; height: 20px; fill: none; stroke: #fff; stroke-width: 2; position: relative; z-index: 1; }
+
+    .brand-text strong {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: 13px; font-weight: 600;
+      color: var(--ink-950); letter-spacing: -.01em; line-height: 1.2;
+    }
+    .brand-text span {
+      display: block;
+      font-family: var(--font-mono); font-size: 9px;
+      letter-spacing: .15em; text-transform: uppercase;
+      color: var(--ink-300); margin-top: 3px;
+    }
+
+    .nav-links {
+      display: flex; align-items: center; gap: 22px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: var(--font-ui);
+      font-size: 13.5px; font-weight: 500;
+      color: var(--ink-500);
+      transition: color .2s;
+      position: relative; padding-bottom: 2px;
+    }
+    .nav-links a::after {
+      content: "";
+      position: absolute; bottom: -2px; left: 0; right: 0;
+      height: 1.5px; background: var(--green-500);
+      transform: scaleX(0); transform-origin: right;
+      transition: transform .3s var(--ease-in-out);
+    }
+    .nav-links a:hover { color: var(--ink-950); }
+    .nav-links a:hover::after { transform: scaleX(1); transform-origin: left; }
+
+    .nav-ctas { display: flex; gap: 9px; align-items: center; }
+
+    .btn-pill {
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      border-radius: 999px; border: 0; cursor: pointer;
+      font-family: var(--font-ui); font-weight: 600; font-size: 13px;
+      transition: all .25s var(--ease-in-out);
+      white-space: nowrap; letter-spacing: .01em;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink-700);
+      border: 1.5px solid var(--border);
+      padding: 9px 18px;
+    }
+    .btn-ghost:hover { background: var(--green-50); border-color: var(--green-500); color: var(--green-700); transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--red-500);
+      color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 6px 20px rgba(192,22,54,.28);
+      position: relative; overflow: hidden;
+    }
+    .btn-primary::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,.16) 0%, transparent 50%);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(192,22,54,.36); background: var(--red-400); }
+
+    /* Mobile nav */
+    .mobile-btn {
+      display: none;
+      width: 40px; height: 40px; border-radius: 11px;
+      border: 1.5px solid var(--border);
+      background: rgba(255,255,255,.9);
+      align-items: center; justify-content: center;
+      cursor: pointer; flex-direction: column; gap: 0;
+    }
+    .mobile-btn .bar {
+      width: 15px; height: 1.5px;
+      background: var(--ink-900); border-radius: 99px;
+      transition: transform .25s, opacity .25s, margin .25s;
+      margin: 2.5px 0;
+    }
+    .mobile-btn.open .bar:nth-child(2) { opacity: 0; }
+    .mobile-btn.open .bar:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .mobile-btn.open .bar:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 108px; left: 12px; right: 12px;
+      z-index: 899;
+      background: rgba(255,255,255,.97);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 10px;
+      box-shadow: var(--shadow-xl);
+      backdrop-filter: blur(20px);
+      animation: slideDown .3s var(--ease-out);
+    }
+    .mobile-menu.open { display: block; }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .mobile-menu a {
+      display: flex; align-items: center;
+      padding: 13px 16px;
+      font-family: var(--font-ui); font-weight: 500; font-size: 15px;
+      color: var(--ink-900); border-radius: 12px;
+      transition: background .15s;
+    }
+    .mobile-menu a:hover { background: var(--surface); }
+
+    /* ══════════════════════════════════════════
+       HERO
+    ══════════════════════════════════════════ */
+    .hero {
+      position: relative;
+      padding-top: calc(var(--nav-h) + 30px);
+      min-height: 88svh;
+      display: flex; align-items: center;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background: var(--white);
+    }
+    .hero-bg::before {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 68% 58% at 90% 8%, rgba(13,97,48,.09) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 45% at 0% 92%, rgba(192,22,54,.07) 0%, transparent 58%),
+        radial-gradient(ellipse 38% 38% at 50% -4%, rgba(201,144,24,.06) 0%, transparent 52%);
+      animation: meshFloat 16s ease-in-out infinite alternate;
+    }
+    @keyframes meshFloat {
+      0%   { transform: scale(1) translate(0,0); }
+      50%  { transform: scale(1.05) translate(.8%,.4%); }
+      100% { transform: scale(1) translate(-.4%,-.2%); }
+    }
+    .hero-bg::after {
+      content: "";
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.025'/%3E%3C/svg%3E");
+      background-size: 300px;
+      pointer-events: none;
+    }
+
+    .hero-deco {
+      position: absolute;
+      top: 0; right: 0;
+      width: 52%; height: 100%;
+      background: linear-gradient(to bottom right, transparent 0%, var(--green-50) 100%);
+      clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+      pointer-events: none; z-index: 0;
+      opacity: .55;
+    }
+
+    .hero-grid {
+      position: relative; z-index: 1;
+      width: min(var(--container), calc(100% - 48px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 460px;
+      gap: 42px;
+      align-items: center;
+      padding: 30px 0 48px;
+    }
+
+    .kicker {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 7px 14px; border-radius: 999px;
+      background: var(--gold-50);
+      border: 1px solid rgba(201,144,24,.22);
+      color: #6b4c00;
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: .13em; text-transform: uppercase;
+      margin-bottom: 16px;
+      animation: fadeUp .6s .1s both;
+    }
+    .kicker-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--gold-500);
+      box-shadow: 0 0 0 4px rgba(201,144,24,.22);
+      animation: pulseGold 2.2s ease-in-out infinite;
+    }
+    @keyframes pulseGold {
+      0%,100% { box-shadow: 0 0 0 3px rgba(201,144,24,.2); }
+      50%      { box-shadow: 0 0 0 7px rgba(201,144,24,.07); }
+    }
+
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(3.2rem, 5.2vw, 5.6rem);
+      font-weight: 900;
+      line-height: .9;
+      letter-spacing: -.04em;
+      color: var(--ink-950);
+      margin-bottom: 20px;
+      animation: fadeUp .7s .2s both;
+    }
+    .hero-h1 .accent {
+      font-style: italic;
+      color: var(--green-700);
+      display: block;
+      position: relative;
+    }
+    .hero-h1 .accent::after {
+      content: "";
+      position: absolute; bottom: -5px; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--green-400), var(--green-200));
+      border-radius: 99px;
+      transform: scaleX(0); transform-origin: left;
+      animation: lineReveal 1s .95s var(--ease-out) forwards;
+    }
+    @keyframes lineReveal { to { transform: scaleX(1); } }
+
+    .hero-sub {
+      font-family: var(--font-ui);
+      font-size: 1.06rem; font-weight: 300;
+      line-height: 1.74; color: var(--ink-500);
+      max-width: 540px;
+      margin-bottom: 28px;
+      animation: fadeUp .7s .32s both;
+    }
+
+    .hero-actions {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      margin-bottom: 34px;
+      animation: fadeUp .7s .42s both;
+    }
+
+    .btn-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 15px 28px; border-radius: 14px;
+      font-family: var(--font-ui); font-size: 15px; font-weight: 600;
+      border: 0; cursor: pointer;
+      transition: all .28s var(--ease-in-out);
+      position: relative; overflow: hidden; letter-spacing: .01em;
+    }
+    .btn-cta.solid {
+      background: linear-gradient(135deg, var(--green-700), var(--green-900));
+      color: #fff;
+      box-shadow: 0 10px 32px rgba(13,97,48,.28), 0 1px 0 rgba(255,255,255,.12) inset;
+    }
+    .btn-cta.solid::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,.12), transparent);
+    }
+    .btn-cta.solid:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 18px 44px rgba(13,97,48,.36); }
+    .btn-cta.outline {
+      background: transparent; color: var(--ink-700);
+      border: 1.5px solid rgba(42,61,48,.18);
+    }
+    .btn-cta.outline:hover { background: var(--surface); border-color: var(--green-500); color: var(--green-700); transform: translateY(-2px); }
+
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 14px;
+      animation: fadeUp .7s .52s both;
+    }
+    .stat-card {
+      padding: 20px 20px;
+      border-radius: var(--r-md);
+      background: rgba(255,255,255,.88);
+      border: 1px solid rgba(204,224,212,.8);
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(8px);
+      transition: transform .3s var(--ease-spring), box-shadow .3s;
+      cursor: default;
+      position: relative; overflow: hidden;
+    }
+    .stat-card::before {
+      content: "";
+      position: absolute; top: 0; left: 0; right: 0; height: 2.5px;
+      background: linear-gradient(90deg, var(--green-400), var(--green-200));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform .4s var(--ease-out);
+    }
+    .stat-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+    .stat-card:hover::before { transform: scaleX(1); }
+    .stat-card strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.75rem; font-weight: 800;
+      line-height: 1; color: var(--green-800);
+      margin-bottom: 8px;
+    }
+    .stat-card span {
+      display: block; font-family: var(--font-ui);
+      font-size: 11.5px; font-weight: 400;
+      line-height: 1.6; color: var(--ink-500);
+    }
+
+    .hero-panel {
+      border-radius: var(--r-xl);
+      background: linear-gradient(155deg, var(--green-900) 0%, var(--green-800) 48%, var(--green-700) 100%);
+      color: #fff;
+      padding: 36px 32px;
+      box-shadow: var(--shadow-xl), 0 1px 0 rgba(255,255,255,.07) inset;
+      position: relative; overflow: hidden;
+      border: 1px solid rgba(255,255,255,.07);
+      animation: fadeUp .8s .28s both;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .hero-panel::before {
+      content: "";
+      position: absolute;
+      width: 380px; height: 380px;
+      top: -150px; right: -100px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(34,212,110,.14) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-panel::after {
+      content: "";
+      position: absolute;
+      width: 240px; height: 240px;
+      bottom: -100px; left: -60px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(192,22,54,.18) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .panel-live {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 6px 13px; border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.85);
+      font-family: var(--font-mono); font-size: 9.5px;
+      letter-spacing: .13em; text-transform: uppercase;
+      margin-bottom: 20px; position: relative; z-index: 1;
+      width: fit-content;
+    }
+    .live-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: #4dffa0;
+      box-shadow: 0 0 0 4px rgba(77,255,160,.12);
+      animation: livePulse 1.8s ease-in-out infinite;
+    }
+    @keyframes livePulse {
+      0%,100% { box-shadow: 0 0 0 3px rgba(77,255,160,.12); }
+      50%      { box-shadow: 0 0 0 7px rgba(77,255,160,.04); }
+    }
+
+    .panel-center {
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; gap: 10px;
+      padding: 14px 0 10px;
+      position: relative; z-index: 1;
+    }
+    .panel-logo {
+      width: 92px; height: 92px; border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.26), rgba(255,255,255,.08));
+      border: 1.5px solid rgba(255,255,255,.2);
+      display: grid; place-items: center;
+      box-shadow: 0 0 0 8px rgba(255,255,255,.04), 0 16px 40px rgba(0,0,0,.18);
+      font-family: var(--font-display);
+      font-size: 20px; font-weight: 800;
+      color: rgba(255,255,255,.9); letter-spacing: -.02em;
+      padding: 8px;
+      overflow: hidden;
+    }
+    .panel-logo img {
+      width: 100%; height: 100%;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,.15));
+    }
+
+    .panel-name {
+      font-family: var(--font-display);
+      font-size: 1.48rem; font-weight: 700;
+      line-height: 1.12; color: #fff;
+    }
+    .panel-sub {
+      font-family: var(--font-ui);
+      font-size: .88rem; font-weight: 300;
+      line-height: 1.68; color: rgba(255,255,255,.65);
+      max-width: 260px;
+    }
+    .panel-sep {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.1), transparent);
+      margin: 14px 0; position: relative; z-index: 1;
+    }
+    .panel-quote {
+      position: relative; z-index: 1;
+      font-family: var(--font-display);
+      font-size: .94rem; font-weight: 700; font-style: italic;
+      line-height: 1.68; color: rgba(255,255,255,.84);
+      margin-bottom: 10px;
+    }
+    .panel-cite {
+      font-family: var(--font-mono); font-size: 9.5px;
+      letter-spacing: .11em; text-transform: uppercase;
+      color: rgba(255,255,255,.34); position: relative; z-index: 1;
+    }
+    .panel-chips {
+      display: flex; flex-wrap: wrap; gap: 7px;
+      margin-top: 18px; position: relative; z-index: 1;
+    }
+    .chip {
+      padding: 5px 12px; border-radius: 999px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.1);
+      color: rgba(255,255,255,.76);
+      font-family: var(--font-ui); font-size: 11px; font-weight: 500;
+      transition: background .2s, transform .2s;
+    }
+    .chip:hover { background: rgba(255,255,255,.13); transform: translateY(-1px); }
+
+    /* ══════════════════════════════════════════
+       TICKER BAND
+    ══════════════════════════════════════════ */
+    .ticker-band {
+      background: var(--ink-950);
+      padding: 12px 0;
+      overflow: hidden;
+      position: relative;
+    }
+    .ticker-band::before, .ticker-band::after {
+      content: "";
+      position: absolute; top: 0; bottom: 0; width: 80px;
+      z-index: 2; pointer-events: none;
+    }
+    .ticker-band::before { left: 0; background: linear-gradient(90deg, var(--ink-950), transparent); }
+    .ticker-band::after  { right: 0; background: linear-gradient(-90deg, var(--ink-950), transparent); }
+    .ticker-track {
+      display: flex; gap: 0;
+      animation: tickerScroll 32s linear infinite;
+      white-space: nowrap;
+    }
+    @keyframes tickerScroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex; align-items: center; gap: 20px;
+      padding: 0 32px;
+      font-family: var(--font-mono); font-size: 10.5px;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: rgba(255,255,255,.5);
+    }
+    .ticker-sep { width: 4px; height: 4px; border-radius: 50%; background: var(--green-500); flex-shrink: 0; }
+    .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
+
+    /* ══════════════════════════════════════════
+       UPRISING STRIP
+    ══════════════════════════════════════════ */
+    .uprising-strip {
+      background: linear-gradient(152deg, var(--green-950) 0%, var(--green-900) 50%, #0d1a10 100%);
+      color: #fff;
+      padding: 62px 0;
+      overflow: hidden; position: relative;
+    }
+    .uprising-strip::before {
+      content: "";
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--red-500), var(--gold-400), var(--green-400), var(--red-500));
+      background-size: 200%;
+      animation: gradientFlow 4s linear infinite;
+    }
+    @keyframes gradientFlow {
+      0%   { background-position: 0%; }
+      100% { background-position: 200%; }
+    }
+    .uprising-strip::after {
+      content: "";
+      position: absolute;
+      width: 480px; height: 480px;
+      top: -200px; right: -80px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(13,97,48,.16) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .uprising-inner {
+      display: grid; grid-template-columns: 1fr auto;
+      gap: 32px; align-items: center;
+    }
+    .uprising-eyebrow {
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: rgba(255,255,255,.38); margin-bottom: 12px;
+    }
+    .uprising-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.85rem, 3vw, 2.9rem);
+      font-weight: 900; line-height: 1.06; color: #fff;
+      margin-bottom: 16px;
+    }
+    .uprising-desc {
+      font-family: var(--font-ui);
+      font-size: 1rem; font-weight: 300;
+      line-height: 1.72; color: rgba(255,255,255,.62);
+      max-width: 500px;
+    }
+
+    .uprising-nums {
+      display: grid; grid-template-columns: repeat(2,1fr);
+      gap: 13px; min-width: 310px;
+    }
+    .uprising-num {
+      padding: 18px 18px;
+      border-radius: var(--r-md);
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      transition: background .25s, transform .25s;
+    }
+    .uprising-num:hover { background: rgba(255,255,255,.08); transform: translateY(-3px); }
+    .uprising-num strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 2rem; font-weight: 900;
+      color: #fff; margin-bottom: 5px; line-height: 1;
+    }
+    .uprising-num span {
+      display: block; font-family: var(--font-ui);
+      font-size: 11.5px; font-weight: 300;
+      color: rgba(255,255,255,.5); line-height: 1.55;
+    }
+
+    /* ══════════════════════════════════════════
+       SECTIONS SHARED
+    ══════════════════════════════════════════ */
+    .section { padding: clamp(68px, 7vw, 86px) 0; }
+    .section-alt { background: var(--surface); }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 13px; border-radius: 999px;
+      background: rgba(13,97,48,.07);
+      border: 1px solid rgba(13,97,48,.13);
+      color: var(--green-700);
+      font-family: var(--font-mono); font-size: 10px;
+      letter-spacing: .13em; text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 5px; height: 5px; border-radius: 50%;
+      background: var(--green-400);
+    }
+    .section-h {
+      font-family: var(--font-display);
+      font-size: clamp(2.1rem, 4vw, 3.3rem);
+      font-weight: 900; line-height: 1.03;
+      letter-spacing: -.03em; color: var(--ink-950);
+      margin-bottom: 14px;
+    }
+    .section-sub {
+      font-family: var(--font-ui);
+      font-size: 1rem; font-weight: 300;
+      line-height: 1.72; color: var(--ink-500); max-width: 64ch;
+    }
+    .section-head { margin-bottom: 36px; }
+
+    /* ══════════════════════════════════════════
+       ABOUT / TIMELINE
+    ══════════════════════════════════════════ */
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 360px;
+      gap: 36px; align-items: start;
+    }
+
+    .timeline { position: relative; }
+    .tl-track {
+      position: absolute;
+      top: 18px; bottom: 18px; left: 22px;
+      width: 1.5px;
+      background: linear-gradient(180deg, var(--green-400), rgba(13,97,48,.03));
+    }
+
+    .tl-item {
+      display: grid; grid-template-columns: 56px 1fr;
+      gap: 14px; align-items: start;
+      margin-bottom: 16px; position: relative;
+    }
+    .tl-item:last-child { margin-bottom: 0; }
+
+    .tl-dot {
+      position: absolute;
+      width: 11px; height: 11px; border-radius: 50%;
+      background: var(--white);
+      border: 2.5px solid var(--green-500);
+      top: 20px; left: 18px;
+      box-shadow: 0 0 0 5px rgba(13,97,48,.09);
+      transition: transform .3s var(--ease-spring), box-shadow .3s;
+    }
+    .tl-item:hover .tl-dot { transform: scale(1.5); box-shadow: 0 0 0 8px rgba(13,97,48,.07); }
+
+    .tl-date { text-align: right; padding-top: 12px; }
+    .tl-date strong {
+      display: block; font-family: var(--font-display);
+      font-size: 1.3rem; font-weight: 800;
+      color: var(--green-700); line-height: 1;
+    }
+    .tl-date em {
+      display: block; font-style: normal;
+      font-family: var(--font-mono); font-size: 8.5px;
+      letter-spacing: .11em; text-transform: uppercase;
+      color: var(--ink-300); margin-top: 4px;
+    }
+
+    .tl-card {
+      background: var(--white); border: 1px solid rgba(204,224,212,.8);
+      border-radius: var(--r-md); padding: 18px 20px;
+      box-shadow: var(--shadow-xs);
+      transition: transform .3s var(--ease-out), box-shadow .3s, border-color .3s;
+    }
+    .tl-item:hover .tl-card { transform: translateX(4px); box-shadow: var(--shadow-md); border-color: rgba(13,97,48,.2); }
+
+    .tl-tag {
+      display: inline-block; padding: 3px 9px; border-radius: 999px;
+      background: var(--green-100); color: var(--green-700);
+      font-family: var(--font-mono); font-size: 9px; letter-spacing: .09em;
+      margin-bottom: 8px;
+    }
+    .tl-card h3 {
+      font-family: var(--font-ui); font-size: .97rem; font-weight: 600;
+      color: var(--ink-950); margin-bottom: 6px;
+    }
+    .tl-card p {
+      font-family: var(--font-ui); font-size: .91rem; font-weight: 300;
+      line-height: 1.72; color: var(--ink-500);
+    }
+
+    .about-side { display: grid; gap: 14px; }
+
+    .feature-card {
+      padding: 22px;
+      border-radius: var(--r-lg);
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+      transition: transform .3s var(--ease-out), box-shadow .3s;
+    }
+    .feature-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .feature-card.accent {
+      background: linear-gradient(150deg, var(--green-800) 0%, var(--green-600) 100%);
+      border-color: transparent; color: #fff;
+      box-shadow: var(--shadow-lg);
+    }
+    .fc-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: grid; place-items: center;
+      background: rgba(13,97,48,.09);
+      margin-bottom: 12px;
+    }
+    .feature-card.accent .fc-icon { background: rgba(255,255,255,.13); }
+    .fc-icon svg { width: 19px; height: 19px; fill: none; stroke: var(--green-500); stroke-width: 2; }
+    .feature-card.accent .fc-icon svg { stroke: #fff; }
+    .feature-card h3 { font-family: var(--font-ui); font-size: .97rem; font-weight: 600; margin-bottom: 8px; color: var(--ink-950); }
+    .feature-card.accent h3 { color: #fff; }
+    .feature-card p { font-family: var(--font-ui); font-size: .91rem; font-weight: 300; line-height: 1.72; color: var(--ink-500); }
+    .feature-card.accent p { color: rgba(255,255,255,.72); }
+
+    .contact-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 14px;
+      padding: 17px 20px; border-radius: var(--r-md);
+      background: var(--white); border: 1px solid var(--border);
+      box-shadow: var(--shadow-xs);
+      transition: box-shadow .25s;
+    }
+    .contact-row:hover { box-shadow: var(--shadow-md); }
+    .contact-row small { display: block; font-family: var(--font-mono); font-size: 9px; letter-spacing: .11em; text-transform: uppercase; color: var(--ink-300); margin-bottom: 3px; }
+    .contact-row a.email-link { font-family: var(--font-ui); color: var(--green-600); font-weight: 600; font-size: .91rem; }
+
+    /* ══════════════════════════════════════════
+       PILLARS
+    ══════════════════════════════════════════ */
+    .pillars-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 18px;
+    }
+    .pillar {
+      padding: 28px 24px; border-radius: var(--r-lg);
+      background: var(--white); border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+      transition: transform .35s var(--ease-spring), box-shadow .35s, border-color .35s;
+      position: relative; overflow: hidden;
+    }
+    .pillar::after {
+      content: "";
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      transform: scaleX(0); transform-origin: left;
+      transition: transform .4s var(--ease-out);
+    }
+    .pillar:nth-child(1)::after { background: linear-gradient(90deg, var(--green-500), var(--green-300)); }
+    .pillar:nth-child(2)::after { background: linear-gradient(90deg, var(--red-500), var(--red-200)); }
+    .pillar:nth-child(3)::after { background: linear-gradient(90deg, var(--gold-500), var(--gold-200)); }
+    .pillar:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); border-color: rgba(13,97,48,.18); }
+    .pillar:hover::after { transform: scaleX(1); }
+    .pillar-num {
+      font-family: var(--font-display);
+      font-size: 3rem; font-weight: 900;
+      color: rgba(13,97,48,.06); line-height: 1; margin-bottom: 12px;
+    }
+    .pillar-badge {
+      display: inline-block; padding: 4px 11px; border-radius: 999px;
+      font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em;
+      margin-bottom: 10px;
+    }
+    .pillar:nth-child(1) .pillar-badge { background: var(--green-100); color: var(--green-700); }
+    .pillar:nth-child(2) .pillar-badge { background: var(--red-50); color: var(--red-700); }
+    .pillar:nth-child(3) .pillar-badge { background: var(--gold-50); color: var(--gold-600); }
+    .pillar h3 { font-family: var(--font-ui); font-size: 1.06rem; font-weight: 600; color: var(--ink-950); margin-bottom: 11px; }
+    .pillar p { font-family: var(--font-ui); font-size: .91rem; font-weight: 300; line-height: 1.72; color: var(--ink-500); }
+
+    /* ══════════════════════════════════════════
+       RECENT UPDATES
+    ══════════════════════════════════════════ */
+    .updates-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+    .update-card {
+      padding: 22px; border-radius: var(--r-lg);
+      background: var(--white); border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+      display: flex; flex-direction: column;
+      transition: transform .3s var(--ease-out), box-shadow .3s;
+      position: relative; overflow: hidden;
+    }
+    .update-card::before {
+      content: "";
+      position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--green-400), var(--green-200));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform .35s var(--ease-out);
+    }
+    .update-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+    .update-card:hover::before { transform: scaleX(1); }
+    .update-meta { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
+    .update-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-400); flex-shrink: 0; }
+    .update-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-300); }
+    .update-badge {
+      padding: 3px 9px; border-radius: 999px;
+      background: var(--green-100); color: var(--green-700);
+      font-family: var(--font-mono); font-size: 9px; letter-spacing: .06em;
+      margin-left: auto;
+    }
+    .update-card h3 { font-family: var(--font-ui); font-size: .96rem; font-weight: 600; color: var(--ink-950); margin-bottom: 8px; line-height: 1.4; }
+    .update-card p { font-family: var(--font-ui); font-size: .9rem; font-weight: 300; line-height: 1.72; color: var(--ink-500); flex: 1; }
+
+    /* ══════════════════════════════════════════
+       BLOG SECTION
+    ══════════════════════════════════════════ */
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .blog-card {
+      display: flex;
+      flex-direction: column;
+      padding: 22px;
+      border-radius: var(--r-lg);
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+      transition: transform .3s var(--ease-out), box-shadow .3s, border-color .3s;
+      position: relative;
+      overflow: hidden;
+      min-height: 248px;
+    }
+
+    .blog-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--green-500), var(--gold-400), var(--red-400));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .35s var(--ease-out);
+    }
+
+    .blog-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(13,97,48,.18);
+    }
+
+    .blog-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .blog-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .blog-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--green-100);
+      color: var(--green-700);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .blog-author,
+    .blog-date {
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink-300);
+    }
+
+    .blog-card h3 {
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: var(--ink-950);
+      margin-bottom: 10px;
+    }
+
+    .blog-card p {
+      font-family: var(--font-ui);
+      font-size: .91rem;
+      font-weight: 300;
+      line-height: 1.72;
+      color: var(--ink-500);
+      flex: 1;
+      margin-bottom: 14px;
+    }
+
+    .blog-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-ui);
+      font-size: .92rem;
+      font-weight: 600;
+      color: var(--green-700);
+      transition: color .2s, transform .2s;
+      width: fit-content;
+    }
+
+    .blog-link:hover {
+      color: var(--green-600);
+      transform: translateX(2px);
+    }
+
+    .blog-cta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+      padding: 18px 20px;
+      border-radius: var(--r-md);
+      background: var(--surface);
+      border: 1px solid rgba(204,224,212,.8);
+    }
+
+    .blog-cta-row p {
+      font-family: var(--font-ui);
+      font-size: .95rem;
+      font-weight: 300;
+      color: var(--ink-500);
+      line-height: 1.72;
+      margin: 0;
+      max-width: 700px;
+    }
+
+    /* ══════════════════════════════════════════
+       GALLERY
+    ══════════════════════════════════════════ */
+    .gallery-section {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse 45% 40% at 100% 10%, rgba(13,97,48,.08) 0%, transparent 65%),
+        radial-gradient(ellipse 36% 30% at 0% 100%, rgba(201,144,24,.08) 0%, transparent 65%),
+        linear-gradient(180deg, #fbfdfb 0%, #eef5f0 100%);
+    }
+
+    .gallery-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.022'/%3E%3C/svg%3E");
+      background-size: 280px;
+      pointer-events: none;
+      opacity: .55;
+    }
+
+    .gallery-section .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .gallery-shell {
+      display: grid;
+      gap: 18px;
+    }
+
+    .gallery-stage {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) 320px;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .gallery-stage-media {
+      position: relative;
+      min-height: clamp(320px, 42vw, 430px);
+      aspect-ratio: 16 / 10;
+      border-radius: 28px;
+      overflow: hidden;
+      background: #08140b;
+      border: 1px solid rgba(255,255,255,.06);
+      box-shadow: var(--shadow-xl);
+      isolation: isolate;
+    }
+
+    .gallery-stage-media img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity .28s var(--ease-out), transform .55s var(--ease-out), filter .3s var(--ease-out);
+    }
+
+    .gallery-stage-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(3,12,6,.06) 0%, rgba(3,12,6,.18) 38%, rgba(3,12,6,.84) 100%);
+      pointer-events: none;
+    }
+
+    .gallery-stage:hover img {
+      transform: scale(1.04);
+      filter: saturate(1.05);
+    }
+
+    .gallery-stage-tag {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.15);
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.86);
+      backdrop-filter: blur(10px);
+    }
+
+    .gallery-stage-copy {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      padding: 22px 24px;
+      color: #fff;
+    }
+
+    .gallery-stage-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .gallery-stage-location,
+    .gallery-stage-counter {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.68);
+    }
+
+    .gallery-stage-copy h3 {
+      font-family: var(--font-display);
+      font-size: clamp(1.9rem, 3vw, 2.75rem);
+      font-weight: 900;
+      line-height: 1.02;
+      letter-spacing: -.03em;
+      margin-bottom: 8px;
+    }
+
+    .gallery-stage-copy p {
+      max-width: 560px;
+      font-family: var(--font-ui);
+      font-size: .98rem;
+      font-weight: 300;
+      line-height: 1.72;
+      color: rgba(255,255,255,.82);
+    }
+
+    .gallery-stage-aside {
+      display: grid;
+      gap: 14px;
+    }
+
+    .gallery-note-card,
+    .gallery-control-card {
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,.06);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .gallery-note-card {
+      min-height: 194px;
+      padding: 20px;
+      background: linear-gradient(160deg, var(--green-900) 0%, #0d2412 100%);
+      color: #fff;
+    }
+
+    .gallery-note-card span {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.48);
+    }
+
+    .gallery-note-card strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -.02em;
+      margin-bottom: 8px;
+    }
+
+    .gallery-note-card p,
+    .gallery-control-card p {
+      font-family: var(--font-ui);
+      font-size: .9rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    .gallery-note-card p {
+      color: rgba(255,255,255,.72);
+    }
+
+    .gallery-control-card {
+      padding: 18px;
+      background: linear-gradient(180deg, rgba(255,255,255,.92) 0%, rgba(241,247,243,.96) 100%);
+      border-color: rgba(13,97,48,.1);
+      color: var(--ink-950);
+    }
+
+    .gallery-control-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .gallery-control-label {
+      display: inline-block;
+      margin-bottom: 6px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--green-700);
+    }
+
+    .gallery-control-card strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 800;
+      line-height: 1.16;
+      letter-spacing: -.02em;
+    }
+
+    .gallery-control-card p {
+      color: var(--ink-500);
+    }
+
+    .gallery-nav {
+      display: flex;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .gallery-nav button {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      border: 1px solid rgba(13,97,48,.12);
+      background: #fff;
+      color: var(--green-700);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      box-shadow: var(--shadow-xs);
+      transition: transform .22s var(--ease-out), border-color .22s, box-shadow .22s, color .22s;
+    }
+
+    .gallery-nav button:hover {
+      transform: translateY(-2px);
+      border-color: var(--green-500);
+      box-shadow: var(--shadow-sm);
+      color: var(--green-800);
+    }
+
+    .gallery-nav button svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2.4;
+    }
+
+    .gallery-progress {
+      margin-top: 14px;
+    }
+
+    .gallery-progress-bar {
+      height: 7px;
+      border-radius: 999px;
+      background: rgba(13,97,48,.08);
+      overflow: hidden;
+    }
+
+    .gallery-progress-fill {
+      display: block;
+      height: 100%;
+      width: 10%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--green-500), var(--gold-400));
+      transition: width .28s var(--ease-out);
+    }
+
+    .gallery-rail-wrap {
+      position: relative;
+      padding: 14px;
+      border-radius: 24px;
+      background: rgba(255,255,255,.74);
+      border: 1px solid rgba(13,97,48,.08);
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(14px);
+      overflow: hidden;
+    }
+
+    .gallery-rail-wrap::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(255,255,255,.98) 0%, transparent 10%, transparent 90%, rgba(255,255,255,.98) 100%);
+      pointer-events: none;
+      opacity: .55;
+    }
+
+    .gallery-rail-head {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .gallery-rail-head span {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--green-700);
+    }
+
+    .gallery-rail-head p {
+      font-family: var(--font-ui);
+      font-size: .86rem;
+      font-weight: 300;
+      color: var(--ink-500);
+    }
+
+    .gallery-rail {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+      scroll-snap-type: x proximity;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(13,97,48,.28) transparent;
+    }
+
+    .gallery-rail::-webkit-scrollbar {
+      height: 10px;
+    }
+
+    .gallery-rail::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .gallery-rail::-webkit-scrollbar-thumb {
+      background: rgba(13,97,48,.22);
+      border-radius: 999px;
+    }
+
+    .gallery-thumb {
+      position: relative;
+      flex: 0 0 170px;
+      min-height: 124px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.14);
+      background: #102114;
+      color: #fff;
+      padding: 0;
+      text-align: left;
+      cursor: pointer;
+      scroll-snap-align: start;
+      box-shadow: 0 14px 28px rgba(6,16,10,.1);
+      transition: transform .24s var(--ease-out), border-color .24s, box-shadow .24s;
+      isolation: isolate;
+    }
+
+    .gallery-thumb::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(5,12,7,.04) 0%, rgba(5,12,7,.18) 40%, rgba(5,12,7,.84) 100%);
+      z-index: 0;
+    }
+
+    .gallery-thumb img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      transition: transform .35s var(--ease-out), filter .25s var(--ease-out);
+    }
+
+    .gallery-thumb:hover,
+    .gallery-thumb.active {
+      transform: translateY(-4px);
+      border-color: rgba(255,255,255,.28);
+      box-shadow: 0 18px 36px rgba(6,16,10,.16);
+    }
+
+    .gallery-thumb:hover img,
+    .gallery-thumb.active img {
+      transform: scale(1.05);
+      filter: saturate(1.06);
+    }
+
+    .gallery-thumb.active::after {
+      content: "";
+      position: absolute;
+      inset: auto 16px 0 16px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--green-300), var(--gold-200));
+      z-index: 1;
+      bottom: 12px;
+    }
+
+    .gallery-thumb-content {
+      position: absolute;
+      inset: auto 0 0 0;
+      z-index: 1;
+      padding: 12px 12px 14px;
+    }
+
+    .gallery-thumb-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.12);
+      font-family: var(--font-mono);
+      font-size: 8.5px;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.88);
+      margin-bottom: 6px;
+      backdrop-filter: blur(8px);
+    }
+
+    .gallery-thumb strong {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: .9rem;
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 3px;
+    }
+
+    .gallery-thumb small {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: .8rem;
+      font-weight: 300;
+      line-height: 1.45;
+      color: rgba(255,255,255,.78);
+    }
+
+    /* ══════════════════════════════════════════
+       WHY JOIN — DARK
+    ══════════════════════════════════════════ */
+    .dark-section {
+      background:
+        radial-gradient(ellipse 62% 52% at 97% 6%, rgba(13,97,48,.2) 0%, transparent 54%),
+        radial-gradient(ellipse 48% 44% at 1% 95%, rgba(201,144,24,.1) 0%, transparent 54%),
+        linear-gradient(168deg, #060f08 0%, #0b1a0e 100%);
+      color: #fff;
+    }
+    .dark-section .eyebrow { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.09); color: rgba(255,255,255,.72); }
+    .dark-section .eyebrow::before { background: rgba(255,255,255,.45); }
+    .dark-section .section-h { color: #fff; }
+    .dark-section .section-sub { color: rgba(255,255,255,.7); }
+
+    .why-grid { display: grid; grid-template-columns: 1fr 400px; gap: 22px; }
+
+    .benefit-list { display: grid; gap: 12px; }
+    .benefit-item {
+      display: grid; grid-template-columns: 54px 1fr;
+      gap: 14px; align-items: start;
+      padding: 16px; border-radius: var(--r-md);
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      transition: background .28s, transform .28s;
+    }
+    .benefit-item:hover { background: rgba(255,255,255,.08); transform: translateX(4px); }
+    .b-num {
+      width: 54px; height: 54px; border-radius: 15px;
+      display: grid; place-items: center;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.1);
+      font-family: var(--font-display); font-size: 1.25rem; font-weight: 800;
+      color: rgba(255,255,255,.72); flex-shrink: 0;
+    }
+    .benefit-item h3 { font-family: var(--font-ui); font-size: .97rem; font-weight: 600; color: #fff; margin-bottom: 5px; }
+    .benefit-item p { font-family: var(--font-ui); font-size: .9rem; font-weight: 300; line-height: 1.72; color: rgba(255,255,255,.72); }
+
+    .quote-panel {
+      padding: 28px; border-radius: var(--r-lg);
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.08);
+      display: flex; flex-direction: column; justify-content: center;
+      position: relative; overflow: hidden;
+    }
+    .quote-panel::before {
+      content: "\201C";
+      position: absolute; top: -14px; left: 18px;
+      font-family: var(--font-display);
+      font-size: 8rem; font-weight: 900;
+      color: rgba(255,255,255,.04); line-height: 1;
+      pointer-events: none;
+    }
+    .quote-accent {
+      width: 44px; height: 4px; border-radius: 99px;
+      background: linear-gradient(90deg, var(--red-500), var(--green-400));
+      margin-bottom: 14px;
+    }
+    .quote-panel blockquote {
+      font-family: var(--font-display);
+      font-size: clamp(1.05rem, 1.5vw, 1.28rem);
+      font-weight: 700; font-style: italic;
+      line-height: 1.66; color: #fff; position: relative; z-index: 1;
+    }
+    .quote-panel cite {
+      display: block; margin-top: 14px;
+      font-family: var(--font-mono); font-size: 9.5px;
+      letter-spacing: .11em; text-transform: uppercase;
+      color: rgba(255,255,255,.44); font-style: normal;
+    }
+    .ncp-info-box {
+      margin-top: 18px; padding: 15px;
+      border-radius: 14px; background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.09);
+    }
+    .ncp-info-box .label {
+      font-family: var(--font-mono); font-size: 9px;
+      letter-spacing: .13em; text-transform: uppercase;
+      color: rgba(255,255,255,.38); margin-bottom: 8px;
+    }
+    .ncp-info-box p { font-family: var(--font-ui); font-size: .88rem; font-weight: 300; line-height: 1.72; color: rgba(255,255,255,.76); }
+
+    /* ══════════════════════════════════════════
+       JOIN FORM
+    ══════════════════════════════════════════ */
+    .join-grid { display: grid; grid-template-columns: 400px 1fr; gap: 34px; align-items: start; }
+
+    .join-aside {
+      padding: 34px; border-radius: var(--r-xl);
+      background: linear-gradient(155deg, var(--green-900) 0%, var(--green-700) 100%);
+      color: #fff; position: sticky; top: 102px;
+      overflow: hidden;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .join-aside::before {
+      content: "";
+      position: absolute; width: 260px; height: 260px;
+      top: -90px; right: -70px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,.1) 0%, transparent 65%);
+    }
+    .join-aside .eyebrow { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.13); color: rgba(255,255,255,.8); }
+    .join-aside .eyebrow::before { background: #6dfcb4; }
+    .join-aside h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 2.8vw, 2.5rem); font-weight: 900;
+      line-height: 1.04; letter-spacing: -.03em;
+      color: #fff; margin-bottom: 12px;
+    }
+    .join-aside > p {
+      font-family: var(--font-ui); font-size: .93rem; font-weight: 300;
+      line-height: 1.72; color: rgba(255,255,255,.7); margin-bottom: 18px;
+    }
+
+    .perks { display: grid; gap: 9px; }
+    .perk {
+      display: grid; grid-template-columns: 40px 1fr;
+      gap: 10px; align-items: start;
+      padding: 12px; border-radius: 14px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.09);
+      transition: background .2s;
+    }
+    .perk:hover { background: rgba(255,255,255,.11); }
+    .perk-icon {
+      width: 40px; height: 40px; border-radius: 11px;
+      display: grid; place-items: center;
+      background: rgba(255,255,255,.11);
+    }
+    .perk-icon svg { width: 17px; height: 17px; stroke: rgba(255,255,255,.86); fill: none; stroke-width: 2; }
+    .perk strong { display: block; font-family: var(--font-ui); font-size: .89rem; font-weight: 600; color: #fff; margin-bottom: 1px; }
+    .perk span { display: block; font-family: var(--font-ui); font-size: .84rem; font-weight: 300; line-height: 1.6; color: rgba(255,255,255,.7); }
+
+    .gdpr-note {
+      margin-top: 16px; padding: 14px 15px;
+      border-radius: 12px; background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.11);
+      display: grid; grid-template-columns: 18px 1fr; gap: 11px;
+      font-family: var(--font-ui); font-size: .85rem; font-weight: 300;
+      color: rgba(255,255,255,.72); line-height: 1.68; align-items: start;
+    }
+    .gdpr-note svg { width: 18px; height: 18px; fill: rgba(255,255,255,.55); margin-top: 2px; }
+
+    .form-panel {
+      padding: 36px; border-radius: var(--r-xl);
+      background: var(--white); border: 1.5px solid var(--border);
+      box-shadow: var(--shadow-lg);
+    }
+    .form-panel-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .form-intro {
+      max-width: 460px;
+    }
+    .form-panel h3 {
+      font-family: var(--font-display); font-size: 1.75rem; font-weight: 900;
+      color: var(--ink-950); margin-bottom: 9px; letter-spacing: -.02em;
+    }
+    .form-panel > p,
+    .form-intro > p {
+      font-family: var(--font-ui);
+      font-size: .96rem;
+      font-weight: 300;
+      color: var(--ink-500);
+      line-height: 1.72;
+      margin-bottom: 0;
+    }
+
+    .registration-qr-card {
+      width: min(100%, 228px);
+      flex-shrink: 0;
+      padding: 14px;
+      border-radius: 20px;
+      background: linear-gradient(180deg, #f6fbf8 0%, #e6f2eb 100%);
+      border: 1px solid rgba(13,97,48,.12);
+      box-shadow: var(--shadow-sm);
+    }
+    .registration-qr-card .qr-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 11px;
+      border-radius: 999px;
+      background: rgba(13,97,48,.08);
+      color: var(--green-700);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .registration-qr-frame {
+      display: grid;
+      place-items: center;
+      /*padding: 10px;*/
+      border-radius: 16px;
+      background: #fff;
+      border: 1px solid rgba(13,97,48,.08);
+      /*margin-bottom: 10px;*/
+      aspect-ratio: 1 / 1;
+    }
+    .registration-qr-card img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 10px;
+      margin: 0 auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    }
+    .registration-qr-card strong {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--ink-950);
+      margin-bottom: 4px;
+    }
+    .registration-qr-card p {
+      font-family: var(--font-ui);
+      font-size: .85rem;
+      font-weight: 300;
+      color: var(--ink-500);
+      line-height: 1.62;
+    }
+    .scan-tips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .scan-tips span {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #fff;
+      border: 1px solid rgba(13,97,48,.08);
+      font-family: var(--font-ui);
+      font-size: .78rem;
+      font-weight: 500;
+      color: var(--green-700);
+    }
+
+    .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .field { display: grid; gap: 6px; margin-bottom: 14px; }
+    .field.full { grid-column: 1/-1; }
+    .field label {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+      letter-spacing: .13em; text-transform: uppercase; color: var(--green-700);
+    }
+    .field input, .field select, .field textarea {
+      width: 100%; border: 1.5px solid rgba(204,224,212,.9);
+      border-radius: 13px; background: var(--surface);
+      padding: 11px 14px; color: var(--ink-950);
+      font-family: var(--font-ui); font-size: .93rem; font-weight: 300;
+      outline: none;
+      transition: border-color .22s, box-shadow .22s, background .22s;
+    }
+    .field input::placeholder, .field textarea::placeholder { color: var(--ink-300); }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      border-color: var(--green-500);
+      box-shadow: 0 0 0 4px rgba(13,97,48,.1);
+      background: var(--white);
+    }
+
+    .consent {
+      display: grid; grid-template-columns: 18px 1fr; gap: 11px;
+      margin: 2px 0 18px; padding: 13px 14px;
+      border-radius: 13px; background: var(--green-50);
+      border: 1px solid rgba(13,97,48,.1); align-items: start;
+    }
+    .consent input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--green-600); cursor: pointer; }
+    .consent label { font-family: var(--font-ui); font-size: .91rem; font-weight: 300; color: var(--ink-700); line-height: 1.66; cursor: pointer; }
+
+    .submit-btn {
+      width: 100%; border: 0; border-radius: 14px;
+      padding: 16px 24px;
+      background: linear-gradient(135deg, var(--green-700), var(--green-900));
+      color: #fff; font-family: var(--font-ui);
+      font-size: 15px; font-weight: 600;
+      cursor: pointer; letter-spacing: .01em;
+      transition: transform .25s var(--ease-out), box-shadow .25s;
+      box-shadow: 0 10px 30px rgba(13,97,48,.24);
+      position: relative; overflow: hidden;
+    }
+    .submit-btn::before {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,.1), transparent);
+    }
+    .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(13,97,48,.32); }
+    .submit-btn:disabled { opacity: .7; cursor: not-allowed; transform: none; }
+    .submit-btn .btn-spinner {
+      display: none; width: 16px; height: 16px;
+      border: 2px solid rgba(255,255,255,.3);
+      border-top-color: #fff; border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    .submit-btn.loading .btn-text { display: none; }
+    .submit-btn.loading .btn-spinner { display: inline-block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .status-msg {
+      display: none; margin-top: 14px;
+      padding: 14px 17px; border-radius: 12px;
+      font-family: var(--font-ui); font-size: .91rem; font-weight: 300; line-height: 1.78;
+    }
+    .status-msg.success { display: block; background: #eaf6f1; border: 1px solid #b2d9c6; color: #0a5432; }
+    .status-msg.error   { display: block; background: #fff0f2; border: 1px solid #f0bcc3; color: #8f1020; }
+
+    /* ══════════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════════ */
+    .site-footer {
+      background: linear-gradient(168deg, var(--green-900) 0%, #0b1e0f 100%);
+      color: rgba(255,255,255,.72);
+      padding: 62px 0 24px;
+      overflow: hidden; position: relative;
+    }
+    .site-footer::before {
+      content: "";
+      position: absolute; top: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.07), transparent);
+    }
+    .site-footer::after {
+      content: "";
+      position: absolute; width: 420px; height: 420px;
+      top: -170px; right: -100px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(13,97,48,.13) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .footer-grid {
+      display: grid; grid-template-columns: 1.4fr .75fr .75fr;
+      gap: 24px; padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      position: relative; z-index: 1;
+    }
+    .footer-brand h3 { font-family: var(--font-display); font-size: 1.08rem; font-weight: 800; color: #fff; margin-bottom: 4px; }
+    .footer-brand h3 span { font-weight: 400; color: rgba(255,255,255,.4); }
+    .footer-brand p { font-family: var(--font-ui); font-size: .88rem; font-weight: 300; line-height: 1.72; color: rgba(255,255,255,.65); margin: 10px 0 16px; max-width: 340px; }
+    .socials { display: flex; flex-wrap: wrap; gap: 8px; }
+    .socials a {
+      padding: 7px 14px; height: 36px;
+      display: inline-flex; align-items: center;
+      border-radius: 10px; background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.09);
+      color: rgba(255,255,255,.68); font-family: var(--font-ui);
+      font-size: 12px; font-weight: 500;
+      transition: background .2s, transform .2s;
+    }
+    .socials a:hover { background: rgba(255,255,255,.1); transform: translateY(-1px); color: #fff; }
+    .footer-col h4 { font-family: var(--font-mono); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; color: rgba(255,255,255,.74); margin-bottom: 12px; }
+    .footer-col ul { list-style: none; display: grid; gap: 8px; }
+    .footer-col a { font-family: var(--font-ui); font-size: .88rem; font-weight: 300; color: rgba(255,255,255,.65); line-height: 1.7; transition: color .2s; }
+    .footer-col a:hover { color: #fff; }
+    .footer-bottom {
+      padding-top: 18px; display: flex; justify-content: space-between; gap: 14px;
+      flex-wrap: wrap; font-family: var(--font-mono); font-size: 10.5px;
+      color: rgba(255,255,255,.44); position: relative; z-index: 1;
+    }
+
+    /* ══════════════════════════════════════════
+       ANIMATIONS & REVEALS
+    ══════════════════════════════════════════ */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(26px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .reveal {
+      opacity: 0; transform: translateY(26px);
+      transition: opacity .7s var(--ease-out), transform .7s var(--ease-out);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .stagger-children > * {
+      opacity: 0; transform: translateY(20px);
+      transition: opacity .55s var(--ease-out), transform .55s var(--ease-out);
+    }
+    .stagger-children.visible > *:nth-child(1) { opacity: 1; transform: none; transition-delay: 0s; }
+    .stagger-children.visible > *:nth-child(2) { opacity: 1; transform: none; transition-delay: .1s; }
+    .stagger-children.visible > *:nth-child(3) { opacity: 1; transform: none; transition-delay: .2s; }
+    .stagger-children.visible > *:nth-child(4) { opacity: 1; transform: none; transition-delay: .3s; }
+    .stagger-children.visible > *:nth-child(5) { opacity: 1; transform: none; transition-delay: .4s; }
+    .stagger-children.visible > *:nth-child(6) { opacity: 1; transform: none; transition-delay: .5s; }
+    .stagger-children.visible > *:nth-child(7) { opacity: 1; transform: none; transition-delay: .6s; }
+    .stagger-children.visible > *:nth-child(8) { opacity: 1; transform: none; transition-delay: .7s; }
+    .stagger-children.visible > *:nth-child(9) { opacity: 1; transform: none; transition-delay: .8s; }
+    .stagger-children.visible > *:nth-child(10) { opacity: 1; transform: none; transition-delay: .9s; }
+    .stagger-children.visible > *:nth-child(11) { opacity: 1; transform: none; transition-delay: 1s; }
+    .stagger-children.visible > *:nth-child(12) { opacity: 1; transform: none; transition-delay: 1.1s; }
+
+    /* ══════════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════════ */
+    @media (max-width: 1100px) {
+      .hero-grid  { grid-template-columns: 1fr; }
+      .hero-panel { max-width: 560px; }
+      .about-grid { grid-template-columns: 1fr; }
+      .join-grid  { grid-template-columns: 1fr; }
+      .join-aside { position: static; }
+      .gallery-stage { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 960px) {
+      .nav-links, .nav-ctas .btn-ghost { display: none; }
+      .mobile-btn { display: inline-flex; }
+      .why-grid   { grid-template-columns: 1fr; }
+      .pillars-grid, .updates-grid, .blog-grid { grid-template-columns: 1fr 1fr; }
+      .uprising-inner { grid-template-columns: 1fr; }
+      .uprising-nums  { grid-template-columns: repeat(4,1fr); min-width: 0; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .gallery-stage-media { min-height: 340px; }
+      .gallery-thumb { flex-basis: 156px; min-height: 118px; }
+      .form-panel-head { flex-direction: column; }
+    }
+    @media (max-width: 680px) {
+      :root { --nav-h: 62px; }
+      .hero-h1 { font-size: clamp(2.8rem, 11vw, 4rem); }
+      .hero-stats, .field-grid, .pillars-grid, .updates-grid, .blog-grid { grid-template-columns: 1fr; }
+      .uprising-nums { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .section { padding: 64px 0; }
+      .form-panel, .join-aside { padding: 24px; border-radius: var(--r-lg); }
+      .hero-panel { padding: 30px 24px; }
+      #back-top { bottom: 18px; right: 18px; }
+      .gallery-shell { gap: 12px; }
+      .gallery-stage,
+      .gallery-stage-aside { gap: 12px; }
+      .gallery-stage-media,
+      .gallery-note-card,
+      .gallery-control-card,
+      .gallery-rail-wrap { border-radius: 20px; }
+      .gallery-stage-media { min-height: 270px; }
+      .gallery-stage-copy { padding: 18px; }
+      .gallery-stage-copy h3 { font-size: clamp(1.7rem, 8vw, 2.2rem); }
+      .gallery-thumb { flex-basis: 136px; min-height: 104px; border-radius: 16px; }
+      .gallery-thumb-content { padding: 10px 10px 12px; }
+      .registration-qr-card { width: min(100%, 250px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
+      .reveal, .stagger-children > * { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="progress-bar" role="progressbar" aria-label="Page scroll progress"></div>
+
+  <button id="back-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <div class="nav-wrap" id="navWrap">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="NCP Diaspora Alliance Germany homepage">
+        <div class="brand-icon" aria-hidden="true">
+          <img src="img/logo/logo-transparent.png" alt="NCP Logo" width="32" height="32">
+        
+        </div>
+        <div class="brand-text">
+          <strong>NCP Diaspora Alliance</strong>
+          <span>Germany · জার্মানি</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">আমাদের জানুন</a></li>
+        <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
+        <li><a href="#updates">সর্বশেষ</a></li>
+        <li><a href="#blog">ব্লগ</a></li>
+        <li><a href="#gallery">গ্যালারি</a></li>
+        <li><a href="#why-join">কেন যুক্ত হবেন</a></li>
+        <li><a href="#join">সদস্যপদ</a></li>
+      </ul>
+
+      <div class="nav-ctas">
+        <a href="#about" class="btn-pill btn-ghost">আমাদের জানুন</a>
+        <a href="#join" class="btn-pill btn-primary">সদস্য হোন</a>
+        <button class="mobile-btn" id="mobileBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="#about">আমাদের জানুন</a>
+    <a href="#pillars">লক্ষ্য ও আদর্শ</a>
+    <a href="#updates">সর্বশেষ আপডেট</a>
+    <a href="#blog">ব্লগ</a>
+    <a href="#gallery">গ্যালারি</a>
+    <a href="#why-join">কেন যুক্ত হবেন</a>
+    <a href="#join">সদস্যপদ</a>
+  </div>
+
+  <header class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-deco" aria-hidden="true"></div>
+    <div class="hero-grid">
+
+      <div class="hero-copy">
+        <div class="kicker">
+          <span class="kicker-dot"></span>
+          জুলাই ২০২৪ গণঅভ্যুত্থানের চেতনায়
+        </div>
+        <h1 class="hero-h1">
+          জুলাইয়ের রক্তে<br>
+          <span class="accent">নতুন বাংলাদেশ</span>
+          গড়ার প্রতিশ্রুতি
+        </h1>
+        <p class="hero-sub">
+          বিশ্বের প্রথম সফল জেন-জি বিপ্লবের পর নতুন বাংলাদেশ গড়ার অঙ্গীকারে অনুপ্রাণিত হয়ে জার্মানির বাংলাদেশি প্রবাসীরা আজ ঐক্যবদ্ধ—সংস্কার, গণতন্ত্র ও প্রবাসী অধিকারের সংগ্রামকে আরও শক্তিশালী, সুসংগঠিত ও ফলপ্রসূ করে তুলতে।
+        </p>
+        <div class="hero-actions">
+          <a href="#join" class="btn-cta solid">
+            <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            এখনই সদস্য হোন
+          </a>
+          <a href="#about" class="btn-cta outline">আমাদের জানুন →</a>
+        </div>
+        <div class="hero-stats stagger-children visible">
+          <div class="stat-card">
+            <strong>২০২৪</strong>
+            <span>মুক্তিযুদ্ধের পর দ্বিতীয় সফল গণঅভ্যুত্থান — ৫ আগস্ট ২০২৪</span>
+          </div>
+          <div class="stat-card">
+            <strong>NCP</strong>
+            <span>বাংলাদেশের প্রথম ছাত্রনেতৃত্বাধীন রাজনৈতিক দল (২৮ ফেব্রু ২০২৫)</span>
+          </div>
+          <div class="stat-card">
+            <strong>~১.৫ কোটি</strong>
+            <span>প্রবাসী বাংলাদেশি — যারা প্রথমবারের মতো জাতীয় নির্বাচনে ভোট প্রদান করে ইতিহাস সৃষ্টি করেছেন</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="panel-live">
+          <span class="live-dot"></span>
+          NCP Diaspora Alliance · Germany
+        </div>
+        <div class="panel-center">
+          <div class="panel-logo" aria-label="NCP Diaspora Alliance Germany">
+            <img src="img/logo/logo-transparent.png" alt="NCP Diaspora Alliance Germany Logo" onerror="this.style.display='none';this.parentElement.textContent='NCP'" />
+          </div>
+          <div class="panel-name">NCP Diaspora Alliance<br>Germany</div>
+          <p class="panel-sub">মেধা ও দেশপ্রেমের ঐক্যবদ্ধ শক্তিতে গড়বো আগামীর বাংলাদেশ</p>
+        </div>
+        <div class="panel-sep"></div>
+        <p class="panel-quote">"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।"</p>
+        <div class="panel-cite">NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</div>
+        <div class="panel-chips">
+          <span class="chip">সংস্কার</span>
+          <span class="chip">গণতন্ত্র</span>
+          <span class="chip">প্রবাসী অধিকার</span>
+          <span class="chip">দ্বিতীয় প্রজাতন্ত্র</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="ticker-band" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+
+  <div class="uprising-strip">
+    <div class="container">
+      <div class="uprising-inner reveal">
+        <div>
+          <div class="uprising-eyebrow">কেন আমরা এখানে আছি</div>
+          <h2 class="uprising-title">জুলাই গণঅভ্যুত্থান ২০২৪:<br>বিশ্বের প্রথম সফল জেন-জি বিপ্লব</h2>
+          <p class="uprising-desc">
+            ছাত্র-জনতার রক্ত ও ত্যাগের মধ্য দিয়ে ১৫ বছরের স্বৈরশাসনের অবসান ঘটে। জাতিসংঘের তদন্তে নিশ্চিত হয়েছে, প্রায় ১,৪০০ মানুষ শহীদ হয়েছেন। সেই শহীদদের স্বপ্নকে বাঁচিয়ে রাখাই আমাদের দায়িত্ব।
+          </p>
+        </div>
+        <div class="uprising-nums stagger-children reveal">
+          <div class="uprising-num">
+            <strong>~১৪০০</strong>
+            <span>জাতিসংঘ নিশ্চিত শহীদের সংখ্যা (জুলাই–আগস্ট ২০২৪)</span>
+          </div>
+          <div class="uprising-num">
+            <strong>২০,০০০+</strong>
+            <span>আহত আন্দোলনকারী</span>
+          </div>
+          <div class="uprising-num">
+            <strong>৫ আগস্ট</strong>
+            <span>হাসিনার পদত্যাগ ও পলায়ন, ২০২৪</span>
+          </div>
+          <div class="uprising-num">
+            <strong>২৮ ফেব্রু</strong>
+            <span>NCP প্রতিষ্ঠা দিবস, ২০২৫</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">আমাদের ইতিহাস</div>
+        <h2 class="section-h">কীভাবে গঠিত হলাম আমরা?</h2>
+        <p class="section-sub">জুলাই গণঅভ্যুত্থানের চেতনা ধারণ করে ছাত্র-জনতার জাগরণ থেকে উঠে আসা প্রবাসী ঐক্যের সুসংগঠিত ও অগ্রসরমান শক্তি — এনসিপি ডায়াসপোরা অ্যালায়েন্স জার্মানি।</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="timeline reveal" style="position:relative;">
+          <div class="tl-track"></div>
+
+          <article class="tl-item">
+            <span class="tl-dot"></span>
+            <div class="tl-date"><strong>২০২৪</strong><em>জুলাই–আগস্ট</em></div>
+            <div class="tl-card">
+              <div class="tl-tag">Students Against Discrimination</div>
+              <h3>জুলাই গণঅভ্যুত্থান</h3>
+              <p>কোটা সংস্কার আন্দোলন থেকে শুরু হয়ে ছাত্র-জনতার অভূতপূর্ব সংগ্রাম একটি পূর্ণ গণঅভ্যুত্থানে রূপ নেয়। ৫ আগস্ট শেখ হাসিনা পদত্যাগ করে ভারতে পালিয়ে যান।</p>
+            </div>
+          </article>
+
+          <article class="tl-item">
+            <span class="tl-dot"></span>
+            <div class="tl-date"><strong>২০২৫</strong><em>ফেব্রুয়ারি</em></div>
+            <div class="tl-card">
+              <div class="tl-tag">জাতীয় নাগরিক পার্টি</div>
+              <h3>NCP প্রতিষ্ঠা (২৮ ফেব্রুয়ারি)</h3>
+              <p>নাহিদ ইসলামের নেতৃত্বে বাংলাদেশের ইতিহাসে প্রথম ছাত্রনেতৃত্বাধীন রাজনৈতিক দল গঠিত হয়। দলটি "দ্বিতীয় প্রজাতন্ত্র" ও নতুন সংবিধানের দাবি নিয়ে কাজ করছে।</p>
+            </div>
+          </article>
+
+          <article class="tl-item">
+          <span class="tl-dot"></span>
+          <div class="tl-date"><strong>২০২৫</strong><em>এপ্রিল</em></div>
+          <div class="tl-card">
+            <div class="tl-tag">প্রবাসী ঐক্যের জাগরণ</div>
+            <h3>প্রবাসীদের সুসংগঠিত করার উদ্যোগ</h3>
+            <p>জুলাই গণঅভ্যুত্থানে প্রবাসী বাংলাদেশিদের ঐতিহাসিক ও অসামান্য অবদানকে ভিত্তি করে ২০২৫ সালের এপ্রিল মাসে তাদের সুসংগঠিত করার উদ্যোগ নেওয়া হয়। এই উদ্যোগের লক্ষ্য ছিল নতুন বাংলাদেশ বিনির্মাণের সংগ্রামে প্রবাসী কণ্ঠ, প্রবাসী শক্তি ও প্রবাসী অধিকারকে একটি সুদৃঢ় রাজনৈতিক ও নৈতিক অবস্থানে একত্রিত করা।</p>
+          </div>
+          </article>
+
+          <article class="tl-item">
+            <span class="tl-dot"></span>
+            <div class="tl-date"><strong>২০২৫</strong><em>জুন–বর্তমান</em></div>
+            <div class="tl-card">
+              <div class="tl-tag">NCP Diaspora Alliance Germany</div>
+              <h3>সংগঠিত প্রবাসী প্ল্যাটফর্ম</h3>
+              <p>জার্মানিতে বসবাসরত বাংলাদেশি প্রবাসীদের জন্য একটি সুসংগঠিত, দায়বদ্ধ ও নীতিনিষ্ঠ প্ল্যাটফর্ম হিসেবে NCP Diaspora Alliance Germany সক্রিয়ভাবে কার্যক্রম পরিচালনা করছে।</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="about-side reveal">
+          <div class="feature-card accent">
+            <div class="fc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>আমাদের মূল অঙ্গীকার</h3>
+            <p>জাতীয় ও আন্তর্জাতিক নীতিনির্ধারণে সক্রিয় ভূমিকা, সামাজিক ইস্যুতে নেতৃত্ব, নাগরিক অধিকার এবং বিশেষ করে প্রবাসী অধিকার প্রতিষ্ঠার লক্ষ্যে বাংলাদেশি প্রবাসীদের ঐক্যবদ্ধ, সুসংগঠিত ও কার্যকর শক্তিতে রূপ দিতে একটি দায়িত্বশীল ও প্রভাবশালী প্ল্যাটফর্ম হিসেবে গড়ে ওঠা।</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="fc-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>প্রবাসীদের কণ্ঠস্বর</h3>
+            <p>আমাদের দেশের মোট ভোটার তালিকার প্রায় ১০–১২ শতাংশই প্রবাসী বাংলাদেশি। তাদের আশা-আকাঙ্ক্ষা, দাবি, অধিকার ও প্রাপ্যতাকে ঐক্যবদ্ধ ও সুসংগঠিত রূপ দিয়ে আমরা সকল প্রবাসী বাংলাদেশির শক্তিশালী ও প্রতিনিধিত্বশীল কণ্ঠস্বর হয়ে উঠতে চাই।</p>
+          </div>
+
+          <div class="contact-row">
+            <div>
+              <small>যোগাযোগ</small>
+              <a class="email-link" href="mailto:ncpdiasporade@gmail.com">ncpdiasporade@gmail.com</a>
+            </div>
+            <a href="#join" class="btn-pill btn-ghost" style="font-size:12px;padding:8px 15px;">যোগ দিন</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="pillars">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">আমাদের লড়াই</div>
+        <h2 class="section-h">আমরা কীসের জন্য দাঁড়িয়ে?</h2>
+        <p class="section-sub">NCP-এর কেন্দ্রীয় আদর্শ — বৈষম্যহীনতা, গণতন্ত্র ও জবাবদিহি — কে ধারণ করে আমরা তিনটি স্তম্ভের উপর আমাদের কার্যক্রম পরিচালনা করি।</p>
+      </div>
+
+      <div class="pillars-grid stagger-children reveal">
+        <article class="pillar">
+          <div class="pillar-num">০১</div>
+          <div class="pillar-badge">সংস্কার</div>
+          <h3>রাষ্ট্র সংস্কার ও দ্বিতীয় প্রজাতন্ত্র</h3>
+          <p>আমরা “দ্বিতীয় প্রজাতন্ত্র” ও নতুন সংবিধানের দাবিতে অটল। সেই দাবিকে প্রবাসী কণ্ঠে আরও জোরালো করে দুর্নীতিমুক্ত, অন্তর্ভুক্তিমূলক ও জবাবদিহিমূলক বাংলাদেশ গড়ার পক্ষে আমাদের অবস্থান সুস্পষ্ট, দৃঢ় ও নীতিগত।</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar-num">০২</div>
+          <div class="pillar-badge">অধিকার</div>
+          <h3>প্রবাসী ভোটাধিকার ও নাগরিক সেবা</h3>
+          <p>প্রায় ১.৫ কোটি প্রবাসী বাংলাদেশির ভোটার নিবন্ধন ও ভোটাধিকার নিশ্চিতকরণ, নাগরিক সেবা সহজীকরণ এবং নীতিনির্ধারণী আলোচনায় প্রবাসীদের যথাযথ প্রতিনিধিত্ব প্রতিষ্ঠার দাবিতে আমরা কেবল সমর্থন জানাই না—বরং সামনের সারি থেকে নেতৃত্ব দিয়ে এই দাবি বাস্তবায়নের লড়াইকে এগিয়ে নিচ্ছি।</p>
+        </article>
+        <article class="pillar">
+          <div class="pillar-num">০৩</div>
+          <div class="pillar-badge">ঐক্য</div>
+          <h3>বৈষম্যহীনতা ও সাংস্কৃতিক সংহতি</h3>
+          <p>আমাদের মূল স্লোগান “বৈষম্যমুক্ত বাংলাদেশ”। ধর্ম, বর্ণ, লিঙ্গ নির্বিশেষে সকল নাগরিকের সমান মর্যাদার এই আদর্শকে আমরা জার্মানির প্রবাসী বাংলাদেশি কমিউনিটির মধ্যেও লালন করি, ধারণ করি এবং সক্রিয়ভাবে প্রচার করি।</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="updates">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">সর্বশেষ আপডেট</div>
+        <h2 class="section-h">সাম্প্রতিক কার্যক্রম ও প্রেক্ষাপট</h2>
+        <p class="section-sub">NCP ও NCP Diaspora Alliance-এর সাম্প্রতিক কার্যক্রম সম্পর্কে জানুন।</p>
+      </div>
+
+      <div class="updates-grid stagger-children reveal">
+        <article class="update-card">
+          <div class="update-meta">
+            <span class="update-dot"></span>
+            <span class="update-date">আগস্ট ২০২৫</span>
+            <span class="update-badge">প্রবাসী ভোট</span>
+          </div>
+          <h3>প্যারিসে ডায়াস্পোরা অ্যালায়েন্সের সংবাদ সম্মেলন</h3>
+          <p>NCP Diaspora Alliance প্যারিসে সংবাদ সম্মেলন করে প্রবাসী ভোটার নিবন্ধন প্রক্রিয়া ১৬ সেপ্টেম্বরের মধ্যে শুরুর দাবি জানায়। জার্মানি চ্যাপ্টারের কনভেনর সাখাওয়াত হোসেন তুরাগও সেখানে বক্তব্য দেন।</p>
+        </article>
+        <article class="update-card">
+          <div class="update-meta">
+            <span class="update-dot"></span>
+            <span class="update-date">ফেব্রুয়ারি ২০২৬</span>
+            <span class="update-badge">নির্বাচন</span>
+          </div>
+          <h3>বাংলাদেশে ১৩তম জাতীয় সংসদ নির্বাচন সম্পন্ন</h3>
+          <p>১২ ফেব্রুয়ারি ২০২৬-এ নির্বাচনে BNP সরকার গঠন করেছে। NCP ৩০টি আসনে প্রতিদ্বন্দ্বিতা করেছে। এই নির্বাচন বাংলাদেশের রাজনৈতিক সংস্কারের পথে একটি গুরুত্বপূর্ণ ধাপ।</p>
+        </article>
+        <article class="update-card">
+          <div class="update-meta">
+            <span class="update-dot"></span>
+            <span class="update-date">চলমান ২০২৬</span>
+            <span class="update-badge">সংগঠন</span>
+          </div>
+          <h3>জার্মানি চ্যাপ্টার সক্রিয়ভাবে বিস্তৃত হচ্ছে</h3>
+          <p>NCP Diaspora Alliance জার্মানির বিভিন্ন শহরে সদস্য বৃদ্ধি ও কমিউনিটি গড়ে তোলার কাজ অব্যাহত রেখেছে। প্রবাসী শ্রমিক, পেশাজীবী ও ছাত্রদের নিয়ে একটি অন্তর্ভুক্তিমূলক প্ল্যাটফর্ম তৈরি হচ্ছে।</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="blog">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">ব্লগ ও মতামত</div>
+        <h2 class="section-h">সদস্যদের লেখা, ভাবনা ও বিশ্লেষণ</h2>
+        <p class="section-sub">
+          NCP Diaspora Alliance Germany-এর সদস্যরা রাজনীতি, প্রবাসী অধিকার, জুলাই অভ্যুত্থান, সংগঠন এবং সামাজিক প্রশ্ন নিয়ে তাঁদের লেখা প্রকাশ করতে পারবেন।
+        </p>
+      </div>
+
+      <div class="blog-grid stagger-children reveal" id="blogGrid"></div>
+
+      <div class="blog-cta-row reveal">
+        <p>
+          আপনি কি একটি লেখা প্রকাশ করতে চান? আপনার মতামত, বিশ্লেষণ, অভিজ্ঞতা বা প্রবাসী জীবনের গুরুত্বপূর্ণ প্রশ্ন নিয়ে লিখুন। সম্পাদকীয় পর্যালোচনার পর নির্বাচিত লেখা প্রকাশ করা হবে।
+        </p>
+        <a
+          href="mailto:ncpdiasporade@gmail.com?subject=Article Submission — NCP Diaspora Alliance Germany"
+          class="btn-pill btn-primary"
+        >
+          লেখা পাঠান
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">গ্যালারি</div>
+        <h2 class="section-h">আমাদের কার্যক্রম, মুহূর্ত ও স্মৃতি</h2>
+        <p class="section-sub">
+          এই গ্যালারিটি এখন একটি কমপ্যাক্ট ভিজ্যুয়াল আর্কাইভ। যত ছবি যোগ হবে, পেজ তত লম্বা হবে না; নিচের রেল ধরে ছবি বদলাবে, আর উপরে একবারে একটি গল্প সামনে আসবে।
+        </p>
+      </div>
+
+      <div class="gallery-shell">
+        <div class="gallery-stage reveal">
+          <article class="gallery-stage-media">
+            <span class="gallery-stage-tag" id="galleryStageTag">Germany Chapter</span>
+            <img id="galleryStageImage" src="img/july/1.jpg" alt="জার্মানি চ্যাপ্টারের সদস্যদের আনুষ্ঠানিক উপস্থাপনা" loading="lazy" />
+            <div class="gallery-stage-copy">
+              <div class="gallery-stage-meta">
+                <span class="gallery-stage-location" id="galleryStageLocation">Germany Chapter</span>
+                <span class="gallery-stage-counter" id="galleryStageCounter">01 / 12</span>
+              </div>
+              <h3 id="galleryStageTitle">সংগঠিত উপস্থিতি, দায়বদ্ধ নেতৃত্ব, দৃশ্যমান কমিউনিটি</h3>
+              <p id="galleryStageCaption">অফিসভিত্তিক বৈঠক, কমিউনিটি সংলাপ, মাঠের প্রচারণা এবং জুলাইয়ের স্মৃতিকে একসঙ্গে ধরে রাখার জন্য এই গ্যালারিটি এখন একটি শক্তিশালী ভিজ্যুয়াল স্টোরি হিসেবে সাজানো হয়েছে।</p>
+            </div>
+          </article>
+
+          <div class="gallery-stage-aside">
+          <article class="gallery-note-card">
+            <span>Visual Archive</span>
+            <strong>জুলাইয়ের স্মৃতি থেকে জার্মানির সাংগঠনিক যাত্রা</strong>
+            <p>এখানে প্রতিটি ছবি আলাদা কার্ড হয়ে পেজ লম্বা করছে না। বরং একটি ফিচারড স্টেজে গল্প বদলাবে, আর নিচের থাম্বনেইল রেলে যত খুশি ছবি যুক্ত করা যাবে।</p>
+          </article>
+
+          <article class="gallery-control-card">
+            <div class="gallery-control-top">
+              <div>
+                <span class="gallery-control-label">Archive Rail</span>
+                <strong>আরও ছবি যোগ করলেও লেআউট থাকবে হালকা</strong>
+              </div>
+              <div class="gallery-nav" aria-label="গ্যালারি নেভিগেশন">
+                <button type="button" id="galleryPrev" aria-label="আগের ছবি">
+                  <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <button type="button" id="galleryNext" aria-label="পরের ছবি">
+                  <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+            <p>নিচের স্ক্রলেবল রেলে ছবি জমা হবে, আর উপরের স্টেজে নির্বাচিত ছবিটি বড় করে দেখাবে। এতে গ্যালারি থাকবে সমৃদ্ধ, কিন্তু পেজের উচ্চতা নিয়ন্ত্রণে থাকবে।</p>
+            <div class="gallery-progress" aria-hidden="true">
+              <div class="gallery-progress-bar">
+                <span class="gallery-progress-fill" id="galleryProgressFill"></span>
+              </div>
+            </div>
+          </article>
+          </div>
+        </div>
+
+        <div class="gallery-rail-wrap reveal">
+          <div class="gallery-rail-head">
+            <span>Visual Archive</span>
+            <p>থাম্বনেইলে ক্লিক করুন, অথবা পাশে থাকা তীরচিহ্ন ব্যবহার করুন</p>
+          </div>
+          <div class="gallery-rail" id="galleryTrack" aria-label="গ্যালারি থাম্বনেইল"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-section" id="why-join">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">কেন যুক্ত হবেন</div>
+        <h2 class="section-h">ইতিহাস গড়ার সুযোগ আজই</h2>
+        <p class="section-sub">প্রবাসে থেকেও দেশের রাজনীতি, সংস্কার ও অধিকার প্রশ্নে ভূমিকা রাখার সুযোগ এখন আরও সংগঠিত ও অর্থবহ।</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="benefit-list stagger-children reveal">
+          <article class="benefit-item">
+            <div class="b-num">১</div>
+            <div>
+              <h3>আপনার কণ্ঠস্বর গুরুত্বপূর্ণ</h3>
+              <p>প্রায় ১.৫ কোটি প্রবাসী বাংলাদেশির মধ্যে একজন হিসেবে আপনার মতামত, অংশগ্রহণ এবং অবস্থানকে সংগঠিতভাবে তুলে ধরার সুযোগ। NCP Diaspora Alliance এই কণ্ঠকে বৈশ্বিক মঞ্চে পৌঁছে দেয়।</p>
+            </div>
+          </article>
+          <article class="benefit-item">
+            <div class="b-num">২</div>
+            <div>
+              <h3>প্রবাসী ভোটাধিকারের লড়াই</h3>
+              <p>প্রবাসীদের ভোটার নিবন্ধন ও পোস্টাল ব্যালটের দাবিকে সামনে আনার এই ঐতিহাসিক মুহূর্তে সক্রিয় ভূমিকা পালন করুন। এটি শুধু একটি ভোটের অধিকার নয়, এটি প্রবাসী নাগরিকত্বের স্বীকৃতির দাবি।</p>
+            </div>
+          </article>
+          <article class="benefit-item">
+            <div class="b-num">৩</div>
+            <div>
+              <h3>বৈশ্বিক নেটওয়ার্কের অংশ হোন</h3>
+              <p>NCP Diaspora Alliance ইউরোপ, আমেরিকা, মধ্যপ্রাচ্যসহ বিশ্বের ৫০টিরও বেশি দেশে সক্রিয়। জার্মানি চ্যাপ্টারের মাধ্যমে এই বৈশ্বিক নেটওয়ার্কের সাথে সংযুক্ত হোন।</p>
+            </div>
+          </article>
+          <article class="benefit-item">
+            <div class="b-num">৪</div>
+            <div>
+              <h3>জুলাইয়ের শহীদদের স্বপ্ন বাঁচান</h3>
+              <p>জাতিসংঘ নিশ্চিত প্রায় ১,৪০০ শহীদের ত্যাগ যেন বৃথা না যায় — সেই দায়িত্ব আমাদের সকলের। NCP-এর "বৈষম্যমুক্ত বাংলাদেশ" গড়ার স্বপ্নকে বাস্তবে রূপ দেওয়ার এই যাত্রায় শামিল হোন।</p>
+            </div>
+          </article>
+        </div>
+
+        <aside class="quote-panel reveal">
+          <div class="quote-accent"></div>
+          <blockquote>
+            "আমরা প্রবাসে আছি, কিন্তু দেশের প্রশ্নে নিরপেক্ষ নই। জুলাইয়ের ত্যাগ, তরুণদের স্বপ্ন এবং নতুন বাংলাদেশের প্রতিশ্রুতিকে বাঁচিয়ে রাখাই আমাদের পথচলার কেন্দ্রবিন্দু।"
+          </blockquote>
+          <cite>NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</cite>
+          <div class="ncp-info-box">
+            <div class="label">NCP সম্পর্কে জানুন</div>
+            <p>নাহিদ ইসলামের নেতৃত্বে গঠিত NCP বাংলাদেশের ইতিহাসে প্রথম ছাত্রনেতৃত্বাধীন দল। এর মূল আদর্শ: বৈষম্যমুক্তি, কেন্দ্রবাদী রাজনীতি, দুর্নীতি দূরীকরণ এবং "দ্বিতীয় প্রজাতন্ত্র"।</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="join">
+    <div class="container">
+      <div class="join-grid">
+        <aside class="join-aside reveal">
+          <div class="eyebrow">সদস্যপদ</div>
+          <h2>আজই সদস্য হোন</h2>
+          <p>পরিবর্তনের এই যাত্রায় আপনাকে স্বাগত। আপনার অংশগ্রহণই আমাদের শক্তি।</p>
+
+          <div class="perks">
+            <div class="perk">
+              <div class="perk-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>সকল ইভেন্ট ও সভায় অগ্রাধিকার</strong>
+                <span>সংগঠনের কার্যক্রম ও বিশেষ উদ্যোগে সরাসরি যুক্ত থাকার সুযোগ।</span>
+              </div>
+            </div>
+            <div class="perk">
+              <div class="perk-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div>
+                <strong>বৈশ্বিক ডায়াস্পোরা নেটওয়ার্ক</strong>
+                <span>৫০+ দেশের NCP Diaspora Alliance নেটওয়ার্কের সাথে সংযুক্ত হোন।</span>
+              </div>
+            </div>
+            <div class="perk">
+              <div class="perk-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>প্রবাসী অধিকার আন্দোলনে ভূমিকা</strong>
+                <span>ভোটাধিকার ও নাগরিক সেবার দাবিতে সুসংগঠিত অবস্থানের অংশ হোন।</span>
+              </div>
+            </div>
+            <div class="perk">
+              <div class="perk-icon">
+                <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <strong>সংস্কারে নৈতিক ও সাংগঠনিক ভূমিকা</strong>
+                <span>প্রবাসীদের দৃষ্টিভঙ্গিকে কার্যকর অবদানে রূপ দিন।</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="gdpr-note">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div>আপনার তথ্য ইউরোপীয় GDPR নীতিমালা অনুযায়ী যত্নসহকারে সংরক্ষিত। কোনো তৃতীয় পক্ষের সাথে অনুমতি ছাড়া তথ্য শেয়ার করা হবে না।</div>
+          </div>
+        </aside>
+
+        <div class="form-panel reveal">
+          <div class="form-panel-head">
+            <div class="form-intro">
+              <h3>সদস্য নিবন্ধন ফর্ম</h3>
+              <p>নিচের তথ্যগুলো পূরণ করুন। ডেস্কটপে এখানেই ফর্মটি সাবমিট করতে পারেন, আর মোবাইল থেকে দ্রুত খুলতে পাশে থাকা নিবন্ধন QR কোড স্ক্যান করুন।</p>
+            </div>
+
+            <aside class="registration-qr-card" aria-label="সদস্য নিবন্ধনের QR কোড">
+              <!-- <span class="qr-label">Registration QR</span> -->
+              <div class="registration-qr-frame">
+                <img src="img/logo/registration.png" alt="সদস্য নিবন্ধনের QR কোড" loading="lazy" width="320" height="320" />
+              </div>
+              <!--
+              <strong>মোবাইলে দ্রুত নিবন্ধন</strong>
+              <p>ইভেন্ট, কমিউনিটি মিটআপ বা শেয়ারযোগ্য পোস্টে এই QR ব্যবহার করে সদস্যপদ ফর্ম এক স্ক্যানে খোলা যাবে।</p>
+              <div class="scan-tips">
+                <span>ফোনে স্ক্যান করুন</span>
+                <span>বন্ধুকে শেয়ার করুন</span>
+                <span>দ্রুত সাইন-আপ</span>
+              </div>
+            -->
+            </aside>
+          </div>
+
+          <form id="membershipForm" action="https://formsubmit.co/ajax/ncpdiasporade@gmail.com" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New Member — NCP Diaspora Alliance Germany" />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <div class="field-grid">
+              <div class="field">
+                <label for="full_name">পূর্ণ নাম (ইংরেজি) *</label>
+                <input id="full_name" type="text" name="full_name" placeholder="Full name" required autocomplete="name" />
+              </div>
+              <div class="field">
+                <label for="city">বর্তমান শহর *</label>
+                <input id="city" type="text" name="city" placeholder="Berlin, Munich, Hamburg…" required />
+              </div>
+              <div class="field">
+                <label for="email">ইমেইল *</label>
+                <input id="email" type="email" name="email" placeholder="you@email.com" required autocomplete="email" />
+              </div>
+              <div class="field">
+                <label for="whatsapp">হোয়াটসঅ্যাপ *</label>
+                <input id="whatsapp" type="tel" name="whatsapp" placeholder="+49…" required autocomplete="tel" />
+              </div>
+              <div class="field full">
+                <label for="profession">পেশা *</label>
+                <input id="profession" type="text" name="profession" placeholder="ডাক্তার, প্রকৌশলী, ছাত্র, ব্যবসায়ী…" required />
+              </div>
+              <div class="field full">
+                <label for="bd_address">বাংলাদেশের ঠিকানা (ঐচ্ছিক)</label>
+                <input id="bd_address" type="text" name="bd_address" placeholder="ইউনিয়ন, উপজেলা, জেলা" />
+              </div>
+            </div>
+
+            <div class="consent">
+              <input type="checkbox" name="consent" id="consent" required />
+              <label for="consent">আমি GDPR অনুযায়ী তথ্য সুরক্ষা নীতি মেনে চলতে সম্মত এবং NCP Diaspora Alliance Germany থেকে প্রয়োজনীয় যোগাযোগ পেতে আগ্রহী।</label>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span class="btn-text">সদস্য নিবন্ধন করুন →</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+          </form>
+
+          <div class="status-msg" id="status" role="alert" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>NCP Diaspora Alliance <span>Germany</span></h3>
+          <p>জাতীয় নাগরিক পার্টির রাজনৈতিক চেতনা, গণতান্ত্রিক সংস্কার, প্রবাসী অধিকার এবং জুলাই গণঅভ্যুত্থানের মূল্যবোধকে সামনে রেখে আমরা জার্মানিতে একটি দায়বদ্ধ ও সুসংগঠিত প্ল্যাটফর্ম গড়ে তুলছি।</p>
+          <div class="socials">
+            <a href="https://facebook.com/ncpdagermany" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://instagram.com/ncpda_germany" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://youtube.com/@NCPDAGermany" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>নেভিগেশন</h4>
+          <ul>
+            <li><a href="#about">আমাদের সম্পর্কে</a></li>
+            <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
+            <li><a href="#updates">সর্বশেষ আপডেট</a></li>
+            <li><a href="#blog">ব্লগ</a></li>
+            <li><a href="#gallery">গ্যালারি</a></li>
+            <li><a href="#why-join">কেন যুক্ত হবেন</a></li>
+            <li><a href="#join">সদস্যপদ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>যোগাযোগ</h4>
+          <ul>
+            <li><a href="mailto:ncpdiasporade@gmail.com">ncpdiasporade@gmail.com</a></li>
+            <li><a href="https://facebook.com/ncpdagermany" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://instagram.com/ncpda_germany" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://youtube.com/@NCPDAGermany" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://ncpdiaspora.org" target="_blank" rel="noopener noreferrer">NCP Diaspora (Global)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 NCP Diaspora Alliance Germany. সর্বস্বত্ব সংরক্ষিত।</span>
+        <span>জুলাইয়ের চেতনায় · বৈষম্যমুক্ত বাংলাদেশ · নতুন প্রজাতন্ত্র</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ─────────────────────────────────────────
+       HELPERS
+    ───────────────────────────────────────── */
+    const $ = (sel, root = document) => root.querySelector(sel);
+    const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+
+    /* ─────────────────────────────────────────
+       MODULE: PROGRESS BAR
+    ───────────────────────────────────────── */
+    function initProgressBar() {
+      const bar = $('#progress-bar');
+      if (!bar) return;
+
+      function updateBar() {
+        const scrollTop  = window.scrollY;
+        const docHeight  = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        bar.style.width = pct + '%';
+      }
+
+      updateBar();
+      window.addEventListener('scroll', updateBar, { passive: true });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: STICKY NAV
+    ───────────────────────────────────────── */
+    function initStickyNav() {
+      const navWrap = $('#navWrap');
+      if (!navWrap) return;
+
+      function onScroll() {
+        navWrap.classList.toggle('scrolled', window.scrollY > 20);
+      }
+
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: MOBILE MENU
+    ───────────────────────────────────────── */
+    function initMobileMenu() {
+      const btn  = $('#mobileBtn');
+      const menu = $('#mobileMenu');
+      if (!btn || !menu) return;
+
+      function setOpen(isOpen) {
+        menu.classList.toggle('open', isOpen);
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', String(isOpen));
+      }
+
+      function toggleMenu() {
+        setOpen(!menu.classList.contains('open'));
+      }
+
+      btn.addEventListener('click', toggleMenu);
+
+      $$('a', menu).forEach(link => {
+        link.addEventListener('click', () => setOpen(false));
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+          setOpen(false);
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') setOpen(false);
+      });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: SCROLL REVEAL
+    ───────────────────────────────────────── */
+    function initScrollReveal() {
+      const targets = $$('.reveal, .stagger-children');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      targets.forEach((el) => {
+        if (!el.classList.contains('visible')) {
+          observer.observe(el);
+        }
+      });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: BACK TO TOP
+    ───────────────────────────────────────── */
+    function initBackToTop() {
+      const btn = $('#back-top');
+      if (!btn) return;
+
+      function toggleVisibility() {
+        btn.classList.toggle('visible', window.scrollY > 400);
+      }
+
+      btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      toggleVisibility();
+      window.addEventListener('scroll', toggleVisibility, { passive: true });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: TICKER BAND
+    ───────────────────────────────────────── */
+    function initTicker() {
+      const track = $('#tickerTrack');
+      if (!track) return;
+
+      const items = [
+        { label: 'জুলাই গণঅভ্যুত্থান ২০২৪', value: 'জনতার ঐতিহাসিক জাগরণ' },
+        { label: 'শহীদের আত্মত্যাগ', value: '~১৪০০+ শহীদ' },
+        { label: 'NCP প্রতিষ্ঠা', value: '২৮ ফেব্রুয়ারি ২০২৫' },
+        { label: 'জাতীয় নাগরিক পার্টি (NCP)', value: 'জেন-জি নেতৃত্বাধীন রাজনৈতিক প্ল্যাটফর্ম' },
+        { label: '২৪ দফা ইশতেহার', value: 'সংস্কার ও গণতন্ত্রের রোডম্যাপ' },
+        { label: 'নতুন বাংলাদেশ', value: 'ন্যায়, সাম্য ও গণতন্ত্রের অঙ্গীকার' },
+        { label: 'প্রবাসী বাংলাদেশি', value: '~১.৫+ কোটি' },
+        { label: 'NCP Diaspora Alliance Germany', value: 'প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম' },
+        { label: 'জার্মানি চ্যাপ্টার', value: 'সক্রিয় · ২০২৫' },
+        { label: 'সক্রিয় দেশ', value: '৫০+' },
+        { label: 'প্রবাসী অধিকার', value: 'রাজনৈতিক অন্তর্ভুক্তির দাবি' },
+        { label: 'NCP স্লোগান', value: 'বৈষম্যমুক্ত বাংলাদেশ' },
+        { label: 'দ্বিতীয় প্রজাতন্ত্র', value: 'গণতান্ত্রিক পুনর্গঠনের লক্ষ্য' }
+      ];
+
+      function renderItems(list) {
+        return list.map(({ label, value }) => `
+          <span class="ticker-item">
+            ${label}
+            <span class="ticker-sep"></span>
+            <strong>${value}</strong>
+          </span>
+        `).join('');
+      }
+
+      track.innerHTML = renderItems(items) + renderItems(items);
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: BLOG
+    ───────────────────────────────────────── */
+    function initBlog() {
+      const blogGrid = $('#blogGrid');
+      if (!blogGrid) return;
+
+      const articles = [
+        {
+          tag: 'জুলাই চেতনা',
+          author: 'সম্পাদকীয় টিম',
+          date: 'এপ্রিল ২০২৬',
+          title: 'জুলাই অভ্যুত্থানের চেতনা কেন এখনও প্রাসঙ্গিক',
+          excerpt: 'জুলাই ২০২৪ শুধু একটি রাজনৈতিক ঘটনা নয়; এটি ছিল নাগরিক মর্যাদা, জবাবদিহি এবং বৈষম্যহীন বাংলাদেশের দাবিতে এক নতুন প্রজন্মের ঐতিহাসিক উচ্চারণ।',
+          link: '#'
+        },
+        {
+          tag: 'প্রবাসী অধিকার',
+          author: 'সদস্য লেখক',
+          date: 'এপ্রিল ২০২৬',
+          title: 'প্রবাসী ভোটাধিকার: দাবি থেকে বাস্তবায়নের পথে',
+          excerpt: 'প্রবাসীদের ভোটাধিকার কেবল সাংবিধানিক অংশগ্রহণ নয়, এটি বাংলাদেশের সঙ্গে প্রবাসী নাগরিকের সক্রিয় সম্পর্কের একটি ন্যায্য স্বীকৃতি।',
+          link: '#'
+        },
+        {
+          tag: 'সংগঠন',
+          author: 'জার্মানি চ্যাপ্টার',
+          date: 'এপ্রিল ২০২৬',
+          title: 'জার্মানিতে একটি দায়বদ্ধ প্রবাসী প্ল্যাটফর্ম গড়ার অভিজ্ঞতা',
+          excerpt: 'ভিন্ন শহর, ভিন্ন পেশা ও ভিন্ন প্রজন্মের মানুষকে এক নীতিভিত্তিক সংগঠনে যুক্ত করা যেমন চ্যালেঞ্জ, তেমনি এটি ভবিষ্যতের জন্য একটি মূল্যবান বিনিয়োগ।',
+          link: '#'
+        }
+      ];
+
+      blogGrid.innerHTML = articles.map((article) => `
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-tag">${article.tag}</span>
+            <span class="blog-author">${article.author}</span>
+            <span class="blog-date">${article.date}</span>
+          </div>
+          <h3>${article.title}</h3>
+          <p>${article.excerpt}</p>
+          <a href="${article.link}" class="blog-link">
+            বিস্তারিত পড়ুন
+            <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      `).join('');
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: GALLERY
+    ───────────────────────────────────────── */
+    function initGallery() {
+      const galleryTrack = $('#galleryTrack');
+      const galleryStageImage = $('#galleryStageImage');
+      const galleryStageTag = $('#galleryStageTag');
+      const galleryStageLocation = $('#galleryStageLocation');
+      const galleryStageCounter = $('#galleryStageCounter');
+      const galleryStageTitle = $('#galleryStageTitle');
+      const galleryStageCaption = $('#galleryStageCaption');
+      const galleryProgressFill = $('#galleryProgressFill');
+      const galleryPrev = $('#galleryPrev');
+      const galleryNext = $('#galleryNext');
+
+      if (!galleryTrack || !galleryStageImage || !galleryStageTag || !galleryStageLocation || !galleryStageCounter || !galleryStageTitle || !galleryStageCaption || !galleryProgressFill || !galleryPrev || !galleryNext) return;
+
+      const fallbackImage = 'img/july/1.jpg';
+
+      const galleryItems = [
+        {
+          image: 'img/july/1.jpg',
+          tag: 'Germany Chapter',
+          location: 'জার্মানি চ্যাপ্টার',
+          title: 'সংগঠিত উপস্থিতি ও দায়বদ্ধ নেতৃত্ব',
+          caption: 'জার্মানিতে প্রবাসী কমিউনিটির সঙ্গে আনুষ্ঠানিক উপস্থিতি, আলাপ এবং সংগঠনের দৃশ্যমান পরিচিতি।'
+        },
+        {
+          image: 'img/july/2.png',
+          tag: 'ঐতিহাসিক মুহূর্ত',
+          location: 'ঢাকা · ৫ আগস্ট',
+          title: 'বিজয়ের দিন জনতার ঐতিহাসিক উপস্থিতি',
+          caption: 'প্রধানমন্ত্রীর কার্যালয়ের সামনে ছাত্র-জনতার ঐতিহাসিক বিজয় উদযাপনের দলিল।'
+        },
+        {
+          image: 'img/july/3.jpg',
+          tag: 'প্রচারণা',
+          location: 'মাঠপর্যায়ের ক্যাম্পেইন',
+          title: 'দৃশ্যমান ব্যানার, দৃঢ় অবস্থান',
+          caption: 'সংগঠনের পরিচয় ও বার্তা জনপরিসরে পৌঁছে দিতে ভিজ্যুয়াল উপস্থিতির শক্তিশালী ব্যবহার।'
+        },
+        {
+          image: 'img/july/4.jpg',
+          tag: 'সভা',
+          location: 'কমিউনিটি আলোচনা',
+          title: 'আলোচনা সভায় কৌশল নির্ধারণ',
+          caption: 'সমন্বিত পরিকল্পনা, প্রশ্নোত্তর এবং প্রবাসী নেটওয়ার্ককে সক্রিয় রাখার বৈঠক।'
+        },
+        {
+          image: 'img/july/5.jpg',
+          tag: 'মাঠের কণ্ঠ',
+          location: 'জনসমাবেশ',
+          title: 'জনতার মাঝে উচ্চারিত প্রতিবাদ',
+          caption: 'সংগঠিত জনসমাগমে বক্তব্য, মাইক্রোফোন এবং সক্রিয় অংশগ্রহণের শক্তি।'
+        },
+        {
+          image: 'img/july/6.jpg',
+          tag: 'সংলাপ',
+          location: 'ইনডোর মিটিং',
+          title: 'ঘনিষ্ঠ আলাপ থেকে দীর্ঘমেয়াদি সংগঠন',
+          caption: 'ছোট পরিসরের বৈঠক, সম্পর্ক গড়া এবং ভবিষ্যৎ কর্মপরিকল্পনার ভিত্তি তৈরির মুহূর্ত।'
+        },
+        {
+          image: 'img/july/7.jpg',
+          tag: 'মিছিল',
+          location: 'রাজপথ',
+          title: 'পতাকার নিচে জনসম্পৃক্ত অগ্রযাত্রা',
+          caption: 'রাজপথের ভিড়ে তরুণদের অংশগ্রহণ এবং দৃশ্যমান নাগরিক উপস্থিতির শক্তি।'
+        },
+        {
+          image: 'img/july/8.jpg',
+          tag: 'উদযাপন',
+          location: 'বিজয়ের আনন্দ',
+          title: 'জল, উল্লাস, বিজয়ের আবেগ',
+          caption: 'সংগ্রামের স্মৃতি কেবল বেদনা নয়, সম্মিলিত বিজয়ের আনন্দও বহন করে।'
+        },
+        {
+          image: 'img/july/9.jpg',
+          tag: 'জনমঞ্চ',
+          location: 'খোলা মঞ্চ',
+          title: 'মাঠ থেকে উঠে আসা নেতৃত্ব',
+          caption: 'সরাসরি জনতার মাঝখানে দাঁড়িয়ে উচ্চারিত দাবি, ভাষণ এবং প্রত্যয়ের দৃশ্য।'
+        },
+        {
+          image: 'img/july/10.jpg',
+          tag: 'সংবাদচিত্র',
+          location: 'মিডিয়া কোলাজ',
+          title: 'পত্রিকায় উঠে আসা বিজয়ের কোলাজ',
+          caption: 'সংবাদ, ভিজ্যুয়াল নথি এবং জনতার প্রতিক্রিয়াকে এক ফ্রেমে ধরা হয়েছে।'
+        },
+        {
+          image: 'img/july/11.jpg',
+          tag: 'প্রতিবাদ',
+          location: 'জনতার প্ল্যাকার্ড',
+          title: 'রক্তের প্রশ্নে জনতার জবাব',
+          caption: 'একটি পোস্টার, একটি স্লোগান, একটি সময়ের নৈতিক সাক্ষ্য।'
+        },
+        {
+          image: 'img/july/12.jpg',
+          tag: 'প্রেস আর্কাইভ',
+          location: 'প্রথম পাতা',
+          title: 'সংবাদপত্রের প্রথম পাতায় আন্দোলন',
+          caption: 'গণআন্দোলনের সংবাদ কাভারেজকে ভিজ্যুয়াল স্মারক হিসেবে রাখা হয়েছে।'
+        }
+      ];
+
+      let activeIndex = 0;
+
+      function renderGalleryItems(items) {
+        return items.map((item, index) => `
+          <button
+            class="gallery-thumb${index === 0 ? ' active' : ''}"
+            type="button"
+            data-gallery-index="${index}"
+            aria-label="${item.title}"
+            aria-pressed="${index === 0 ? 'true' : 'false'}"
+          >
+            <img
+              src="${item.image}"
+              alt="${item.title}"
+              loading="lazy"
+              decoding="async"
+              onerror="this.onerror=null;this.src='${fallbackImage}';"
+            />
+            <div class="gallery-thumb-content">
+              <span class="gallery-thumb-badge">${item.tag}</span>
+              <strong>${item.title}</strong>
+              <small>${item.location}</small>
+            </div>
+          </button>
+        `).join('');
+      }
+
+      function setActive(index, shouldScroll = true) {
+        const item = galleryItems[index];
+        const buttons = $$('[data-gallery-index]', galleryTrack);
+        activeIndex = index;
+
+        galleryStageImage.style.opacity = '0.45';
+        galleryStageImage.src = item.image;
+        galleryStageImage.alt = item.title;
+        galleryStageImage.onerror = () => {
+          galleryStageImage.onerror = null;
+          galleryStageImage.src = fallbackImage;
+        };
+        requestAnimationFrame(() => {
+          galleryStageImage.style.opacity = '1';
+        });
+
+        galleryStageTag.textContent = item.tag;
+        galleryStageLocation.textContent = item.location;
+        galleryStageCounter.textContent = `${String(index + 1).padStart(2, '0')} / ${String(galleryItems.length).padStart(2, '0')}`;
+        galleryStageTitle.textContent = item.title;
+        galleryStageCaption.textContent = item.caption;
+        galleryProgressFill.style.width = `${((index + 1) / galleryItems.length) * 100}%`;
+
+        buttons.forEach((button, buttonIndex) => {
+          const isActive = buttonIndex === index;
+          button.classList.toggle('active', isActive);
+          button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+
+        if (shouldScroll && buttons[index]) {
+          buttons[index].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+      }
+
+      galleryTrack.innerHTML = renderGalleryItems(galleryItems);
+
+      galleryTrack.addEventListener('click', (event) => {
+        const button = event.target.closest('[data-gallery-index]');
+        if (!button) return;
+        setActive(Number(button.dataset.galleryIndex));
+      });
+
+      galleryPrev.addEventListener('click', () => {
+        setActive((activeIndex - 1 + galleryItems.length) % galleryItems.length);
+      });
+
+      galleryNext.addEventListener('click', () => {
+        setActive((activeIndex + 1) % galleryItems.length);
+      });
+      setActive(0, false);
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: FORM SUBMISSION
+    ───────────────────────────────────────── */
+    function initForm() {
+      const form      = $('#membershipForm');
+      const statusEl  = $('#status');
+      const submitBtn = $('#submitBtn');
+      if (!form || !statusEl || !submitBtn) return;
+
+      function setLoading(loading) {
+        submitBtn.disabled = loading;
+        submitBtn.classList.toggle('loading', loading);
+      }
+
+      function showStatus(type, message) {
+        statusEl.className = 'status-msg ' + type;
+        statusEl.textContent = message;
+        statusEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      function clearStatus() {
+        statusEl.className = 'status-msg';
+        statusEl.textContent = '';
+      }
+
+      async function handleSubmit(e) {
+        e.preventDefault();
+        clearStatus();
+        setLoading(true);
+
+        try {
+          const res = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+          });
+
+          if (!res.ok) throw new Error('Network response not ok');
+
+          showStatus('success', '✅ ধন্যবাদ! আপনার নিবন্ধন সফল হয়েছে। আমরা শীঘ্রই যোগাযোগ করব।');
+          form.reset();
+        } catch {
+          showStatus('error', '❌ কিছু একটা ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন বা সরাসরি ইমেইল করুন: ncpdiasporade@gmail.com');
+        } finally {
+          setLoading(false);
+        }
+      }
+
+      form.addEventListener('submit', handleSubmit);
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: SMOOTH NAV LINKS
+    ───────────────────────────────────────── */
+    function initSmoothScroll() {
+      $$('a[href^="#"]').forEach((link) => {
+        link.addEventListener('click', (e) => {
+          const id = link.getAttribute('href').slice(1);
+          if (!id) return;
+
+          const target = document.getElementById(id);
+          if (!target) return;
+
+          e.preventDefault();
+          const navH  = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-h')) || 80;
+          const offset = target.getBoundingClientRect().top + window.scrollY - navH - 16;
+          window.scrollTo({ top: offset, behavior: 'smooth' });
+        });
+      });
+    }
+
+    /* ─────────────────────────────────────────
+       INIT
+    ───────────────────────────────────────── */
+    function init() {
+      initProgressBar();
+      initStickyNav();
+      initMobileMenu();
+      initScrollReveal();
+      initBackToTop();
+      initTicker();
+      initBlog();
+      initGallery();
+      initForm();
+      initSmoothScroll();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  </script>
+</body>
+</html>
