@@ -906,6 +906,7 @@
     }
     .update-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
     .update-card:hover::before { transform: scaleX(1); }
+    .update-card > a { display: flex; flex-direction: column; height: 100%; color: inherit; text-decoration: none; }
     .update-meta { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
     .update-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-400); flex-shrink: 0; }
     .update-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-300); }
@@ -2234,7 +2235,7 @@
         <p class="section-sub">NCP ও NCP Diaspora Alliance-এর সাম্প্রতিক কার্যক্রম সম্পর্কে জানুন।</p>
       </div>
 
-      <div class="updates-grid stagger-children reveal">
+      <div class="updates-grid stagger-children reveal" id="updatesGrid" data-content-source="data/recent-updates.json">
         <article class="update-card">
           <div class="update-meta">
             <span class="update-dot"></span>
@@ -2592,6 +2593,34 @@
     const $ = (sel, root = document) => root.querySelector(sel);
     const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[char]));
+    }
+
+    function safeHref(value) {
+      const href = String(value ?? '#').trim();
+      if (!href || href === '#') return '#';
+
+      try {
+        const url = new URL(href, window.location.href);
+        return ['http:', 'https:', 'mailto:'].includes(url.protocol) ? escapeHtml(href) : '#';
+      } catch {
+        return '#';
+      }
+    }
+
+    async function loadContentJson(path) {
+      const response = await fetch(path, { cache: 'no-cache' });
+      if (!response.ok) throw new Error(`Failed to load ${path}`);
+      return response.json();
+    }
+
     /* ─────────────────────────────────────────
        MODULE: PROGRESS BAR
     ───────────────────────────────────────── */
@@ -2738,14 +2767,51 @@
     }
 
     /* ─────────────────────────────────────────
+       MODULE: RECENT UPDATES
+    ───────────────────────────────────────── */
+    function initRecentUpdates() {
+      const updatesGrid = $('#updatesGrid');
+      if (!updatesGrid) return;
+
+      function renderUpdates(items) {
+        const published = items.filter((item) => item.status !== 'draft').slice(0, 3);
+        if (!published.length) return;
+
+        updatesGrid.innerHTML = published.map((item) => {
+          const href = safeHref(item.sourceUrl || item.link || '#');
+          const body = `
+            <div class="update-meta">
+              <span class="update-dot"></span>
+              <span class="update-date">${escapeHtml(item.date)}</span>
+              <span class="update-badge">${escapeHtml(item.badge || item.tag || 'আপডেট')}</span>
+            </div>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.excerpt)}</p>
+          `;
+
+          return href === '#'
+            ? `<article class="update-card">${body}</article>`
+            : `<article class="update-card"><a href="${href}" target="_blank" rel="noopener noreferrer">${body}</a></article>`;
+        }).join('');
+      }
+
+      loadContentJson(updatesGrid.dataset.contentSource || 'data/recent-updates.json')
+        .then((data) => renderUpdates(Array.isArray(data.items) ? data.items : data))
+        .catch(() => {
+          // Keep the hardcoded fallback cards already present in the page.
+        });
+    }
+
+    /* ─────────────────────────────────────────
        MODULE: BLOG
     ───────────────────────────────────────── */
     function initBlog() {
       const blogGrid = $('#blogGrid');
       if (!blogGrid) return;
 
-      const articles = [
+      const fallbackArticles = [
         {
+          status: 'published',
           tag: 'জুলাই চেতনা',
           author: 'Writing Forum',
           date: 'জুলাই ২০২৬',
@@ -2754,6 +2820,7 @@
           link: '#'
         },
         {
+          status: 'published',
           tag: 'প্রবাসী অধিকার',
           author: 'Writing Forum',
           date: 'জুলাই ২০২৬',
@@ -2762,6 +2829,7 @@
           link: '#'
         },
         {
+          status: 'published',
           tag: 'ডায়াস্পোরা',
           author: 'Writing Forum',
           date: 'আগস্ট ২০২৬',
@@ -2770,6 +2838,7 @@
           link: '#'
         },
         {
+          status: 'published',
           tag: 'অর্থনীতি',
           author: 'Writing Forum',
           date: 'আগস্ট ২০২৬',
@@ -2778,6 +2847,7 @@
           link: '#'
         },
         {
+          status: 'published',
           tag: 'উন্নয়ন',
           author: 'Writing Forum',
           date: 'সেপ্টেম্বর ২০২৬',
@@ -2786,6 +2856,7 @@
           link: '#'
         },
         {
+          status: 'published',
           tag: 'ঐক্য',
           author: 'Writing Forum',
           date: 'সেপ্টেম্বর ২০২৬',
@@ -2795,21 +2866,34 @@
         }
       ];
 
-      blogGrid.innerHTML = articles.map((article) => `
-        <article class="blog-card">
-          <div class="blog-meta">
-            <span class="blog-tag">${article.tag}</span>
-            <span class="blog-author">${article.author}</span>
-            <span class="blog-date">${article.date}</span>
-          </div>
-          <h3>${article.title}</h3>
-          <p>${article.excerpt}</p>
-          <a href="${article.link}" class="blog-link">
-            বিস্তারিত পড়ুন
-            <span aria-hidden="true">→</span>
-          </a>
-        </article>
-      `).join('');
+      function renderArticles(articles) {
+        const published = articles.filter((article) => article.status !== 'draft');
+        if (!published.length) return;
+
+        blogGrid.innerHTML = published.map((article) => `
+          <article class="blog-card">
+            <div class="blog-meta">
+              <span class="blog-tag">${escapeHtml(article.tag)}</span>
+              <span class="blog-author">${escapeHtml(article.author || 'Writing Forum')}</span>
+              <span class="blog-date">${escapeHtml(article.date)}</span>
+            </div>
+            <h3>${escapeHtml(article.title)}</h3>
+            <p>${escapeHtml(article.excerpt)}</p>
+            <a href="${safeHref(article.link)}" class="blog-link">
+              বিস্তারিত পড়ুন
+              <span aria-hidden="true">→</span>
+            </a>
+          </article>
+        `).join('');
+      }
+
+      renderArticles(fallbackArticles);
+
+      loadContentJson('data/blog-posts.json')
+        .then((data) => renderArticles(Array.isArray(data.items) ? data.items : data))
+        .catch(() => {
+          // Keep fallback cards if the data file cannot be loaded.
+        });
     }
 
     /* ─────────────────────────────────────────
@@ -3078,6 +3162,7 @@
       initScrollReveal();
       initBackToTop();
       initTicker();
+      initRecentUpdates();
       initBlog();
       initGallery();
       initForm();

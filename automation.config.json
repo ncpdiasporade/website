@@ -1,0 +1,22 @@
+{
+  "news": {
+    "enabled": true,
+    "lookbackDays": 14,
+    "maxItems": 3,
+    "proposedStatus": "published",
+    "queries": [
+      "\"National Citizen Party\" Bangladesh",
+      "\"NCP Diaspora Alliance\"",
+      "\"প্রবাসী ভোটাধিকার\" বাংলাদেশ",
+      "\"NCP\" \"diaspora\" Bangladesh"
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "defaultAuthor": "Writing Forum",
+    "defaultLanguage": "bn",
+    "defaultTag": "ডায়াস্পোরা",
+    "maxPostsPerRun": 1,
+    "siteVoice": "Write in thoughtful, civic-minded Bangla for Bangladeshi diaspora readers in Germany. Be factual, non-inflammatory, inclusive, and clear. Do not invent names, dates, statistics, quotes, or events. If a claim is not in the provided context, write it as analysis or opinion rather than fact."
+  }
+}
