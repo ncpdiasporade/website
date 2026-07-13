@@ -1,0 +1,14 @@
+# Local environment and build artifacts
+node_modules/
+dist/
+.vscode/
+__pycache__/
+.DS_Store
+
+# Local inspection notes
+/inspection.log
+/validation.log
+
+# Unlinked local scratch files
+/.gitkeep
+/styles.css
