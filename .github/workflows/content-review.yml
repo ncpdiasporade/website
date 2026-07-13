@@ -57,8 +57,29 @@ jobs:
           git commit -m "Prepare automated content review"
           git push --set-upstream origin "$branch"
 
-          gh pr create \
+          pr_body="This PR was prepared by the scheduled free content automation. Please review all news sources, generated blog text, dates, links, and tone before merging. Merging this PR publishes the approved changes to the live site."
+
+          if pr_url="$(gh pr create \
             --title "Review automated content update" \
-            --body "This PR was prepared by the scheduled free content automation. Please review all news sources, generated blog text, dates, links, and tone before merging. Merging this PR publishes the approved changes to the live site." \
+            --body "$pr_body" \
             --base main \
-            --head "$branch"
+            --head "$branch")"; then
+            echo "Created pull request: $pr_url"
+            {
+              echo "## Content review created"
+              echo ""
+              echo "$pr_url"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            manual_url="https://github.com/${GITHUB_REPOSITORY}/pull/new/${branch}"
+            echo "::warning::GitHub Actions could not create the pull request. Create it manually: $manual_url"
+            {
+              echo "## Content review branch created"
+              echo ""
+              echo "GitHub Actions could not create the pull request because repository settings may block bot-created PRs."
+              echo ""
+              echo "Create the PR manually:"
+              echo ""
+              echo "$manual_url"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
