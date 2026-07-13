@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Diaspora leadership editorial cover</title>
+  <desc id="desc">Original abstract illustration of Germany and Bangladesh connected through civic leadership.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecfcf3"/>
+      <stop offset=".52" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fdf8ec"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0d6130"/>
+      <stop offset=".5" stop-color="#e0aa2a"/>
+      <stop offset="1" stop-color="#c01636"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#06100a" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M102 491c150-78 308-86 475-26 176 64 350 41 521-69v279H102Z" fill="#e2efe8"/>
+  <path d="M202 405c134-119 265-179 393-179s262 60 403 179" fill="none" stroke="url(#bridge)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M250 443c111-88 225-132 343-132s237 44 357 132" fill="none" stroke="#bdd0c4" stroke-width="7" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="171" y="339" width="228" height="146" rx="24" fill="#ffffff" stroke="#bdd0c4" stroke-width="3"/>
+    <rect x="801" y="339" width="228" height="146" rx="24" fill="#ffffff" stroke="#bdd0c4" stroke-width="3"/>
+    <rect x="480" y="219" width="240" height="168" rx="28" fill="#062b12"/>
+  </g>
+  <g fill="#0d6130">
+    <rect x="217" y="389" width="36" height="62" rx="8"/>
+    <rect x="270" y="368" width="36" height="83" rx="8"/>
+    <rect x="323" y="409" width="36" height="42" rx="8"/>
+  </g>
+  <g fill="#c01636">
+    <rect x="846" y="403" width="36" height="48" rx="8"/>
+    <rect x="899" y="369" width="36" height="82" rx="8"/>
+    <rect x="952" y="389" width="36" height="62" rx="8"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="600" cy="292" r="42"/>
+    <path d="M524 360c13-49 43-73 76-73s63 24 76 73z"/>
+  </g>
+  <g fill="#0d6130" stroke="#ffffff" stroke-width="5">
+    <circle cx="202" cy="405" r="22"/>
+    <circle cx="398" cy="287" r="18"/>
+    <circle cx="600" cy="226" r="24"/>
+    <circle cx="802" cy="287" r="18"/>
+    <circle cx="998" cy="405" r="22"/>
+  </g>
+</svg>

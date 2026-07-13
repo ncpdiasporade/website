@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Diaspora investment impact editorial cover</title>
+  <desc id="desc">Original abstract illustration of diaspora investment across education, health, technology, and enterprise.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5faf7"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff4f0"/>
+    </linearGradient>
+    <linearGradient id="growth" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#0d6130"/>
+      <stop offset=".55" stop-color="#22d46e"/>
+      <stop offset="1" stop-color="#e0aa2a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#06100a" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 520c136-66 276-74 420-23 141 50 273 48 397-5 132-57 260-58 383-4v187H0Z" fill="#e2efe8"/>
+  <g filter="url(#shadow)" fill="#ffffff" stroke="#bdd0c4" stroke-width="3">
+    <rect x="170" y="337" width="158" height="150" rx="24"/>
+    <rect x="381" y="281" width="158" height="206" rx="24"/>
+    <rect x="592" y="224" width="158" height="263" rx="24"/>
+    <rect x="803" y="165" width="158" height="322" rx="24"/>
+  </g>
+  <path d="M215 422c128-84 241-122 339-115 118 8 218-49 303-170" fill="none" stroke="url(#growth)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m845 139 47-28-4 55" fill="none" stroke="#e0aa2a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="9">
+    <path d="M219 414h61M249 383v61" stroke="#0d6130"/>
+    <path d="M430 366h60M430 402h60M430 438h43" stroke="#c01636"/>
+    <path d="M642 331h58v58h-58zM671 309v22M671 389v22M620 360h22M700 360h22" stroke="#0d6130"/>
+    <path d="M850 331c32-48 75-48 107 0M869 350h69M883 382h41" stroke="#c01636"/>
+  </g>
+  <g fill="#062b12">
+    <circle cx="249" cy="456" r="12"/>
+    <circle cx="460" cy="456" r="12"/>
+    <circle cx="671" cy="456" r="12"/>
+    <circle cx="882" cy="456" r="12"/>
+  </g>
+</svg>

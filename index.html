@@ -928,7 +928,7 @@
     .blog-card {
       display: flex;
       flex-direction: column;
-      padding: 22px;
+      padding: 0;
       border-radius: var(--r-lg);
       background: var(--white);
       border: 1px solid rgba(204,224,212,.85);
@@ -936,7 +936,7 @@
       transition: transform .3s var(--ease-out), box-shadow .3s, border-color .3s;
       position: relative;
       overflow: hidden;
-      min-height: 248px;
+      min-height: 360px;
     }
 
     .blog-card::before {
@@ -958,6 +958,32 @@
 
     .blog-card:hover::before {
       transform: scaleX(1);
+    }
+
+    .blog-image {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: var(--surface);
+      overflow: hidden;
+      border-bottom: 1px solid rgba(204,224,212,.75);
+    }
+
+    .blog-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s var(--ease-out);
+    }
+
+    .blog-card:hover .blog-image img {
+      transform: scale(1.035);
+    }
+
+    .blog-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 20px 22px 22px;
     }
 
     .blog-meta {
@@ -1013,6 +1039,10 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
+      border: 0;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
       font-family: var(--font-ui);
       font-size: .92rem;
       font-weight: 600;
@@ -1047,6 +1077,120 @@
       line-height: 1.72;
       margin: 0;
       max-width: 700px;
+    }
+
+    .blog-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1100;
+      display: grid;
+      place-items: center;
+      padding: 26px;
+    }
+
+    .blog-modal[hidden] {
+      display: none;
+    }
+
+    .blog-modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(6,16,10,.62);
+      backdrop-filter: blur(8px);
+    }
+
+    .blog-modal-panel {
+      position: relative;
+      z-index: 1;
+      width: min(920px, 100%);
+      max-height: min(88svh, 900px);
+      overflow: auto;
+      border-radius: 22px;
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.86);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .blog-modal-close {
+      position: sticky;
+      top: 14px;
+      float: right;
+      width: 42px;
+      height: 42px;
+      margin: 14px 14px -56px 0;
+      border: 1px solid rgba(204,224,212,.86);
+      border-radius: 14px;
+      background: rgba(255,255,255,.92);
+      color: var(--ink-900);
+      cursor: pointer;
+      z-index: 2;
+      box-shadow: var(--shadow-sm);
+      transition: background .2s, transform .2s;
+    }
+
+    .blog-modal-close:hover {
+      background: var(--green-50);
+      transform: translateY(-1px);
+    }
+
+    .blog-modal-hero {
+      width: 100%;
+      aspect-ratio: 16 / 7;
+      background: var(--surface);
+      border-bottom: 1px solid rgba(204,224,212,.85);
+      overflow: hidden;
+    }
+
+    .blog-modal-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .blog-modal-content {
+      padding: 34px 44px 44px;
+    }
+
+    .blog-modal-content h3 {
+      font-family: var(--font-display);
+      font-size: 2.25rem;
+      line-height: 1.12;
+      color: var(--ink-950);
+      margin: 12px 0 16px;
+    }
+
+    .blog-modal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .blog-modal-body {
+      display: grid;
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .blog-modal-body p {
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.86;
+      color: var(--ink-700);
+    }
+
+    .blog-image-credit {
+      margin-top: 20px;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink-300);
+    }
+
+    body.blog-modal-open {
+      overflow: hidden;
     }
 
     /* ══════════════════════════════════════════
@@ -1955,6 +2099,15 @@
       .gallery-thumb { flex-basis: 136px; min-height: 104px; border-radius: 16px; }
       .gallery-thumb-content { padding: 10px 10px 12px; }
       .registration-qr-card { width: min(100%, 250px); }
+      .blog-modal { padding: 12px; }
+      .blog-modal-panel {
+        max-height: 92svh;
+        border-radius: 18px;
+      }
+      .blog-modal-hero { aspect-ratio: 16 / 9; }
+      .blog-modal-content { padding: 26px 22px 30px; }
+      .blog-modal-content h3 { font-size: 1.7rem; }
+      .blog-modal-body p { font-size: .96rem; line-height: 1.82; }
     }
     @media (max-width: 520px) {
       .container,
@@ -1989,6 +2142,14 @@
       .blog-card,
       .pillar,
       .benefit-item { border-radius: 18px; }
+      .blog-body { padding: 18px; }
+      .blog-modal-close {
+        width: 38px;
+        height: 38px;
+        margin: 10px 10px -48px 0;
+        border-radius: 12px;
+      }
+      .blog-modal-content h3 { font-size: 1.5rem; }
     }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
@@ -2308,9 +2469,9 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">ব্লগ ও মতামত</div>
-        <h2 class="section-h">NCP Diaspora Alliance Germany Writing Forum</h2>
+        <h2 class="section-h">প্রবাসী দৃষ্টিভঙ্গি: নতুন বাংলাদেশের চিন্তা ও কর্মপরিকল্পনা</h2>
         <p class="section-sub">
-          এই ব্লগ সেকশনে NCP Diaspora Alliance Germany Writing Forum নিয়মিত ২–৩টি লেখা প্রকাশ করবে — যেমন বাংলাদেশ, জুলাই অভ্যুত্থান ২০২৪, বাংলাদেশি ডায়াস্পোরা, জার্মানি ও ইউরোপে প্রবাসী জীবনের অভিজ্ঞতা, প্রবাসী ভোটাধিকার, ডায়াস্পোরা নেতৃত্বের ভূমিকা, মেধা-প্রবাহ থেকে মেধা-সুবিধা, এবং নতুন বাংলাদেশের ভবিষ্যৎ গঠনে প্রবাসীদের অবদান।
+          বাংলাদেশ, জুলাই অভ্যুত্থান ২০২৪, প্রবাসী ভোটাধিকার, জার্মানি ও ইউরোপে বাংলাদেশি কমিউনিটির অভিজ্ঞতা, ডায়াস্পোরা নেতৃত্ব এবং নতুন বাংলাদেশের ভবিষ্যৎ গঠনে প্রবাসীদের ভূমিকা নিয়ে সম্পাদকীয়ভাবে প্রস্তুত বিশ্লেষণ ও মতামত।
         </p>
       </div>
 
@@ -2318,10 +2479,10 @@
 
       <div class="blog-cta-row reveal">
         <p>
-          আপনি কি একটি লেখা প্রকাশ করতে চান? আপনার মতামত, বিশ্লেষণ, অভিজ্ঞতা বা প্রবাসী জীবনের গুরুত্বপূর্ণ প্রশ্ন নিয়ে লিখুন। Writing Forum-এর সম্পাদকীয় পর্যালোচনার পর নির্বাচিত লেখা প্রকাশ করা হবে।
+          আপনি কি একটি লেখা প্রকাশ করতে চান? আপনার মতামত, বিশ্লেষণ, অভিজ্ঞতা বা প্রবাসী জীবনের গুরুত্বপূর্ণ প্রশ্ন নিয়ে লিখুন। সম্পাদকীয় পর্যালোচনার পর নির্বাচিত লেখা প্রকাশ করা হবে।
         </p>
         <a
-          href="mailto:ncpdiasporade@gmail.com?subject=Article Submission — NCP Diaspora Alliance Germany Writing Forum"
+          href="mailto:ncpdiasporade@gmail.com?subject=Article Submission — NCP Diaspora Alliance Germany Blog"
           class="btn-pill btn-primary"
         >
           লেখা পাঠান
@@ -2329,6 +2490,22 @@
       </div>
     </div>
   </section>
+
+  <div class="blog-modal" id="blogModal" role="dialog" aria-modal="true" aria-labelledby="blogModalTitle" hidden>
+    <div class="blog-modal-backdrop" data-close-blog-modal></div>
+    <article class="blog-modal-panel" tabindex="-1">
+      <button class="blog-modal-close" type="button" aria-label="Close blog reader" data-close-blog-modal>×</button>
+      <div class="blog-modal-hero">
+        <img id="blogModalImage" src="img/blog/july-uprising.svg" alt="" loading="lazy">
+      </div>
+      <div class="blog-modal-content">
+        <div class="blog-modal-meta" id="blogModalMeta"></div>
+        <h3 id="blogModalTitle"></h3>
+        <div class="blog-modal-body" id="blogModalBody"></div>
+        <p class="blog-image-credit" id="blogModalCredit"></p>
+      </div>
+    </article>
+  </div>
 
   <section class="section gallery-section" id="gallery">
     <div class="container">
@@ -2666,6 +2843,22 @@
       }
     }
 
+    function safeImageSrc(value, fallback = 'img/blog/july-uprising.svg') {
+      const src = String(value ?? '').trim();
+      if (!src) return fallback;
+
+      try {
+        const url = new URL(src, window.location.href);
+        if (url.origin === window.location.origin || url.protocol === 'https:' || url.protocol === 'data:') {
+          return src;
+        }
+      } catch {
+        return fallback;
+      }
+
+      return fallback;
+    }
+
     async function loadContentJson(path) {
       const response = await fetch(path, { cache: 'no-cache' });
       if (!response.ok) throw new Error(`Failed to load ${path}`);
@@ -2860,83 +3053,252 @@
       const blogGrid = $('#blogGrid');
       if (!blogGrid) return;
 
+      const modal = $('#blogModal');
+      const modalPanel = modal ? $('.blog-modal-panel', modal) : null;
+      const modalImage = $('#blogModalImage');
+      const modalMeta = $('#blogModalMeta');
+      const modalTitle = $('#blogModalTitle');
+      const modalBody = $('#blogModalBody');
+      const modalCredit = $('#blogModalCredit');
+      const defaultImage = 'img/blog/july-uprising.svg';
+      let articlesById = new Map();
+      let lastFocusedElement = null;
+
       const fallbackArticles = [
         {
+          id: 'july-uprising-dream-responsibility',
           status: 'published',
           tag: 'জুলাই চেতনা',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'জুলাই ২০২৬',
           title: 'জুলাই অভ্যুত্থান ২০২৪: নতুন বাংলাদেশের স্বপ্ন ও দায়িত্ব',
           excerpt: 'জুলাই অভ্যুত্থান কেবল এক গণআন্দোলন নয়; এটি ছিল নাগরিক মর্যাদা, অধিকার, গণতন্ত্র এবং বৈষম্যবিরোধী বাংলাদেশের নতুন দিকনির্দেশনা।',
-          link: '#'
+          image: 'img/blog/july-uprising.svg',
+          imageAlt: 'জুলাই অভ্যুত্থানের চেতনা নিয়ে একটি মৌলিক সম্পাদকীয় ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'জুলাই অভ্যুত্থান ২০২৪ বাংলাদেশের নাগরিক রাজনীতিকে নতুনভাবে ভাবতে শেখায়। এই আন্দোলন দেখিয়েছে, রাষ্ট্র তখনই শক্তিশালী হয় যখন নাগরিকের মর্যাদা, ভোট, মতপ্রকাশ ও ন্যায়বিচারকে রাষ্ট্রের কেন্দ্রস্থলে রাখা হয়।',
+            'নতুন বাংলাদেশের স্বপ্ন তাই শুধু ক্ষমতার পরিবর্তন নয়; এটি রাজনৈতিক সংস্কৃতি, প্রতিষ্ঠান, শিক্ষা, কর্মসংস্থান এবং নাগরিক নিরাপত্তাকে নতুন করে সাজানোর দায়িত্ব।',
+            'প্রবাসীদের জন্য এই দায়িত্ব আরও গভীর, কারণ দূরে থেকেও তারা বাংলাদেশের অর্থনীতি, জনমত, আন্তর্জাতিক যোগাযোগ এবং নৈতিক সমর্থনের সঙ্গে যুক্ত।'
+          ]
         },
         {
+          id: 'diaspora-voting-rights-future',
           status: 'published',
           tag: 'প্রবাসী অধিকার',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'জুলাই ২০২৬',
           title: 'প্রবাসী ভোটাধিকার: বাংলাদেশের ভবিষ্যৎ গঠনে একটি মৌলিক অধিকার',
           excerpt: 'প্রবাসী বাংলাদেশিদের ভোটাধিকার কেবল একটি রাজনৈতিক দাবি নয়; এটি তাদের নাগরিক মর্যাদা, অংশগ্রহণ ও জাতীয় দায়িত্বের স্বীকৃতি।',
-          link: '#'
+          image: 'img/blog/voting-rights.svg',
+          imageAlt: 'প্রবাসী ভোটাধিকার নিয়ে ব্যালট ও সংযোগের মৌলিক ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'প্রবাসীরা দেশের বাইরে থাকলেও তারা বাংলাদেশের নাগরিক, করুণার প্রাপক নয়। তাদের পাঠানো রেমিট্যান্স, জ্ঞান, শ্রম, সম্পর্ক ও সুনাম জাতীয় জীবনের গুরুত্বপূর্ণ অংশ।',
+            'তাই প্রবাসী ভোটাধিকার কোনো অতিরিক্ত সুবিধা নয়; এটি নাগরিক অধিকার বাস্তবায়নের একটি জরুরি ধাপ। নিরাপদ নিবন্ধন, স্বচ্ছ যাচাই এবং সহজ ভোটপ্রদান পদ্ধতি তৈরি করা রাষ্ট্রের দায়িত্ব।',
+            'প্রবাসী ভোট নিশ্চিত হলে বাংলাদেশ তার বৃহত্তর নাগরিক সমাজকে রাজনৈতিকভাবে দৃশ্যমান করতে পারবে।'
+          ]
         },
         {
+          id: 'diaspora-leadership-germany-europe',
           status: 'published',
           tag: 'ডায়াস্পোরা',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'আগস্ট ২০২৬',
           title: 'জার্মানি ও ইউরোপে বাংলাদেশি ডায়াস্পোরা: একতাবদ্ধ নেতৃত্বের নতুন সম্ভাবনা',
           excerpt: 'জার্মানি ও ইউরোপে বসবাসকারী বাংলাদেশিরা তাদের অভিজ্ঞতা, জ্ঞান ও নেটওয়ার্ককে ব্যবহার করে বাংলাদেশের উন্নয়নে শক্তিশালী ভূমিকা রাখতে পারেন।',
-          link: '#'
+          image: 'img/blog/diaspora-leadership.svg',
+          imageAlt: 'জার্মানি ও ইউরোপে বাংলাদেশি ডায়াস্পোরা নেতৃত্বের মৌলিক ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'জার্মানি ও ইউরোপে বাংলাদেশি ডায়াস্পোরা এখন আর শুধু প্রবাসী শ্রম বা শিক্ষার গল্প নয়। এখানে আছে গবেষণা, প্রযুক্তি, চিকিৎসা, উদ্যোক্তা, সংস্কৃতি ও নাগরিক সংগঠনের অভিজ্ঞতা।',
+            'এই অভিজ্ঞতাকে একত্র করতে হলে দরকার সুশৃঙ্খল নেতৃত্ব, তথ্যভিত্তিক কাজ এবং প্রজন্মভিত্তিক অংশগ্রহণ। শহরভিত্তিক ছোট ছোট উদ্যোগকে একটি বড় নেটওয়ার্কে যুক্ত করা গেলে তার প্রভাব বহুগুণ বাড়ে।',
+            'প্রবাসী নেতৃত্বের প্রধান শক্তি হলো সংযোগ: বাংলাদেশ, জার্মানি এবং ইউরোপীয় প্রতিষ্ঠানের মধ্যে আস্থা ও সহযোগিতার সেতু তৈরি করা।'
+          ]
         },
         {
+          id: 'brain-drain-to-brain-gain',
           status: 'published',
           tag: 'অর্থনীতি',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'আগস্ট ২০২৬',
           title: 'ডায়াস্পোরা কীভাবে বাংলাদেশের জন্য “ব্রেন ড্রেন” নয়, “ব্রেন গেইন” হতে পারে',
           excerpt: 'সঠিক নীতি, সংগঠন এবং সুযোগের মাধ্যমে প্রবাসী দক্ষতা, উদ্যোক্তা মনোভাব ও প্রযুক্তিগত জ্ঞানকে বাংলাদেশে ফিরিয়ে আনা সম্ভব।',
-          link: '#'
+          image: 'img/blog/brain-gain.svg',
+          imageAlt: 'প্রবাসী জ্ঞান ও দক্ষতা বাংলাদেশের উন্নয়নে ফেরার মৌলিক ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'বাংলাদেশ থেকে দক্ষ মানুষ বিদেশে গেলে সেটিকে অনেক সময় ক্ষতি হিসেবে দেখা হয়। কিন্তু সঠিক নীতি ও সংগঠনের মাধ্যমে একই মানুষ দেশের জন্য জ্ঞান, বিনিয়োগ, প্রযুক্তি ও আন্তর্জাতিক অভিজ্ঞতার উৎস হতে পারেন।',
+            'ব্রেন গেইনের জন্য দরকার স্পষ্ট সেতুবন্ধন: প্রবাসী পেশাজীবীদের ডাটাবেস, বিশ্ববিদ্যালয় ও শিল্পখাতের সঙ্গে মেন্টরশিপ, গবেষণা সহযোগিতা, স্টার্টআপ বিনিয়োগ এবং নীতিনির্ধারণে বিশেষজ্ঞ মতামত।',
+            'মানুষকে শুধু ফিরে আসতে বললেই হবে না; তাদের জ্ঞান যেন বাংলাদেশে কাজ করে, সেই ব্যবস্থাই তৈরি করতে হবে।'
+          ]
         },
         {
+          id: 'diaspora-leadership-investment-impact',
           status: 'published',
           tag: 'উন্নয়ন',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'সেপ্টেম্বর ২০২৬',
           title: 'কোন কোন খাতে প্রবাসী নেতৃত্ব ও বিনিয়োগ সবচেয়ে বেশি প্রভাব ফেলতে পারে',
           excerpt: 'শিক্ষা, স্বাস্থ্য, টেকনোলজি, কৃষি, উদ্যোক্তা এবং সামাজিক অবকাঠামো—এসব ক্ষেত্রে প্রবাসীদের সক্রিয় অংশগ্রহণ জাতীয় উন্নয়নে বড় পরিবর্তন আনতে পারে।',
-          link: '#'
+          image: 'img/blog/investment-impact.svg',
+          imageAlt: 'প্রবাসী বিনিয়োগের প্রভাব নিয়ে শিক্ষা স্বাস্থ্য প্রযুক্তি ও উদ্যোক্তা খাতের মৌলিক ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'প্রবাসী বিনিয়োগকে শুধু রিয়েল এস্টেট বা ব্যক্তিগত সহায়তায় আটকে রাখা উচিত নয়। শিক্ষা, স্বাস্থ্য, প্রযুক্তি, কৃষি, দক্ষতা উন্নয়ন এবং সামাজিক উদ্যোগে বিনিয়োগ করলে তার প্রভাব দীর্ঘমেয়াদি হয়।',
+            'সবচেয়ে বড় পরিবর্তন আসে যখন অর্থের সঙ্গে অভিজ্ঞতা, ব্যবস্থাপনা, বাজার-সংযোগ এবং জবাবদিহি যুক্ত হয়। প্রবাসীরা আন্তর্জাতিক মান, স্বচ্ছতা এবং পেশাদার সংস্কৃতি নিয়ে আসতে পারেন।',
+            'সঠিক প্রকল্প বাছাই, স্থানীয় অংশীদারিত্ব এবং ফলাফল-পরিমাপের মাধ্যমে প্রবাসী নেতৃত্ব বাংলাদেশের উন্নয়নে বাস্তব পরিবর্তন আনতে পারে।'
+          ]
         },
         {
+          id: 'diaspora-voice-equity-bangladesh',
           status: 'published',
           tag: 'ঐক্য',
-          author: 'Writing Forum',
+          author: 'সম্পাদকীয় টিম',
           date: 'সেপ্টেম্বর ২০২৬',
           title: 'বৈষম্যমুক্ত বাংলাদেশে প্রবাসী কণ্ঠস্বরের গুরুত্ব',
           excerpt: 'প্রবাসী কণ্ঠস্বর শুধু স্বদেশপ্রেমের প্রকাশ নয়; এটি ন্যায্যতা, অন্তর্ভুক্তি ও নতুন বাংলাদেশের রাজনৈতিক সংস্কারে একটি শক্তিশালী চালিকা শক্তি।',
-          link: '#'
+          image: 'img/blog/diaspora-voice.svg',
+          imageAlt: 'বৈষম্যমুক্ত বাংলাদেশে প্রবাসী কণ্ঠস্বরের মৌলিক ইলাস্ট্রেশন',
+          imageCredit: 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          content: [
+            'বৈষম্যমুক্ত বাংলাদেশ গড়তে হলে দেশের ভেতরের মানুষের পাশাপাশি প্রবাসীদের কণ্ঠও গুরুত্বপূর্ণ। কারণ প্রবাসীরা একদিকে বাংলাদেশের বাস্তবতা জানেন, অন্যদিকে গণতান্ত্রিক প্রতিষ্ঠান ও নাগরিক অধিকার নিয়ে ভিন্ন অভিজ্ঞতা অর্জন করেন।',
+            'এই কণ্ঠস্বর যেন দায়িত্বশীল, তথ্যভিত্তিক এবং অন্তর্ভুক্তিমূলক হয়, সেটি জরুরি। বিভাজন নয়, ন্যায় ও সংস্কারের ভাষা প্রবাসী রাজনীতিকে শক্তিশালী করে।',
+            'বাংলাদেশের ভবিষ্যৎ নিয়ে প্রবাসীদের অংশগ্রহণ তাই আবেগের বিষয় হলেও তার বাস্তব রূপ হতে হবে সংগঠিত, স্বচ্ছ এবং সবার জন্য উন্মুক্ত।'
+          ]
         }
       ];
+
+      function articleId(article, index) {
+        const rawId = cleanText(article.id || article.slug || `article-${index + 1}`, 90);
+        const normalized = rawId.replace(/[^a-zA-Z0-9_-]+/g, '-').replace(/^-+|-+$/g, '');
+        return normalized || `article-${index + 1}`;
+      }
+
+      function articleParagraphs(article) {
+        if (Array.isArray(article.content)) {
+          return article.content.filter((paragraph) => cleanText(paragraph, 1400));
+        }
+
+        if (typeof article.body === 'string') {
+          return article.body.split(/\n{2,}/).filter((paragraph) => cleanText(paragraph, 1400));
+        }
+
+        return [article.excerpt].filter((paragraph) => cleanText(paragraph, 1400));
+      }
+
+      function renderModalMeta(article) {
+        return `
+          <span class="blog-tag">${escapeHtml(cleanText(article.tag, 32))}</span>
+          <span class="blog-author">${escapeHtml(cleanText(article.author || 'সম্পাদকীয় টিম', 42))}</span>
+          <span class="blog-date">${escapeHtml(cleanText(article.date, 42))}</span>
+        `;
+      }
+
+      function closeBlogModal() {
+        if (!modal || modal.hidden) return;
+
+        modal.hidden = true;
+        document.body.classList.remove('blog-modal-open');
+        if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+          lastFocusedElement.focus();
+        }
+      }
+
+      function openBlogModal(id) {
+        if (!modal || !modalPanel || !modalImage || !modalMeta || !modalTitle || !modalBody || !modalCredit) return;
+
+        const article = articlesById.get(id);
+        if (!article) return;
+
+        lastFocusedElement = document.activeElement;
+        modalImage.src = safeImageSrc(article.image, defaultImage);
+        modalImage.alt = cleanText(article.imageAlt || article.title, 220);
+        modalMeta.innerHTML = renderModalMeta(article);
+        modalTitle.textContent = cleanText(article.title, 220);
+        modalBody.innerHTML = articleParagraphs(article)
+          .map((paragraph) => `<p>${escapeHtml(cleanText(paragraph, 1400))}</p>`)
+          .join('');
+        modalCredit.textContent = cleanText(
+          article.imageCredit || 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
+          240
+        );
+
+        modal.hidden = false;
+        document.body.classList.add('blog-modal-open');
+        modalPanel.focus({ preventScroll: true });
+      }
+
+      function trapModalFocus(event) {
+        if (!modal || modal.hidden || event.key !== 'Tab') return;
+
+        const focusable = $$('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])', modal)
+          .filter((element) => !element.hasAttribute('hidden'));
+        if (!focusable.length) return;
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
 
       function renderArticles(articles) {
         const published = contentItems(articles).filter((article) => article.status !== 'draft');
         if (!published.length) return;
 
-        blogGrid.innerHTML = published.map((article) => `
+        articlesById = new Map(published.map((article, index) => [articleId(article, index), article]));
+
+        blogGrid.innerHTML = published.map((article, index) => {
+          const id = articleId(article, index);
+          const image = safeImageSrc(article.image, defaultImage);
+
+          return `
           <article class="blog-card">
-            <div class="blog-meta">
-              <span class="blog-tag">${escapeHtml(cleanText(article.tag, 32))}</span>
-              <span class="blog-author">${escapeHtml(cleanText(article.author || 'Writing Forum', 42))}</span>
-              <span class="blog-date">${escapeHtml(cleanText(article.date, 42))}</span>
+            <div class="blog-image">
+              <img src="${escapeHtml(image)}" alt="${escapeHtml(cleanText(article.imageAlt || article.title, 220))}" loading="lazy">
             </div>
-            <h3>${escapeHtml(cleanText(article.title, 150))}</h3>
-            <p>${escapeHtml(cleanText(article.excerpt, 360))}</p>
-            <a href="${safeHref(article.link)}" class="blog-link">
-              বিস্তারিত পড়ুন
-              <span aria-hidden="true">→</span>
-            </a>
+            <div class="blog-body">
+              <div class="blog-meta">
+                <span class="blog-tag">${escapeHtml(cleanText(article.tag, 32))}</span>
+                <span class="blog-author">${escapeHtml(cleanText(article.author || 'সম্পাদকীয় টিম', 42))}</span>
+                <span class="blog-date">${escapeHtml(cleanText(article.date, 42))}</span>
+              </div>
+              <h3>${escapeHtml(cleanText(article.title, 150))}</h3>
+              <p>${escapeHtml(cleanText(article.excerpt, 360))}</p>
+              <button type="button" class="blog-link" data-blog-id="${escapeHtml(id)}" aria-label="${escapeHtml(`সম্পূর্ণ লেখা পড়ুন: ${cleanText(article.title, 120)}`)}">
+                সম্পূর্ণ লেখা পড়ুন
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
           </article>
-        `).join('');
+        `;
+        }).join('');
       }
+
+      blogGrid.addEventListener('click', (event) => {
+        const trigger = event.target.closest('[data-blog-id]');
+        if (!trigger) return;
+        openBlogModal(trigger.dataset.blogId);
+      });
+
+      if (modal) {
+        modal.addEventListener('click', (event) => {
+          if (event.target.closest('[data-close-blog-modal]')) {
+            closeBlogModal();
+          }
+        });
+      }
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeBlogModal();
+        trapModalFocus(event);
+      });
 
       renderArticles(fallbackArticles);
 

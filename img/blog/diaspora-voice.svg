@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Diaspora voice editorial cover</title>
+  <desc id="desc">Original abstract illustration of diaspora voices joining for equity and democratic inclusion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".48" stop-color="#ecfcf3"/>
+      <stop offset="1" stop-color="#fdf0f2"/>
+    </linearGradient>
+    <linearGradient id="voice" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#c01636"/>
+      <stop offset=".5" stop-color="#e0aa2a"/>
+      <stop offset="1" stop-color="#0d6130"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#06100a" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M114 505c157-62 303-68 437-16 144 56 292 40 444-48v234H114Z" fill="#e2efe8"/>
+  <g fill="none" stroke="#bdd0c4" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M277 445c85-92 191-137 319-136 128 0 237 45 327 136"/>
+    <path d="M345 487c66-61 150-92 252-92s186 31 252 92"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M428 184h344c48 0 87 39 87 87v91c0 48-39 87-87 87H632l-103 86 24-86H428c-48 0-87-39-87-87v-91c0-48 39-87 87-87Z" fill="#ffffff" stroke="#bdd0c4" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke="url(#voice)" stroke-linecap="round" stroke-width="18">
+    <path d="M462 318h88"/>
+    <path d="M599 318h139"/>
+    <path d="M506 267h188"/>
+    <path d="M506 369h118"/>
+  </g>
+  <g fill="#ffffff" stroke="#0d6130" stroke-width="5" filter="url(#shadow)">
+    <circle cx="273" cy="446" r="48"/>
+    <circle cx="402" cy="384" r="42"/>
+    <circle cx="598" cy="356" r="54"/>
+    <circle cx="795" cy="384" r="42"/>
+    <circle cx="925" cy="446" r="48"/>
+  </g>
+  <g fill="#0d6130">
+    <circle cx="273" cy="432" r="14"/>
+    <path d="M246 472c6-25 16-37 27-37s21 12 27 37z"/>
+    <circle cx="402" cy="372" r="12"/>
+    <path d="M378 405c6-22 14-33 24-33s18 11 24 33z"/>
+    <circle cx="598" cy="340" r="16"/>
+    <path d="M566 385c7-30 18-45 32-45s25 15 32 45z"/>
+    <circle cx="795" cy="372" r="12"/>
+    <path d="M771 405c6-22 14-33 24-33s18 11 24 33z"/>
+    <circle cx="925" cy="432" r="14"/>
+    <path d="M898 472c6-25 16-37 27-37s21 12 27 37z"/>
+  </g>
+  <path d="M364 545h472" stroke="#f3d98a" stroke-width="9" stroke-linecap="round"/>
+</svg>
