@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://formsubmit.co; form-action https://formsubmit.co; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#0d6130" />
   <title>NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি</title>
   <meta name="description" content="জুলাই গণঅভ্যুত্থানের চেতনায় জার্মানি প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম। NCP Diaspora Alliance Germany।" />
   <meta property="og:title" content="NCP Diaspora Alliance Germany" />
@@ -180,7 +183,7 @@
       display: block;
       font-family: var(--font-ui);
       font-size: 13px; font-weight: 600;
-      color: var(--ink-950); letter-spacing: -.01em; line-height: 1.2;
+      color: var(--ink-950); letter-spacing: 0; line-height: 1.2;
     }
     .brand-text span {
       display: block;
@@ -354,7 +357,6 @@
       font-family: var(--font-mono); font-size: 10px;
       letter-spacing: .13em; text-transform: uppercase;
       margin-bottom: 16px;
-      animation: fadeUp .6s .1s both;
     }
     .kicker-dot {
       width: 6px; height: 6px; border-radius: 50%;
@@ -369,13 +371,12 @@
 
     .hero-h1 {
       font-family: var(--font-display);
-      font-size: clamp(3.2rem, 5.2vw, 5.6rem);
+      font-size: 4.8rem;
       font-weight: 900;
       line-height: .9;
-      letter-spacing: -.04em;
+      letter-spacing: 0;
       color: var(--ink-950);
       margin-bottom: 20px;
-      animation: fadeUp .7s .2s both;
     }
     .hero-h1 .accent {
       font-style: italic;
@@ -400,13 +401,11 @@
       line-height: 1.74; color: var(--ink-500);
       max-width: 540px;
       margin-bottom: 28px;
-      animation: fadeUp .7s .32s both;
     }
 
     .hero-actions {
       display: flex; flex-wrap: wrap; gap: 12px;
       margin-bottom: 34px;
-      animation: fadeUp .7s .42s both;
     }
 
     .btn-cta {
@@ -436,7 +435,6 @@
 
     .hero-stats {
       display: grid; grid-template-columns: repeat(3,1fr); gap: 14px;
-      animation: fadeUp .7s .52s both;
     }
     .stat-card {
       padding: 20px 20px;
@@ -479,7 +477,6 @@
       box-shadow: var(--shadow-xl), 0 1px 0 rgba(255,255,255,.07) inset;
       position: relative; overflow: hidden;
       border: 1px solid rgba(255,255,255,.07);
-      animation: fadeUp .8s .28s both;
       display: flex; flex-direction: column; justify-content: center;
     }
     .hero-panel::before {
@@ -535,7 +532,7 @@
       box-shadow: 0 0 0 8px rgba(255,255,255,.04), 0 16px 40px rgba(0,0,0,.18);
       font-family: var(--font-display);
       font-size: 20px; font-weight: 800;
-      color: rgba(255,255,255,.9); letter-spacing: -.02em;
+      color: rgba(255,255,255,.9); letter-spacing: 0;
       padding: 8px;
       overflow: hidden;
     }
@@ -664,7 +661,7 @@
     }
     .uprising-title {
       font-family: var(--font-display);
-      font-size: clamp(1.85rem, 3vw, 2.9rem);
+      font-size: 2.45rem;
       font-weight: 900; line-height: 1.06; color: #fff;
       margin-bottom: 16px;
     }
@@ -722,9 +719,9 @@
     }
     .section-h {
       font-family: var(--font-display);
-      font-size: clamp(2.1rem, 4vw, 3.3rem);
+      font-size: 3rem;
       font-weight: 900; line-height: 1.03;
-      letter-spacing: -.03em; color: var(--ink-950);
+      letter-spacing: 0; color: var(--ink-950);
       margin-bottom: 14px;
     }
     .section-sub {
@@ -1174,10 +1171,10 @@
 
     .gallery-stage-copy h3 {
       font-family: var(--font-display);
-      font-size: clamp(1.9rem, 3vw, 2.75rem);
+      font-size: 2.35rem;
       font-weight: 900;
       line-height: 1.02;
-      letter-spacing: -.03em;
+      letter-spacing: 0;
       margin-bottom: 8px;
     }
 
@@ -1225,7 +1222,7 @@
       font-size: 1.3rem;
       font-weight: 800;
       line-height: 1.12;
-      letter-spacing: -.02em;
+      letter-spacing: 0;
       margin-bottom: 8px;
     }
 
@@ -1272,7 +1269,7 @@
       font-size: 1.25rem;
       font-weight: 800;
       line-height: 1.16;
-      letter-spacing: -.02em;
+      letter-spacing: 0;
     }
 
     .gallery-control-card p {
@@ -1566,7 +1563,7 @@
     }
     .quote-panel blockquote {
       font-family: var(--font-display);
-      font-size: clamp(1.05rem, 1.5vw, 1.28rem);
+      font-size: 1.15rem;
       font-weight: 700; font-style: italic;
       line-height: 1.66; color: #fff; position: relative; z-index: 1;
     }
@@ -1610,8 +1607,8 @@
     .join-aside .eyebrow::before { background: #6dfcb4; }
     .join-aside h2 {
       font-family: var(--font-display);
-      font-size: clamp(1.8rem, 2.8vw, 2.5rem); font-weight: 900;
-      line-height: 1.04; letter-spacing: -.03em;
+      font-size: 2.25rem; font-weight: 900;
+      line-height: 1.04; letter-spacing: 0;
       color: #fff; margin-bottom: 12px;
     }
     .join-aside > p {
@@ -1665,7 +1662,7 @@
     }
     .form-panel h3 {
       font-family: var(--font-display); font-size: 1.75rem; font-weight: 900;
-      color: var(--ink-950); margin-bottom: 9px; letter-spacing: -.02em;
+      color: var(--ink-950); margin-bottom: 9px; letter-spacing: 0;
     }
     .form-panel > p,
     .form-intro > p {
@@ -1917,6 +1914,14 @@
       .join-aside { position: static; }
       .gallery-stage { grid-template-columns: 1fr; }
     }
+    @media (max-width: 760px) {
+      .hero-h1 { font-size: 3.3rem; }
+      .section-h { font-size: 2.35rem; }
+      .uprising-title,
+      .gallery-stage-copy h3,
+      .join-aside h2 { font-size: 2rem; }
+      .quote-panel blockquote { font-size: 1.05rem; }
+    }
     @media (max-width: 960px) {
       .nav-links, .nav-ctas .btn-ghost { display: none; }
       .mobile-btn { display: inline-flex; }
@@ -1931,7 +1936,6 @@
     }
     @media (max-width: 680px) {
       :root { --nav-h: 62px; }
-      .hero-h1 { font-size: clamp(2.8rem, 11vw, 4rem); }
       .hero-stats, .field-grid, .pillars-grid, .updates-grid, .blog-grid { grid-template-columns: 1fr; }
       .uprising-nums { grid-template-columns: 1fr 1fr; }
       .footer-grid { grid-template-columns: 1fr; }
@@ -1948,10 +1952,43 @@
       .gallery-rail-wrap { border-radius: 20px; }
       .gallery-stage-media { min-height: 270px; }
       .gallery-stage-copy { padding: 18px; }
-      .gallery-stage-copy h3 { font-size: clamp(1.7rem, 8vw, 2.2rem); }
       .gallery-thumb { flex-basis: 136px; min-height: 104px; border-radius: 16px; }
       .gallery-thumb-content { padding: 10px 10px 12px; }
       .registration-qr-card { width: min(100%, 250px); }
+    }
+    @media (max-width: 520px) {
+      .container,
+      .hero-grid,
+      .nav-inner { width: calc(100% - 24px); }
+      .nav-inner { padding: 0 12px; border-radius: 18px; }
+      .brand { gap: 9px; min-width: 0; }
+      .brand-icon { width: 38px; height: 38px; border-radius: 11px; }
+      .brand-icon img { width: 26px; height: 26px; }
+      .brand-text { min-width: 0; }
+      .brand-text strong,
+      .brand-text span {
+        max-width: 168px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .brand-text strong { font-size: 12px; }
+      .brand-text span { font-size: 8px; letter-spacing: .08em; }
+      .nav-ctas .btn-primary { display: none; }
+      .mobile-menu { top: 84px; left: 12px; right: 12px; }
+      .hero { min-height: auto; padding-top: calc(var(--nav-h) + 34px); }
+      .hero-grid { padding-bottom: 32px; }
+      .hero-h1 { font-size: 2.55rem; line-height: 1.04; }
+      .hero-sub { font-size: .98rem; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .btn-cta { justify-content: center; width: 100%; padding: 14px 18px; }
+      .section { padding: 56px 0; }
+      .section-h { font-size: 2rem; line-height: 1.12; }
+      .section-sub { font-size: .95rem; }
+      .update-card,
+      .blog-card,
+      .pillar,
+      .benefit-item { border-radius: 18px; }
     }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
@@ -2603,6 +2640,20 @@
       }[char]));
     }
 
+    function cleanText(value, maxLength = 280) {
+      return String(value ?? '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, maxLength);
+    }
+
+    function contentItems(data) {
+      const items = Array.isArray(data?.items) ? data.items : data;
+      return Array.isArray(items)
+        ? items.filter((item) => item && typeof item === 'object')
+        : [];
+    }
+
     function safeHref(value) {
       const href = String(value ?? '#').trim();
       if (!href || href === '#') return '#';
@@ -2774,7 +2825,7 @@
       if (!updatesGrid) return;
 
       function renderUpdates(items) {
-        const published = items.filter((item) => item.status !== 'draft').slice(0, 3);
+        const published = contentItems(items).filter((item) => item.status !== 'draft').slice(0, 3);
         if (!published.length) return;
 
         updatesGrid.innerHTML = published.map((item) => {
@@ -2782,11 +2833,11 @@
           const body = `
             <div class="update-meta">
               <span class="update-dot"></span>
-              <span class="update-date">${escapeHtml(item.date)}</span>
-              <span class="update-badge">${escapeHtml(item.badge || item.tag || 'আপডেট')}</span>
+              <span class="update-date">${escapeHtml(cleanText(item.date, 42))}</span>
+              <span class="update-badge">${escapeHtml(cleanText(item.badge || item.tag || 'আপডেট', 28))}</span>
             </div>
-            <h3>${escapeHtml(item.title)}</h3>
-            <p>${escapeHtml(item.excerpt)}</p>
+            <h3>${escapeHtml(cleanText(item.title, 140))}</h3>
+            <p>${escapeHtml(cleanText(item.excerpt, 360))}</p>
           `;
 
           return href === '#'
@@ -2867,18 +2918,18 @@
       ];
 
       function renderArticles(articles) {
-        const published = articles.filter((article) => article.status !== 'draft');
+        const published = contentItems(articles).filter((article) => article.status !== 'draft');
         if (!published.length) return;
 
         blogGrid.innerHTML = published.map((article) => `
           <article class="blog-card">
             <div class="blog-meta">
-              <span class="blog-tag">${escapeHtml(article.tag)}</span>
-              <span class="blog-author">${escapeHtml(article.author || 'Writing Forum')}</span>
-              <span class="blog-date">${escapeHtml(article.date)}</span>
+              <span class="blog-tag">${escapeHtml(cleanText(article.tag, 32))}</span>
+              <span class="blog-author">${escapeHtml(cleanText(article.author || 'Writing Forum', 42))}</span>
+              <span class="blog-date">${escapeHtml(cleanText(article.date, 42))}</span>
             </div>
-            <h3>${escapeHtml(article.title)}</h3>
-            <p>${escapeHtml(article.excerpt)}</p>
+            <h3>${escapeHtml(cleanText(article.title, 150))}</h3>
+            <p>${escapeHtml(cleanText(article.excerpt, 360))}</p>
             <a href="${safeHref(article.link)}" class="blog-link">
               বিস্তারিত পড়ুন
               <span aria-hidden="true">→</span>

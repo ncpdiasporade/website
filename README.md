@@ -28,19 +28,11 @@ git push origin main
 
 The live site is expected to update from the GitHub repository after the push.
 
-## Content Automation
+## Content
 
-The site supports review-based automation for recent updates and blog drafts. The GitHub workflow uses a free template generator and opens a pull request for review instead of publishing directly.
+The recent updates and blog sections are powered by JSON files:
 
-```bash
-npm run automation:validate
-npm run automation:render
-```
+- `data/recent-updates.json`
+- `data/blog-posts.json`
 
-For local free AI-assisted drafting with Ollama:
-
-```bash
-npm run automation:blog:ollama
-```
-
-GitHub Actions runs `.github/workflows/content-review.yml` on a schedule and opens a pull request instead of publishing directly.
+Edit those files manually, preview locally, then commit and push.
