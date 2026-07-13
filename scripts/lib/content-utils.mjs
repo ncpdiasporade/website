@@ -43,10 +43,15 @@ export function escapeHtml(value) {
   }[char]));
 }
 
+export function toBanglaDigits(value) {
+  const digits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+  return String(value ?? '').replace(/\d/g, (digit) => digits[Number(digit)]);
+}
+
 export function formatBanglaMonthYear(dateValue = new Date()) {
   const date = dateValue instanceof Date ? dateValue : new Date(dateValue);
   if (Number.isNaN(date.getTime())) return 'চলমান';
-  return `${banglaMonths[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
+  return `${banglaMonths[date.getUTCMonth()]} ${toBanglaDigits(date.getUTCFullYear())}`;
 }
 
 export function slugify(value, fallback = 'post') {

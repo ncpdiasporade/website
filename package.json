@@ -6,6 +6,7 @@
     "start": "python3 start_server.py",
     "automation:news": "node scripts/draft-news.mjs",
     "automation:blog": "node scripts/draft-blog.mjs",
+    "automation:blog:ollama": "BLOG_GENERATOR=ollama node scripts/draft-blog.mjs",
     "automation:render": "node scripts/render-blog-pages.mjs",
     "automation:validate": "node scripts/validate-content.mjs",
     "automation:all": "npm run automation:news && npm run automation:blog && npm run automation:render && npm run automation:validate"

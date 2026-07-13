@@ -25,11 +25,10 @@ jobs:
       - name: Search recent news
         run: npm run automation:news
 
-      - name: Generate blog draft
+      - name: Generate free blog draft
         run: npm run automation:blog
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          BLOG_GENERATOR: template
 
       - name: Render blog pages
         run: npm run automation:render
@@ -60,6 +59,6 @@ jobs:
 
           gh pr create \
             --title "Review automated content update" \
-            --body "This PR was prepared by the scheduled content automation. Please review all news sources, generated blog text, dates, links, and tone before merging. Merging this PR publishes the approved changes to the live site." \
+            --body "This PR was prepared by the scheduled free content automation. Please review all news sources, generated blog text, dates, links, and tone before merging. Merging this PR publishes the approved changes to the live site." \
             --base main \
             --head "$branch"
