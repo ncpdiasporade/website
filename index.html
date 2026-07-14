@@ -1367,6 +1367,7 @@
       right: 0;
       bottom: 0;
       z-index: 1;
+      box-sizing: border-box;
       padding: 22px 24px;
       color: #fff;
     }
@@ -1390,11 +1391,13 @@
 
     .gallery-stage-copy h3 {
       font-family: var(--font-display);
-      font-size: 2.35rem;
+      font-size: 2rem;
       font-weight: 900;
-      line-height: 1.02;
+      line-height: 1.08;
       letter-spacing: 0;
       margin-bottom: 8px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     .gallery-stage-copy p {
@@ -1404,6 +1407,39 @@
       font-weight: 300;
       line-height: 1.72;
       color: rgba(255,255,255,.82);
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .gallery-stage-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: max-content;
+      max-width: 100%;
+      margin-top: 12px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.22);
+      background: rgba(255,255,255,.12);
+      color: rgba(255,255,255,.9);
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 600;
+      text-decoration: none;
+      backdrop-filter: blur(10px);
+      transition: background .22s var(--ease-out), transform .22s var(--ease-out), border-color .22s var(--ease-out);
+    }
+
+    .gallery-stage-link:hover {
+      background: rgba(255,255,255,.2);
+      border-color: rgba(255,255,255,.34);
+      transform: translateY(-1px);
+    }
+
+    .gallery-stage-link:empty,
+    .gallery-stage-link[hidden] {
+      display: none;
     }
 
     .gallery-stage-aside {
@@ -1623,8 +1659,8 @@
 
     .gallery-thumb {
       position: relative;
-      flex: 0 0 170px;
-      min-height: 124px;
+      flex: 0 0 214px;
+      min-height: 154px;
       border-radius: 18px;
       overflow: hidden;
       border: 1px solid rgba(255,255,255,.14);
@@ -1720,6 +1756,32 @@
       font-weight: 300;
       line-height: 1.45;
       color: rgba(255,255,255,.78);
+    }
+
+    .gallery-thumb-detail {
+      display: -webkit-box;
+      margin-top: 6px;
+      max-height: 0;
+      overflow: hidden;
+      font-family: var(--font-ui);
+      font-size: .76rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 1.45;
+      color: rgba(255,255,255,.84);
+      opacity: 0;
+      transform: translateY(6px);
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      transition: max-height .24s var(--ease-out), opacity .22s var(--ease-out), transform .22s var(--ease-out);
+    }
+
+    .gallery-thumb:hover .gallery-thumb-detail,
+    .gallery-thumb:focus-visible .gallery-thumb-detail,
+    .gallery-thumb.active .gallery-thumb-detail {
+      max-height: 4.4em;
+      opacity: 1;
+      transform: translateY(0);
     }
 
     /* ══════════════════════════════════════════
@@ -2137,8 +2199,8 @@
       .hero-h1 { font-size: 3.3rem; }
       .section-h { font-size: 2.35rem; }
       .uprising-title,
-      .gallery-stage-copy h3,
       .join-aside h2 { font-size: 2rem; }
+      .gallery-stage-copy h3 { font-size: 1.72rem; }
       .quote-panel blockquote { font-size: 1.05rem; }
     }
     @media (max-width: 960px) {
@@ -2150,7 +2212,7 @@
       .uprising-nums  { grid-template-columns: repeat(4,1fr); min-width: 0; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
       .gallery-stage-media { min-height: 340px; }
-      .gallery-thumb { flex-basis: 156px; min-height: 118px; }
+      .gallery-thumb { flex-basis: 206px; min-height: 158px; }
       .form-panel-head { flex-direction: column; }
     }
     @media (max-width: 680px) {
@@ -2169,9 +2231,12 @@
       .gallery-note-card,
       .gallery-control-card,
       .gallery-rail-wrap { border-radius: 20px; }
-      .gallery-stage-media { min-height: 270px; }
+      .gallery-stage-media { min-height: 360px; }
       .gallery-stage-copy { padding: 18px; }
-      .gallery-thumb { flex-basis: 136px; min-height: 104px; border-radius: 16px; }
+      .gallery-stage-copy h3 { font-size: 1.2rem; line-height: 1.24; }
+      .gallery-stage-copy p { font-size: .84rem; line-height: 1.58; }
+      .gallery-stage-link { font-size: .76rem; padding: 7px 10px; }
+      .gallery-thumb { flex-basis: 184px; min-height: 148px; border-radius: 16px; }
       .gallery-thumb-content { padding: 10px 10px 12px; }
       .registration-qr-card { width: min(100%, 250px); }
       .blog-modal { padding: 12px; }
@@ -2618,7 +2683,7 @@
         <div class="eyebrow">গ্যালারি</div>
         <h2 class="section-h">আমাদের কার্যক্রম, মুহূর্ত ও স্মৃতি</h2>
         <p class="section-sub">
-          এই গ্যালারিটি এখন একটি কমপ্যাক্ট ভিজ্যুয়াল আর্কাইভ। যত ছবি যোগ হবে, পেজ তত লম্বা হবে না; নিচের রেল ধরে ছবি বদলাবে, আর উপরে একবারে একটি গল্প সামনে আসবে।
+          NCP Diaspora Alliance Germany-এর দূতাবাসভিত্তিক মতবিনিময়, কমিউনিটি আয়োজন, জনস্বার্থে প্রকাশিত নোটিশ এবং প্রবাসী অংশগ্রহণের নির্বাচিত ভিজ্যুয়াল আর্কাইভ।
         </p>
       </div>
 
@@ -2629,26 +2694,27 @@
             <img id="galleryStageImage" src="img/july/1.jpg" alt="জার্মানি চ্যাপ্টারের সদস্যদের আনুষ্ঠানিক উপস্থাপনা" loading="lazy" />
             <div class="gallery-stage-copy">
               <div class="gallery-stage-meta">
-                <span class="gallery-stage-location" id="galleryStageLocation">Germany Chapter</span>
-                <span class="gallery-stage-counter" id="galleryStageCounter">01 / 12</span>
+                <span class="gallery-stage-location" id="galleryStageLocation">বার্লিন · ১৭ এপ্রিল ২০২৬</span>
+                <span class="gallery-stage-counter" id="galleryStageCounter">01 / 07</span>
               </div>
-              <h3 id="galleryStageTitle">সংগঠিত উপস্থিতি, দায়বদ্ধ নেতৃত্ব, দৃশ্যমান কমিউনিটি</h3>
-              <p id="galleryStageCaption">অফিসভিত্তিক বৈঠক, কমিউনিটি সংলাপ, মাঠের প্রচারণা এবং জুলাইয়ের স্মৃতিকে একসঙ্গে ধরে রাখার জন্য এই গ্যালারিটি এখন একটি শক্তিশালী ভিজ্যুয়াল স্টোরি হিসেবে সাজানো হয়েছে।</p>
+              <h3 id="galleryStageTitle">রাষ্ট্রদূতের সঙ্গে সৌজন্য সাক্ষাৎ</h3>
+              <p id="galleryStageCaption">বাংলাদেশ দূতাবাস, বার্লিনে NCP Diaspora Alliance Germany-এর প্রতিনিধিদল রাষ্ট্রদূত জনাব মুহাম্মদ জুলকার নাইন-এর সঙ্গে প্রবাসী অধিকার, সংগঠন ও নাগরিক অংশগ্রহণ নিয়ে মতবিনিময় করে।</p>
+              <a class="gallery-stage-link" id="galleryStageSource" href="https://www.facebook.com/ncpdagermany/posts/122181003530921031/" target="_blank" rel="noopener">ফেসবুক আপডেট দেখুন</a>
             </div>
           </article>
 
           <div class="gallery-stage-aside">
           <article class="gallery-note-card">
-            <span>Visual Archive</span>
-            <strong>জুলাইয়ের স্মৃতি থেকে জার্মানির সাংগঠনিক যাত্রা</strong>
-            <p>এখানে প্রতিটি ছবি আলাদা কার্ড হয়ে পেজ লম্বা করছে না। বরং একটি ফিচারড স্টেজে গল্প বদলাবে, আর নিচের থাম্বনেইল রেলে যত খুশি ছবি যুক্ত করা যাবে।</p>
+            <span>Official Activity Log</span>
+            <strong>প্রবাস থেকে সংযোগ, সংলাপ ও দায়িত্বশীল অংশগ্রহণ</strong>
+            <p>এই গ্যালারিতে শুধু সংগঠনের সঙ্গে সরাসরি সম্পর্কিত কর্মসূচি, ছবি ও নোটিশ রাখা হয়েছে। প্রতিটি এন্ট্রি সংক্ষিপ্ত কিন্তু প্রাসঙ্গিক ব্যাখ্যাসহ সাজানো।</p>
           </article>
 
           <article class="gallery-control-card">
             <div class="gallery-control-top">
               <div>
-                <span class="gallery-control-label">Archive Rail</span>
-                <strong>আরও ছবি যোগ করলেও লেআউট থাকবে হালকা</strong>
+                <span class="gallery-control-label">Program Gallery</span>
+                <strong>থাম্বনেইলে ক্লিক করলে বিস্তারিত দেখাবে</strong>
               </div>
               <div class="gallery-nav" aria-label="গ্যালারি নেভিগেশন">
                 <button type="button" id="galleryPrev" aria-label="আগের ছবি">
@@ -2659,7 +2725,7 @@
                 </button>
               </div>
             </div>
-            <p>নিচের স্ক্রলেবল রেলে ছবি জমা হবে, আর উপরের স্টেজে নির্বাচিত ছবিটি বড় করে দেখাবে। এতে গ্যালারি থাকবে সমৃদ্ধ, কিন্তু পেজের উচ্চতা নিয়ন্ত্রণে থাকবে।</p>
+            <p>ডেস্কটপে ছবির উপর হোভার করলে সংক্ষিপ্ত বিবরণ দেখা যাবে। মোবাইলে থাম্বনেইলে ট্যাপ করলে উপরের স্টেজে সম্পূর্ণ ক্যাপশন ও উৎস লিংক দেখা যাবে।</p>
             <div class="gallery-progress" aria-hidden="true">
               <div class="gallery-progress-bar">
                 <span class="gallery-progress-fill" id="galleryProgressFill"></span>
@@ -2671,8 +2737,8 @@
 
         <div class="gallery-rail-wrap reveal">
           <div class="gallery-rail-head">
-            <span>Visual Archive</span>
-            <p>থাম্বনেইলে ক্লিক করুন, অথবা পাশে থাকা তীরচিহ্ন ব্যবহার করুন</p>
+            <span>Selected Updates</span>
+            <p>দূতাবাস, কমিউনিটি আয়োজন, জনস্বার্থ নোটিশ ও স্মরণ কর্মসূচি</p>
           </div>
           <div class="gallery-rail" id="galleryTrack" aria-label="গ্যালারি থাম্বনেইল"></div>
         </div>
@@ -3462,98 +3528,89 @@
       const galleryStageCounter = $('#galleryStageCounter');
       const galleryStageTitle = $('#galleryStageTitle');
       const galleryStageCaption = $('#galleryStageCaption');
+      const galleryStageSource = $('#galleryStageSource');
       const galleryProgressFill = $('#galleryProgressFill');
       const galleryPrev = $('#galleryPrev');
       const galleryNext = $('#galleryNext');
 
-      if (!galleryTrack || !galleryStageImage || !galleryStageTag || !galleryStageLocation || !galleryStageCounter || !galleryStageTitle || !galleryStageCaption || !galleryProgressFill || !galleryPrev || !galleryNext) return;
+      if (!galleryTrack || !galleryStageImage || !galleryStageTag || !galleryStageLocation || !galleryStageCounter || !galleryStageTitle || !galleryStageCaption || !galleryStageSource || !galleryProgressFill || !galleryPrev || !galleryNext) return;
 
       const fallbackImage = 'img/july/1.jpg';
 
       const galleryItems = [
         {
           image: 'img/july/1.jpg',
-          tag: 'Germany Chapter',
-          location: 'জার্মানি চ্যাপ্টার',
-          title: 'সংগঠিত উপস্থিতি ও দায়বদ্ধ নেতৃত্ব',
-          caption: 'জার্মানিতে প্রবাসী কমিউনিটির সঙ্গে আনুষ্ঠানিক উপস্থিতি, আলাপ এবং সংগঠনের দৃশ্যমান পরিচিতি।'
-        },
-        {
-          image: 'img/july/2.png',
-          tag: 'ঐতিহাসিক মুহূর্ত',
-          location: 'ঢাকা · ৫ আগস্ট',
-          title: 'বিজয়ের দিন জনতার ঐতিহাসিক উপস্থিতি',
-          caption: 'প্রধানমন্ত্রীর কার্যালয়ের সামনে ছাত্র-জনতার ঐতিহাসিক বিজয় উদযাপনের দলিল।'
-        },
-        {
-          image: 'img/july/3.jpg',
-          tag: 'প্রচারণা',
-          location: 'মাঠপর্যায়ের ক্যাম্পেইন',
-          title: 'দৃশ্যমান ব্যানার, দৃঢ় অবস্থান',
-          caption: 'সংগঠনের পরিচয় ও বার্তা জনপরিসরে পৌঁছে দিতে ভিজ্যুয়াল উপস্থিতির শক্তিশালী ব্যবহার।'
-        },
-        {
-          image: 'img/july/4.jpg',
-          tag: 'সভা',
-          location: 'কমিউনিটি আলোচনা',
-          title: 'আলোচনা সভায় কৌশল নির্ধারণ',
-          caption: 'সমন্বিত পরিকল্পনা, প্রশ্নোত্তর এবং প্রবাসী নেটওয়ার্ককে সক্রিয় রাখার বৈঠক।'
-        },
-        {
-          image: 'img/july/5.jpg',
-          tag: 'মাঠের কণ্ঠ',
-          location: 'জনসমাবেশ',
-          title: 'জনতার মাঝে উচ্চারিত প্রতিবাদ',
-          caption: 'সংগঠিত জনসমাগমে বক্তব্য, মাইক্রোফোন এবং সক্রিয় অংশগ্রহণের শক্তি।'
+          tag: 'দূতাবাস সাক্ষাৎ',
+          location: 'বার্লিন · ১৭ এপ্রিল ২০২৬',
+          title: 'রাষ্ট্রদূতের সঙ্গে সৌজন্য সাক্ষাৎ',
+          caption: 'বাংলাদেশ দূতাবাস, বার্লিনে NCP Diaspora Alliance Germany-এর প্রতিনিধিদল রাষ্ট্রদূত জনাব মুহাম্মদ জুলকার নাইন-এর সঙ্গে প্রবাসী অধিকার, সংগঠন ও নাগরিক অংশগ্রহণ নিয়ে মতবিনিময় করে।',
+          detail: 'প্রতিনিধিদল দূতাবাসের সঙ্গে নিয়মিত যোগাযোগ, প্রবাসী নাগরিকদের সেবা ও বাংলাদেশের গণতান্ত্রিক রূপান্তরে প্রবাসীদের ভূমিকা নিয়ে আলোচনা করে।',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/122181003530921031/',
+          sourceLabel: 'ফেসবুক আপডেট দেখুন'
         },
         {
           image: 'img/july/6.jpg',
-          tag: 'সংলাপ',
-          location: 'ইনডোর মিটিং',
-          title: 'ঘনিষ্ঠ আলাপ থেকে দীর্ঘমেয়াদি সংগঠন',
-          caption: 'ছোট পরিসরের বৈঠক, সম্পর্ক গড়া এবং ভবিষ্যৎ কর্মপরিকল্পনার ভিত্তি তৈরির মুহূর্ত।'
+          tag: 'নীতিগত সংলাপ',
+          location: 'বাংলাদেশ দূতাবাস, বার্লিন',
+          title: 'প্রবাসী ইস্যুতে দূতাবাসে মতবিনিময়',
+          caption: 'দূতাবাসে অনুষ্ঠিত আলোচনায় প্রবাসী বাংলাদেশিদের নাগরিক সেবা, অংশগ্রহণ এবং জার্মানিতে সংগঠিত কমিউনিটি কাজের ধারাবাহিকতা নিয়ে কথা বলা হয়।',
+          detail: 'এই বৈঠক জার্মানির বিভিন্ন শহরে থাকা বাংলাদেশি কমিউনিটিকে একত্রিত করে নীতিগত আলোচনায় যুক্ত করার একটি গুরুত্বপূর্ণ ধাপ।',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/122181003530921031/',
+          sourceLabel: 'ফেসবুক আপডেট দেখুন'
         },
         {
-          image: 'img/july/7.jpg',
-          tag: 'মিছিল',
-          location: 'রাজপথ',
-          title: 'পতাকার নিচে জনসম্পৃক্ত অগ্রযাত্রা',
-          caption: 'রাজপথের ভিড়ে তরুণদের অংশগ্রহণ এবং দৃশ্যমান নাগরিক উপস্থিতির শক্তি।'
+          image: 'img/gallery/berlin-embassy-meeting-2026.jpg',
+          tag: 'লিখিত প্রস্তাবনা',
+          location: 'বার্লিন · ১৭ এপ্রিল ২০২৬',
+          title: 'দূতাবাসে প্রস্তাবনা ও সাংগঠনিক বার্তা হস্তান্তর',
+          caption: 'সৌজন্য সাক্ষাতে প্রতিনিধিদল লিখিত প্রস্তাবনা ও সাংগঠনিক অবস্থান তুলে ধরে, যাতে প্রবাসী অধিকার, নাগরিক মর্যাদা ও কমিউনিটি সেবার বিষয়গুলো গুরুত্ব পায়।',
+          detail: 'ছবিটি NCP Diaspora Alliance Germany-এর দূতাবাসভিত্তিক আনুষ্ঠানিক যোগাযোগ ও দলিলভিত্তিক কাজের একটি দৃশ্যমান নথি।',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/122181003530921031/',
+          sourceLabel: 'ফেসবুক আপডেট দেখুন'
         },
         {
-          image: 'img/july/8.jpg',
-          tag: 'উদযাপন',
-          location: 'বিজয়ের আনন্দ',
-          title: 'জল, উল্লাস, বিজয়ের আবেগ',
-          caption: 'সংগ্রামের স্মৃতি কেবল বেদনা নয়, সম্মিলিত বিজয়ের আনন্দও বহন করে।'
+          image: 'img/gallery/independence-day-networking-2026.svg',
+          tag: 'জাতীয় দিবস',
+          location: 'বার্লিন · ৩০ এপ্রিল ২০২৬',
+          title: 'স্বাধীনতা ও জাতীয় দিবসের নেটওয়ার্কিং',
+          caption: 'বাংলাদেশ দূতাবাস, বার্লিন আয়োজিত মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে নেটওয়ার্কিং ও সৌহার্দ্য বিনিময় অনুষ্ঠানে NCP Diaspora Alliance Germany-এর প্রতিনিধিদল অংশগ্রহণ করে।',
+          detail: 'ফেসবুক আপডেট অনুযায়ী, প্রতিনিধিদল কূটনীতিক, আমন্ত্রিত অতিথি ও কমিউনিটির প্রতিনিধিদের সঙ্গে বাংলাদেশের গণতান্ত্রিক ভবিষ্যৎ ও প্রবাসী ভূমিকা নিয়ে সৌহার্দ্যপূর্ণ মতবিনিময় করে।',
+          fit: 'contain',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/photos/d41d8cd9/122178857246921031/',
+          sourceLabel: 'ফেসবুক ছবি দেখুন'
         },
         {
-          image: 'img/july/9.jpg',
-          tag: 'জনমঞ্চ',
-          location: 'খোলা মঞ্চ',
-          title: 'মাঠ থেকে উঠে আসা নেতৃত্ব',
-          caption: 'সরাসরি জনতার মাঝখানে দাঁড়িয়ে উচ্চারিত দাবি, ভাষণ এবং প্রত্যয়ের দৃশ্য।'
+          image: 'img/gallery/ramadan-iftar-2026.jpg',
+          tag: 'কমিউনিটি আয়োজন',
+          location: 'NRW · ১৭ মার্চ ২০২৬',
+          title: 'প্রবাসী বাংলাদেশিদের ইফতার মাহফিল',
+          caption: 'পবিত্র রমজান উপলক্ষে জার্মানিতে প্রবাসী বাংলাদেশিদের অংশগ্রহণে আন্তরিক ইফতার মাহফিলের আয়োজন করা হয়, যা কমিউনিটি সম্পর্ক ও পারস্পরিক সহমর্মিতা দৃঢ় করার একটি উদ্যোগ।',
+          detail: 'বার্লিন ও NRW-সহ বিভিন্ন অঞ্চলের প্রবাসীদের যোগাযোগের সুযোগ তৈরি করে সংগঠনের মানবিক ও সামাজিক বন্ধনকে শক্তিশালী করা এই আয়োজনের মূল উদ্দেশ্য।',
+          fit: 'contain',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/122174119832921031/',
+          sourceLabel: 'ফেসবুক আমন্ত্রণ দেখুন'
         },
         {
-          image: 'img/july/10.jpg',
-          tag: 'সংবাদচিত্র',
-          location: 'মিডিয়া কোলাজ',
-          title: 'পত্রিকায় উঠে আসা বিজয়ের কোলাজ',
-          caption: 'সংবাদ, ভিজ্যুয়াল নথি এবং জনতার প্রতিক্রিয়াকে এক ফ্রেমে ধরা হয়েছে।'
+          image: 'img/gallery/july-remembrance-nrw-2026.jpg',
+          tag: 'জুলাই স্মরণ',
+          location: 'NRW · ২৬ জুলাই ২০২৬',
+          title: 'রক্তে জুলাই: স্মৃতি থেকে জাগরণ',
+          caption: 'জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে কোরআন তেলাওয়াত, প্রামাণ্যচিত্র, সদস্যদের অভিজ্ঞতা, আলোচনা এবং সমাপনী পর্বসহ একটি স্মরণভিত্তিক কমিউনিটি আয়োজন ঘোষণা করা হয়েছে।',
+          detail: 'এই কর্মসূচির লক্ষ্য স্মৃতিকে শুধু আবেগে সীমাবদ্ধ না রেখে প্রবাসী তরুণদের নাগরিক চেতনা, রাজনৈতিক সংস্কৃতি ও আগামীর বাংলাদেশ ভাবনায় যুক্ত করা।',
+          fit: 'contain',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/',
+          sourceLabel: 'ফেসবুক পেজ দেখুন'
         },
         {
-          image: 'img/july/11.jpg',
-          tag: 'প্রতিবাদ',
-          location: 'জনতার প্ল্যাকার্ড',
-          title: 'রক্তের প্রশ্নে জনতার জবাব',
-          caption: 'একটি পোস্টার, একটি স্লোগান, একটি সময়ের নৈতিক সাক্ষ্য।'
-        },
-        {
-          image: 'img/july/12.jpg',
-          tag: 'প্রেস আর্কাইভ',
-          location: 'প্রথম পাতা',
-          title: 'সংবাদপত্রের প্রথম পাতায় আন্দোলন',
-          caption: 'গণআন্দোলনের সংবাদ কাভারেজকে ভিজ্যুয়াল স্মারক হিসেবে রাখা হয়েছে।'
+          image: 'img/gallery/student-safety-notice-2026.jpg',
+          tag: 'জনস্বার্থ নোটিশ',
+          location: 'জার্মানি চ্যাপ্টার · ১৩ জুলাই ২০২৬',
+          title: 'শিক্ষার্থীদের নিরাপত্তা ও পরীক্ষা স্থগিতের আহ্বান',
+          caption: 'দেশের বিভিন্ন অঞ্চলে বন্যা, টানা বর্ষণ ও জলাবদ্ধতার কারণে শিক্ষার্থীদের নিরাপত্তা বিবেচনায় এইচএসসি ও সমমান পরীক্ষা সাময়িক স্থগিতের আহ্বান জানায় NCP Diaspora Alliance Germany।',
+          detail: 'প্রবাসে থেকেও দেশের শিক্ষার্থীদের নিরাপত্তা ও মানবিক পরিস্থিতি নিয়ে সংগঠনের দ্রুত জনস্বার্থ অবস্থান এই নোটিশে প্রতিফলিত হয়েছে।',
+          fit: 'contain',
+          sourceUrl: 'https://www.facebook.com/ncpdagermany/',
+          sourceLabel: 'ফেসবুক পেজ দেখুন'
         }
       ];
 
@@ -3574,11 +3631,13 @@
               loading="lazy"
               decoding="async"
               onerror="this.onerror=null;this.src='${fallbackImage}';"
+              style="object-fit:${item.fit === 'contain' ? 'contain' : 'cover'};"
             />
             <div class="gallery-thumb-content">
               <span class="gallery-thumb-badge">${item.tag}</span>
               <strong>${item.title}</strong>
               <small>${item.location}</small>
+              <em class="gallery-thumb-detail">${item.detail}</em>
             </div>
           </button>
         `).join('');
@@ -3592,9 +3651,11 @@
         galleryStageImage.style.opacity = '0.45';
         galleryStageImage.src = item.image;
         galleryStageImage.alt = item.title;
+        galleryStageImage.style.objectFit = item.fit === 'contain' ? 'contain' : 'cover';
         galleryStageImage.onerror = () => {
           galleryStageImage.onerror = null;
           galleryStageImage.src = fallbackImage;
+          galleryStageImage.style.objectFit = 'cover';
         };
         requestAnimationFrame(() => {
           galleryStageImage.style.opacity = '1';
@@ -3605,6 +3666,15 @@
         galleryStageCounter.textContent = `${String(index + 1).padStart(2, '0')} / ${String(galleryItems.length).padStart(2, '0')}`;
         galleryStageTitle.textContent = item.title;
         galleryStageCaption.textContent = item.caption;
+        if (item.sourceUrl) {
+          galleryStageSource.hidden = false;
+          galleryStageSource.href = item.sourceUrl;
+          galleryStageSource.textContent = item.sourceLabel || 'উৎস দেখুন';
+        } else {
+          galleryStageSource.hidden = true;
+          galleryStageSource.removeAttribute('href');
+          galleryStageSource.textContent = '';
+        }
         galleryProgressFill.style.width = `${((index + 1) / galleryItems.length) * 100}%`;
 
         buttons.forEach((button, buttonIndex) => {
