@@ -1180,6 +1180,81 @@
       color: var(--ink-700);
     }
 
+    .blog-data-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 22px 0 4px;
+    }
+
+    .blog-data-list:empty {
+      display: none;
+    }
+
+    .blog-data-item {
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: var(--green-50);
+      border: 1px solid rgba(13,97,48,.12);
+    }
+
+    .blog-data-item strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      line-height: 1.1;
+      color: var(--green-800);
+      margin-bottom: 5px;
+    }
+
+    .blog-data-item span {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      line-height: 1.55;
+      color: var(--ink-500);
+    }
+
+    .blog-sources {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(204,224,212,.85);
+    }
+
+    .blog-sources:empty {
+      display: none;
+    }
+
+    .blog-sources h4 {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--ink-300);
+      margin-bottom: 10px;
+    }
+
+    .blog-sources ul {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .blog-sources a {
+      display: inline-flex;
+      font-family: var(--font-ui);
+      font-size: .9rem;
+      font-weight: 500;
+      line-height: 1.55;
+      color: var(--green-700);
+    }
+
+    .blog-sources a:hover {
+      color: var(--green-600);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .blog-image-credit {
       margin-top: 20px;
       font-family: var(--font-mono);
@@ -2108,6 +2183,7 @@
       .blog-modal-content { padding: 26px 22px 30px; }
       .blog-modal-content h3 { font-size: 1.7rem; }
       .blog-modal-body p { font-size: .96rem; line-height: 1.82; }
+      .blog-data-list { grid-template-columns: 1fr; }
     }
     @media (max-width: 520px) {
       .container,
@@ -2496,9 +2572,9 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">ব্লগ ও মতামত</div>
-        <h2 class="section-h">প্রবাসী দৃষ্টিভঙ্গি: নতুন বাংলাদেশের চিন্তা ও কর্মপরিকল্পনা</h2>
+        <h2 class="section-h">প্রবাসের কথা, বাংলাদেশের আগামী</h2>
         <p class="section-sub">
-          বাংলাদেশ, জুলাই অভ্যুত্থান ২০২৪, প্রবাসী ভোটাধিকার, জার্মানি ও ইউরোপে বাংলাদেশি কমিউনিটির অভিজ্ঞতা, ডায়াস্পোরা নেতৃত্ব এবং নতুন বাংলাদেশের ভবিষ্যৎ গঠনে প্রবাসীদের ভূমিকা নিয়ে সম্পাদকীয়ভাবে প্রস্তুত বিশ্লেষণ ও মতামত।
+          ভোট, রেমিট্যান্স, দক্ষতা, জার্মানি–বাংলাদেশ সংযোগ এবং প্রবাসী নাগরিক শক্তি নিয়ে তথ্যভিত্তিক বিশ্লেষণ, ব্যবহারযোগ্য গাইড ও সম্পাদকীয় মতামত।
         </p>
       </div>
 
@@ -2528,7 +2604,9 @@
       <div class="blog-modal-content">
         <div class="blog-modal-meta" id="blogModalMeta"></div>
         <h3 id="blogModalTitle"></h3>
+        <div class="blog-data-list" id="blogModalFacts"></div>
         <div class="blog-modal-body" id="blogModalBody"></div>
+        <div class="blog-sources" id="blogModalSources"></div>
         <p class="blog-image-credit" id="blogModalCredit"></p>
       </div>
     </article>
@@ -3085,7 +3163,9 @@
       const modalImage = $('#blogModalImage');
       const modalMeta = $('#blogModalMeta');
       const modalTitle = $('#blogModalTitle');
+      const modalFacts = $('#blogModalFacts');
       const modalBody = $('#blogModalBody');
+      const modalSources = $('#blogModalSources');
       const modalCredit = $('#blogModalCredit');
       const defaultImage = 'img/blog/july-uprising.svg';
       let articlesById = new Map();
@@ -3222,6 +3302,39 @@
         `;
       }
 
+      function renderArticleFacts(article) {
+        if (!Array.isArray(article.facts)) return '';
+
+        return article.facts
+          .filter((fact) => fact && cleanText(fact.value, 80) && cleanText(fact.label, 180))
+          .slice(0, 4)
+          .map((fact) => `
+            <div class="blog-data-item">
+              <strong>${escapeHtml(cleanText(fact.value, 80))}</strong>
+              <span>${escapeHtml(cleanText(fact.label, 180))}</span>
+            </div>
+          `)
+          .join('');
+      }
+
+      function renderArticleSources(article) {
+        if (!Array.isArray(article.sources)) return '';
+
+        const links = article.sources
+          .filter((source) => source && cleanText(source.label, 120) && safeHref(source.url) !== '#')
+          .slice(0, 6)
+          .map((source) => `
+            <li>
+              <a href="${safeHref(source.url)}" target="_blank" rel="noopener noreferrer">
+                ${escapeHtml(cleanText(source.label, 120))}
+              </a>
+            </li>
+          `)
+          .join('');
+
+        return links ? `<h4>তথ্যসূত্র</h4><ul>${links}</ul>` : '';
+      }
+
       function closeBlogModal() {
         if (!modal || modal.hidden) return;
 
@@ -3233,7 +3346,7 @@
       }
 
       function openBlogModal(id) {
-        if (!modal || !modalPanel || !modalImage || !modalMeta || !modalTitle || !modalBody || !modalCredit) return;
+        if (!modal || !modalPanel || !modalImage || !modalMeta || !modalTitle || !modalFacts || !modalBody || !modalSources || !modalCredit) return;
 
         const article = articlesById.get(id);
         if (!article) return;
@@ -3243,9 +3356,11 @@
         modalImage.alt = cleanText(article.imageAlt || article.title, 220);
         modalMeta.innerHTML = renderModalMeta(article);
         modalTitle.textContent = cleanText(article.title, 220);
+        modalFacts.innerHTML = renderArticleFacts(article);
         modalBody.innerHTML = articleParagraphs(article)
           .map((paragraph) => `<p>${escapeHtml(cleanText(paragraph, 1400))}</p>`)
           .join('');
+        modalSources.innerHTML = renderArticleSources(article);
         modalCredit.textContent = cleanText(
           article.imageCredit || 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
           240
