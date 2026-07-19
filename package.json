@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "python3 start_server.py"
+    "start": "python3 start_server.py",
+    "sync:facebook": "node scripts/sync-facebook.mjs",
+    "validate": "node scripts/validate-site.mjs"
   }
 }

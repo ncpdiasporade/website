@@ -1,0 +1,26 @@
+{
+  "graphVersion": "v24.0",
+  "postsPerPage": 12,
+  "maxPublishedItems": 18,
+  "maxImageBytes": 8000000,
+  "pages": [
+    {
+      "key": "germany",
+      "pageId": "ncpdagermany",
+      "pageIdEnv": "NCPDA_GERMANY_PAGE_ID",
+      "tokenEnv": "NCPDA_GERMANY_PAGE_ACCESS_TOKEN",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "pageUrl": "https://www.facebook.com/ncpdagermany/",
+      "defaultBadge": "জার্মানি চ্যাপ্টার"
+    },
+    {
+      "key": "ncp",
+      "pageId": "1NationalCitizenParty",
+      "pageIdEnv": "NCP_PAGE_ID",
+      "tokenEnv": "NCP_PAGE_ACCESS_TOKEN",
+      "sourceName": "National Citizen Party",
+      "pageUrl": "https://www.facebook.com/1NationalCitizenParty/",
+      "defaultBadge": "জাতীয় নাগরিক পার্টি"
+    }
+  ]
+}

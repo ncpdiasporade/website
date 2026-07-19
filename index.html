@@ -7,12 +7,16 @@
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#0d6130" />
   <title>NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি</title>
-  <meta name="description" content="জুলাই গণঅভ্যুত্থানের চেতনায় জার্মানি প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম। NCP Diaspora Alliance Germany।" />
+  <meta name="description" content="জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি (NCP), প্রবাসী অধিকার এবং NCP Diaspora Alliance Germany-এর কার্যক্রম, ঘোষণা ও তথ্যভান্ডার।" />
+  <link rel="canonical" href="https://ncpdagermany.de/" />
   <meta property="og:title" content="NCP Diaspora Alliance Germany" />
-  <meta property="og:description" content="জুলাই গণঅভ্যুত্থানের চেতনায় জার্মানি প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম।" />
+  <meta property="og:description" content="জুলাই ২০২৪-এর দলিল, NCP-এর তথ্য, প্রবাসী অধিকার, সাম্প্রতিক কার্যক্রম ও ঘোষণার নির্ভরযোগ্য কেন্দ্র।" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ncpdagermany.de/" />
+  <meta property="og:image" content="https://ncpdagermany.de/img/announcements/rokte-july-2026.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,700;1,9..144,900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&amp;family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,700;1,9..144,900&amp;family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" />
 
   <style>
     /* ══════════════════════════════════════════
@@ -622,6 +626,134 @@
     .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
 
     /* ══════════════════════════════════════════
+       ANNOUNCEMENTS
+    ══════════════════════════════════════════ */
+    .announcement-section {
+      padding: 34px 0 0;
+      background: var(--white);
+    }
+    .announcement-shell {
+      display: grid;
+      grid-template-columns: minmax(260px, 390px) minmax(0, 1fr);
+      overflow: hidden;
+      border-radius: 30px;
+      background:
+        radial-gradient(circle at 92% 12%, rgba(34,212,110,.17), transparent 32%),
+        linear-gradient(145deg, var(--green-950), var(--green-800));
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: var(--shadow-xl);
+      color: #fff;
+    }
+    .announcement-media {
+      position: relative;
+      min-height: 460px;
+      background: var(--green-950);
+      overflow: hidden;
+    }
+    .announcement-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .announcement-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent 72%, rgba(2,21,9,.58));
+      pointer-events: none;
+    }
+    .announcement-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(30px, 5vw, 62px);
+    }
+    .announcement-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      width: fit-content;
+      margin-bottom: 18px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.76);
+    }
+    .announcement-kicker::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #ff4e6e;
+      box-shadow: 0 0 0 5px rgba(255,78,110,.12);
+    }
+    .announcement-copy h2 {
+      max-width: 760px;
+      margin-bottom: 14px;
+      font-family: var(--font-display);
+      font-size: clamp(2.3rem, 4.7vw, 4.25rem);
+      font-weight: 900;
+      line-height: 1;
+      color: #fff;
+    }
+    .announcement-copy > p {
+      max-width: 660px;
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.78;
+      color: rgba(255,255,255,.7);
+    }
+    .event-details {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 26px 0;
+    }
+    .event-detail {
+      padding: 14px 15px;
+      border-radius: 14px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.09);
+    }
+    .event-detail small {
+      display: block;
+      margin-bottom: 4px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.4);
+    }
+    .event-detail strong {
+      display: block;
+      font-family: var(--font-ui);
+      font-size: .95rem;
+      line-height: 1.4;
+      color: #fff;
+    }
+    .announcement-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+    .announcement-actions .btn-pill {
+      padding: 12px 20px;
+    }
+    .announcement-source {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      line-height: 1.5;
+      color: rgba(255,255,255,.42);
+    }
+
+    /* ══════════════════════════════════════════
        UPRISING STRIP
     ══════════════════════════════════════════ */
     .uprising-strip {
@@ -694,6 +826,221 @@
       display: block; font-family: var(--font-ui);
       font-size: 11.5px; font-weight: 300;
       color: rgba(255,255,255,.5); line-height: 1.55;
+    }
+
+    /* ══════════════════════════════════════════
+       JULY CORNER
+    ══════════════════════════════════════════ */
+    .july-corner-section {
+      background:
+        radial-gradient(circle at 8% 20%, rgba(192,22,54,.06), transparent 26%),
+        var(--surface);
+    }
+    .july-layout {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+    .july-feature {
+      position: relative;
+      min-height: 520px;
+      overflow: hidden;
+      border-radius: 28px;
+      background: var(--green-950);
+      box-shadow: var(--shadow-lg);
+    }
+    .july-feature img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .july-feature::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(2,21,9,.02), rgba(2,21,9,.86));
+    }
+    .july-feature-copy {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 28px;
+      color: #fff;
+    }
+    .july-feature-copy span {
+      display: inline-flex;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.11);
+      border: 1px solid rgba(255,255,255,.13);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.8);
+    }
+    .july-feature-copy h3 {
+      margin-bottom: 8px;
+      font-family: var(--font-display);
+      font-size: 2rem;
+      line-height: 1.08;
+    }
+    .july-feature-copy p {
+      max-width: 560px;
+      font-family: var(--font-ui);
+      font-size: .94rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: rgba(255,255,255,.76);
+    }
+    .july-overview {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+    .july-note {
+      padding: 22px 24px;
+      border-radius: 20px;
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+    }
+    .july-note strong {
+      display: block;
+      margin-bottom: 7px;
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      color: var(--ink-950);
+    }
+    .july-note p {
+      font-family: var(--font-ui);
+      font-size: .92rem;
+      font-weight: 300;
+      line-height: 1.72;
+      color: var(--ink-500);
+    }
+    .july-note.fact {
+      background: linear-gradient(145deg, var(--green-900), var(--green-700));
+      border-color: transparent;
+    }
+    .july-note.fact strong { color: #fff; }
+    .july-note.fact p { color: rgba(255,255,255,.72); }
+    .july-steps {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .july-step {
+      min-height: 138px;
+      padding: 18px;
+      border-radius: 18px;
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.85);
+    }
+    .july-step span {
+      display: block;
+      margin-bottom: 7px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--red-500);
+    }
+    .july-step strong {
+      display: block;
+      margin-bottom: 5px;
+      font-family: var(--font-ui);
+      font-size: .93rem;
+      line-height: 1.4;
+      color: var(--ink-950);
+    }
+    .july-step p {
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      line-height: 1.55;
+      color: var(--ink-500);
+    }
+    .resource-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin: 42px 0 18px;
+    }
+    .resource-heading h3 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      line-height: 1.1;
+      color: var(--ink-950);
+    }
+    .resource-heading p {
+      max-width: 590px;
+      font-family: var(--font-ui);
+      font-size: .91rem;
+      line-height: 1.65;
+      color: var(--ink-500);
+    }
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .resource-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 210px;
+      padding: 21px;
+      border-radius: 20px;
+      background: var(--white);
+      border: 1px solid rgba(204,224,212,.85);
+      box-shadow: var(--shadow-xs);
+      transition: transform .25s var(--ease-out), box-shadow .25s, border-color .25s;
+    }
+    .resource-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(13,97,48,.25);
+    }
+    .resource-card span {
+      width: fit-content;
+      margin-bottom: 12px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: var(--green-100);
+      font-family: var(--font-mono);
+      font-size: 8.5px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--green-700);
+    }
+    .resource-card strong {
+      margin-bottom: 8px;
+      font-family: var(--font-ui);
+      font-size: 1rem;
+      line-height: 1.42;
+      color: var(--ink-950);
+    }
+    .resource-card p {
+      margin-bottom: 15px;
+      font-family: var(--font-ui);
+      font-size: .86rem;
+      font-weight: 300;
+      line-height: 1.65;
+      color: var(--ink-500);
+    }
+    .resource-card em {
+      margin-top: auto;
+      font-family: var(--font-ui);
+      font-size: .86rem;
+      font-style: normal;
+      font-weight: 600;
+      color: var(--green-700);
     }
 
     /* ══════════════════════════════════════════
@@ -885,9 +1232,47 @@
     /* ══════════════════════════════════════════
        RECENT UPDATES
     ══════════════════════════════════════════ */
+    .updates-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin: -18px 0 22px;
+    }
+    .updates-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .updates-filter {
+      padding: 8px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--white);
+      color: var(--ink-500);
+      cursor: pointer;
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 500;
+      transition: background .2s, border-color .2s, color .2s;
+    }
+    .updates-filter:hover,
+    .updates-filter.active {
+      background: var(--green-800);
+      border-color: var(--green-800);
+      color: #fff;
+    }
+    .updates-freshness {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink-300);
+    }
     .updates-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
     .update-card {
-      padding: 22px; border-radius: var(--r-lg);
+      padding: 0; border-radius: var(--r-lg);
       background: var(--white); border: 1px solid rgba(204,224,212,.85);
       box-shadow: var(--shadow-xs);
       display: flex; flex-direction: column;
@@ -904,6 +1289,61 @@
     .update-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
     .update-card:hover::before { transform: scaleX(1); }
     .update-card > a { display: flex; flex-direction: column; height: 100%; color: inherit; text-decoration: none; }
+    .update-media {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--surface);
+      border-bottom: 1px solid rgba(204,224,212,.8);
+    }
+    .update-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .45s var(--ease-out);
+    }
+    .update-card:hover .update-media img { transform: scale(1.035); }
+    .update-media-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(2,21,9,.78);
+      border: 1px solid rgba(255,255,255,.13);
+      backdrop-filter: blur(8px);
+      font-family: var(--font-mono);
+      font-size: 8.5px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .update-play {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+    }
+    .update-play span {
+      display: grid;
+      width: 52px;
+      height: 52px;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,.92);
+      color: var(--red-500);
+      box-shadow: 0 10px 34px rgba(0,0,0,.24);
+      font-size: 18px;
+    }
+    .update-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 19px 20px 21px;
+    }
     .update-meta { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
     .update-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-400); flex-shrink: 0; }
     .update-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-300); }
@@ -915,6 +1355,35 @@
     }
     .update-card h3 { font-family: var(--font-ui); font-size: .96rem; font-weight: 600; color: var(--ink-950); margin-bottom: 8px; line-height: 1.4; }
     .update-card p { font-family: var(--font-ui); font-size: .9rem; font-weight: 300; line-height: 1.72; color: var(--ink-500); flex: 1; }
+    .update-source {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 16px;
+      padding-top: 13px;
+      border-top: 1px solid rgba(204,224,212,.7);
+      font-family: var(--font-mono);
+      font-size: 8.5px;
+      line-height: 1.5;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: var(--ink-300);
+    }
+    .update-source strong {
+      font-weight: 500;
+      color: var(--green-700);
+    }
+    .updates-empty {
+      grid-column: 1 / -1;
+      padding: 28px;
+      border-radius: 18px;
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      text-align: center;
+      font-family: var(--font-ui);
+      color: var(--ink-500);
+    }
 
     /* ══════════════════════════════════════════
        BLOG SECTION
@@ -2194,6 +2663,7 @@
       .join-grid  { grid-template-columns: 1fr; }
       .join-aside { position: static; }
       .gallery-stage { grid-template-columns: 1fr; }
+      .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 760px) {
       .hero-h1 { font-size: 3.3rem; }
@@ -2214,6 +2684,10 @@
       .gallery-stage-media { min-height: 340px; }
       .gallery-thumb { flex-basis: 206px; min-height: 158px; }
       .form-panel-head { flex-direction: column; }
+      .announcement-shell { grid-template-columns: minmax(240px, 320px) minmax(0, 1fr); }
+      .announcement-media { min-height: 420px; }
+      .july-layout { grid-template-columns: 1fr; }
+      .july-feature { min-height: 500px; }
     }
     @media (max-width: 680px) {
       :root { --nav-h: 62px; }
@@ -2249,6 +2723,21 @@
       .blog-modal-content h3 { font-size: 1.7rem; }
       .blog-modal-body p { font-size: .96rem; line-height: 1.82; }
       .blog-data-list { grid-template-columns: 1fr; }
+      .announcement-section { padding-top: 20px; }
+      .announcement-shell { grid-template-columns: 1fr; border-radius: 22px; }
+      .announcement-media { min-height: 0; aspect-ratio: 4 / 5; }
+      .announcement-media::after { background: linear-gradient(180deg, transparent 82%, rgba(2,21,9,.45)); }
+      .announcement-copy { padding: 28px 22px 32px; }
+      .announcement-copy h2 { font-size: 2.45rem; }
+      .event-details { grid-template-columns: 1fr; }
+      .july-feature { min-height: 450px; border-radius: 22px; }
+      .july-feature-copy { padding: 22px; }
+      .july-feature-copy h3 { font-size: 1.6rem; }
+      .july-steps,
+      .resource-grid { grid-template-columns: 1fr; }
+      .resource-heading { align-items: start; flex-direction: column; }
+      .resource-card { min-height: 0; }
+      .updates-toolbar { align-items: flex-start; flex-direction: column; }
     }
     @media (max-width: 520px) {
       .container,
@@ -2321,12 +2810,11 @@
       </a>
 
       <ul class="nav-links">
-        <li><a href="#about">আমাদের জানুন</a></li>
-        <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
+        <li><a href="#july-corner">জুলাই কর্নার</a></li>
+        <li><a href="#announcements">ঘোষণা</a></li>
+        <li><a href="#about">আমাদের সম্পর্কে</a></li>
         <li><a href="#updates">সর্বশেষ</a></li>
-        <li><a href="#blog">ব্লগ</a></li>
         <li><a href="#gallery">গ্যালারি</a></li>
-        <li><a href="#why-join">কেন যুক্ত হবেন</a></li>
         <li><a href="#join">সদস্যপদ</a></li>
       </ul>
 
@@ -2341,7 +2829,9 @@
   </div>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="#about">আমাদের জানুন</a>
+    <a href="#july-corner">জুলাই কর্নার</a>
+    <a href="#announcements">ঘোষণা ও আয়োজন</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
     <a href="#pillars">লক্ষ্য ও আদর্শ</a>
     <a href="#updates">সর্বশেষ আপডেট</a>
     <a href="#blog">ব্লগ</a>
@@ -2421,28 +2911,53 @@
     <div class="ticker-track" id="tickerTrack"></div>
   </div>
 
+  <section class="announcement-section" id="announcements" aria-labelledby="announcementsTitle">
+    <div class="container" id="announcementsList" data-content-source="data/announcements.json">
+      <article class="announcement-shell reveal">
+        <a class="announcement-media" href="img/announcements/rokte-july-2026.webp" target="_blank" rel="noopener" aria-label="রক্তে জুলাই অনুষ্ঠানের পূর্ণ পোস্টার দেখুন">
+          <img src="img/announcements/rokte-july-2026.webp" alt="রক্তে জুলাই: স্মৃতি থেকে জাগরণ অনুষ্ঠানের পোস্টার" width="1200" height="1500" />
+        </a>
+        <div class="announcement-copy">
+          <div class="announcement-kicker">বিশেষ ঘোষণা · আসন্ন আয়োজন</div>
+          <h2 id="announcementsTitle">রক্তে জুলাই</h2>
+          <p>জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মৃতি, প্রত্যক্ষ অভিজ্ঞতা ও নাগরিক শিক্ষা নতুন প্রজন্মের কাছে পৌঁছে দিতে NCP Diaspora Alliance Germany আয়োজন করছে “রক্তে জুলাই: স্মৃতি থেকে জাগরণ”। প্রামাণ্যচিত্র, আলোচনা, অভিজ্ঞতা বিনিময়, কুইজ ও অংশগ্রহণমূলক পর্বে সবাইকে স্বাগত।</p>
+          <div class="event-details" aria-label="অনুষ্ঠানের তথ্য">
+            <div class="event-detail"><small>তারিখ</small><strong>২৬ জুলাই ২০২৬ · রবিবার</strong></div>
+            <div class="event-detail"><small>সময়</small><strong>বিকাল ২টা ৩০ মিনিট</strong></div>
+            <div class="event-detail"><small>স্থান</small><strong>NRW · Germany</strong></div>
+          </div>
+          <div class="announcement-actions">
+            <a class="btn-pill btn-primary" href="img/announcements/rokte-july-2026.webp" target="_blank" rel="noopener">পোস্টার ও নিবন্ধন QR দেখুন</a>
+            <a class="btn-pill btn-ghost" href="https://www.facebook.com/ncpdagermany/" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">ফেসবুকে বিস্তারিত</a>
+            <span class="announcement-source">NCP Diaspora Alliance Germany</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <div class="uprising-strip">
     <div class="container">
       <div class="uprising-inner reveal">
         <div>
           <div class="uprising-eyebrow">কেন আমরা এখানে আছি</div>
-          <h2 class="uprising-title">জুলাই গণঅভ্যুত্থান ২০২৪:<br>বিশ্বের প্রথম সফল জেন-জি বিপ্লব</h2>
+          <h2 class="uprising-title">জুলাই গণঅভ্যুত্থান ২০২৪:<br>ছাত্র-জনতার ঐতিহাসিক অভ্যুত্থান</h2>
           <p class="uprising-desc">
-            ছাত্র-জনতার রক্ত ও ত্যাগের মধ্য দিয়ে ১৫ বছরের স্বৈরশাসনের অবসান ঘটে। জাতিসংঘের তদন্তে নিশ্চিত হয়েছে, প্রায় ১,৪০০ মানুষ শহীদ হয়েছেন। সেই শহীদদের স্বপ্নকে বাঁচিয়ে রাখাই আমাদের দায়িত্ব।
+            কোটা সংস্কারের দাবিতে শুরু হওয়া আন্দোলন দ্রুত দেশব্যাপী ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়। জাতিসংঘের মানবাধিকার দপ্তরের অনুসন্ধান অনুযায়ী, ১ জুলাই থেকে ১৫ আগস্ট ২০২৪-এর মধ্যে সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন এবং হাজারো মানুষ আহত হন। স্মৃতি সংরক্ষণ, সত্য জানা ও ন্যায়বিচারের দাবি ভবিষ্যৎ প্রজন্মের প্রতি আমাদের সম্মিলিত দায়িত্ব।
           </p>
         </div>
         <div class="uprising-nums stagger-children reveal">
           <div class="uprising-num">
-            <strong>~১৪০০</strong>
-            <span>জাতিসংঘ নিশ্চিত শহীদের সংখ্যা (জুলাই–আগস্ট ২০২৪)</span>
+            <strong>সর্বোচ্চ ১,৪০০</strong>
+            <span>OHCHR-এর আনুমানিক নিহতের সংখ্যা (১ জুলাই–১৫ আগস্ট ২০২৪)</span>
           </div>
           <div class="uprising-num">
-            <strong>২০,০০০+</strong>
-            <span>আহত আন্দোলনকারী</span>
+            <strong>হাজারো</strong>
+            <span>আহতের কথা নথিভুক্ত করেছে জাতিসংঘের অনুসন্ধান</span>
           </div>
           <div class="uprising-num">
             <strong>৫ আগস্ট</strong>
-            <span>হাসিনার পদত্যাগ ও পলায়ন, ২০২৪</span>
+            <span>সরকারের পতন ও রাজনৈতিক পটপরিবর্তন, ২০২৪</span>
           </div>
           <div class="uprising-num">
             <strong>২৮ ফেব্রু</strong>
@@ -2453,12 +2968,63 @@
     </div>
   </div>
 
+  <section class="section july-corner-section" id="july-corner">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">জুলাই কর্নার</div>
+        <h2 class="section-h">জুলাই ২০২৪: স্মৃতি, দলিল ও শেখার কেন্দ্র</h2>
+        <p class="section-sub">আন্দোলনের ধারাবাহিকতা, মানবাধিকার অনুসন্ধান, শহিদ ও আহতদের সরকারি তথ্য এবং নির্বাচিত সংবাদ-আর্কাইভ—এক জায়গা থেকে যাচাইযোগ্য উৎসে পৌঁছানোর জন্য এই কর্নার।</p>
+      </div>
+
+      <div class="july-layout">
+        <article class="july-feature reveal">
+          <img src="img/july/germany-solidarity-2024.webp" alt="জার্মানিতে জুলাই ২০২৪-এর সঙ্গে সংহতি জানানো বাংলাদেশি প্রবাসীদের সমাবেশ" loading="lazy" width="1200" height="560" />
+          <div class="july-feature-copy">
+            <span>প্রবাসের সংহতি</span>
+            <h3>বাংলাদেশের আন্দোলনে জার্মানি প্রবাসীদের কণ্ঠ</h3>
+            <p>জুলাই ২০২৪-এর সংকটকালে জার্মানিসহ বিশ্বের বিভিন্ন দেশে বাংলাদেশিরা শান্তিপূর্ণ সমাবেশ, জনমত গঠন ও তথ্য প্রচারের মাধ্যমে সংহতি জানান। এই ইতিহাসও জুলাইয়ের সামগ্রিক স্মৃতির অংশ।</p>
+          </div>
+        </article>
+
+        <div class="july-overview reveal">
+          <article class="july-note fact">
+            <strong>তথ্য ব্যবহারে আমাদের নীতি</strong>
+            <p>সংখ্যা, তারিখ ও মানবাধিকার-সংক্রান্ত দাবি প্রকাশের ক্ষেত্রে আমরা সরকারি নথি, জাতিসংঘ এবং পরিচিত সংবাদ-আর্কাইভকে অগ্রাধিকার দিই। মতামত ও যাচাইযোগ্য তথ্যকে আলাদাভাবে উপস্থাপন করা হয়।</p>
+          </article>
+          <div class="july-steps">
+            <article class="july-step"><span>প্রেক্ষাপট</span><strong>কোটা সংস্কারের দাবি</strong><p>সরকারি চাকরিতে কোটা সংস্কারের দাবিকে কেন্দ্র করে শিক্ষার্থীদের আন্দোলন নতুন গতি পায়।</p></article>
+            <article class="july-step"><span>বিস্তার</span><strong>ছাত্র-জনতার অংশগ্রহণ</strong><p>সহিংসতা ও প্রাণহানির পর আন্দোলন বৃহত্তর গণঅভ্যুত্থানে রূপ নেয়।</p></article>
+            <article class="july-step"><span>৫ আগস্ট</span><strong>রাজনৈতিক পটপরিবর্তন</strong><p>প্রধানমন্ত্রীর পদত্যাগ ও দেশত্যাগের মধ্য দিয়ে তৎকালীন সরকারের পতন ঘটে।</p></article>
+            <article class="july-step"><span>চলমান দায়িত্ব</span><strong>স্মৃতি, ন্যায়বিচার ও সংস্কার</strong><p>নিহত-আহতদের স্বীকৃতি, জবাবদিহি এবং গণতান্ত্রিক প্রতিষ্ঠান সংস্কারের প্রশ্ন আজও গুরুত্বপূর্ণ।</p></article>
+          </div>
+          <article class="july-note">
+            <strong>একটি গুরুত্বপূর্ণ সংশোধন</strong>
+            <p>OHCHR প্রায় ১,৪০০ জনকে “নিশ্চিত শহিদ” ঘোষণা করেনি; তাদের প্রতিবেদনে বলা হয়েছে, নির্ভরযোগ্য বিভিন্ন উৎসের ভিত্তিতে সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন। ওয়েবসাইটে এই ভাষাগত পার্থক্যটি সচেতনভাবে বজায় রাখা হয়েছে।</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="resource-heading reveal">
+        <div><div class="eyebrow">নির্বাচিত উৎস</div><h3>আরও জানুন, মূল উৎস পড়ুন</h3></div>
+        <p>নিচের লিংকগুলো তথ্য, নথি ও স্মৃতি সংরক্ষণের ভিন্ন ভিন্ন উৎস। কোনো বেসরকারি আর্কাইভকে সরকারি উৎস হিসেবে উপস্থাপন করা হয়নি।</p>
+      </div>
+      <div class="resource-grid stagger-children reveal" id="julyResources" data-content-source="data/july-resources.json">
+        <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।</p><em>মূল PDF পড়ুন →</em></a>
+        <a class="resource-card" href="https://djmu.portal.gov.bd/" target="_blank" rel="noopener noreferrer"><span>সরকারি তথ্য</span><strong>জুলাই গণঅভ্যুত্থান অধিদপ্তর</strong><p>শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।</p><em>সরকারি পোর্টাল →</em></a>
+        <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
+        <a class="resource-card" href="https://julyuprising.com/" target="_blank" rel="noopener noreferrer"><span>ডিজিটাল আর্কাইভ</span><strong>July Uprising News Archive</strong><p>সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।</p><em>আর্কাইভ দেখুন →</em></a>
+        <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
+        <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="about">
     <div class="container">
       <div class="section-head reveal">
-        <div class="eyebrow">আমাদের ইতিহাস</div>
-        <h2 class="section-h">কীভাবে গঠিত হলাম আমরা?</h2>
-        <p class="section-sub">জুলাই গণঅভ্যুত্থানের চেতনা ধারণ করে ছাত্র-জনতার জাগরণ থেকে উঠে আসা প্রবাসী ঐক্যের সুসংগঠিত ও অগ্রসরমান শক্তি — এনসিপি ডায়াসপোরা অ্যালায়েন্স জার্মানি।</p>
+        <div class="eyebrow">আমাদের পথচলা</div>
+        <h2 class="section-h">আন্দোলনের চেতনা থেকে প্রবাসী সংগঠন</h2>
+        <p class="section-sub">NCP Diaspora Alliance Germany জার্মানিতে বসবাসরত বাংলাদেশিদের নাগরিক অংশগ্রহণ, প্রবাসী অধিকার, জ্ঞান বিনিময় ও দায়িত্বশীল রাজনৈতিক সংলাপের একটি সংগঠিত প্ল্যাটফর্ম।</p>
       </div>
 
       <div class="about-grid">
@@ -2471,7 +3037,7 @@
             <div class="tl-card">
               <div class="tl-tag">Students Against Discrimination</div>
               <h3>জুলাই গণঅভ্যুত্থান</h3>
-              <p>কোটা সংস্কার আন্দোলন থেকে শুরু হয়ে ছাত্র-জনতার অভূতপূর্ব সংগ্রাম একটি পূর্ণ গণঅভ্যুত্থানে রূপ নেয়। ৫ আগস্ট শেখ হাসিনা পদত্যাগ করে ভারতে পালিয়ে যান।</p>
+              <p>সরকারি চাকরিতে কোটা সংস্কারের দাবিতে শুরু হওয়া আন্দোলন প্রাণহানি ও ব্যাপক দমন-পীড়নের প্রেক্ষাপটে দেশব্যাপী ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়।</p>
             </div>
           </article>
 
@@ -2481,7 +3047,7 @@
             <div class="tl-card">
               <div class="tl-tag">জাতীয় নাগরিক পার্টি</div>
               <h3>NCP প্রতিষ্ঠা (২৮ ফেব্রুয়ারি)</h3>
-              <p>নাহিদ ইসলামের নেতৃত্বে বাংলাদেশের ইতিহাসে প্রথম ছাত্রনেতৃত্বাধীন রাজনৈতিক দল গঠিত হয়। দলটি "দ্বিতীয় প্রজাতন্ত্র" ও নতুন সংবিধানের দাবি নিয়ে কাজ করছে।</p>
+              <p>জুলাই গণঅভ্যুত্থানের নেতৃত্বে থাকা একদল তরুণের উদ্যোগে জাতীয় নাগরিক পার্টি (NCP) আত্মপ্রকাশ করে। দলটি রাষ্ট্র সংস্কার, জবাবদিহি ও নতুন রাজনৈতিক বন্দোবস্তের কর্মসূচি সামনে আনে।</p>
             </div>
           </article>
 
@@ -2490,8 +3056,8 @@
           <div class="tl-date"><strong>২০২৫</strong><em>এপ্রিল</em></div>
           <div class="tl-card">
             <div class="tl-tag">প্রবাসী ঐক্যের জাগরণ</div>
-            <h3>প্রবাসীদের সুসংগঠিত করার উদ্যোগ</h3>
-            <p>জুলাই গণঅভ্যুত্থানে প্রবাসী বাংলাদেশিদের ঐতিহাসিক ও অসামান্য অবদানকে ভিত্তি করে ২০২৫ সালের এপ্রিল মাসে তাদের সুসংগঠিত করার উদ্যোগ নেওয়া হয়। এই উদ্যোগের লক্ষ্য ছিল নতুন বাংলাদেশ বিনির্মাণের সংগ্রামে প্রবাসী কণ্ঠ, প্রবাসী শক্তি ও প্রবাসী অধিকারকে একটি সুদৃঢ় রাজনৈতিক ও নৈতিক অবস্থানে একত্রিত করা।</p>
+            <h3>ডায়াসপোরা নেটওয়ার্কের উদ্যোগ</h3>
+            <p>প্রবাসীদের অভিজ্ঞতা, পেশাগত দক্ষতা ও নাগরিক দাবি একটি সুসংগঠিত কাঠামোয় যুক্ত করার উদ্যোগ নেওয়া হয়—যাতে বাংলাদেশের গণতান্ত্রিক রূপান্তর এবং প্রবাসী-সংশ্লিষ্ট নীতিতে কার্যকর অবদান রাখা যায়।</p>
           </div>
           </article>
 
@@ -2500,8 +3066,8 @@
             <div class="tl-date"><strong>২০২৫</strong><em>জুন–বর্তমান</em></div>
             <div class="tl-card">
               <div class="tl-tag">NCP Diaspora Alliance Germany</div>
-              <h3>সংগঠিত প্রবাসী প্ল্যাটফর্ম</h3>
-              <p>জার্মানিতে বসবাসরত বাংলাদেশি প্রবাসীদের জন্য একটি সুসংগঠিত, দায়বদ্ধ ও নীতিনিষ্ঠ প্ল্যাটফর্ম হিসেবে NCP Diaspora Alliance Germany সক্রিয়ভাবে কার্যক্রম পরিচালনা করছে।</p>
+              <h3>জার্মানি চ্যাপ্টারের কার্যক্রম</h3>
+              <p>কমিউনিটি সংযোগ, নাগরিক সচেতনতা, প্রবাসী সেবা ও বাংলাদেশের নীতি-আলোচনায় অংশগ্রহণ—এই চার ক্ষেত্রে জার্মানি চ্যাপ্টার ধারাবাহিক কর্মসূচি গড়ে তুলছে।</p>
             </div>
           </article>
         </div>
@@ -2512,7 +3078,7 @@
               <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
             </div>
             <h3>আমাদের মূল অঙ্গীকার</h3>
-            <p>জাতীয় ও আন্তর্জাতিক নীতিনির্ধারণে সক্রিয় ভূমিকা, সামাজিক ইস্যুতে নেতৃত্ব, নাগরিক অধিকার এবং বিশেষ করে প্রবাসী অধিকার প্রতিষ্ঠার লক্ষ্যে বাংলাদেশি প্রবাসীদের ঐক্যবদ্ধ, সুসংগঠিত ও কার্যকর শক্তিতে রূপ দিতে একটি দায়িত্বশীল ও প্রভাবশালী প্ল্যাটফর্ম হিসেবে গড়ে ওঠা।</p>
+            <p>জার্মানির বাংলাদেশি কমিউনিটিকে তথ্য, সংলাপ ও অংশগ্রহণের মাধ্যমে যুক্ত করা; প্রবাসী অধিকারকে নীতি-আলোচনায় তুলে ধরা; এবং দেশের জন্য দক্ষতা, জ্ঞান ও নেটওয়ার্কভিত্তিক অবদানের পথ তৈরি করা।</p>
           </div>
 
           <div class="feature-card">
@@ -2520,7 +3086,7 @@
               <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <h3>প্রবাসীদের কণ্ঠস্বর</h3>
-            <p>আমাদের দেশের মোট ভোটার তালিকার প্রায় ১০–১২ শতাংশই প্রবাসী বাংলাদেশি। তাদের আশা-আকাঙ্ক্ষা, দাবি, অধিকার ও প্রাপ্যতাকে ঐক্যবদ্ধ ও সুসংগঠিত রূপ দিয়ে আমরা সকল প্রবাসী বাংলাদেশির শক্তিশালী ও প্রতিনিধিত্বশীল কণ্ঠস্বর হয়ে উঠতে চাই।</p>
+            <p>বিশ্বজুড়ে থাকা বাংলাদেশিরা অর্থনীতি, জ্ঞান ও সামাজিক সংযোগে গুরুত্বপূর্ণ অবদান রাখেন। তাদের ভোটাধিকার, কনস্যুলার সেবা, বিনিয়োগ-নিরাপত্তা ও মর্যাদাপূর্ণ নাগরিক অভিজ্ঞতার প্রশ্নগুলোকে আমরা গঠনমূলকভাবে সামনে আনতে চাই।</p>
           </div>
 
           <div class="contact-row">
@@ -2538,29 +3104,29 @@
   <section class="section section-alt" id="pillars">
     <div class="container">
       <div class="section-head reveal">
-        <div class="eyebrow">আমাদের লড়াই</div>
-        <h2 class="section-h">আমরা কীসের জন্য দাঁড়িয়ে?</h2>
-        <p class="section-sub">NCP-এর কেন্দ্রীয় আদর্শ — বৈষম্যহীনতা, গণতন্ত্র ও জবাবদিহি — কে ধারণ করে আমরা তিনটি স্তম্ভের উপর আমাদের কার্যক্রম পরিচালনা করি।</p>
+        <div class="eyebrow">আমাদের কাজের নীতি</div>
+        <h2 class="section-h">যে অঙ্গীকারে আমরা কাজ করি</h2>
+        <p class="section-sub">গণতান্ত্রিক সংস্কার, প্রবাসী নাগরিক অধিকার এবং অন্তর্ভুক্তিমূলক কমিউনিটি—এই তিনটি অগ্রাধিকার আমাদের কর্মসূচি ও জনসম্পৃক্ততার ভিত্তি।</p>
       </div>
 
       <div class="pillars-grid stagger-children reveal">
         <article class="pillar">
           <div class="pillar-num">০১</div>
           <div class="pillar-badge">সংস্কার</div>
-          <h3>রাষ্ট্র সংস্কার ও দ্বিতীয় প্রজাতন্ত্র</h3>
-          <p>আমরা “দ্বিতীয় প্রজাতন্ত্র” ও নতুন সংবিধানের দাবিতে অটল। সেই দাবিকে প্রবাসী কণ্ঠে আরও জোরালো করে দুর্নীতিমুক্ত, অন্তর্ভুক্তিমূলক ও জবাবদিহিমূলক বাংলাদেশ গড়ার পক্ষে আমাদের অবস্থান সুস্পষ্ট, দৃঢ় ও নীতিগত।</p>
+          <h3>রাষ্ট্র সংস্কার ও জবাবদিহি</h3>
+          <p>স্বাধীন প্রতিষ্ঠান, কার্যকর ক্ষমতার ভারসাম্য, মানবাধিকার সুরক্ষা এবং জনগণের কাছে জবাবদিহিমূলক শাসনব্যবস্থার পক্ষে আমরা তথ্যভিত্তিক আলোচনা ও নাগরিক অংশগ্রহণকে উৎসাহিত করি।</p>
         </article>
         <article class="pillar">
           <div class="pillar-num">০২</div>
           <div class="pillar-badge">অধিকার</div>
           <h3>প্রবাসী ভোটাধিকার ও নাগরিক সেবা</h3>
-          <p>প্রায় ১.৫ কোটি প্রবাসী বাংলাদেশির ভোটার নিবন্ধন ও ভোটাধিকার নিশ্চিতকরণ, নাগরিক সেবা সহজীকরণ এবং নীতিনির্ধারণী আলোচনায় প্রবাসীদের যথাযথ প্রতিনিধিত্ব প্রতিষ্ঠার দাবিতে আমরা কেবল সমর্থন জানাই না—বরং সামনের সারি থেকে নেতৃত্ব দিয়ে এই দাবি বাস্তবায়নের লড়াইকে এগিয়ে নিচ্ছি।</p>
+          <p>ভোটার নিবন্ধন, প্রবাস থেকে ভোট প্রদান, সহজ ও স্বচ্ছ কনস্যুলার সেবা এবং নীতিনির্ধারণে প্রবাসীদের অর্থবহ প্রতিনিধিত্ব নিশ্চিত করার দাবিকে আমরা সংগঠিতভাবে সামনে আনি।</p>
         </article>
         <article class="pillar">
           <div class="pillar-num">০৩</div>
           <div class="pillar-badge">ঐক্য</div>
-          <h3>বৈষম্যহীনতা ও সাংস্কৃতিক সংহতি</h3>
-          <p>আমাদের মূল স্লোগান “বৈষম্যমুক্ত বাংলাদেশ”। ধর্ম, বর্ণ, লিঙ্গ নির্বিশেষে সকল নাগরিকের সমান মর্যাদার এই আদর্শকে আমরা জার্মানির প্রবাসী বাংলাদেশি কমিউনিটির মধ্যেও লালন করি, ধারণ করি এবং সক্রিয়ভাবে প্রচার করি।</p>
+          <h3>সমমর্যাদা ও কমিউনিটি সংহতি</h3>
+          <p>ধর্ম, বর্ণ, লিঙ্গ, অঞ্চল, পেশা ও রাজনৈতিক মতভেদ নির্বিশেষে সবার মর্যাদা রক্ষা এবং জার্মানির বহুসাংস্কৃতিক সমাজে দায়িত্বশীল, সহযোগিতামূলক বাংলাদেশি কমিউনিটি গড়ে তোলা আমাদের অঙ্গীকার।</p>
         </article>
       </div>
     </div>
@@ -2570,64 +3136,38 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">সর্বশেষ আপডেট</div>
-        <h2 class="section-h">সাম্প্রতিক কার্যক্রম ও প্রেক্ষাপট</h2>
-        <p class="section-sub">NCP Diaspora Alliance Germany-এর ফেসবুক পেজে প্রকাশিত সাম্প্রতিক কার্যক্রম, অবস্থান ও নোটিশের সংক্ষিপ্ত আপডেট।</p>
+        <h2 class="section-h">সাম্প্রতিক সংবাদ ও কার্যক্রম</h2>
+        <p class="section-sub">NCP Diaspora Alliance Germany এবং জাতীয় নাগরিক পার্টির অফিসিয়াল চ্যানেলে প্রকাশিত পোস্ট থেকে সংক্ষিপ্ত, প্রাসঙ্গিক ও উৎস-সংযুক্ত আপডেট। দীর্ঘ ক্যাপশনকে মূল বক্তব্য অক্ষুণ্ণ রেখে পাঠযোগ্য সারাংশে উপস্থাপন করা হয়।</p>
+      </div>
+
+      <div class="updates-toolbar reveal">
+        <div class="updates-filters" role="group" aria-label="আপডেটের উৎস বাছাই">
+          <button class="updates-filter active" type="button" data-update-filter="all" aria-pressed="true">সব আপডেট</button>
+          <button class="updates-filter" type="button" data-update-filter="germany" aria-pressed="false">জার্মানি চ্যাপ্টার</button>
+          <button class="updates-filter" type="button" data-update-filter="ncp" aria-pressed="false">জাতীয় নাগরিক পার্টি</button>
+          <button class="updates-filter" type="button" data-update-filter="video" aria-pressed="false">ভিডিও</button>
+        </div>
+        <span class="updates-freshness" id="updatesFreshness">অফিসিয়াল উৎস · লিংকসহ</span>
       </div>
 
       <div class="updates-grid stagger-children reveal" id="updatesGrid" data-content-source="data/recent-updates.json">
         <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">জুলাই ২০২৬</span>
-            <span class="update-badge">শোকবার্তা</span>
-          </div>
-          <h3>ফাইয়াজ তাজরিয়ানের মৃত্যুতে গভীর শোক প্রকাশ</h3>
-          <p>NCP Diaspora Alliance Germany এনসিপি চট্টগ্রাম মহানগরের সদস্য ফাইয়াজ তাজরিয়ানের মর্মান্তিক মৃত্যুতে গভীর শোক প্রকাশ করেছে এবং শোকসন্তপ্ত পরিবার, সহযোদ্ধা ও শুভাকাঙ্ক্ষীদের প্রতি সমবেদনা জানিয়েছে।</p>
+          <a href="https://www.facebook.com/ncpdagermany/" target="_blank" rel="noopener noreferrer">
+            <div class="update-media"><img src="img/announcements/rokte-july-2026.webp" alt="রক্তে জুলাই অনুষ্ঠানের পোস্টার" loading="lazy"><span class="update-media-badge">ছবি</span></div>
+            <div class="update-body"><div class="update-meta"><span class="update-dot"></span><span class="update-date">২৬ জুলাই ২০২৬</span><span class="update-badge">আয়োজন</span></div><h3>“রক্তে জুলাই: স্মৃতি থেকে জাগরণ” আয়োজন</h3><p>জুলাই গণঅভ্যুত্থানের স্মৃতি, অভিজ্ঞতা ও নাগরিক শিক্ষা নিয়ে NRW-তে দিনব্যাপী অংশগ্রহণমূলক অনুষ্ঠানের আয়োজন করা হয়েছে।</p><div class="update-source"><span>NCP Diaspora Alliance Germany</span><strong>মূল পোস্ট →</strong></div></div>
+          </a>
         </article>
         <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">জুলাই ২০২৬</span>
-            <span class="update-badge">জুলাই পদযাত্রা</span>
-          </div>
-          <h3>জুলাই পদযাত্রার প্রতি প্রবাস থেকে সংহতি</h3>
-          <p>জুলাই পদযাত্রা ও গণতান্ত্রিক শক্তির পাশে থাকার অঙ্গীকার পুনর্ব্যক্ত করে NCP Diaspora Alliance Germany প্রবাস থেকেও বাংলাদেশের ন্যায়ভিত্তিক রাজনৈতিক পরিবর্তনের পক্ষে অবস্থান জানিয়েছে।</p>
+          <a href="https://www.facebook.com/ncpdagermany/" target="_blank" rel="noopener noreferrer">
+            <div class="update-media"><img src="img/social/germany/student-safety-notice-2026.webp" alt="শিক্ষার্থীদের নিরাপত্তা বিবেচনায় পরীক্ষা স্থগিতের আহ্বান" loading="lazy"><span class="update-media-badge">নোটিশ</span></div>
+            <div class="update-body"><div class="update-meta"><span class="update-dot"></span><span class="update-date">১৩ জুলাই ২০২৬</span><span class="update-badge">জনস্বার্থ</span></div><h3>দুর্যোগ পরিস্থিতিতে শিক্ষার্থীদের নিরাপত্তাকে অগ্রাধিকার দেওয়ার আহ্বান</h3><p>বন্যা, ভারী বর্ষণ ও জলাবদ্ধতার মধ্যে পরীক্ষার্থীদের ঝুঁকি বিবেচনা করে এইচএসসি ও সমমানের পরীক্ষা সাময়িকভাবে স্থগিতের আহ্বান জানানো হয়েছে।</p><div class="update-source"><span>NCP Diaspora Alliance Germany</span><strong>মূল পোস্ট →</strong></div></div>
+          </a>
         </article>
         <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">জুলাই ২০২৬</span>
-            <span class="update-badge">মানবিক সহায়তা</span>
-          </div>
-          <h3>চট্টগ্রামে মানবিক সহায়তা কার্যক্রমের খবর প্রচার</h3>
-          <p>জাতীয় নাগরিক পার্টির চট্টগ্রাম মহানগর ও দক্ষিণ জেলার মানবিক সহায়তা কার্যক্রম সম্পর্কে NCP Diaspora Alliance Germany পেজে আপডেট প্রকাশ করা হয়েছে, যাতে প্রবাসী কমিউনিটি দেশের মানুষের পাশে থাকার বার্তা পায়।</p>
-        </article>
-        <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">জুন ২০২৬</span>
-            <span class="update-badge">প্রবাসী ভোট</span>
-          </div>
-          <h3>প্রবাসী ভোটাধিকার নিয়ে দৃঢ় অবস্থান</h3>
-          <p>প্রবাসীদের ভোটাধিকারকে নাগরিক মর্যাদা ও জাতীয় অংশগ্রহণের মৌলিক অধিকার হিসেবে তুলে ধরে NCP Diaspora Alliance Germany প্রবাসী বাংলাদেশিদের রাজনৈতিক অন্তর্ভুক্তির দাবি পুনরায় সামনে এনেছে।</p>
-        </article>
-        <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">জুন ২০২৬</span>
-            <span class="update-badge">প্রবাসী সেবা</span>
-          </div>
-          <h3>বাংলাদেশের বিমানবন্দরে প্রবাসীদের অভিজ্ঞতা নিয়ে ভিডিও বার্তা</h3>
-          <p>প্রবাসীরা দেশে ফেরার সময় বিমানবন্দরে যে মর্যাদা ও সেবার প্রশ্নের মুখোমুখি হন, তা নিয়ে প্রকাশিত ভিডিওতে NCP Diaspora Alliance Germany প্রবাসী নাগরিকদের সম্মানজনক সেবার প্রয়োজনীয়তা তুলে ধরেছে।</p>
-        </article>
-        <article class="update-card">
-          <div class="update-meta">
-            <span class="update-dot"></span>
-            <span class="update-date">১৭ এপ্রিল ২০২৬</span>
-            <span class="update-badge">দূতাবাস কার্যক্রম</span>
-          </div>
-          <h3>বাংলাদেশ দূতাবাস, বার্লিনে NCP Diaspora Alliance Germany-এর উপস্থিতি</h3>
-          <p>বার্লিনে অবস্থিত বাংলাদেশ দূতাবাসে অংশগ্রহণের মাধ্যমে NCP Diaspora Alliance Germany প্রবাসের মাটি থেকে দেশের স্বার্থ, গণমানুষের অধিকার এবং জাতীয় প্রশ্নে সচেতন ভূমিকা রাখার অঙ্গীকার পুনর্ব্যক্ত করেছে।</p>
+          <a href="https://www.facebook.com/1NationalCitizenParty/" target="_blank" rel="noopener noreferrer">
+            <div class="update-media"><img src="img/social/ncp/ncp-policy-update.webp" alt="জুলাইয়ের চেতনায় দেশ গড়ার অঙ্গীকারের গ্রাফিক" loading="lazy"><span class="update-media-badge">দলিল</span></div>
+            <div class="update-body"><div class="update-meta"><span class="update-dot"></span><span class="update-date">২০২৬</span><span class="update-badge">নীতি ও ইশতেহার</span></div><h3>জাতীয় নাগরিক পার্টির নীতি ও ইশতেহারসংক্রান্ত প্রকাশনা</h3><p>রাষ্ট্র সংস্কার, অর্থনীতি, শিক্ষা, স্বাস্থ্য, স্থানীয় সরকার ও জাতীয় নিরাপত্তাসহ বিভিন্ন খাতে NCP-এর নীতিগত অবস্থান ও ইশতেহারসংক্রান্ত প্রকাশনা দলটির অফিসিয়াল চ্যানেলে পাওয়া যাবে।</p><div class="update-source"><span>National Citizen Party</span><strong>অফিসিয়াল উৎস →</strong></div></div>
+          </a>
         </article>
       </div>
     </div>
@@ -2681,9 +3221,9 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">গ্যালারি</div>
-        <h2 class="section-h">আমাদের কার্যক্রম, মুহূর্ত ও স্মৃতি</h2>
+        <h2 class="section-h">কার্যক্রমের নির্বাচিত ভিজ্যুয়াল আর্কাইভ</h2>
         <p class="section-sub">
-          NCP Diaspora Alliance Germany-এর দূতাবাসভিত্তিক মতবিনিময়, কমিউনিটি আয়োজন, জনস্বার্থে প্রকাশিত নোটিশ এবং প্রবাসী অংশগ্রহণের নির্বাচিত ভিজ্যুয়াল আর্কাইভ।
+          দূতাবাসের সঙ্গে মতবিনিময়, কমিউনিটি আয়োজন, জুলাই স্মরণ ও জনস্বার্থে প্রকাশিত নোটিশ—তারিখ, প্রেক্ষাপট এবং মূল উৎসের লিংকসহ সংরক্ষিত নির্বাচিত ছবি।
         </p>
       </div>
 
@@ -2705,16 +3245,16 @@
 
           <div class="gallery-stage-aside">
           <article class="gallery-note-card">
-            <span>Official Activity Log</span>
-            <strong>প্রবাস থেকে সংযোগ, সংলাপ ও দায়িত্বশীল অংশগ্রহণ</strong>
-            <p>এই গ্যালারিতে শুধু সংগঠনের সঙ্গে সরাসরি সম্পর্কিত কর্মসূচি, ছবি ও নোটিশ রাখা হয়েছে। প্রতিটি এন্ট্রি সংক্ষিপ্ত কিন্তু প্রাসঙ্গিক ব্যাখ্যাসহ সাজানো।</p>
+            <span>কার্যক্রমের নথি</span>
+            <strong>সংযোগ, সংলাপ ও দায়িত্বশীল অংশগ্রহণ</strong>
+            <p>প্রতিটি এন্ট্রি সংগঠনের সরাসরি কার্যক্রম বা প্রকাশিত অবস্থানের সঙ্গে সম্পর্কিত। সংক্ষিপ্ত ক্যাপশনের সঙ্গে মূল পোস্টের লিংক রাখা হয়েছে।</p>
           </article>
 
           <article class="gallery-control-card">
             <div class="gallery-control-top">
               <div>
-                <span class="gallery-control-label">Program Gallery</span>
-                <strong>থাম্বনেইলে ক্লিক করলে বিস্তারিত দেখাবে</strong>
+                <span class="gallery-control-label">ছবি ও প্রেক্ষাপট</span>
+                <strong>একটি ছবি বেছে বিস্তারিত পড়ুন</strong>
               </div>
               <div class="gallery-nav" aria-label="গ্যালারি নেভিগেশন">
                 <button type="button" id="galleryPrev" aria-label="আগের ছবি">
@@ -2725,7 +3265,7 @@
                 </button>
               </div>
             </div>
-            <p>ডেস্কটপে ছবির উপর হোভার করলে সংক্ষিপ্ত বিবরণ দেখা যাবে। মোবাইলে থাম্বনেইলে ট্যাপ করলে উপরের স্টেজে সম্পূর্ণ ক্যাপশন ও উৎস লিংক দেখা যাবে।</p>
+            <p>থাম্বনেইল নির্বাচন করলে উপরের ফ্রেমে তারিখ, স্থান, সম্পূর্ণ ক্যাপশন ও মূল উৎসের লিংক দেখা যাবে।</p>
             <div class="gallery-progress" aria-hidden="true">
               <div class="gallery-progress-bar">
                 <span class="gallery-progress-fill" id="galleryProgressFill"></span>
@@ -2737,8 +3277,8 @@
 
         <div class="gallery-rail-wrap reveal">
           <div class="gallery-rail-head">
-            <span>Selected Updates</span>
-            <p>দূতাবাস, কমিউনিটি আয়োজন, জনস্বার্থ নোটিশ ও স্মরণ কর্মসূচি</p>
+            <span>নির্বাচিত কার্যক্রম</span>
+            <p>দূতাবাস, কমিউনিটি আয়োজন, জনস্বার্থ নোটিশ ও জুলাই স্মরণ</p>
           </div>
           <div class="gallery-rail" id="galleryTrack" aria-label="গ্যালারি থাম্বনেইল"></div>
         </div>
@@ -2750,8 +3290,8 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">কেন যুক্ত হবেন</div>
-        <h2 class="section-h">ইতিহাস গড়ার সুযোগ আজই</h2>
-        <p class="section-sub">প্রবাসে থেকেও দেশের রাজনীতি, সংস্কার ও অধিকার প্রশ্নে ভূমিকা রাখার সুযোগ এখন আরও সংগঠিত ও অর্থবহ।</p>
+        <h2 class="section-h">আপনার অংশগ্রহণ কেন গুরুত্বপূর্ণ</h2>
+        <p class="section-sub">দেশের সঙ্গে সংযোগ কেবল আবেগ বা রেমিট্যান্সে সীমাবদ্ধ নয়। নাগরিক অধিকার, জ্ঞান, দক্ষতা ও কমিউনিটি উদ্যোগে সংগঠিত অংশগ্রহণ দীর্ঘমেয়াদি পরিবর্তন তৈরি করতে পারে।</p>
       </div>
 
       <div class="why-grid">
@@ -2759,29 +3299,29 @@
           <article class="benefit-item">
             <div class="b-num">১</div>
             <div>
-              <h3>আপনার কণ্ঠস্বর গুরুত্বপূর্ণ</h3>
-              <p>প্রায় ১.৫ কোটি প্রবাসী বাংলাদেশির মধ্যে একজন হিসেবে আপনার মতামত, অংশগ্রহণ এবং অবস্থানকে সংগঠিতভাবে তুলে ধরার সুযোগ। NCP Diaspora Alliance এই কণ্ঠকে বৈশ্বিক মঞ্চে পৌঁছে দেয়।</p>
+              <h3>নীতিগত আলোচনায় প্রবাসী অভিজ্ঞতা</h3>
+              <p>জার্মানির শিক্ষা, কর্মক্ষেত্র, স্থানীয় সরকার ও নাগরিক সেবার অভিজ্ঞতাকে বাংলাদেশের সংস্কার-আলোচনায় বাস্তব ও গঠনমূলক প্রস্তাবে রূপ দেওয়ার সুযোগ।</p>
             </div>
           </article>
           <article class="benefit-item">
             <div class="b-num">২</div>
             <div>
-              <h3>প্রবাসী ভোটাধিকারের লড়াই</h3>
-              <p>প্রবাসীদের ভোটার নিবন্ধন ও পোস্টাল ব্যালটের দাবিকে সামনে আনার এই ঐতিহাসিক মুহূর্তে সক্রিয় ভূমিকা পালন করুন। এটি শুধু একটি ভোটের অধিকার নয়, এটি প্রবাসী নাগরিকত্বের স্বীকৃতির দাবি।</p>
+              <h3>ভোট ও নাগরিক সেবায় তথ্য সহায়তা</h3>
+              <p>ভোটার নিবন্ধন, প্রবাস থেকে ভোট প্রদান, পাসপোর্ট ও কনস্যুলার সেবা বিষয়ে যাচাই করা তথ্য ছড়িয়ে দেওয়া এবং সেবার মানোন্নয়নে সম্মিলিত মতামত তুলে ধরা।</p>
             </div>
           </article>
           <article class="benefit-item">
             <div class="b-num">৩</div>
             <div>
-              <h3>বৈশ্বিক নেটওয়ার্কের অংশ হোন</h3>
-              <p>NCP Diaspora Alliance ইউরোপ, আমেরিকা, মধ্যপ্রাচ্যসহ বিশ্বের ৫০টিরও বেশি দেশে সক্রিয়। জার্মানি চ্যাপ্টারের মাধ্যমে এই বৈশ্বিক নেটওয়ার্কের সাথে সংযুক্ত হোন।</p>
+              <h3>মানুষ ও দক্ষতার নেটওয়ার্ক</h3>
+              <p>শিক্ষার্থী, পেশাজীবী, উদ্যোক্তা ও কমিউনিটি সংগঠকদের সঙ্গে যুক্ত হয়ে জ্ঞান বিনিময়, পরামর্শ, স্বেচ্ছাসেবা ও বাংলাদেশমুখী উদ্যোগে অংশ নিন।</p>
             </div>
           </article>
           <article class="benefit-item">
             <div class="b-num">৪</div>
             <div>
-              <h3>জুলাইয়ের শহীদদের স্বপ্ন বাঁচান</h3>
-              <p>জাতিসংঘ নিশ্চিত প্রায় ১,৪০০ শহীদের ত্যাগ যেন বৃথা না যায় — সেই দায়িত্ব আমাদের সকলের। NCP-এর "বৈষম্যমুক্ত বাংলাদেশ" গড়ার স্বপ্নকে বাস্তবে রূপ দেওয়ার এই যাত্রায় শামিল হোন।</p>
+              <h3>স্মৃতিকে নাগরিক দায়িত্বে রূপ দিন</h3>
+              <p>জুলাই ২০২৪-এর নিহত ও আহতদের স্মরণকে কেবল আনুষ্ঠানিকতায় সীমাবদ্ধ না রেখে মানবাধিকার, জবাবদিহি ও বৈষম্যহীন রাষ্ট্রের পক্ষে ধারাবাহিক নাগরিক কাজে রূপ দিন।</p>
             </div>
           </article>
         </div>
@@ -2794,7 +3334,8 @@
           <cite>NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</cite>
           <div class="ncp-info-box">
             <div class="label">NCP সম্পর্কে জানুন</div>
-            <p>নাহিদ ইসলামের নেতৃত্বে গঠিত NCP বাংলাদেশের ইতিহাসে প্রথম ছাত্রনেতৃত্বাধীন দল। এর মূল আদর্শ: বৈষম্যমুক্তি, কেন্দ্রবাদী রাজনীতি, দুর্নীতি দূরীকরণ এবং "দ্বিতীয় প্রজাতন্ত্র"।</p>
+            <p>জাতীয় নাগরিক পার্টি ২৮ ফেব্রুয়ারি ২০২৫-এ আত্মপ্রকাশ করে। দলটির ঘোষিত অগ্রাধিকারের মধ্যে রাষ্ট্র ও সংবিধান সংস্কার, জবাবদিহিমূলক প্রতিষ্ঠান, বৈষম্যহীনতা এবং নাগরিকের রাজনৈতিক অংশগ্রহণ রয়েছে। সর্বশেষ অবস্থান ও প্রকাশনা জানতে দলটির অফিসিয়াল Facebook পেজ দেখুন।</p>
+            <a href="https://www.facebook.com/1NationalCitizenParty/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;margin-top:10px;font-family:var(--font-ui);font-size:.86rem;font-weight:600;color:var(--green-300);">অফিসিয়াল Facebook পেজ →</a>
           </div>
         </aside>
       </div>
@@ -2806,8 +3347,8 @@
       <div class="join-grid">
         <aside class="join-aside reveal">
           <div class="eyebrow">সদস্যপদ</div>
-          <h2>আজই সদস্য হোন</h2>
-          <p>পরিবর্তনের এই যাত্রায় আপনাকে স্বাগত। আপনার অংশগ্রহণই আমাদের শক্তি।</p>
+          <h2>জার্মানি চ্যাপ্টারের সঙ্গে যুক্ত হোন</h2>
+          <p>সদস্য হিসেবে কমিউনিটি উদ্যোগ, নীতি-আলোচনা, স্বেচ্ছাসেবা ও প্রবাসী অধিকারভিত্তিক কার্যক্রমে নিয়মিতভাবে অংশ নিতে পারবেন।</p>
 
           <div class="perks">
             <div class="perk">
@@ -2815,8 +3356,8 @@
                 <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
               <div>
-                <strong>সকল ইভেন্ট ও সভায় অগ্রাধিকার</strong>
-                <span>সংগঠনের কার্যক্রম ও বিশেষ উদ্যোগে সরাসরি যুক্ত থাকার সুযোগ।</span>
+                <strong>কর্মসূচি ও আলোচনায় অংশগ্রহণ</strong>
+                <span>কমিউনিটি সভা, তথ্য অধিবেশন ও বিশেষ উদ্যোগে সরাসরি যুক্ত থাকার সুযোগ।</span>
               </div>
             </div>
             <div class="perk">
@@ -2824,8 +3365,8 @@
                 <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
               </div>
               <div>
-                <strong>বৈশ্বিক ডায়াস্পোরা নেটওয়ার্ক</strong>
-                <span>৫০+ দেশের NCP Diaspora Alliance নেটওয়ার্কের সাথে সংযুক্ত হোন।</span>
+                <strong>ডায়াসপোরা নেটওয়ার্ক</strong>
+                <span>জার্মানি ও অন্যান্য দেশের সদস্য, পেশাজীবী এবং উদ্যোগের সঙ্গে সংযোগ।</span>
               </div>
             </div>
             <div class="perk">
@@ -2833,8 +3374,8 @@
                 <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
               </div>
               <div>
-                <strong>প্রবাসী অধিকার আন্দোলনে ভূমিকা</strong>
-                <span>ভোটাধিকার ও নাগরিক সেবার দাবিতে সুসংগঠিত অবস্থানের অংশ হোন।</span>
+                <strong>প্রবাসী অধিকার নিয়ে কাজ</strong>
+                <span>ভোট, নাগরিক সেবা ও প্রতিনিধিত্বের প্রশ্নে তথ্যভিত্তিক উদ্যোগের অংশ হোন।</span>
               </div>
             </div>
             <div class="perk">
@@ -2842,15 +3383,15 @@
                 <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
               </div>
               <div>
-                <strong>সংস্কারে নৈতিক ও সাংগঠনিক ভূমিকা</strong>
-                <span>প্রবাসীদের দৃষ্টিভঙ্গিকে কার্যকর অবদানে রূপ দিন।</span>
+                <strong>জ্ঞান ও দক্ষতার অবদান</strong>
+                <span>নিজের পেশাগত অভিজ্ঞতা ও ধারণাকে বাস্তব কমিউনিটি উদ্যোগে রূপ দিন।</span>
               </div>
             </div>
           </div>
 
           <div class="gdpr-note">
             <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <div>আপনার তথ্য ইউরোপীয় GDPR নীতিমালা অনুযায়ী যত্নসহকারে সংরক্ষিত। কোনো তৃতীয় পক্ষের সাথে অনুমতি ছাড়া তথ্য শেয়ার করা হবে না।</div>
+            <div>ফর্মের তথ্য সদস্যপদ যাচাই ও সাংগঠনিক যোগাযোগে ব্যবহৃত হবে। সাবমিশন FormSubmit-এর মাধ্যমে আমাদের ইমেইলে পৌঁছায়; তাদের নীতিমালা অনুযায়ী সাবমিশন সর্বোচ্চ ৩০ দিন আর্কাইভে থাকতে পারে। তথ্য সংশোধন বা মুছে দেওয়ার অনুরোধ ইমেইলে জানাতে পারবেন। <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;">FormSubmit privacy policy</a></div>
           </div>
         </aside>
 
@@ -2858,7 +3399,7 @@
           <div class="form-panel-head">
             <div class="form-intro">
               <h3>সদস্য নিবন্ধন ফর্ম</h3>
-              <p>নিচের তথ্যগুলো পূরণ করুন। ডেস্কটপে এখানেই ফর্মটি সাবমিট করতে পারেন, আর মোবাইল থেকে দ্রুত খুলতে পাশে থাকা নিবন্ধন QR কোড স্ক্যান করুন।</p>
+              <p>প্রয়োজনীয় তথ্যগুলো পূরণ করুন। সাবমিট করার আগে তথ্য ব্যবহারের সম্মতিটি পড়ুন। চাইলে নিবন্ধন QR কোডও ব্যবহার করতে পারেন।</p>
             </div>
 
             <aside class="registration-qr-card" aria-label="সদস্য নিবন্ধনের QR কোড">
@@ -2881,6 +3422,7 @@
           <form id="membershipForm" action="https://formsubmit.co/ajax/ncpdiasporade@gmail.com" method="POST" novalidate>
             <input type="hidden" name="_subject" value="New Member — NCP Diaspora Alliance Germany" />
             <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;" />
 
             <div class="field-grid">
               <div class="field">
@@ -2911,7 +3453,7 @@
 
             <div class="consent">
               <input type="checkbox" name="consent" id="consent" required />
-              <label for="consent">আমি GDPR অনুযায়ী তথ্য সুরক্ষা নীতি মেনে চলতে সম্মত এবং NCP Diaspora Alliance Germany থেকে প্রয়োজনীয় যোগাযোগ পেতে আগ্রহী।</label>
+              <label for="consent">আমি সদস্যপদ যাচাই ও সাংগঠনিক যোগাযোগের জন্য আমার তথ্য NCP Diaspora Alliance Germany-এর কাছে পাঠাতে সম্মত। আমি বুঝেছি যে FormSubmit এই সাবমিশনটি ইমেইলে পৌঁছে দেওয়ার জন্য প্রক্রিয়া করবে।</label>
             </div>
 
             <button type="submit" class="submit-btn" id="submitBtn">
@@ -2931,7 +3473,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <h3>NCP Diaspora Alliance <span>Germany</span></h3>
-          <p>জাতীয় নাগরিক পার্টির রাজনৈতিক চেতনা, গণতান্ত্রিক সংস্কার, প্রবাসী অধিকার এবং জুলাই গণঅভ্যুত্থানের মূল্যবোধকে সামনে রেখে আমরা জার্মানিতে একটি দায়বদ্ধ ও সুসংগঠিত প্ল্যাটফর্ম গড়ে তুলছি।</p>
+          <p>জুলাই গণঅভ্যুত্থানের স্মৃতি, গণতান্ত্রিক সংস্কার, প্রবাসী নাগরিক অধিকার এবং জার্মানির বাংলাদেশি কমিউনিটির দায়িত্বশীল অংশগ্রহণকে যুক্ত করে আমরা একটি তথ্যভিত্তিক ও জবাবদিহিমূলক প্ল্যাটফর্ম গড়ে তুলছি।</p>
           <div class="socials">
             <a href="https://facebook.com/ncpdagermany" target="_blank" rel="noopener noreferrer">Facebook</a>
             <a href="https://instagram.com/ncpda_germany" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -2942,6 +3484,8 @@
         <div class="footer-col">
           <h4>নেভিগেশন</h4>
           <ul>
+            <li><a href="#july-corner">জুলাই কর্নার</a></li>
+            <li><a href="#announcements">ঘোষণা ও আয়োজন</a></li>
             <li><a href="#about">আমাদের সম্পর্কে</a></li>
             <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
             <li><a href="#updates">সর্বশেষ আপডেট</a></li>
@@ -2989,10 +3533,14 @@
     }
 
     function cleanText(value, maxLength = 280) {
-      return String(value ?? '')
+      const normalized = String(value ?? '')
         .replace(/\s+/g, ' ')
-        .trim()
-        .slice(0, maxLength);
+        .trim();
+
+      if (normalized.length <= maxLength) return normalized;
+      const clipped = normalized.slice(0, maxLength + 1);
+      const lastSpace = clipped.lastIndexOf(' ');
+      return `${clipped.slice(0, lastSpace > maxLength * .65 ? lastSpace : maxLength).trim()}…`;
     }
 
     function contentItems(data) {
@@ -3153,18 +3701,17 @@
       if (!track) return;
 
       const items = [
-        { label: 'জুলাই গণঅভ্যুত্থান ২০২৪', value: 'জনতার ঐতিহাসিক জাগরণ' },
-        { label: 'শহীদের আত্মত্যাগ', value: '~১৪০০+ শহীদ' },
+        { label: 'জুলাই গণঅভ্যুত্থান ২০২৪', value: 'ছাত্র-জনতার ঐতিহাসিক জাগরণ' },
+        { label: 'OHCHR অনুসন্ধান', value: 'সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন' },
         { label: 'NCP প্রতিষ্ঠা', value: '২৮ ফেব্রুয়ারি ২০২৫' },
-        { label: 'জাতীয় নাগরিক পার্টি (NCP)', value: 'জেন-জি নেতৃত্বাধীন রাজনৈতিক প্ল্যাটফর্ম' },
-        { label: '২৪ দফা ইশতেহার', value: 'সংস্কার ও গণতন্ত্রের রোডম্যাপ' },
+        { label: 'জাতীয় নাগরিক পার্টি (NCP)', value: 'জুলাই নেতৃত্বের উদ্যোগে গঠিত রাজনৈতিক দল' },
+        { label: 'রাষ্ট্র সংস্কার', value: 'গণতান্ত্রিক প্রতিষ্ঠান ও জবাবদিহির অঙ্গীকার' },
         { label: 'নতুন বাংলাদেশ', value: 'ন্যায়, সাম্য ও গণতন্ত্রের অঙ্গীকার' },
-        { label: 'প্রবাসী বাংলাদেশি', value: '~১.৫+ কোটি' },
+        { label: 'প্রবাসী বাংলাদেশি', value: 'ভোট, সেবা ও প্রতিনিধিত্বের অধিকার' },
         { label: 'NCP Diaspora Alliance Germany', value: 'প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম' },
         { label: 'জার্মানি চ্যাপ্টার', value: 'সক্রিয় · ২০২৫' },
-        { label: 'সক্রিয় দেশ', value: '৫০+' },
+        { label: 'ডায়াসপোরা নেটওয়ার্ক', value: 'জ্ঞান, দক্ষতা ও নাগরিক অংশগ্রহণ' },
         { label: 'প্রবাসী অধিকার', value: 'রাজনৈতিক অন্তর্ভুক্তির দাবি' },
-        { label: 'NCP স্লোগান', value: 'বৈষম্যমুক্ত বাংলাদেশ' },
         { label: 'দ্বিতীয় প্রজাতন্ত্র', value: 'গণতান্ত্রিক পুনর্গঠনের লক্ষ্য' }
       ];
 
@@ -3182,26 +3729,135 @@
     }
 
     /* ─────────────────────────────────────────
+       MODULE: ANNOUNCEMENTS
+    ───────────────────────────────────────── */
+    function initAnnouncements() {
+      const announcementsList = $('#announcementsList');
+      if (!announcementsList) return;
+
+      function renderAnnouncement(items) {
+        const announcement = contentItems(items)
+          .filter((item) => item.status !== 'draft')
+          .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)))[0];
+        if (!announcement) return;
+
+        const posterUrl = safeHref(announcement.posterUrl || announcement.image || '#');
+        const sourceUrl = safeHref(announcement.sourceUrl || '#');
+        const image = escapeHtml(safeImageSrc(announcement.image, 'img/announcements/rokte-july-2026.webp'));
+        const media = `
+          <a class="announcement-media" href="${posterUrl}" target="_blank" rel="noopener" aria-label="${escapeHtml(cleanText(announcement.title, 90))} অনুষ্ঠানের পূর্ণ পোস্টার দেখুন">
+            <img src="${image}" alt="${escapeHtml(cleanText(announcement.imageAlt || announcement.title, 140))}" width="1200" height="1500" />
+          </a>`;
+        const sourceLink = sourceUrl === '#'
+          ? ''
+          : `<a class="btn-pill btn-ghost" href="${sourceUrl}" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">ফেসবুকে বিস্তারিত</a>`;
+
+        announcementsList.innerHTML = `
+          <article class="announcement-shell reveal visible">
+            ${media}
+            <div class="announcement-copy">
+              <div class="announcement-kicker">${escapeHtml(cleanText(announcement.kicker || 'বিশেষ ঘোষণা', 70))}</div>
+              <h2 id="announcementsTitle">${escapeHtml(cleanText(announcement.title, 100))}</h2>
+              <p>${escapeHtml(cleanText(announcement.excerpt, 620))}</p>
+              <div class="event-details" aria-label="অনুষ্ঠানের তথ্য">
+                <div class="event-detail"><small>তারিখ</small><strong>${escapeHtml(cleanText(announcement.date, 70))}</strong></div>
+                <div class="event-detail"><small>সময়</small><strong>${escapeHtml(cleanText(announcement.time, 60))}</strong></div>
+                <div class="event-detail"><small>স্থান</small><strong>${escapeHtml(cleanText(announcement.location, 70))}</strong></div>
+              </div>
+              <div class="announcement-actions">
+                <a class="btn-pill btn-primary" href="${posterUrl}" target="_blank" rel="noopener">পোস্টার ও নিবন্ধন QR দেখুন</a>
+                ${sourceLink}
+                <span class="announcement-source">${escapeHtml(cleanText(announcement.sourceName || 'NCP Diaspora Alliance Germany', 70))}</span>
+              </div>
+            </div>
+          </article>`;
+      }
+
+      loadContentJson(announcementsList.dataset.contentSource || 'data/announcements.json')
+        .then((data) => renderAnnouncement(data.items || data))
+        .catch(() => {
+          // Keep the current announcement already rendered in the page.
+        });
+    }
+
+    /* ─────────────────────────────────────────
+       MODULE: JULY RESOURCES
+    ───────────────────────────────────────── */
+    function initJulyResources() {
+      const resourcesGrid = $('#julyResources');
+      if (!resourcesGrid) return;
+
+      function renderResources(items) {
+        const published = contentItems(items).filter((item) => item.status !== 'draft').slice(0, 9);
+        if (!published.length) return;
+
+        resourcesGrid.innerHTML = published.map((item) => `
+          <a class="resource-card" href="${safeHref(item.url || '#')}" target="_blank" rel="noopener noreferrer">
+            <span>${escapeHtml(cleanText(item.type || 'তথ্যসূত্র', 44))}</span>
+            <strong>${escapeHtml(cleanText(item.title, 120))}</strong>
+            <p>${escapeHtml(cleanText(item.description, 260))}</p>
+            <em>${escapeHtml(cleanText(item.cta || 'মূল উৎস দেখুন →', 52))}</em>
+          </a>`).join('');
+      }
+
+      loadContentJson(resourcesGrid.dataset.contentSource || 'data/july-resources.json')
+        .then((data) => renderResources(data.items || data))
+        .catch(() => {
+          // Keep the verified fallback links already rendered in the page.
+        });
+    }
+
+    /* ─────────────────────────────────────────
        MODULE: RECENT UPDATES
     ───────────────────────────────────────── */
     function initRecentUpdates() {
       const updatesGrid = $('#updatesGrid');
       if (!updatesGrid) return;
 
+      const filterButtons = $$('[data-update-filter]');
+      const freshness = $('#updatesFreshness');
+      let allUpdates = [];
+      let activeFilter = 'all';
+
       function renderUpdates(items) {
-        const published = contentItems(items).filter((item) => item.status !== 'draft').slice(0, 6);
-        if (!published.length) return;
+        const published = contentItems(items)
+          .filter((item) => item.status !== 'draft')
+          .filter((item) => activeFilter === 'all'
+            || (activeFilter === 'video' && item.mediaType === 'video')
+            || item.sourceKey === activeFilter)
+          .slice(0, 9);
+
+        if (!published.length) {
+          updatesGrid.innerHTML = '<div class="updates-empty">এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।</div>';
+          return;
+        }
 
         updatesGrid.innerHTML = published.map((item) => {
           const href = safeHref(item.sourceUrl || item.link || '#');
+          const mediaType = cleanText(item.mediaType || (item.image ? 'image' : 'text'), 12).toLowerCase();
+          const image = item.image ? escapeHtml(safeImageSrc(item.image, 'img/blog/july-uprising.svg')) : '';
+          const mediaLabel = mediaType === 'video' ? 'ভিডিও' : mediaType === 'image' ? 'ছবি' : '';
+          const media = image ? `
+            <div class="update-media">
+              <img src="${image}" alt="${escapeHtml(cleanText(item.imageAlt || item.title, 160))}" loading="lazy" />
+              ${mediaLabel ? `<span class="update-media-badge">${mediaLabel}</span>` : ''}
+              ${mediaType === 'video' ? '<span class="update-play" aria-hidden="true"><span>▶</span></span>' : ''}
+            </div>` : '';
           const body = `
-            <div class="update-meta">
-              <span class="update-dot"></span>
-              <span class="update-date">${escapeHtml(cleanText(item.date, 42))}</span>
-              <span class="update-badge">${escapeHtml(cleanText(item.badge || item.tag || 'আপডেট', 28))}</span>
+            ${media}
+            <div class="update-body">
+              <div class="update-meta">
+                <span class="update-dot"></span>
+                <span class="update-date">${escapeHtml(cleanText(item.date, 42))}</span>
+                <span class="update-badge">${escapeHtml(cleanText(item.badge || item.tag || 'আপডেট', 28))}</span>
+              </div>
+              <h3>${escapeHtml(cleanText(item.title, 140))}</h3>
+              <p>${escapeHtml(cleanText(item.excerpt, 330))}</p>
+              <div class="update-source">
+                <span>${escapeHtml(cleanText(item.sourceName || item.source || 'অফিসিয়াল উৎস', 70))}</span>
+                <strong>${mediaType === 'video' ? 'ভিডিও দেখুন →' : 'মূল পোস্ট →'}</strong>
+              </div>
             </div>
-            <h3>${escapeHtml(cleanText(item.title, 140))}</h3>
-            <p>${escapeHtml(cleanText(item.excerpt, 360))}</p>
           `;
 
           return href === '#'
@@ -3210,8 +3866,29 @@
         }).join('');
       }
 
+      filterButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          activeFilter = button.dataset.updateFilter || 'all';
+          filterButtons.forEach((candidate) => {
+            const selected = candidate === button;
+            candidate.classList.toggle('active', selected);
+            candidate.setAttribute('aria-pressed', String(selected));
+          });
+          renderUpdates(allUpdates);
+        });
+      });
+
       loadContentJson(updatesGrid.dataset.contentSource || 'data/recent-updates.json')
-        .then((data) => renderUpdates(Array.isArray(data.items) ? data.items : data))
+        .then((data) => {
+          allUpdates = contentItems(data.items || data);
+          renderUpdates(allUpdates);
+          if (freshness && data.updatedAt) {
+            const date = new Date(data.updatedAt);
+            if (!Number.isNaN(date.getTime())) {
+              freshness.textContent = `সর্বশেষ হালনাগাদ · ${new Intl.DateTimeFormat('bn-BD', { dateStyle: 'long', timeZone: 'Europe/Berlin' }).format(date)}`;
+            }
+          }
+        })
         .catch(() => {
           // Keep the hardcoded fallback cards already present in the page.
         });
@@ -3732,6 +4409,13 @@
 
       async function handleSubmit(e) {
         e.preventDefault();
+
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          showStatus('error', 'অনুগ্রহ করে সব আবশ্যিক তথ্য পূরণ করুন এবং তথ্য ব্যবহারের সম্মতিটি নিশ্চিত করুন।');
+          return;
+        }
+
         clearStatus();
         setLoading(true);
 
@@ -3786,6 +4470,8 @@
       initScrollReveal();
       initBackToTop();
       initTicker();
+      initAnnouncements();
+      initJulyResources();
       initRecentUpdates();
       initBlog();
       initGallery();

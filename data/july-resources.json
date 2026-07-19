@@ -1,0 +1,59 @@
+{
+  "updatedAt": "2026-07-19",
+  "items": [
+    {
+      "id": "ohchr-fact-finding-report",
+      "status": "published",
+      "type": "জাতিসংঘ · প্রতিবেদন",
+      "title": "OHCHR Fact-Finding Report",
+      "description": "জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।",
+      "cta": "মূল PDF পড়ুন →",
+      "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+    },
+    {
+      "id": "july-uprising-directorate",
+      "status": "published",
+      "type": "সরকারি তথ্য",
+      "title": "জুলাই গণঅভ্যুত্থান অধিদপ্তর",
+      "description": "শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।",
+      "cta": "সরকারি পোর্টাল →",
+      "url": "https://djmu.portal.gov.bd/"
+    },
+    {
+      "id": "july-memorial-museum",
+      "status": "published",
+      "type": "স্মৃতি জাদুঘর",
+      "title": "July Mass Uprising Memorial Museum",
+      "description": "জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।",
+      "cta": "ডিজিটাল সংগ্রহ দেখুন →",
+      "url": "https://july36.gov.bd/"
+    },
+    {
+      "id": "july-uprising-news-archive",
+      "status": "published",
+      "type": "ডিজিটাল আর্কাইভ",
+      "title": "July Uprising News Archive",
+      "description": "সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।",
+      "cta": "আর্কাইভ দেখুন →",
+      "url": "https://julyuprising.com/"
+    },
+    {
+      "id": "daily-star-36-days",
+      "status": "published",
+      "type": "সংবাদ আর্কাইভ",
+      "title": "36 Days of July",
+      "description": "১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।",
+      "cta": "টাইমলাইন দেখুন →",
+      "url": "https://july36.thedailystar.net/"
+    },
+    {
+      "id": "july-revolution-archive",
+      "status": "published",
+      "type": "কমিউনিটি আর্কাইভ",
+      "title": "July Revolution Archive",
+      "description": "ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।",
+      "cta": "সংগ্রহ দেখুন →",
+      "url": "https://julyarchive.com/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-07-19T18:06:00+02:00",
+  "items": [
+    {
+      "id": "rokte-july-2026",
+      "status": "published",
+      "featured": true,
+      "kicker": "বিশেষ ঘোষণা · আসন্ন আয়োজন",
+      "title": "রক্তে জুলাই",
+      "excerpt": "জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মৃতি, প্রত্যক্ষ অভিজ্ঞতা ও নাগরিক শিক্ষা নতুন প্রজন্মের কাছে পৌঁছে দিতে NCP Diaspora Alliance Germany আয়োজন করছে ‘রক্তে জুলাই: স্মৃতি থেকে জাগরণ’। প্রামাণ্যচিত্র, আলোচনা, অভিজ্ঞতা বিনিময়, কুইজ ও অংশগ্রহণমূলক পর্বে সবাইকে স্বাগত।",
+      "date": "২৬ জুলাই ২০২৬ · রবিবার",
+      "dateISO": "2026-07-26T14:30:00+02:00",
+      "time": "বিকাল ২টা ৩০ মিনিট",
+      "location": "NRW · Germany",
+      "image": "img/announcements/rokte-july-2026.webp",
+      "imageAlt": "রক্তে জুলাই: স্মৃতি থেকে জাগরণ অনুষ্ঠানের পোস্টার",
+      "posterUrl": "img/announcements/rokte-july-2026.webp",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/ncpdagermany/"
+    }
+  ]
+}

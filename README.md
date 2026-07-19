@@ -1,38 +1,62 @@
 # NCP Diaspora Alliance Germany Website
 
-This repository contains the static frontend for the NCP Diaspora Alliance Germany website at `ncpdagermany.de`.
+Static website for [ncpdagermany.de](https://ncpdagermany.de), published from the `main` branch through GitHub Pages.
 
-## Structure
+## What visitors can find
 
-- `index.html` contains the live page markup, styles, and scripts.
-- `img/` contains the public website images.
-- `CNAME` connects the custom domain.
+- July Corner with an evidence-based overview and links to primary, official, and clearly labelled community archives
+- Announcements and upcoming events, including image, date, time, location, and source
+- NCP Diaspora Alliance Germany history, work principles, gallery, blog, and membership form
+- Source-filtered updates from NCP Diaspora Alliance Germany and the National Citizen Party
+- Image cards and video preview cards that always link back to the original post
 
-## Local Preview
-
-Run a local static server:
+## Local preview and validation
 
 ```bash
 npm start
+npm run validate
 ```
 
-Then open `http://localhost:3000`.
+Open `http://localhost:3000` after starting the preview server.
 
-## Publish
+## Editable content
 
-Commit changes on `main`, then push:
+- `data/announcements.json`: current announcements and events
+- `data/july-resources.json`: July Corner links
+- `data/recent-updates.json`: recent activity and social updates
+- `data/blog-posts.json`: blog articles and source lists
+- `index.html`: layout, fallback content, styles, and browser-side rendering
+
+Use `status: "draft"` to keep an item out of the published interface. Keep every factual update linked to its original source.
+
+## Automatic Facebook updates
+
+`.github/workflows/sync-facebook.yml` runs hourly and can also be started manually from GitHub Actions. It fetches posts through the Meta Graph API, converts long captions into a concise context-first excerpt, caches stable image/video thumbnails in `img/social/`, validates the result, and commits the update to `main`.
+
+Configure these in **GitHub repository → Settings → Secrets and variables → Actions**:
+
+Secrets:
+
+- `NCPDA_GERMANY_PAGE_ACCESS_TOKEN`
+- `NCP_PAGE_ACCESS_TOKEN` (optional until the central NCP page grants the required access)
+
+Variables:
+
+- `NCPDA_GERMANY_PAGE_ID` (optional; defaults to `ncpdagermany`)
+- `NCP_PAGE_ID` (optional; defaults to `1NationalCitizenParty`)
+- `META_GRAPH_VERSION` (optional; defaults to the version in `social-feed.config.json`)
+
+The token must be allowed to read the corresponding Page's published posts. Reading a Page that the app/user does not manage may require Meta approval for public Page content. If a token is missing or a source fails, the sync keeps the existing website content and does not delete it.
+
+Video posts are shown as linked video preview cards. This avoids storing large video files in Git and avoids depending on short-lived Facebook video URLs.
+
+## Publishing
+
+For normal website edits:
 
 ```bash
+npm run validate
 git push origin main
 ```
 
-The live site is expected to update from the GitHub repository after the push.
-
-## Content
-
-The recent updates and blog sections are powered by JSON files:
-
-- `data/recent-updates.json`
-- `data/blog-posts.json`
-
-Edit those files manually, preview locally, then commit and push.
+GitHub Pages should then update the custom domain. Keep `CNAME` unchanged.
