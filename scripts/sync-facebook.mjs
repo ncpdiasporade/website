@@ -10,6 +10,8 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
 const graphVersion = process.env.META_GRAPH_VERSION || config.graphVersion;
 const successfulSources = new Set();
+const featuredResolvedSources = new Set();
+const configuredFeaturedUrls = new Map();
 const freshItems = [];
 
 function clean(value) {
@@ -19,6 +21,17 @@ function clean(value) {
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
+}
+
+function canonicalUrl(value) {
+  try {
+    const url = new URL(String(value || '').trim());
+    url.hash = '';
+    url.search = '';
+    return url.href.replace(/\/$/, '');
+  } catch {
+    return String(value || '').trim().replace(/\/$/, '');
+  }
 }
 
 function clipAtWord(value, maxLength) {
@@ -125,6 +138,21 @@ async function cacheImage(imageUrl, pageKey, postId) {
   return relativePath.split(path.sep).join('/');
 }
 
+async function graphRequest(page, pageId, edge, fields, token) {
+  const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(pageId)}/${edge}`);
+  url.searchParams.set('fields', fields);
+  url.searchParams.set('limit', String(config.postsPerPage));
+  url.searchParams.set('access_token', token);
+
+  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  if (!response.ok) {
+    const detail = clipAtWord(await response.text(), 260).replace(token, '[redacted]');
+    throw new Error(`${page.sourceName} Graph API ${edge} request failed (${response.status}): ${detail}`);
+  }
+
+  return response.json();
+}
+
 async function fetchPagePosts(page) {
   const token = process.env[page.tokenEnv];
   if (!token) {
@@ -133,21 +161,46 @@ async function fetchPagePosts(page) {
   }
 
   const pageId = process.env[page.pageIdEnv] || page.pageId;
-  const fields = 'id,message,created_time,permalink_url,full_picture,attachments{media_type,type,url,title,description,target,media,subattachments}';
-  const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(pageId)}/posts`);
-  url.searchParams.set('fields', fields);
-  url.searchParams.set('limit', String(config.postsPerPage));
-  url.searchParams.set('access_token', token);
+  const baseFields = 'id,message,created_time,permalink_url,full_picture,attachments{media_type,type,url,title,description,target,media,subattachments}';
+  let posts = [];
+  let featuredResolved = false;
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
-  if (!response.ok) {
-    const detail = clipAtWord(await response.text(), 260).replace(token, '[redacted]');
-    throw new Error(`${page.sourceName} Graph API request failed (${response.status}): ${detail}`);
+  try {
+    const payload = await graphRequest(page, pageId, 'posts', `${baseFields},is_pinned`, token);
+    posts = Array.isArray(payload.data) ? payload.data : [];
+    featuredResolved = posts.some((post) => Object.prototype.hasOwnProperty.call(post, 'is_pinned'));
+  } catch (error) {
+    console.warn(`${error.message} Retrying without the optional featured flag.`);
+    const payload = await graphRequest(page, pageId, 'posts', baseFields, token);
+    posts = Array.isArray(payload.data) ? payload.data : [];
   }
 
-  const payload = await response.json();
+  try {
+    const payload = await graphRequest(page, pageId, 'pinned_posts', baseFields, token);
+    const pinnedPosts = Array.isArray(payload.data) ? payload.data : [];
+    const postsById = new Map(posts.map((post) => [post.id, post]));
+    for (const post of pinnedPosts) {
+      postsById.set(post.id, { ...postsById.get(post.id), ...post, is_pinned: true });
+    }
+    posts = [...postsById.values()];
+    featuredResolved = true;
+  } catch (error) {
+    console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; preserving the last verified featured state.`);
+  }
+
+  const configuredFeaturedUrl = canonicalUrl(process.env[page.featuredPostUrlEnv] || '');
+  if (configuredFeaturedUrl) {
+    configuredFeaturedUrls.set(page.key, configuredFeaturedUrl);
+    posts = posts.map((post) => ({
+      ...post,
+      is_pinned: canonicalUrl(post.permalink_url) === configuredFeaturedUrl
+    }));
+    featuredResolved = true;
+  }
+
   successfulSources.add(page.key);
-  return Array.isArray(payload.data) ? payload.data : [];
+  if (featuredResolved) featuredResolvedSources.add(page.key);
+  return posts;
 }
 
 async function normalizePost(post, page) {
@@ -175,6 +228,7 @@ async function normalizePost(post, page) {
     sourceName: page.sourceName,
     sourceUrl: post.permalink_url || attachment?.url || page.pageUrl,
     mediaType,
+    featured: Boolean(post.is_pinned),
     ...(image ? { image, imageAlt: title } : {}),
     managedBy: 'facebook-sync'
   };
@@ -194,13 +248,27 @@ if (!successfulSources.size) {
   process.exit(0);
 }
 
+const existingFeaturedIds = new Set((existing.items || []).filter((item) => item.featured === true).map((item) => item.id));
+const existingFeaturedUrls = new Set((existing.items || []).filter((item) => item.featured === true).map((item) => item.sourceUrl).filter(Boolean));
+for (const item of freshItems) {
+  if (featuredResolvedSources.has(item.sourceKey)) continue;
+  if (existingFeaturedIds.has(item.id) || existingFeaturedUrls.has(item.sourceUrl)) item.featured = true;
+}
+
 const freshIds = new Set(freshItems.map((item) => item.id));
 const freshUrls = new Set(freshItems.map((item) => item.sourceUrl).filter(Boolean));
-const preserved = (existing.items || []).filter((item) => {
-  if (freshIds.has(item.id) || freshUrls.has(item.sourceUrl)) return false;
-  if (item.managedBy === 'facebook-sync' && successfulSources.has(item.sourceKey)) return false;
-  return true;
-});
+const preserved = (existing.items || [])
+  .filter((item) => {
+    if (freshIds.has(item.id) || freshUrls.has(item.sourceUrl)) return false;
+    if (item.managedBy === 'facebook-sync' && successfulSources.has(item.sourceKey)) return false;
+    return true;
+  })
+  .map((item) => {
+    const configuredUrl = configuredFeaturedUrls.get(item.sourceKey);
+    if (configuredUrl) return { ...item, featured: canonicalUrl(item.sourceUrl) === configuredUrl };
+    if (featuredResolvedSources.has(item.sourceKey) && item.featured === true) return { ...item, featured: false };
+    return item;
+  });
 
 const items = [...freshItems, ...preserved]
   .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
@@ -219,4 +287,5 @@ for (const page of config.pages) {
   }
 }
 
-console.log(`Published ${freshItems.length} Facebook post(s) from ${successfulSources.size} source(s).`);
+const featuredCount = items.filter((item) => item.featured === true).length;
+console.log(`Published ${freshItems.length} Facebook post(s) from ${successfulSources.size} source(s); ${featuredCount} featured post(s) are active.`);

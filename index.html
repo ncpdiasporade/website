@@ -1213,7 +1213,7 @@
       flex-direction: column;
       padding: 19px 20px 21px;
     }
-    .update-meta { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
+    .update-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-bottom: 12px; }
     .update-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green-400); flex-shrink: 0; }
     .update-date { font-family: var(--font-mono); font-size: 10px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-300); }
     .update-badge {
@@ -1221,6 +1221,15 @@
       background: var(--green-100); color: var(--green-700);
       font-family: var(--font-mono); font-size: 9px; letter-spacing: .06em;
       margin-left: auto;
+    }
+    .update-featured {
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--red-50);
+      color: var(--red-700);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .06em;
     }
     .update-card h3 { font-family: var(--font-ui); font-size: .96rem; font-weight: 600; color: var(--ink-950); margin-bottom: 8px; line-height: 1.4; }
     .update-card p { font-family: var(--font-ui); font-size: .9rem; font-weight: 300; line-height: 1.72; color: var(--ink-500); flex: 1; }
@@ -2962,25 +2971,26 @@
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">সর্বশেষ আপডেট</div>
-        <h2 class="section-h">সাম্প্রতিক সংবাদ ও কার্যক্রম</h2>
-        <p class="section-sub">NCP Diaspora Alliance Germany এবং জাতীয় নাগরিক পার্টির অফিসিয়াল চ্যানেলে প্রকাশিত পোস্ট থেকে সংক্ষিপ্ত, প্রাসঙ্গিক ও উৎস-সংযুক্ত আপডেট। দীর্ঘ ক্যাপশনকে মূল বক্তব্য অক্ষুণ্ণ রেখে পাঠযোগ্য সারাংশে উপস্থাপন করা হয়।</p>
+        <h2 class="section-h">সাম্প্রতিক কার্যক্রম ও আপডেট</h2>
+        <p class="section-sub">সাম্প্রতিক সাংগঠনিক কার্যক্রম, ঘোষণা, বিবৃতি, ছবি ও ভিডিও—মূল প্রকাশনার লিংকসহ নিয়মিত হালনাগাদ।</p>
       </div>
 
       <div class="updates-toolbar reveal">
-        <div class="updates-filters" role="group" aria-label="আপডেটের উৎস বাছাই">
+        <div class="updates-filters" role="group" aria-label="আপডেটের ধরন ও উৎস বাছাই">
+          <button class="updates-filter" type="button" data-update-filter="featured" aria-pressed="false">ফিচার্ড</button>
           <button class="updates-filter active" type="button" data-update-filter="all" aria-pressed="true">সব আপডেট</button>
           <button class="updates-filter" type="button" data-update-filter="germany" aria-pressed="false">জার্মানি চ্যাপ্টার</button>
           <button class="updates-filter" type="button" data-update-filter="ncp" aria-pressed="false">জাতীয় নাগরিক পার্টি</button>
           <button class="updates-filter" type="button" data-update-filter="video" aria-pressed="false">ভিডিও</button>
         </div>
-        <span class="updates-freshness" id="updatesFreshness">অফিসিয়াল উৎস · লিংকসহ</span>
+        <span class="updates-freshness" id="updatesFreshness" aria-live="polite">প্রতি ঘণ্টায় হালনাগাদ</span>
       </div>
 
       <div class="updates-grid stagger-children reveal" id="updatesGrid" data-content-source="data/recent-updates.json">
         <article class="update-card">
           <a href="https://www.facebook.com/ncpdagermany/" target="_blank" rel="noopener noreferrer">
             <div class="update-media"><img src="img/announcements/rokte-july-2026.webp" alt="রক্তে জুলাই অনুষ্ঠানের পোস্টার" loading="lazy"><span class="update-media-badge">ছবি</span></div>
-            <div class="update-body"><div class="update-meta"><span class="update-dot"></span><span class="update-date">২৬ জুলাই ২০২৬</span><span class="update-badge">আয়োজন</span></div><h3>জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে “রক্তে জুলাই”</h3><p>অনুষ্ঠানটি দুটি পর্বে সাজানো—“স্মৃতি থেকে জাগরণ” এবং “অভিজ্ঞতা, অংশগ্রহণ ও আগামীর ভাবনা”। প্রামাণ্যচিত্র, জুলাইয়ের জীবন্ত গল্প, বক্তব্য, ভিজ্যুয়াল স্টোরি, প্রবাস থেকে আলোচনা, অভিজ্ঞতা ও প্রতিফলন, শর্ট ফিল্ম, July Quiz এবং ইন্টারঅ্যাকটিভ সেশন এতে অন্তর্ভুক্ত।</p><div class="update-source"><span>NCP Diaspora Alliance Germany</span><strong>মূল পোস্ট →</strong></div></div>
+            <div class="update-body"><div class="update-meta"><span class="update-dot"></span><span class="update-date">২৬ জুলাই ২০২৬</span><span class="update-featured">ফিচার্ড</span><span class="update-badge">আয়োজন</span></div><h3>জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে “রক্তে জুলাই”</h3><p>অনুষ্ঠানটি দুটি পর্বে সাজানো—“স্মৃতি থেকে জাগরণ” এবং “অভিজ্ঞতা, অংশগ্রহণ ও আগামীর ভাবনা”। প্রামাণ্যচিত্র, জুলাইয়ের জীবন্ত গল্প, বক্তব্য, ভিজ্যুয়াল স্টোরি, প্রবাস থেকে আলোচনা, অভিজ্ঞতা ও প্রতিফলন, শর্ট ফিল্ম, July Quiz এবং ইন্টারঅ্যাকটিভ সেশন এতে অন্তর্ভুক্ত।</p><div class="update-source"><span>NCP Diaspora Alliance Germany</span><strong>মূল পোস্ট →</strong></div></div>
           </a>
         </article>
         <article class="update-card">
@@ -3649,12 +3659,13 @@
         const published = contentItems(items)
           .filter((item) => item.status !== 'draft')
           .filter((item) => activeFilter === 'all'
+            || (activeFilter === 'featured' && item.featured === true && /(^|\.)facebook\.com$/i.test(new URL(safeHref(item.sourceUrl || '#'), window.location.href).hostname))
             || (activeFilter === 'video' && item.mediaType === 'video')
             || item.sourceKey === activeFilter)
           .slice(0, 9);
 
         if (!published.length) {
-          updatesGrid.innerHTML = '<div class="updates-empty">এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।</div>';
+          updatesGrid.innerHTML = `<div class="updates-empty">${activeFilter === 'featured' ? 'এই মুহূর্তে কোনো Facebook ফিচার্ড পোস্ট পাওয়া যায়নি। পেজে নতুন পোস্ট ফিচার্ড হলে এখানে দেখা যাবে।' : 'এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।'}</div>`;
           return;
         }
 
@@ -3675,6 +3686,7 @@
               <div class="update-meta">
                 <span class="update-dot"></span>
                 <span class="update-date">${escapeHtml(cleanText(item.date, 42))}</span>
+                ${item.featured === true ? '<span class="update-featured">ফিচার্ড</span>' : ''}
                 <span class="update-badge">${escapeHtml(cleanText(item.badge || item.tag || 'আপডেট', 28))}</span>
               </div>
               <h3>${escapeHtml(cleanText(item.title, 140))}</h3>

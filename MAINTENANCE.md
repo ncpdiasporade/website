@@ -35,8 +35,9 @@ Manual fallback:
 1. Add the item at the top of `data/recent-updates.json`.
 2. Set `sourceKey` to `germany` or `ncp`.
 3. Set `mediaType` to `text`, `image`, or `video`.
-4. For a video, use a preview image and link `sourceUrl` to the original Facebook video.
-5. Keep the excerpt under roughly 340 characters and preserve the post's actual meaning.
+4. Set `featured: true` only when that exact Facebook item is pinned in the Page's Featured area.
+5. For a video, use a preview image and link `sourceUrl` to the original Facebook video.
+6. Keep the excerpt under roughly 340 characters and preserve the post's actual meaning.
 
 ## Privacy and membership submissions
 

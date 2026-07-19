@@ -26,6 +26,7 @@ const markup = html.split('<script>')[0];
 for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'updates', 'blog', 'gallery', 'why-join', 'join']) {
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
+if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
 
 const ids = [...markup.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
 for (const id of new Set(ids)) {
@@ -38,6 +39,16 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
     if (item.image && !/^https?:|^data:/i.test(item.image) && !fs.existsSync(path.join(rootDir, item.image))) {
       errors.push(`${relativePath}: missing image ${item.image}`);
     }
+  }
+}
+
+const recentUpdates = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/recent-updates.json'), 'utf8'));
+for (const item of (recentUpdates.items || []).filter((candidate) => candidate.featured === true)) {
+  try {
+    const hostname = new URL(item.sourceUrl).hostname;
+    if (!/(^|\.)facebook\.com$/i.test(hostname)) errors.push(`data/recent-updates.json: featured item ${item.id} is not linked to Facebook`);
+  } catch {
+    errors.push(`data/recent-updates.json: featured item ${item.id} has an invalid sourceUrl`);
   }
 }
 
