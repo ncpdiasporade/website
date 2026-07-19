@@ -6,7 +6,7 @@ Static website for [ncpdagermany.de](https://ncpdagermany.de), published from th
 
 - July Uprising overview with primary, official, news, and clearly labelled community archive links in the same section
 - Announcements and upcoming events, including image, date, time, location, and source
-- NCP Diaspora Alliance Germany history, work principles, gallery, blog, and membership form
+- NCP Diaspora Alliance Germany history, work principles, blog, and membership form
 - Source-filtered updates from NCP Diaspora Alliance Germany and the National Citizen Party
 - Image cards and video preview cards that always link back to the original post
 

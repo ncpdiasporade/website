@@ -18,7 +18,7 @@ Edit `data/announcements.json`. The first published item with `featured: true` i
 - optimized poster image and accurate alternative text
 - original Facebook source URL
 
-After an event, either mark it `draft`, replace it with the next announcement, or move its photos and recap into the gallery/recent updates.
+After an event, either mark it `draft`, replace it with the next announcement, or move its recap into recent updates.
 
 ## July information workflow
 

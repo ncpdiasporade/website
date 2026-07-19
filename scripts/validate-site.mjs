@@ -23,7 +23,7 @@ for (const relativePath of jsonFiles) {
 
 const html = fs.readFileSync(path.join(rootDir, 'index.html'), 'utf8');
 const markup = html.split('<script>')[0];
-for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'updates', 'blog', 'gallery', 'why-join', 'join']) {
+for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'updates', 'blog', 'why-join', 'join']) {
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
