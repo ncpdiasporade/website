@@ -801,7 +801,7 @@
       font-family: var(--font-ui);
       font-size: 1rem; font-weight: 300;
       line-height: 1.72; color: rgba(255,255,255,.62);
-      max-width: 500px;
+      max-width: 620px;
     }
 
     .uprising-nums {
@@ -828,163 +828,32 @@
       color: rgba(255,255,255,.5); line-height: 1.55;
     }
 
-    /* ══════════════════════════════════════════
-       JULY CORNER
-    ══════════════════════════════════════════ */
-    .july-corner-section {
-      background:
-        radial-gradient(circle at 8% 20%, rgba(192,22,54,.06), transparent 26%),
-        var(--surface);
-    }
-    .july-layout {
-      display: grid;
-      grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
-      gap: 22px;
-      align-items: stretch;
-    }
-    .july-feature {
+    .uprising-resources {
       position: relative;
-      min-height: 520px;
-      overflow: hidden;
-      border-radius: 28px;
-      background: var(--green-950);
-      box-shadow: var(--shadow-lg);
-    }
-    .july-feature img {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .july-feature::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(2,21,9,.02), rgba(2,21,9,.86));
-    }
-    .july-feature-copy {
-      position: absolute;
       z-index: 1;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 28px;
-      color: #fff;
+      margin-top: 38px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,.1);
     }
-    .july-feature-copy span {
-      display: inline-flex;
-      margin-bottom: 10px;
-      padding: 5px 10px;
-      border-radius: 999px;
-      background: rgba(255,255,255,.11);
-      border: 1px solid rgba(255,255,255,.13);
-      font-family: var(--font-mono);
-      font-size: 9px;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,.8);
-    }
-    .july-feature-copy h3 {
-      margin-bottom: 8px;
-      font-family: var(--font-display);
-      font-size: 2rem;
-      line-height: 1.08;
-    }
-    .july-feature-copy p {
-      max-width: 560px;
-      font-family: var(--font-ui);
-      font-size: .94rem;
-      font-weight: 300;
-      line-height: 1.7;
-      color: rgba(255,255,255,.76);
-    }
-    .july-overview {
-      display: flex;
-      flex-direction: column;
-      gap: 13px;
-    }
-    .july-note {
-      padding: 22px 24px;
-      border-radius: 20px;
-      background: var(--white);
-      border: 1px solid rgba(204,224,212,.85);
-      box-shadow: var(--shadow-xs);
-    }
-    .july-note strong {
-      display: block;
-      margin-bottom: 7px;
-      font-family: var(--font-ui);
-      font-size: 1rem;
-      color: var(--ink-950);
-    }
-    .july-note p {
-      font-family: var(--font-ui);
-      font-size: .92rem;
-      font-weight: 300;
-      line-height: 1.72;
-      color: var(--ink-500);
-    }
-    .july-note.fact {
-      background: linear-gradient(145deg, var(--green-900), var(--green-700));
-      border-color: transparent;
-    }
-    .july-note.fact strong { color: #fff; }
-    .july-note.fact p { color: rgba(255,255,255,.72); }
-    .july-steps {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-    }
-    .july-step {
-      min-height: 138px;
-      padding: 18px;
-      border-radius: 18px;
-      background: var(--white);
-      border: 1px solid rgba(204,224,212,.85);
-    }
-    .july-step span {
-      display: block;
-      margin-bottom: 7px;
-      font-family: var(--font-mono);
-      font-size: 9px;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--red-500);
-    }
-    .july-step strong {
-      display: block;
-      margin-bottom: 5px;
-      font-family: var(--font-ui);
-      font-size: .93rem;
-      line-height: 1.4;
-      color: var(--ink-950);
-    }
-    .july-step p {
-      font-family: var(--font-ui);
-      font-size: .82rem;
-      line-height: 1.55;
-      color: var(--ink-500);
-    }
-    .resource-heading {
+    .uprising-resource-heading {
       display: flex;
       align-items: end;
       justify-content: space-between;
       gap: 18px;
-      margin: 42px 0 18px;
+      margin-bottom: 18px;
     }
-    .resource-heading h3 {
+    .uprising-resource-heading h3 {
       font-family: var(--font-display);
       font-size: 2rem;
       line-height: 1.1;
-      color: var(--ink-950);
+      color: #fff;
     }
-    .resource-heading p {
+    .uprising-resource-heading p {
       max-width: 590px;
       font-family: var(--font-ui);
       font-size: .91rem;
       line-height: 1.65;
-      color: var(--ink-500);
+      color: rgba(255,255,255,.55);
     }
     .resource-grid {
       display: grid;
@@ -994,37 +863,37 @@
     .resource-card {
       display: flex;
       flex-direction: column;
-      min-height: 210px;
+      min-height: 190px;
       padding: 21px;
       border-radius: 20px;
-      background: var(--white);
-      border: 1px solid rgba(204,224,212,.85);
-      box-shadow: var(--shadow-xs);
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.09);
       transition: transform .25s var(--ease-out), box-shadow .25s, border-color .25s;
     }
     .resource-card:hover {
       transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-      border-color: rgba(13,97,48,.25);
+      background: rgba(255,255,255,.09);
+      box-shadow: 0 18px 38px rgba(0,0,0,.18);
+      border-color: rgba(77,255,160,.2);
     }
     .resource-card span {
       width: fit-content;
       margin-bottom: 12px;
       padding: 4px 9px;
       border-radius: 999px;
-      background: var(--green-100);
+      background: rgba(77,255,160,.1);
       font-family: var(--font-mono);
       font-size: 8.5px;
       letter-spacing: .1em;
       text-transform: uppercase;
-      color: var(--green-700);
+      color: #8fffc0;
     }
     .resource-card strong {
       margin-bottom: 8px;
       font-family: var(--font-ui);
       font-size: 1rem;
       line-height: 1.42;
-      color: var(--ink-950);
+      color: #fff;
     }
     .resource-card p {
       margin-bottom: 15px;
@@ -1032,7 +901,7 @@
       font-size: .86rem;
       font-weight: 300;
       line-height: 1.65;
-      color: var(--ink-500);
+      color: rgba(255,255,255,.58);
     }
     .resource-card em {
       margin-top: auto;
@@ -1040,7 +909,7 @@
       font-size: .86rem;
       font-style: normal;
       font-weight: 600;
-      color: var(--green-700);
+      color: #8fffc0;
     }
 
     /* ══════════════════════════════════════════
@@ -2686,8 +2555,6 @@
       .form-panel-head { flex-direction: column; }
       .announcement-shell { grid-template-columns: minmax(240px, 320px) minmax(0, 1fr); }
       .announcement-media { min-height: 420px; }
-      .july-layout { grid-template-columns: 1fr; }
-      .july-feature { min-height: 500px; }
     }
     @media (max-width: 680px) {
       :root { --nav-h: 62px; }
@@ -2730,12 +2597,8 @@
       .announcement-copy { padding: 28px 22px 32px; }
       .announcement-copy h2 { font-size: 2.45rem; }
       .event-details { grid-template-columns: 1fr; }
-      .july-feature { min-height: 450px; border-radius: 22px; }
-      .july-feature-copy { padding: 22px; }
-      .july-feature-copy h3 { font-size: 1.6rem; }
-      .july-steps,
       .resource-grid { grid-template-columns: 1fr; }
-      .resource-heading { align-items: start; flex-direction: column; }
+      .uprising-resource-heading { align-items: start; flex-direction: column; }
       .resource-card { min-height: 0; }
       .updates-toolbar { align-items: flex-start; flex-direction: column; }
     }
@@ -2810,7 +2673,7 @@
       </a>
 
       <ul class="nav-links">
-        <li><a href="#july-corner">জুলাই কর্নার</a></li>
+        <li><a href="#uprising">জুলাই ২০২৪</a></li>
         <li><a href="#announcements">ঘোষণা</a></li>
         <li><a href="#about">আমাদের সম্পর্কে</a></li>
         <li><a href="#updates">সর্বশেষ</a></li>
@@ -2829,7 +2692,7 @@
   </div>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="#july-corner">জুলাই কর্নার</a>
+    <a href="#uprising">জুলাই ২০২৪</a>
     <a href="#announcements">ঘোষণা ও আয়োজন</a>
     <a href="#about">আমাদের সম্পর্কে</a>
     <a href="#pillars">লক্ষ্য ও আদর্শ</a>
@@ -2936,12 +2799,12 @@
     </div>
   </section>
 
-  <div class="uprising-strip">
+  <section class="uprising-strip" id="uprising" aria-labelledby="uprisingTitle">
     <div class="container">
       <div class="uprising-inner reveal">
         <div>
           <div class="uprising-eyebrow">কেন আমরা এখানে আছি</div>
-          <h2 class="uprising-title">জুলাই গণঅভ্যুত্থান ২০২৪:<br>ছাত্র-জনতার ঐতিহাসিক অভ্যুত্থান</h2>
+          <h2 class="uprising-title" id="uprisingTitle">জুলাই গণঅভ্যুত্থান ২০২৪:<br>ছাত্র-জনতার ঐতিহাসিক অভ্যুত্থান</h2>
           <p class="uprising-desc">
             কোটা সংস্কারের দাবিতে শুরু হওয়া আন্দোলন দ্রুত দেশব্যাপী ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়। জাতিসংঘের মানবাধিকার দপ্তরের অনুসন্ধান অনুযায়ী, ১ জুলাই থেকে ১৫ আগস্ট ২০২৪-এর মধ্যে সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন এবং হাজারো মানুষ আহত হন। স্মৃতি সংরক্ষণ, সত্য জানা ও ন্যায়বিচারের দাবি ভবিষ্যৎ প্রজন্মের প্রতি আমাদের সম্মিলিত দায়িত্ব।
           </p>
@@ -2965,56 +2828,19 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-  <section class="section july-corner-section" id="july-corner">
-    <div class="container">
-      <div class="section-head reveal">
-        <div class="eyebrow">জুলাই কর্নার</div>
-        <h2 class="section-h">জুলাই ২০২৪: স্মৃতি, দলিল ও শেখার কেন্দ্র</h2>
-        <p class="section-sub">আন্দোলনের ধারাবাহিকতা, মানবাধিকার অনুসন্ধান, শহিদ ও আহতদের সরকারি তথ্য এবং নির্বাচিত সংবাদ-আর্কাইভ—এক জায়গা থেকে যাচাইযোগ্য উৎসে পৌঁছানোর জন্য এই কর্নার।</p>
-      </div>
-
-      <div class="july-layout">
-        <article class="july-feature reveal">
-          <img src="img/july/germany-solidarity-2024.webp" alt="জার্মানিতে জুলাই ২০২৪-এর সঙ্গে সংহতি জানানো বাংলাদেশি প্রবাসীদের সমাবেশ" loading="lazy" width="1200" height="560" />
-          <div class="july-feature-copy">
-            <span>প্রবাসের সংহতি</span>
-            <h3>বাংলাদেশের আন্দোলনে জার্মানি প্রবাসীদের কণ্ঠ</h3>
-            <p>জুলাই ২০২৪-এর সংকটকালে জার্মানিসহ বিশ্বের বিভিন্ন দেশে বাংলাদেশিরা শান্তিপূর্ণ সমাবেশ, জনমত গঠন ও তথ্য প্রচারের মাধ্যমে সংহতি জানান। এই ইতিহাসও জুলাইয়ের সামগ্রিক স্মৃতির অংশ।</p>
-          </div>
-        </article>
-
-        <div class="july-overview reveal">
-          <article class="july-note fact">
-            <strong>তথ্য ব্যবহারে আমাদের নীতি</strong>
-            <p>সংখ্যা, তারিখ ও মানবাধিকার-সংক্রান্ত দাবি প্রকাশের ক্ষেত্রে আমরা সরকারি নথি, জাতিসংঘ এবং পরিচিত সংবাদ-আর্কাইভকে অগ্রাধিকার দিই। মতামত ও যাচাইযোগ্য তথ্যকে আলাদাভাবে উপস্থাপন করা হয়।</p>
-          </article>
-          <div class="july-steps">
-            <article class="july-step"><span>প্রেক্ষাপট</span><strong>কোটা সংস্কারের দাবি</strong><p>সরকারি চাকরিতে কোটা সংস্কারের দাবিকে কেন্দ্র করে শিক্ষার্থীদের আন্দোলন নতুন গতি পায়।</p></article>
-            <article class="july-step"><span>বিস্তার</span><strong>ছাত্র-জনতার অংশগ্রহণ</strong><p>সহিংসতা ও প্রাণহানির পর আন্দোলন বৃহত্তর গণঅভ্যুত্থানে রূপ নেয়।</p></article>
-            <article class="july-step"><span>৫ আগস্ট</span><strong>রাজনৈতিক পটপরিবর্তন</strong><p>প্রধানমন্ত্রীর পদত্যাগ ও দেশত্যাগের মধ্য দিয়ে তৎকালীন সরকারের পতন ঘটে।</p></article>
-            <article class="july-step"><span>চলমান দায়িত্ব</span><strong>স্মৃতি, ন্যায়বিচার ও সংস্কার</strong><p>নিহত-আহতদের স্বীকৃতি, জবাবদিহি এবং গণতান্ত্রিক প্রতিষ্ঠান সংস্কারের প্রশ্ন আজও গুরুত্বপূর্ণ।</p></article>
-          </div>
-          <article class="july-note">
-            <strong>একটি গুরুত্বপূর্ণ সংশোধন</strong>
-            <p>OHCHR প্রায় ১,৪০০ জনকে “নিশ্চিত শহিদ” ঘোষণা করেনি; তাদের প্রতিবেদনে বলা হয়েছে, নির্ভরযোগ্য বিভিন্ন উৎসের ভিত্তিতে সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন। ওয়েবসাইটে এই ভাষাগত পার্থক্যটি সচেতনভাবে বজায় রাখা হয়েছে।</p>
-          </article>
+      <div class="uprising-resources reveal">
+        <div class="uprising-resource-heading">
+          <div><div class="uprising-eyebrow">বিস্তারিত জানুন</div><h3>জুলাই গণঅভ্যুত্থান সম্পর্কে নির্ভরযোগ্য উৎস</h3></div>
+          <p>জাতিসংঘের প্রতিবেদন, সরকারি তথ্য, স্মৃতি জাদুঘর এবং নির্বাচিত সংবাদ ও কমিউনিটি আর্কাইভে ঘটনাপ্রবাহ, সাক্ষ্য, নথি, ছবি ও ভিডিও দেখুন।</p>
         </div>
-      </div>
-
-      <div class="resource-heading reveal">
-        <div><div class="eyebrow">নির্বাচিত উৎস</div><h3>আরও জানুন, মূল উৎস পড়ুন</h3></div>
-        <p>নিচের লিংকগুলো তথ্য, নথি ও স্মৃতি সংরক্ষণের ভিন্ন ভিন্ন উৎস। কোনো বেসরকারি আর্কাইভকে সরকারি উৎস হিসেবে উপস্থাপন করা হয়নি।</p>
-      </div>
-      <div class="resource-grid stagger-children reveal" id="julyResources" data-content-source="data/july-resources.json">
-        <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।</p><em>মূল PDF পড়ুন →</em></a>
-        <a class="resource-card" href="https://djmu.portal.gov.bd/" target="_blank" rel="noopener noreferrer"><span>সরকারি তথ্য</span><strong>জুলাই গণঅভ্যুত্থান অধিদপ্তর</strong><p>শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।</p><em>সরকারি পোর্টাল →</em></a>
-        <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
-        <a class="resource-card" href="https://julyuprising.com/" target="_blank" rel="noopener noreferrer"><span>ডিজিটাল আর্কাইভ</span><strong>July Uprising News Archive</strong><p>সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।</p><em>আর্কাইভ দেখুন →</em></a>
-        <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
-        <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
+        <div class="resource-grid stagger-children reveal" id="julyResources" data-content-source="data/july-resources.json">
+          <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।</p><em>মূল PDF পড়ুন →</em></a>
+          <a class="resource-card" href="https://djmu.portal.gov.bd/" target="_blank" rel="noopener noreferrer"><span>সরকারি তথ্য</span><strong>জুলাই গণঅভ্যুত্থান অধিদপ্তর</strong><p>শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।</p><em>সরকারি পোর্টাল →</em></a>
+          <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
+          <a class="resource-card" href="https://julyuprising.com/" target="_blank" rel="noopener noreferrer"><span>ডিজিটাল আর্কাইভ</span><strong>July Uprising News Archive</strong><p>সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।</p><em>আর্কাইভ দেখুন →</em></a>
+          <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
+          <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
+        </div>
       </div>
     </div>
   </section>
@@ -3484,7 +3310,7 @@
         <div class="footer-col">
           <h4>নেভিগেশন</h4>
           <ul>
-            <li><a href="#july-corner">জুলাই কর্নার</a></li>
+            <li><a href="#uprising">জুলাই ২০২৪</a></li>
             <li><a href="#announcements">ঘোষণা ও আয়োজন</a></li>
             <li><a href="#about">আমাদের সম্পর্কে</a></li>
             <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>

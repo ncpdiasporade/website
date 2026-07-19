@@ -4,7 +4,7 @@ Static website for [ncpdagermany.de](https://ncpdagermany.de), published from th
 
 ## What visitors can find
 
-- July Corner with an evidence-based overview and links to primary, official, and clearly labelled community archives
+- July Uprising overview with primary, official, news, and clearly labelled community archive links in the same section
 - Announcements and upcoming events, including image, date, time, location, and source
 - NCP Diaspora Alliance Germany history, work principles, gallery, blog, and membership form
 - Source-filtered updates from NCP Diaspora Alliance Germany and the National Citizen Party
@@ -22,7 +22,7 @@ Open `http://localhost:3000` after starting the preview server.
 ## Editable content
 
 - `data/announcements.json`: current announcements and events
-- `data/july-resources.json`: July Corner links
+- `data/july-resources.json`: links shown beneath the July Uprising overview
 - `data/recent-updates.json`: recent activity and social updates
 - `data/blog-posts.json`: blog articles and source lists
 - `index.html`: layout, fallback content, styles, and browser-side rendering

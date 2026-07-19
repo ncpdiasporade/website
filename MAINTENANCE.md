@@ -20,9 +20,9 @@ Edit `data/announcements.json`. The first published item with `featured: true` i
 
 After an event, either mark it `draft`, replace it with the next announcement, or move its photos and recap into the gallery/recent updates.
 
-## July Corner workflow
+## July information workflow
 
-Edit `data/july-resources.json`. Label every link as one of these kinds: official/government, United Nations, news archive, or community archive. Do not describe a community archive as a government or official source.
+Edit `data/july-resources.json` to maintain the links shown under the July Uprising overview. Label every link as one of these kinds: official/government, United Nations, news archive, or community archive. Do not describe a community archive as a government or official source.
 
 For casualty figures, preserve the OHCHR wording: the report estimates that as many as 1,400 people may have been killed between 1 July and 15 August 2024. It is not a UN-confirmed list of 1,400 martyrs.
 
