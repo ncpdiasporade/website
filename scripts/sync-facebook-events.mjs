@@ -183,7 +183,7 @@ async function normalizeEvent(event) {
     console.warn(`Could not cache Facebook Event image ${id}: ${error.message}`);
   }
 
-  return {
+  const normalized = {
     id: `facebook-event-${id}`,
     status: 'published',
     featured: false,
@@ -201,6 +201,28 @@ async function normalizeEvent(event) {
     sourceUrl: eventUrl(id),
     managedBy: 'facebook-events',
     updatedAt: event.updated_time || event.start_time
+  };
+
+  const reviewed = (existing.items || []).find((item) => (
+    item.preserveCopy === true
+    && canonicalUrl(item.sourceUrl) === canonicalUrl(normalized.sourceUrl)
+  ));
+  if (!reviewed) return normalized;
+
+  return {
+    ...normalized,
+    id: reviewed.id || normalized.id,
+    title: reviewed.title || normalized.title,
+    excerpt: reviewed.excerpt || normalized.excerpt,
+    date: reviewed.date || normalized.date,
+    dateISO: reviewed.dateISO || normalized.dateISO,
+    time: reviewed.time || normalized.time,
+    location: reviewed.location || normalized.location,
+    image: reviewed.image || normalized.image,
+    imageAlt: reviewed.imageAlt || normalized.imageAlt,
+    posterUrl: reviewed.posterUrl || normalized.posterUrl,
+    kicker: reviewed.kicker || normalized.kicker,
+    preserveCopy: true
   };
 }
 

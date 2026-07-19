@@ -35,6 +35,8 @@ Use `status: "draft"` to keep an item out of the published interface. Keep every
 
 `.github/workflows/sync-facebook-events.yml` runs once every 24 hours. It reads upcoming Events from the NCP Diaspora Alliance Germany Page (with recent Page-post Event attachments as an API fallback), caches the Event cover in `img/events/`, updates `data/announcements.json`, and publishes the nearest upcoming Event in `কর্মসূচি`.
 
+For an Event whose approved wording must not change, set `preserveCopy: true` on the matching fallback item. The sync will still verify the Facebook Event and its source link while preserving the reviewed title, description, date, time, location, and poster. This safeguard is enabled for `রক্তে জুলাই`.
+
 Configure these in **GitHub repository → Settings → Secrets and variables → Actions**:
 
 Secrets:

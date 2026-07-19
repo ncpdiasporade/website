@@ -3526,7 +3526,8 @@
         const isFacebookEvent = announcement.sourceType === 'facebook-event';
         const sourceUrl = safeHref(announcement.sourceUrl || '#');
         const posterUrl = safeHref(announcement.posterUrl || announcement.image || announcement.sourceUrl || '#');
-        const mediaUrl = isFacebookEvent ? sourceUrl : posterUrl;
+        const hasSeparatePoster = posterUrl !== '#' && posterUrl !== sourceUrl;
+        const mediaUrl = hasSeparatePoster ? posterUrl : sourceUrl;
         const image = escapeHtml(safeImageSrc(announcement.image, 'img/logo/logo-transparent.png'));
         const media = `
           <a class="announcement-media" href="${mediaUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(cleanText(announcement.title, 90))} সম্পর্কে বিস্তারিত দেখুন">
@@ -3535,6 +3536,9 @@
         const sourceLink = sourceUrl === '#' || isFacebookEvent
           ? ''
           : `<a class="btn-pill btn-ghost" href="${sourceUrl}" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">ফেসবুকে বিস্তারিত</a>`;
+        const eventPosterLink = isFacebookEvent && hasSeparatePoster
+          ? `<a class="btn-pill btn-ghost" href="${posterUrl}" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">পোস্টার ও QR দেখুন</a>`
+          : '';
 
         announcementsList.innerHTML = `
           <article class="announcement-shell reveal visible">
@@ -3550,6 +3554,7 @@
               </div>
               <div class="announcement-actions">
                 <a class="btn-pill btn-primary" href="${isFacebookEvent ? sourceUrl : posterUrl}" target="_blank" rel="noopener noreferrer">${isFacebookEvent ? 'Facebook Event দেখুন' : 'পোস্টার ও নিবন্ধন QR দেখুন'}</a>
+                ${eventPosterLink}
                 ${sourceLink}
                 <span class="announcement-source">${escapeHtml(cleanText(announcement.sourceName || 'NCP Diaspora Alliance Germany', 70))}</span>
                 <span class="announcement-source">Facebook Events · প্রতি ২৪ ঘণ্টায় যাচাই</span>

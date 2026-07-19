@@ -20,6 +20,8 @@ Automatic Event updates are handled every 24 hours by `.github/workflows/sync-fa
 
 The daily sync removes expired automated Events and ignores expired dated fallback items. Add a completed Event recap to recent updates when it remains useful.
 
+Use `preserveCopy: true` when an Event's approved programme text must remain verbatim. The Facebook Event will still be checked daily, but the reviewed title, description, time, location, and poster will not be overwritten.
+
 ## July information workflow
 
 Edit `data/july-resources.json` to maintain the links shown under the July Uprising overview. Label every link as one of these kinds: official/government, United Nations, news archive, or community archive. Do not describe a community archive as a government or official source.
