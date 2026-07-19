@@ -1,7 +1,10 @@
 {
   "graphVersion": "v24.0",
-  "postsPerPage": 12,
-  "maxPublishedItems": 18,
+  "postsPerPage": 16,
+  "eventsPerPage": 10,
+  "videosPerPage": 25,
+  "maxFeedItems": 10,
+  "maxVideoItems": 6,
   "maxImageBytes": 8000000,
   "pages": [
     {

@@ -9,8 +9,10 @@ const outputPath = path.join(rootDir, 'data', 'recent-updates.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
 const graphVersion = process.env.META_GRAPH_VERSION || config.graphVersion;
+const requireSync = String(process.env.REQUIRE_FACEBOOK_SYNC || '').toLowerCase() === 'true';
 const successfulSources = new Set();
 const featuredResolvedSources = new Set();
+const videoMetricsFailures = new Set();
 const configuredFeaturedUrls = new Map();
 const freshItems = [];
 
@@ -107,7 +109,7 @@ function attachmentImage(post, attachment) {
 
 function mediaTypeFor(attachment) {
   const value = String(attachment?.media_type || attachment?.type || '').toLowerCase();
-  if (value.includes('video')) return 'video';
+  if (value.includes('video') || value.includes('reel')) return 'video';
   if (value.includes('photo') || value.includes('image') || value.includes('album')) return 'image';
   return 'text';
 }
@@ -117,6 +119,28 @@ function extensionFromContentType(contentType) {
   if (contentType.includes('webp')) return 'webp';
   if (contentType.includes('gif')) return 'gif';
   return 'jpg';
+}
+
+function viewCount(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? Math.round(number) : 0;
+}
+
+function facebookId(value) {
+  return String(value || '').split('_').pop().replace(/[^a-zA-Z0-9_-]/g, '-');
+}
+
+function configuredUrlsFor(page) {
+  const values = String(
+    process.env[page.featuredPostUrlsEnv]
+      || process.env[page.featuredPostUrlEnv]
+      || ''
+  )
+    .split(/[\n,]+/)
+    .map((value) => canonicalUrl(value))
+    .filter(Boolean);
+  if (values.length) configuredFeaturedUrls.set(page.key, values);
+  return values;
 }
 
 async function cacheImage(imageUrl, pageKey, postId) {
@@ -129,7 +153,7 @@ async function cacheImage(imageUrl, pageKey, postId) {
   const bytes = Buffer.from(await response.arrayBuffer());
   if (bytes.length > config.maxImageBytes) throw new Error(`image is larger than ${config.maxImageBytes} bytes`);
 
-  const safeId = String(postId).replace(/[^a-zA-Z0-9_-]/g, '-');
+  const safeId = facebookId(postId);
   const relativeDir = path.join('img', 'social', pageKey);
   const relativePath = path.join(relativeDir, `fb-${safeId}.${extensionFromContentType(contentType)}`);
   const absoluteDir = path.join(rootDir, relativeDir);
@@ -138,26 +162,84 @@ async function cacheImage(imageUrl, pageKey, postId) {
   return relativePath.split(path.sep).join('/');
 }
 
-async function graphRequest(page, pageId, edge, fields, token) {
+async function graphRequest(page, pageId, edge, fields, token, limit = config.postsPerPage) {
   const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(pageId)}/${edge}`);
   url.searchParams.set('fields', fields);
-  url.searchParams.set('limit', String(config.postsPerPage));
+  url.searchParams.set('limit', String(limit));
   url.searchParams.set('access_token', token);
 
   const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
   if (!response.ok) {
-    const detail = clipAtWord(await response.text(), 260).replace(token, '[redacted]');
+    const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`${page.sourceName} Graph API ${edge} request failed (${response.status}): ${detail}`);
   }
 
   return response.json();
 }
 
-async function fetchPagePosts(page) {
-  const token = process.env[page.tokenEnv];
-  if (!token) {
-    console.log(`Skipping ${page.sourceName}: ${page.tokenEnv} is not configured.`);
+async function fetchVideoViews(page, video, token) {
+  const isReel = /\/reels?\//i.test(String(video.permalink_url || ''));
+  const metricSets = isReel
+    ? ['blue_reels_play_count,total_video_views', 'total_video_views']
+    : ['total_video_views'];
+  let lastError;
+
+  for (const metricNames of metricSets) {
+    const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(video.id)}/video_insights`);
+    url.searchParams.set('metric', metricNames);
+    url.searchParams.set('access_token', token);
+    const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+    if (!response.ok) {
+      const detail = clipAtWord(await response.text(), 220).replaceAll(token, '[redacted]');
+      lastError = new Error(`${page.sourceName} video insights failed (${response.status}): ${detail}`);
+      continue;
+    }
+    const payload = await response.json();
+    const metric = (payload.data || []).find((item) => item.name === 'blue_reels_play_count')
+      || (payload.data || []).find((item) => item.name === 'total_video_views');
+    const value = metric?.values?.[0]?.value;
+    return Number.isFinite(Number(value)) ? Number(value) : null;
+  }
+
+  throw lastError || new Error(`${page.sourceName} video insights did not return a view metric.`);
+}
+
+async function fetchPageVideos(page, pageId, token) {
+  const baseFields = 'id,title,description,created_time,updated_time,permalink_url,picture,thumbnails{uri,is_preferred}';
+  try {
+    const payload = await graphRequest(page, pageId, 'videos', baseFields, token, config.videosPerPage);
+    const videos = Array.isArray(payload.data) ? payload.data : [];
+    let resolvedCount = 0;
+    const withViews = [];
+    for (let index = 0; index < videos.length; index += 5) {
+      const batch = videos.slice(index, index + 5);
+      const resolved = await Promise.all(batch.map(async (video) => {
+        try {
+          const views = await fetchVideoViews(page, video, token);
+          if (views !== null) resolvedCount += 1;
+          return { ...video, views: views ?? 0 };
+        } catch (error) {
+          console.warn(error.message);
+          return { ...video, views: 0 };
+        }
+      }));
+      withViews.push(...resolved);
+    }
+    if (videos.length && resolvedCount === 0) videoMetricsFailures.add(page.key);
+    return withViews;
+  } catch (error) {
+    console.warn(`${error.message} Continuing with video posts found in the Page feed.`);
+    videoMetricsFailures.add(page.key);
     return [];
+  }
+}
+
+async function fetchPageContent(page) {
+  const token = process.env[page.tokenEnv];
+  configuredUrlsFor(page);
+  if (!token) {
+    console.warn(`Skipping ${page.sourceName}: ${page.tokenEnv} is not configured.`);
+    return { posts: [], videos: [] };
   }
 
   const pageId = process.env[page.pageIdEnv] || page.pageId;
@@ -170,13 +252,13 @@ async function fetchPagePosts(page) {
     posts = Array.isArray(payload.data) ? payload.data : [];
     featuredResolved = posts.some((post) => Object.prototype.hasOwnProperty.call(post, 'is_pinned'));
   } catch (error) {
-    console.warn(`${error.message} Retrying without the optional featured flag.`);
+    console.warn(`${error.message} Retrying posts without the optional pinned flag.`);
     const payload = await graphRequest(page, pageId, 'posts', baseFields, token);
     posts = Array.isArray(payload.data) ? payload.data : [];
   }
 
   try {
-    const payload = await graphRequest(page, pageId, 'pinned_posts', baseFields, token);
+    const payload = await graphRequest(page, pageId, 'pinned_posts', baseFields, token, 5);
     const pinnedPosts = Array.isArray(payload.data) ? payload.data : [];
     const postsById = new Map(posts.map((post) => [post.id, post]));
     for (const post of pinnedPosts) {
@@ -184,31 +266,22 @@ async function fetchPagePosts(page) {
     }
     posts = [...postsById.values()];
     featuredResolved = true;
-  } catch (error) {
-    console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; preserving the last verified featured state.`);
+  } catch {
+    console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; using the configured permalink or the last verified pinned item.`);
   }
 
-  const configuredFeaturedUrlList = String(
-    process.env[page.featuredPostUrlsEnv]
-      || process.env[page.featuredPostUrlEnv]
-      || ''
-  )
-    .split(/[\n,]+/)
-    .map((value) => canonicalUrl(value))
-    .filter(Boolean);
-  const configuredFeaturedUrlSet = new Set(configuredFeaturedUrlList);
-  if (configuredFeaturedUrlSet.size) {
-    configuredFeaturedUrls.set(page.key, configuredFeaturedUrlSet);
+  const configured = configuredFeaturedUrls.get(page.key) || [];
+  if (configured.length) {
     posts = posts.map((post) => ({
       ...post,
-      is_pinned: configuredFeaturedUrlSet.has(canonicalUrl(post.permalink_url))
+      is_pinned: configured.includes(canonicalUrl(post.permalink_url))
     }));
     featuredResolved = true;
   }
 
   successfulSources.add(page.key);
   if (featuredResolved) featuredResolvedSources.add(page.key);
-  return posts;
+  return { posts, videos: await fetchPageVideos(page, pageId, token) };
 }
 
 async function normalizePost(post, page) {
@@ -224,8 +297,10 @@ async function normalizePost(post, page) {
     console.warn(`Could not cache media for ${post.id}: ${error.message}`);
   }
 
+  const sourceUrl = post.permalink_url || attachment?.url || page.pageUrl;
   return {
-    id: `facebook-${page.key}-${String(post.id).replace(/[^a-zA-Z0-9_-]/g, '-')}`,
+    id: `facebook-${page.key}-${facebookId(post.id)}`,
+    facebookId: facebookId(post.id),
     status: 'published',
     date: banglaDate(post.created_time),
     createdAt: post.created_time,
@@ -234,58 +309,172 @@ async function normalizePost(post, page) {
     excerpt,
     sourceKey: page.key,
     sourceName: page.sourceName,
-    sourceUrl: post.permalink_url || attachment?.url || page.pageUrl,
+    sourceUrl,
     mediaType,
+    isReel: /\/reels?\//i.test(sourceUrl),
     featured: Boolean(post.is_pinned),
     ...(image ? { image, imageAlt: title } : {}),
     managedBy: 'facebook-sync'
   };
 }
 
+async function normalizeVideo(video, page) {
+  const message = video.description || video.title;
+  const attachment = { title: video.title, description: video.description };
+  const title = captionTitle(message, attachment, 'video');
+  const preferredThumbnail = (video.thumbnails?.data || []).find((item) => item.is_preferred)?.uri
+    || video.thumbnails?.data?.[0]?.uri
+    || video.picture
+    || '';
+  let image = '';
+
+  try {
+    image = await cacheImage(preferredThumbnail, page.key, video.id);
+  } catch (error) {
+    console.warn(`Could not cache video thumbnail for ${video.id}: ${error.message}`);
+  }
+
+  const sourceUrl = video.permalink_url || `${page.pageUrl.replace(/\/$/, '')}/videos/${facebookId(video.id)}/`;
+  return {
+    id: `facebook-${page.key}-video-${facebookId(video.id)}`,
+    facebookId: facebookId(video.id),
+    status: 'published',
+    date: banglaDate(video.created_time),
+    createdAt: video.created_time || video.updated_time,
+    badge: 'ভিডিও',
+    title,
+    excerpt: captionExcerpt(message, title, attachment),
+    sourceKey: page.key,
+    sourceName: page.sourceName,
+    sourceUrl,
+    mediaType: 'video',
+    isReel: /\/reels?\//i.test(sourceUrl),
+    viewCount: viewCount(video.views),
+    featured: false,
+    ...(image ? { image, imageAlt: title } : {}),
+    managedBy: 'facebook-sync'
+  };
+}
+
+function mergeFreshItems(items) {
+  const merged = new Map();
+  for (const item of items) {
+    const key = `${item.sourceKey}:${item.facebookId || canonicalUrl(item.sourceUrl)}`;
+    const previous = merged.get(key);
+    if (!previous) {
+      merged.set(key, item);
+      continue;
+    }
+    const preferred = item.mediaType === 'video' ? item : previous;
+    merged.set(key, {
+      ...previous,
+      ...preferred,
+      featured: previous.featured === true || item.featured === true,
+      viewCount: Math.max(viewCount(previous.viewCount), viewCount(item.viewCount)),
+      image: preferred.image || previous.image,
+      imageAlt: preferred.imageAlt || previous.imageAlt,
+      isReel: previous.isReel === true || item.isReel === true
+    });
+  }
+  return [...merged.values()];
+}
+
 for (const page of config.pages) {
   try {
-    const posts = await fetchPagePosts(page);
-    for (const post of posts) freshItems.push(await normalizePost(post, page));
+    const { posts, videos } = await fetchPageContent(page);
+    const normalized = [];
+    for (const post of posts) normalized.push(await normalizePost(post, page));
+    for (const video of videos) normalized.push(await normalizeVideo(video, page));
+    freshItems.push(...mergeFreshItems(normalized));
   } catch (error) {
     console.error(error.message);
   }
 }
 
 if (!successfulSources.size) {
-  console.log('No Facebook source was synchronized; existing content was left unchanged.');
+  const message = 'No Facebook source was synchronized; existing content was left unchanged.';
+  if (requireSync) {
+    console.error(`${message} Configure at least one Page access token in GitHub Secrets.`);
+    process.exit(1);
+  }
+  console.log(message);
   process.exit(0);
 }
 
-const existingFeaturedIds = new Set((existing.items || []).filter((item) => item.featured === true).map((item) => item.id));
-const existingFeaturedUrls = new Set((existing.items || []).filter((item) => item.featured === true).map((item) => item.sourceUrl).filter(Boolean));
-for (const item of freshItems) {
-  if (featuredResolvedSources.has(item.sourceKey)) continue;
-  if (existingFeaturedIds.has(item.id) || existingFeaturedUrls.has(item.sourceUrl)) item.featured = true;
+if (requireSync && successfulSources.size !== config.pages.length) {
+  const missing = config.pages.filter((page) => !successfulSources.has(page.key)).map((page) => page.sourceName);
+  console.error(`Facebook sync is incomplete. Missing or unreadable source(s): ${missing.join(', ')}.`);
+  process.exit(1);
+}
+
+if (requireSync && videoMetricsFailures.size) {
+  const failed = config.pages.filter((page) => videoMetricsFailures.has(page.key)).map((page) => page.sourceName);
+  console.error(`Top-viewed Reel ranking could not be verified for: ${failed.join(', ')}. The Page token needs video insights access.`);
+  process.exit(1);
 }
 
 const freshIds = new Set(freshItems.map((item) => item.id));
-const freshUrls = new Set(freshItems.map((item) => item.sourceUrl).filter(Boolean));
-const preserved = (existing.items || [])
-  .filter((item) => {
-    if (freshIds.has(item.id) || freshUrls.has(item.sourceUrl)) return false;
-    if (item.managedBy === 'facebook-sync' && successfulSources.has(item.sourceKey)) return false;
-    return true;
-  })
-  .map((item) => {
-    const configuredUrls = configuredFeaturedUrls.get(item.sourceKey);
-    if (configuredUrls?.size) return { ...item, featured: configuredUrls.has(canonicalUrl(item.sourceUrl)) };
-    if (featuredResolvedSources.has(item.sourceKey) && item.featured === true) return { ...item, featured: false };
-    return item;
-  });
+const freshUrls = new Set(freshItems.map((item) => canonicalUrl(item.sourceUrl)).filter(Boolean));
+const preserved = (existing.items || []).filter((item) => {
+  if (freshIds.has(item.id) || freshUrls.has(canonicalUrl(item.sourceUrl))) return false;
+  if (item.managedBy !== 'facebook-sync' || !successfulSources.has(item.sourceKey)) return true;
+
+  const configured = configuredFeaturedUrls.get(item.sourceKey) || [];
+  if (configured.includes(canonicalUrl(item.sourceUrl))) return true;
+  return item.featured === true && !featuredResolvedSources.has(item.sourceKey);
+});
 
 const sortedCandidates = [...freshItems, ...preserved]
   .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
-const selectedCandidates = [
-  ...sortedCandidates.filter((item) => item.featured === true),
-  ...sortedCandidates.filter((item) => item.featured !== true)
-].slice(0, config.maxPublishedItems);
-const selectedIds = new Set(selectedCandidates.map((item) => item.id));
+const detectedFeaturedIds = new Set(
+  sortedCandidates.filter((item) => item.featured === true).map((item) => item.id)
+);
+
+for (const item of sortedCandidates) {
+  if (config.pages.some((page) => page.key === item.sourceKey)) {
+    item.featured = false;
+    delete item.featuredOrder;
+  }
+}
+
+const featuredItems = [];
+for (const [pageIndex, page] of config.pages.entries()) {
+  const candidates = sortedCandidates.filter((item) => item.sourceKey === page.key);
+  const configured = configuredFeaturedUrls.get(page.key) || [];
+  let selected;
+
+  for (const url of configured) {
+    selected = candidates.find((item) => canonicalUrl(item.sourceUrl) === url);
+    if (selected) break;
+  }
+
+  if (!selected) {
+    const existingFeaturedIds = new Set((existing.items || [])
+      .filter((item) => item.sourceKey === page.key && item.featured === true)
+      .map((item) => item.id));
+    selected = candidates.find((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id))
+      || (!featuredResolvedSources.has(page.key) ? candidates.find((item) => existingFeaturedIds.has(item.id)) : undefined);
+  }
+
+  if (selected) {
+    selected.featured = true;
+    selected.featuredOrder = pageIndex + 1;
+    featuredItems.push(selected);
+  }
+}
+
+const videoCandidates = sortedCandidates.filter((item) => item.mediaType === 'video');
+const reelCandidates = videoCandidates.some((item) => item.isReel === true)
+  ? videoCandidates.filter((item) => item.isReel === true)
+  : videoCandidates;
+const topVideos = reelCandidates
+  .sort((a, b) => viewCount(b.viewCount) - viewCount(a.viewCount)
+    || new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
+  .slice(0, config.maxVideoItems);
+const recentItems = sortedCandidates.slice(0, config.maxFeedItems);
+const selectedIds = new Set([...featuredItems, ...topVideos, ...recentItems].map((item) => item.id));
 const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
+
 const output = { updatedAt: new Date().toISOString(), items };
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
 
@@ -300,5 +489,7 @@ for (const page of config.pages) {
   }
 }
 
-const featuredCount = items.filter((item) => item.featured === true).length;
-console.log(`Published ${freshItems.length} Facebook post(s) from ${successfulSources.size} source(s); ${featuredCount} featured post(s) are active.`);
+console.log(
+  `Published ${items.length} item(s) from ${successfulSources.size} Facebook source(s); `
+  + `${featuredItems.length} pinned item(s) and ${topVideos.length} top-viewed video/Reel item(s) are active.`
+);

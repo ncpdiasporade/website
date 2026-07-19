@@ -2800,6 +2800,7 @@
             <a class="btn-pill btn-primary" href="img/announcements/rokte-july-2026.webp" target="_blank" rel="noopener">পোস্টার ও নিবন্ধন QR দেখুন</a>
             <a class="btn-pill btn-ghost" href="https://www.facebook.com/ncpdagermany/" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">ফেসবুকে বিস্তারিত</a>
             <span class="announcement-source">NCP Diaspora Alliance Germany</span>
+            <span class="announcement-source">Facebook Events · প্রতি ২৪ ঘণ্টায় যাচাই</span>
           </div>
         </div>
       </article>
@@ -3507,16 +3508,31 @@
         const announcement = contentItems(items)
           .filter((item) => item.status !== 'draft')
           .sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)))[0];
-        if (!announcement) return;
+        if (!announcement) {
+          announcementsList.innerHTML = `
+            <article class="announcement-shell reveal visible" style="grid-template-columns:1fr;">
+              <div class="announcement-copy">
+                <div class="announcement-kicker">Facebook Events · প্রতি ২৪ ঘণ্টায় যাচাই</div>
+                <h2 id="announcementsTitle">নতুন কর্মসূচির অপেক্ষায়</h2>
+                <p>NCP Diaspora Alliance Germany-এর নতুন Facebook Event প্রকাশিত হলে সময়, স্থান ও মূল Event লিংকসহ এখানে স্বয়ংক্রিয়ভাবে দেখা যাবে।</p>
+                <div class="announcement-actions">
+                  <a class="btn-pill btn-primary" href="https://www.facebook.com/ncpdagermany/events/" target="_blank" rel="noopener noreferrer">Facebook Events দেখুন</a>
+                </div>
+              </div>
+            </article>`;
+          return;
+        }
 
-        const posterUrl = safeHref(announcement.posterUrl || announcement.image || '#');
+        const isFacebookEvent = announcement.sourceType === 'facebook-event';
         const sourceUrl = safeHref(announcement.sourceUrl || '#');
-        const image = escapeHtml(safeImageSrc(announcement.image, 'img/announcements/rokte-july-2026.webp'));
+        const posterUrl = safeHref(announcement.posterUrl || announcement.image || announcement.sourceUrl || '#');
+        const mediaUrl = isFacebookEvent ? sourceUrl : posterUrl;
+        const image = escapeHtml(safeImageSrc(announcement.image, 'img/logo/logo-transparent.png'));
         const media = `
-          <a class="announcement-media" href="${posterUrl}" target="_blank" rel="noopener" aria-label="${escapeHtml(cleanText(announcement.title, 90))} অনুষ্ঠানের পূর্ণ পোস্টার দেখুন">
+          <a class="announcement-media" href="${mediaUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(cleanText(announcement.title, 90))} সম্পর্কে বিস্তারিত দেখুন">
             <img src="${image}" alt="${escapeHtml(cleanText(announcement.imageAlt || announcement.title, 140))}" width="1200" height="1500" />
           </a>`;
-        const sourceLink = sourceUrl === '#'
+        const sourceLink = sourceUrl === '#' || isFacebookEvent
           ? ''
           : `<a class="btn-pill btn-ghost" href="${sourceUrl}" target="_blank" rel="noopener noreferrer" style="color:#fff;border-color:rgba(255,255,255,.2);">ফেসবুকে বিস্তারিত</a>`;
 
@@ -3533,9 +3549,10 @@
                 <div class="event-detail"><small>স্থান</small><strong>${escapeHtml(cleanText(announcement.location, 70))}</strong></div>
               </div>
               <div class="announcement-actions">
-                <a class="btn-pill btn-primary" href="${posterUrl}" target="_blank" rel="noopener">পোস্টার ও নিবন্ধন QR দেখুন</a>
+                <a class="btn-pill btn-primary" href="${isFacebookEvent ? sourceUrl : posterUrl}" target="_blank" rel="noopener noreferrer">${isFacebookEvent ? 'Facebook Event দেখুন' : 'পোস্টার ও নিবন্ধন QR দেখুন'}</a>
                 ${sourceLink}
                 <span class="announcement-source">${escapeHtml(cleanText(announcement.sourceName || 'NCP Diaspora Alliance Germany', 70))}</span>
+                <span class="announcement-source">Facebook Events · প্রতি ২৪ ঘণ্টায় যাচাই</span>
               </div>
             </div>
           </article>`;
@@ -3588,16 +3605,28 @@
       let activeFilter = 'all';
 
       function renderUpdates(items) {
-        const published = contentItems(items)
+        const filtered = contentItems(items)
           .filter((item) => item.status !== 'draft')
           .filter((item) => activeFilter === 'all'
             || (activeFilter === 'featured' && item.featured === true && /(^|\.)facebook\.com$/i.test(new URL(safeHref(item.sourceUrl || '#'), window.location.href).hostname))
             || (activeFilter === 'video' && item.mediaType === 'video')
-            || item.sourceKey === activeFilter)
-          .slice(0, 12);
+            || item.sourceKey === activeFilter);
+        const sorted = filtered.sort((a, b) => {
+          if (activeFilter === 'featured') {
+            return Number(a.featuredOrder || 99) - Number(b.featuredOrder || 99)
+              || new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+          }
+          if (activeFilter === 'video') {
+            return Number(b.viewCount || 0) - Number(a.viewCount || 0)
+              || new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+          }
+          return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+        });
+        const limit = activeFilter === 'featured' ? 2 : activeFilter === 'video' ? 6 : 10;
+        const published = sorted.slice(0, limit);
 
         if (!published.length) {
-          updatesGrid.innerHTML = `<div class="updates-empty">${activeFilter === 'featured' ? 'এই মুহূর্তে কোনো Facebook ফিচার্ড পোস্ট পাওয়া যায়নি। পেজে নতুন পোস্ট ফিচার্ড হলে এখানে দেখা যাবে।' : 'এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।'}</div>`;
+          updatesGrid.innerHTML = `<div class="updates-empty">${activeFilter === 'featured' ? 'এই মুহূর্তে কোনো যাচাইকৃত পিন করা Facebook পোস্ট পাওয়া যায়নি। পেজে নতুন পোস্ট পিন করা হলে এখানে দেখা যাবে।' : 'এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।'}</div>`;
           return;
         }
 
@@ -3606,6 +3635,10 @@
           const mediaType = cleanText(item.mediaType || (item.image ? 'image' : 'text'), 12).toLowerCase();
           const image = item.image ? escapeHtml(safeImageSrc(item.image, 'img/blog/july-uprising.svg')) : '';
           const mediaLabel = mediaType === 'video' ? 'ভিডিও' : mediaType === 'image' ? 'ছবি' : '';
+          const views = Number(item.viewCount || 0);
+          const viewsLabel = mediaType === 'video' && views > 0
+            ? `${new Intl.NumberFormat('bn-BD', { notation: 'compact', maximumFractionDigits: 1 }).format(views)} ভিউ`
+            : '';
           const media = image ? `
             <div class="update-media">
               <img src="${image}" alt="${escapeHtml(cleanText(item.imageAlt || item.title, 160))}" loading="lazy" />
@@ -3620,6 +3653,7 @@
                 <span class="update-date">${escapeHtml(cleanText(item.date, 42))}</span>
                 ${item.featured === true ? '<span class="update-featured">ফিচার্ড</span>' : ''}
                 <span class="update-badge">${escapeHtml(cleanText(item.badge || item.tag || 'আপডেট', 28))}</span>
+                ${viewsLabel ? `<span class="update-badge">${escapeHtml(viewsLabel)}</span>` : ''}
               </div>
               <h3>${escapeHtml(cleanText(item.title, 140))}</h3>
               <p>${escapeHtml(cleanText(item.excerpt, 330))}</p>
@@ -3655,7 +3689,7 @@
           if (freshness && data.updatedAt) {
             const date = new Date(data.updatedAt);
             if (!Number.isNaN(date.getTime())) {
-              freshness.textContent = `সর্বশেষ হালনাগাদ · ${new Intl.DateTimeFormat('bn-BD', { dateStyle: 'long', timeZone: 'Europe/Berlin' }).format(date)}`;
+              freshness.textContent = `সর্বশেষ হালনাগাদ · ${new Intl.DateTimeFormat('bn-BD', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Europe/Berlin' }).format(date)}`;
             }
           }
         })

@@ -27,6 +27,9 @@ for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'upda
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
+if (!html.includes("activeFilter === 'featured' ? 2 : activeFilter === 'video' ? 6 : 10")) {
+  errors.push('index.html: recent-update limits must remain 2 featured, 6 videos, and 10 other items');
+}
 
 const ids = [...markup.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
 for (const id of new Set(ids)) {
@@ -43,6 +46,7 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
 }
 
 const recentUpdates = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/recent-updates.json'), 'utf8'));
+const featuredBySource = new Map();
 for (const item of (recentUpdates.items || []).filter((candidate) => candidate.featured === true)) {
   try {
     const hostname = new URL(item.sourceUrl).hostname;
@@ -50,7 +54,15 @@ for (const item of (recentUpdates.items || []).filter((candidate) => candidate.f
   } catch {
     errors.push(`data/recent-updates.json: featured item ${item.id} has an invalid sourceUrl`);
   }
+  featuredBySource.set(item.sourceKey, (featuredBySource.get(item.sourceKey) || 0) + 1);
 }
+for (const [sourceKey, count] of featuredBySource) {
+  if (count > 1) errors.push(`data/recent-updates.json: ${sourceKey} has ${count} featured items; only one pinned item is allowed`);
+}
+
+const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.config.json'), 'utf8'));
+if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
+if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 
 if (/example\.com|images\.unsplash\.com/i.test(html)) errors.push('index.html: placeholder or stock-demo URL found');
 

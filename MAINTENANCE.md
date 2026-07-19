@@ -9,16 +9,16 @@
 5. Run `npm run validate` and preview with `npm start`.
 6. Check desktop and mobile layouts before pushing `main`.
 
-## Announcement workflow
+## কর্মসূচি / Facebook Events workflow
 
-Edit `data/announcements.json`. The first published item with `featured: true` is displayed in the Announcement Corner. Include:
+Automatic Event updates are handled every 24 hours by `.github/workflows/sync-facebook-events.yml`. The nearest upcoming NCP Diaspora Alliance Germany Facebook Event is displayed in `কর্মসূচি`. `data/announcements.json` remains the reviewed fallback. Each Event includes:
 
 - a short title and contextual excerpt
 - ISO date plus human-readable date, time, and location
 - optimized poster image and accurate alternative text
 - original Facebook source URL
 
-After an event, either mark it `draft`, replace it with the next announcement, or move its recap into recent updates.
+The daily sync removes expired automated Events and ignores expired dated fallback items. Add a completed Event recap to recent updates when it remains useful.
 
 ## July information workflow
 
@@ -35,8 +35,8 @@ Manual fallback:
 1. Add the item at the top of `data/recent-updates.json`.
 2. Set `sourceKey` to `germany` or `ncp`.
 3. Set `mediaType` to `text`, `image`, or `video`.
-4. Set `featured: true` only when that exact Facebook item is pinned in the Page's Featured area. When Meta does not expose that state, list every current Featured permalink in the `NCPDA_GERMANY_FEATURED_POST_URLS` or `NCP_FEATURED_POST_URLS` GitHub variable, separated by commas or new lines.
-5. For a video, use a preview image and link `sourceUrl` to the original Facebook video.
+4. Set `featured: true` only when that exact item is the Page's pinned post. Only one pinned item per Page is allowed. When Meta does not expose that state, put the verified pinned permalink first in `NCPDA_GERMANY_FEATURED_POST_URLS` or `NCP_FEATURED_POST_URLS`.
+5. For a Reel or video, use a preview image, retain the Meta view count when available, and link `sourceUrl` to the original Facebook video.
 6. Keep the excerpt under roughly 340 characters and preserve the post's actual meaning.
 
 ## Privacy and membership submissions
