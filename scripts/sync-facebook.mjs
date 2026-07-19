@@ -188,12 +188,20 @@ async function fetchPagePosts(page) {
     console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; preserving the last verified featured state.`);
   }
 
-  const configuredFeaturedUrl = canonicalUrl(process.env[page.featuredPostUrlEnv] || '');
-  if (configuredFeaturedUrl) {
-    configuredFeaturedUrls.set(page.key, configuredFeaturedUrl);
+  const configuredFeaturedUrlList = String(
+    process.env[page.featuredPostUrlsEnv]
+      || process.env[page.featuredPostUrlEnv]
+      || ''
+  )
+    .split(/[\n,]+/)
+    .map((value) => canonicalUrl(value))
+    .filter(Boolean);
+  const configuredFeaturedUrlSet = new Set(configuredFeaturedUrlList);
+  if (configuredFeaturedUrlSet.size) {
+    configuredFeaturedUrls.set(page.key, configuredFeaturedUrlSet);
     posts = posts.map((post) => ({
       ...post,
-      is_pinned: canonicalUrl(post.permalink_url) === configuredFeaturedUrl
+      is_pinned: configuredFeaturedUrlSet.has(canonicalUrl(post.permalink_url))
     }));
     featuredResolved = true;
   }
@@ -264,15 +272,20 @@ const preserved = (existing.items || [])
     return true;
   })
   .map((item) => {
-    const configuredUrl = configuredFeaturedUrls.get(item.sourceKey);
-    if (configuredUrl) return { ...item, featured: canonicalUrl(item.sourceUrl) === configuredUrl };
+    const configuredUrls = configuredFeaturedUrls.get(item.sourceKey);
+    if (configuredUrls?.size) return { ...item, featured: configuredUrls.has(canonicalUrl(item.sourceUrl)) };
     if (featuredResolvedSources.has(item.sourceKey) && item.featured === true) return { ...item, featured: false };
     return item;
   });
 
-const items = [...freshItems, ...preserved]
-  .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
-  .slice(0, config.maxPublishedItems);
+const sortedCandidates = [...freshItems, ...preserved]
+  .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+const selectedCandidates = [
+  ...sortedCandidates.filter((item) => item.featured === true),
+  ...sortedCandidates.filter((item) => item.featured !== true)
+].slice(0, config.maxPublishedItems);
+const selectedIds = new Set(selectedCandidates.map((item) => item.id));
+const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
 const output = { updatedAt: new Date().toISOString(), items };
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
 

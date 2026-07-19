@@ -44,13 +44,13 @@ Variables:
 
 - `NCPDA_GERMANY_PAGE_ID` (optional; defaults to `ncpdagermany`)
 - `NCP_PAGE_ID` (optional; defaults to `1NationalCitizenParty`)
-- `NCPDA_GERMANY_FEATURED_POST_URL` (optional fallback when Meta does not expose the Page's Featured state)
-- `NCP_FEATURED_POST_URL` (optional fallback when Meta does not expose the Page's Featured state)
+- `NCPDA_GERMANY_FEATURED_POST_URLS` (optional fallback; add every current Featured permalink, separated by commas or new lines)
+- `NCP_FEATURED_POST_URLS` (optional fallback; add every current Featured permalink, separated by commas or new lines)
 - `META_GRAPH_VERSION` (optional; defaults to the version in `social-feed.config.json`)
 
 The token must be allowed to read the corresponding Page's published posts. Reading a Page that the app/user does not manage may require Meta approval for public Page content. If a token is missing or a source fails, the sync keeps the existing website content and does not delete it.
 
-The website's `ফিচার্ড` filter shows only Facebook-linked items marked as featured. If Meta does not expose a Page's Featured state, the sync preserves the last verified selection; the optional Featured Post URL variable can be used as an explicit fallback. Video posts are shown as linked video preview cards. This avoids storing large video files in Git and avoids depending on short-lived Facebook video URLs.
+The website's `ফিচার্ড` filter shows only Facebook-linked items marked as featured. If Meta does not expose a Page's Featured state, the sync preserves the last verified selection; the optional Featured Post URLs variable can explicitly list one or more Featured permalinks. The older singular `NCPDA_GERMANY_FEATURED_POST_URL` and `NCP_FEATURED_POST_URL` variables remain supported for compatibility. Featured items are retained even when they are older than the newest chronological feed items. Video posts are shown as linked video preview cards. This avoids storing large video files in Git and avoids depending on short-lived Facebook video URLs.
 
 ## Publishing
 
