@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-07-19T22:29:27+02:00",
+  "updatedAt": "2026-07-20T05:54:43.692Z",
   "items": [
     {
       "id": "rokte-july-2026",
       "status": "published",
       "featured": true,
-      "preserveCopy": true,
       "kicker": "বিশেষ ঘোষণা · আসন্ন আয়োজন",
       "title": "রক্তে জুলাই",
       "excerpt": "জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে ‘রক্তে জুলাই’ অনুষ্ঠান দুটি পর্বে সাজানো—‘স্মৃতি থেকে জাগরণ’ এবং ‘অভিজ্ঞতা, অংশগ্রহণ ও আগামীর ভাবনা’। প্রামাণ্যচিত্র, জুলাইয়ের জীবন্ত গল্প, বক্তব্য, ভিজ্যুয়াল স্টোরি, প্রবাস থেকে আলোচনা, অভিজ্ঞতা ও প্রতিফলন, শর্ট ফিল্ম, July Quiz এবং ইন্টারঅ্যাকটিভ সেশন এতে অন্তর্ভুক্ত।",
@@ -16,8 +15,12 @@
       "image": "img/announcements/rokte-july-2026.webp",
       "imageAlt": "জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে রক্তে জুলাই অনুষ্ঠানের পোস্টার",
       "posterUrl": "img/announcements/rokte-july-2026.webp",
+      "sourceType": "facebook-event",
       "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/events/2921759734827870/"
+      "sourceUrl": "https://www.facebook.com/events/2921759734827870/",
+      "managedBy": "facebook-events",
+      "updatedAt": "2026-07-17T09:18:12+0000",
+      "preserveCopy": true
     }
   ]
 }
