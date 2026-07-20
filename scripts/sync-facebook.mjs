@@ -6,8 +6,12 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
 const configPath = path.join(rootDir, 'social-feed.config.json');
 const outputPath = path.join(rootDir, 'data', 'recent-updates.json');
+const videoArchivePath = path.join(rootDir, 'data', 'facebook-video-archive.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+const videoArchive = fs.existsSync(videoArchivePath)
+  ? JSON.parse(fs.readFileSync(videoArchivePath, 'utf8'))
+  : { version: 1, updatedAt: null, pages: {} };
 const graphVersion = process.env.META_GRAPH_VERSION || config.graphVersion;
 const requireSync = String(process.env.REQUIRE_FACEBOOK_SYNC || '').toLowerCase() === 'true';
 const requiredSourceKeys = new Set(
@@ -131,7 +135,7 @@ function rokteJulyCopy(message) {
 
 function professionalVideoCopy(message) {
   const source = clean(message).replace(/\s+/g, ' ');
-  if (!/(মাইর|খু\/?নী|জীল্লতি|বাদা\*?ম|ডিম\s+মার|উত্তম\s+মাধ্যম)/u.test(source)) return null;
+  if (!/(মাইর|খু\/?নী|জীল্লতি|বাদা\*?ম|ডিম\s+মার|উত্তম\s+মাধ্যম|উচিৎ\s+শিক্ষা|উচিত\s+শিক্ষা)/u.test(source)) return null;
   if (/হাসনাত/u.test(source) && /(লন্ডন|যুক্তরাজ্য|\bUK\b)/iu.test(source)) {
     return {
       title: 'লন্ডনে হাসনাত আব্দুল্লাহকে ঘিরে সাম্প্রতিক ঘটনার ভিডিও',
@@ -274,6 +278,21 @@ async function graphObjectRequest(page, objectId, fields, token) {
   return response.json();
 }
 
+async function graphNextRequest(page, nextUrl, token, edge) {
+  const url = new URL(nextUrl);
+  if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com') {
+    throw new Error(`${page.sourceName} returned an invalid Graph API pagination URL.`);
+  }
+  url.searchParams.set('access_token', token);
+
+  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  if (!response.ok) {
+    const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
+    throw new Error(`${page.sourceName} Graph API ${edge} pagination failed (${response.status}): ${detail}`);
+  }
+  return response.json();
+}
+
 async function fetchVideoViews(page, video, token) {
   const isReel = /\/reels?\//i.test(String(video.permalink_url || ''));
   const metricSets = isReel
@@ -301,29 +320,156 @@ async function fetchVideoViews(page, video, token) {
   throw lastError || new Error(`${page.sourceName} video insights did not return a view metric.`);
 }
 
-async function fetchPageVideos(page, pageId, token) {
-  const baseFields = 'id,title,description,created_time,updated_time,permalink_url,picture,thumbnails{uri,is_preferred}';
-  try {
-    const payload = await graphRequest(page, pageId, 'videos', baseFields, token, config.videosPerPage);
-    const videos = Array.isArray(payload.data) ? payload.data : [];
-    let resolvedCount = 0;
-    const withViews = [];
-    for (let index = 0; index < videos.length; index += 5) {
-      const batch = videos.slice(index, index + 5);
-      const resolved = await Promise.all(batch.map(async (video) => {
-        try {
-          const views = await fetchVideoViews(page, video, token);
-          if (views !== null) resolvedCount += 1;
-          return { ...video, views: views ?? 0 };
-        } catch (error) {
-          console.warn(error.message);
-          return { ...video, views: 0 };
-        }
-      }));
-      withViews.push(...resolved);
+function compactVideo(video) {
+  const thumbnail = (video.thumbnails?.data || []).find((item) => item.is_preferred)?.uri
+    || video.thumbnails?.data?.[0]?.uri
+    || video.picture
+    || '';
+  return {
+    id: video.id,
+    title: video.title || '',
+    description: video.description || '',
+    created_time: video.created_time || '',
+    updated_time: video.updated_time || '',
+    permalink_url: absoluteFacebookUrl(video.permalink_url),
+    picture: thumbnail,
+    views: viewCount(video.views)
+  };
+}
+
+function archiveRecordFor(page) {
+  const record = videoArchive.pages?.[page.key];
+  if (record && Array.isArray(record.videos)) return record;
+  return { lastFullScanAt: null, lastCheckedAt: null, videos: [] };
+}
+
+function needsFullVideoScan(record) {
+  if (String(process.env.FORCE_FACEBOOK_VIDEO_ARCHIVE || '').toLowerCase() === 'true') return true;
+  const lastScan = new Date(record.lastFullScanAt || 0).getTime();
+  const refreshHours = Number(config.videoArchiveRefreshHours || 24);
+  return !Number.isFinite(lastScan) || Date.now() - lastScan >= refreshHours * 60 * 60 * 1000;
+}
+
+async function fetchVideoPages(page, pageId, token, fullScan) {
+  const baseFields = 'id,created_time,updated_time,permalink_url';
+  const maxPages = fullScan ? Number(config.videoArchiveMaxPages || 12) : 1;
+  const maxItems = Number(config.videoArchiveMaxItems || 600);
+  const videos = [];
+  let payload = await graphRequest(page, pageId, 'videos', baseFields, token, config.videosPerPage);
+  let pagesRead = 0;
+  let reachedEnd = false;
+
+  while (payload) {
+    pagesRead += 1;
+    for (const video of payload.data || []) {
+      if (videos.length >= maxItems) break;
+      videos.push(compactVideo(video));
     }
-    if (videos.length && resolvedCount === 0) videoMetricsFailures.add(page.key);
-    return withViews;
+
+    const next = payload.paging?.next;
+    if (!next) {
+      reachedEnd = true;
+      break;
+    }
+    if (pagesRead >= maxPages || videos.length >= maxItems) break;
+    try {
+      payload = await graphNextRequest(page, next, token, 'videos');
+    } catch (error) {
+      console.warn(`${error.message} Keeping ${videos.length} video(s) from the pages already scanned.`);
+      break;
+    }
+  }
+
+  return { videos, pagesRead, reachedEnd };
+}
+
+async function hydrateVideoCandidates(page, videos, token) {
+  const fields = 'id,title,description,created_time,updated_time,permalink_url,picture';
+  const hydrated = [];
+  for (const video of videos) {
+    try {
+      const details = await graphObjectRequest(page, video.id, fields, token);
+      hydrated.push(compactVideo({ ...video, ...details, views: video.views }));
+    } catch (error) {
+      console.warn(`Could not refresh video details for ${video.id}: ${error.message}`);
+      hydrated.push(video);
+    }
+  }
+  return hydrated;
+}
+
+async function refreshVideoMetrics(page, videos, token) {
+  let resolvedCount = 0;
+  const refreshed = [];
+  const batchSize = Number(config.videoMetricsBatchSize || 5);
+  for (let index = 0; index < videos.length; index += batchSize) {
+    const batch = videos.slice(index, index + batchSize);
+    const resolved = await Promise.all(batch.map(async (video) => {
+      try {
+        const views = await fetchVideoViews(page, video, token);
+        if (views !== null) resolvedCount += 1;
+        return { ...video, views: views ?? viewCount(video.views) };
+      } catch (error) {
+        console.warn(error.message);
+        return video;
+      }
+    }));
+    refreshed.push(...resolved);
+  }
+  return { videos: refreshed, resolvedCount };
+}
+
+async function fetchPageVideos(page, pageId, token) {
+  try {
+    const previous = archiveRecordFor(page);
+    const fullScan = needsFullVideoScan(previous);
+    const scanned = await fetchVideoPages(page, pageId, token, fullScan);
+    const merged = new Map(previous.videos.map((video) => [String(video.id), compactVideo(video)]));
+    if (fullScan && scanned.reachedEnd) merged.clear();
+    for (const video of scanned.videos) {
+      const older = merged.get(String(video.id));
+      merged.set(String(video.id), { ...older, ...video, views: viewCount(older?.views ?? video.views) });
+    }
+
+    const allVideos = [...merged.values()];
+    const currentTop = [...allVideos]
+      .sort((a, b) => viewCount(b.views) - viewCount(a.views))
+      .slice(0, Number(config.videoArchiveTopRefreshItems || 24));
+    const metricTargets = new Map();
+    for (const video of fullScan ? allVideos : [...scanned.videos, ...currentTop]) {
+      metricTargets.set(String(video.id), merged.get(String(video.id)) || video);
+    }
+
+    const metrics = await refreshVideoMetrics(page, [...metricTargets.values()], token);
+    for (const video of metrics.videos) merged.set(String(video.id), compactVideo(video));
+    if (metricTargets.size && metrics.resolvedCount === 0) videoMetricsFailures.add(page.key);
+
+    const now = new Date().toISOString();
+    const archivedVideos = [...merged.values()]
+      .sort((a, b) => new Date(b.created_time || 0) - new Date(a.created_time || 0))
+      .slice(0, Number(config.videoArchiveMaxItems || 600));
+    const reels = archivedVideos.filter((video) => /\/reels?\//i.test(video.permalink_url || ''));
+    const candidates = reels.length ? reels : archivedVideos;
+    const selected = candidates
+      .sort((a, b) => viewCount(b.views) - viewCount(a.views)
+        || new Date(b.created_time || 0) - new Date(a.created_time || 0))
+      .slice(0, config.maxVideoItems);
+    const hydrated = await hydrateVideoCandidates(page, selected, token);
+    const archivedById = new Map(archivedVideos.map((video) => [String(video.id), video]));
+    for (const video of hydrated) archivedById.set(String(video.id), video);
+
+    videoArchive.pages ||= {};
+    videoArchive.pages[page.key] = {
+      lastFullScanAt: fullScan ? now : previous.lastFullScanAt,
+      lastCheckedAt: now,
+      videos: [...archivedById.values()]
+    };
+
+    console.log(
+      `${page.sourceName} video archive: ${scanned.videos.length} video(s) read across ${scanned.pagesRead} page(s); `
+      + `${archivedVideos.length} historical video(s) ranked${fullScan ? ' after a full scan' : ''}.`
+    );
+    return hydrated;
   } catch (error) {
     console.warn(`${error.message} Continuing with video posts found in the Page feed.`);
     videoMetricsFailures.add(page.key);
@@ -659,6 +805,9 @@ const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
 
 const output = { updatedAt: new Date().toISOString(), items };
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
+videoArchive.version = 1;
+videoArchive.updatedAt = new Date().toISOString();
+fs.writeFileSync(videoArchivePath, `${JSON.stringify(videoArchive, null, 2)}\n`);
 
 const referencedImages = new Set(items.map((item) => item.image).filter(Boolean));
 for (const page of config.pages) {

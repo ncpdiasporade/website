@@ -7,6 +7,7 @@ const rootDir = path.resolve(scriptDir, '..');
 const errors = [];
 const jsonFiles = [
   'data/recent-updates.json',
+  'data/facebook-video-archive.json',
   'data/announcements.json',
   'data/july-resources.json',
   'data/blog-posts.json',
@@ -63,6 +64,9 @@ const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.
 if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
 if (socialConfig.maxFeaturedItems !== 2) errors.push('social-feed.config.json: maxFeaturedItems must be 2');
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
+if (socialConfig.videoArchiveMaxItems < socialConfig.maxVideoItems) {
+  errors.push('social-feed.config.json: videoArchiveMaxItems must cover the displayed video count');
+}
 
 if (/example\.com|images\.unsplash\.com/i.test(html)) errors.push('index.html: placeholder or stock-demo URL found');
 
