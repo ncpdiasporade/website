@@ -129,6 +129,21 @@ function rokteJulyCopy(message) {
   };
 }
 
+function professionalVideoCopy(message) {
+  const source = clean(message).replace(/\s+/g, ' ');
+  if (!/(মাইর|খু\/?নী|জীল্লতি|বাদা\*?ম|ডিম\s+মার|উত্তম\s+মাধ্যম)/u.test(source)) return null;
+  if (/হাসনাত/u.test(source) && /(লন্ডন|যুক্তরাজ্য|\bUK\b)/iu.test(source)) {
+    return {
+      title: 'লন্ডনে হাসনাত আব্দুল্লাহকে ঘিরে সাম্প্রতিক ঘটনার ভিডিও',
+      excerpt: 'লন্ডনে হাসনাত আব্দুল্লাহকে কেন্দ্র করে রাজনৈতিক বিরোধীদের সঙ্গে তৈরি হওয়া উত্তেজনাপূর্ণ পরিস্থিতির ভিডিওচিত্র প্রকাশ করা হয়েছে। পূর্ণ প্রেক্ষাপট জানতে মূল ভিডিওটি দেখুন।'
+    };
+  }
+  return {
+    title: 'সাম্প্রতিক রাজনৈতিক ঘটনার ভিডিও',
+    excerpt: 'ভিডিওটিতে সাম্প্রতিক রাজনৈতিক ঘটনাপ্রবাহের একটি দৃশ্য তুলে ধরা হয়েছে। পূর্ণ বক্তব্য ও প্রেক্ষাপট জানতে মূল ভিডিওটি দেখুন।'
+  };
+}
+
 function classifyBadge(message, mediaType, fallback) {
   const value = clean(message).toLowerCase();
   if (mediaType === 'video') return 'ভিডিও';
@@ -421,7 +436,8 @@ async function normalizePost(post, page) {
 async function normalizeVideo(video, page) {
   const message = video.description || video.title;
   const attachment = { title: video.title, description: video.description };
-  const title = captionTitle(message, attachment, 'video');
+  const moderatedCopy = professionalVideoCopy(message);
+  const title = moderatedCopy?.title || captionTitle(message, attachment, 'video');
   const preferredThumbnail = (video.thumbnails?.data || []).find((item) => item.is_preferred)?.uri
     || video.thumbnails?.data?.[0]?.uri
     || video.picture
@@ -446,7 +462,7 @@ async function normalizeVideo(video, page) {
     createdAt: video.created_time || video.updated_time,
     badge: 'ভিডিও',
     title,
-    excerpt: captionExcerpt(message, title, attachment),
+    excerpt: moderatedCopy?.excerpt || captionExcerpt(message, title, attachment),
     sourceKey: page.key,
     sourceName: page.sourceName,
     sourceUrl,
