@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-20T12:11:05.753Z",
+  "updatedAt": "2026-07-20T13:19:52.749Z",
   "items": [
+    {
+      "id": "facebook-germany-122196054458921031",
+      "facebookId": "122196054458921031",
+      "status": "published",
+      "date": "২০ জুলাই, ২০২৬",
+      "createdAt": "2026-07-20T12:33:40+0000",
+      "badge": "রক্তে জুলাই",
+      "title": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
+      "excerpt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই ২০২৬। এই বিশেষ আয়োজনে জুলাই গণঅভ্যুত্থানের সম্মুখসারির নেতৃবৃন্দের পাশাপাশি বাংলাদেশি-জার্মান কমিউনিটির নেতৃবৃন্দ, বিশিষ্ট ব্যক্তিবর্গ, পেশাজীবী ও সচেতন প্রবাসীরা অংশগ্রহণ করবেন।",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196054458921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122196054458921031.jpg",
+      "imageAlt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196048842921031",
       "facebookId": "122196048842921031",
@@ -182,26 +201,6 @@
       "preserveCopy": true
     },
     {
-      "id": "facebook-germany-122195624618921031",
-      "facebookId": "122195624618921031",
-      "status": "published",
-      "date": "১৭ জুলাই, ২০২৬",
-      "createdAt": "2026-07-17T19:05:48+0000",
-      "badge": "রক্তে জুলাই",
-      "title": "‘রক্তে জুলাই’ অনুষ্ঠানে অনলাইনে যুক্ত হবেন আলাউদ্দীন মোহাম্মদ",
-      "excerpt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত ‘রক্তে জুলাই’ অনুষ্ঠানে অনলাইনে যুক্ত হবেন এনসিপির যুগ্ম সদস্য সচিব, ডায়াস্পোরা সেলের সেক্রেটারি ও আন্তর্জাতিক সেলের সহ-প্রধান আলাউদ্দীন মোহাম্মদ। অনুষ্ঠানটি ২৬ জুলাই ২০২৬, রবিবার বিকাল ২টা ৩০ মিনিটে Düsseldorf-এ অনুষ্ঠিত হবে; নিবন্ধন বাধ্যতামূলক।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122195624618921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122195624618921031.jpg",
-      "imageAlt": "রক্তে জুলাই অনুষ্ঠানে আলাউদ্দীন মোহাম্মদের অনলাইন অংশগ্রহণের ঘোষণা",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
       "id": "ncp-election-manifesto-2026",
       "status": "published",
       "date": "২০২৬",
@@ -231,7 +230,7 @@
       "sourceUrl": "https://www.facebook.com/reel/1334576968624946/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 66284,
+      "viewCount": 66285,
       "featured": false,
       "image": "img/social/germany/fb-1334576968624946.jpg",
       "imageAlt": "“বিএনপি কিন্তু এখনও Gen-Z’কে আকৃষ্ট করতে পারছে না”",
