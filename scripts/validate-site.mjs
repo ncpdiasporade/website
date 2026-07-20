@@ -56,12 +56,12 @@ for (const item of (recentUpdates.items || []).filter((candidate) => candidate.f
   }
   featuredBySource.set(item.sourceKey, (featuredBySource.get(item.sourceKey) || 0) + 1);
 }
-for (const [sourceKey, count] of featuredBySource) {
-  if (count > 1) errors.push(`data/recent-updates.json: ${sourceKey} has ${count} featured items; only one pinned item is allowed`);
-}
+const featuredCount = [...featuredBySource.values()].reduce((sum, count) => sum + count, 0);
+if (featuredCount > 2) errors.push(`data/recent-updates.json: ${featuredCount} featured items found; at most two are allowed`);
 
 const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.config.json'), 'utf8'));
 if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
+if (socialConfig.maxFeaturedItems !== 2) errors.push('social-feed.config.json: maxFeaturedItems must be 2');
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 
 if (/example\.com|images\.unsplash\.com/i.test(html)) errors.push('index.html: placeholder or stock-demo URL found');

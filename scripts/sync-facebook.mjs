@@ -10,10 +10,17 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
 const graphVersion = process.env.META_GRAPH_VERSION || config.graphVersion;
 const requireSync = String(process.env.REQUIRE_FACEBOOK_SYNC || '').toLowerCase() === 'true';
+const requiredSourceKeys = new Set(
+  String(process.env.REQUIRE_FACEBOOK_SYNC_SOURCES || 'germany')
+    .split(/[\s,]+/)
+    .map((value) => value.trim())
+    .filter(Boolean)
+);
 const successfulSources = new Set();
 const featuredResolvedSources = new Set();
 const videoMetricsFailures = new Set();
 const configuredFeaturedUrls = new Map();
+const configuredFeaturedIds = new Map();
 const freshItems = [];
 
 function clean(value) {
@@ -33,6 +40,16 @@ function canonicalUrl(value) {
     return url.href.replace(/\/$/, '');
   } catch {
     return String(value || '').trim().replace(/\/$/, '');
+  }
+}
+
+function absoluteFacebookUrl(value, fallback = '') {
+  const candidate = String(value || fallback || '').trim();
+  if (!candidate) return '';
+  try {
+    return new URL(candidate, 'https://www.facebook.com').href;
+  } catch {
+    return candidate;
   }
 }
 
@@ -74,9 +91,48 @@ function captionExcerpt(message, title, attachment) {
   return clipAtWord(selected.join(' ') || source, 340);
 }
 
+function rokteJulyCopy(message) {
+  if (!/রক্তে\s+জুলাই/u.test(String(message || ''))) return null;
+  const lines = String(message || '')
+    .split(/\n+/)
+    .map((line) => clean(line).replace(/^[^\p{L}\p{N}“‘]+/u, '').trim())
+    .filter(Boolean);
+  const invitationIndex = lines.findIndex((line) => /রক্তে\s+জুলাই.*(যুক্ত থাকবেন|উপস্থিত থাকবেন)/u.test(line));
+  if (invitationIndex < 0) return null;
+
+  const invitation = lines[invitationIndex];
+  const participation = invitation.includes('অনলাইনে যুক্ত থাকবেন')
+    ? 'অনলাইনে যুক্ত হবেন'
+    : 'উপস্থিত থাকবেন';
+  const guest = lines[invitationIndex + 1];
+  if (!guest || guest.length > 90 || /তারিখ|জুলাইয়ের|রেজিস্ট্রেশন/u.test(guest)) return null;
+
+  const detailLines = lines.slice(invitationIndex + 2);
+  const roleLines = detailLines
+    .filter((line) => !/প্রবাস থেকে|জুলাইয়ের|রেজিস্ট্রেশন|\d{1,2}\s+জুলাই\s+\d{4}|বিকাল|সকাল|Bilker|Germany|Düsseldorf/u.test(line))
+    .slice(0, 3);
+  const context = detailLines.find((line) => /প্রবাস থেকে জুলাইয়ের স্মৃতি/u.test(line));
+  const date = detailLines.find((line) => /\d{1,2}\s+জুলাই\s+\d{4}/u.test(line));
+  const time = detailLines.find((line) => /বিকাল|সকাল/u.test(line));
+  const location = detailLines.find((line) => /Bilker|Düsseldorf/u.test(line));
+  const role = roleLines.length ? ` (${roleLines.join('; ')})` : '';
+  const schedule = [date, time, location].filter(Boolean).join(' · ');
+  const excerpt = [
+    `মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত ‘রক্তে জুলাই’ অনুষ্ঠানে ${participation} ${guest}${role}।`,
+    context,
+    schedule ? `${schedule}।` : ''
+  ].filter(Boolean).join(' ');
+
+  return {
+    title: `‘রক্তে জুলাই’ অনুষ্ঠানে ${participation} ${guest}`,
+    excerpt: clipAtWord(excerpt, 420)
+  };
+}
+
 function classifyBadge(message, mediaType, fallback) {
   const value = clean(message).toLowerCase();
   if (mediaType === 'video') return 'ভিডিও';
+  if (/রক্তে\s+জুলাই/u.test(value)) return 'রক্তে জুলাই';
   if (/শোক|মৃত্যু|সমবেদনা/u.test(value)) return 'শোকবার্তা';
   if (/ঘোষণা|আয়োজন|অনুষ্ঠান|নিবন্ধন|register|event/u.test(value)) return 'আয়োজন';
   if (/জুলাই|uprising|revolution/u.test(value)) return 'জুলাই';
@@ -143,6 +199,18 @@ function configuredUrlsFor(page) {
   return values;
 }
 
+function configuredIdsFor(page) {
+  const values = String(
+    process.env[page.featuredPostIdsEnv]
+      || (Array.isArray(page.featuredPostIds) ? page.featuredPostIds.join(',') : '')
+  )
+    .split(/[\s,]+/)
+    .map((value) => value.trim().split('_').pop())
+    .filter((value) => /^\d+$/.test(value));
+  if (values.length) configuredFeaturedIds.set(page.key, [...new Set(values)]);
+  return configuredFeaturedIds.get(page.key) || [];
+}
+
 async function cacheImage(imageUrl, pageKey, postId) {
   if (!imageUrl) return '';
   const response = await fetch(imageUrl, { signal: AbortSignal.timeout(30000) });
@@ -172,6 +240,20 @@ async function graphRequest(page, pageId, edge, fields, token, limit = config.po
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`${page.sourceName} Graph API ${edge} request failed (${response.status}): ${detail}`);
+  }
+
+  return response.json();
+}
+
+async function graphObjectRequest(page, objectId, fields, token) {
+  const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(objectId)}`);
+  url.searchParams.set('fields', fields);
+  url.searchParams.set('access_token', token);
+
+  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  if (!response.ok) {
+    const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
+    throw new Error(`${page.sourceName} Graph API object request failed (${response.status}): ${detail}`);
   }
 
   return response.json();
@@ -237,6 +319,7 @@ async function fetchPageVideos(page, pageId, token) {
 async function fetchPageContent(page) {
   const token = process.env[page.tokenEnv];
   configuredUrlsFor(page);
+  configuredIdsFor(page);
   if (!token) {
     console.warn(`Skipping ${page.sourceName}: ${page.tokenEnv} is not configured.`);
     return { posts: [], videos: [] };
@@ -248,13 +331,10 @@ async function fetchPageContent(page) {
   let featuredResolved = false;
 
   try {
-    const payload = await graphRequest(page, pageId, 'posts', `${baseFields},is_pinned`, token);
-    posts = Array.isArray(payload.data) ? payload.data : [];
-    featuredResolved = posts.some((post) => Object.prototype.hasOwnProperty.call(post, 'is_pinned'));
-  } catch (error) {
-    console.warn(`${error.message} Retrying posts without the optional pinned flag.`);
     const payload = await graphRequest(page, pageId, 'posts', baseFields, token);
     posts = Array.isArray(payload.data) ? payload.data : [];
+  } catch (error) {
+    throw error;
   }
 
   try {
@@ -268,6 +348,24 @@ async function fetchPageContent(page) {
     featuredResolved = true;
   } catch {
     console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; using the configured permalink or the last verified pinned item.`);
+  }
+
+  const configuredIds = configuredFeaturedIds.get(page.key) || [];
+  if (configuredIds.length) {
+    const postsById = new Map(posts.map((post) => [post.id, post]));
+    let resolvedCount = 0;
+    for (const postId of configuredIds) {
+      try {
+        const objectId = `${pageId}_${postId}`;
+        const post = await graphObjectRequest(page, objectId, baseFields, token);
+        postsById.set(post.id, { ...postsById.get(post.id), ...post, is_pinned: true });
+        resolvedCount += 1;
+      } catch (error) {
+        console.warn(`Could not refresh configured featured post ${postId}: ${error.message}`);
+      }
+    }
+    posts = [...postsById.values()];
+    if (resolvedCount === configuredIds.length) featuredResolved = true;
   }
 
   const configured = configuredFeaturedUrls.get(page.key) || [];
@@ -287,8 +385,9 @@ async function fetchPageContent(page) {
 async function normalizePost(post, page) {
   const attachment = firstAttachment(post);
   const mediaType = mediaTypeFor(attachment);
-  const title = captionTitle(post.message, attachment, mediaType);
-  const excerpt = captionExcerpt(post.message, title, attachment);
+  const eventCopy = rokteJulyCopy(post.message);
+  const title = eventCopy?.title || captionTitle(post.message, attachment, mediaType);
+  const excerpt = eventCopy?.excerpt || captionExcerpt(post.message, title, attachment);
   let image = '';
 
   try {
@@ -297,8 +396,8 @@ async function normalizePost(post, page) {
     console.warn(`Could not cache media for ${post.id}: ${error.message}`);
   }
 
-  const sourceUrl = post.permalink_url || attachment?.url || page.pageUrl;
-  return {
+  const sourceUrl = absoluteFacebookUrl(post.permalink_url || attachment?.url, page.pageUrl);
+  const normalized = {
     id: `facebook-${page.key}-${facebookId(post.id)}`,
     facebookId: facebookId(post.id),
     status: 'published',
@@ -316,6 +415,7 @@ async function normalizePost(post, page) {
     ...(image ? { image, imageAlt: title } : {}),
     managedBy: 'facebook-sync'
   };
+  return preserveReviewedCopy(normalized);
 }
 
 async function normalizeVideo(video, page) {
@@ -334,8 +434,11 @@ async function normalizeVideo(video, page) {
     console.warn(`Could not cache video thumbnail for ${video.id}: ${error.message}`);
   }
 
-  const sourceUrl = video.permalink_url || `${page.pageUrl.replace(/\/$/, '')}/videos/${facebookId(video.id)}/`;
-  return {
+  const sourceUrl = absoluteFacebookUrl(
+    video.permalink_url,
+    `${page.pageUrl.replace(/\/$/, '')}/videos/${facebookId(video.id)}/`
+  );
+  const normalized = {
     id: `facebook-${page.key}-video-${facebookId(video.id)}`,
     facebookId: facebookId(video.id),
     status: 'published',
@@ -353,6 +456,32 @@ async function normalizeVideo(video, page) {
     featured: false,
     ...(image ? { image, imageAlt: title } : {}),
     managedBy: 'facebook-sync'
+  };
+  return preserveReviewedCopy(normalized);
+}
+
+function preserveReviewedCopy(normalized) {
+  const reviewed = (existing.items || []).find((item) => (
+    item.preserveCopy === true
+    && item.sourceKey === normalized.sourceKey
+    && (
+      (item.facebookId && item.facebookId === normalized.facebookId)
+      || canonicalUrl(item.sourceUrl) === canonicalUrl(normalized.sourceUrl)
+    )
+  ));
+  if (!reviewed) return normalized;
+
+  return {
+    ...normalized,
+    id: reviewed.id || normalized.id,
+    date: reviewed.date || normalized.date,
+    badge: reviewed.badge || normalized.badge,
+    title: reviewed.title || normalized.title,
+    excerpt: reviewed.excerpt || normalized.excerpt,
+    sourceUrl: reviewed.sourceUrl || normalized.sourceUrl,
+    image: reviewed.image || normalized.image,
+    imageAlt: reviewed.imageAlt || normalized.imageAlt,
+    preserveCopy: true
   };
 }
 
@@ -401,16 +530,24 @@ if (!successfulSources.size) {
   process.exit(0);
 }
 
-if (requireSync && successfulSources.size !== config.pages.length) {
-  const missing = config.pages.filter((page) => !successfulSources.has(page.key)).map((page) => page.sourceName);
+if (requireSync && [...requiredSourceKeys].some((key) => !successfulSources.has(key))) {
+  const missing = config.pages
+    .filter((page) => requiredSourceKeys.has(page.key) && !successfulSources.has(page.key))
+    .map((page) => page.sourceName);
   console.error(`Facebook sync is incomplete. Missing or unreadable source(s): ${missing.join(', ')}.`);
   process.exit(1);
 }
 
 if (requireSync && videoMetricsFailures.size) {
-  const failed = config.pages.filter((page) => videoMetricsFailures.has(page.key)).map((page) => page.sourceName);
-  console.error(`Top-viewed Reel ranking could not be verified for: ${failed.join(', ')}. The Page token needs video insights access.`);
-  process.exit(1);
+  const failed = config.pages
+    .filter((page) => requiredSourceKeys.has(page.key) && videoMetricsFailures.has(page.key))
+    .map((page) => page.sourceName);
+  if (!failed.length) {
+    videoMetricsFailures.clear();
+  } else {
+    console.error(`Top-viewed Reel ranking could not be verified for: ${failed.join(', ')}. The Page token needs video insights access.`);
+    process.exit(1);
+  }
 }
 
 const freshIds = new Set(freshItems.map((item) => item.id));
@@ -438,27 +575,53 @@ for (const item of sortedCandidates) {
 }
 
 const featuredItems = [];
-for (const [pageIndex, page] of config.pages.entries()) {
+const featuredCandidatesByPage = new Map();
+for (const page of config.pages) {
   const candidates = sortedCandidates.filter((item) => item.sourceKey === page.key);
   const configured = configuredFeaturedUrls.get(page.key) || [];
-  let selected;
+  const configuredIds = configuredFeaturedIds.get(page.key) || [];
+  const ordered = [];
 
+  for (const id of configuredIds) {
+    const match = candidates.find((item) => item.facebookId === id);
+    if (match && !ordered.includes(match)) ordered.push(match);
+  }
   for (const url of configured) {
-    selected = candidates.find((item) => canonicalUrl(item.sourceUrl) === url);
-    if (selected) break;
+    const match = candidates.find((item) => canonicalUrl(item.sourceUrl) === url);
+    if (match && !ordered.includes(match)) ordered.push(match);
   }
 
-  if (!selected) {
-    const existingFeaturedIds = new Set((existing.items || [])
-      .filter((item) => item.sourceKey === page.key && item.featured === true)
-      .map((item) => item.id));
-    selected = candidates.find((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id))
-      || (!featuredResolvedSources.has(page.key) ? candidates.find((item) => existingFeaturedIds.has(item.id)) : undefined);
+  const detected = candidates.filter((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id));
+  for (const match of detected) if (!ordered.includes(match)) ordered.push(match);
+
+  const existingFeaturedIds = new Set((existing.items || [])
+    .filter((item) => item.sourceKey === page.key && item.featured === true)
+    .map((item) => item.id));
+  if (!featuredResolvedSources.has(page.key)) {
+    for (const match of candidates.filter((item) => existingFeaturedIds.has(item.id))) {
+      if (!ordered.includes(match)) ordered.push(match);
+    }
   }
 
+  featuredCandidatesByPage.set(page.key, ordered);
+}
+
+for (const [pageIndex, page] of config.pages.entries()) {
+  const selected = featuredCandidatesByPage.get(page.key)?.[0];
   if (selected) {
     selected.featured = true;
     selected.featuredOrder = pageIndex + 1;
+    featuredItems.push(selected);
+  }
+}
+
+for (const page of config.pages) {
+  if (featuredItems.length >= (config.maxFeaturedItems || 2)) break;
+  for (const selected of (featuredCandidatesByPage.get(page.key) || []).slice(1)) {
+    if (featuredItems.length >= (config.maxFeaturedItems || 2)) break;
+    if (featuredItems.includes(selected)) continue;
+    selected.featured = true;
+    selected.featuredOrder = featuredItems.length + 1;
     featuredItems.push(selected);
   }
 }
@@ -472,7 +635,10 @@ const topVideos = reelCandidates
     || new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
   .slice(0, config.maxVideoItems);
 const recentItems = sortedCandidates.slice(0, config.maxFeedItems);
-const selectedIds = new Set([...featuredItems, ...topVideos, ...recentItems].map((item) => item.id));
+const unavailableSourceItems = preserved.filter((item) => !successfulSources.has(item.sourceKey));
+const selectedIds = new Set(
+  [...featuredItems, ...topVideos, ...recentItems, ...unavailableSourceItems].map((item) => item.id)
+);
 const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
 
 const output = { updatedAt: new Date().toISOString(), items };

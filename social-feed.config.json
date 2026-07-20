@@ -4,6 +4,7 @@
   "eventsPerPage": 10,
   "videosPerPage": 25,
   "maxFeedItems": 10,
+  "maxFeaturedItems": 2,
   "maxVideoItems": 6,
   "maxImageBytes": 8000000,
   "pages": [
@@ -14,6 +15,11 @@
       "tokenEnv": "NCPDA_GERMANY_PAGE_ACCESS_TOKEN",
       "featuredPostUrlsEnv": "NCPDA_GERMANY_FEATURED_POST_URLS",
       "featuredPostUrlEnv": "NCPDA_GERMANY_FEATURED_POST_URL",
+      "featuredPostIdsEnv": "NCPDA_GERMANY_FEATURED_POST_IDS",
+      "featuredPostIds": [
+        "122184264350921031",
+        "122181003530921031"
+      ],
       "sourceName": "NCP Diaspora Alliance Germany",
       "pageUrl": "https://www.facebook.com/ncpdagermany/",
       "defaultBadge": "জার্মানি চ্যাপ্টার"
@@ -25,6 +31,8 @@
       "tokenEnv": "NCP_PAGE_ACCESS_TOKEN",
       "featuredPostUrlsEnv": "NCP_FEATURED_POST_URLS",
       "featuredPostUrlEnv": "NCP_FEATURED_POST_URL",
+      "featuredPostIdsEnv": "NCP_FEATURED_POST_IDS",
+      "featuredPostIds": [],
       "sourceName": "National Citizen Party",
       "pageUrl": "https://www.facebook.com/1NationalCitizenParty/",
       "defaultBadge": "জাতীয় নাগরিক পার্টি"
