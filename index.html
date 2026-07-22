@@ -161,52 +161,33 @@
     }
 
     .brand-icon {
-      width: 54px; height: 54px; border-radius: 50%;
-      background: radial-gradient(circle at 30% 30%, #f7fcf9 0%, #e7f2ec 62%, #d7e7dd 100%);
+      width: 66px; height: 66px;
       display: grid; place-items: center;
-      box-shadow: 0 8px 24px rgba(13,97,48,.2), 0 0 0 1px rgba(13,97,48,.09);
       position: relative;
       flex-shrink: 0;
-      isolation: isolate;
-      transition: width .4s var(--ease-in-out), height .4s var(--ease-in-out), box-shadow .3s var(--ease-out), transform .3s var(--ease-spring);
-    }
-    .brand-icon::before {
-      content: "";
-      position: absolute; inset: -5px;
-      border-radius: 50%;
-      border: 1.5px solid transparent;
-      border-top-color: rgba(192,22,54,.68);
-      border-right-color: rgba(13,97,48,.62);
-      animation: logoOrbit 8s linear infinite;
-      pointer-events: none;
-      z-index: -1;
-    }
-    .brand-icon::after {
-      content: "";
-      position: absolute; inset: 2px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, rgba(255,255,255,.28) 0%, transparent 58%);
-      pointer-events: none;
-      z-index: 2;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      transition: width .4s var(--ease-in-out), height .4s var(--ease-in-out);
     }
     .brand-icon img {
-      width: 43px; height: 43px;
+      width: 62px; height: 62px;
       display: block;
       object-fit: contain;
       object-position: center;
-      position: relative;
-      z-index: 1;
-      filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
-      animation: logoAwaken 5.8s ease-in-out infinite;
+      filter: drop-shadow(0 7px 12px rgba(3,47,24,.16));
+      clip-path: circle(100% at 50% 50%);
+      animation: brandInkReveal .95s .08s var(--ease-out) both;
+      transition: scale .3s var(--ease-spring), filter .3s var(--ease-out);
     }
-    .brand:hover .brand-icon { transform: translateY(-2px) scale(1.035); box-shadow: 0 12px 28px rgba(13,97,48,.24); }
-    .brand:hover .brand-icon::before { animation-duration: 3.2s; }
-    @keyframes logoOrbit { to { transform: rotate(360deg); } }
-    @keyframes logoAwaken {
-      0%, 100% { transform: scale(1); filter: drop-shadow(0 1px 1px rgba(0,0,0,.08)); }
-      50% { transform: scale(1.035); filter: drop-shadow(0 4px 8px rgba(13,97,48,.18)); }
+    .brand:hover .brand-icon img {
+      scale: 1.065;
+      filter: drop-shadow(0 10px 16px rgba(3,47,24,.22));
     }
-    .brand-icon svg { width: 20px; height: 20px; fill: none; stroke: #fff; stroke-width: 2; position: relative; z-index: 1; }
+    @keyframes brandInkReveal {
+      from { opacity: 0; clip-path: circle(0 at 50% 50%); filter: drop-shadow(0 0 0 rgba(3,47,24,0)); }
+      to { opacity: 1; clip-path: circle(100% at 50% 50%); filter: drop-shadow(0 7px 12px rgba(3,47,24,.16)); }
+    }
 
     .brand-text strong {
       display: block;
@@ -244,8 +225,8 @@
     .nav-links a.is-active { color: var(--green-700); font-weight: 600; }
     .nav-links a.is-active::after { transform: scaleX(1); transform-origin: left; }
 
-    .nav-wrap.scrolled .brand-icon { width: 48px; height: 48px; }
-    .nav-wrap.scrolled .brand-icon img { width: 38px; height: 38px; }
+    .nav-wrap.scrolled .brand-icon { width: 56px; height: 56px; }
+    .nav-wrap.scrolled .brand-icon img { width: 52px; height: 52px; }
 
     .nav-ctas { display: flex; gap: 9px; align-items: center; }
 
@@ -371,61 +352,31 @@
       opacity: .55;
     }
 
-    .hero-currents {
+    .hero-photo-wash {
       position: absolute; inset: 0;
       pointer-events: none; overflow: hidden;
       z-index: 0;
+      opacity: .9;
+      -webkit-mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.86) 44%, rgba(0,0,0,.28) 76%, transparent 100%);
+      mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.86) 44%, rgba(0,0,0,.28) 76%, transparent 100%);
     }
-    .hero-current {
-      position: absolute;
-      width: min(760px, 62vw); height: 220px;
-      border-radius: 50%;
-      border-top: 1.5px solid transparent;
-      opacity: .38;
-      filter: drop-shadow(0 0 12px currentColor);
-      transform-origin: center;
-    }
-    .hero-current::after {
+    .hero-photo-wash::after {
       content: "";
-      position: absolute; top: -4px; left: 50%;
-      width: 7px; height: 7px; border-radius: 50%;
-      background: currentColor;
-      box-shadow: 0 0 18px currentColor;
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,.84), rgba(255,255,255,.91) 52%, rgba(255,255,255,.98));
     }
-    .hero-current.green {
-      top: 12%; left: -17%;
-      color: var(--green-500);
-      border-top-color: rgba(18,181,88,.5);
-      transform: rotate(-8deg);
-      animation: currentDriftGreen 11s ease-in-out infinite alternate;
+    .hero-photo-wash-item {
+      position: absolute; inset: -4%;
+      background-position: center;
+      background-size: cover;
+      opacity: 0;
+      filter: grayscale(1) sepia(.14) contrast(.88);
+      transform: scale(1.08);
+      transition: opacity 1.35s ease, transform 7s ease-out;
     }
-    .hero-current.red {
-      right: -18%; bottom: 2%;
-      color: var(--red-500);
-      border-top-color: rgba(192,22,54,.42);
-      transform: rotate(172deg);
-      animation: currentDriftRed 13s ease-in-out infinite alternate;
-    }
-    .hero-current.gold {
-      width: min(520px, 46vw); height: 150px;
-      top: 48%; right: 15%;
-      color: var(--gold-400);
-      border-top-color: rgba(224,170,42,.34);
-      transform: rotate(152deg);
-      opacity: .25;
-      animation: currentDriftGold 15s ease-in-out infinite alternate;
-    }
-    @keyframes currentDriftGreen {
-      from { transform: translate(-4%, 0) rotate(-10deg); }
-      to { transform: translate(10%, 12px) rotate(-4deg); }
-    }
-    @keyframes currentDriftRed {
-      from { transform: translate(5%, 8px) rotate(174deg); }
-      to { transform: translate(-10%, -12px) rotate(168deg); }
-    }
-    @keyframes currentDriftGold {
-      from { transform: translate(0, -6px) rotate(149deg); }
-      to { transform: translate(-8%, 10px) rotate(156deg); }
+    .hero-photo-wash-item.is-active {
+      opacity: .17;
+      transform: scale(1.01);
     }
 
     .hero-grid {
@@ -562,170 +513,215 @@
     }
 
     .hero-panel {
-      --panel-tilt-x: 0deg;
-      --panel-tilt-y: 0deg;
-      --panel-glow-x: 76%;
-      --panel-glow-y: 12%;
-      border-radius: var(--r-xl);
-      background: linear-gradient(155deg, var(--green-900) 0%, var(--green-800) 48%, var(--green-700) 100%);
+      min-height: 620px;
+      border-radius: 32px;
       color: #fff;
-      padding: 36px 32px;
-      box-shadow: var(--shadow-xl), 0 1px 0 rgba(255,255,255,.07) inset;
-      position: relative; overflow: hidden;
-      border: 1px solid rgba(255,255,255,.07);
-      display: flex; flex-direction: column; justify-content: center;
-      transform-style: preserve-3d;
-      will-change: transform;
-      transition: transform .22s ease-out, box-shadow .35s var(--ease-out), opacity .8s var(--ease-out);
+      background: #02170b;
+      box-shadow: 0 32px 80px rgba(2,23,11,.24), 0 1px 0 rgba(255,255,255,.08) inset;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+      border: 1px solid rgba(255,255,255,.09);
+      transition: opacity .8s var(--ease-out), transform .8s var(--ease-spring);
     }
-    .hero-panel::before {
-      content: "";
-      position: absolute;
-      width: 380px; height: 380px;
-      left: calc(var(--panel-glow-x) - 190px);
-      top: calc(var(--panel-glow-y) - 190px);
-      border-radius: 50%;
-      background: radial-gradient(circle, rgba(34,212,110,.14) 0%, transparent 65%);
+    .memory-frames,
+    .memory-frame,
+    .memory-frame img,
+    .memory-shade,
+    .memory-grain {
+      position: absolute; inset: 0;
+    }
+    .memory-frame {
+      margin: 0;
+      opacity: 0;
+      overflow: hidden;
+      clip-path: inset(0 100% 0 0);
+      transition: opacity .85s ease, clip-path 1.05s var(--ease-out);
+      z-index: 0;
+    }
+    .memory-frame img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transform: scale(1.09);
+      filter: saturate(.76) contrast(1.04);
+      transition: transform 7s ease-out, filter 1s ease;
+    }
+    .memory-frame.is-active {
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+      z-index: 1;
+    }
+    .memory-frame.is-active img {
+      transform: scale(1.015);
+      filter: saturate(.92) contrast(1.06);
+    }
+    .memory-shade {
+      z-index: 2;
+      background:
+        linear-gradient(180deg, rgba(1,18,8,.54) 0%, rgba(1,18,8,.18) 31%, rgba(1,18,8,.4) 57%, rgba(1,14,7,.96) 100%),
+        linear-gradient(90deg, rgba(1,18,8,.22), transparent 58%);
       pointer-events: none;
-      transition: left .24s ease-out, top .24s ease-out;
     }
-    .hero-panel::after {
-      content: "";
-      position: absolute;
-      width: 240px; height: 240px;
-      bottom: -100px; left: -60px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(192,22,54,.18) 0%, transparent 65%);
+    .memory-grain {
+      z-index: 3;
+      opacity: .13;
       pointer-events: none;
+      mix-blend-mode: soft-light;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.8'/%3E%3C/svg%3E");
     }
-
-    .panel-live {
-      display: inline-flex; align-items: center; gap: 9px;
-      padding: 6px 13px; border-radius: 999px;
-      background: rgba(255,255,255,.08);
-      border: 1px solid rgba(255,255,255,.12);
-      color: rgba(255,255,255,.85);
-      font-family: var(--font-mono); font-size: 9.5px;
+    .memory-content {
+      position: relative;
+      z-index: 4;
+      min-height: 620px;
+      padding: 28px 30px 26px;
+      display: flex;
+      flex-direction: column;
+    }
+    .memory-kicker {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      font-family: var(--font-mono);
+      font-size: 9px; line-height: 1.4;
       letter-spacing: .13em; text-transform: uppercase;
-      margin-bottom: 20px; position: relative; z-index: 1;
-      width: fit-content;
+      color: rgba(255,255,255,.76);
     }
-    .live-dot {
-      width: 7px; height: 7px; border-radius: 50%;
-      background: #4dffa0;
-      box-shadow: 0 0 0 4px rgba(77,255,160,.12);
-      animation: livePulse 1.8s ease-in-out infinite;
+    .memory-kicker span {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: #fff; font-family: var(--font-ui); font-size: 11px;
+      letter-spacing: .03em; text-transform: none;
     }
-    @keyframes livePulse {
-      0%,100% { box-shadow: 0 0 0 3px rgba(77,255,160,.12); }
-      50%      { box-shadow: 0 0 0 7px rgba(77,255,160,.04); }
+    .memory-kicker span::before {
+      content: "";
+      width: 22px; height: 2px; border-radius: 99px;
+      background: var(--red-500);
+      box-shadow: 0 0 14px rgba(217,35,71,.46);
     }
-
-    .panel-center {
-      display: flex; flex-direction: column; align-items: center;
-      text-align: center; gap: 10px;
-      padding: 14px 0 10px;
-      position: relative; z-index: 1;
-    }
-    .panel-logo-wrap {
-      width: 150px; height: 150px;
+    .memory-logo-wrap {
+      width: 190px; height: 190px;
       position: relative;
       display: grid; place-items: center;
-      margin: 2px 0 8px;
-      isolation: isolate;
+      align-self: center;
+      margin: 34px auto 8px;
+      overflow: hidden;
+      border: 0;
+      background: transparent;
     }
-    .logo-orbit {
-      position: absolute; inset: 2px;
-      border-radius: 50%;
-      border: 1px solid rgba(255,255,255,.16);
-      animation: logoOrbit 12s linear infinite;
+    .memory-logo {
+      width: 184px; height: 184px;
+      display: block;
+      object-fit: contain;
+      filter: drop-shadow(0 18px 26px rgba(0,0,0,.44));
+      animation: memoryStamp 1.15s .42s var(--ease-spring) both;
+    }
+    .memory-logo-wrap::after {
+      content: "";
+      position: absolute;
+      inset: -28% 34%;
+      transform: translateX(-390%) rotate(16deg);
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.36), transparent);
+      filter: blur(4px);
+      mix-blend-mode: screen;
+      animation: memoryLight 7.5s 1.8s ease-in-out infinite;
       pointer-events: none;
     }
-    .logo-orbit::after {
-      content: "";
-      position: absolute; top: 13px; left: 16px;
-      width: 8px; height: 8px; border-radius: 50%;
-      background: var(--green-400);
-      box-shadow: 0 0 0 5px rgba(34,212,110,.1), 0 0 16px rgba(34,212,110,.72);
+    @keyframes memoryStamp {
+      from { opacity: 0; transform: scale(1.32) rotate(-4deg); filter: blur(7px) drop-shadow(0 0 0 rgba(0,0,0,0)); }
+      to { opacity: 1; transform: scale(1) rotate(0); filter: blur(0) drop-shadow(0 18px 26px rgba(0,0,0,.44)); }
     }
-    .logo-orbit.red {
-      inset: 13px;
-      border-color: rgba(217,35,71,.18);
-      animation-direction: reverse;
-      animation-duration: 8s;
+    @keyframes memoryLight {
+      0%, 72% { transform: translateX(-390%) rotate(16deg); opacity: 0; }
+      78% { opacity: .8; }
+      88%, 100% { transform: translateX(390%) rotate(16deg); opacity: 0; }
     }
-    .logo-orbit.red::after {
-      top: auto; left: auto; right: 6px; bottom: 28px;
-      width: 6px; height: 6px;
-      background: #ff4e6e;
-      box-shadow: 0 0 0 4px rgba(255,78,110,.1), 0 0 14px rgba(255,78,110,.68);
-    }
-    .panel-logo {
-      width: 122px; height: 122px; border-radius: 50%;
-      background: rgba(255,255,255,.96);
-      border: 3px solid rgba(255,255,255,.56);
-      display: grid; place-items: center;
-      box-shadow: 0 0 0 9px rgba(255,255,255,.045), 0 18px 46px rgba(0,0,0,.24);
+    .memory-name {
+      align-self: center;
+      text-align: center;
       font-family: var(--font-display);
-      font-size: 20px; font-weight: 800;
-      color: rgba(255,255,255,.9); letter-spacing: 0;
-      padding: 3px;
-      overflow: hidden;
-      position: relative; z-index: 1;
-      animation: panelLogoBreathe 5.8s ease-in-out infinite;
+      font-size: 1.18rem; font-weight: 500;
+      line-height: 1.2; color: rgba(255,255,255,.88);
+      text-shadow: 0 2px 18px rgba(0,0,0,.38);
     }
-    .panel-logo img {
-      width: 100%; height: 100%;
-      object-fit: contain;
-      object-position: center;
+    .memory-name strong { color: #fff; font-weight: 800; }
+    .memory-caption {
+      margin-top: auto;
+      padding: 16px 0 14px 18px;
+      border-left: 3px solid var(--red-500);
+      text-shadow: 0 2px 16px rgba(0,0,0,.5);
+    }
+    .memory-date {
       display: block;
-      filter: drop-shadow(0 1px 1px rgba(0,0,0,.15));
-    }
-    @keyframes panelLogoBreathe {
-      0%, 100% { transform: scale(1); box-shadow: 0 0 0 9px rgba(255,255,255,.045), 0 18px 46px rgba(0,0,0,.24); }
-      50% { transform: scale(1.025); box-shadow: 0 0 0 13px rgba(34,212,110,.045), 0 22px 52px rgba(0,0,0,.28); }
-    }
-
-    .panel-name {
-      font-family: var(--font-display);
-      font-size: 1.48rem; font-weight: 700;
-      line-height: 1.12; color: #fff;
-    }
-    .panel-sub {
-      font-family: var(--font-ui);
-      font-size: .88rem; font-weight: 300;
-      line-height: 1.68; color: rgba(255,255,255,.65);
-      max-width: 260px;
-    }
-    .panel-sep {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,.1), transparent);
-      margin: 14px 0; position: relative; z-index: 1;
-    }
-    .panel-quote {
-      position: relative; z-index: 1;
-      font-family: var(--font-display);
-      font-size: .94rem; font-weight: 700; font-style: italic;
-      line-height: 1.68; color: rgba(255,255,255,.84);
-      margin-bottom: 10px;
-    }
-    .panel-cite {
       font-family: var(--font-mono); font-size: 9.5px;
-      letter-spacing: .11em; text-transform: uppercase;
-      color: rgba(255,255,255,.34); position: relative; z-index: 1;
+      letter-spacing: .13em; text-transform: uppercase;
+      color: #a8e8bd;
+      margin-bottom: 7px;
     }
-    .panel-chips {
-      display: flex; flex-wrap: wrap; gap: 7px;
-      margin-top: 18px; position: relative; z-index: 1;
+    .memory-title {
+      font-family: var(--font-display);
+      font-size: 1.18rem; font-weight: 800;
+      line-height: 1.32; color: #fff;
+      margin: 0 0 5px;
+      text-wrap: balance;
     }
-    .chip {
-      padding: 5px 12px; border-radius: 999px;
-      background: rgba(255,255,255,.07);
-      border: 1px solid rgba(255,255,255,.1);
-      color: rgba(255,255,255,.76);
-      font-family: var(--font-ui); font-size: 11px; font-weight: 500;
-      transition: background .2s, transform .2s;
+    .memory-credit {
+      font-family: var(--font-ui); font-size: .72rem;
+      color: rgba(255,255,255,.66);
     }
-    .chip:hover { background: rgba(255,255,255,.13); transform: translateY(-1px); }
+    .memory-caption.is-changing > * {
+      animation: memoryCaptionIn .52s var(--ease-out) both;
+    }
+    .memory-caption.is-changing .memory-title { animation-delay: .05s; }
+    .memory-caption.is-changing .memory-credit { animation-delay: .1s; }
+    @keyframes memoryCaptionIn {
+      from { opacity: 0; transform: translateX(12px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .memory-timeline {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0,1fr));
+      gap: 8px;
+      margin-top: 11px;
+    }
+    .memory-step {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: rgba(255,255,255,.5);
+      min-width: 0;
+      padding: 9px 0 0;
+      text-align: left;
+      font-family: var(--font-mono); font-size: 8px;
+      letter-spacing: .05em;
+      cursor: pointer;
+      position: relative;
+      transition: color .3s ease;
+    }
+    .memory-step::before {
+      content: "";
+      position: absolute; left: 0; right: 0; top: 0;
+      height: 2px; border-radius: 99px;
+      background: rgba(255,255,255,.22);
+      transition: background .3s ease, transform .3s ease;
+      transform-origin: left;
+    }
+    .memory-step:hover,
+    .memory-step:focus-visible,
+    .memory-step.is-active { color: #fff; }
+    .memory-step.is-active::before {
+      background: linear-gradient(90deg, var(--red-500), #fff 48%, var(--green-400));
+      transform: scaleY(1.7);
+    }
+    .memory-step:focus-visible { outline: 2px solid #fff; outline-offset: 5px; border-radius: 2px; }
+    .memory-source {
+      width: fit-content;
+      margin-top: 16px;
+      font-family: var(--font-ui); font-size: .68rem;
+      line-height: 1.45; color: rgba(255,255,255,.62);
+      text-decoration: underline;
+      text-decoration-color: rgba(255,255,255,.28);
+      text-underline-offset: 3px;
+      transition: color .2s ease, text-decoration-color .2s ease;
+    }
+    .memory-source:hover { color: #fff; text-decoration-color: #fff; }
 
     /* ══════════════════════════════════════════
        TICKER BAND
@@ -2682,13 +2678,12 @@
     html.motion-ready.page-ready .hero-stats .stat-card:nth-child(3) { transition-delay: .76s; }
     html.motion-ready .hero-panel {
       opacity: 0;
-      transform: translateX(42px) rotate(1.5deg) scale(.97);
+      transform: translateX(34px) scale(.975);
     }
     html.motion-ready.page-ready .hero-panel {
       opacity: 1;
-      transform: perspective(1100px) rotateX(var(--panel-tilt-x)) rotateY(var(--panel-tilt-y));
+      transform: translateX(0) scale(1);
     }
-    .hero-panel > * { transform: translateZ(12px); }
 
     .reveal {
       opacity: 0; transform: translateY(26px);
@@ -2754,9 +2749,12 @@
       .footer-grid { grid-template-columns: 1fr; }
       .section { padding: 64px 0; }
       .form-panel, .join-aside { padding: 24px; border-radius: var(--r-lg); }
-      .hero-panel { padding: 30px 24px; }
-      .panel-logo-wrap { width: 132px; height: 132px; }
-      .panel-logo { width: 108px; height: 108px; }
+      .hero-panel,
+      .memory-content { min-height: 590px; }
+      .memory-content { padding: 24px 22px 22px; }
+      .memory-logo-wrap { width: 154px; height: 154px; margin-top: 30px; }
+      .memory-logo { width: 150px; height: 150px; }
+      .memory-title { font-size: 1.08rem; }
       #back-top { bottom: 18px; right: 18px; }
       .gallery-shell { gap: 12px; }
       .gallery-stage,
@@ -2794,8 +2792,10 @@
       .uprising-resource-heading { align-items: start; flex-direction: column; }
       .resource-card { min-height: 0; }
       .updates-toolbar { align-items: flex-start; flex-direction: column; }
-      .hero-current { width: 96vw; opacity: .24; }
-      .hero-current.gold { display: none; }
+      .hero-photo-wash {
+        -webkit-mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.7) 50%, transparent 92%);
+        mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.7) 50%, transparent 92%);
+      }
     }
     @media (max-width: 520px) {
       .container,
@@ -2803,10 +2803,10 @@
       .nav-inner { width: calc(100% - 24px); }
       .nav-inner { padding: 0 12px; border-radius: 18px; }
       .brand { gap: 10px; min-width: 0; }
-      .brand-icon { width: 44px; height: 44px; }
-      .brand-icon img { width: 35px; height: 35px; }
-      .nav-wrap.scrolled .brand-icon { width: 42px; height: 42px; }
-      .nav-wrap.scrolled .brand-icon img { width: 33px; height: 33px; }
+      .brand-icon { width: 52px; height: 52px; }
+      .brand-icon img { width: 49px; height: 49px; }
+      .nav-wrap.scrolled .brand-icon { width: 48px; height: 48px; }
+      .nav-wrap.scrolled .brand-icon img { width: 45px; height: 45px; }
       .brand-text { min-width: 0; }
       .brand-text strong,
       .brand-text span {
@@ -2823,6 +2823,17 @@
       .hero-grid { padding-bottom: 32px; }
       .hero-h1 { font-size: 2.55rem; line-height: 1.04; }
       .hero-sub { font-size: .98rem; }
+      .hero-panel,
+      .memory-content { min-height: 560px; }
+      .memory-kicker { font-size: 7.5px; letter-spacing: .09em; }
+      .memory-kicker span { font-size: 10px; }
+      .memory-logo-wrap { width: 146px; height: 146px; margin-top: 26px; }
+      .memory-logo { width: 142px; height: 142px; }
+      .memory-name { font-size: 1.08rem; }
+      .memory-caption { padding-left: 14px; }
+      .memory-title { font-size: 1rem; }
+      .memory-step { font-size: 7px; }
+      .memory-source { font-size: .63rem; }
       .hero-actions { flex-direction: column; align-items: stretch; }
       .btn-cta { justify-content: center; width: 100%; padding: 14px 18px; }
       .section { padding: 56px 0; }
@@ -2909,10 +2920,12 @@
   <header class="hero" id="home">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-deco" aria-hidden="true"></div>
-    <div class="hero-currents" aria-hidden="true">
-      <span class="hero-current green"></span>
-      <span class="hero-current red"></span>
-      <span class="hero-current gold"></span>
+    <div class="hero-photo-wash" aria-hidden="true">
+      <span class="hero-photo-wash-item is-active" style="background-image:url('img/july/archive/july-03-shahbagh-anisur-rahman.webp')"></span>
+      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/july-15-placard-anisur-rahman.webp')"></span>
+      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp')"></span>
+      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/august-02-salute-orchid-chakma.webp')"></span>
+      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/august-05-mass-gathering-palash-khan.webp')"></span>
     </div>
     <div class="hero-grid">
 
@@ -2952,32 +2965,50 @@
         </div>
       </div>
 
-      <div class="hero-panel">
-        <div class="panel-live">
-          <span class="live-dot"></span>
-          NCP Diaspora Alliance · Germany
+      <aside class="hero-panel july-memory" aria-label="জুলাই গণঅভ্যুত্থানের নির্বাচিত স্মৃতি">
+        <div class="memory-frames" aria-hidden="true">
+          <figure class="memory-frame is-active">
+            <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" fetchpriority="high">
+          </figure>
+          <figure class="memory-frame">
+            <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
+          </figure>
+          <figure class="memory-frame">
+            <img src="img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp" alt="" width="1400" height="916" loading="lazy">
+          </figure>
+          <figure class="memory-frame">
+            <img src="img/july/archive/august-02-salute-orchid-chakma.webp" alt="" width="1400" height="933" loading="lazy">
+          </figure>
+          <figure class="memory-frame">
+            <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
+          </figure>
         </div>
-        <div class="panel-center">
-          <div class="panel-logo-wrap" aria-label="NCP Diaspora Alliance Germany">
-            <span class="logo-orbit" aria-hidden="true"></span>
-            <span class="logo-orbit red" aria-hidden="true"></span>
-            <div class="panel-logo">
-              <img src="img/logo/logo-transparent.png" alt="NCP Diaspora Alliance Germany Logo" onerror="this.style.display='none';this.parentElement.textContent='NCP'" />
-            </div>
+        <div class="memory-shade" aria-hidden="true"></div>
+        <div class="memory-grain" aria-hidden="true"></div>
+        <div class="memory-content">
+          <div class="memory-kicker">
+            <span>জুলাই ২০২৪ · স্মৃতির আর্কাইভ</span>
+            <b>36 DAYS · MEMORY ARCHIVE</b>
           </div>
-          <div class="panel-name">NCP Diaspora Alliance<br>Germany</div>
-          <p class="panel-sub">মেধা ও দেশপ্রেমের ঐক্যবদ্ধ শক্তিতে গড়বো আগামীর বাংলাদেশ</p>
+          <div class="memory-logo-wrap" aria-hidden="true">
+            <img class="memory-logo" src="img/logo/logo-transparent.png" alt="" width="184" height="184">
+          </div>
+          <div class="memory-name">NCP Diaspora Alliance · <strong>Germany</strong></div>
+          <div class="memory-caption" id="memoryCaption">
+            <span class="memory-date" id="memoryDate">৩ জুলাই ২০২৪</span>
+            <p class="memory-title" id="memoryTitle">শাহবাগে শিক্ষার্থীদের ঐতিহাসিক সমাবেশ</p>
+            <small class="memory-credit" id="memoryCredit">ছবি: আনিসুর রহমান</small>
+          </div>
+          <div class="memory-timeline" aria-label="জুলাই গণঅভ্যুত্থানের ছবির সময়রেখা">
+            <button class="memory-step is-active" type="button" data-memory-index="0" aria-label="৩ জুলাইয়ের ছবি দেখুন" aria-pressed="true">৩ JUL</button>
+            <button class="memory-step" type="button" data-memory-index="1" aria-label="১৫ জুলাইয়ের ছবি দেখুন" aria-pressed="false">১৫ JUL</button>
+            <button class="memory-step" type="button" data-memory-index="2" aria-label="৩০ জুলাইয়ের ছবি দেখুন" aria-pressed="false">৩০ JUL</button>
+            <button class="memory-step" type="button" data-memory-index="3" aria-label="২ আগস্টের ছবি দেখুন" aria-pressed="false">২ AUG</button>
+            <button class="memory-step" type="button" data-memory-index="4" aria-label="৫ আগস্টের ছবি দেখুন" aria-pressed="false">৫ AUG</button>
+          </div>
+          <a class="memory-source" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer">ছবি ও তথ্যসূত্র: The Daily Star · 36 Days of July ↗</a>
         </div>
-        <div class="panel-sep"></div>
-        <p class="panel-quote">"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।"</p>
-        <div class="panel-cite">NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</div>
-        <div class="panel-chips">
-          <span class="chip">সংস্কার</span>
-          <span class="chip">গণতন্ত্র</span>
-          <span class="chip">প্রবাসী অধিকার</span>
-          <span class="chip">দ্বিতীয় প্রজাতন্ত্র</span>
-        </div>
-      </div>
+      </aside>
 
     </div>
   </header>
@@ -3597,46 +3628,103 @@
     ───────────────────────────────────────── */
     function initSignatureMotion() {
       const root = document.documentElement;
-      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
       requestAnimationFrame(() => {
         requestAnimationFrame(() => root.classList.add('page-ready'));
       });
+    }
 
-      if (reducedMotion || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-
-      const panel = $('.hero-panel');
+    /* ─────────────────────────────────────────
+       MODULE: JULY MEMORY ARCHIVE
+    ───────────────────────────────────────── */
+    function initJulyMemory() {
+      const panel = $('.july-memory');
       if (!panel) return;
 
-      let motionFrame = 0;
-      let pointerX = 0;
-      let pointerY = 0;
+      const frames = $$('.memory-frame', panel);
+      const washes = $$('.hero-photo-wash-item');
+      const steps = $$('.memory-step', panel);
+      const caption = $('#memoryCaption');
+      const date = $('#memoryDate');
+      const title = $('#memoryTitle');
+      const credit = $('#memoryCredit');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const memories = [
+        { date: '৩ জুলাই ২০২৪', title: 'শাহবাগে শিক্ষার্থীদের ঐতিহাসিক সমাবেশ', credit: 'ছবি: আনিসুর রহমান' },
+        { date: '১৫ জুলাই ২০২৪', title: 'অধিকারের দাবিতে প্রতিবাদী কণ্ঠ', credit: 'ছবি: আনিসুর রহমান' },
+        { date: '৩০ জুলাই ২০২৪', title: 'দমন-পীড়নের প্রতিবাদে নীরব পদযাত্রা', credit: 'ছবি: আকলাকুর রহমান আকাশ' },
+        { date: '২ আগস্ট ২০২৪', title: 'দ্রোহযাত্রায় প্রতিবাদীদের প্রতি শ্রমজীবী মানুষের অভিবাদন', credit: 'ছবি: অর্কিড চাকমা' },
+        { date: '৫ আগস্ট ২০২৪', title: 'জনতার ঐতিহাসিক সমাবেশ', credit: 'ছবি: পলাশ খান' }
+      ];
 
-      function renderPanelDepth() {
-        motionFrame = 0;
-        const rect = panel.getBoundingClientRect();
-        const xRatio = Math.min(1, Math.max(0, (pointerX - rect.left) / rect.width));
-        const yRatio = Math.min(1, Math.max(0, (pointerY - rect.top) / rect.height));
-        panel.style.setProperty('--panel-tilt-x', `${(0.5 - yRatio) * 3.2}deg`);
-        panel.style.setProperty('--panel-tilt-y', `${(xRatio - 0.5) * 4.2}deg`);
-        panel.style.setProperty('--panel-glow-x', `${xRatio * 100}%`);
-        panel.style.setProperty('--panel-glow-y', `${yRatio * 100}%`);
+      let activeIndex = 0;
+      let cycleTimer = 0;
+      let captionTimer = 0;
+      let paused = false;
+
+      function stopCycle() {
+        if (cycleTimer) window.clearInterval(cycleTimer);
+        cycleTimer = 0;
       }
 
-      panel.addEventListener('pointermove', (event) => {
-        pointerX = event.clientX;
-        pointerY = event.clientY;
-        if (!motionFrame) motionFrame = requestAnimationFrame(renderPanelDepth);
+      function startCycle() {
+        stopCycle();
+        if (reducedMotion || paused || document.hidden) return;
+        cycleTimer = window.setInterval(() => setMemory(activeIndex + 1), 6200);
+      }
+
+      function setMemory(nextIndex) {
+        activeIndex = (nextIndex + memories.length) % memories.length;
+        const memory = memories[activeIndex];
+
+        frames.forEach((frame, index) => frame.classList.toggle('is-active', index === activeIndex));
+        washes.forEach((wash, index) => wash.classList.toggle('is-active', index === activeIndex));
+        steps.forEach((step, index) => {
+          const isActive = index === activeIndex;
+          step.classList.toggle('is-active', isActive);
+          step.setAttribute('aria-pressed', String(isActive));
+        });
+
+        date.textContent = memory.date;
+        title.textContent = memory.title;
+        credit.textContent = memory.credit;
+
+        window.clearTimeout(captionTimer);
+        caption.classList.remove('is-changing');
+        requestAnimationFrame(() => {
+          caption.classList.add('is-changing');
+          captionTimer = window.setTimeout(() => caption.classList.remove('is-changing'), 720);
+        });
+      }
+
+      steps.forEach((step) => {
+        step.addEventListener('click', () => {
+          setMemory(Number(step.dataset.memoryIndex));
+          startCycle();
+        });
       });
 
-      panel.addEventListener('pointerleave', () => {
-        if (motionFrame) cancelAnimationFrame(motionFrame);
-        motionFrame = 0;
-        panel.style.setProperty('--panel-tilt-x', '0deg');
-        panel.style.setProperty('--panel-tilt-y', '0deg');
-        panel.style.setProperty('--panel-glow-x', '76%');
-        panel.style.setProperty('--panel-glow-y', '12%');
+      panel.addEventListener('pointerenter', () => {
+        paused = true;
+        stopCycle();
       });
+      panel.addEventListener('pointerleave', () => {
+        paused = false;
+        startCycle();
+      });
+      panel.addEventListener('focusin', () => {
+        paused = true;
+        stopCycle();
+      });
+      panel.addEventListener('focusout', (event) => {
+        if (panel.contains(event.relatedTarget)) return;
+        paused = false;
+        startCycle();
+      });
+      document.addEventListener('visibilitychange', startCycle);
+
+      setMemory(0);
+      startCycle();
     }
 
     /* ─────────────────────────────────────────
@@ -4567,6 +4655,7 @@
       initProgressBar();
       initStickyNav();
       initSignatureMotion();
+      initJulyMemory();
       initActiveNavigation();
       initMobileMenu();
       initScrollReveal();
