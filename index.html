@@ -1009,7 +1009,7 @@
     .section { padding: clamp(68px, 7vw, 86px) 0; }
     .section-alt { background: var(--surface); }
 
-    /* July photographs continue through the page as quiet visual memory. */
+    /* Official July Museum photographs emerge like developed archival film. */
     .july-visual-section {
       position: relative;
       overflow: hidden;
@@ -1020,7 +1020,8 @@
       z-index: 2;
     }
     .section-memory {
-      --memory-opacity: .07;
+      --memory-opacity: .085;
+      --memory-haze: rgba(255,255,255,.96);
       position: absolute;
       inset: 0;
       z-index: 0;
@@ -1036,7 +1037,7 @@
       object-fit: cover;
       object-position: center;
       opacity: var(--memory-opacity);
-      filter: grayscale(1) sepia(.12) contrast(.94);
+      filter: grayscale(.62) saturate(.72) contrast(1.08);
       transform: translate3d(0, var(--memory-shift, 0px), 0) scale(1.08);
       will-change: transform;
       transition: opacity 1.15s ease, filter 1.2s ease, transform .18s linear;
@@ -1051,7 +1052,24 @@
       -webkit-mask-image: linear-gradient(90deg, #000 30%, rgba(0,0,0,.55) 66%, transparent 100%);
       mask-image: linear-gradient(90deg, #000 30%, rgba(0,0,0,.55) 66%, transparent 100%);
     }
-    .section-memory.memory-dark { --memory-opacity: .13; }
+    .section-memory.memory-dark {
+      --memory-opacity: .15;
+      --memory-haze: rgba(1,12,6,.96);
+    }
+    .section-memory::before {
+      content: "";
+      position: absolute;
+      inset: -18%;
+      z-index: 2;
+      background:
+        radial-gradient(ellipse 28% 42% at 16% 48%, var(--memory-haze) 0%, transparent 72%),
+        radial-gradient(ellipse 34% 48% at 52% 28%, var(--memory-haze) 0%, transparent 76%),
+        radial-gradient(ellipse 38% 52% at 88% 58%, var(--memory-haze) 0%, transparent 78%),
+        linear-gradient(105deg, var(--memory-haze) 0%, transparent 78%);
+      opacity: .1;
+      transform: translateX(12%) scale(1.04);
+      pointer-events: none;
+    }
     .section-memory::after {
       content: "";
       position: absolute;
@@ -1061,6 +1079,7 @@
       background: linear-gradient(90deg, transparent, rgba(192,22,54,.6), rgba(34,212,110,.58), transparent);
       transform: scaleX(0);
       opacity: 0;
+      z-index: 3;
     }
     .section-memory.memory-right::after { right: 3%; transform-origin: right; }
     .section-memory.memory-left::after { left: 3%; transform-origin: left; }
@@ -1069,16 +1088,68 @@
       transform: scaleX(1);
       transition: transform 1.35s .18s var(--ease-out), opacity .5s ease;
     }
+    html.motion-ready .july-visual-section .section-memory::before {
+      opacity: .98;
+      transform: translateX(-10%) scale(1.18);
+    }
+    html.motion-ready .july-visual-section.memory-visible .section-memory::before {
+      animation: julyHazeReveal 2.2s .08s cubic-bezier(.16,1,.3,1) both;
+    }
+    @keyframes julyHazeReveal {
+      0% { opacity: .98; transform: translateX(-10%) scale(1.18); }
+      48% { opacity: .58; }
+      100% { opacity: .08; transform: translateX(12%) scale(1.04); }
+    }
     html.motion-ready .july-visual-section .section-memory img {
       opacity: 0;
-      filter: grayscale(1) sepia(.12) contrast(.94) blur(9px);
+      filter: grayscale(1) saturate(.42) contrast(1.14) blur(10px);
       transform: translate3d(0, calc(var(--memory-shift, 0px) + 28px), 0) scale(1.13);
     }
     html.motion-ready .july-visual-section.memory-visible .section-memory img {
       opacity: var(--memory-opacity);
-      filter: grayscale(1) sepia(.12) contrast(.94) blur(0);
+      filter: grayscale(.62) saturate(.72) contrast(1.08) blur(0);
       transform: translate3d(0, var(--memory-shift, 0px), 0) scale(1.08);
-      transition: opacity 1.15s ease, filter 1.2s ease, transform .18s linear;
+      transition: opacity 1.35s .28s ease, filter 1.55s .18s ease, transform .18s linear;
+    }
+    .memory-moment {
+      position: absolute;
+      top: clamp(68px, 12vw, 146px);
+      z-index: 4;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 7px 11px;
+      border-radius: 3px;
+      background: rgba(4,16,9,.72);
+      border-left: 3px solid var(--red-500);
+      color: rgba(255,255,255,.92);
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: 600;
+      line-height: 1.35;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      opacity: 0;
+      transform: translateY(18px);
+      box-shadow: 0 10px 30px rgba(0,0,0,.14);
+      backdrop-filter: blur(8px);
+    }
+    .memory-moment::before {
+      content: "36";
+      color: #ff4967;
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+    .section-memory.memory-right .memory-moment { right: 4%; }
+    .section-memory.memory-left .memory-moment { left: 4%; }
+    .july-visual-section.memory-visible .memory-moment {
+      animation: julyMomentRise .85s .74s var(--ease-out) both;
+    }
+    @keyframes julyMomentRise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: .88; transform: translateY(0); }
     }
     .july-visual-section .section-head {
       position: relative;
@@ -1096,6 +1167,17 @@
     .july-visual-section.memory-visible .section-head::after {
       transform: scaleX(1);
       transition: transform 1s .3s var(--ease-out);
+    }
+    html.motion-ready .july-visual-section .section-head .eyebrow {
+      opacity: 0;
+      clip-path: inset(0 100% 0 0);
+    }
+    html.motion-ready .july-visual-section.memory-visible .section-head .eyebrow {
+      animation: julyLabelReveal .9s .08s var(--ease-out) both;
+    }
+    @keyframes julyLabelReveal {
+      from { opacity: 0; clip-path: inset(0 100% 0 0); transform: translateX(-12px); }
+      to { opacity: 1; clip-path: inset(0 0 0 0); transform: translateX(0); }
     }
     .july-photo-credit {
       position: relative;
@@ -2864,6 +2946,9 @@
         left: -24vw !important;
       }
       .section-memory::after { width: 54vw; }
+      .section-memory { --memory-opacity: .065; }
+      .section-memory.memory-dark { --memory-opacity: .12; }
+      .memory-moment { display: none; }
     }
     @media (max-width: 520px) {
       .container,
@@ -2928,8 +3013,21 @@
       html.motion-ready .hero-panel { opacity: 1; transform: none; }
       html.motion-ready .july-visual-section .section-memory img {
         opacity: var(--memory-opacity);
-        filter: grayscale(1) sepia(.12) contrast(.94);
+        filter: grayscale(.62) saturate(.72) contrast(1.08);
         transform: scale(1.08);
+      }
+      html.motion-ready .july-visual-section .section-memory::before {
+        opacity: .08;
+        transform: none;
+      }
+      .july-visual-section .memory-moment {
+        opacity: .88;
+        transform: none;
+      }
+      html.motion-ready .july-visual-section .section-head .eyebrow {
+        opacity: 1;
+        clip-path: none;
+        transform: none;
       }
       .july-visual-section .section-memory::after,
       .july-visual-section .section-head::after { opacity: .65; transform: scaleX(1); }
@@ -3064,7 +3162,8 @@
 
   <section class="announcement-section july-visual-section" id="announcements" aria-labelledby="announcementsTitle">
     <div class="section-memory memory-right" aria-hidden="true">
-      <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
+      <img src="img/july/official/july-29-red-july.webp" alt="" width="1200" height="800" loading="lazy">
+      <span class="memory-moment">২৯ জুলাই · লাল জুলাই</span>
     </div>
     <div class="container" id="announcementsList" data-content-source="data/announcements.json">
       <article class="announcement-shell reveal">
@@ -3093,7 +3192,8 @@
 
   <section class="uprising-strip july-visual-section" id="uprising" aria-labelledby="uprisingTitle">
     <div class="section-memory memory-left memory-dark" aria-hidden="true">
-      <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" loading="lazy">
+      <img src="img/july/official/july-06-shahbagh-flag.webp" alt="" width="1200" height="762" loading="lazy">
+      <span class="memory-moment">০৬ জুলাই · শাহবাগ</span>
     </div>
     <div class="container">
       <div class="uprising-inner reveal">
@@ -3136,14 +3236,15 @@
           <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
           <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
         </div>
-        <p class="july-photo-credit">পটভূমির আলোকচিত্র: আনিসুর রহমান, আকলাকুর রহমান আকাশ, অর্কিড চাকমা ও পলাশ খান · সূত্র: <a href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer">The Daily Star · 36 Days of July</a>।</p>
+        <p class="july-photo-credit">পটভূমির ঐতিহাসিক আলোকচিত্র ও তথ্যসূত্র: <a href="https://july36.gov.bd/archives/photo" target="_blank" rel="noopener noreferrer">জুলাই গণ-অভ্যুত্থান স্মৃতি জাদুঘরের সরকারি ফটো আর্কাইভ</a>।</p>
       </div>
     </div>
   </section>
 
   <section class="section july-visual-section" id="about">
     <div class="section-memory memory-right" aria-hidden="true">
-      <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
+      <img src="img/july/official/july-07-women-shahbagh.webp" alt="" width="1200" height="800" loading="lazy">
+      <span class="memory-moment">০৭ জুলাই · দেশজুড়ে জাগরণ</span>
     </div>
     <div class="container">
       <div class="section-head reveal">
@@ -3228,7 +3329,8 @@
 
   <section class="section section-alt july-visual-section" id="pillars">
     <div class="section-memory memory-left" aria-hidden="true">
-      <img src="img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp" alt="" width="1400" height="916" loading="lazy">
+      <img src="img/july/official/july-08-mass-rally.webp" alt="" width="1600" height="1067" loading="lazy">
+      <span class="memory-moment">০৮ জুলাই · আপস নয়, সংগ্রাম</span>
     </div>
     <div class="container">
       <div class="section-head reveal">
@@ -3262,7 +3364,8 @@
 
   <section class="section july-visual-section" id="updates">
     <div class="section-memory memory-right" aria-hidden="true">
-      <img src="img/july/archive/august-02-salute-orchid-chakma.webp" alt="" width="1400" height="933" loading="lazy">
+      <img src="img/july/official/august-02-resistance.webp" alt="" width="1200" height="800" loading="lazy">
+      <span class="memory-moment">০২ আগস্ট · প্রতিরোধ</span>
     </div>
     <div class="container">
       <div class="section-head reveal">
@@ -3307,7 +3410,8 @@
 
   <section class="section section-alt july-visual-section" id="blog">
     <div class="section-memory memory-left" aria-hidden="true">
-      <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
+      <img src="img/july/official/august-05-parliament-victory.webp" alt="" width="1200" height="780" loading="lazy">
+      <span class="memory-moment">৩৬ জুলাই · বিজয়</span>
     </div>
     <div class="container">
       <div class="section-head reveal">
@@ -3354,7 +3458,8 @@
 
   <section class="section dark-section july-visual-section" id="why-join">
     <div class="section-memory memory-right memory-dark" aria-hidden="true">
-      <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
+      <img src="img/july/official/july-29-red-july.webp" alt="" width="1200" height="800" loading="lazy">
+      <span class="memory-moment">২৯ জুলাই · লাল জুলাই</span>
     </div>
     <div class="container">
       <div class="section-head reveal">
@@ -3413,7 +3518,8 @@
 
   <section class="section section-alt july-visual-section" id="join">
     <div class="section-memory memory-left" aria-hidden="true">
-      <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" loading="lazy">
+      <img src="img/july/official/july-06-shahbagh-flag.webp" alt="" width="1200" height="762" loading="lazy">
+      <span class="memory-moment">০৬ জুলাই · মেধার বাংলাদেশ</span>
     </div>
     <div class="container">
       <div class="join-grid">
