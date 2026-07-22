@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-22T03:49:13.714Z",
+  "updatedAt": "2026-07-22T06:43:36.929Z",
   "items": [
+    {
+      "id": "facebook-germany-122196342320921031",
+      "facebookId": "122196342320921031",
+      "status": "published",
+      "date": "২২ জুলাই, ২০২৬",
+      "createdAt": "2026-07-22T05:35:30+0000",
+      "badge": "রক্তে জুলাই",
+      "title": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
+      "excerpt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই ২০২৬। এই বিশেষ আয়োজনে জুলাই গণঅভ্যুত্থানের সম্মুখসারির নেতৃবৃন্দের পাশাপাশি বাংলাদেশি-জার্মান কমিউনিটির নেতৃবৃন্দ, বিশিষ্ট ব্যক্তিবর্গ, পেশাজীবী ও সচেতন প্রবাসীরা অংশগ্রহণ করবেন।",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196342320921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122196342320921031.jpg",
+      "imageAlt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196215282921031",
       "facebookId": "122196215282921031",
@@ -178,26 +197,6 @@
       "preserveCopy": true
     },
     {
-      "id": "facebook-germany-122195750408921031",
-      "facebookId": "122195750408921031",
-      "status": "published",
-      "date": "১৮ জুলাই, ২০২৬",
-      "createdAt": "2026-07-18T15:57:56+0000",
-      "badge": "জুলাই শহীদ",
-      "title": "ফিরে দেখা ১৮ জুলাই: আমরা তোমাদের ভুলব না",
-      "excerpt": "১৮ জুলাই ২০২৪-এর শহীদদের স্মরণে প্রকাশিত ধারাবাহিক ভিজ্যুয়ালে জুলাই গণঅভ্যুত্থানের আত্মত্যাগকে গভীর শ্রদ্ধায় স্মরণ করা হয়েছে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122195750408921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122195750408921031.jpg",
-      "imageAlt": "১৮ জুলাইয়ের জুলাই শহীদদের স্মরণ",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
       "id": "ncp-election-manifesto-2026",
       "status": "published",
       "date": "২০২৬",
@@ -350,7 +349,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70846,
+      "viewCount": 70847,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
