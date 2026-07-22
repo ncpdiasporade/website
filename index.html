@@ -352,31 +352,61 @@
       opacity: .55;
     }
 
-    .hero-photo-wash {
+    .hero-currents {
       position: absolute; inset: 0;
       pointer-events: none; overflow: hidden;
       z-index: 0;
-      opacity: .9;
-      -webkit-mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.86) 44%, rgba(0,0,0,.28) 76%, transparent 100%);
-      mask-image: linear-gradient(90deg, #000 0%, rgba(0,0,0,.86) 44%, rgba(0,0,0,.28) 76%, transparent 100%);
     }
-    .hero-photo-wash::after {
+    .hero-current {
+      position: absolute;
+      width: min(760px, 62vw); height: 220px;
+      border-radius: 50%;
+      border-top: 1.5px solid transparent;
+      opacity: .38;
+      filter: drop-shadow(0 0 12px currentColor);
+      transform-origin: center;
+    }
+    .hero-current::after {
       content: "";
-      position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(255,255,255,.84), rgba(255,255,255,.91) 52%, rgba(255,255,255,.98));
+      position: absolute; top: -4px; left: 50%;
+      width: 7px; height: 7px; border-radius: 50%;
+      background: currentColor;
+      box-shadow: 0 0 18px currentColor;
     }
-    .hero-photo-wash-item {
-      position: absolute; inset: -4%;
-      background-position: center;
-      background-size: cover;
-      opacity: 0;
-      filter: grayscale(1) sepia(.14) contrast(.88);
-      transform: scale(1.08);
-      transition: opacity 1.35s ease, transform 7s ease-out;
+    .hero-current.green {
+      top: 12%; left: -17%;
+      color: var(--green-500);
+      border-top-color: rgba(18,181,88,.5);
+      transform: rotate(-8deg);
+      animation: currentDriftGreen 11s ease-in-out infinite alternate;
     }
-    .hero-photo-wash-item.is-active {
-      opacity: .17;
-      transform: scale(1.01);
+    .hero-current.red {
+      right: -18%; bottom: 2%;
+      color: var(--red-500);
+      border-top-color: rgba(192,22,54,.42);
+      transform: rotate(172deg);
+      animation: currentDriftRed 13s ease-in-out infinite alternate;
+    }
+    .hero-current.gold {
+      width: min(520px, 46vw); height: 150px;
+      top: 48%; right: 15%;
+      color: var(--gold-400);
+      border-top-color: rgba(224,170,42,.34);
+      transform: rotate(152deg);
+      opacity: .25;
+      animation: currentDriftGold 15s ease-in-out infinite alternate;
+    }
+    @keyframes currentDriftGreen {
+      from { transform: translate(-4%, 0) rotate(-10deg); }
+      to { transform: translate(10%, 12px) rotate(-4deg); }
+    }
+    @keyframes currentDriftRed {
+      from { transform: translate(5%, 8px) rotate(174deg); }
+      to { transform: translate(-10%, -12px) rotate(168deg); }
+    }
+    @keyframes currentDriftGold {
+      from { transform: translate(0, -6px) rotate(149deg); }
+      to { transform: translate(-8%, 10px) rotate(156deg); }
     }
 
     .hero-grid {
@@ -513,215 +543,143 @@
     }
 
     .hero-panel {
-      min-height: 620px;
-      border-radius: 32px;
+      --panel-glow-x: 76%;
+      --panel-glow-y: 12%;
+      min-height: 584px;
+      border-radius: var(--r-xl);
+      background: linear-gradient(155deg, var(--green-900) 0%, var(--green-800) 48%, var(--green-700) 100%);
       color: #fff;
-      background: #02170b;
-      box-shadow: 0 32px 80px rgba(2,23,11,.24), 0 1px 0 rgba(255,255,255,.08) inset;
-      position: relative;
-      overflow: hidden;
+      padding: 36px 32px;
+      box-shadow: var(--shadow-xl), 0 1px 0 rgba(255,255,255,.07) inset;
+      position: relative; overflow: hidden;
+      border: 1px solid rgba(255,255,255,.07);
+      display: flex; flex-direction: column; justify-content: center;
       isolation: isolate;
-      border: 1px solid rgba(255,255,255,.09);
-      transition: opacity .8s var(--ease-out), transform .8s var(--ease-spring);
+      transition: opacity .8s var(--ease-out), transform .8s var(--ease-spring), box-shadow .35s var(--ease-out);
     }
-    .memory-frames,
-    .memory-frame,
-    .memory-frame img,
-    .memory-shade,
-    .memory-grain {
-      position: absolute; inset: 0;
-    }
-    .memory-frame {
-      margin: 0;
-      opacity: 0;
-      overflow: hidden;
-      clip-path: inset(0 100% 0 0);
-      transition: opacity .85s ease, clip-path 1.05s var(--ease-out);
-      z-index: 0;
-    }
-    .memory-frame img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      object-position: center;
-      transform: scale(1.09);
-      filter: saturate(.76) contrast(1.04);
-      transition: transform 7s ease-out, filter 1s ease;
-    }
-    .memory-frame.is-active {
-      opacity: 1;
-      clip-path: inset(0 0 0 0);
-      z-index: 1;
-    }
-    .memory-frame.is-active img {
-      transform: scale(1.015);
-      filter: saturate(.92) contrast(1.06);
-    }
-    .memory-shade {
-      z-index: 2;
-      background:
-        linear-gradient(180deg, rgba(1,18,8,.54) 0%, rgba(1,18,8,.18) 31%, rgba(1,18,8,.4) 57%, rgba(1,14,7,.96) 100%),
-        linear-gradient(90deg, rgba(1,18,8,.22), transparent 58%);
-      pointer-events: none;
-    }
-    .memory-grain {
-      z-index: 3;
-      opacity: .13;
-      pointer-events: none;
-      mix-blend-mode: soft-light;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.8'/%3E%3C/svg%3E");
-    }
-    .memory-content {
-      position: relative;
-      z-index: 4;
-      min-height: 620px;
-      padding: 28px 30px 26px;
-      display: flex;
-      flex-direction: column;
-    }
-    .memory-kicker {
-      display: flex; align-items: center; justify-content: space-between; gap: 12px;
-      font-family: var(--font-mono);
-      font-size: 9px; line-height: 1.4;
-      letter-spacing: .13em; text-transform: uppercase;
-      color: rgba(255,255,255,.76);
-    }
-    .memory-kicker span {
-      display: inline-flex; align-items: center; gap: 8px;
-      color: #fff; font-family: var(--font-ui); font-size: 11px;
-      letter-spacing: .03em; text-transform: none;
-    }
-    .memory-kicker span::before {
+    .hero-panel::before {
       content: "";
-      width: 22px; height: 2px; border-radius: 99px;
-      background: var(--red-500);
-      box-shadow: 0 0 14px rgba(217,35,71,.46);
+      position: absolute;
+      width: 390px; height: 390px;
+      left: calc(var(--panel-glow-x) - 195px);
+      top: calc(var(--panel-glow-y) - 195px);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(34,212,110,.15) 0%, transparent 65%);
+      pointer-events: none;
+      transition: left .24s ease-out, top .24s ease-out;
     }
-    .memory-logo-wrap {
-      width: 190px; height: 190px;
+    .hero-panel::after {
+      content: "";
+      position: absolute;
+      width: 260px; height: 260px;
+      bottom: -112px; left: -64px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(192,22,54,.2) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .panel-live {
+      display: inline-flex; align-items: center; gap: 9px;
+      padding: 6px 13px; border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      color: rgba(255,255,255,.85);
+      font-family: var(--font-mono); font-size: 9.5px;
+      letter-spacing: .13em; text-transform: uppercase;
+      margin-bottom: 18px; position: relative; z-index: 1;
+      width: fit-content;
+    }
+    .live-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: #4dffa0;
+      box-shadow: 0 0 0 4px rgba(77,255,160,.12);
+      animation: livePulse 1.8s ease-in-out infinite;
+    }
+    @keyframes livePulse {
+      0%,100% { box-shadow: 0 0 0 3px rgba(77,255,160,.12); }
+      50% { box-shadow: 0 0 0 7px rgba(77,255,160,.04); }
+    }
+    .panel-center {
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; gap: 9px;
+      padding: 4px 0 8px;
+      position: relative; z-index: 1;
+    }
+    .panel-logo-wrap {
+      width: 188px; height: 188px;
       position: relative;
       display: grid; place-items: center;
-      align-self: center;
-      margin: 34px auto 8px;
+      margin: 0 0 4px;
       overflow: hidden;
       border: 0;
       background: transparent;
     }
-    .memory-logo {
-      width: 184px; height: 184px;
+    .panel-logo {
+      width: 178px; height: 178px;
       display: block;
       object-fit: contain;
-      filter: drop-shadow(0 18px 26px rgba(0,0,0,.44));
-      animation: memoryStamp 1.15s .42s var(--ease-spring) both;
+      filter: drop-shadow(0 18px 28px rgba(0,0,0,.36));
+      animation: panelLogoReveal 1.05s .35s var(--ease-spring) both;
     }
-    .memory-logo-wrap::after {
+    .panel-logo-wrap::after {
       content: "";
       position: absolute;
       inset: -28% 34%;
       transform: translateX(-390%) rotate(16deg);
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,.36), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
       filter: blur(4px);
       mix-blend-mode: screen;
-      animation: memoryLight 7.5s 1.8s ease-in-out infinite;
+      animation: panelLogoLight 8s 1.8s ease-in-out infinite;
       pointer-events: none;
     }
-    @keyframes memoryStamp {
-      from { opacity: 0; transform: scale(1.32) rotate(-4deg); filter: blur(7px) drop-shadow(0 0 0 rgba(0,0,0,0)); }
-      to { opacity: 1; transform: scale(1) rotate(0); filter: blur(0) drop-shadow(0 18px 26px rgba(0,0,0,.44)); }
+    @keyframes panelLogoReveal {
+      from { opacity: 0; transform: scale(1.25) rotate(-4deg); filter: blur(7px) drop-shadow(0 0 0 rgba(0,0,0,0)); }
+      to { opacity: 1; transform: scale(1); filter: blur(0) drop-shadow(0 18px 28px rgba(0,0,0,.36)); }
     }
-    @keyframes memoryLight {
-      0%, 72% { transform: translateX(-390%) rotate(16deg); opacity: 0; }
-      78% { opacity: .8; }
-      88%, 100% { transform: translateX(390%) rotate(16deg); opacity: 0; }
+    @keyframes panelLogoLight {
+      0%, 74% { transform: translateX(-390%) rotate(16deg); opacity: 0; }
+      80% { opacity: .72; }
+      90%, 100% { transform: translateX(390%) rotate(16deg); opacity: 0; }
     }
-    .memory-name {
-      align-self: center;
-      text-align: center;
+    .panel-name {
       font-family: var(--font-display);
-      font-size: 1.18rem; font-weight: 500;
-      line-height: 1.2; color: rgba(255,255,255,.88);
-      text-shadow: 0 2px 18px rgba(0,0,0,.38);
+      font-size: 1.48rem; font-weight: 700;
+      line-height: 1.12; color: #fff;
     }
-    .memory-name strong { color: #fff; font-weight: 800; }
-    .memory-caption {
-      margin-top: auto;
-      padding: 16px 0 14px 18px;
-      border-left: 3px solid var(--red-500);
-      text-shadow: 0 2px 16px rgba(0,0,0,.5);
+    .panel-sub {
+      font-family: var(--font-ui);
+      font-size: .88rem; font-weight: 300;
+      line-height: 1.68; color: rgba(255,255,255,.65);
+      max-width: 290px;
     }
-    .memory-date {
-      display: block;
+    .panel-sep {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.13), transparent);
+      margin: 13px 0; position: relative; z-index: 1;
+    }
+    .panel-quote {
+      position: relative; z-index: 1;
+      font-family: var(--font-display);
+      font-size: .94rem; font-weight: 700; font-style: italic;
+      line-height: 1.68; color: rgba(255,255,255,.84);
+      margin-bottom: 10px;
+    }
+    .panel-cite {
       font-family: var(--font-mono); font-size: 9.5px;
-      letter-spacing: .13em; text-transform: uppercase;
-      color: #a8e8bd;
-      margin-bottom: 7px;
+      letter-spacing: .11em; text-transform: uppercase;
+      color: rgba(255,255,255,.38); position: relative; z-index: 1;
     }
-    .memory-title {
-      font-family: var(--font-display);
-      font-size: 1.18rem; font-weight: 800;
-      line-height: 1.32; color: #fff;
-      margin: 0 0 5px;
-      text-wrap: balance;
+    .panel-chips {
+      display: flex; flex-wrap: wrap; gap: 7px;
+      margin-top: 18px; position: relative; z-index: 1;
     }
-    .memory-credit {
-      font-family: var(--font-ui); font-size: .72rem;
-      color: rgba(255,255,255,.66);
+    .chip {
+      padding: 5px 12px; border-radius: 999px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.1);
+      color: rgba(255,255,255,.76);
+      font-family: var(--font-ui); font-size: 11px; font-weight: 500;
+      transition: background .2s, transform .2s;
     }
-    .memory-caption.is-changing > * {
-      animation: memoryCaptionIn .52s var(--ease-out) both;
-    }
-    .memory-caption.is-changing .memory-title { animation-delay: .05s; }
-    .memory-caption.is-changing .memory-credit { animation-delay: .1s; }
-    @keyframes memoryCaptionIn {
-      from { opacity: 0; transform: translateX(12px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-    .memory-timeline {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0,1fr));
-      gap: 8px;
-      margin-top: 11px;
-    }
-    .memory-step {
-      appearance: none;
-      border: 0;
-      background: transparent;
-      color: rgba(255,255,255,.5);
-      min-width: 0;
-      padding: 9px 0 0;
-      text-align: left;
-      font-family: var(--font-mono); font-size: 8px;
-      letter-spacing: .05em;
-      cursor: pointer;
-      position: relative;
-      transition: color .3s ease;
-    }
-    .memory-step::before {
-      content: "";
-      position: absolute; left: 0; right: 0; top: 0;
-      height: 2px; border-radius: 99px;
-      background: rgba(255,255,255,.22);
-      transition: background .3s ease, transform .3s ease;
-      transform-origin: left;
-    }
-    .memory-step:hover,
-    .memory-step:focus-visible,
-    .memory-step.is-active { color: #fff; }
-    .memory-step.is-active::before {
-      background: linear-gradient(90deg, var(--red-500), #fff 48%, var(--green-400));
-      transform: scaleY(1.7);
-    }
-    .memory-step:focus-visible { outline: 2px solid #fff; outline-offset: 5px; border-radius: 2px; }
-    .memory-source {
-      width: fit-content;
-      margin-top: 16px;
-      font-family: var(--font-ui); font-size: .68rem;
-      line-height: 1.45; color: rgba(255,255,255,.62);
-      text-decoration: underline;
-      text-decoration-color: rgba(255,255,255,.28);
-      text-underline-offset: 3px;
-      transition: color .2s ease, text-decoration-color .2s ease;
-    }
-    .memory-source:hover { color: #fff; text-decoration-color: #fff; }
+    .chip:hover { background: rgba(255,255,255,.13); transform: translateY(-1px); }
 
     /* ══════════════════════════════════════════
        TICKER BAND
@@ -1050,6 +1008,110 @@
     ══════════════════════════════════════════ */
     .section { padding: clamp(68px, 7vw, 86px) 0; }
     .section-alt { background: var(--surface); }
+
+    /* July photographs continue through the page as quiet visual memory. */
+    .july-visual-section {
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+    .july-visual-section > .container {
+      position: relative;
+      z-index: 2;
+    }
+    .section-memory {
+      --memory-opacity: .07;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .section-memory img {
+      position: absolute;
+      top: -72px;
+      width: clamp(430px, 52vw, 820px);
+      height: calc(100% + 144px);
+      min-height: 560px;
+      object-fit: cover;
+      object-position: center;
+      opacity: var(--memory-opacity);
+      filter: grayscale(1) sepia(.12) contrast(.94);
+      transform: translate3d(0, var(--memory-shift, 0px), 0) scale(1.08);
+      will-change: transform;
+      transition: opacity 1.15s ease, filter 1.2s ease, transform .18s linear;
+    }
+    .section-memory.memory-right img {
+      right: -5%;
+      -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.55) 34%, #000 70%);
+      mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.55) 34%, #000 70%);
+    }
+    .section-memory.memory-left img {
+      left: -5%;
+      -webkit-mask-image: linear-gradient(90deg, #000 30%, rgba(0,0,0,.55) 66%, transparent 100%);
+      mask-image: linear-gradient(90deg, #000 30%, rgba(0,0,0,.55) 66%, transparent 100%);
+    }
+    .section-memory.memory-dark { --memory-opacity: .13; }
+    .section-memory::after {
+      content: "";
+      position: absolute;
+      top: clamp(52px, 10vw, 124px);
+      width: min(42vw, 560px);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(192,22,54,.6), rgba(34,212,110,.58), transparent);
+      transform: scaleX(0);
+      opacity: 0;
+    }
+    .section-memory.memory-right::after { right: 3%; transform-origin: right; }
+    .section-memory.memory-left::after { left: 3%; transform-origin: left; }
+    .july-visual-section.memory-visible .section-memory::after {
+      opacity: .72;
+      transform: scaleX(1);
+      transition: transform 1.35s .18s var(--ease-out), opacity .5s ease;
+    }
+    html.motion-ready .july-visual-section .section-memory img {
+      opacity: 0;
+      filter: grayscale(1) sepia(.12) contrast(.94) blur(9px);
+      transform: translate3d(0, calc(var(--memory-shift, 0px) + 28px), 0) scale(1.13);
+    }
+    html.motion-ready .july-visual-section.memory-visible .section-memory img {
+      opacity: var(--memory-opacity);
+      filter: grayscale(1) sepia(.12) contrast(.94) blur(0);
+      transform: translate3d(0, var(--memory-shift, 0px), 0) scale(1.08);
+      transition: opacity 1.15s ease, filter 1.2s ease, transform .18s linear;
+    }
+    .july-visual-section .section-head {
+      position: relative;
+    }
+    .july-visual-section .section-head::after {
+      content: "";
+      position: absolute;
+      left: 0; bottom: -16px;
+      width: min(180px, 32vw); height: 2px;
+      border-radius: 99px;
+      background: linear-gradient(90deg, var(--red-500), var(--green-400));
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+    .july-visual-section.memory-visible .section-head::after {
+      transform: scaleX(1);
+      transition: transform 1s .3s var(--ease-out);
+    }
+    .july-photo-credit {
+      position: relative;
+      z-index: 2;
+      margin-top: 18px;
+      font-family: var(--font-ui);
+      font-size: .72rem;
+      line-height: 1.55;
+      color: rgba(255,255,255,.48);
+    }
+    .july-photo-credit a {
+      color: rgba(255,255,255,.72);
+      text-decoration: underline;
+      text-decoration-color: rgba(255,255,255,.3);
+      text-underline-offset: 3px;
+    }
 
     .eyebrow {
       display: inline-flex; align-items: center; gap: 8px;
@@ -2749,12 +2811,9 @@
       .footer-grid { grid-template-columns: 1fr; }
       .section { padding: 64px 0; }
       .form-panel, .join-aside { padding: 24px; border-radius: var(--r-lg); }
-      .hero-panel,
-      .memory-content { min-height: 590px; }
-      .memory-content { padding: 24px 22px 22px; }
-      .memory-logo-wrap { width: 154px; height: 154px; margin-top: 30px; }
-      .memory-logo { width: 150px; height: 150px; }
-      .memory-title { font-size: 1.08rem; }
+      .hero-panel { min-height: 560px; padding: 30px 24px; }
+      .panel-logo-wrap { width: 162px; height: 162px; }
+      .panel-logo { width: 154px; height: 154px; }
       #back-top { bottom: 18px; right: 18px; }
       .gallery-shell { gap: 12px; }
       .gallery-stage,
@@ -2792,10 +2851,19 @@
       .uprising-resource-heading { align-items: start; flex-direction: column; }
       .resource-card { min-height: 0; }
       .updates-toolbar { align-items: flex-start; flex-direction: column; }
-      .hero-photo-wash {
-        -webkit-mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.7) 50%, transparent 92%);
-        mask-image: linear-gradient(180deg, #000, rgba(0,0,0,.7) 50%, transparent 92%);
+      .hero-current { width: 96vw; opacity: .24; }
+      .hero-current.gold { display: none; }
+      .section-memory img {
+        width: 100vw;
+        right: -24vw !important;
+        left: auto !important;
+        opacity: calc(var(--memory-opacity) * .82);
       }
+      .section-memory.memory-left img {
+        right: auto !important;
+        left: -24vw !important;
+      }
+      .section-memory::after { width: 54vw; }
     }
     @media (max-width: 520px) {
       .container,
@@ -2823,17 +2891,11 @@
       .hero-grid { padding-bottom: 32px; }
       .hero-h1 { font-size: 2.55rem; line-height: 1.04; }
       .hero-sub { font-size: .98rem; }
-      .hero-panel,
-      .memory-content { min-height: 560px; }
-      .memory-kicker { font-size: 7.5px; letter-spacing: .09em; }
-      .memory-kicker span { font-size: 10px; }
-      .memory-logo-wrap { width: 146px; height: 146px; margin-top: 26px; }
-      .memory-logo { width: 142px; height: 142px; }
-      .memory-name { font-size: 1.08rem; }
-      .memory-caption { padding-left: 14px; }
-      .memory-title { font-size: 1rem; }
-      .memory-step { font-size: 7px; }
-      .memory-source { font-size: .63rem; }
+      .hero-panel { min-height: 540px; padding: 28px 22px; }
+      .panel-logo-wrap { width: 150px; height: 150px; }
+      .panel-logo { width: 144px; height: 144px; }
+      .panel-name { font-size: 1.3rem; }
+      .panel-quote { font-size: .88rem; }
       .hero-actions { flex-direction: column; align-items: stretch; }
       .btn-cta { justify-content: center; width: 100%; padding: 14px 18px; }
       .section { padding: 56px 0; }
@@ -2864,6 +2926,13 @@
       html.motion-ready .hero-copy .hero-actions,
       html.motion-ready .hero-stats .stat-card,
       html.motion-ready .hero-panel { opacity: 1; transform: none; }
+      html.motion-ready .july-visual-section .section-memory img {
+        opacity: var(--memory-opacity);
+        filter: grayscale(1) sepia(.12) contrast(.94);
+        transform: scale(1.08);
+      }
+      .july-visual-section .section-memory::after,
+      .july-visual-section .section-head::after { opacity: .65; transform: scaleX(1); }
     }
   </style>
 </head>
@@ -2920,12 +2989,10 @@
   <header class="hero" id="home">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-deco" aria-hidden="true"></div>
-    <div class="hero-photo-wash" aria-hidden="true">
-      <span class="hero-photo-wash-item is-active" style="background-image:url('img/july/archive/july-03-shahbagh-anisur-rahman.webp')"></span>
-      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/july-15-placard-anisur-rahman.webp')"></span>
-      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp')"></span>
-      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/august-02-salute-orchid-chakma.webp')"></span>
-      <span class="hero-photo-wash-item" style="background-image:url('img/july/archive/august-05-mass-gathering-palash-khan.webp')"></span>
+    <div class="hero-currents" aria-hidden="true">
+      <span class="hero-current green"></span>
+      <span class="hero-current red"></span>
+      <span class="hero-current gold"></span>
     </div>
     <div class="hero-grid">
 
@@ -2965,48 +3032,26 @@
         </div>
       </div>
 
-      <aside class="hero-panel july-memory" aria-label="জুলাই গণঅভ্যুত্থানের নির্বাচিত স্মৃতি">
-        <div class="memory-frames" aria-hidden="true">
-          <figure class="memory-frame is-active">
-            <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" fetchpriority="high">
-          </figure>
-          <figure class="memory-frame">
-            <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
-          </figure>
-          <figure class="memory-frame">
-            <img src="img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp" alt="" width="1400" height="916" loading="lazy">
-          </figure>
-          <figure class="memory-frame">
-            <img src="img/july/archive/august-02-salute-orchid-chakma.webp" alt="" width="1400" height="933" loading="lazy">
-          </figure>
-          <figure class="memory-frame">
-            <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
-          </figure>
+      <aside class="hero-panel" aria-label="NCP Diaspora Alliance Germany পরিচিতি">
+        <div class="panel-live">
+          <span class="live-dot"></span>
+          NCP Diaspora Alliance · Germany
         </div>
-        <div class="memory-shade" aria-hidden="true"></div>
-        <div class="memory-grain" aria-hidden="true"></div>
-        <div class="memory-content">
-          <div class="memory-kicker">
-            <span>জুলাই ২০২৪ · স্মৃতির আর্কাইভ</span>
-            <b>36 DAYS · MEMORY ARCHIVE</b>
+        <div class="panel-center">
+          <div class="panel-logo-wrap">
+            <img class="panel-logo" src="img/logo/logo-transparent.png" alt="NCP Diaspora Alliance Germany Logo" width="178" height="178">
           </div>
-          <div class="memory-logo-wrap" aria-hidden="true">
-            <img class="memory-logo" src="img/logo/logo-transparent.png" alt="" width="184" height="184">
-          </div>
-          <div class="memory-name">NCP Diaspora Alliance · <strong>Germany</strong></div>
-          <div class="memory-caption" id="memoryCaption">
-            <span class="memory-date" id="memoryDate">৩ জুলাই ২০২৪</span>
-            <p class="memory-title" id="memoryTitle">শাহবাগে শিক্ষার্থীদের ঐতিহাসিক সমাবেশ</p>
-            <small class="memory-credit" id="memoryCredit">ছবি: আনিসুর রহমান</small>
-          </div>
-          <div class="memory-timeline" aria-label="জুলাই গণঅভ্যুত্থানের ছবির সময়রেখা">
-            <button class="memory-step is-active" type="button" data-memory-index="0" aria-label="৩ জুলাইয়ের ছবি দেখুন" aria-pressed="true">৩ JUL</button>
-            <button class="memory-step" type="button" data-memory-index="1" aria-label="১৫ জুলাইয়ের ছবি দেখুন" aria-pressed="false">১৫ JUL</button>
-            <button class="memory-step" type="button" data-memory-index="2" aria-label="৩০ জুলাইয়ের ছবি দেখুন" aria-pressed="false">৩০ JUL</button>
-            <button class="memory-step" type="button" data-memory-index="3" aria-label="২ আগস্টের ছবি দেখুন" aria-pressed="false">২ AUG</button>
-            <button class="memory-step" type="button" data-memory-index="4" aria-label="৫ আগস্টের ছবি দেখুন" aria-pressed="false">৫ AUG</button>
-          </div>
-          <a class="memory-source" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer">ছবি ও তথ্যসূত্র: The Daily Star · 36 Days of July ↗</a>
+          <div class="panel-name">NCP Diaspora Alliance<br>Germany</div>
+          <p class="panel-sub">মেধা ও দেশপ্রেমের ঐক্যবদ্ধ শক্তিতে গড়বো আগামীর বাংলাদেশ</p>
+        </div>
+        <div class="panel-sep"></div>
+        <p class="panel-quote">"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।"</p>
+        <div class="panel-cite">NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</div>
+        <div class="panel-chips">
+          <span class="chip">সংস্কার</span>
+          <span class="chip">গণতন্ত্র</span>
+          <span class="chip">প্রবাসী অধিকার</span>
+          <span class="chip">দ্বিতীয় প্রজাতন্ত্র</span>
         </div>
       </aside>
 
@@ -3017,7 +3062,10 @@
     <div class="ticker-track" id="tickerTrack"></div>
   </div>
 
-  <section class="announcement-section" id="announcements" aria-labelledby="announcementsTitle">
+  <section class="announcement-section july-visual-section" id="announcements" aria-labelledby="announcementsTitle">
+    <div class="section-memory memory-right" aria-hidden="true">
+      <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
+    </div>
     <div class="container" id="announcementsList" data-content-source="data/announcements.json">
       <article class="announcement-shell reveal">
         <a class="announcement-media" href="img/announcements/rokte-july-2026.webp" target="_blank" rel="noopener" aria-label="রক্তে জুলাই অনুষ্ঠানের পূর্ণ পোস্টার দেখুন">
@@ -3043,7 +3091,10 @@
     </div>
   </section>
 
-  <section class="uprising-strip" id="uprising" aria-labelledby="uprisingTitle">
+  <section class="uprising-strip july-visual-section" id="uprising" aria-labelledby="uprisingTitle">
+    <div class="section-memory memory-left memory-dark" aria-hidden="true">
+      <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" loading="lazy">
+    </div>
     <div class="container">
       <div class="uprising-inner reveal">
         <div>
@@ -3085,11 +3136,15 @@
           <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
           <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
         </div>
+        <p class="july-photo-credit">পটভূমির আলোকচিত্র: আনিসুর রহমান, আকলাকুর রহমান আকাশ, অর্কিড চাকমা ও পলাশ খান · সূত্র: <a href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer">The Daily Star · 36 Days of July</a>।</p>
       </div>
     </div>
   </section>
 
-  <section class="section" id="about">
+  <section class="section july-visual-section" id="about">
+    <div class="section-memory memory-right" aria-hidden="true">
+      <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
+    </div>
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">আমাদের পথচলা</div>
@@ -3171,7 +3226,10 @@
     </div>
   </section>
 
-  <section class="section section-alt" id="pillars">
+  <section class="section section-alt july-visual-section" id="pillars">
+    <div class="section-memory memory-left" aria-hidden="true">
+      <img src="img/july/archive/july-30-silent-march-aklakur-rahman-akash.webp" alt="" width="1400" height="916" loading="lazy">
+    </div>
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">আমাদের কাজের নীতি</div>
@@ -3202,7 +3260,10 @@
     </div>
   </section>
 
-  <section class="section" id="updates">
+  <section class="section july-visual-section" id="updates">
+    <div class="section-memory memory-right" aria-hidden="true">
+      <img src="img/july/archive/august-02-salute-orchid-chakma.webp" alt="" width="1400" height="933" loading="lazy">
+    </div>
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">সর্বশেষ আপডেট</div>
@@ -3244,7 +3305,10 @@
     </div>
   </section>
 
-  <section class="section section-alt" id="blog">
+  <section class="section section-alt july-visual-section" id="blog">
+    <div class="section-memory memory-left" aria-hidden="true">
+      <img src="img/july/archive/august-05-mass-gathering-palash-khan.webp" alt="" width="1400" height="910" loading="lazy">
+    </div>
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">ব্লগ ও মতামত</div>
@@ -3288,7 +3352,10 @@
     </article>
   </div>
 
-  <section class="section dark-section" id="why-join">
+  <section class="section dark-section july-visual-section" id="why-join">
+    <div class="section-memory memory-right memory-dark" aria-hidden="true">
+      <img src="img/july/archive/july-15-placard-anisur-rahman.webp" alt="" width="1400" height="878" loading="lazy">
+    </div>
     <div class="container">
       <div class="section-head reveal">
         <div class="eyebrow">কেন যুক্ত হবেন</div>
@@ -3344,7 +3411,10 @@
     </div>
   </section>
 
-  <section class="section section-alt" id="join">
+  <section class="section section-alt july-visual-section" id="join">
+    <div class="section-memory memory-left" aria-hidden="true">
+      <img src="img/july/archive/july-03-shahbagh-anisur-rahman.webp" alt="" width="1400" height="868" loading="lazy">
+    </div>
     <div class="container">
       <div class="join-grid">
         <aside class="join-aside reveal">
@@ -3628,103 +3698,86 @@
     ───────────────────────────────────────── */
     function initSignatureMotion() {
       const root = document.documentElement;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
       requestAnimationFrame(() => {
         requestAnimationFrame(() => root.classList.add('page-ready'));
       });
+
+      if (reducedMotion || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+
+      const panel = $('.hero-panel');
+      if (!panel) return;
+
+      let glowFrame = 0;
+      let pointerX = 0;
+      let pointerY = 0;
+
+      function renderPanelGlow() {
+        glowFrame = 0;
+        const rect = panel.getBoundingClientRect();
+        const xRatio = Math.min(1, Math.max(0, (pointerX - rect.left) / rect.width));
+        const yRatio = Math.min(1, Math.max(0, (pointerY - rect.top) / rect.height));
+        panel.style.setProperty('--panel-glow-x', `${xRatio * 100}%`);
+        panel.style.setProperty('--panel-glow-y', `${yRatio * 100}%`);
+      }
+
+      panel.addEventListener('pointermove', (event) => {
+        pointerX = event.clientX;
+        pointerY = event.clientY;
+        if (!glowFrame) glowFrame = requestAnimationFrame(renderPanelGlow);
+      });
+      panel.addEventListener('pointerleave', () => {
+        if (glowFrame) cancelAnimationFrame(glowFrame);
+        glowFrame = 0;
+        panel.style.setProperty('--panel-glow-x', '76%');
+        panel.style.setProperty('--panel-glow-y', '12%');
+      });
     }
 
     /* ─────────────────────────────────────────
-       MODULE: JULY MEMORY ARCHIVE
+       MODULE: JULY SECTION MEMORY
     ───────────────────────────────────────── */
-    function initJulyMemory() {
-      const panel = $('.july-memory');
-      if (!panel) return;
+    function initJulySectionMotion() {
+      const sections = $$('.july-visual-section');
+      if (!sections.length) return;
 
-      const frames = $$('.memory-frame', panel);
-      const washes = $$('.hero-photo-wash-item');
-      const steps = $$('.memory-step', panel);
-      const caption = $('#memoryCaption');
-      const date = $('#memoryDate');
-      const title = $('#memoryTitle');
-      const credit = $('#memoryCredit');
       const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      const memories = [
-        { date: '৩ জুলাই ২০২৪', title: 'শাহবাগে শিক্ষার্থীদের ঐতিহাসিক সমাবেশ', credit: 'ছবি: আনিসুর রহমান' },
-        { date: '১৫ জুলাই ২০২৪', title: 'অধিকারের দাবিতে প্রতিবাদী কণ্ঠ', credit: 'ছবি: আনিসুর রহমান' },
-        { date: '৩০ জুলাই ২০২৪', title: 'দমন-পীড়নের প্রতিবাদে নীরব পদযাত্রা', credit: 'ছবি: আকলাকুর রহমান আকাশ' },
-        { date: '২ আগস্ট ২০২৪', title: 'দ্রোহযাত্রায় প্রতিবাদীদের প্রতি শ্রমজীবী মানুষের অভিবাদন', credit: 'ছবি: অর্কিড চাকমা' },
-        { date: '৫ আগস্ট ২০২৪', title: 'জনতার ঐতিহাসিক সমাবেশ', credit: 'ছবি: পলাশ খান' }
-      ];
-
-      let activeIndex = 0;
-      let cycleTimer = 0;
-      let captionTimer = 0;
-      let paused = false;
-
-      function stopCycle() {
-        if (cycleTimer) window.clearInterval(cycleTimer);
-        cycleTimer = 0;
+      if (reducedMotion) {
+        sections.forEach((section) => section.classList.add('memory-visible'));
+        return;
       }
 
-      function startCycle() {
-        stopCycle();
-        if (reducedMotion || paused || document.hidden) return;
-        cycleTimer = window.setInterval(() => setMemory(activeIndex + 1), 6200);
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.classList.add('memory-visible');
+          });
+        }, { threshold: .12, rootMargin: '0px 0px -8% 0px' });
+        sections.forEach((section) => observer.observe(section));
+      } else {
+        sections.forEach((section) => section.classList.add('memory-visible'));
       }
 
-      function setMemory(nextIndex) {
-        activeIndex = (nextIndex + memories.length) % memories.length;
-        const memory = memories[activeIndex];
-
-        frames.forEach((frame, index) => frame.classList.toggle('is-active', index === activeIndex));
-        washes.forEach((wash, index) => wash.classList.toggle('is-active', index === activeIndex));
-        steps.forEach((step, index) => {
-          const isActive = index === activeIndex;
-          step.classList.toggle('is-active', isActive);
-          step.setAttribute('aria-pressed', String(isActive));
-        });
-
-        date.textContent = memory.date;
-        title.textContent = memory.title;
-        credit.textContent = memory.credit;
-
-        window.clearTimeout(captionTimer);
-        caption.classList.remove('is-changing');
-        requestAnimationFrame(() => {
-          caption.classList.add('is-changing');
-          captionTimer = window.setTimeout(() => caption.classList.remove('is-changing'), 720);
+      let parallaxFrame = 0;
+      function updateMemoryParallax() {
+        parallaxFrame = 0;
+        const viewportHeight = window.innerHeight || 1;
+        sections.forEach((section) => {
+          const rect = section.getBoundingClientRect();
+          if (rect.bottom < -120 || rect.top > viewportHeight + 120) return;
+          const progress = (viewportHeight - rect.top) / (viewportHeight + rect.height);
+          const shift = Math.max(-34, Math.min(34, (progress - .5) * -68));
+          section.style.setProperty('--memory-shift', `${shift.toFixed(1)}px`);
         });
       }
+      function requestMemoryParallax() {
+        if (!parallaxFrame) parallaxFrame = requestAnimationFrame(updateMemoryParallax);
+      }
 
-      steps.forEach((step) => {
-        step.addEventListener('click', () => {
-          setMemory(Number(step.dataset.memoryIndex));
-          startCycle();
-        });
-      });
-
-      panel.addEventListener('pointerenter', () => {
-        paused = true;
-        stopCycle();
-      });
-      panel.addEventListener('pointerleave', () => {
-        paused = false;
-        startCycle();
-      });
-      panel.addEventListener('focusin', () => {
-        paused = true;
-        stopCycle();
-      });
-      panel.addEventListener('focusout', (event) => {
-        if (panel.contains(event.relatedTarget)) return;
-        paused = false;
-        startCycle();
-      });
-      document.addEventListener('visibilitychange', startCycle);
-
-      setMemory(0);
-      startCycle();
+      updateMemoryParallax();
+      window.addEventListener('scroll', requestMemoryParallax, { passive: true });
+      window.addEventListener('resize', requestMemoryParallax);
     }
 
     /* ─────────────────────────────────────────
@@ -4655,7 +4708,7 @@
       initProgressBar();
       initStickyNav();
       initSignatureMotion();
-      initJulyMemory();
+      initJulySectionMotion();
       initActiveNavigation();
       initMobileMenu();
       initScrollReveal();
