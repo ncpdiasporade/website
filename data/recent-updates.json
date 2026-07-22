@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-22T06:43:36.929Z",
+  "updatedAt": "2026-07-22T09:40:12.786Z",
   "items": [
+    {
+      "id": "facebook-germany-122196388766921031",
+      "facebookId": "122196388766921031",
+      "status": "published",
+      "date": "২২ জুলাই, ২০২৬",
+      "createdAt": "2026-07-22T09:36:32+0000",
+      "badge": "ভিডিও",
+      "title": "U.S. Ambassador to Bangladesh Brent Christensen paid a courtesy visit to the National Citizen Party (NCP) central…",
+      "excerpt": "U.S. Ambassador to Bangladesh Brent Christensen paid a courtesy visit to the National Citizen Party (NCP) central office on Wednesday afternoon, where he met with Mr. Md. Nahid Islam, Convener of the National Citizen Party (NCP) and Chief Whip of the Opposition.",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1580632470109337/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122196388766921031.jpg",
+      "imageAlt": "U.S. Ambassador to Bangladesh Brent Christensen paid a courtesy visit to the National Citizen Party (NCP) central…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196342320921031",
       "facebookId": "122196342320921031",
@@ -173,26 +192,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122195751464921031.jpg",
       "imageAlt": "জুলাই সনদ বাস্তবায়ন নিয়ে নাহিদ ইসলামের বক্তব্য",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
-      "id": "facebook-germany-122195751044921031",
-      "facebookId": "122195751044921031",
-      "status": "published",
-      "date": "১৮ জুলাই, ২০২৬",
-      "createdAt": "2026-07-18T15:59:48+0000",
-      "badge": "ফিরে দেখা জুলাই",
-      "title": "১৯ জুলাই ২০২৪: শাটডাউন কর্মসূচির ঐতিহাসিক আহ্বান",
-      "excerpt": "১৯ জুলাই সারাদেশে শাটডাউন কর্মসূচি অব্যাহত রাখার যে আহ্বান জানানো হয়েছিল, পোস্টটিতে জুলাই গণঅভ্যুত্থানের সেই দিনটি ফিরে দেখা হয়েছে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122195751044921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122195751044921031.jpg",
-      "imageAlt": "১৯ জুলাই ২০২৪ সালের শাটডাউন কর্মসূচির ঐতিহাসিক আহ্বান",
       "managedBy": "facebook-sync",
       "preserveCopy": true
     },
