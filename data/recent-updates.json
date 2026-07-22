@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-22T09:40:12.786Z",
+  "updatedAt": "2026-07-22T14:24:03.141Z",
   "items": [
+    {
+      "id": "facebook-germany-122196413168921031",
+      "facebookId": "122196413168921031",
+      "status": "published",
+      "date": "২২ জুলাই, ২০২৬",
+      "createdAt": "2026-07-22T12:48:57+0000",
+      "badge": "ভিডিও",
+      "title": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
+      "excerpt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের অন্যতম বৃহৎ অনুষ্ঠান— **“রক্তে জুলাই ২০২৬”**। আমাদের এই আয়োজনে পাশে থাকার জন্য জাতীয় ছাত্রশক্তির ছাত্রীবিষয়ক সম্পাদক মিতু আপুকে অসংখ্য ধন্যবাদ। ইনকিলাব জিন্দাবাদ।",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1430600605558581/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122196413168921031.jpg",
+      "imageAlt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196388766921031",
       "facebookId": "122196388766921031",
@@ -172,26 +191,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122195881184921031.jpg",
       "imageAlt": "১৯ জুলাই ২০২৪ সালে প্রবাসীদের রেমিট্যান্স শাটডাউন ঘোষণার স্মারক",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
-      "id": "facebook-germany-122195751464921031",
-      "facebookId": "122195751464921031",
-      "status": "published",
-      "date": "১৮ জুলাই, ২০২৬",
-      "createdAt": "2026-07-18T16:01:50+0000",
-      "badge": "জুলাই সনদ",
-      "title": "জুলাই সনদ বাস্তবায়ন নিয়ে নাহিদ ইসলামের বক্তব্য",
-      "excerpt": "গণভোটের রায়ের আলোকে জুলাই সনদ বাস্তবায়ন না হলে গণআন্দোলন এবং প্রয়োজনে গণঅভ্যুত্থানের পথে যাওয়ার কথা বলেছেন এনসিপির আহ্বায়ক নাহিদ ইসলাম।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122195751464921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122195751464921031.jpg",
-      "imageAlt": "জুলাই সনদ বাস্তবায়ন নিয়ে নাহিদ ইসলামের বক্তব্য",
       "managedBy": "facebook-sync",
       "preserveCopy": true
     },
