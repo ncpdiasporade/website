@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-22T23:26:54.073Z",
+  "updatedAt": "2026-07-23T03:47:00.146Z",
   "items": [
+    {
+      "id": "facebook-germany-122196507908921031",
+      "facebookId": "122196507908921031",
+      "status": "published",
+      "date": "২৩ জুলাই, ২০২৬",
+      "createdAt": "2026-07-22T23:45:56+0000",
+      "badge": "ভিডিও",
+      "title": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
+      "excerpt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের অন্যতম বৃহৎ অনুষ্ঠান— “রক্তে জুলাই ২০২৬”। আপনিও অংশ নিন, জুলাইয়ের আকাঙ্ক্ষা ধারণ করে নতুন বাংলাদেশ বিনির্মাণের যাত্রায় শরিক হোন। 📅 তারিখ: ২৬ জুলাই ২০২৬, রবিবার",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1056309003718803/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122196507908921031.jpg",
+      "imageAlt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196413168921031",
       "facebookId": "122196413168921031",
@@ -171,26 +190,6 @@
       "featured": false,
       "image": "img/social/germany/rokte-july-sarwar-tusher-2026.webp",
       "imageAlt": "রক্তে জুলাই অনুষ্ঠানে অনলাইনে যুক্ত হওয়ার জন্য সারোয়ার তুষারের অতিথি ঘোষণা",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
-      "id": "facebook-germany-122195881184921031",
-      "facebookId": "122195881184921031",
-      "status": "published",
-      "date": "১৯ জুলাই, ২০২৬",
-      "createdAt": "2026-07-19T13:32:12+0000",
-      "badge": "ফিরে দেখা জুলাই",
-      "title": "১৯ জুলাই ২০২৪: প্রবাসীদের রেমিট্যান্স শাটডাউন ঘোষণা",
-      "excerpt": "ইন্টারনেট বন্ধ করে সারাদেশে দমন-পীড়ন চলার সময় প্রবাসী বাংলাদেশিরা রেমিট্যান্স শাটডাউনের ঘোষণা দিয়ে জুলাই আন্দোলনে নতুন গতি সঞ্চার করেছিলেন—পোস্টটিতে তাঁদের সেই ভূমিকা স্মরণ করা হয়েছে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122195881184921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122195881184921031.jpg",
-      "imageAlt": "১৯ জুলাই ২০২৪ সালে প্রবাসীদের রেমিট্যান্স শাটডাউন ঘোষণার স্মারক",
       "managedBy": "facebook-sync",
       "preserveCopy": true
     },
