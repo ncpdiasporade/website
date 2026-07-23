@@ -1363,43 +1363,56 @@
       gap: 36px; align-items: start;
     }
 
-    .timeline { position: relative; }
+    .timeline {
+      --tl-date-width: 96px;
+      --tl-gap: 32px;
+      --tl-axis: 112px;
+      position: relative;
+    }
     .tl-track {
       position: absolute;
-      top: 18px; bottom: 18px; left: 22px;
-      width: 1.5px;
-      background: linear-gradient(180deg, var(--green-400), rgba(13,97,48,.03));
+      top: 26px; bottom: 26px; left: var(--tl-axis);
+      width: 2px;
+      background: linear-gradient(180deg, var(--green-400), rgba(13,97,48,.08));
+      border-radius: 999px;
     }
 
     .tl-item {
-      display: grid; grid-template-columns: 56px 1fr;
-      gap: 14px; align-items: start;
-      margin-bottom: 16px; position: relative;
+      display: grid;
+      grid-template-columns: var(--tl-date-width) minmax(0, 1fr);
+      gap: var(--tl-gap); align-items: start;
+      margin-bottom: 18px; position: relative;
     }
     .tl-item:last-child { margin-bottom: 0; }
 
     .tl-dot {
       position: absolute;
-      width: 11px; height: 11px; border-radius: 50%;
+      width: 12px; height: 12px; border-radius: 50%;
       background: var(--white);
-      border: 2.5px solid var(--green-500);
-      top: 20px; left: 18px;
+      border: 3px solid var(--green-500);
+      top: 22px; left: calc(var(--tl-axis) - 5px);
       box-shadow: 0 0 0 5px rgba(13,97,48,.09);
       transition: transform .3s var(--ease-spring), box-shadow .3s;
+      z-index: 2;
     }
     .tl-item:hover .tl-dot { transform: scale(1.5); box-shadow: 0 0 0 8px rgba(13,97,48,.07); }
 
-    .tl-date { text-align: right; padding-top: 12px; }
+    .tl-date {
+      display: flex; flex-direction: column; align-items: flex-end;
+      text-align: right; padding-top: 14px; min-width: 0;
+    }
     .tl-date strong {
       display: block; font-family: var(--font-display);
-      font-size: 1.3rem; font-weight: 800;
+      font-size: 1.35rem; font-weight: 900;
       color: var(--green-700); line-height: 1;
+      font-variant-numeric: tabular-nums;
     }
     .tl-date em {
       display: block; font-style: normal;
-      font-family: var(--font-mono); font-size: 8.5px;
-      letter-spacing: .11em; text-transform: uppercase;
-      color: var(--ink-300); margin-top: 4px;
+      font-family: var(--font-ui); font-size: .68rem; font-weight: 600;
+      letter-spacing: .02em;
+      color: var(--ink-400); margin-top: 6px; line-height: 1.25;
+      white-space: nowrap;
     }
 
     .tl-card {
@@ -3065,6 +3078,20 @@
       .footer-grid { grid-template-columns: 1fr; }
       .section { padding: 64px 0; }
       .form-panel, .join-aside { padding: 24px; border-radius: var(--r-lg); }
+      .timeline { --tl-axis: 7px; }
+      .tl-track { top: 12px; bottom: 20px; left: var(--tl-axis); }
+      .tl-item {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px; padding-left: 30px; margin-bottom: 24px;
+      }
+      .tl-dot { top: 6px; left: calc(var(--tl-axis) - 5px); }
+      .tl-date {
+        flex-direction: row; align-items: baseline;
+        gap: 9px; padding-top: 0; text-align: left;
+      }
+      .tl-date strong { font-size: 1.18rem; }
+      .tl-date em { margin-top: 0; font-size: .7rem; }
+      .tl-card { padding: 17px 18px; }
       .hero-panel { min-height: 560px; padding: 30px 24px; }
       .panel-logo-wrap { width: 184px; height: 184px; }
       .panel-logo { width: 176px; height: 176px; }
