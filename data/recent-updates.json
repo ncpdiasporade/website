@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-23T18:39:46.437Z",
+  "updatedAt": "2026-07-23T20:31:49.805Z",
   "items": [
+    {
+      "id": "facebook-germany-122196637388921031",
+      "facebookId": "122196637388921031",
+      "status": "published",
+      "date": "২৩ জুলাই, ২০২৬",
+      "createdAt": "2026-07-23T19:33:32+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "আমরা মনে করি, ফ্যাসিবাদের দোসর চুপ্পু শুধু পদত্যাগ করলেই হবে না, পদত্যাগের পরে তাকে গ্রেপ্তার করতে হবে।",
+      "excerpt": "- নাহিদ ইসলাম",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196637388921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122196637388921031.jpg",
+      "imageAlt": "আমরা মনে করি, ফ্যাসিবাদের দোসর চুপ্পু শুধু পদত্যাগ করলেই হবে না, পদত্যাগের পরে তাকে গ্রেপ্তার করতে হবে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196591668921031",
       "facebookId": "122196591668921031",
@@ -173,26 +192,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122196048842921031",
-      "facebookId": "122196048842921031",
-      "status": "published",
-      "date": "২০ জুলাই, ২০২৬",
-      "createdAt": "2026-07-20T11:47:09+0000",
-      "badge": "জুলাই",
-      "title": "২০ জুলাই ২০২৪: নাহিদ ইসলামকে গুম ও নির্যাতনের স্মৃতি",
-      "excerpt": "২০ জুলাই ২০২৪ আন্দোলন প্রত্যাহারের জন্য বৈষম্যবিরোধী ছাত্র আন্দোলনের তৎকালীন সমন্বয়ক নাহিদ ইসলামকে তুলে নিয়ে নির্যাতন করা হয়েছিল। পোস্টটিতে তাঁর সেই অভিজ্ঞতা এবং আন্দোলন চালিয়ে যাওয়ার দৃঢ়তা স্মরণ করা হয়েছে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196048842921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122196048842921031.jpg",
-      "imageAlt": "২০ জুলাই ২০২৪ নাহিদ ইসলামকে গুম ও নির্যাতনের স্মারক",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
       "id": "ncp-election-manifesto-2026",
       "status": "published",
       "date": "২০২৬",
@@ -305,7 +304,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67228,
+      "viewCount": 67229,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
