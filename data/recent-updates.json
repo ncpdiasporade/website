@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-23T12:03:53.136Z",
+  "updatedAt": "2026-07-23T14:34:22.276Z",
   "items": [
+    {
+      "id": "facebook-germany-122196591668921031",
+      "facebookId": "122196591668921031",
+      "status": "published",
+      "date": "২৩ জুলাই, ২০২৬",
+      "createdAt": "2026-07-23T13:10:18+0000",
+      "badge": "জুলাই",
+      "title": "জুলাই গণ-অভ্যুত্থান যেমন ছাত্র-জনতা-শ্রমিকের সম্মিলিত প্রয়াসের এক অনন্য দৃষ্টান্ত, তেমনি এই অভ্যুত্থানে প্রবাসী,…",
+      "excerpt": "জুলাই গণ-অভ্যুত্থান যেমন ছাত্র-জনতা-শ্রমিকের সম্মিলিত প্রয়াসের এক অনন্য দৃষ্টান্ত, তেমনি এই অভ্যুত্থানে প্রবাসী, দেশপ্রেমিক সৈনিক, সাংস্কৃতিক অঙ্গনের তারকা, চিকিৎসক, নার্স, সাংবাদিক, মা, শিশু ও হিজড়া সম্প্রদায়সহ সমাজের নানা শ্রেণি-পেশার মানুষ গুরুত্বপূর্ণ অবদান রেখেছেন।",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196591668921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122196591668921031.jpg",
+      "imageAlt": "জুলাই গণ-অভ্যুত্থান যেমন ছাত্র-জনতা-শ্রমিকের সম্মিলিত প্রয়াসের এক অনন্য দৃষ্টান্ত, তেমনি এই অভ্যুত্থানে প্রবাসী,…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196507908921031",
       "facebookId": "122196507908921031",
@@ -174,26 +193,6 @@
       "preserveCopy": true
     },
     {
-      "id": "facebook-germany-rokte-july-sarwar-tusher-2026",
-      "facebookId": "122195899460921031",
-      "status": "published",
-      "date": "১৯ জুলাই ২০২৬",
-      "createdAt": "2026-07-19T16:24:14+0000",
-      "badge": "রক্তে জুলাই",
-      "title": "‘রক্তে জুলাই’ অনুষ্ঠানে অনলাইনে যুক্ত হবেন সারোয়ার তুষার",
-      "excerpt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত ‘রক্তে জুলাই’ অনুষ্ঠানে অনলাইনে যুক্ত হবেন জাতীয় নাগরিক পার্টির যুগ্ম আহ্বায়ক সারোয়ার তুষার। অনুষ্ঠানটি ২৬ জুলাই ২০২৬, রবিবার বিকাল ২টা ৩০ মিনিটে Bilker Str. 29, 40213 Düsseldorf-এ অনুষ্ঠিত হবে; নিবন্ধন বাধ্যতামূলক।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/ncpdagermany/posts/pfbid02xwEZkL8FP8QpNatXaK5QpzEAGr6cD7XxqBK5LoM48hcRZPMZNTDbZ8CzaR3wPLLcl",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/rokte-july-sarwar-tusher-2026.webp",
-      "imageAlt": "রক্তে জুলাই অনুষ্ঠানে অনলাইনে যুক্ত হওয়ার জন্য সারোয়ার তুষারের অতিথি ঘোষণা",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true
-    },
-    {
       "id": "ncp-election-manifesto-2026",
       "status": "published",
       "date": "২০২৬",
@@ -223,7 +222,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2516886582058763/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70691,
+      "viewCount": 70696,
       "featured": false,
       "image": "img/social/germany/fb-2516886582058763.jpg",
       "imageAlt": "জার্মানিতে NCP-এর কার্যক্রম ও প্রতিনিধিত্ব নিয়ে ভিডিও",
