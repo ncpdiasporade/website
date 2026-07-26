@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-26T09:25:14.327Z",
+  "updatedAt": "2026-07-26T11:37:36.195Z",
   "items": [
+    {
+      "id": "facebook-germany-122196997118921031",
+      "facebookId": "122196997118921031",
+      "status": "published",
+      "date": "২৬ জুলাই, ২০২৬",
+      "createdAt": "2026-07-26T10:31:34+0000",
+      "badge": "রক্তে জুলাই",
+      "title": "মহান জুলাই গণঅভ্যুত্থানের দ্বিতীয় বার্ষিকী উপলক্ষে ‘জুলাই বিয়ন্ড বর্ডার্স’ কর্মসূচির অংশ হিসেবে এনসিপি ডায়াস্পোরা…",
+      "excerpt": "মহান জুলাই গণঅভ্যুত্থানের দ্বিতীয় বার্ষিকী উপলক্ষে ‘জুলাই বিয়ন্ড বর্ডার্স’ কর্মসূচির অংশ হিসেবে এনসিপি ডায়াস্পোরা অ্যালায়েন্স জার্মানি আয়োজন করতে যাচ্ছে বিশেষ স্মরণ ও আলোচনা অনুষ্ঠান— ‘রক্তে জুলাই ২০২৬’",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196997118921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122196997118921031.jpg",
+      "imageAlt": "মহান জুলাই গণঅভ্যুত্থানের দ্বিতীয় বার্ষিকী উপলক্ষে ‘জুলাই বিয়ন্ড বর্ডার্স’ কর্মসূচির অংশ হিসেবে এনসিপি ডায়াস্পোরা…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122196880154921031",
       "facebookId": "122196880154921031",
@@ -170,25 +189,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122196388766921031.jpg",
       "imageAlt": "U.S. Ambassador to Bangladesh Brent Christensen paid a courtesy visit to the National Citizen Party (NCP) central…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122196342320921031",
-      "facebookId": "122196342320921031",
-      "status": "published",
-      "date": "২২ জুলাই, ২০২৬",
-      "createdAt": "2026-07-22T05:35:30+0000",
-      "badge": "রক্তে জুলাই",
-      "title": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
-      "excerpt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই ২০২৬। এই বিশেষ আয়োজনে জুলাই গণঅভ্যুত্থানের সম্মুখসারির নেতৃবৃন্দের পাশাপাশি বাংলাদেশি-জার্মান কমিউনিটির নেতৃবৃন্দ, বিশিষ্ট ব্যক্তিবর্গ, পেশাজীবী ও সচেতন প্রবাসীরা অংশগ্রহণ করবেন।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122196342320921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122196342320921031.jpg",
-      "imageAlt": "মহান জুলাই গণঅভ্যুত্থান ২০২৪-এর স্মরণে আয়োজিত “রক্তে জুলাই” অনুষ্ঠানের রেজিস্ট্রেশন শেষ হচ্ছে আগামী বুধবার, ২২ জুলাই…",
       "managedBy": "facebook-sync"
     },
     {
