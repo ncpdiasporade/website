@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-27T11:42:10.936Z",
+  "updatedAt": "2026-07-27T15:15:56.011Z",
   "items": [
+    {
+      "id": "facebook-germany-122197166186921031",
+      "facebookId": "122197166186921031",
+      "status": "published",
+      "date": "২৭ জুলাই, ২০২৬",
+      "createdAt": "2026-07-27T13:40:41+0000",
+      "badge": "আয়োজন",
+      "title": "জুলাই থেকে নতুন বাংলাদেশ: বৈশ্বিক প্রবাসী সম্মেলন ২০২৬",
+      "excerpt": "জুলাই গণঅভ্যুত্থানের দ্বিতীয় বার্ষিকী উপলক্ষে জাতীয় নাগরিক পার্টি (এনসিপি)-এর গ্লোবাল ডায়াস্পোরা সেলের উদ্যোগে আগামী বুধবার (২৯ জুলাই ২০২৬) অনুষ্ঠিত হতে যাচ্ছে \"জুলাই থেকে নতুন বাংলাদেশ: বৈশ্বিক প্রবাসী সম্মেলন ২০২৬\"",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197166186921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122197166186921031.jpg",
+      "imageAlt": "জুলাই থেকে নতুন বাংলাদেশ: বৈশ্বিক প্রবাসী সম্মেলন ২০২৬",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122197085918921031",
       "facebookId": "122197085918921031",
@@ -173,25 +192,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122196507908921031",
-      "facebookId": "122196507908921031",
-      "status": "published",
-      "date": "২৩ জুলাই, ২০২৬",
-      "createdAt": "2026-07-22T23:45:56+0000",
-      "badge": "ভিডিও",
-      "title": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
-      "excerpt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের অন্যতম বৃহৎ অনুষ্ঠান— “রক্তে জুলাই ২০২৬”। আপনিও অংশ নিন, জুলাইয়ের আকাঙ্ক্ষা ধারণ করে নতুন বাংলাদেশ বিনির্মাণের যাত্রায় শরিক হোন। 📅 তারিখ: ২৬ জুলাই ২০২৬, রবিবার",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1056309003718803/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122196507908921031.jpg",
-      "imageAlt": "জুলাইয়ের পক্ষে থাকা সকল শক্তিকে একত্রিত করে NCP Diaspora Alliance Germany আয়োজন করতে যাচ্ছে জুলাইকে ঘিরে ইউরোপের…",
-      "managedBy": "facebook-sync"
-    },
-    {
       "id": "ncp-election-manifesto-2026",
       "status": "published",
       "date": "২০২৬",
@@ -221,7 +221,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2516886582058763/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70703,
+      "viewCount": 70704,
       "featured": false,
       "image": "img/social/germany/fb-2516886582058763.jpg",
       "imageAlt": "জার্মানিতে NCP-এর কার্যক্রম ও প্রতিনিধিত্ব নিয়ে ভিডিও",
