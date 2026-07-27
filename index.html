@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://formsubmit.co; form-action https://formsubmit.co; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'sha256-BkwqVYA7j20jYE4jRb83qbQ+muqqLfp8bP2HKdWOwsQ='; script-src-attr 'none'; connect-src 'self' https://formsubmit.co; form-action https://formsubmit.co; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="theme-color" content="#0d6130" />
   <title>NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি</title>
@@ -3809,39 +3809,35 @@
             <div class="field-grid">
               <div class="field">
                 <label for="full_name">পূর্ণ নাম (ইংরেজি) *</label>
-                <input id="full_name" type="text" name="full_name" placeholder="ইংরেজিতে আপনার পূর্ণ নাম" required autocomplete="name" />
+                <input id="full_name" type="text" name="full_name" placeholder="ইংরেজিতে আপনার পূর্ণ নাম" maxlength="120" required autocomplete="name" />
               </div>
               <div class="field">
                 <label for="city">বর্তমান শহর *</label>
-                <input id="city" type="text" name="city" placeholder="Berlin, Munich, Hamburg…" required />
+                <input id="city" type="text" name="city" placeholder="Berlin, Munich, Hamburg…" maxlength="120" required autocomplete="address-level2" />
               </div>
               <div class="field">
                 <label for="email">ইমেইল *</label>
-                <input id="email" type="email" name="email" placeholder="you@email.com" required autocomplete="email" />
+                <input id="email" type="email" name="email" placeholder="you@email.com" maxlength="254" required autocomplete="email" />
               </div>
               <div class="field">
                 <label for="whatsapp">হোয়াটসঅ্যাপ *</label>
-                <input id="whatsapp" type="tel" name="whatsapp" placeholder="+49…" required autocomplete="tel" />
+                <input id="whatsapp" type="tel" name="whatsapp" placeholder="+49…" maxlength="40" required autocomplete="tel" />
               </div>
               <div class="field full">
                 <label for="profession">পেশা *</label>
-                <input id="profession" type="text" name="profession" placeholder="ডাক্তার, প্রকৌশলী, ছাত্র, ব্যবসায়ী…" required />
+                <input id="profession" type="text" name="profession" placeholder="ডাক্তার, প্রকৌশলী, ছাত্র, ব্যবসায়ী…" maxlength="160" required autocomplete="organization-title" />
               </div>
               <div class="field full">
                 <label for="bd_address">বাংলাদেশের ঠিকানা (ঐচ্ছিক)</label>
-                <input id="bd_address" type="text" name="bd_address" placeholder="ইউনিয়ন, উপজেলা, জেলা" />
+                <input id="bd_address" type="text" name="bd_address" placeholder="ইউনিয়ন, উপজেলা, জেলা" maxlength="300" autocomplete="street-address" />
               </div>
               <div class="field full">
                 <label for="facebook_url">আপনার ফেসবুক প্রোফাইলের লিংক দিন — ঐচ্ছিক</label>
-                <input id="facebook_url" type="url" name="facebook_profile_url" placeholder="https://facebook.com/your.profile" inputmode="url" autocomplete="url" />
+                <input id="facebook_url" type="url" name="facebook_profile_url" placeholder="https://facebook.com/your.profile" maxlength="500" inputmode="url" autocomplete="url" />
               </div>
               <div class="field full">
                 <label for="short_bio_links">আপনার ছোট পরিচয় বা অন্যান্য প্রাসঙ্গিক লিংক, যেমন ওয়েবসাইট বা মিডিয়া উপস্থিতি — ঐচ্ছিক</label>
-                <textarea id="short_bio_links" name="short_bio_and_relevant_links" rows="4" placeholder="সংক্ষিপ্ত পরিচয়, ওয়েবসাইট, প্রকাশনা, সাক্ষাৎকার বা অন্যান্য প্রাসঙ্গিক লিংক"></textarea>
-              </div>
-              <div class="field full">
-                <label for="political_affiliation">পূর্বে বা বর্তমানে কোনো রাজনৈতিক সংগঠনের সঙ্গে যুক্ত থাকলে বর্ণনা করুন — ঐচ্ছিক</label>
-                <textarea id="political_affiliation" name="previous_or_current_political_affiliation" rows="4" placeholder="প্রযোজ্য হলে সংগঠনের নাম, ভূমিকা ও সময়কাল উল্লেখ করুন"></textarea>
+                <textarea id="short_bio_links" name="short_bio_and_relevant_links" rows="4" maxlength="1500" placeholder="সংক্ষিপ্ত পরিচয়, ওয়েবসাইট, প্রকাশনা, সাক্ষাৎকার বা অন্যান্য প্রাসঙ্গিক লিংক"></textarea>
               </div>
             </div>
 
@@ -4933,7 +4929,7 @@
               alt="${item.title}"
               loading="lazy"
               decoding="async"
-              onerror="this.onerror=null;this.src='${fallbackImage}';"
+              data-fallback-image="${fallbackImage}"
               style="object-fit:${item.fit === 'contain' ? 'contain' : 'cover'};"
             />
             <div class="gallery-thumb-content">
@@ -4990,6 +4986,13 @@
           buttons[index].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
         }
       }
+
+      galleryTrack.addEventListener('error', (event) => {
+        const image = event.target.closest('img[data-fallback-image]');
+        if (!image || image.dataset.fallbackApplied === 'true') return;
+        image.dataset.fallbackApplied = 'true';
+        image.src = image.dataset.fallbackImage;
+      }, true);
 
       galleryTrack.innerHTML = renderGalleryItems(galleryItems);
 
