@@ -840,8 +840,16 @@ function initBlog() {
   }
 
   function articleShareUrl(id) {
-    const url = new URL(`${window.location.origin}${window.location.pathname}`);
+    const article = articlesById.get(id);
     const language = i18n?.language || document.documentElement.lang || 'bn';
+    const sharePath = cleanText(article?.sharePath, 160).replace(/[^a-zA-Z0-9/_-]+/g, '');
+
+    if (sharePath) {
+      const languagePath = language !== 'bn' ? `${language}/` : '';
+      return new URL(`/${sharePath.replace(/^\/+|\/+$/g, '')}/${languagePath}`, window.location.origin).toString();
+    }
+
+    const url = new URL(`${window.location.origin}${window.location.pathname}`);
     if (language && language !== 'bn') url.searchParams.set('lang', language);
     url.searchParams.set('blog', id);
     url.hash = 'blog';

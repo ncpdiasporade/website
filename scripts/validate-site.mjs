@@ -32,6 +32,9 @@ if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: 
 if (!html.includes('<script src="js/site.js" defer></script>')) {
   errors.push('index.html: missing deferred site interaction script');
 }
+if (html.includes('<meta property="og:image" content="https://ncpdagermany.de/img/announcements/rokte-july-2026.webp"')) {
+  errors.push('index.html: retired event poster must not be the website Open Graph image');
+}
 if (!markup.includes('id="blogModalShare"')) {
   errors.push('index.html: missing Blog share panel');
 }
@@ -59,6 +62,9 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
     if (item.image && !/^https?:|^data:/i.test(item.image) && !fs.existsSync(path.join(rootDir, item.image))) {
       errors.push(`${relativePath}: missing image ${item.image}`);
     }
+    if (item.shareImage && !/^https?:|^data:/i.test(item.shareImage) && !fs.existsSync(path.join(rootDir, item.shareImage))) {
+      errors.push(`${relativePath}: missing share image ${item.shareImage}`);
+    }
     for (const block of item.blocks || []) {
       if (block?.type !== 'image') continue;
       if (!block.src || (!/^https?:|^data:/i.test(block.src) && !fs.existsSync(path.join(rootDir, block.src)))) {
@@ -67,6 +73,25 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
       if (!block.credit || !block.sourceUrl) {
         errors.push(`${relativePath}: inline image ${block.src || '(empty)'} must include credit and sourceUrl`);
       }
+    }
+  }
+}
+
+const blogData = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/blog-posts.json'), 'utf8'));
+for (const article of blogData.items || []) {
+  if (!article.sharePath) continue;
+  for (const suffix of ['', 'en', 'de']) {
+    const previewPath = path.join(rootDir, article.sharePath, suffix, 'index.html');
+    if (!fs.existsSync(previewPath)) {
+      errors.push(`data/blog-posts.json: missing generated preview page ${previewPath}`);
+      continue;
+    }
+    const previewHtml = fs.readFileSync(previewPath, 'utf8');
+    if (!previewHtml.includes('property="og:type" content="article"')) {
+      errors.push(`${previewPath}: missing article Open Graph metadata`);
+    }
+    if (!previewHtml.includes(`https://ncpdagermany.de/${String(article.shareImage || '').replace(/^\/+/, '')}`)) {
+      errors.push(`${previewPath}: missing expected Open Graph image`);
     }
   }
 }
