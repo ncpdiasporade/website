@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T12:15:33.556Z",
+  "updatedAt": "2026-07-28T12:45:11.381Z",
   "items": [
     {
       "id": "facebook-germany-122197303010921031",
@@ -73,10 +73,11 @@
       "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197194434921031",
       "mediaType": "image",
       "isReel": false,
-      "featured": false,
+      "featured": true,
       "image": "img/social/germany/fb-122197194434921031.jpg",
       "imageAlt": "ধন্যবাদ জুলাইয়ের ইমাম Nahid Islam ❤️",
-      "managedBy": "facebook-sync"
+      "managedBy": "facebook-sync",
+      "featuredOrder": 2
     },
     {
       "id": "facebook-germany-122197166186921031",
@@ -228,6 +229,26 @@
       "imageAlt": "জার্মানিতে NCP-এর কার্যক্রম ও প্রতিনিধিত্ব নিয়ে ভিডিও",
       "managedBy": "facebook-sync",
       "preserveCopy": true
+    },
+    {
+      "id": "facebook-germany-122184264350921031",
+      "facebookId": "122184264350921031",
+      "status": "published",
+      "date": "৪ মে, ২০২৬",
+      "createdAt": "2026-05-03T22:33:46+0000",
+      "badge": "আয়োজন",
+      "title": "গত ৩০ এপ্রিল জার্মানিতে বাংলাদেশ দূতাবাস, বার্লিন কর্তৃক মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে একটি গুরুত্বপূর্ণ…",
+      "excerpt": "গত ৩০ এপ্রিল জার্মানিতে বাংলাদেশ দূতাবাস, বার্লিন কর্তৃক মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে একটি গুরুত্বপূর্ণ নেটওয়ার্কিং ও সৌহার্দ্য বিনিময় অনুষ্ঠানের আয়োজন করা হয়।",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122184264350921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": true,
+      "image": "img/social/germany/fb-122184264350921031.jpg",
+      "imageAlt": "গত ৩০ এপ্রিল জার্মানিতে বাংলাদেশ দূতাবাস, বার্লিন কর্তৃক মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে একটি গুরুত্বপূর্ণ…",
+      "managedBy": "facebook-sync",
+      "featuredOrder": 3
     },
     {
       "id": "facebook-germany-video-26579957611639020",
