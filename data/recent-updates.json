@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T09:49:09.905Z",
+  "updatedAt": "2026-07-28T10:31:56.346Z",
   "items": [
     {
       "id": "facebook-germany-122197279136921031",
@@ -34,10 +34,11 @@
       "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197201634921031",
       "mediaType": "image",
       "isReel": false,
-      "featured": false,
+      "featured": true,
       "image": "img/social/germany/fb-122197201634921031.jpg",
       "imageAlt": "\"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।\"",
-      "managedBy": "facebook-sync"
+      "managedBy": "facebook-sync",
+      "featuredOrder": 1
     },
     {
       "id": "facebook-germany-122197194434921031",
@@ -227,48 +228,6 @@
       "imageAlt": "জার্মানিতে NCP-এর কার্যক্রম ও প্রতিনিধিত্ব নিয়ে ভিডিও",
       "managedBy": "facebook-sync",
       "preserveCopy": true
-    },
-    {
-      "id": "facebook-germany-122184264350921031",
-      "facebookId": "122184264350921031",
-      "status": "published",
-      "date": "৪ মে, ২০২৬",
-      "createdAt": "2026-05-03T22:33:46+0000",
-      "badge": "কূটনৈতিক সম্পৃক্ততা",
-      "title": "জার্মানিতে কূটনৈতিক ও কমিউনিটি নেটওয়ার্কিংয়ে NCPDA Germany",
-      "excerpt": "বাংলাদেশ দূতাবাস, বার্লিন আয়োজিত মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬-এর নেটওয়ার্কিং অনুষ্ঠানে NCP Diaspora Alliance Germany-এর প্রতিনিধিদল কূটনীতিক ও কমিউনিটি নেতাদের সঙ্গে বাংলাদেশের জলবায়ু ঝুঁকি, গণতান্ত্রিক আকাঙ্ক্ষা ও রাষ্ট্র সংস্কার নিয়ে মতবিনিময় করে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122184264350921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": true,
-      "image": "img/social/germany/fb-122184264350921031.jpg",
-      "imageAlt": "বার্লিনে কূটনীতিক ও কমিউনিটি নেতাদের সঙ্গে NCPDA Germany-এর প্রতিনিধিদল",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true,
-      "featuredOrder": 1
-    },
-    {
-      "id": "facebook-germany-122181003530921031",
-      "facebookId": "122181003530921031",
-      "status": "published",
-      "date": "১৮ এপ্রিল, ২০২৬",
-      "createdAt": "2026-04-17T23:59:40+0000",
-      "badge": "দূতাবাস কার্যক্রম",
-      "title": "বাংলাদেশ দূতাবাস, বার্লিনে জুলাই সনদ ও প্রবাসী ইস্যুতে মতবিনিময়",
-      "excerpt": "NCP Diaspora Alliance Germany-এর প্রতিনিধিদল বাংলাদেশের রাষ্ট্রদূতের সঙ্গে সৌজন্য সাক্ষাতে গণভোটের জনরায়, জুলাই সনদ বাস্তবায়ন, সংবিধান পরিষদ এবং জার্মানিতে বসবাসরত প্রবাসী বাংলাদেশিদের বিভিন্ন বিষয় নিয়ে মতবিনিময় করে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122181003530921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": true,
-      "image": "img/social/germany/fb-122181003530921031.jpg",
-      "imageAlt": "বাংলাদেশ দূতাবাস বার্লিনে NCP Diaspora Alliance Germany-এর প্রতিনিধিদল",
-      "managedBy": "facebook-sync",
-      "preserveCopy": true,
-      "featuredOrder": 2
     },
     {
       "id": "facebook-germany-video-26579957611639020",
