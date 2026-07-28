@@ -2070,6 +2070,84 @@
       color: var(--ink-700);
     }
 
+    .blog-modal-body h4 {
+      margin: 18px 0 -2px;
+      padding-left: 14px;
+      border-left: 3px solid var(--accent);
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      line-height: 1.35;
+      color: var(--ink-950);
+    }
+
+    .blog-modal-body ul,
+    .blog-modal-body ol {
+      display: grid;
+      gap: 9px;
+      margin: 0;
+      padding-left: 24px;
+      font-family: var(--font-ui);
+      font-size: .97rem;
+      font-weight: 300;
+      line-height: 1.72;
+      color: var(--ink-700);
+    }
+
+    .blog-modal-body li::marker {
+      color: var(--green-700);
+      font-weight: 700;
+    }
+
+    .blog-modal-body blockquote {
+      margin: 8px 0;
+      padding: 18px 20px;
+      border: 1px solid rgba(194, 19, 62, .15);
+      border-left: 4px solid var(--accent);
+      border-radius: 4px 16px 16px 4px;
+      background: linear-gradient(135deg, rgba(194, 19, 62, .055), rgba(255,255,255,.96));
+      font-family: var(--font-display);
+      font-size: 1.12rem;
+      line-height: 1.65;
+      color: var(--ink-900);
+    }
+
+    .blog-inline-figure {
+      margin: 12px 0 18px;
+      overflow: hidden;
+      border: 1px solid rgba(204,224,212,.9);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow-xs);
+    }
+
+    .blog-inline-figure img {
+      display: block;
+      width: 100%;
+      max-height: 540px;
+      object-fit: cover;
+      background: var(--green-50);
+    }
+
+    .blog-inline-figure figcaption {
+      display: grid;
+      gap: 4px;
+      padding: 12px 15px 14px;
+      font-family: var(--font-ui);
+      font-size: .78rem;
+      line-height: 1.55;
+      color: var(--ink-500);
+    }
+
+    .blog-inline-figure figcaption span { color: var(--ink-700); }
+    .blog-inline-figure figcaption small { font-size: .72rem; }
+    .blog-inline-figure figcaption a {
+      width: fit-content;
+      color: var(--green-700);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .blog-data-list {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));

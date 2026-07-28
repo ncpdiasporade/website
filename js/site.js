@@ -736,6 +736,68 @@ function initBlog() {
     return [article.excerpt].filter((paragraph) => cleanText(paragraph, 1400));
   }
 
+  function localizeArticle(article) {
+    const language = i18n?.language || document.documentElement.lang || 'bn';
+    const { translations = {}, ...baseArticle } = article || {};
+    const translated = language !== 'bn' && translations[language]
+      ? { ...baseArticle, ...translations[language] }
+      : baseArticle;
+    return localize(translated);
+  }
+
+  function renderArticleContent(article) {
+    if (!Array.isArray(article.blocks)) {
+      return articleParagraphs(article)
+        .map((paragraph) => `<p>${escapeHtml(cleanText(paragraph, 1800))}</p>`)
+        .join('');
+    }
+
+    return article.blocks.map((block) => {
+      if (!block || typeof block !== 'object') return '';
+
+      if (block.type === 'heading') {
+        return `<h4>${escapeHtml(cleanText(block.text, 240))}</h4>`;
+      }
+
+      if (block.type === 'list' && Array.isArray(block.items)) {
+        const items = block.items
+          .filter((item) => cleanText(item, 900))
+          .slice(0, 20)
+          .map((item) => `<li>${escapeHtml(cleanText(item, 900))}</li>`)
+          .join('');
+        if (!items) return '';
+        const listTag = block.ordered ? 'ol' : 'ul';
+        return `<${listTag}>${items}</${listTag}>`;
+      }
+
+      if (block.type === 'callout') {
+        return `<blockquote>${escapeHtml(cleanText(block.text, 1800))}</blockquote>`;
+      }
+
+      if (block.type === 'image') {
+        const image = safeImageSrc(block.src, defaultImage);
+        const sourceUrl = safeHref(block.sourceUrl);
+        const caption = cleanText(block.caption, 420);
+        const credit = cleanText(block.credit, 240);
+        const sourceLink = sourceUrl !== '#'
+          ? `<a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('ছবির উৎস'))}</a>`
+          : '';
+        return `
+          <figure class="blog-inline-figure">
+            <img src="${escapeHtml(image)}" alt="${escapeHtml(cleanText(block.alt || article.title, 240))}" loading="lazy">
+            <figcaption>
+              ${caption ? `<span>${escapeHtml(caption)}</span>` : ''}
+              ${credit ? `<small>${escapeHtml(credit)}</small>` : ''}
+              ${sourceLink}
+            </figcaption>
+          </figure>`;
+      }
+
+      const paragraph = cleanText(block.text, 1800);
+      return paragraph ? `<p>${escapeHtml(paragraph)}</p>` : '';
+    }).join('');
+  }
+
   function renderModalMeta(article) {
     return `
       <span class="blog-tag">${escapeHtml(cleanText(article.tag, 32))}</span>
@@ -907,9 +969,7 @@ function initBlog() {
     modalShare.setAttribute('aria-label', t('এই লেখাটি শেয়ার করুন'));
     modalShareStatus.textContent = '';
     modalFacts.innerHTML = renderArticleFacts(article);
-    modalBody.innerHTML = articleParagraphs(article)
-      .map((paragraph) => `<p>${escapeHtml(cleanText(paragraph, 1400))}</p>`)
-      .join('');
+    modalBody.innerHTML = renderArticleContent(article);
     modalSources.innerHTML = renderArticleSources(article);
     modalCredit.textContent = cleanText(
       article.imageCredit || 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
@@ -946,11 +1006,11 @@ function initBlog() {
     const published = contentItems(articles).filter((article) => article.status !== 'draft');
     if (!published.length) return;
 
-    articlesById = new Map(published.map((article, index) => [articleId(article, index), localize(article)]));
+    articlesById = new Map(published.map((article, index) => [articleId(article, index), localizeArticle(article)]));
 
     blogGrid.innerHTML = published.map((sourceArticle, index) => {
       const id = articleId(sourceArticle, index);
-      const article = localize(sourceArticle);
+      const article = localizeArticle(sourceArticle);
       const image = safeImageSrc(article.image, defaultImage);
 
       return `

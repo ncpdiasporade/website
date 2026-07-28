@@ -59,6 +59,15 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
     if (item.image && !/^https?:|^data:/i.test(item.image) && !fs.existsSync(path.join(rootDir, item.image))) {
       errors.push(`${relativePath}: missing image ${item.image}`);
     }
+    for (const block of item.blocks || []) {
+      if (block?.type !== 'image') continue;
+      if (!block.src || (!/^https?:|^data:/i.test(block.src) && !fs.existsSync(path.join(rootDir, block.src)))) {
+        errors.push(`${relativePath}: missing inline image ${block.src || '(empty)'}`);
+      }
+      if (!block.credit || !block.sourceUrl) {
+        errors.push(`${relativePath}: inline image ${block.src || '(empty)'} must include credit and sourceUrl`);
+      }
+    }
   }
 }
 

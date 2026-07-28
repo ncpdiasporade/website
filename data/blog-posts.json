@@ -1,6 +1,959 @@
 {
   "items": [
     {
+      "id": "enforced-disappearance-investigation-independence",
+      "slug": "enforced-disappearance-investigation-independence",
+      "status": "published",
+      "tag": "মানবাধিকার ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "২৯ জুলাই ২০২৬",
+      "title": "গুমের তদন্ত পুলিশই করবে—তাহলে পুলিশের বিরুদ্ধে অভিযোগ উঠলে তদন্ত করবে কে?",
+      "excerpt": "প্রস্তাবিত গুম প্রতিরোধ আইনে কঠোর শাস্তির কথা আছে। কিন্তু অভিযোগ গ্রহণ, প্রমাণ সংরক্ষণ ও তদন্তের দায়িত্ব অভিযুক্ত হতে পারে—এমন প্রতিষ্ঠানের হাতে থাকলে জবাবদিহি কতটা নিশ্চিত হবে?",
+      "image": "img/blog/enforced-disappearance/commission-members.jpg",
+      "imageAlt": "বাংলাদেশে গুম সংক্রান্ত তদন্ত কমিশনের সদস্যরা",
+      "imageCredit": "গুম সংক্রান্ত তদন্ত কমিশনের সদস্যরা, ১৯ জানুয়ারি ২০২৫। ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain via Wikimedia Commons.",
+      "license": "Public Domain — Press Information Department, Government of Bangladesh; sourced via Wikimedia Commons.",
+      "translations": {
+        "en": {
+          "tag": "Human rights and accountability",
+          "author": "Editorial Desk",
+          "date": "29 July 2026",
+          "title": "If police investigate enforced disappearances, who investigates allegations against the police?",
+          "excerpt": "The proposed law provides severe penalties for enforced disappearance. But can accountability be credible if complaints, evidence and investigations remain under institutions whose own members may be accused?",
+          "imageAlt": "Members of Bangladesh's Commission of Inquiry on Enforced Disappearances",
+          "imageCredit": "Members of the Commission of Inquiry on Enforced Disappearances, 19 January 2025. Photo: Press Information Department, Bangladesh; Public Domain via Wikimedia Commons.",
+          "facts": [
+            {
+              "value": "Independent inquiry",
+              "label": "Investigations should be conducted outside the control of any force named in a complaint."
+            },
+            {
+              "value": "The first hours",
+              "label": "An urgent search and preservation of evidence should begin as soon as a complaint is received."
+            },
+            {
+              "value": "Protect evidence",
+              "label": "CCTV, GPS, mobile-location and custody records should be preserved by law."
+            },
+            {
+              "value": "Families' rights",
+              "label": "Financial, legal, mental-health and witness-protection support should be available quickly."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The government has drafted a new law to prevent the grave crime of enforced disappearance. It proposes death or life imprisonment as the maximum penalty. On its face, the law sounds very strict."
+            },
+            {
+              "type": "paragraph",
+              "text": "But the strength of a law cannot be judged by punishment alone. The central questions are who receives the complaint, who investigates, who collects the evidence, and how independent the investigating institution will be. This is where the draft raises its most serious concern."
+            },
+            {
+              "type": "heading",
+              "text": "A simple example"
+            },
+            {
+              "type": "paragraph",
+              "text": "Imagine students alleging that a teacher changed an examination result. If the teacher or a close colleague controls the entire inquiry, would the investigation be trusted? They may act honestly, but the conflict of interest remains. The same problem arises with enforced disappearances."
+            },
+            {
+              "type": "paragraph",
+              "text": "Members of the police, Rapid Action Battalion, intelligence services and other security forces have faced allegations of enforced disappearance in Bangladesh. Yet the proposed law places primary responsibility for investigating these cases with the police."
+            },
+            {
+              "type": "callout",
+              "text": "If the allegation is against the police, who investigates? If it concerns RAB, an intelligence agency or a joint force, how independently can another part of the same security structure investigate it?"
+            },
+            {
+              "type": "heading",
+              "text": "A severe penalty does not by itself make a strong law"
+            },
+            {
+              "type": "paragraph",
+              "text": "No punishment can be applied unless the crime is proved. Proving an enforced disappearance may require evidence about who seized the person, the vehicle used, the place of detention, the chain of command, official records, CCTV footage, phone and vehicle-location data, and any secret detention site."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Who took the person and on whose orders?",
+                "Which vehicle and route were used?",
+                "Where was the person taken or held?",
+                "What do police, force and custody records show?",
+                "Where are the CCTV, mobile and GPS records?",
+                "Was the person kept at an undeclared detention site?"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Much of this evidence may be held by the police, intelligence services or another state force. If members of those institutions are accused and the same institutions control the inquiry, records or evidence may be concealed. Severe penalties written on paper are therefore no substitute for an independent investigation."
+            },
+            {
+              "type": "heading",
+              "text": "A court complaint is possible—but what happens in the meantime?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The draft allows a family to file a complaint before a magistrate if police refuse to receive it. That option matters, but it is not enough. The first hours after a person disappears are crucial. Time spent going from a police station to a lawyer and then to court can allow CCTV footage to be erased, vehicle or custody records to be altered, the detainee to be moved, or witnesses to be intimidated."
+            },
+            {
+              "type": "paragraph",
+              "text": "An enforced-disappearance complaint cannot be treated like an ordinary theft or assault case. An emergency search aimed at finding the person alive must begin immediately."
+            },
+            {
+              "type": "heading",
+              "text": "Why remove the Human Rights Commission?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The 2025 ordinance gave the National Human Rights Commission a role in investigating complaints, seeking information and, where necessary, inspecting detention sites. The new draft shifts that responsibility to the police."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/enforced-disappearance/convention-signing.jpg",
+              "alt": "Bangladesh signing the international convention against enforced disappearance",
+              "caption": "Bangladesh signed the International Convention for the Protection of All Persons from Enforced Disappearance on 29 August 2024.",
+              "credit": "Photo: Press Information Department, Bangladesh; Public Domain via Wikimedia Commons.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-08-29_Muhammad_Yunus_Signs_International_Convention_For_Protection_Of_All_Persons_From_Enforced_Disappearance_At_Jamuna_State_Guesthouse,_Dhaka_(PID-0006688).jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Home Ministry argues that police investigate crimes under the ordinary criminal procedure. But a special law can create a special, independent unit. A team could also combine the Human Rights Commission, the judiciary and relevant experts. Bangladesh's past experience requires more independence, not less."
+            },
+            {
+              "type": "paragraph",
+              "text": "Finding an undeclared detention site—often described as an ‘Aynaghar’—requires a body able to inspect any suspected location without prior permission. If investigators first need the accused force's approval, evidence can be removed before an inspection begins."
+            },
+            {
+              "type": "heading",
+              "text": "Who is responsible when people are taken in plain clothes?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The draft covers disappearances involving public officials, police, the armed forces, RAB, BGB, the Coast Guard, intelligence agencies and joint forces. That is positive. But abductors often wear plain clothes, conceal their identity and avoid official vehicles. A force may later deny that it detained the person."
+            },
+            {
+              "type": "paragraph",
+              "text": "The law should cover not only direct state orders but also indirect support, acquiescence, or persons acting on the state's behalf. Otherwise, a uniform and an official vehicle can simply be avoided to escape the law's definition."
+            },
+            {
+              "type": "heading",
+              "text": "Can senior officers avoid responsibility too easily?"
+            },
+            {
+              "type": "paragraph",
+              "text": "An enforced disappearance is rarely the isolated decision of one junior member. Seizing someone, using a vehicle, interrogating and hiding the person, and then denying the detention may involve a command structure. Orders of this kind are rarely written down."
+            },
+            {
+              "type": "list",
+              "items": [
+                "The superior knew;",
+                "the superior should have known;",
+                "the superior failed to act after receiving a complaint or information;",
+                "the superior had the power to stop or investigate the crime but did not do so."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Without such standards, blame may be pushed onto a few junior members while senior decision-makers remain protected."
+            },
+            {
+              "type": "heading",
+              "text": "Why reduce penalties for secret detention sites and destruction of evidence?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The earlier ordinance set a minimum seven-year penalty for destroying evidence of disappearance and creating a secret detention site. The new draft proposes five years. A secret detention facility, erased CCTV, altered vehicle data, destroyed custody records or a removed body are not minor matters; they are part of concealing the principal crime."
+            },
+            {
+              "type": "heading",
+              "text": "Why wait five years?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The draft says death or life imprisonment may apply if a person remains missing after five years. But unlawfully taking someone and refusing to disclose the person's fate is already an enforced disappearance. A five-year period may be relevant to property, inheritance or civil status, but it should not determine how serious the crime is."
+            },
+            {
+              "type": "heading",
+              "text": "How will earlier disappearances be prosecuted?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The law treats disappearance as a continuing offence until the person's whereabouts or fate is known. That is important. But cases involving people who returned years ago or whose bodies were found raise questions about which law applies and about the constitutional bar on retroactive punishment."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/enforced-disappearance/final-report-briefing.jpg",
+              "alt": "Press briefing on the final report of the Commission of Inquiry on Enforced Disappearances",
+              "caption": "A 5 January 2026 press briefing on the Commission's final report and work.",
+              "credit": "Photo: Press Information Department, Bangladesh; Public Domain via Wikimedia Commons.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-05_Moinul_Islam_Chowdhury,_President_Commission_of_Inquiry_on_Disappearances,_press_briefing_on_final_report,_Gulshan,_Dhaka.jpg"
+            },
+            {
+              "type": "list",
+              "items": [
+                "people who remain missing;",
+                "people who returned;",
+                "cases in which a body was found;",
+                "incidents already under investigation in another case;",
+                "widespread or systematic disappearances that may fall under the International Crimes Tribunal."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Clear categories are necessary. Otherwise past perpetrators may exploit gaps, while incorrectly framed prosecutions could become trapped in constitutional disputes."
+            },
+            {
+              "type": "heading",
+              "text": "Where is protection for families?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The missing person is not the only victim. Parents, spouses, children and relatives live with prolonged psychological, social and financial harm. Bank accounts, property, children's expenses and family decisions may all remain in limbo."
+            },
+            {
+              "type": "list",
+              "items": [
+                "rapid financial assistance;",
+                "legal aid and mental-health care;",
+                "protection for witnesses and complainants;",
+                "support for children's education and treatment;",
+                "regular information about efforts to find the missing person."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "False-complaint provisions must not frighten families"
+            },
+            {
+              "type": "paragraph",
+              "text": "Deliberately fabricating evidence to frame someone should be an offence. But an unproven allegation is not the same as an intentionally false one. Evidence in disappearance cases is inherently difficult to obtain. A family must not face prosecution merely because police say there is insufficient evidence or a court case fails."
+            },
+            {
+              "type": "heading",
+              "text": "What should change?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The answer is not to abandon the law, but to amend it so that it can work. The most urgent safeguards include:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Create an independent disappearance-investigation unit outside police and security-force control.",
+                "Restore the Human Rights Commission's power to investigate on its own initiative and inspect any detention site.",
+                "Begin an emergency search within hours of a complaint.",
+                "Exclude members of an accused force from the investigation.",
+                "Apply command responsibility where a superior knew or should have known.",
+                "Maintain a central record of every arrest, detention, vehicle, responsible officer and transfer.",
+                "Require preservation of CCTV, vehicle GPS, mobile data and custody records.",
+                "Provide independent protection for complainants, families, lawyers and witnesses.",
+                "Support victim families from a state fund before a perpetrator is identified.",
+                "Publish annual data on complaints, recoveries, cases and accused officials."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "The central question"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ending enforced disappearance requires strict criminal law, but even more it requires independent investigation and accountable institutions. A good law does not only promise a severe sentence; it makes it difficult for a powerful person to hide evidence, influence an inquiry or use office and identity to avoid responsibility."
+            },
+            {
+              "type": "callout",
+              "text": "When someone disappears, will the state genuinely search for that person—or will one state institution investigate allegations against another and ultimately say that no evidence was found?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Until the proposed law answers that question clearly, it is difficult to describe it as a complete framework for preventing enforced disappearance."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Ministry of Home Affairs: Draft Enforced Disappearance Prevention and Redress Act 2026",
+              "url": "https://moha.gov.bd/pages/laws/%E0%A6%97%E0%A7%81%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-ouujo3-6a674fe576e9845ef86494ec"
+            },
+            {
+              "label": "Prothom Alo: Report on the proposed law",
+              "url": "https://www.prothomalo.com/bangladesh/f99swvwl22"
+            },
+            {
+              "label": "Bangladesh Laws: Enforced Disappearance Prevention and Redress Ordinance 2025",
+              "url": "https://bdlaws.minlaw.gov.bd/act-1586.html"
+            },
+            {
+              "label": "OHCHR: International Convention for the Protection of All Persons from Enforced Disappearance",
+              "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-protection-all-persons-enforced"
+            },
+            {
+              "label": "Human Rights Watch: First Enforced Disappearance Case Since July 2024 Uprising",
+              "url": "https://www.hrw.org/news/2026/07/20/bangladesh-first-enforced-disappearance-case-since-july-2024-uprising"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Menschenrechte und Rechenschaft",
+          "author": "Redaktion",
+          "date": "29. Juli 2026",
+          "title": "Wenn die Polizei Fälle des Verschwindenlassens untersucht – wer ermittelt dann bei Vorwürfen gegen die Polizei?",
+          "excerpt": "Der Gesetzentwurf sieht harte Strafen für erzwungenes Verschwindenlassen vor. Doch ist Rechenschaft glaubwürdig, wenn Beschwerden, Beweise und Ermittlungen bei Institutionen liegen, deren eigene Angehörige beschuldigt werden können?",
+          "imageAlt": "Mitglieder der bangladeschischen Untersuchungskommission zum Verschwindenlassen",
+          "imageCredit": "Mitglieder der Untersuchungskommission zum Verschwindenlassen, 19. Januar 2025. Foto: Press Information Department, Bangladesch; Public Domain via Wikimedia Commons.",
+          "facts": [
+            {
+              "value": "Unabhängige Ermittlung",
+              "label": "Ermittlungen müssen außerhalb der Kontrolle jeder in einer Beschwerde genannten Einheit geführt werden."
+            },
+            {
+              "value": "Die ersten Stunden",
+              "label": "Sofort nach Eingang einer Beschwerde müssen Suche und Beweissicherung beginnen."
+            },
+            {
+              "value": "Beweise sichern",
+              "label": "CCTV-, GPS-, Mobilfunk- und Gewahrsamsdaten müssen gesetzlich gesichert werden."
+            },
+            {
+              "value": "Rechte der Familien",
+              "label": "Finanzielle, rechtliche und psychosoziale Hilfe sowie Zeugenschutz müssen schnell verfügbar sein."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Die Regierung hat ein neues Gesetz gegen das erzwungene Verschwindenlassen entworfen. Als Höchststrafe sind Todesstrafe oder lebenslange Freiheitsstrafe vorgesehen. Auf den ersten Blick wirkt das Gesetz sehr streng."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Stärke eines Gesetzes bemisst sich jedoch nicht nur an der Strafe. Entscheidend ist, wer Beschwerden entgegennimmt, wer ermittelt und Beweise sichert und wie unabhängig die ermittelnde Institution ist. Genau hier entsteht das größte Problem des Entwurfs."
+            },
+            {
+              "type": "heading",
+              "text": "Ein einfaches Beispiel"
+            },
+            {
+              "type": "paragraph",
+              "text": "Angenommen, Schülerinnen und Schüler werfen einer Lehrkraft vor, Prüfungsergebnisse manipuliert zu haben. Wenn diese Lehrkraft oder enge Kolleginnen und Kollegen die gesamte Untersuchung kontrollieren, wird ihr Ergebnis kaum Vertrauen schaffen. Selbst bei ehrlicher Arbeit bleibt der Interessenkonflikt. Beim Verschwindenlassen stellt sich dieselbe Frage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Gegen Angehörige von Polizei, Rapid Action Battalion, Nachrichtendiensten und anderen Sicherheitskräften wurden in Bangladesch Vorwürfe des erzwungenen Verschwindenlassens erhoben. Dennoch überträgt der Entwurf die Hauptverantwortung für die Ermittlungen der Polizei."
+            },
+            {
+              "type": "callout",
+              "text": "Wenn sich der Vorwurf gegen die Polizei richtet: Wer ermittelt dann? Und wie unabhängig kann ein anderer Teil desselben Sicherheitsapparats gegen RAB, einen Nachrichtendienst oder eine gemeinsame Einheit vorgehen?"
+            },
+            {
+              "type": "heading",
+              "text": "Eine harte Strafe allein macht noch kein starkes Gesetz"
+            },
+            {
+              "type": "paragraph",
+              "text": "Keine Strafe kann greifen, wenn die Tat nicht bewiesen wird. Dafür können Angaben zu Festnahme, Fahrzeug, Ort der Inhaftierung, Befehlskette, amtlichen Unterlagen, CCTV-Aufnahmen, Mobilfunk- und Fahrzeugdaten sowie möglichen geheimen Haftorten nötig sein."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Wer nahm die Person mit und auf wessen Anweisung?",
+                "Welches Fahrzeug und welche Route wurden benutzt?",
+                "Wohin wurde die Person gebracht oder wo festgehalten?",
+                "Was steht in Polizei-, Einsatz- und Gewahrsamsakten?",
+                "Wo sind CCTV-, Mobilfunk- und GPS-Daten?",
+                "Gab es einen nicht deklarierten Haftort?"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Viele dieser Beweise liegen möglicherweise bei Polizei, Nachrichtendiensten oder anderen staatlichen Kräften. Sind deren Angehörige beschuldigt und kontrollieren dieselben Institutionen die Untersuchung, können Unterlagen oder Spuren verborgen werden. Harte Strafen auf dem Papier ersetzen deshalb keine unabhängigen Ermittlungen."
+            },
+            {
+              "type": "heading",
+              "text": "Der Gang zum Gericht ist möglich – aber was geschieht bis dahin?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Verweigert die Polizei die Aufnahme einer Beschwerde, darf die Familie laut Entwurf ein Magistratsgericht anrufen. Das ist wichtig, reicht aber nicht aus. Die ersten Stunden sind entscheidend. Während die Familie von der Polizeiwache über eine Anwaltskanzlei zum Gericht geht, können CCTV-Aufnahmen gelöscht, Fahrzeug- oder Gewahrsamsdaten verändert, Betroffene verlegt oder Zeugen eingeschüchtert werden."
+            },
+            {
+              "type": "paragraph",
+              "text": "Eine Beschwerde wegen Verschwindenlassens darf nicht wie ein gewöhnlicher Diebstahl oder eine Körperverletzung behandelt werden. Die sofortige Suche nach der Person muss beginnen."
+            },
+            {
+              "type": "heading",
+              "text": "Warum wird die Menschenrechtskommission ausgeschlossen?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Verordnung von 2025 gab der Nationalen Menschenrechtskommission die Möglichkeit, Beschwerden zu untersuchen, Informationen anzufordern und nötigenfalls Haftorte zu kontrollieren. Der neue Entwurf überträgt diese Aufgabe der Polizei."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/enforced-disappearance/convention-signing.jpg",
+              "alt": "Bangladesch unterzeichnet die internationale Konvention gegen erzwungenes Verschwindenlassen",
+              "caption": "Am 29. August 2024 unterzeichnete Bangladesch das Internationale Übereinkommen zum Schutz aller Personen vor dem Verschwindenlassen.",
+              "credit": "Foto: Press Information Department, Bangladesch; Public Domain via Wikimedia Commons.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-08-29_Muhammad_Yunus_Signs_International_Convention_For_Protection_Of_All_Persons_From_Enforced_Disappearance_At_Jamuna_State_Guesthouse,_Dhaka_(PID-0006688).jpg"
+            },
+            {
+              "type": "paragraph",
+              "text": "Das Innenministerium verweist auf die übliche Strafprozessordnung. Doch für eine besondere Straftat kann ein Spezialgesetz eine unabhängige Einheit schaffen. Auch ein gemeinsames Team aus Menschenrechtskommission, Justiz und Fachleuten wäre möglich. Bangladeschs Erfahrungen verlangen mehr Unabhängigkeit, nicht weniger."
+            },
+            {
+              "type": "paragraph",
+              "text": "Nicht deklarierte Haftorte – oft als ‘Aynaghar’ bezeichnet – lassen sich nur durch eine Stelle aufdecken, die verdächtige Orte ohne vorherige Genehmigung kontrollieren kann. Muss zuerst die beschuldigte Einheit zustimmen, können Beweise vor einer Inspektion verschwinden."
+            },
+            {
+              "type": "heading",
+              "text": "Wer haftet, wenn Menschen in Zivil verschleppt werden?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Der Entwurf erfasst Taten durch Amtsträger, Polizei, Streitkräfte, RAB, BGB, Küstenwache, Nachrichtendienste und gemeinsame Einheiten. Das ist positiv. In der Praxis tragen Entführer jedoch oft Zivilkleidung, verschleiern ihre Identität und benutzen keine Dienstfahrzeuge. Später bestreitet die betreffende Einheit die Festnahme."
+            },
+            {
+              "type": "paragraph",
+              "text": "Das Gesetz muss neben direkten staatlichen Befehlen auch indirekte Unterstützung, stillschweigende Billigung und Handeln im Auftrag des Staates erfassen. Sonst lässt sich die Definition allein durch den Verzicht auf Uniform und Dienstfahrzeug umgehen."
+            },
+            {
+              "type": "heading",
+              "text": "Können Vorgesetzte zu leicht Verantwortung vermeiden?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Verschwindenlassen ist selten die isolierte Entscheidung eines einzelnen rangniedrigen Mitglieds. Verschleppung, Fahrzeugnutzung, Verhör, geheime Haft und anschließendes Leugnen können Teil einer Befehlskette sein. Solche Befehle werden kaum schriftlich erteilt."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Der Vorgesetzte wusste davon;",
+                "er hätte davon wissen müssen;",
+                "er handelte trotz Beschwerde oder Information nicht;",
+                "er konnte die Tat stoppen oder untersuchen lassen, tat es aber nicht."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ohne solche Maßstäbe kann die Verantwortung auf wenige Untergebene abgewälzt werden, während Entscheidungsträger geschützt bleiben."
+            },
+            {
+              "type": "heading",
+              "text": "Warum geringere Strafen für geheime Haftorte und Beweisvernichtung?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die frühere Verordnung sah für die Vernichtung von Beweisen und die Einrichtung geheimer Haftorte mindestens sieben Jahre vor; der Entwurf schlägt fünf Jahre vor. Geheime Haftorte, gelöschte CCTV-Aufnahmen, manipulierte Fahrzeugdaten, vernichtete Gewahrsamsakten oder entfernte Leichen sind jedoch Teil der Vertuschung der Haupttat."
+            },
+            {
+              "type": "heading",
+              "text": "Warum fünf Jahre warten?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Der Entwurf knüpft Todesstrafe oder lebenslange Haft daran, dass eine Person nach fünf Jahren noch vermisst wird. Doch das rechtswidrige Verschleppen und anschließende Leugnen des Aufenthaltsortes ist bereits Verschwindenlassen. Eine Fünfjahresfrist kann für Erbrecht oder Personenstand relevant sein, nicht für die Schwere der Tat."
+            },
+            {
+              "type": "heading",
+              "text": "Wie werden frühere Fälle verfolgt?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Das Gesetz behandelt das Verschwindenlassen als fortdauernde Straftat, bis Aufenthaltsort oder Schicksal bekannt sind. Das ist wichtig. Bei Menschen, die vor Jahren zurückkehrten oder deren Leichen gefunden wurden, stellen sich jedoch Fragen nach dem anwendbaren Recht und dem Verbot rückwirkender Bestrafung."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/enforced-disappearance/final-report-briefing.jpg",
+              "alt": "Pressekonferenz zum Abschlussbericht der Untersuchungskommission zum Verschwindenlassen",
+              "caption": "Pressekonferenz vom 5. Januar 2026 zum Abschlussbericht und zur Arbeit der Kommission.",
+              "credit": "Foto: Press Information Department, Bangladesch; Public Domain via Wikimedia Commons.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-05_Moinul_Islam_Chowdhury,_President_Commission_of_Inquiry_on_Disappearances,_press_briefing_on_final_report,_Gulshan,_Dhaka.jpg"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Personen, die weiterhin vermisst werden;",
+                "Personen, die zurückgekehrt sind;",
+                "Fälle, in denen eine Leiche gefunden wurde;",
+                "Vorfälle, die bereits in einem anderen Verfahren untersucht werden;",
+                "weitverbreitete oder systematische Fälle, die vor das International Crimes Tribunal gehören können."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Klare Kategorien sind nötig. Sonst können frühere Täter Gesetzeslücken nutzen, während falsch konstruierte Verfahren in Verfassungsfragen stecken bleiben."
+            },
+            {
+              "type": "heading",
+              "text": "Wo bleibt der Schutz der Familien?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nicht nur die verschwundene Person ist Opfer. Eltern, Ehepartner, Kinder und andere Angehörige leiden psychisch, sozial und finanziell. Bankkonten, Eigentum, Ausbildungskosten und familiäre Entscheidungen bleiben in der Schwebe."
+            },
+            {
+              "type": "list",
+              "items": [
+                "schnelle finanzielle Hilfe;",
+                "Rechtsbeistand und psychologische Versorgung;",
+                "Schutz für Zeugen und Beschwerdeführer;",
+                "Unterstützung für Bildung und Behandlung der Kinder;",
+                "regelmäßige Informationen zur Suche nach der vermissten Person."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Vorschriften gegen Falschbeschuldigungen dürfen Familien nicht einschüchtern"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bewusst erfundene Beweise zur Belastung anderer müssen strafbar sein. Eine nicht bewiesene Beschwerde ist jedoch nicht automatisch vorsätzlich falsch. Beweise sind in solchen Fällen naturgemäß schwer zu beschaffen. Familien dürfen nicht verfolgt werden, nur weil die Polizei unzureichende Beweise feststellt oder ein Verfahren vor Gericht scheitert."
+            },
+            {
+              "type": "heading",
+              "text": "Was muss sich ändern?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Lösung ist nicht, das Gesetz aufzugeben, sondern es wirksam zu ändern. Dringend nötig sind:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Eine unabhängige Ermittlungsstelle außerhalb der Kontrolle von Polizei und Sicherheitskräften.",
+                "Eigene Ermittlungs- und unangekündigte Kontrollbefugnisse für die Menschenrechtskommission.",
+                "Eine Notsuche innerhalb weniger Stunden nach Eingang einer Beschwerde.",
+                "Ausschluss von Angehörigen der beschuldigten Einheit aus dem Verfahren.",
+                "Vorgesetztenverantwortung, wenn jemand wusste oder hätte wissen müssen.",
+                "Ein zentrales Register zu jeder Festnahme, jedem Gewahrsam, Fahrzeug, verantwortlichen Beamten und jeder Verlegung.",
+                "Verpflichtende Sicherung von CCTV-, GPS-, Mobilfunk- und Gewahrsamsdaten.",
+                "Unabhängigen Schutz für Beschwerdeführer, Familien, Anwälte und Zeugen.",
+                "Staatliche Unterstützung für Familien schon vor Identifizierung eines Täters.",
+                "Jährliche Veröffentlichung von Beschwerden, aufgefundenen Personen, Verfahren und beschuldigten Amtsträgern."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Die entscheidende Frage"
+            },
+            {
+              "type": "paragraph",
+              "text": "Zur Beendigung des Verschwindenlassens braucht Bangladesch ein strenges Strafgesetz, vor allem aber unabhängige Ermittlungen und rechenschaftspflichtige Institutionen. Ein gutes Gesetz verspricht nicht nur eine hohe Strafe; es verhindert, dass Mächtige Beweise verbergen, Ermittlungen beeinflussen oder sich durch Amt und Identität entziehen."
+            },
+            {
+              "type": "callout",
+              "text": "Wenn ein Mensch verschwindet: Wird der Staat wirklich nach ihm suchen – oder untersucht eine staatliche Institution die Vorwürfe gegen eine andere und erklärt am Ende, es seien keine Beweise gefunden worden?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Solange der Entwurf diese Frage nicht eindeutig beantwortet, lässt er sich kaum als vollständiger Schutz vor erzwungenem Verschwindenlassen bezeichnen."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Innenministerium: Entwurf des Gesetzes gegen Verschwindenlassen 2026",
+              "url": "https://moha.gov.bd/pages/laws/%E0%A6%97%E0%A7%81%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-ouujo3-6a674fe576e9845ef86494ec"
+            },
+            {
+              "label": "Prothom Alo: Bericht zum Gesetzentwurf",
+              "url": "https://www.prothomalo.com/bangladesh/f99swvwl22"
+            },
+            {
+              "label": "Bangladesh Laws: Verordnung gegen Verschwindenlassen 2025",
+              "url": "https://bdlaws.minlaw.gov.bd/act-1586.html"
+            },
+            {
+              "label": "OHCHR: Internationales Übereinkommen zum Schutz aller Personen vor dem Verschwindenlassen",
+              "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-protection-all-persons-enforced"
+            },
+            {
+              "label": "Human Rights Watch: Erster Fall von Verschwindenlassen seit dem Aufstand vom Juli 2024",
+              "url": "https://www.hrw.org/news/2026/07/20/bangladesh-first-enforced-disappearance-case-since-july-2024-uprising"
+            }
+          ]
+        }
+      },
+      "facts": [
+        {
+          "value": "স্বাধীন তদন্ত",
+          "label": "যে বাহিনীর বিরুদ্ধে অভিযোগ, সেই বাহিনীর নিয়ন্ত্রণের বাইরে তদন্তব্যবস্থা দরকার।"
+        },
+        {
+          "value": "প্রথম কয়েক ঘণ্টা",
+          "label": "অভিযোগ পাওয়ার সঙ্গে সঙ্গে জরুরি অনুসন্ধান ও প্রমাণ সংরক্ষণ শুরু করা গুরুত্বপূর্ণ।"
+        },
+        {
+          "value": "প্রমাণ সুরক্ষা",
+          "label": "CCTV, GPS, মোবাইল তথ্য ও হেফাজতের নথি সংরক্ষণ বাধ্যতামূলক হওয়া উচিত।"
+        },
+        {
+          "value": "পরিবারের অধিকার",
+          "label": "আর্থিক, আইনি, মানসিক স্বাস্থ্য ও সাক্ষী সুরক্ষার সহায়তা দ্রুত নিশ্চিত করা দরকার।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "গুমের মতো ভয়াবহ অপরাধ বন্ধ করতে সরকার নতুন একটি আইনের খসড়া করেছে। খসড়ায় গুমের সর্বোচ্চ শাস্তি হিসেবে মৃত্যুদণ্ড বা যাবজ্জীবন কারাদণ্ডের কথা বলা হয়েছে। শুনতে আইনটিকে খুব কঠোর মনে হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু একটি আইন আসলে কতটা শক্তিশালী, সেটি শুধু শাস্তি দেখে বোঝা যায় না। আসল প্রশ্ন হলো—অপরাধের অভিযোগ কে গ্রহণ করবে, কে তদন্ত করবে, কে প্রমাণ সংগ্রহ করবে এবং তদন্তকারী প্রতিষ্ঠানটি কতটা স্বাধীন থাকবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "নতুন খসড়াটি পড়ার পর এখানেই সবচেয়ে বড় প্রশ্ন তৈরি হচ্ছে।"
+        },
+        {
+          "type": "heading",
+          "text": "সহজ একটি উদাহরণ দিয়ে বোঝা যাক"
+        },
+        {
+          "type": "paragraph",
+          "text": "ধরুন, একটি স্কুলের কয়েকজন শিক্ষার্থীর অভিযোগ—তাদের একজন শিক্ষক পরীক্ষার ফল পরিবর্তন করেছেন। এখন সেই অভিযোগ তদন্তের পুরো দায়িত্ব যদি ওই শিক্ষক অথবা তাঁর ঘনিষ্ঠ সহকর্মীর হাতে দেওয়া হয়, তাহলে তদন্তটি কি বিশ্বাসযোগ্য হবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "হতে পারে তাঁরা সৎভাবে তদন্ত করবেন। কিন্তু এখানে স্বার্থের দ্বন্দ্ব থেকে যায়। অভিযুক্ত ব্যক্তি বা প্রতিষ্ঠানের সঙ্গে তদন্তকারীর সম্পর্ক থাকলে সাধারণ মানুষ সেই তদন্তের ওপর সহজে আস্থা রাখতে পারে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "গুমের ক্ষেত্রেও একই প্রশ্ন সামনে আসে। বাংলাদেশে অতীতে পুলিশ, র‍্যাব, গোয়েন্দা সংস্থা ও বিভিন্ন নিরাপত্তা বাহিনীর সদস্যদের বিরুদ্ধে গুমের অভিযোগ উঠেছে। অথচ প্রস্তাবিত আইনে গুমের মামলা তদন্তের প্রধান দায়িত্ব দেওয়া হচ্ছে পুলিশকে।"
+        },
+        {
+          "type": "callout",
+          "text": "তাহলে অভিযোগ যদি পুলিশের বিরুদ্ধেই হয়, তদন্ত করবে কে? আর অভিযোগ যদি র‍্যাব, গোয়েন্দা সংস্থা বা কোনো যৌথ বাহিনীর বিরুদ্ধে হয়, তখন একই রাষ্ট্রীয় নিরাপত্তাব্যবস্থার আরেকটি অংশ কতটা স্বাধীনভাবে তদন্ত করতে পারবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটাই এই আইনের সবচেয়ে বড় দুর্বলতা।"
+        },
+        {
+          "type": "heading",
+          "text": "মৃত্যুদণ্ড থাকলেই আইন শক্তিশালী হয় না"
+        },
+        {
+          "type": "paragraph",
+          "text": "অনেকে বলতে পারেন, “আইনে তো মৃত্যুদণ্ড রাখা হয়েছে। তাহলে সমস্যা কোথায়?” সমস্যা হলো—অপরাধ প্রমাণিত না হলে কোনো শাস্তিই কার্যকর হবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি গুমের ঘটনা প্রমাণ করতে অনেক ধরনের তথ্য প্রয়োজন হতে পারে:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "কে ব্যক্তিটিকে তুলে নিয়েছিল;",
+            "কোন গাড়ি ব্যবহার করা হয়েছিল;",
+            "কোথায় নিয়ে যাওয়া হয়েছিল;",
+            "কোন কর্মকর্তা নির্দেশ দিয়েছিলেন;",
+            "থানার বা বাহিনীর নথিতে কী লেখা হয়েছিল;",
+            "CCTV ফুটেজ কোথায়;",
+            "মোবাইল ও গাড়ির অবস্থানের তথ্য কী;",
+            "কোনো গোপন আটককেন্দ্রে রাখা হয়েছিল কি না।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তথ্যগুলোর বড় অংশই পুলিশ, গোয়েন্দা সংস্থা বা অন্য কোনো রাষ্ট্রীয় বাহিনীর কাছে থাকতে পারে। তাদেরই কোনো সদস্যের বিরুদ্ধে অভিযোগ উঠলে এবং তারাই তদন্ত নিয়ন্ত্রণ করলে গুরুত্বপূর্ণ নথি বা আলামত গোপন হওয়ার ঝুঁকি থেকে যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তাই কাগজে মৃত্যুদণ্ড লিখে দিলেই একটি আইন শক্তিশালী হয়ে যায় না। স্বাধীন তদন্ত ছাড়া কঠোর শাস্তি অনেক সময় শুধু কাগজেই থেকে যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "পুলিশ অভিযোগ না নিলে আদালতে যাওয়া যাবে—কিন্তু ততক্ষণে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "খসড়ায় বলা হয়েছে, পুলিশ অভিযোগ গ্রহণ না করলে ভুক্তভোগীর পরিবারের পক্ষ থেকে ম্যাজিস্ট্রেট আদালতে নালিশি মামলা করা যাবে। এটি একটি সুযোগ, কিন্তু গুমের ক্ষেত্রে যথেষ্ট নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কারণ একজন মানুষ নিখোঁজ হওয়ার পর প্রথম কয়েক ঘণ্টা সবচেয়ে গুরুত্বপূর্ণ। পরিবার প্রথমে থানায় গেল, পুলিশ অভিযোগ নিল না, তারপর আইনজীবী খুঁজে আদালতে গেল—এই প্রক্রিয়ায় কয়েক দিন চলে যেতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এর মধ্যে:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CCTV ফুটেজ মুছে যেতে পারে;",
+            "গাড়ির চলাচলের তথ্য পরিবর্তন হতে পারে;",
+            "আটক ব্যক্তিকে অন্য জায়গায় সরিয়ে নেওয়া হতে পারে;",
+            "হেফাজতের নথি তৈরি বা পরিবর্তন করা হতে পারে;",
+            "গুরুত্বপূর্ণ সাক্ষীদের ভয় দেখানো হতে পারে।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "গুমের অভিযোগকে তাই সাধারণ চুরি বা মারামারির মামলার মতো দেখলে হবে না। অভিযোগ আসার সঙ্গে সঙ্গে মানুষটিকে জীবিত উদ্ধারের জন্য জরুরি অনুসন্ধান শুরু করতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "মানবাধিকার কমিশনকে কেন বাদ দেওয়া হলো?"
+        },
+        {
+          "type": "paragraph",
+          "text": "২০২৫ সালের অধ্যাদেশে গুমের অভিযোগ তদন্তে জাতীয় মানবাধিকার কমিশনের ভূমিকা ছিল। কমিশন অভিযোগ তদন্ত করতে, তথ্য চাইতে এবং প্রয়োজনে আটককেন্দ্র পরিদর্শন করতে পারত। নতুন খসড়ায় সেই দায়িত্ব সরিয়ে পুলিশকে দেওয়া হচ্ছে।"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/enforced-disappearance/convention-signing.jpg",
+          "alt": "বলপূর্বক গুম থেকে সকল ব্যক্তির সুরক্ষাবিষয়ক আন্তর্জাতিক কনভেনশনে বাংলাদেশের স্বাক্ষর",
+          "caption": "২৯ আগস্ট ২০২৪-এ বলপূর্বক গুম থেকে সকল ব্যক্তির সুরক্ষাবিষয়ক আন্তর্জাতিক কনভেনশনে বাংলাদেশের স্বাক্ষর।",
+          "credit": "ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain via Wikimedia Commons.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-08-29_Muhammad_Yunus_Signs_International_Convention_For_Protection_Of_All_Persons_From_Enforced_Disappearance_At_Jamuna_State_Guesthouse,_Dhaka_(PID-0006688).jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে স্বরাষ্ট্র মন্ত্রণালয়ের যুক্তি হলো, প্রচলিত ফৌজদারি কার্যবিধি অনুযায়ী পুলিশ তদন্ত করে। কিন্তু বিশেষ অপরাধের জন্য বিশেষ আইনে স্বাধীন তদন্তের ব্যবস্থা করা অসম্ভব নয়। প্রয়োজন হলে আলাদা তদন্ত ইউনিট গঠন করা যায়। মানবাধিকার কমিশন, বিচার বিভাগ এবং বিশেষজ্ঞদের সমন্বয়েও তদন্ত দল হতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বরং বাংলাদেশের অতীত অভিজ্ঞতার কারণে গুমের তদন্তে সাধারণ ব্যবস্থার চেয়ে বেশি স্বাধীনতা প্রয়োজন। অঘোষিত আটককেন্দ্র বা কথিত “আয়নাঘর” খুঁজে বের করতে হলে এমন একটি প্রতিষ্ঠান দরকার, যারা আগাম অনুমতি ছাড়াই যেকোনো সন্দেহজনক আটকস্থল পরিদর্শন করতে পারবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "অভিযুক্ত বাহিনীর অনুমতি নিয়ে যদি আটককেন্দ্র দেখতে হয়, তাহলে গোপন আটককেন্দ্র কখনোই গোপন থাকবে না—পরিদর্শনের আগেই সব সরিয়ে ফেলা সম্ভব হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "সাদা পোশাকে তুলে নিলে দায় কার?"
+        },
+        {
+          "type": "paragraph",
+          "text": "খসড়ায় সরকারি কর্মচারী, পুলিশ, সেনাবাহিনী, র‍্যাব, বিজিবি, কোস্টগার্ড, গোয়েন্দা সংস্থা ও যৌথ বাহিনীর মাধ্যমে সংঘটিত গুমকে আইনের আওতায় আনা হয়েছে। এটি ইতিবাচক।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু বাস্তবে অনেক সময় কাউকে সাদা পোশাকে তুলে নেওয়া হয়। যারা নিয়ে যায়, তারা নিজেদের পরিচয় দেয় না। কোনো সরকারি গাড়িও ব্যবহার করে না। পরে সংশ্লিষ্ট বাহিনী বলে, “আমরা তাকে আটক করিনি।” তখন পরিবার কীভাবে প্রমাণ করবে যে ঘটনার পেছনে রাষ্ট্রীয় কোনো সংস্থার সমর্থন বা নির্দেশ ছিল?"
+        },
+        {
+          "type": "paragraph",
+          "text": "কোনো বাহিনী যদি রাজনৈতিক কর্মী, সোর্স, অবসরপ্রাপ্ত সদস্য বা বেসরকারি লোকজনকে ব্যবহার করে, তাদের ক্ষেত্রে কী হবে? আইনে পরিষ্কারভাবে থাকতে হবে—রাষ্ট্রের প্রত্যক্ষ নির্দেশের পাশাপাশি রাষ্ট্রের পরোক্ষ সমর্থন, নীরব সম্মতি অথবা রাষ্ট্রের পক্ষে কাজ করাও এই অপরাধের মধ্যে পড়বে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "অন্যথায় ইউনিফর্ম ও সরকারি গাড়ি ব্যবহার না করেই আইনের সংজ্ঞা এড়িয়ে যাওয়ার সুযোগ তৈরি হতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "ঊর্ধ্বতন কর্মকর্তা কি সহজেই দায় এড়াতে পারবেন?"
+        },
+        {
+          "type": "paragraph",
+          "text": "গুমের মতো অপরাধ সাধারণত একজন নিচের পর্যায়ের সদস্যের একক সিদ্ধান্তে ঘটে না। কাউকে তুলে নেওয়া, গাড়ি ব্যবহার করা, জিজ্ঞাসাবাদ করা, গোপন স্থানে রাখা এবং পুরো ঘটনা অস্বীকার করার পেছনে একটি নির্দেশনার কাঠামো থাকতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "খসড়ায় ঊর্ধ্বতন কর্মকর্তার দায়ের কথা বলা হয়েছে। কিন্তু শুধু তিনি সরাসরি জানতেন বা নির্দেশ দিয়েছিলেন—এটি প্রমাণ করার শর্ত থাকলে সমস্যা হবে। কারণ এ ধরনের নির্দেশ সাধারণত লিখিতভাবে দেওয়া হয় না। কোনো কর্মকর্তা কাগজে লিখবেন না—“এই ব্যক্তিকে গুম করো।”"
+        },
+        {
+          "type": "paragraph",
+          "text": "তাই আইনে শুধু “তিনি জানতেন” বললে হবে না। বলতে হবে:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "তিনি জানতেন;",
+            "তাঁর জানা উচিত ছিল;",
+            "অভিযোগ বা তথ্য পাওয়ার পরও ব্যবস্থা নেননি;",
+            "অপরাধ বন্ধ বা তদন্ত করার ক্ষমতা থাকা সত্ত্বেও সেটি করেননি।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "নইলে সব দায় নিচের পর্যায়ের কয়েকজন সদস্যের ওপর চাপিয়ে ঊর্ধ্বতন নির্দেশদাতারা রক্ষা পেতে পারেন।"
+        },
+        {
+          "type": "heading",
+          "text": "গোপন আটককেন্দ্র তৈরি ও আলামত নষ্টের শাস্তি কেন কমবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "আগের অধ্যাদেশে গুমের আলামত নষ্ট এবং গোপন আটককেন্দ্র তৈরির ন্যূনতম শাস্তি সাত বছর ছিল। নতুন খসড়ায় সেটি পাঁচ বছর করার প্রস্তাব করা হয়েছে। এটি বোঝা কঠিন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "গোপন আটককেন্দ্র তৈরি করা কোনো ছোট অপরাধ নয়। এ ধরনের জায়গা ছাড়া পরিকল্পিতভাবে মানুষকে লুকিয়ে রাখা সম্ভব নয়। একইভাবে CCTV ফুটেজ মুছে ফেলা, গাড়ির তথ্য পরিবর্তন করা, হেফাজতের নথি নষ্ট করা বা লাশ সরিয়ে ফেলা মূল অপরাধকে আড়াল করার অংশ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তাহলে এসব অপরাধের শাস্তি কমানোর প্রয়োজন কেন? গুমের শাস্তি কঠোর রেখে গুমের প্রমাণ নষ্ট করার শাস্তি কমিয়ে দিলে অপরাধীদের জন্য একটি ভুল বার্তা যেতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "পাঁচ বছর অপেক্ষা করার যুক্তি কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "খসড়ায় বলা হয়েছে, গুমের পাঁচ বছর পরও কোনো ব্যক্তির সন্ধান না পাওয়া গেলে অপরাধীর সর্বোচ্চ শাস্তি মৃত্যুদণ্ড বা যাবজ্জীবন হতে পারে। কিন্তু একজন মানুষকে বেআইনিভাবে তুলে নিয়ে তার অবস্থান অস্বীকার করাই গুম। অপরাধটি গুরুতর হওয়ার জন্য পাঁচ বছর অপেক্ষা করার প্রয়োজন নেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পাঁচ বছরের সময়সীমা পরিবারের সম্পত্তি, উত্তরাধিকার বা নিখোঁজ ব্যক্তির আইনি অবস্থান ঠিক করার জন্য প্রয়োজন হতে পারে। কিন্তু অপরাধের গুরুত্ব নির্ধারণে এই সময়সীমা ব্যবহার করা যুক্তিসংগত নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি পরিবার পাঁচ দিন ধরে জানে না তাদের প্রিয় মানুষটি কোথায়—সেটিও ভয়াবহ অপরাধ। পাঁচ বছর পর সেটি হঠাৎ করে নতুন অপরাধে পরিণত হয় না।"
+        },
+        {
+          "type": "heading",
+          "text": "পুরোনো গুমের বিচার কীভাবে হবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "আইনে গুমকে চলমান অপরাধ বলা হয়েছে। অর্থাৎ নিখোঁজ ব্যক্তির অবস্থান বা পরিণতি জানা না যাওয়া পর্যন্ত অপরাধটি চলতে থাকবে। এটি গুরুত্বপূর্ণ। তবে এখানে আরেকটি প্রশ্ন আছে।"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/enforced-disappearance/final-report-briefing.jpg",
+          "alt": "গুম সংক্রান্ত তদন্ত কমিশনের চূড়ান্ত প্রতিবেদন নিয়ে সংবাদ ব্রিফিং",
+          "caption": "গুম সংক্রান্ত তদন্ত কমিশনের চূড়ান্ত প্রতিবেদন ও সার্বিক কার্যক্রম নিয়ে ৫ জানুয়ারি ২০২৬-এর সংবাদ ব্রিফিং।",
+          "credit": "ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain via Wikimedia Commons.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-05_Moinul_Islam_Chowdhury,_President_Commission_of_Inquiry_on_Disappearances,_press_briefing_on_final_report,_Gulshan,_Dhaka.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "যারা এখনো নিখোঁজ, তাদের ক্ষেত্রে নতুন আইন প্রয়োগ করা তুলনামূলক সহজ হতে পারে। কিন্তু যারা কয়েক বছর আগে ফিরে এসেছেন অথবা যাদের লাশ পাওয়া গেছে, তাদের মামলার বিচার কোন আইনে হবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের সংবিধান অনুযায়ী কোনো কাজ সংঘটনের সময় যে শাস্তি ছিল না, পরে নতুন আইন করে সেই শাস্তি সাধারণভাবে প্রয়োগ করা যায় না। তাই পুরোনো ঘটনাগুলোকে স্পষ্টভাবে কয়েকটি ভাগে ভাগ করা প্রয়োজন:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "এখনো নিখোঁজ;",
+            "ফিরে এসেছেন;",
+            "লাশ পাওয়া গেছে;",
+            "অন্য মামলায় ঘটনা তদন্তাধীন;",
+            "ব্যাপক বা পরিকল্পিত গুম হিসেবে আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের আওতায় পড়ে।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এগুলো পরিষ্কার না করলে পুরোনো অপরাধীরা আইনের ফাঁক দিয়ে বেরিয়ে যেতে পারে। আবার ভুলভাবে প্রয়োগ করলে মামলাগুলো সাংবিধানিক জটিলতায় আটকে যেতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "পরিবারের সুরক্ষা কোথায়?"
+        },
+        {
+          "type": "paragraph",
+          "text": "গুমের শিকার শুধু নিখোঁজ ব্যক্তি নন। তাঁর বাবা-মা, স্বামী বা স্ত্রী, সন্তান এবং পরিবারের অন্য সদস্যরাও দীর্ঘদিন ধরে মানসিক, সামাজিক ও আর্থিক কষ্টের মধ্যে থাকেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "অনেক পরিবার জানে না তাদের প্রিয় মানুষটি জীবিত, নাকি মৃত। ব্যাংক হিসাব, সম্পত্তি, সন্তানের খরচ এবং পারিবারিক সিদ্ধান্ত—সবকিছু অনিশ্চয়তায় আটকে যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তাই শুধু অপরাধীর শাস্তি দিলেই প্রতিকার সম্পূর্ণ হয় না। পরিবারকে দিতে হবে:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "দ্রুত আর্থিক সহায়তা;",
+            "আইনি সহায়তা;",
+            "মানসিক স্বাস্থ্যসেবা;",
+            "সাক্ষী ও অভিযোগকারীর নিরাপত্তা;",
+            "সন্তানের শিক্ষা ও চিকিৎসায় সহায়তা;",
+            "নিখোঁজ ব্যক্তিকে খুঁজে পাওয়ার বিষয়ে নিয়মিত তথ্য।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "অপরাধীর বিচার শেষ হওয়ার জন্য পরিবারকে বছরের পর বছর অপেক্ষা করানো উচিত নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "মিথ্যা অভিযোগের আইন যেন পরিবারকে ভয় না দেখায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "ইচ্ছাকৃতভাবে মিথ্যা তথ্য তৈরি করে কাউকে ফাঁসানো অবশ্যই অপরাধ হওয়া উচিত। কিন্তু “অভিযোগ প্রমাণিত হয়নি” এবং “অভিযোগটি ইচ্ছাকৃতভাবে মিথ্যা ছিল”—এই দুটি এক বিষয় নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "গুমের ঘটনায় প্রমাণ সংগ্রহ করা স্বাভাবিকভাবেই কঠিন। পুলিশ পর্যাপ্ত প্রমাণ না পেলে অথবা মামলা আদালতে প্রমাণিত না হলে অভিযোগকারী পরিবারকে মিথ্যা মামলার আসামি করা যাবে না। অন্যথায় অনেক পরিবার অভিযোগ করতেই ভয় পাবে।"
+        },
+        {
+          "type": "heading",
+          "text": "তাহলে সমাধান কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "আইনটি বাতিল করা নয়; বরং কার্যকরভাবে সংশোধন করা প্রয়োজন। সবচেয়ে জরুরি কয়েকটি ব্যবস্থা হতে পারে:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "পুলিশ ও নিরাপত্তা বাহিনীর নিয়ন্ত্রণের বাইরে স্বাধীন গুম তদন্ত ইউনিট গঠন।",
+            "জাতীয় মানবাধিকার কমিশনকে নিজ উদ্যোগে তদন্ত এবং যেকোনো আটককেন্দ্র পরিদর্শনের ক্ষমতা দেওয়া।",
+            "অভিযোগ পাওয়ার কয়েক ঘণ্টার মধ্যে জরুরি অনুসন্ধান শুরু করা।",
+            "যে বাহিনীর বিরুদ্ধে অভিযোগ, সেই বাহিনীর কাউকে তদন্তে না রাখা।",
+            "ঊর্ধ্বতন কর্মকর্তার ‘জানা উচিত ছিল’ এমন ঘটনাতেও দায় নির্ধারণ করা।",
+            "প্রতিটি গ্রেপ্তার ও আটকের সময়, স্থান, গাড়ি, দায়িত্বপ্রাপ্ত কর্মকর্তা ও স্থানান্তরের তথ্য কেন্দ্রীয় তথ্যভান্ডারে রাখা।",
+            "CCTV, গাড়ির GPS, মোবাইল তথ্য ও হেফাজতের নথি সংরক্ষণ বাধ্যতামূলক করা।",
+            "অভিযোগকারী, পরিবার, আইনজীবী ও সাক্ষীদের জন্য স্বাধীন নিরাপত্তাব্যবস্থা তৈরি করা।",
+            "অপরাধী শনাক্ত হওয়ার আগেই ভুক্তভোগী পরিবারকে রাষ্ট্রীয় তহবিল থেকে সহায়তা দেওয়া।",
+            "প্রতি বছর কত অভিযোগ এসেছে, কতজন উদ্ধার হয়েছেন, কত মামলা হয়েছে এবং কত কর্মকর্তা অভিযুক্ত—এসব তথ্য প্রকাশ করা।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা"
+        },
+        {
+          "type": "paragraph",
+          "text": "গুম বন্ধ করতে কঠোর আইন প্রয়োজন। কিন্তু তার চেয়েও বেশি প্রয়োজন স্বাধীন তদন্ত ও রাষ্ট্রীয় প্রতিষ্ঠানের জবাবদিহি। যে প্রতিষ্ঠানের সদস্যদের বিরুদ্ধে অভিযোগ উঠতে পারে, সেই প্রতিষ্ঠানের হাতেই যদি অভিযোগ গ্রহণ, প্রমাণ সংগ্রহ এবং তদন্তের পুরো দায়িত্ব থাকে, তাহলে সাধারণ মানুষের মনে প্রশ্ন থাকবেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি ভালো আইন শুধু অপরাধীর বড় শাস্তির কথা বলে না। একটি ভালো আইন এমন ব্যবস্থা তৈরি করে, যাতে ক্ষমতাবান ব্যক্তিও প্রমাণ লুকাতে না পারে, তদন্তে প্রভাব ফেলতে না পারে এবং পদ বা পরিচয় ব্যবহার করে দায় এড়াতে না পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সুতরাং মূল প্রশ্ন মৃত্যুদণ্ড থাকবে কি থাকবে না—শুধু সেটি নয়।"
+        },
+        {
+          "type": "callout",
+          "text": "কেউ গুম হলে রাষ্ট্র কি সত্যিই তাকে খুঁজবে, নাকি রাষ্ট্রের একটি প্রতিষ্ঠান আরেকটি প্রতিষ্ঠানের বিরুদ্ধে অভিযোগ তদন্ত করে শেষে বলবে—প্রমাণ পাওয়া যায়নি?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই প্রশ্নের পরিষ্কার উত্তর না পাওয়া পর্যন্ত প্রস্তাবিত আইনকে গুম প্রতিরোধের পূর্ণাঙ্গ আইন বলা কঠিন।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "স্বরাষ্ট্র মন্ত্রণালয়: গুম প্রতিরোধ ও প্রতিকার আইন ২০২৬-এর খসড়া",
+          "url": "https://moha.gov.bd/pages/laws/%E0%A6%97%E0%A7%81%E0%A6%AE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-ouujo3-6a674fe576e9845ef86494ec"
+        },
+        {
+          "label": "প্রথম আলো: প্রস্তাবিত গুম প্রতিরোধ আইন নিয়ে প্রতিবেদন",
+          "url": "https://www.prothomalo.com/bangladesh/f99swvwl22"
+        },
+        {
+          "label": "বাংলাদেশ আইন: গুম প্রতিরোধ ও প্রতিকার অধ্যাদেশ ২০২৫",
+          "url": "https://bdlaws.minlaw.gov.bd/act-1586.html"
+        },
+        {
+          "label": "OHCHR: গুম থেকে সকল ব্যক্তির সুরক্ষাবিষয়ক আন্তর্জাতিক কনভেনশন",
+          "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-protection-all-persons-enforced"
+        },
+        {
+          "label": "Human Rights Watch: Bangladesh—First Enforced Disappearance Case Since July 2024 Uprising",
+          "url": "https://www.hrw.org/news/2026/07/20/bangladesh-first-enforced-disappearance-case-since-july-2024-uprising"
+        }
+      ]
+    },
+    {
       "id": "diaspora-vote-2026-data",
       "slug": "diaspora-vote-2026-data",
       "status": "published",
