@@ -29,8 +29,8 @@ for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'upda
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js" defer></script>')) {
-  errors.push('index.html: missing deferred site interaction script');
+if (!html.includes('<script src="js/site.js?v=20260729-social-preview" defer></script>')) {
+  errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (html.includes('<meta property="og:image" content="https://ncpdagermany.de/img/announcements/rokte-july-2026.webp"')) {
   errors.push('index.html: retired event poster must not be the website Open Graph image');
