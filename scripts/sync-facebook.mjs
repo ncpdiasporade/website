@@ -508,11 +508,27 @@ async function fetchPageContent(page) {
     posts = [...postsById.values()];
     featuredResolved = true;
   } catch {
-    console.warn(`${page.sourceName}: Meta did not expose the pinned-post collection; using the configured permalink or the last verified pinned item.`);
+    try {
+      const payload = await graphRequest(page, pageId, 'posts', `${baseFields},is_pinned`, token);
+      const pinAwarePosts = Array.isArray(payload.data) ? payload.data : [];
+      const exposesPinnedState = pinAwarePosts.some((post) => (
+        Object.prototype.hasOwnProperty.call(post, 'is_pinned')
+      ));
+      if (!exposesPinnedState) throw new Error('the posts collection did not return pinned state');
+
+      const postsById = new Map(posts.map((post) => [post.id, post]));
+      for (const post of pinAwarePosts) {
+        postsById.set(post.id, { ...postsById.get(post.id), ...post });
+      }
+      posts = [...postsById.values()];
+      featuredResolved = true;
+    } catch {
+      console.warn(`${page.sourceName}: Meta did not expose pinned state; using the configured featured permalink or the last verified item.`);
+    }
   }
 
   const configuredIds = configuredFeaturedIds.get(page.key) || [];
-  if (configuredIds.length) {
+  if (!featuredResolved && configuredIds.length) {
     const postsById = new Map(posts.map((post) => [post.id, post]));
     let resolvedCount = 0;
     for (const postId of configuredIds) {
@@ -530,7 +546,7 @@ async function fetchPageContent(page) {
   }
 
   const configured = configuredFeaturedUrls.get(page.key) || [];
-  if (configured.length) {
+  if (!featuredResolved && configured.length) {
     posts = posts.map((post) => ({
       ...post,
       is_pinned: configured.includes(canonicalUrl(post.permalink_url))
@@ -744,6 +760,9 @@ for (const page of config.pages) {
   const configuredIds = configuredFeaturedIds.get(page.key) || [];
   const ordered = [];
 
+  const detected = candidates.filter((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id));
+  for (const match of detected) if (!ordered.includes(match)) ordered.push(match);
+
   for (const id of configuredIds) {
     const match = candidates.find((item) => item.facebookId === id);
     if (match && !ordered.includes(match)) ordered.push(match);
@@ -752,9 +771,6 @@ for (const page of config.pages) {
     const match = candidates.find((item) => canonicalUrl(item.sourceUrl) === url);
     if (match && !ordered.includes(match)) ordered.push(match);
   }
-
-  const detected = candidates.filter((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id));
-  for (const match of detected) if (!ordered.includes(match)) ordered.push(match);
 
   const existingFeaturedIds = new Set((existing.items || [])
     .filter((item) => item.sourceKey === page.key && item.featured === true)
@@ -773,17 +789,6 @@ for (const [pageIndex, page] of config.pages.entries()) {
   if (selected) {
     selected.featured = true;
     selected.featuredOrder = pageIndex + 1;
-    featuredItems.push(selected);
-  }
-}
-
-for (const page of config.pages) {
-  if (featuredItems.length >= (config.maxFeaturedItems || 2)) break;
-  for (const selected of (featuredCandidatesByPage.get(page.key) || []).slice(1)) {
-    if (featuredItems.length >= (config.maxFeaturedItems || 2)) break;
-    if (featuredItems.includes(selected)) continue;
-    selected.featured = true;
-    selected.featuredOrder = featuredItems.length + 1;
     featuredItems.push(selected);
   }
 }
