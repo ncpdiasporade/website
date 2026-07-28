@@ -810,11 +810,15 @@ for (const page of config.pages) {
   featuredCandidatesByPage.set(page.key, ordered);
 }
 
-for (const [pageIndex, page] of config.pages.entries()) {
-  const selected = featuredCandidatesByPage.get(page.key)?.[0];
-  if (selected) {
+for (const page of config.pages) {
+  const remainingSlots = Math.max(0, Number(config.maxFeaturedItems || 0) - featuredItems.length);
+  const pageLimit = Math.max(0, Number(page.maxFeaturedItems || 1));
+  const selectedItems = (featuredCandidatesByPage.get(page.key) || [])
+    .slice(0, Math.min(pageLimit, remainingSlots));
+
+  for (const selected of selectedItems) {
     selected.featured = true;
-    selected.featuredOrder = pageIndex + 1;
+    selected.featuredOrder = featuredItems.length + 1;
     featuredItems.push(selected);
   }
 }

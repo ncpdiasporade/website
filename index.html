@@ -4540,7 +4540,7 @@
           }
           return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
         });
-        const limit = activeFilter === 'featured' ? 2 : activeFilter === 'video' ? 6 : 10;
+        const limit = activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10;
         const published = sorted.slice(0, limit);
 
         if (!published.length) {

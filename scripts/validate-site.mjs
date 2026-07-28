@@ -28,8 +28,8 @@ for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'upda
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes("activeFilter === 'featured' ? 2 : activeFilter === 'video' ? 6 : 10")) {
-  errors.push('index.html: recent-update limits must remain 2 featured, 6 videos, and 10 other items');
+if (!html.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
+  errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
 }
 
 const ids = [...markup.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
@@ -58,11 +58,11 @@ for (const item of (recentUpdates.items || []).filter((candidate) => candidate.f
   featuredBySource.set(item.sourceKey, (featuredBySource.get(item.sourceKey) || 0) + 1);
 }
 const featuredCount = [...featuredBySource.values()].reduce((sum, count) => sum + count, 0);
-if (featuredCount > 2) errors.push(`data/recent-updates.json: ${featuredCount} featured items found; at most two are allowed`);
+if (featuredCount > 4) errors.push(`data/recent-updates.json: ${featuredCount} featured items found; at most four are allowed`);
 
 const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.config.json'), 'utf8'));
 if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
-if (socialConfig.maxFeaturedItems !== 2) errors.push('social-feed.config.json: maxFeaturedItems must be 2');
+if (socialConfig.maxFeaturedItems !== 4) errors.push('social-feed.config.json: maxFeaturedItems must be 4');
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 if (socialConfig.videoArchiveMaxItems < socialConfig.maxVideoItems) {
   errors.push('social-feed.config.json: videoArchiveMaxItems must cover the displayed video count');

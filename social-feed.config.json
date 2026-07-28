@@ -9,7 +9,7 @@
   "videoArchiveTopRefreshItems": 24,
   "videoMetricsBatchSize": 5,
   "maxFeedItems": 10,
-  "maxFeaturedItems": 2,
+  "maxFeaturedItems": 4,
   "maxVideoItems": 6,
   "maxImageBytes": 8000000,
   "pages": [
@@ -21,8 +21,11 @@
       "featuredPostUrlsEnv": "NCPDA_GERMANY_FEATURED_POST_URLS",
       "featuredPostUrlEnv": "NCPDA_GERMANY_FEATURED_POST_URL",
       "featuredPostIdsEnv": "NCPDA_GERMANY_FEATURED_POST_IDS",
+      "maxFeaturedItems": 3,
       "featuredPostIds": [
-        "122197201634921031"
+        "122197201634921031",
+        "122197194434921031",
+        "122184264350921031"
       ],
       "sourceName": "NCP Diaspora Alliance Germany",
       "pageUrl": "https://www.facebook.com/ncpdagermany/",
@@ -36,6 +39,7 @@
       "featuredPostUrlsEnv": "NCP_FEATURED_POST_URLS",
       "featuredPostUrlEnv": "NCP_FEATURED_POST_URL",
       "featuredPostIdsEnv": "NCP_FEATURED_POST_IDS",
+      "maxFeaturedItems": 1,
       "featuredPostIds": [],
       "sourceName": "National Citizen Party",
       "pageUrl": "https://www.facebook.com/1NationalCitizenParty/",
