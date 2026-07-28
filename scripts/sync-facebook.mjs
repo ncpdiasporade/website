@@ -36,6 +36,10 @@ function clean(value) {
     .trim();
 }
 
+function hasFeaturedMarker(value) {
+  return /(^|\s)#NCPDAFeatured(?=$|[\s.,!?।])/iu.test(String(value || ''));
+}
+
 function canonicalUrl(value) {
   try {
     const url = new URL(String(value || '').trim());
@@ -503,7 +507,12 @@ async function fetchPageContent(page) {
     const pinnedPosts = Array.isArray(payload.data) ? payload.data : [];
     const postsById = new Map(posts.map((post) => [post.id, post]));
     for (const post of pinnedPosts) {
-      postsById.set(post.id, { ...postsById.get(post.id), ...post, is_pinned: true });
+      postsById.set(post.id, {
+        ...postsById.get(post.id),
+        ...post,
+        is_pinned: true,
+        featured_rank: 2
+      });
     }
     posts = [...postsById.values()];
     featuredResolved = true;
@@ -518,7 +527,11 @@ async function fetchPageContent(page) {
 
       const postsById = new Map(posts.map((post) => [post.id, post]));
       for (const post of pinAwarePosts) {
-        postsById.set(post.id, { ...postsById.get(post.id), ...post });
+        postsById.set(post.id, {
+          ...postsById.get(post.id),
+          ...post,
+          ...(post.is_pinned ? { featured_rank: 2 } : {})
+        });
       }
       posts = [...postsById.values()];
       featuredResolved = true;
@@ -535,7 +548,12 @@ async function fetchPageContent(page) {
       try {
         const objectId = `${pageId}_${postId}`;
         const post = await graphObjectRequest(page, objectId, baseFields, token);
-        postsById.set(post.id, { ...postsById.get(post.id), ...post, is_pinned: true });
+        postsById.set(post.id, {
+          ...postsById.get(post.id),
+          ...post,
+          is_pinned: true,
+          featured_rank: 1
+        });
         resolvedCount += 1;
       } catch (error) {
         console.warn(`Could not refresh configured featured post ${postId}: ${error.message}`);
@@ -549,7 +567,8 @@ async function fetchPageContent(page) {
   if (!featuredResolved && configured.length) {
     posts = posts.map((post) => ({
       ...post,
-      is_pinned: configured.includes(canonicalUrl(post.permalink_url))
+      is_pinned: configured.includes(canonicalUrl(post.permalink_url)),
+      ...(configured.includes(canonicalUrl(post.permalink_url)) ? { featured_rank: 1 } : {})
     }));
     featuredResolved = true;
   }
@@ -562,6 +581,7 @@ async function fetchPageContent(page) {
 async function normalizePost(post, page) {
   const attachment = firstAttachment(post);
   const mediaType = mediaTypeFor(attachment);
+  const markedFeatured = hasFeaturedMarker(post.message);
   const eventCopy = rokteJulyCopy(post.message);
   const title = eventCopy?.title || captionTitle(post.message, attachment, mediaType);
   const excerpt = eventCopy?.excerpt || captionExcerpt(post.message, title, attachment);
@@ -588,7 +608,10 @@ async function normalizePost(post, page) {
     sourceUrl,
     mediaType,
     isReel: /\/reels?\//i.test(sourceUrl),
-    featured: Boolean(post.is_pinned),
+    featured: markedFeatured || Boolean(post.is_pinned),
+    ...((markedFeatured || post.is_pinned) ? {
+      featuredRank: markedFeatured ? 3 : Number(post.featured_rank || 2)
+    } : {}),
     ...(image ? { image, imageAlt: title } : {}),
     managedBy: 'facebook-sync'
   };
@@ -760,7 +783,10 @@ for (const page of config.pages) {
   const configuredIds = configuredFeaturedIds.get(page.key) || [];
   const ordered = [];
 
-  const detected = candidates.filter((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id));
+  const detected = candidates
+    .filter((item) => freshItems.includes(item) && detectedFeaturedIds.has(item.id))
+    .sort((a, b) => Number(b.featuredRank || 0) - Number(a.featuredRank || 0)
+      || new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
   for (const match of detected) if (!ordered.includes(match)) ordered.push(match);
 
   for (const id of configuredIds) {
@@ -807,6 +833,7 @@ const selectedIds = new Set(
   [...featuredItems, ...topVideos, ...recentItems, ...unavailableSourceItems].map((item) => item.id)
 );
 const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
+for (const item of items) delete item.featuredRank;
 
 const output = { updatedAt: new Date().toISOString(), items };
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
@@ -827,5 +854,5 @@ for (const page of config.pages) {
 
 console.log(
   `Published ${items.length} item(s) from ${successfulSources.size} Facebook source(s); `
-  + `${featuredItems.length} pinned item(s) and ${topVideos.length} top-viewed video/Reel item(s) are active.`
+  + `${featuredItems.length} featured item(s) and ${topVideos.length} top-viewed video/Reel item(s) are active.`
 );
