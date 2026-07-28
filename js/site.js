@@ -605,6 +605,8 @@ function initBlog() {
   const modalBody = $('#blogModalBody');
   const modalSources = $('#blogModalSources');
   const modalCredit = $('#blogModalCredit');
+  const modalShare = $('#blogModalShare');
+  const modalShareStatus = $('#blogShareStatus');
   const defaultImage = 'img/blog/july-uprising.svg';
   let articlesById = new Map();
   let rawArticles = [];
@@ -775,18 +777,122 @@ function initBlog() {
     return links ? `<h4>${escapeHtml(t('তথ্যসূত্র'))}</h4><ul>${links}</ul>` : '';
   }
 
-  function closeBlogModal() {
+  function articleShareUrl(id) {
+    const url = new URL(`${window.location.origin}${window.location.pathname}`);
+    const language = i18n?.language || document.documentElement.lang || 'bn';
+    if (language && language !== 'bn') url.searchParams.set('lang', language);
+    url.searchParams.set('blog', id);
+    url.hash = 'blog';
+    return url.toString();
+  }
+
+  function updateArticleUrl(id) {
+    const url = new URL(window.location.href);
+    url.searchParams.set('blog', id);
+    url.hash = 'blog';
+    window.history.replaceState({ blog: id }, '', url);
+  }
+
+  function clearArticleUrl() {
+    const url = new URL(window.location.href);
+    if (!url.searchParams.has('blog')) return;
+    url.searchParams.delete('blog');
+    window.history.replaceState({}, '', url);
+  }
+
+  function renderSharePanel(article, id) {
+    const shareUrl = articleShareUrl(id);
+    const title = cleanText(article.title, 220);
+    const shareText = `${title}\n${shareUrl}`;
+    const encodedUrl = encodeURIComponent(shareUrl);
+    const encodedTitle = encodeURIComponent(title);
+    const encodedText = encodeURIComponent(shareText);
+    const nativeAction = typeof navigator.share === 'function' ? `
+      <button type="button" class="blog-share-action blog-share-native" data-blog-native-share="${escapeHtml(id)}">
+        <span class="blog-share-icon" aria-hidden="true">↗</span>${escapeHtml(t('শেয়ার করুন'))}
+      </button>` : '';
+
+    return `
+      <span class="blog-share-label">${escapeHtml(t('এই লেখাটি শেয়ার করুন'))}</span>
+      <div class="blog-share-actions">
+        ${nativeAction}
+        <a class="blog-share-action" href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t('Facebook-এ শেয়ার'))}">
+          <span class="blog-share-icon" aria-hidden="true">f</span>Facebook
+        </a>
+        <a class="blog-share-action" href="https://wa.me/?text=${encodedText}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t('WhatsApp-এ শেয়ার'))}">
+          <span class="blog-share-icon" aria-hidden="true">WA</span>WhatsApp
+        </a>
+        <a class="blog-share-action" href="https://twitter.com/intent/tweet?text=${encodedTitle}&amp;url=${encodedUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t('X-এ শেয়ার'))}">
+          <span class="blog-share-icon" aria-hidden="true">X</span>X
+        </a>
+        <a class="blog-share-action" href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(t('LinkedIn-এ শেয়ার'))}">
+          <span class="blog-share-icon" aria-hidden="true">in</span>LinkedIn
+        </a>
+        <button type="button" class="blog-share-action" data-blog-copy-link="${escapeHtml(id)}">
+          <span class="blog-share-icon" aria-hidden="true">⌁</span>${escapeHtml(t('লিংক কপি করুন'))}
+        </button>
+      </div>`;
+  }
+
+  async function copyArticleLink(id) {
+    const shareUrl = articleShareUrl(id);
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(shareUrl);
+      } else {
+        const field = document.createElement('textarea');
+        field.value = shareUrl;
+        field.setAttribute('readonly', '');
+        field.style.position = 'fixed';
+        field.style.opacity = '0';
+        document.body.appendChild(field);
+        field.select();
+        const copied = document.execCommand('copy');
+        field.remove();
+        if (!copied) throw new Error('Copy command was rejected');
+      }
+      if (modalShareStatus) modalShareStatus.textContent = t('লিংক কপি হয়েছে।');
+    } catch {
+      if (modalShareStatus) modalShareStatus.textContent = t('লিংক কপি করা যায়নি।');
+    }
+  }
+
+  async function shareArticle(id) {
+    const article = articlesById.get(id);
+    if (!article) return;
+    const shareData = {
+      title: cleanText(article.title, 220),
+      text: cleanText(article.excerpt || article.title, 280),
+      url: articleShareUrl(id)
+    };
+
+    if (typeof navigator.share !== 'function') {
+      await copyArticleLink(id);
+      return;
+    }
+
+    try {
+      await navigator.share(shareData);
+    } catch (error) {
+      if (error?.name !== 'AbortError' && modalShareStatus) {
+        modalShareStatus.textContent = t('লিংক কপি করা যায়নি।');
+      }
+    }
+  }
+
+  function closeBlogModal({ updateUrl = true } = {}) {
     if (!modal || modal.hidden) return;
 
     modal.hidden = true;
     document.body.classList.remove('blog-modal-open');
+    if (updateUrl) clearArticleUrl();
     if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
       lastFocusedElement.focus();
     }
   }
 
-  function openBlogModal(id) {
-    if (!modal || !modalPanel || !modalImage || !modalMeta || !modalTitle || !modalFacts || !modalBody || !modalSources || !modalCredit) return;
+  function openBlogModal(id, { updateUrl = true, focusShare = false } = {}) {
+    if (!modal || !modalPanel || !modalImage || !modalMeta || !modalTitle || !modalFacts || !modalBody || !modalSources || !modalCredit || !modalShare || !modalShareStatus) return;
 
     const article = articlesById.get(id);
     if (!article) return;
@@ -797,6 +903,9 @@ function initBlog() {
     modalImage.alt = cleanText(article.imageAlt || article.title, 220);
     modalMeta.innerHTML = renderModalMeta(article);
     modalTitle.textContent = cleanText(article.title, 220);
+    modalShare.innerHTML = renderSharePanel(article, id);
+    modalShare.setAttribute('aria-label', t('এই লেখাটি শেয়ার করুন'));
+    modalShareStatus.textContent = '';
     modalFacts.innerHTML = renderArticleFacts(article);
     modalBody.innerHTML = articleParagraphs(article)
       .map((paragraph) => `<p>${escapeHtml(cleanText(paragraph, 1400))}</p>`)
@@ -809,7 +918,9 @@ function initBlog() {
 
     modal.hidden = false;
     document.body.classList.add('blog-modal-open');
+    if (updateUrl) updateArticleUrl(id);
     modalPanel.focus({ preventScroll: true });
+    if (focusShare) modalShare.querySelector('a, button')?.focus({ preventScroll: true });
   }
 
   function trapModalFocus(event) {
@@ -855,10 +966,16 @@ function initBlog() {
           </div>
           <h3>${escapeHtml(cleanText(article.title, 150))}</h3>
           <p>${escapeHtml(cleanText(article.excerpt, 360))}</p>
-          <button type="button" class="blog-link" data-blog-id="${escapeHtml(id)}" aria-label="${escapeHtml(`${t('সম্পূর্ণ লেখা পড়ুন')}: ${cleanText(article.title, 120)}`)}">
-            ${escapeHtml(t('সম্পূর্ণ লেখা পড়ুন'))}
-            <span aria-hidden="true">→</span>
-          </button>
+          <div class="blog-card-actions">
+            <button type="button" class="blog-link" data-blog-id="${escapeHtml(id)}" aria-label="${escapeHtml(`${t('সম্পূর্ণ লেখা পড়ুন')}: ${cleanText(article.title, 120)}`)}">
+              ${escapeHtml(t('সম্পূর্ণ লেখা পড়ুন'))}
+              <span aria-hidden="true">→</span>
+            </button>
+            <button type="button" class="blog-share-trigger" data-blog-share-id="${escapeHtml(id)}" aria-label="${escapeHtml(`${t('শেয়ার করুন')}: ${cleanText(article.title, 120)}`)}">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="m8.6 10.6 6.8-4.2M8.6 13.4l6.8 4.2"></path></svg>
+              ${escapeHtml(t('শেয়ার করুন'))}
+            </button>
+          </div>
         </div>
       </article>
     `;
@@ -866,6 +983,11 @@ function initBlog() {
   }
 
   blogGrid.addEventListener('click', (event) => {
+    const shareTrigger = event.target.closest('[data-blog-share-id]');
+    if (shareTrigger) {
+      openBlogModal(shareTrigger.dataset.blogShareId, { focusShare: true });
+      return;
+    }
     const trigger = event.target.closest('[data-blog-id]');
     if (!trigger) return;
     openBlogModal(trigger.dataset.blogId);
@@ -875,7 +997,12 @@ function initBlog() {
     modal.addEventListener('click', (event) => {
       if (event.target.closest('[data-close-blog-modal]')) {
         closeBlogModal();
+        return;
       }
+      const nativeShare = event.target.closest('[data-blog-native-share]');
+      if (nativeShare) shareArticle(nativeShare.dataset.blogNativeShare);
+      const copyLink = event.target.closest('[data-blog-copy-link]');
+      if (copyLink) copyArticleLink(copyLink.dataset.blogCopyLink);
     });
   }
 
@@ -887,10 +1014,18 @@ function initBlog() {
   rawArticles = fallbackArticles;
   renderArticles(rawArticles);
 
+  const requestedArticleId = new URL(window.location.href).searchParams.get('blog') || '';
+  if (requestedArticleId && articlesById.has(requestedArticleId)) {
+    openBlogModal(requestedArticleId, { updateUrl: false });
+  }
+
   loadContentJson('data/blog-posts.json')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);
+      if (requestedArticleId && articlesById.has(requestedArticleId)) {
+        openBlogModal(requestedArticleId, { updateUrl: false });
+      }
     })
     .catch(() => {
       // Keep fallback cards if the data file cannot be loaded.
@@ -900,7 +1035,7 @@ function initBlog() {
     const previousFocus = lastFocusedElement;
     renderArticles(rawArticles);
     if (reopenId) {
-      openBlogModal(reopenId);
+      openBlogModal(reopenId, { updateUrl: false });
       lastFocusedElement = previousFocus;
     }
   });

@@ -1826,6 +1826,45 @@
       transform: translateX(2px);
     }
 
+    .blog-card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: auto;
+    }
+
+    .blog-share-trigger {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 38px;
+      padding: 7px 10px;
+      border: 1px solid rgba(13,97,48,.14);
+      border-radius: 999px;
+      background: var(--green-50);
+      color: var(--green-700);
+      cursor: pointer;
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 600;
+      transition: transform .2s var(--ease-out), border-color .2s, background .2s;
+    }
+
+    .blog-share-trigger:hover {
+      transform: translateY(-1px);
+      border-color: rgba(13,97,48,.3);
+      background: var(--green-100);
+    }
+
+    .blog-share-trigger svg {
+      width: 15px;
+      height: 15px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+
     .blog-cta-row {
       display: flex;
       justify-content: space-between;
@@ -1934,6 +1973,87 @@
       flex-wrap: wrap;
       gap: 8px;
       align-items: center;
+    }
+
+    .blog-share-panel {
+      margin: 18px 0 4px;
+      padding: 16px;
+      border-radius: 17px;
+      border: 1px solid rgba(13,97,48,.12);
+      background: linear-gradient(135deg, var(--green-50), rgba(255,255,255,.96));
+    }
+
+    .blog-share-label {
+      display: block;
+      margin-bottom: 11px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--green-700);
+    }
+
+    .blog-share-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .blog-share-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 40px;
+      padding: 8px 12px;
+      border: 1px solid rgba(13,97,48,.14);
+      border-radius: 12px;
+      background: #fff;
+      color: var(--ink-700);
+      cursor: pointer;
+      font-family: var(--font-ui);
+      font-size: .82rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .2s var(--ease-out), border-color .2s, box-shadow .2s, color .2s;
+    }
+
+    .blog-share-action:hover {
+      transform: translateY(-1px);
+      border-color: rgba(13,97,48,.28);
+      box-shadow: var(--shadow-xs);
+      color: var(--green-700);
+    }
+
+    .blog-share-icon {
+      display: grid;
+      place-items: center;
+      min-width: 22px;
+      height: 22px;
+      padding: 0 4px;
+      border-radius: 7px;
+      background: var(--green-100);
+      color: var(--green-800);
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .blog-share-native {
+      background: var(--green-700);
+      border-color: var(--green-700);
+      color: #fff;
+    }
+
+    .blog-share-native:hover { color: #fff; background: var(--green-600); }
+
+    .blog-share-status {
+      min-height: 18px;
+      margin: 9px 0 0;
+      font-family: var(--font-ui);
+      font-size: .78rem;
+      color: var(--green-700);
     }
 
     .blog-modal-body {
@@ -3148,6 +3268,8 @@
       .blog-modal-content h3 { font-size: 1.7rem; }
       .blog-modal-body p { font-size: .96rem; line-height: 1.82; }
       .blog-data-list { grid-template-columns: 1fr; }
+      .blog-share-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .blog-share-action { width: 100%; }
       .announcement-section { padding-top: 20px; }
       .announcement-shell { grid-template-columns: 1fr; border-radius: 22px; }
       .announcement-media { min-height: 0; aspect-ratio: 4 / 5; }
@@ -3773,6 +3895,8 @@
       <div class="blog-modal-content">
         <div class="blog-modal-meta" id="blogModalMeta"></div>
         <h3 id="blogModalTitle"></h3>
+        <div class="blog-share-panel" id="blogModalShare" aria-label="এই লেখাটি শেয়ার করুন"></div>
+        <p class="blog-share-status" id="blogShareStatus" aria-live="polite"></p>
         <div class="blog-data-list" id="blogModalFacts"></div>
         <div class="blog-modal-body" id="blogModalBody"></div>
         <div class="blog-sources" id="blogModalSources"></div>

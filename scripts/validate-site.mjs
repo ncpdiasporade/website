@@ -32,6 +32,18 @@ if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: 
 if (!html.includes('<script src="js/site.js" defer></script>')) {
   errors.push('index.html: missing deferred site interaction script');
 }
+if (!markup.includes('id="blogModalShare"')) {
+  errors.push('index.html: missing Blog share panel');
+}
+for (const shareContract of [
+  'articleShareUrl',
+  'facebook.com/sharer/sharer.php',
+  'wa.me/?text=',
+  'twitter.com/intent/tweet',
+  'linkedin.com/sharing/share-offsite'
+]) {
+  if (!siteScript.includes(shareContract)) errors.push(`js/site.js: missing Blog share contract ${shareContract}`);
+}
 if (!siteScript.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
   errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
 }
