@@ -983,10 +983,17 @@ function initBlog() {
     modalFacts.innerHTML = renderArticleFacts(article);
     modalBody.innerHTML = renderArticleContent(article);
     modalSources.innerHTML = renderArticleSources(article);
-    modalCredit.textContent = cleanText(
+    const imageCredit = cleanText(
       article.imageCredit || 'Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.',
-      240
+      360
     );
+    const imageSourceUrl = safeHref(article.imageSourceUrl);
+    modalCredit.innerHTML = `
+      <span>${escapeHtml(imageCredit)}</span>
+      ${imageSourceUrl !== '#'
+        ? `<a href="${imageSourceUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('ছবির উৎস'))} ↗</a>`
+        : ''}
+    `;
 
     modal.hidden = false;
     document.body.classList.add('blog-modal-open');
@@ -1113,7 +1120,7 @@ function initBlog() {
     openBlogModal(requestedArticleId, { updateUrl: false });
   }
 
-  loadContentJson('data/blog-posts.json?v=20260729-blog-9')
+  loadContentJson('data/blog-posts.json?v=20260729-real-photos')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);

@@ -9,15 +9,16 @@
       "date": "২৯ জুলাই ২০২৬",
       "title": "সিলিকন বিপ্লবের অপেক্ষায় বাংলাদেশ: এক বিলিয়ন ডলারের লক্ষ্য, বাস্তবতার পাঁচ পরীক্ষা",
       "excerpt": "বাংলাদেশের সেমিকন্ডাক্টর রপ্তানি এখনো ছোট, কিন্তু ডিজাইন, ভেরিফিকেশন, টেস্টিং ও প্যাকেজিংয়ে বাস্তব ভিত্তি তৈরি হয়েছে। ২০৩০ সালের এক বিলিয়ন ডলারের লক্ষ্য অর্জনে এখন ঘোষণা নয়—দক্ষতা, অবকাঠামো ও পরিমাপযোগ্য বাস্তবায়ন জরুরি।",
-      "image": "img/blog/semiconductor-bangladesh.svg",
+      "image": "img/blog/photos/semiconductor-wafer-research.jpg",
       "sharePath": "blog/bangladesh-semiconductor-opportunity-execution",
-      "shareImage": "img/blog/semiconductor-bangladesh-share.jpg",
+      "shareImage": "img/blog/photos/semiconductor-wafer-share.jpg",
       "shareImageWidth": 1200,
       "shareImageHeight": 628,
       "publishedAt": "2026-07-29T19:45:00+02:00",
-      "imageAlt": "মাইক্রোচিপ, সার্কিটপথ ও বাংলাদেশের উদীয়মান জ্ঞানভিত্তিক অর্থনীতির সম্পাদকীয় চিত্র",
-      "imageCredit": "NCP Diaspora Alliance Germany-এর জন্য প্রস্তুত মৌলিক সম্পাদকীয় ইলাস্ট্রেশন।",
-      "license": "Original copyright-free editorial illustration prepared for NCP Diaspora Alliance Germany.",
+      "imageAlt": "সেমিকন্ডাক্টর cleanroom-এ silicon wafer হাতে একজন প্রযুক্তিকর্মী",
+      "imageCredit": "Silicon wafer হাতে cleanroom প্রযুক্তিকর্মী। ছবি: U.S. Department of Energy; Public Domain, Wikimedia Commons.",
+      "license": "Public Domain — U.S. Department of Energy; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg",
       "translations": {
         "en": {
           "tag": "Technology & economy",
@@ -25,8 +26,8 @@
           "date": "29 July 2026",
           "title": "Bangladesh awaits a silicon revolution: a billion-dollar goal and five tests of reality",
           "excerpt": "Bangladesh's semiconductor exports remain small, but a real base is emerging in design, verification, testing and packaging. Reaching the one-billion-dollar target by 2030 now requires skills, infrastructure and measurable execution—not more announcements.",
-          "imageAlt": "Editorial illustration of a microchip, circuit pathways and Bangladesh's emerging knowledge economy",
-          "imageCredit": "Original editorial illustration prepared for NCP Diaspora Alliance Germany.",
+          "imageAlt": "A cleanroom technician holding a silicon wafer in a semiconductor facility",
+          "imageCredit": "Cleanroom technician holding a silicon wafer. Photo: U.S. Department of Energy; Public Domain, Wikimedia Commons.",
           "facts": [
             {
               "value": "$1.5 trillion",
@@ -178,8 +179,8 @@
           "date": "29. Juli 2026",
           "title": "Bangladesch wartet auf die Siliziumrevolution: ein Milliarden-Ziel und fünf Realitätstests",
           "excerpt": "Bangladeschs Halbleiterexporte sind noch klein, doch in Design, Verifikation, Test und Packaging entsteht eine reale Basis. Für das Milliardenziel bis 2030 braucht es jetzt Kompetenzen, Infrastruktur und messbare Umsetzung statt weiterer Ankündigungen.",
-          "imageAlt": "Redaktionelle Illustration eines Mikrochips, von Leiterbahnen und Bangladeschs entstehender wissensbasierter Wirtschaft",
-          "imageCredit": "Originale redaktionelle Illustration für die NCP Diaspora Alliance Germany.",
+          "imageAlt": "Eine Reinraumfachkraft hält einen Siliziumwafer in einer Halbleiteranlage",
+          "imageCredit": "Reinraumfachkraft mit Siliziumwafer. Foto: U.S. Department of Energy; Public Domain, Wikimedia Commons.",
           "facts": [
             {
               "value": "1,5 Bio. USD",
@@ -480,15 +481,16 @@
       "date": "২৯ জুলাই ২০২৬",
       "title": "এক স্বৈরাচারের বিদায়ের পর আরেক আধিপত্য নয়: সরকার ও এনসিপির কঠিন রাজনৈতিক পরীক্ষা",
       "excerpt": "জুলাইয়ের লক্ষ্য শুধু শাসক বদল ছিল না; ছিল ক্ষমতাকে জবাবদিহির অধীনে আনা। রাজনৈতিক সহিংসতার সাম্প্রতিক তথ্য, এনসিপির কর্মসূচিতে হামলা এবং সংস্কার থেকে সরে আসার অভিযোগ এখন সরকার ও বিরোধী রাজনীতি—উভয়কেই কঠিন পরীক্ষার সামনে দাঁড় করিয়েছে।",
-      "image": "img/blog/democratic-test.svg",
+      "image": "img/blog/photos/july-uprising-shaheed-minar.jpg",
       "sharePath": "blog/no-new-dominance-ncp-political-test",
-      "shareImage": "img/blog/democratic-test-share.jpg",
+      "shareImage": "img/blog/photos/july-uprising-share.jpg",
       "shareImageWidth": 1200,
       "shareImageHeight": 628,
       "publishedAt": "2026-07-29T01:00:00+02:00",
-      "imageAlt": "নাগরিক, জবাবদিহিমূলক প্রতিষ্ঠান ও আধিপত্যমুক্ত গণতান্ত্রিক পথের সম্পাদকীয় চিত্র",
-      "imageCredit": "NCP Diaspora Alliance Germany-এর জন্য প্রস্তুত মৌলিক সম্পাদকীয় ইলাস্ট্রেশন।",
-      "license": "Original copyright-free editorial illustration prepared for NCP Diaspora Alliance Germany.",
+      "imageAlt": "২ আগস্ট ২০২৪ ঢাকার কেন্দ্রীয় শহীদ মিনারে জুলাই আন্দোলনের সমাবেশ",
+      "imageCredit": "কেন্দ্রীয় শহীদ মিনারে জুলাই আন্দোলনের সমাবেশ, ২ আগস্ট ২০২৪। ছবি: Nahidhasan027; CC BY-SA 4.0, Wikimedia Commons; ওয়েবের জন্য crop করা।",
+      "license": "CC BY-SA 4.0 — Nahidhasan027; cropped for web presentation; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Protest_in_Bangladesh_07.jpg",
       "translations": {
         "en": {
           "tag": "Politics & accountability",
@@ -496,8 +498,8 @@
           "date": "29 July 2026",
           "title": "After one autocrat, no new domination: the hard political test for the government and NCP",
           "excerpt": "July was not only about changing rulers; it was about placing power under public accountability. Recent data on political violence, attacks on NCP programmes and concerns over reform backsliding now test both the government and the opposition.",
-          "imageAlt": "Editorial illustration of citizens, accountable institutions and a democratic path free from political domination",
-          "imageCredit": "Original editorial illustration prepared for NCP Diaspora Alliance Germany.",
+          "imageAlt": "A July Uprising gathering at Central Shaheed Minar in Dhaka on 2 August 2024",
+          "imageCredit": "July Uprising gathering at Central Shaheed Minar, 2 August 2024. Photo: Nahidhasan027; CC BY-SA 4.0, Wikimedia Commons; cropped for web presentation.",
           "facts": [
             {
               "value": "610 incidents",
@@ -637,8 +639,8 @@
           "date": "29. Juli 2026",
           "title": "Nach einem Autokraten keine neue Vorherrschaft: die schwierige politische Prüfung für Regierung und NCP",
           "excerpt": "Im Juli ging es nicht nur um einen Wechsel der Regierenden, sondern darum, Macht öffentlicher Rechenschaft zu unterwerfen. Aktuelle Daten zu politischer Gewalt, Angriffe auf NCP-Veranstaltungen und Sorgen über Reformrückschritte prüfen nun Regierung und Opposition gleichermaßen.",
-          "imageAlt": "Redaktionelle Illustration von Bürgerinnen und Bürgern, rechenschaftspflichtigen Institutionen und einem demokratischen Weg ohne politische Vorherrschaft",
-          "imageCredit": "Originale redaktionelle Illustration für die NCP Diaspora Alliance Germany.",
+          "imageAlt": "Versammlung des Juli-Aufstands am Zentralen Shaheed Minar in Dhaka am 2. August 2024",
+          "imageCredit": "Versammlung des Juli-Aufstands am Zentralen Shaheed Minar, 2. August 2024. Foto: Nahidhasan027; CC BY-SA 4.0, Wikimedia Commons; für die Webdarstellung zugeschnitten.",
           "facts": [
             {
               "value": "610 Vorfälle",
@@ -917,13 +919,14 @@
       "excerpt": "প্রস্তাবিত গুম প্রতিরোধ আইনে কঠোর শাস্তির কথা আছে। কিন্তু অভিযোগ গ্রহণ, প্রমাণ সংরক্ষণ ও তদন্তের দায়িত্ব অভিযুক্ত হতে পারে—এমন প্রতিষ্ঠানের হাতে থাকলে জবাবদিহি কতটা নিশ্চিত হবে?",
       "image": "img/blog/enforced-disappearance/commission-members.jpg",
       "sharePath": "blog/enforced-disappearance-investigation-independence",
-      "shareImage": "img/blog/enforced-disappearance/share-preview.jpg",
+      "shareImage": "img/blog/photos/commission-members-share.jpg",
       "shareImageWidth": 1200,
       "shareImageHeight": 628,
       "publishedAt": "2026-07-29T00:00:00+02:00",
       "imageAlt": "বাংলাদেশে গুম সংক্রান্ত তদন্ত কমিশনের সদস্যরা",
       "imageCredit": "গুম সংক্রান্ত তদন্ত কমিশনের সদস্যরা, ১৯ জানুয়ারি ২০২৫। ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain via Wikimedia Commons.",
       "license": "Public Domain — Press Information Department, Government of Bangladesh; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Members_of_Commission_of_Inquiry_on_Enforced_Disappearances_(Bangladesh).jpg",
       "translations": {
         "en": {
           "tag": "Human rights and accountability",
@@ -1873,10 +1876,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "শেষ নির্বাচনে প্রবাসী ভোট: সংখ্যাগুলো কী বলছে",
       "excerpt": "২০২৬ সালের নির্বাচনে পোস্টাল ব্যালট প্রথমবারের মতো প্রবাসী ভোটকে দৃশ্যমান করেছে। নিবন্ধন, ব্যালট ফেরত ও গণনার ডেটা দেখায়—প্রবাসী ভোট এখন বাস্তব রাজনৈতিক শক্তি।",
-      "image": "img/blog/voting-rights.svg",
-      "imageAlt": "প্রবাসী ভোটের ব্যালট, সংযোগ ও ডেটা প্রবাহের মৌলিক ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/postal-ballot-envelope.png",
+      "sharePath": "blog/diaspora-vote-2026-data",
+      "shareImage": "img/blog/photos/postal-ballot-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "২০২৬ সালের বাংলাদেশ জাতীয় নির্বাচন ও গণভোটের অফিসিয়াল postal ballot receiving envelope",
+      "imageCredit": "২০২৬ সালের জাতীয় নির্বাচন ও গণভোটের postal ballot receiving envelope-এর নমুনা। উৎস: বাংলাদেশ নির্বাচন কমিশন; Public Domain, Wikimedia Commons.",
+      "license": "Public Domain — Bangladesh Election Commission; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Bangladeshi_general_election_and_referendum_postal_ballot_receiving_envelope.png",
+      "translations": {
+        "en": {
+          "tag": "Diaspora vote",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "Diaspora voting in the last election: what the numbers tell us",
+          "excerpt": "Postal ballots made the diaspora vote visible for the first time in the 2026 election. Data on registration, returned ballots and counting show that diaspora voting is now a tangible political force.",
+          "imageAlt": "Official postal-ballot receiving envelope for Bangladesh's 2026 parliamentary election and referendum",
+          "imageCredit": "Specimen postal-ballot receiving envelope for the 2026 parliamentary election and referendum. Source: Bangladesh Election Commission; Public Domain, Wikimedia Commons."
+        },
+        "de": {
+          "tag": "Diaspora-Wahl",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Diaspora-Stimmen bei der letzten Wahl: Was die Zahlen zeigen",
+          "excerpt": "Briefwahlstimmen machten die Diaspora-Wahl bei der Wahl 2026 erstmals sichtbar. Daten zu Registrierung, Rücksendung und Auszählung zeigen: Diaspora-Stimmen sind inzwischen eine reale politische Kraft.",
+          "imageAlt": "Offizieller Rückumschlag für die Briefwahl zur Parlamentswahl und zum Referendum 2026 in Bangladesch",
+          "imageCredit": "Muster des Rückumschlags für die Briefwahl zur Parlamentswahl und zum Referendum 2026. Quelle: Wahlkommission von Bangladesch; Public Domain, Wikimedia Commons."
+        }
+      },
       "facts": [
         {
           "value": "544,380",
@@ -1930,10 +1959,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "প্রবাসী ভোট কীভাবে নির্বাচনের সমীকরণ বদলাতে পারে",
       "excerpt": "প্রবাসী ভোট শুধু প্রতীকী নয়। ২০২৬ সালের কিছু আসনে পোস্টাল ভোটের ব্যবধান বিজয়-পরাজয়ের ব্যবধানের চেয়েও বড় ছিল।",
-      "image": "img/blog/diaspora-voice.svg",
-      "imageAlt": "প্রবাসী কণ্ঠস্বর ও ভোটের প্রভাব বোঝানো মৌলিক ডেটা ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/voters-queue-2026.jpg",
+      "sharePath": "blog/diaspora-vote-election-equation",
+      "shareImage": "img/blog/photos/voters-queue-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "২০২৬ সালের জাতীয় নির্বাচন ও গণভোটে ঢাকার একটি ভোটকেন্দ্রে অপেক্ষমাণ ভোটাররা",
+      "imageCredit": "জাতীয় নির্বাচন ও গণভোটে ভোটকেন্দ্রে অপেক্ষমাণ ভোটার, ঢাকা, ১২ ফেব্রুয়ারি ২০২৬। ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain, Wikimedia Commons.",
+      "license": "Public Domain — Press Information Department, Government of Bangladesh; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Queues_of_voters_at_polling_station,_capital_city,_Thirteenth_National_Parliament_Election_and_2026_Referendum_2026-02-12.jpg",
+      "translations": {
+        "en": {
+          "tag": "Electoral dynamics",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "How diaspora votes can change electoral outcomes",
+          "excerpt": "Diaspora voting is more than symbolic. In several constituencies in 2026, the postal-vote margin was larger than the margin between victory and defeat.",
+          "imageAlt": "Voters waiting at a polling station in Dhaka during Bangladesh's 2026 parliamentary election and referendum",
+          "imageCredit": "Voters waiting at a polling station in Dhaka, 12 February 2026. Photo: Press Information Department, Bangladesh; Public Domain, Wikimedia Commons."
+        },
+        "de": {
+          "tag": "Wahldynamik",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Wie Diaspora-Stimmen Wahlergebnisse verändern können",
+          "excerpt": "Diaspora-Stimmen sind mehr als ein Symbol. In mehreren Wahlkreisen war der Abstand bei den Briefwahlstimmen 2026 größer als der Abstand zwischen Sieg und Niederlage.",
+          "imageAlt": "Wählende warten während der Parlamentswahl und des Referendums 2026 in Bangladesch in einem Wahllokal in Dhaka",
+          "imageCredit": "Wählende in einem Wahllokal in Dhaka, 12. Februar 2026. Foto: Press Information Department, Bangladesch; Public Domain, Wikimedia Commons."
+        }
+      },
       "facts": [
         {
           "value": "385",
@@ -1979,10 +2034,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "জার্মানি প্রবাসীরা বাংলাদেশের কোন খাতে বাস্তব অবদান রাখতে পারেন",
       "excerpt": "রেমিট্যান্সের বাইরে জার্মানি প্রবাসীদের বড় শক্তি হলো দক্ষতা, নেটওয়ার্ক, প্রযুক্তি, পেশাগত মান ও প্রতিষ্ঠান গঠনের অভিজ্ঞতা।",
-      "image": "img/blog/diaspora-leadership.svg",
-      "imageAlt": "জার্মানি ও বাংলাদেশকে জ্ঞান, দক্ষতা ও নেতৃত্বের সেতুতে যুক্ত করা মৌলিক ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/berlin-brandenburg-gate.jpg",
+      "sharePath": "blog/german-diaspora-contribution-sectors",
+      "shareImage": "img/blog/photos/berlin-gate-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "রাতে আলোকিত বার্লিনের Brandenburg Gate ও আশপাশের মানুষ",
+      "imageCredit": "রাতে Brandenburg Gate, Berlin। ছবি: Olad Aden; CC BY-SA 4.0, Wikimedia Commons; ওয়েবের জন্য crop করা।",
+      "license": "CC BY-SA 4.0 — Olad Aden; cropped for web presentation; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Brandenburg_gate_@_night.jpg",
+      "translations": {
+        "en": {
+          "tag": "Germany diaspora",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "Where Bangladeshis in Germany can make a practical contribution",
+          "excerpt": "Beyond remittances, the greatest strengths of Bangladeshis in Germany are their skills, networks, technology, professional standards and experience of building institutions.",
+          "imageAlt": "The Brandenburg Gate illuminated at night in Berlin",
+          "imageCredit": "Brandenburg Gate at night, Berlin. Photo: Olad Aden; CC BY-SA 4.0, Wikimedia Commons; cropped for web presentation."
+        },
+        "de": {
+          "tag": "Diaspora in Deutschland",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Wo Bangladescherinnen und Bangladescher in Deutschland konkret beitragen können",
+          "excerpt": "Über Rücküberweisungen hinaus liegen die größten Stärken der Diaspora in Deutschland in Kompetenzen, Netzwerken, Technologie, beruflichen Standards und Erfahrung im Aufbau von Institutionen.",
+          "imageAlt": "Das beleuchtete Brandenburger Tor bei Nacht in Berlin",
+          "imageCredit": "Brandenburger Tor bei Nacht, Berlin. Foto: Olad Aden; CC BY-SA 4.0, Wikimedia Commons; für die Webdarstellung zugeschnitten."
+        }
+      },
       "facts": [
         {
           "value": "14.07M",
@@ -2032,10 +2113,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "বাংলাদেশ থেকে জার্মানি: পড়াশোনা, কাজ ও দক্ষ অভিবাসনের বৈধ পথ",
       "excerpt": "জার্মানিতে আসার পথ আছে, কিন্তু প্রতিটি পথের শর্ত আলাদা। শিক্ষার্থী, দক্ষ কর্মী, Blue Card, Opportunity Card ও vocational training—সব ক্ষেত্রেই অফিসিয়াল নির্দেশনা অনুসরণ জরুরি।",
-      "image": "img/blog/brain-gain.svg",
-      "imageAlt": "বাংলাদেশ থেকে জার্মানিতে দক্ষতা, শিক্ষা ও কর্মপথের মৌলিক ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/tu-berlin-campus.jpg",
+      "sharePath": "blog/bangladesh-to-germany-legal-pathways",
+      "shareImage": "img/blog/photos/tu-berlin-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "বার্লিনের Technische Universität-এর প্রধান campus এলাকা",
+      "imageCredit": "Technische Universität Berlin campus, ১৮ জুলাই ২০২০। ছবি: Tomasz Sienicki; CC BY 4.0, Wikimedia Commons; ওয়েবের জন্য crop করা।",
+      "license": "CC BY 4.0 — Tomasz Sienicki; cropped for web presentation; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Technische_Universit%C3%A4t_Berlin_2020_07_18_(ubt).jpg",
+      "translations": {
+        "en": {
+          "tag": "Pathways to Germany",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "Bangladesh to Germany: legal pathways for study, work and skilled migration",
+          "excerpt": "There are several pathways to Germany, each with different requirements. Whether for students, skilled workers, the EU Blue Card, the Opportunity Card or vocational training, official guidance is essential.",
+          "imageAlt": "The main campus area of Technische Universität Berlin",
+          "imageCredit": "Technische Universität Berlin campus, 18 July 2020. Photo: Tomasz Sienicki; CC BY 4.0, Wikimedia Commons; cropped for web presentation."
+        },
+        "de": {
+          "tag": "Wege nach Deutschland",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Von Bangladesch nach Deutschland: legale Wege für Studium, Arbeit und Fachkräfteeinwanderung",
+          "excerpt": "Es gibt mehrere Wege nach Deutschland, jeweils mit eigenen Voraussetzungen. Ob Studium, Fachkräfteeinwanderung, EU Blue Card, Chancenkarte oder Ausbildung: Offizielle Hinweise sind entscheidend.",
+          "imageAlt": "Der Hauptcampus der Technischen Universität Berlin",
+          "imageCredit": "Campus der Technischen Universität Berlin, 18. Juli 2020. Foto: Tomasz Sienicki; CC BY 4.0, Wikimedia Commons; für die Webdarstellung zugeschnitten."
+        }
+      },
       "facts": [
         {
           "value": "4 weeks",
@@ -2089,10 +2196,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "রেমিট্যান্স থেকে বিনিয়োগ: প্রবাসী অর্থনীতির ডেটা-চিত্র",
       "excerpt": "রেমিট্যান্স বাংলাদেশের অর্থনীতির বড় শক্তি। কিন্তু দীর্ঘমেয়াদি প্রভাবের জন্য প্রবাসী অর্থকে দক্ষতা, উদ্যোগ, প্রযুক্তি ও উৎপাদনশীল বিনিয়োগের সঙ্গে যুক্ত করতে হবে।",
-      "image": "img/blog/investment-impact.svg",
-      "imageAlt": "রেমিট্যান্স থেকে বিনিয়োগে রূপান্তরের চার্টধর্মী মৌলিক ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/chattogram-port.jpg",
+      "sharePath": "blog/remittance-to-investment-dashboard",
+      "shareImage": "img/blog/photos/chattogram-port-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "রাতে জাহাজ, crane ও আলোসহ চট্টগ্রাম বন্দরের কার্যক্রম",
+      "imageCredit": "রাতে চট্টগ্রাম বন্দর। ছবি: Ashfaque Faruquee; CC BY-SA 4.0, Wikimedia Commons; ওয়েবের জন্য crop করা।",
+      "license": "CC BY-SA 4.0 — Ashfaque Faruquee; cropped for web presentation; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chittagong_Port.jpg",
+      "translations": {
+        "en": {
+          "tag": "Remittances & investment",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "From remittances to investment: a data view of the diaspora economy",
+          "excerpt": "Remittances are a major strength of Bangladesh’s economy. For lasting impact, diaspora capital must be connected with skills, entrepreneurship, technology and productive investment.",
+          "imageAlt": "Ships, cranes and port operations at Chattogram Port at night",
+          "imageCredit": "Chattogram Port at night. Photo: Ashfaque Faruquee; CC BY-SA 4.0, Wikimedia Commons; cropped for web presentation."
+        },
+        "de": {
+          "tag": "Rücküberweisungen & Investitionen",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Von Rücküberweisungen zu Investitionen: Daten zur Diaspora-Ökonomie",
+          "excerpt": "Rücküberweisungen sind eine große Stärke der bangladeschischen Wirtschaft. Für langfristige Wirkung muss Diaspora-Kapital mit Qualifikationen, Unternehmertum, Technologie und produktiven Investitionen verbunden werden.",
+          "imageAlt": "Schiffe, Kräne und Hafenbetrieb im Hafen von Chattogram bei Nacht",
+          "imageCredit": "Hafen von Chattogram bei Nacht. Foto: Ashfaque Faruquee; CC BY-SA 4.0, Wikimedia Commons; für die Webdarstellung zugeschnitten."
+        }
+      },
       "facts": [
         {
           "value": "$33.88B",
@@ -2142,10 +2275,36 @@
       "date": "১৪ জুলাই ২০২৬",
       "title": "জার্মানি–বাংলাদেশ স্কিল করিডর: ভাষা, স্বীকৃতি ও কর্মদক্ষতার রোডম্যাপ",
       "excerpt": "জার্মানির skilled immigration framework বাংলাদেশের তরুণদের জন্য সুযোগ তৈরি করছে, কিন্তু ভাষা, qualification recognition ও বাস্তব দক্ষতা ছাড়া সেই সুযোগ কাজে লাগানো কঠিন।",
-      "image": "img/blog/july-uprising.svg",
-      "imageAlt": "বাংলাদেশ থেকে জার্মানিতে দক্ষতা করিডর বোঝানো মৌলিক ইলাস্ট্রেশন",
-      "imageCredit": "Original copyright-free illustration prepared for NCP Diaspora Alliance Germany.",
-      "license": "Original editorial copy and illustration prepared for NCP Diaspora Alliance Germany.",
+      "image": "img/blog/photos/dual-vocational-training-germany.jpg",
+      "sharePath": "blog/germany-bangladesh-skills-corridor",
+      "shareImage": "img/blog/photos/dual-vocational-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-14T12:00:00+02:00",
+      "imageAlt": "জার্মানির Ansbach-এ dual vocational training শুরু করা দুই তরুণ apprentice",
+      "imageCredit": "Dual vocational training-এর দুই apprentice, Ansbach, Germany, ১ সেপ্টেম্বর ২০২২। ছবি: Dani Johnson/U.S. Army Garrison Ansbach; Public Domain, Wikimedia Commons.",
+      "license": "Public Domain — Dani Johnson, U.S. Army Garrison Ansbach; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USAG_Ansbach_welcomes_first-ever_host-nation_apprentices_(7399518).jpg",
+      "translations": {
+        "en": {
+          "tag": "Skills corridor",
+          "author": "Data desk",
+          "date": "14 July 2026",
+          "title": "Germany–Bangladesh skills corridor: a roadmap for language, recognition and employability",
+          "excerpt": "Germany’s skilled-immigration framework creates opportunities for young people from Bangladesh, but those opportunities are difficult to realise without language skills, qualification recognition and practical competence.",
+          "imageAlt": "Two young apprentices beginning dual vocational training in Ansbach, Germany",
+          "imageCredit": "Two apprentices in a dual vocational-training programme, Ansbach, Germany, 1 September 2022. Photo: Dani Johnson/U.S. Army Garrison Ansbach; Public Domain, Wikimedia Commons."
+        },
+        "de": {
+          "tag": "Qualifikationskorridor",
+          "author": "Datenredaktion",
+          "date": "14. Juli 2026",
+          "title": "Deutschland–Bangladesch-Qualifikationskorridor: Fahrplan für Sprache, Anerkennung und Beschäftigungsfähigkeit",
+          "excerpt": "Deutschlands Fachkräfteeinwanderungsrecht eröffnet jungen Menschen aus Bangladesch Chancen. Ohne Sprachkenntnisse, Anerkennung von Qualifikationen und praktische Kompetenzen lassen sie sich jedoch schwer nutzen.",
+          "imageAlt": "Zwei junge Auszubildende beginnen eine duale Berufsausbildung in Ansbach",
+          "imageCredit": "Zwei Auszubildende in einem dualen Ausbildungsprogramm, Ansbach, 1. September 2022. Foto: Dani Johnson/U.S. Army Garrison Ansbach; Public Domain, Wikimedia Commons."
+        }
+      },
       "facts": [
         {
           "value": "A2+",

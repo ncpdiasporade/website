@@ -29,7 +29,7 @@ for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'upda
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260729-blog-9" defer></script>')) {
+if (!html.includes('<script src="js/site.js?v=20260729-real-photos" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
@@ -83,6 +83,20 @@ for (const relativePath of ['data/recent-updates.json', 'data/announcements.json
 
 const blogData = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/blog-posts.json'), 'utf8'));
 for (const article of blogData.items || []) {
+  if (!article.imageAlt || !article.imageCredit || !article.license || !article.imageSourceUrl) {
+    errors.push(`data/blog-posts.json: ${article.id || '(missing id)'} must include imageAlt, imageCredit, license and imageSourceUrl`);
+  }
+  try {
+    const sourceUrl = new URL(article.imageSourceUrl);
+    if (sourceUrl.protocol !== 'https:') throw new Error('Photo source must use HTTPS');
+  } catch {
+    errors.push(`data/blog-posts.json: ${article.id || '(missing id)'} has an invalid imageSourceUrl`);
+  }
+  for (const language of ['en', 'de']) {
+    if (!article.translations?.[language]?.imageAlt || !article.translations?.[language]?.imageCredit) {
+      errors.push(`data/blog-posts.json: ${article.id || '(missing id)'} is missing ${language} photo alt text or credit`);
+    }
+  }
   if (!article.sharePath) continue;
   for (const suffix of ['', 'en', 'de']) {
     const previewPath = path.join(rootDir, article.sharePath, suffix, 'index.html');
