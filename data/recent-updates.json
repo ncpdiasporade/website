@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-07-29T12:22:00.432Z",
+  "updatedAt": "2026-07-29T15:20:34.999Z",
   "items": [
+    {
+      "id": "facebook-germany-122197465454921031",
+      "facebookId": "122197465454921031",
+      "status": "published",
+      "date": "২৯ জুলাই, ২০২৬",
+      "createdAt": "2026-07-29T14:42:18+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "বাহ, পুলিশ!",
+      "excerpt": "সন্ত্রাসের পাহারাদার! Hasnat Abdullah",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197465454921031",
+      "mediaType": "text",
+      "isReel": false,
+      "featured": false,
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122197355090921031",
       "facebookId": "122197355090921031",
