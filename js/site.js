@@ -596,6 +596,8 @@ function initBlog() {
   const blogGrid = $('#blogGrid');
   if (!blogGrid) return;
 
+  const blogMore = $('#blogMore');
+  const blogMoreLabel = $('#blogMoreLabel');
   const modal = $('#blogModal');
   const modalPanel = modal ? $('.blog-modal-panel', modal) : null;
   const modalImage = $('#blogModalImage');
@@ -612,6 +614,8 @@ function initBlog() {
   let rawArticles = [];
   let activeArticleId = '';
   let lastFocusedElement = null;
+  let showingAllArticles = false;
+  const mobileBlogQuery = window.matchMedia('(max-width: 680px)');
 
   const fallbackArticles = [
     {
@@ -1015,8 +1019,19 @@ function initBlog() {
     if (!published.length) return;
 
     articlesById = new Map(published.map((article, index) => [articleId(article, index), localizeArticle(article)]));
+    const initialLimit = mobileBlogQuery.matches ? 4 : 8;
+    const visibleArticles = showingAllArticles ? published : published.slice(0, initialLimit);
 
-    blogGrid.innerHTML = published.map((sourceArticle, index) => {
+    if (blogMore) {
+      const hasHiddenArticles = published.length > visibleArticles.length;
+      blogMore.hidden = !hasHiddenArticles;
+      blogMore.setAttribute('aria-expanded', String(showingAllArticles));
+      blogMore.setAttribute('aria-label', t('সব ব্লগ দেখুন'));
+      if (blogMoreLabel) blogMoreLabel.textContent = t('আরও দেখুন');
+    }
+
+    blogGrid.innerHTML = visibleArticles.map((sourceArticle) => {
+      const index = published.indexOf(sourceArticle);
       const id = articleId(sourceArticle, index);
       const article = localizeArticle(sourceArticle);
       const image = safeImageSrc(article.image, defaultImage);
@@ -1049,6 +1064,17 @@ function initBlog() {
     `;
     }).join('');
   }
+
+  blogMore?.addEventListener('click', () => {
+    const firstNewArticleIndex = mobileBlogQuery.matches ? 4 : 8;
+    showingAllArticles = true;
+    renderArticles(rawArticles);
+    blogGrid.querySelectorAll('.blog-card')[firstNewArticleIndex]?.querySelector('button')?.focus({ preventScroll: true });
+  });
+
+  mobileBlogQuery.addEventListener?.('change', () => {
+    if (!showingAllArticles) renderArticles(rawArticles);
+  });
 
   blogGrid.addEventListener('click', (event) => {
     const shareTrigger = event.target.closest('[data-blog-share-id]');

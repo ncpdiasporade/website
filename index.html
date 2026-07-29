@@ -1703,6 +1703,28 @@
       gap: 18px;
     }
 
+    .blog-more-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 26px 0 2px;
+    }
+
+    .blog-more-btn {
+      min-width: 148px;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .blog-more-btn[hidden] { display: none; }
+
+    .blog-more-btn .blog-more-arrow {
+      display: inline-block;
+      font-size: 1.05rem;
+      transition: transform .25s var(--ease-out);
+    }
+
+    .blog-more-btn:hover .blog-more-arrow { transform: translateY(3px); }
+
     .blog-card {
       display: flex;
       flex-direction: column;
@@ -3957,6 +3979,13 @@
 
       <div class="blog-grid stagger-children reveal" id="blogGrid"></div>
 
+      <div class="blog-more-wrap reveal">
+        <button class="btn-pill btn-ghost blog-more-btn" id="blogMore" type="button" aria-expanded="false" hidden>
+          <span id="blogMoreLabel">আরও দেখুন</span>
+          <span class="blog-more-arrow" aria-hidden="true">↓</span>
+        </button>
+      </div>
+
       <div class="blog-cta-row reveal">
         <p>
           আপনি কি একটি লেখা প্রকাশ করতে চান? আপনার মতামত, বিশ্লেষণ, অভিজ্ঞতা বা প্রবাসী জীবনের গুরুত্বপূর্ণ প্রশ্ন নিয়ে লিখুন। সম্পাদকীয় পর্যালোচনার পর নির্বাচিত লেখা প্রকাশ করা হবে।
@@ -4236,7 +4265,7 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js"></script>
-  <script src="js/site.js?v=20260729-social-preview" defer></script>
+  <script src="js/i18n.js?v=20260729-blog-8"></script>
+  <script src="js/site.js?v=20260729-blog-8" defer></script>
 </body>
 </html>

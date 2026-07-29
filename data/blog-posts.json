@@ -1,6 +1,441 @@
 {
   "items": [
     {
+      "id": "no-new-dominance-ncp-political-test",
+      "slug": "no-new-dominance-ncp-political-test",
+      "status": "published",
+      "tag": "রাজনীতি ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "২৯ জুলাই ২০২৬",
+      "title": "এক স্বৈরাচারের বিদায়ের পর আরেক আধিপত্য নয়: সরকার ও এনসিপির কঠিন রাজনৈতিক পরীক্ষা",
+      "excerpt": "জুলাইয়ের লক্ষ্য শুধু শাসক বদল ছিল না; ছিল ক্ষমতাকে জবাবদিহির অধীনে আনা। রাজনৈতিক সহিংসতার সাম্প্রতিক তথ্য, এনসিপির কর্মসূচিতে হামলা এবং সংস্কার থেকে সরে আসার অভিযোগ এখন সরকার ও বিরোধী রাজনীতি—উভয়কেই কঠিন পরীক্ষার সামনে দাঁড় করিয়েছে।",
+      "image": "img/blog/democratic-test.svg",
+      "sharePath": "blog/no-new-dominance-ncp-political-test",
+      "shareImage": "img/blog/democratic-test-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-29T01:00:00+02:00",
+      "imageAlt": "নাগরিক, জবাবদিহিমূলক প্রতিষ্ঠান ও আধিপত্যমুক্ত গণতান্ত্রিক পথের সম্পাদকীয় চিত্র",
+      "imageCredit": "NCP Diaspora Alliance Germany-এর জন্য প্রস্তুত মৌলিক সম্পাদকীয় ইলাস্ট্রেশন।",
+      "license": "Original copyright-free editorial illustration prepared for NCP Diaspora Alliance Germany.",
+      "translations": {
+        "en": {
+          "tag": "Politics & accountability",
+          "author": "Editorial Desk",
+          "date": "29 July 2026",
+          "title": "After one autocrat, no new domination: the hard political test for the government and NCP",
+          "excerpt": "July was not only about changing rulers; it was about placing power under public accountability. Recent data on political violence, attacks on NCP programmes and concerns over reform backsliding now test both the government and the opposition.",
+          "imageAlt": "Editorial illustration of citizens, accountable institutions and a democratic path free from political domination",
+          "imageCredit": "Original editorial illustration prepared for NCP Diaspora Alliance Germany.",
+          "facts": [
+            {
+              "value": "610 incidents",
+              "label": "Political-violence incidents recorded by HRSS from January to March 2026."
+            },
+            {
+              "value": "36 deaths",
+              "label": "Deaths recorded by HRSS in those first-quarter incidents."
+            },
+            {
+              "value": "4,078 injured",
+              "label": "People injured in the same three-month HRSS monitoring period."
+            },
+            {
+              "value": "58 incidents",
+              "label": "HRSS recorded nine deaths and 346 injuries from political violence in June alone."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "The July Uprising did not demand that one group enjoying unchecked power be replaced by another. Its democratic promise was larger: the state would answer to citizens, political opponents would retain equal rights, and no party would stand above the law. That standard must now be applied to the BNP-majority government—and to every opposition party seeking to become an alternative."
+            },
+            {
+              "type": "heading",
+              "text": "The numbers do not permit complacency"
+            },
+            {
+              "type": "paragraph",
+              "text": "HRSS recorded at least 610 incidents of political violence in January–March 2026, leaving 36 people dead and 4,078 injured. Its analysis says 573 of the 610 incidents—94 per cent—involved either internal BNP conflict or clashes between BNP and other parties. These are monitoring figures compiled from media reports, HRSS information and fact-finding; they are not court verdicts. Yet their scale demands a transparent state response."
+            },
+            {
+              "type": "paragraph",
+              "text": "The pattern did not end with the election. For June, HRSS recorded 58 incidents, nine deaths and 346 injuries. These included 21 incidents of BNP infighting, eight BNP–Jamaat clashes, 14 BNP–Awami League clashes and five BNP–NCP clashes. A government cannot dismiss such a pattern as a collection of isolated local disputes. Restoring public safety is a core duty of the state."
+            },
+            {
+              "type": "callout",
+              "text": "An electoral mandate gives a government the authority to govern; it does not grant any ruling party ownership of the state, immunity for its affiliates or a licence to narrow the opposition's political space."
+            },
+            {
+              "type": "heading",
+              "text": "A logical criticism of the government"
+            },
+            {
+              "type": "paragraph",
+              "text": "Transparency International Bangladesh's review of the government's first 100 days noted some positive intent, but also signs of retreat from institutional reform and accountability. It raised concerns about partisan appointments, weakened local-government autonomy, insufficient control of mob violence and proposals that could reduce the independence of the Human Rights Commission. These are not opposition slogans; they are concrete governance warnings that require point-by-point answers from the government."
+            },
+            {
+              "type": "paragraph",
+              "text": "The government's test is therefore measurable: investigate political attacks impartially; publish progress on important cases; protect peaceful meetings regardless of the organisers; keep the police and administration outside party command; and implement reform commitments through constitutional, transparent and time-bound processes. Silence, selective action or blaming predecessors cannot substitute for results."
+            },
+            {
+              "type": "heading",
+              "text": "Habiganj: establish responsibility through evidence"
+            },
+            {
+              "type": "paragraph",
+              "text": "After NCP's July march in Habiganj on 28 July, the party alleged that Chhatra Dal activists attacked its convoy, injuring Nasiruddin Patwary, Sarjis Alam and others; a journalists' vehicle was also reportedly vandalised. Police confirmed that an attack occurred, while a local Jubo Dal leader denied involvement. The responsible approach is neither to erase the allegation nor to treat it as a verdict. Authorities must preserve video, identify perpetrators, publish investigative progress and ensure protection for witnesses and journalists."
+            },
+            {
+              "type": "heading",
+              "text": "Alliance realignment is not proof of a conspiracy"
+            },
+            {
+              "type": "paragraph",
+              "text": "Khelafat Majlis and Bangladesh Khelafat Andolan have stepped away from the 11-party alliance's programmes, while seven Qawmi-oriented parties have agreed in principle to explore closer coordination. Jamaat has described the development as a government conspiracy; organisers of the initiative have rejected that allegation. No publicly available evidence establishes government direction. Responsible politics must distinguish a political allegation from a proven fact."
+            },
+            {
+              "type": "paragraph",
+              "text": "This realignment nevertheless offers a lesson for every coalition, including NCP: an alliance survives through respect, transparent decision-making and clear policy boundaries—not through the dominance of its largest partner. NCP should explain to citizens what it will cooperate on, where its red lines lie and how it will retain an independent programme rooted in the July Charter, economic opportunity and accountable government."
+            },
+            {
+              "type": "heading",
+              "text": "NCP's answer must be disciplined, not retaliatory"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Create a verified incident-response system from the centre to local units, preserving video, witness accounts, medical records and case numbers.",
+                "Provide members with training in de-escalation, lawful self-protection, first aid and legal procedure; reject retaliatory violence without ambiguity.",
+                "Publish allegations with evidence and clearly mark what is claimed, what police confirm and what remains unverified.",
+                "Strengthen internal democracy, transparent financing and a fair process for resolving disagreements so that external pressure cannot manufacture division.",
+                "Defend the political rights of every citizen—not only NCP members—and offer practical alternatives on jobs, prices, corruption, extortion and public services."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The strongest response to old-style power politics is not to imitate it. If NCP turns every dispute into a conspiracy theory, overlooks abuse by an ally or uses the language of vengeance, it will lose the moral distinction created by July. Courage must be paired with evidence; resistance with law; organisation with public accountability."
+            },
+            {
+              "type": "heading",
+              "text": "No replacement of one domination with another"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bangladesh paid an extraordinary price to end authoritarian rule. The purpose of that sacrifice was not to rotate the beneficiaries of fear, extortion and state patronage. The BNP-led government must prove that political opponents can organise safely and that party identity does not determine access to justice. Jamaat and its partners must prove that coalition politics can respect difference. NCP must prove that a movement-born party can combine resistance with democratic restraint and policy competence."
+            },
+            {
+              "type": "callout",
+              "text": "We did not enter politics merely to endure attacks, and we did not enter it to build a politics of attacking others. The democratic promise of July will survive only when state power, party power and opposition power are all held to the same law."
+            },
+            {
+              "type": "paragraph",
+              "text": "Editorial note: Party allegations in this article are identified as allegations. HRSS figures are monitoring data, and TIB findings are institutional observations. Final criminal responsibility can be determined only through an independent investigation and due judicial process."
+            }
+          ],
+          "sources": [
+            {
+              "label": "HRSS: Human rights situation, January–March 2026",
+              "url": "https://hrssbd.org/report_details/87"
+            },
+            {
+              "label": "HRSS: Human rights situation, June 2026",
+              "url": "https://hrssbd.org/report_details/102"
+            },
+            {
+              "label": "TIB: Government's first 100 days",
+              "url": "https://www.ti-bangladesh.org/en/articles/press-release/7493"
+            },
+            {
+              "label": "The Daily Star: 11-party alliance falling apart",
+              "url": "https://www.thedailystar.net/news/politics/news/11-party-alliance-falling-apart-4233521"
+            },
+            {
+              "label": "TBS: NCP's July march attacked in Habiganj",
+              "url": "https://www.tbsnews.net/bangladesh/politics/ncps-july-march-attacked-habiganj-sarjis-nasiruddin-injured-1500481"
+            },
+            {
+              "label": "TBS: NCP position on the July Charter",
+              "url": "https://www.tbsnews.net/bangladesh/politics/nahid-warns-another-mass-uprising-if-july-charter-not-implemented-1491596"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Politik & Rechenschaft",
+          "author": "Redaktion",
+          "date": "29. Juli 2026",
+          "title": "Nach einem Autokraten keine neue Vorherrschaft: die schwierige politische Prüfung für Regierung und NCP",
+          "excerpt": "Im Juli ging es nicht nur um einen Wechsel der Regierenden, sondern darum, Macht öffentlicher Rechenschaft zu unterwerfen. Aktuelle Daten zu politischer Gewalt, Angriffe auf NCP-Veranstaltungen und Sorgen über Reformrückschritte prüfen nun Regierung und Opposition gleichermaßen.",
+          "imageAlt": "Redaktionelle Illustration von Bürgerinnen und Bürgern, rechenschaftspflichtigen Institutionen und einem demokratischen Weg ohne politische Vorherrschaft",
+          "imageCredit": "Originale redaktionelle Illustration für die NCP Diaspora Alliance Germany.",
+          "facts": [
+            {
+              "value": "610 Vorfälle",
+              "label": "Von HRSS erfasste Fälle politischer Gewalt von Januar bis März 2026."
+            },
+            {
+              "value": "36 Tote",
+              "label": "Von HRSS in diesen Vorfällen des ersten Quartals registrierte Todesfälle."
+            },
+            {
+              "value": "4.078 Verletzte",
+              "label": "Verletzte im selben dreimonatigen Beobachtungszeitraum."
+            },
+            {
+              "value": "58 Vorfälle",
+              "label": "Allein im Juni registrierte HRSS neun Tote und 346 Verletzte durch politische Gewalt."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Der Juli-Aufstand verlangte nicht, eine Gruppe mit unkontrollierter Macht durch eine andere zu ersetzen. Sein demokratisches Versprechen war größer: Der Staat sollte den Bürgerinnen und Bürgern Rechenschaft schulden, politische Gegner sollten gleiche Rechte behalten und keine Partei sollte über dem Gesetz stehen. An diesem Maßstab müssen sich nun die BNP-Mehrheitsregierung und jede Oppositionspartei messen lassen, die eine Alternative sein will."
+            },
+            {
+              "type": "heading",
+              "text": "Die Zahlen erlauben keine Selbstzufriedenheit"
+            },
+            {
+              "type": "paragraph",
+              "text": "HRSS erfasste von Januar bis März 2026 mindestens 610 Vorfälle politischer Gewalt mit 36 Toten und 4.078 Verletzten. Nach der Analyse betrafen 573 dieser 610 Vorfälle – 94 Prozent – entweder interne BNP-Konflikte oder Auseinandersetzungen zwischen BNP und anderen Parteien. Diese Monitoringzahlen beruhen auf Medienberichten, HRSS-Informationen und Faktenprüfungen; sie sind keine Gerichtsurteile. Ihr Ausmaß verlangt dennoch eine transparente staatliche Reaktion."
+            },
+            {
+              "type": "paragraph",
+              "text": "Das Muster endete nicht mit der Wahl. Für Juni registrierte HRSS 58 Vorfälle, neun Tote und 346 Verletzte: darunter 21 Fälle interner BNP-Konflikte, acht BNP–Jamaat-, 14 BNP–Awami-League- und fünf BNP–NCP-Auseinandersetzungen. Eine Regierung kann ein solches Muster nicht als bloße Ansammlung lokaler Einzelfälle abtun. Öffentliche Sicherheit wiederherzustellen, ist eine Kernpflicht des Staates."
+            },
+            {
+              "type": "callout",
+              "text": "Ein Wahlmandat gibt einer Regierung die Befugnis zu regieren. Es überträgt der Regierungspartei jedoch weder den Staat noch Immunität für ihre Nebenorganisationen oder das Recht, den politischen Raum der Opposition zu verengen."
+            },
+            {
+              "type": "heading",
+              "text": "Eine sachliche Kritik an der Regierung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Bilanz von Transparency International Bangladesh zu den ersten 100 Regierungstagen erkannte positive Absichten an, sah aber auch Anzeichen eines Rückzugs bei institutionellen Reformen und Rechenschaft. TIB äußerte Bedenken über parteipolitische Ernennungen, geschwächte kommunale Autonomie, unzureichende Eindämmung von Mobgewalt und Vorschläge, die die Unabhängigkeit der Menschenrechtskommission begrenzen könnten. Das sind keine Oppositionsparolen, sondern konkrete Warnungen, auf die die Regierung Punkt für Punkt antworten muss."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Prüfung der Regierung ist daher messbar: politische Angriffe unparteiisch untersuchen, den Fortschritt wichtiger Verfahren veröffentlichen, friedliche Versammlungen unabhängig vom Veranstalter schützen, Polizei und Verwaltung aus parteipolitischer Steuerung heraushalten und Reformzusagen verfassungsgemäß, transparent und fristgebunden umsetzen. Schweigen, selektives Handeln oder der Verweis auf Vorgänger ersetzen keine Ergebnisse."
+            },
+            {
+              "type": "heading",
+              "text": "Habiganj: Verantwortung durch Beweise klären"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nach dem Juli-Marsch der NCP in Habiganj am 28. Juli erklärte die Partei, Aktivisten der Chhatra Dal hätten ihren Konvoi angegriffen und Nasiruddin Patwary, Sarjis Alam sowie weitere Personen verletzt; außerdem soll ein Fahrzeug von Journalisten beschädigt worden sein. Die Polizei bestätigte einen Angriff, während ein örtlicher Jubo-Dal-Vertreter eine Beteiligung bestritt. Verantwortungsvolle Politik löscht weder den Vorwurf aus noch behandelt sie ihn als Urteil. Behörden müssen Videos sichern, Täter identifizieren, Ermittlungsfortschritte veröffentlichen und Zeugen sowie Journalisten schützen."
+            },
+            {
+              "type": "heading",
+              "text": "Eine Neuordnung von Bündnissen ist kein Beweis für eine Verschwörung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Khelafat Majlis und Bangladesh Khelafat Andolan haben sich von Programmen des Elf-Parteien-Bündnisses zurückgezogen, während sieben qawmi-orientierte Parteien grundsätzlich eine engere Koordination prüfen wollen. Jamaat bezeichnete dies als Regierungsverschwörung; die Organisatoren wiesen den Vorwurf zurück. Öffentlich zugängliche Belege für eine Steuerung durch die Regierung liegen nicht vor. Verantwortungsvolle Politik muss politische Behauptungen von bewiesenen Tatsachen unterscheiden."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Neuordnung enthält dennoch eine Lehre für jedes Bündnis, auch für die NCP: Eine Koalition lebt von Respekt, transparenten Entscheidungen und klaren politischen Grenzen – nicht von der Dominanz ihres größten Partners. Die NCP sollte erklären, wobei sie kooperiert, wo ihre roten Linien liegen und wie sie ein eigenständiges Programm auf Grundlage der Juli-Charta, wirtschaftlicher Chancen und rechenschaftspflichtiger Regierung bewahrt."
+            },
+            {
+              "type": "heading",
+              "text": "Die Antwort der NCP muss diszipliniert sein, nicht vergeltend"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ein verifiziertes System zur Reaktion auf Vorfälle von der Zentrale bis zu lokalen Einheiten aufbauen und Videos, Zeugenaussagen, medizinische Unterlagen sowie Aktenzeichen sichern.",
+                "Mitglieder in Deeskalation, rechtmäßiger Selbstverteidigung, Erster Hilfe und Rechtsverfahren schulen und Vergeltungsgewalt eindeutig ablehnen.",
+                "Vorwürfe mit Belegen veröffentlichen und klar kennzeichnen, was behauptet, von der Polizei bestätigt oder noch ungeklärt ist.",
+                "Interne Demokratie, transparente Finanzierung und faire Verfahren zur Lösung von Meinungsverschiedenheiten stärken, damit äußerer Druck keine Spaltung erzeugen kann.",
+                "Die politischen Rechte aller Bürgerinnen und Bürger verteidigen – nicht nur der NCP-Mitglieder – und praktische Alternativen bei Arbeit, Preisen, Korruption, Erpressung und öffentlichen Dienstleistungen anbieten."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Die stärkste Antwort auf alte Machtpolitik ist nicht ihre Nachahmung. Wenn die NCP jeden Konflikt zur Verschwörung erklärt, Missbrauch durch Verbündete übersieht oder Vergeltungssprache nutzt, verliert sie die moralische Unterscheidbarkeit, die der Juli geschaffen hat. Mut braucht Beweise, Widerstand braucht Recht und Organisation braucht öffentliche Rechenschaft."
+            },
+            {
+              "type": "heading",
+              "text": "Keine Vorherrschaft soll die nächste ersetzen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bangladesch zahlte einen außergewöhnlichen Preis für das Ende autoritärer Herrschaft. Dieses Opfer sollte nicht nur die Begünstigten von Angst, Erpressung und staatlicher Patronage austauschen. Die BNP-geführte Regierung muss beweisen, dass Gegner sich sicher organisieren können und Parteizugehörigkeit den Zugang zur Justiz nicht bestimmt. Jamaat und seine Partner müssen zeigen, dass Bündnispolitik Unterschiede respektiert. Die NCP muss zeigen, dass eine aus einer Bewegung entstandene Partei Widerstand mit demokratischer Zurückhaltung und politischer Kompetenz verbinden kann."
+            },
+            {
+              "type": "callout",
+              "text": "Wir sind nicht in die Politik gegangen, um Angriffe nur hinzunehmen – und auch nicht, um eine Politik des Angreifens aufzubauen. Das demokratische Versprechen des Juli bleibt nur bestehen, wenn Staatsmacht, Parteimacht und Oppositionsmacht demselben Recht unterliegen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Redaktioneller Hinweis: Parteivorwürfe werden in diesem Beitrag als solche gekennzeichnet. HRSS-Zahlen sind Monitoringdaten, TIB-Ergebnisse institutionelle Beobachtungen. Strafrechtliche Verantwortung kann nur durch unabhängige Ermittlungen und ein rechtsstaatliches Verfahren festgestellt werden."
+            }
+          ],
+          "sources": [
+            {
+              "label": "HRSS: Menschenrechtslage Januar–März 2026",
+              "url": "https://hrssbd.org/report_details/87"
+            },
+            {
+              "label": "HRSS: Menschenrechtslage Juni 2026",
+              "url": "https://hrssbd.org/report_details/102"
+            },
+            {
+              "label": "TIB: Die ersten 100 Tage der Regierung",
+              "url": "https://www.ti-bangladesh.org/en/articles/press-release/7493"
+            },
+            {
+              "label": "The Daily Star: Das Elf-Parteien-Bündnis zerfällt",
+              "url": "https://www.thedailystar.net/news/politics/news/11-party-alliance-falling-apart-4233521"
+            },
+            {
+              "label": "TBS: Angriff auf den Juli-Marsch der NCP in Habiganj",
+              "url": "https://www.tbsnews.net/bangladesh/politics/ncps-july-march-attacked-habiganj-sarjis-nasiruddin-injured-1500481"
+            },
+            {
+              "label": "TBS: Position der NCP zur Juli-Charta",
+              "url": "https://www.tbsnews.net/bangladesh/politics/nahid-warns-another-mass-uprising-if-july-charter-not-implemented-1491596"
+            }
+          ]
+        }
+      },
+      "facts": [
+        {
+          "value": "৬১০ ঘটনা",
+          "label": "২০২৬ সালের জানুয়ারি–মার্চে HRSS-এর নথিভুক্ত রাজনৈতিক সহিংসতার ঘটনা।"
+        },
+        {
+          "value": "৩৬ নিহত",
+          "label": "প্রথম প্রান্তিকের ওই ঘটনাগুলোতে HRSS-এর নথিভুক্ত মৃত্যু।"
+        },
+        {
+          "value": "৪,০৭৮ আহত",
+          "label": "একই তিন মাসের পর্যবেক্ষণে নথিভুক্ত আহত মানুষ।"
+        },
+        {
+          "value": "৫৮ ঘটনা",
+          "label": "শুধু জুনে রাজনৈতিক সহিংসতায় ৯ নিহত ও ৩৪৬ আহত নথিভুক্ত করেছে HRSS।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "জুলাই গণঅভ্যুত্থানের দাবি ছিল না—একটি গোষ্ঠীর জবাবদিহিহীন ক্ষমতার জায়গায় আরেকটি গোষ্ঠী বসবে। এর গণতান্ত্রিক প্রতিশ্রুতি ছিল আরও বড়: রাষ্ট্র নাগরিকের কাছে জবাবদিহি করবে, রাজনৈতিক প্রতিপক্ষ সমান অধিকার পাবে এবং কোনো দল আইনের ঊর্ধ্বে থাকবে না। এখন এই মানদণ্ডেই বিএনপি-সংখ্যাগরিষ্ঠ সরকারকে বিচার করতে হবে; একই মানদণ্ড প্রযোজ্য হবে বিকল্প হতে চাওয়া এনসিপিসহ প্রতিটি বিরোধী দলের ক্ষেত্রেও।"
+        },
+        {
+          "type": "heading",
+          "text": "সংখ্যাগুলো আত্মতুষ্টির সুযোগ দেয় না"
+        },
+        {
+          "type": "paragraph",
+          "text": "হিউম্যান রাইটস সাপোর্ট সোসাইটি (HRSS) ২০২৬ সালের জানুয়ারি–মার্চে অন্তত ৬১০টি রাজনৈতিক সহিংসতার ঘটনায় ৩৬ জন নিহত এবং ৪,০৭৮ জন আহত হওয়ার তথ্য নথিভুক্ত করেছে। সংস্থাটির বিশ্লেষণে, ৬১০টির মধ্যে ৫৭৩টি—অর্থাৎ ৯৪ শতাংশ—ঘটনা ছিল বিএনপির অভ্যন্তরীণ কোন্দল অথবা বিএনপির সঙ্গে অন্য দলের সংঘর্ষ। এগুলো গণমাধ্যম, HRSS-এর নিজস্ব তথ্য ও ফ্যাক্ট-ফাইন্ডিংয়ের ভিত্তিতে তৈরি পর্যবেক্ষণ; আদালতের রায় নয়। তবু এর ব্যাপ্তি সরকারের কাছে স্বচ্ছ জবাব দাবি করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নির্বাচনের পরও প্রবণতাটি থামেনি। জুনে HRSS ৫৮টি ঘটনায় ৯ জন নিহত ও ৩৪৬ জন আহত হওয়ার তথ্য দিয়েছে। এর মধ্যে বিএনপির অন্তর্কোন্দলের ২১টি, বিএনপি–জামায়াতের ৮টি, বিএনপি–আওয়ামী লীগের ১৪টি এবং বিএনপি–এনসিপির ৫টি সংঘর্ষ ছিল। এমন ধারাবাহিকতাকে বিচ্ছিন্ন স্থানীয় বিরোধ বলে এড়ানো যায় না। জননিরাপত্তা ফিরিয়ে আনা রাষ্ট্রের মৌলিক দায়িত্ব।"
+        },
+        {
+          "type": "callout",
+          "text": "নির্বাচনী ম্যান্ডেট সরকারকে দেশ পরিচালনার ক্ষমতা দেয়; রাষ্ট্রের মালিকানা, দলীয় সহযোগীদের দায়মুক্তি কিংবা বিরোধীদের রাজনৈতিক পরিসর সংকুচিত করার অনুমতি দেয় না।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের সমালোচনা কেন যুক্তিসঙ্গত"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের প্রথম ১০০ দিন নিয়ে ট্রান্সপারেন্সি ইন্টারন্যাশনাল বাংলাদেশের মূল্যায়নে কিছু ইতিবাচক সদিচ্ছার কথা বলা হলেও প্রাতিষ্ঠানিক সংস্কার ও জবাবদিহি থেকে পিছিয়ে যাওয়ার লক্ষণও তুলে ধরা হয়েছে। দলীয় বিবেচনায় নিয়োগ, স্থানীয় সরকারের স্বায়ত্তশাসন দুর্বল হওয়া, মব সহিংসতা কার্যকরভাবে নিয়ন্ত্রণ করতে না পারা এবং মানবাধিকার কমিশনের স্বাধীনতা সংকুচিত হতে পারে—এমন প্রস্তাব নিয়ে TIB উদ্বেগ জানিয়েছে। এগুলো বিরোধী দলের স্লোগান নয়; সরকারের কাছ থেকে বিষয়ভিত্তিক উত্তর দাবি করা সুনির্দিষ্ট শাসনগত সতর্কতা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পরীক্ষা তাই পরিমাপযোগ্য: রাজনৈতিক হামলার নিরপেক্ষ তদন্ত; গুরুত্বপূর্ণ মামলার অগ্রগতি প্রকাশ; আয়োজকের পরিচয় না দেখে শান্তিপূর্ণ সভার নিরাপত্তা; পুলিশ ও প্রশাসনকে দলীয় নির্দেশের বাইরে রাখা; এবং সংস্কারের প্রতিশ্রুতি সাংবিধানিক, স্বচ্ছ ও সময়বদ্ধ প্রক্রিয়ায় বাস্তবায়ন। নীরবতা, বেছে বেছে ব্যবস্থা নেওয়া কিংবা পূর্বসূরিদের দোষ দেওয়া—কোনোটিই ফলাফলের বিকল্প নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "হবিগঞ্জ: অভিযোগ নয়, প্রমাণে দায় নির্ধারণ হোক"
+        },
+        {
+          "type": "paragraph",
+          "text": "২৮ জুলাই হবিগঞ্জে এনসিপির জুলাই পদযাত্রার পর দলটি অভিযোগ করেছে, ছাত্রদল কর্মীদের হামলায় নাসিরুদ্দীন পাটওয়ারী, সারজিস আলমসহ অনেকে আহত হন; সাংবাদিকদের একটি গাড়িও ভাঙচুরের শিকার হয়। পুলিশ হামলার ঘটনা নিশ্চিত করেছে, অন্যদিকে স্থানীয় যুবদল নেতা সংশ্লিষ্টতা অস্বীকার করেছেন। দায়িত্বশীল অবস্থান হলো—অভিযোগকে মুছে না ফেলা, আবার রায় হিসেবেও না লেখা। ভিডিও সংরক্ষণ, হামলাকারী শনাক্ত, তদন্তের অগ্রগতি প্রকাশ এবং সাক্ষী ও সাংবাদিকদের নিরাপত্তা নিশ্চিত করা রাষ্ট্রের কাজ।"
+        },
+        {
+          "type": "heading",
+          "text": "জোটের পুনর্বিন্যাস মানেই ষড়যন্ত্রের প্রমাণ নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "খেলাফত মজলিস ও বাংলাদেশ খেলাফত আন্দোলন ১১ দলীয় জোটের কর্মসূচি থেকে সরে গেছে; একই সময়ে কওমি ধারার সাতটি দল কাছাকাছি চলার সম্ভাবনা নিয়ে নীতিগত আলোচনা শুরু করেছে। জামায়াত এই পরিবর্তনকে সরকারি ষড়যন্ত্র বলেছে, কিন্তু উদ্যোগের আয়োজকেরা অভিযোগটি অস্বীকার করেছেন। সরকারের নির্দেশনায় এটি ঘটেছে—এমন প্রকাশ্য প্রমাণ এখনো নেই। রাজনৈতিক অভিযোগ ও প্রমাণিত সত্যের পার্থক্য রক্ষা করাই দায়িত্বশীল রাজনীতি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তবে এই পুনর্বিন্যাস প্রতিটি জোটকে—এনসিপিকেও—একটি শিক্ষা দেয়। জোট টেকে পারস্পরিক সম্মান, স্বচ্ছ সিদ্ধান্ত ও স্পষ্ট নীতিগত সীমারেখায়; বড় শরিকের একক আধিপত্যে নয়। এনসিপির উচিত জনগণকে পরিষ্কারভাবে বলা—কোন বিষয়ে সহযোগিতা করবে, কোথায় তার ‘রেড লাইন’, এবং জুলাই সনদ, অর্থনৈতিক সুযোগ ও জবাবদিহিমূলক সরকারকেন্দ্রিক নিজস্ব কর্মসূচি কীভাবে অক্ষুণ্ণ রাখবে।"
+        },
+        {
+          "type": "heading",
+          "text": "এনসিপির জবাব হবে শৃঙ্খলিত, প্রতিশোধমূলক নয়"
+        },
+        {
+          "type": "list",
+          "items": [
+            "কেন্দ্র থেকে স্থানীয় ইউনিট পর্যন্ত যাচাইকৃত incident-response ব্যবস্থা গড়ে ভিডিও, সাক্ষ্য, চিকিৎসা প্রতিবেদন ও মামলার নম্বর সংরক্ষণ করা।",
+            "কর্মীদের সংঘাত প্রশমন, আইনসংগত আত্মরক্ষা, প্রাথমিক চিকিৎসা ও আইনি প্রক্রিয়ার প্রশিক্ষণ দেওয়া; প্রতিশোধমূলক সহিংসতা দ্ব্যর্থহীনভাবে প্রত্যাখ্যান করা।",
+            "প্রতিটি অভিযোগ প্রমাণসহ প্রকাশ করা এবং কোনটি দলীয় দাবি, কোনটি পুলিশের নিশ্চিত তথ্য, আর কোনটি এখনো যাচাই হয়নি—তা স্পষ্ট করা।",
+            "অভ্যন্তরীণ গণতন্ত্র, স্বচ্ছ অর্থায়ন ও মতপার্থক্য সমাধানের ন্যায্য ব্যবস্থা শক্তিশালী করা, যাতে বাইরের চাপ বিভক্তি তৈরি করতে না পারে।",
+            "শুধু এনসিপি কর্মী নয়—প্রতিটি নাগরিকের নিরাপদ রাজনৈতিক অধিকার রক্ষা করা এবং কর্মসংস্থান, দ্রব্যমূল্য, দুর্নীতি, চাঁদাবাজি ও জনসেবায় বাস্তব বিকল্প দেওয়া।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "পুরোনো ক্ষমতার রাজনীতির সবচেয়ে শক্তিশালী জবাব তার অনুকরণ নয়। এনসিপি যদি প্রতিটি বিরোধকে ষড়যন্ত্র বলে, মিত্রের অন্যায় এড়িয়ে যায় কিংবা প্রতিশোধের ভাষা ব্যবহার করে, তাহলে জুলাই যে নৈতিক স্বাতন্ত্র্য তৈরি করেছে তা ক্ষয় হবে। সাহসের সঙ্গে প্রমাণ, প্রতিরোধের সঙ্গে আইন এবং সংগঠনের সঙ্গে জনজবাবদিহি যুক্ত করতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "এক আধিপত্যের বদলে আরেক আধিপত্য নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "কর্তৃত্ববাদী শাসনের অবসানে বাংলাদেশ অসাধারণ মূল্য দিয়েছে। সেই আত্মত্যাগের উদ্দেশ্য ভয়, চাঁদাবাজি ও রাষ্ট্রীয় পৃষ্ঠপোষকতার সুবিধাভোগী বদলানো ছিল না। বিএনপি নেতৃত্বাধীন সরকারকে প্রমাণ করতে হবে—বিরোধীরা নিরাপদে সংগঠিত হতে পারবে এবং ন্যায়বিচার দলীয় পরিচয়ে নির্ধারিত হবে না। জামায়াত ও তার শরিকদের প্রমাণ করতে হবে—জোটের রাজনীতি মতভিন্নতাকে সম্মান করে। এনসিপিকে প্রমাণ করতে হবে—আন্দোলন থেকে জন্ম নেওয়া দল প্রতিরোধের সঙ্গে গণতান্ত্রিক সংযম ও নীতিগত দক্ষতা মিলিয়ে চলতে পারে।"
+        },
+        {
+          "type": "callout",
+          "text": "আমরা শুধু হামলা সহ্য করার জন্য রাজনীতিতে আসিনি; আবার অন্যের ওপর হামলার রাজনীতি গড়তেও আসিনি। রাষ্ট্রক্ষমতা, দলীয় ক্ষমতা ও বিরোধী শক্তি—সবাই একই আইনের অধীন হলেই জুলাইয়ের গণতান্ত্রিক প্রতিশ্রুতি বেঁচে থাকবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সম্পাদকীয় নোট: এই লেখায় দলীয় বক্তব্যকে অভিযোগ হিসেবেই চিহ্নিত করা হয়েছে। HRSS-এর সংখ্যা পর্যবেক্ষণভিত্তিক তথ্য এবং TIB-এর বক্তব্য প্রাতিষ্ঠানিক মূল্যায়ন। অপরাধের চূড়ান্ত দায় কেবল স্বাধীন তদন্ত ও যথাযথ বিচারিক প্রক্রিয়ায় নির্ধারিত হতে পারে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "HRSS: বাংলাদেশের মানবাধিকার পরিস্থিতি, জানুয়ারি–মার্চ ২০২৬",
+          "url": "https://hrssbd.org/report_details/87"
+        },
+        {
+          "label": "HRSS: বাংলাদেশের মানবাধিকার পরিস্থিতি, জুন ২০২৬",
+          "url": "https://hrssbd.org/report_details/102"
+        },
+        {
+          "label": "TIB: সরকারের প্রথম ১০০ দিনের মূল্যায়ন",
+          "url": "https://www.ti-bangladesh.org/bn/articles/research/7492"
+        },
+        {
+          "label": "The Daily Star: ১১ দলীয় জোটের পুনর্বিন্যাস",
+          "url": "https://www.thedailystar.net/news/politics/news/11-party-alliance-falling-apart-4233521"
+        },
+        {
+          "label": "TBS: হবিগঞ্জে এনসিপির জুলাই পদযাত্রায় হামলা",
+          "url": "https://www.tbsnews.net/bangladesh/politics/ncps-july-march-attacked-habiganj-sarjis-nasiruddin-injured-1500481"
+        },
+        {
+          "label": "TBS: জুলাই সনদ নিয়ে এনসিপির অবস্থান",
+          "url": "https://www.tbsnews.net/bangladesh/politics/nahid-warns-another-mass-uprising-if-july-charter-not-implemented-1491596"
+        }
+      ]
+    },
+    {
       "id": "enforced-disappearance-investigation-independence",
       "slug": "enforced-disappearance-investigation-independence",
       "status": "published",
