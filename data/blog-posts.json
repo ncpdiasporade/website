@@ -1,6 +1,477 @@
 {
   "items": [
     {
+      "id": "bangladesh-semiconductor-opportunity-execution",
+      "slug": "bangladesh-semiconductor-opportunity-execution",
+      "status": "published",
+      "tag": "প্রযুক্তি ও অর্থনীতি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "২৯ জুলাই ২০২৬",
+      "title": "সিলিকন বিপ্লবের অপেক্ষায় বাংলাদেশ: এক বিলিয়ন ডলারের লক্ষ্য, বাস্তবতার পাঁচ পরীক্ষা",
+      "excerpt": "বাংলাদেশের সেমিকন্ডাক্টর রপ্তানি এখনো ছোট, কিন্তু ডিজাইন, ভেরিফিকেশন, টেস্টিং ও প্যাকেজিংয়ে বাস্তব ভিত্তি তৈরি হয়েছে। ২০৩০ সালের এক বিলিয়ন ডলারের লক্ষ্য অর্জনে এখন ঘোষণা নয়—দক্ষতা, অবকাঠামো ও পরিমাপযোগ্য বাস্তবায়ন জরুরি।",
+      "image": "img/blog/semiconductor-bangladesh.svg",
+      "sharePath": "blog/bangladesh-semiconductor-opportunity-execution",
+      "shareImage": "img/blog/semiconductor-bangladesh-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-07-29T19:45:00+02:00",
+      "imageAlt": "মাইক্রোচিপ, সার্কিটপথ ও বাংলাদেশের উদীয়মান জ্ঞানভিত্তিক অর্থনীতির সম্পাদকীয় চিত্র",
+      "imageCredit": "NCP Diaspora Alliance Germany-এর জন্য প্রস্তুত মৌলিক সম্পাদকীয় ইলাস্ট্রেশন।",
+      "license": "Original copyright-free editorial illustration prepared for NCP Diaspora Alliance Germany.",
+      "translations": {
+        "en": {
+          "tag": "Technology & economy",
+          "author": "Editorial Desk",
+          "date": "29 July 2026",
+          "title": "Bangladesh awaits a silicon revolution: a billion-dollar goal and five tests of reality",
+          "excerpt": "Bangladesh's semiconductor exports remain small, but a real base is emerging in design, verification, testing and packaging. Reaching the one-billion-dollar target by 2030 now requires skills, infrastructure and measurable execution—not more announcements.",
+          "imageAlt": "Editorial illustration of a microchip, circuit pathways and Bangladesh's emerging knowledge economy",
+          "imageCredit": "Original editorial illustration prepared for NCP Diaspora Alliance Germany.",
+          "facts": [
+            {
+              "value": "$1.5 trillion",
+              "label": "WSTS's latest forecast for the global semiconductor market in 2026."
+            },
+            {
+              "value": "$8M+ exports",
+              "label": "Bangladesh's 2024 semiconductor exports reported by BIDA."
+            },
+            {
+              "value": "700+ designers",
+              "label": "The chip-design talent base identified on BIDA's investment portal."
+            },
+            {
+              "value": "$1B target",
+              "label": "The sector's 2030 export ambition—about 125 times the 2024 baseline."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Semiconductors are not simply another fashionable technology sector. They underpin artificial intelligence, data centres, telecommunications, vehicles, medical devices, energy systems and household electronics. WSTS's latest forecast places the 2026 global market at roughly $1.5 trillion. For Bangladesh, the relevant question is therefore not whether chips matter, but which parts of this complex value chain the country can enter credibly."
+            },
+            {
+              "type": "heading",
+              "text": "Bangladesh is not starting from zero"
+            },
+            {
+              "type": "paragraph",
+              "text": "BIDA reports more than $8 million in semiconductor exports in 2024, over 700 chip designers and more than 20,000 annual graduates in CSE and EEE. A July 2026 industry assessment cited by The Daily Star estimates that around 1,200 engineers now work across semiconductor-related companies and places annual sector revenue at $12–15 million. The figures use different years and measures—exports versus wider industry revenue—but together they indicate an ecosystem that is small and growing."
+            },
+            {
+              "type": "paragraph",
+              "text": "There are concrete signs of capability. Ulkasemi, founded in 2007, says it now employs more than 600 engineers across four international design centres and has been a TSMC Design Center Alliance partner since 2021. Neural Semiconductor has expanded beyond 200 engineers. In July 2026, BUET received the fabricated chip for Pragati v1 after the successful tape-out of its open-source 32-bit RISC-V processor. These achievements are not yet a mass industry, but they show that Bangladesh can deliver specialised engineering work."
+            },
+            {
+              "type": "callout",
+              "text": "The sensible ambition is not to announce an advanced wafer fab tomorrow. It is to build a globally trusted design, verification, testing and packaging ecosystem step by step."
+            },
+            {
+              "type": "heading",
+              "text": "Why a design-first strategy is realistic"
+            },
+            {
+              "type": "paragraph",
+              "text": "Leading-edge fabrication plants can require investments of tens of billions of dollars, uninterrupted utilities, ultra-pure water, complex chemicals and a mature supplier network. Bangladesh does not yet possess that foundation. Chip design and verification are more knowledge-intensive than capital-intensive, while OSAT or ATMP—assembly, testing, marking and packaging—offers a possible next industrial step if quality, certification and logistics requirements are met."
+            },
+            {
+              "type": "paragraph",
+              "text": "A staged strategy also reduces public risk. Bangladesh can first deepen IC design, analogue and RF layout, verification, embedded systems, RISC-V research and test engineering; then establish shared laboratories and internationally certified pilot packaging facilities. A fabrication project should be considered only when independent feasibility studies demonstrate reliable demand, infrastructure, partners and long-term financing."
+            },
+            {
+              "type": "heading",
+              "text": "The $1 billion target must be treated as a target—not a forecast"
+            },
+            {
+              "type": "paragraph",
+              "text": "BIDA and industry bodies cite an ambition to raise semiconductor exports from more than $8 million in 2024 to $1 billion by 2030. That is an increase of roughly 125 times in six years. It is possible only with several large new design centres, rapid growth of experienced technical leadership, export clients and operational testing or packaging facilities. Publishing the headline without annual milestones would turn an industrial strategy into a slogan."
+            },
+            {
+              "type": "paragraph",
+              "text": "The government should publish a single measurement framework: how many engineers are genuinely working in semiconductors, how much revenue is export revenue, how many trainees secure relevant jobs, how many firms hold global quality certifications, and how much private investment has actually been deployed. Otherwise, changing definitions can create the appearance of progress without comparable results."
+            },
+            {
+              "type": "heading",
+              "text": "Policy progress—and the execution gap"
+            },
+            {
+              "type": "paragraph",
+              "text": "The national taskforce led by BIDA was approved in January 2025 with a focus on design, testing and assembly. The FY2026–27 budget then extended major duty and tax concessions for chip design, testing and packaging inputs until June 2031, generally retaining a one per cent import duty. These are useful signals of policy continuity. But firms will judge the state by customs clearance time, lawful access to EDA tools and semiconductor IP, reliable power and connectivity, research funding, investor approvals and the supply of job-ready engineers."
+            },
+            {
+              "type": "heading",
+              "text": "Five tests that will decide success"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Talent: modernise VLSI, microelectronics and verification curricula; fund faculty training and require paid, industry-supervised internships.",
+                "Tools: create a lawfully licensed national EDA and IP-access platform for universities and qualified startups, with strict cybersecurity and usage controls.",
+                "Infrastructure: set measurable service standards for power, high-speed connectivity, customs, specialist visas, laboratories and prototype imports.",
+                "Capital and quality: finance shared test and packaging facilities only through transparent milestones tied to certification, private co-investment, jobs and exports.",
+                "Trust: strengthen intellectual-property protection, data security, export-control compliance and independent evaluation so global clients can assign sensitive work with confidence."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "A practical 2026–2030 roadmap"
+            },
+            {
+              "type": "paragraph",
+              "text": "Within one year, the government should publish the taskforce roadmap, budget, responsible agencies and quarterly dashboard; launch shared EDA access; and align at least ten university programmes with industry requirements. The next stage should support design houses of meaningful scale, a national centre of excellence, internationally certified testing capability and pilot ATMP or OSAT facilities backed by credible private partners. Incentives should be released against verified performance, not promises."
+            },
+            {
+              "type": "paragraph",
+              "text": "The diaspora can shorten the experience gap. Bangladeshi engineers in Germany, the United States, Taiwan, Japan and other semiconductor centres can mentor teams, review curricula, connect research laboratories and help local firms meet global procurement and quality standards. A structured expert registry and time-bound visiting-engineer programme would be more useful than ceremonial advisory panels."
+            },
+            {
+              "type": "heading",
+              "text": "The political choice: prestige project or productive ecosystem?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bangladesh's history contains ambitious technology announcements that did not produce durable institutions. The semiconductor strategy must avoid that pattern. Government deserves credit for the taskforce and longer-term fiscal incentives; it must now accept public scrutiny of delivery. A costly showcase fab without customers and infrastructure would be a liability. Thousands of capable engineers, competitive design firms, trusted laboratories and export clients would constitute a real industry."
+            },
+            {
+              "type": "callout",
+              "text": "Bangladesh will not become a silicon hub through cheap labour or slogans. It can become one by valuing knowledge, protecting merit and making every public incentive answerable to measurable results."
+            },
+            {
+              "type": "paragraph",
+              "text": "The opportunity is genuine, but so is the execution risk. If policy remains stable, universities and firms work as one talent system, and diaspora expertise is connected to accountable investment, Bangladesh can earn a credible place in the semiconductor value chain. The first victory will not be a 'Made in Bangladesh' leading-edge chip. It will be a trusted, export-earning knowledge ecosystem that can steadily move into more complex work."
+            },
+            {
+              "type": "paragraph",
+              "text": "Editorial note: Market forecasts change quickly. Global-market figures reflect WSTS's latest available forecast, while Bangladesh figures come from BIDA and industry estimates that use different years and scopes. The 2030 figure is an ambition, not a guaranteed projection."
+            }
+          ],
+          "sources": [
+            {
+              "label": "BIDA: Bangladesh's semiconductor investment sector",
+              "url": "https://investbangladesh.gov.bd/investment-sector/semiconductor"
+            },
+            {
+              "label": "WSTS: Spring 2026 global market forecast",
+              "url": "https://www.wsts.org/76/Recent-News-Release"
+            },
+            {
+              "label": "The Daily Star: Bangladesh steps up in the global chip race",
+              "url": "https://www.thedailystar.net/business/economy/news/bangladesh-steps-global-chip-race-4231056"
+            },
+            {
+              "label": "BSS: Interview with Ulkasemi CEO",
+              "url": "https://www.bssnews.net/interview/404466"
+            },
+            {
+              "label": "TBS: The $1bn ambition enters its execution phase",
+              "url": "https://www.tbsnews.net/economy/industry/bangladeshs-1b-semiconductor-ambition-now-faces-critical-execution-phase-1497236"
+            },
+            {
+              "label": "TBS: BUET's open-source 32-bit RISC-V processor",
+              "url": "https://www.tbsnews.net/economy/corporates/buet-develops-open-source-32-bit-risc-v-processor-1489691"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Technologie & Wirtschaft",
+          "author": "Redaktion",
+          "date": "29. Juli 2026",
+          "title": "Bangladesch wartet auf die Siliziumrevolution: ein Milliarden-Ziel und fünf Realitätstests",
+          "excerpt": "Bangladeschs Halbleiterexporte sind noch klein, doch in Design, Verifikation, Test und Packaging entsteht eine reale Basis. Für das Milliardenziel bis 2030 braucht es jetzt Kompetenzen, Infrastruktur und messbare Umsetzung statt weiterer Ankündigungen.",
+          "imageAlt": "Redaktionelle Illustration eines Mikrochips, von Leiterbahnen und Bangladeschs entstehender wissensbasierter Wirtschaft",
+          "imageCredit": "Originale redaktionelle Illustration für die NCP Diaspora Alliance Germany.",
+          "facts": [
+            {
+              "value": "1,5 Bio. USD",
+              "label": "Neueste WSTS-Prognose für den globalen Halbleitermarkt 2026."
+            },
+            {
+              "value": "8 Mio. USD+",
+              "label": "Von BIDA gemeldete Halbleiterexporte Bangladeschs im Jahr 2024."
+            },
+            {
+              "value": "700+ Designer",
+              "label": "Der auf dem BIDA-Investitionsportal ausgewiesene Talentpool im Chipdesign."
+            },
+            {
+              "value": "1 Mrd. USD Ziel",
+              "label": "Exportziel für 2030 – etwa das 125-Fache der Basis von 2024."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Halbleiter sind nicht bloß ein weiterer modischer Technologiesektor. Sie bilden die Grundlage für künstliche Intelligenz, Rechenzentren, Telekommunikation, Fahrzeuge, Medizintechnik, Energiesysteme und Haushaltselektronik. Die neueste WSTS-Prognose beziffert den Weltmarkt 2026 auf rund 1,5 Billionen US-Dollar. Für Bangladesch lautet die entscheidende Frage daher nicht, ob Chips wichtig sind, sondern in welche Teile dieser komplexen Wertschöpfungskette das Land glaubwürdig einsteigen kann."
+            },
+            {
+              "type": "heading",
+              "text": "Bangladesch beginnt nicht bei null"
+            },
+            {
+              "type": "paragraph",
+              "text": "BIDA nennt für 2024 mehr als acht Millionen US-Dollar Halbleiterexporte, über 700 Chipdesigner und jährlich mehr als 20.000 Absolventinnen und Absolventen in CSE und EEE. Eine von The Daily Star zitierte Branchenbewertung vom Juli 2026 schätzt rund 1.200 Beschäftigte in Halbleiterunternehmen und einen jährlichen Branchenumsatz von 12 bis 15 Millionen US-Dollar. Die Angaben betreffen unterschiedliche Jahre und Größen – Exporte gegenüber breiterem Branchenumsatz –, zeigen zusammen aber ein kleines, wachsendes Ökosystem."
+            },
+            {
+              "type": "paragraph",
+              "text": "Es gibt konkrete Leistungsnachweise. Ulkasemi wurde 2007 gegründet, beschäftigt nach eigenen Angaben mehr als 600 Ingenieurinnen und Ingenieure in vier internationalen Designzentren und ist seit 2021 Partner der TSMC Design Center Alliance. Neural Semiconductor ist auf über 200 Beschäftigte gewachsen. Im Juli 2026 erhielt die BUET nach dem erfolgreichen Tape-out den gefertigten Chip des quelloffenen 32-Bit-RISC-V-Prozessors Pragati v1. Das ist noch keine Massenindustrie, belegt aber spezialisierte technische Fähigkeiten."
+            },
+            {
+              "type": "callout",
+              "text": "Die vernünftige Ambition ist nicht, morgen eine hochmoderne Wafer-Fab anzukündigen. Sie besteht darin, Schritt für Schritt ein weltweit vertrauenswürdiges Ökosystem für Design, Verifikation, Test und Packaging aufzubauen."
+            },
+            {
+              "type": "heading",
+              "text": "Warum eine Design-first-Strategie realistisch ist"
+            },
+            {
+              "type": "paragraph",
+              "text": "Führende Fertigungsanlagen können Investitionen von mehreren zehn Milliarden US-Dollar, unterbrechungsfreie Versorgung, Reinstwasser, Spezialchemikalien und ein reifes Zuliefernetz verlangen. Diese Basis besitzt Bangladesch noch nicht. Chipdesign und Verifikation sind stärker wissens- als kapitalintensiv; OSAT beziehungsweise ATMP – Montage, Test, Markierung und Packaging – kann ein nächster industrieller Schritt sein, wenn Qualitäts-, Zertifizierungs- und Logistikanforderungen erfüllt werden."
+            },
+            {
+              "type": "paragraph",
+              "text": "Eine gestufte Strategie senkt zudem das öffentliche Risiko. Zunächst kann Bangladesch IC-Design, Analog- und RF-Layout, Verifikation, eingebettete Systeme, RISC-V-Forschung und Testtechnik vertiefen; anschließend gemeinsame Labore und international zertifizierte Pilotanlagen für Packaging schaffen. Eine Fab sollte erst erwogen werden, wenn unabhängige Machbarkeitsstudien Nachfrage, Infrastruktur, Partner und langfristige Finanzierung belegen."
+            },
+            {
+              "type": "heading",
+              "text": "Das Milliarden-Ziel ist ein Ziel – keine Prognose"
+            },
+            {
+              "type": "paragraph",
+              "text": "BIDA und Branchenverbände nennen das Ziel, die Halbleiterexporte von mehr als acht Millionen US-Dollar 2024 auf eine Milliarde bis 2030 zu steigern. Das entspricht ungefähr dem 125-Fachen in sechs Jahren. Dafür wären mehrere große neue Designzentren, rasch wachsende erfahrene technische Führung, Exportkunden sowie funktionierende Test- oder Packaging-Anlagen nötig. Ohne jährliche Zwischenziele wird aus einer Industriestrategie schnell ein Slogan."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Regierung sollte einen einheitlichen Messrahmen veröffentlichen: Wie viele Fachkräfte arbeiten tatsächlich in der Halbleiterbranche? Welcher Umsatz ist Exportumsatz? Wie viele Teilnehmende erhalten einschlägige Stellen? Wie viele Unternehmen besitzen internationale Qualitätszertifikate? Wie viel privates Kapital wurde wirklich investiert? Sonst können wechselnde Definitionen Fortschritt vortäuschen, ohne vergleichbare Ergebnisse zu liefern."
+            },
+            {
+              "type": "heading",
+              "text": "Politischer Fortschritt – und die Umsetzungslücke"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die von BIDA geleitete nationale Taskforce wurde im Januar 2025 mit Fokus auf Design, Test und Montage beschlossen. Im Haushalt 2026/27 wurden wichtige Zoll- und Steuererleichterungen für Design-, Test- und Packaging-Inputs bis Juni 2031 verlängert; grundsätzlich bleibt ein Einfuhrzoll von einem Prozent. Das sind nützliche Signale politischer Kontinuität. Unternehmen werden den Staat jedoch an Zollabfertigungszeiten, rechtmäßigem Zugang zu EDA-Werkzeugen und Halbleiter-IP, zuverlässiger Energie und Konnektivität, Forschungsfinanzierung, Genehmigungen und arbeitsmarktfähigen Fachkräften messen."
+            },
+            {
+              "type": "heading",
+              "text": "Fünf Tests entscheiden über den Erfolg"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Talente: Lehrpläne für VLSI, Mikroelektronik und Verifikation modernisieren, Weiterbildung der Lehrenden finanzieren und bezahlte, von der Industrie betreute Praktika verlangen.",
+                "Werkzeuge: Eine rechtmäßig lizenzierte nationale Plattform für EDA- und IP-Zugang für Hochschulen und qualifizierte Start-ups mit strengen Regeln für Cybersicherheit und Nutzung aufbauen.",
+                "Infrastruktur: Messbare Servicestandards für Strom, schnelle Netze, Zoll, Spezialistenvisa, Labore und Prototypimporte festlegen.",
+                "Kapital und Qualität: Gemeinsame Test- und Packaging-Anlagen nur über transparente Meilensteine finanzieren, die an Zertifizierung, private Kofinanzierung, Arbeitsplätze und Exporte gebunden sind.",
+                "Vertrauen: Schutz geistigen Eigentums, Datensicherheit, Exportkontroll-Compliance und unabhängige Evaluation stärken, damit globale Kunden sensible Aufträge zuverlässig vergeben können."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Ein praktischer Fahrplan 2026–2030"
+            },
+            {
+              "type": "paragraph",
+              "text": "Innerhalb eines Jahres sollte die Regierung Fahrplan, Budget, zuständige Stellen und ein vierteljährliches Dashboard der Taskforce veröffentlichen, gemeinsamen EDA-Zugang starten und mindestens zehn Hochschulprogramme an Branchenanforderungen ausrichten. Danach sollten Designhäuser relevanter Größe, ein nationales Exzellenzzentrum, international zertifizierte Testkapazitäten und Pilotanlagen für ATMP oder OSAT mit glaubwürdigen privaten Partnern folgen. Förderungen sollten gegen nachgewiesene Leistung und nicht gegen Versprechen ausgezahlt werden."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Diaspora kann die Erfahrungslücke verkürzen. Bangladeschische Ingenieurinnen und Ingenieure in Deutschland, den USA, Taiwan, Japan und anderen Halbleiterstandorten können Teams begleiten, Lehrpläne prüfen, Labore vernetzen und lokale Unternehmen bei globalen Beschaffungs- und Qualitätsstandards unterstützen. Ein strukturiertes Expertenregister und ein befristetes Gastingenieurprogramm wären nützlicher als zeremonielle Beratungsgremien."
+            },
+            {
+              "type": "heading",
+              "text": "Die politische Wahl: Prestigeprojekt oder produktives Ökosystem?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Bangladeschs Geschichte kennt ehrgeizige Technologieankündigungen ohne dauerhafte Institutionen. Die Halbleiterstrategie muss dieses Muster vermeiden. Für Taskforce und langfristige fiskalische Anreize verdient die Regierung Anerkennung; nun muss sie öffentliche Kontrolle der Umsetzung akzeptieren. Eine teure Vorzeige-Fab ohne Kunden und Infrastruktur wäre eine Belastung. Tausende fähige Fachkräfte, wettbewerbsfähige Designfirmen, vertrauenswürdige Labore und Exportkunden wären eine wirkliche Industrie."
+            },
+            {
+              "type": "callout",
+              "text": "Bangladesch wird weder durch billige Arbeit noch durch Slogans zum Siliziumstandort. Es kann einer werden, wenn Wissen Wert erhält, Leistung geschützt wird und jeder öffentliche Anreiz messbaren Ergebnissen verpflichtet ist."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Chance ist real, das Umsetzungsrisiko ebenso. Bleibt die Politik stabil, arbeiten Hochschulen und Unternehmen als gemeinsames Talentsystem und wird Diaspora-Wissen mit verantwortlicher Investition verbunden, kann Bangladesch einen glaubwürdigen Platz in der Halbleiterwertschöpfung gewinnen. Der erste Sieg wird kein hochmoderner Chip mit der Aufschrift „Made in Bangladesh“ sein, sondern ein vertrauenswürdiges, exportierendes Wissensökosystem, das schrittweise komplexere Aufgaben übernimmt."
+            },
+            {
+              "type": "paragraph",
+              "text": "Redaktioneller Hinweis: Marktprognosen ändern sich schnell. Die globale Zahl folgt der neuesten verfügbaren WSTS-Prognose; die Angaben zu Bangladesch stammen von BIDA und Branchenschätzungen mit unterschiedlichen Jahren und Abgrenzungen. Die Zahl für 2030 ist ein Ziel, keine garantierte Prognose."
+            }
+          ],
+          "sources": [
+            {
+              "label": "BIDA: Halbleiter als Investitionssektor in Bangladesch",
+              "url": "https://investbangladesh.gov.bd/investment-sector/semiconductor"
+            },
+            {
+              "label": "WSTS: Globale Marktprognose Frühjahr 2026",
+              "url": "https://www.wsts.org/76/Recent-News-Release"
+            },
+            {
+              "label": "The Daily Star: Bangladesch im globalen Chip-Wettlauf",
+              "url": "https://www.thedailystar.net/business/economy/news/bangladesh-steps-global-chip-race-4231056"
+            },
+            {
+              "label": "BSS: Interview mit dem Ulkasemi-CEO",
+              "url": "https://www.bssnews.net/interview/404466"
+            },
+            {
+              "label": "TBS: Das Milliarden-Ziel in der Umsetzungsphase",
+              "url": "https://www.tbsnews.net/economy/industry/bangladeshs-1b-semiconductor-ambition-now-faces-critical-execution-phase-1497236"
+            },
+            {
+              "label": "TBS: Der quelloffene 32-Bit-RISC-V-Prozessor der BUET",
+              "url": "https://www.tbsnews.net/economy/corporates/buet-develops-open-source-32-bit-risc-v-processor-1489691"
+            }
+          ]
+        }
+      },
+      "facts": [
+        {
+          "value": "$১.৫ ট্রিলিয়ন",
+          "label": "২০২৬ সালের বৈশ্বিক সেমিকন্ডাক্টর বাজার নিয়ে WSTS-এর সর্বশেষ পূর্বাভাস।"
+        },
+        {
+          "value": "$৮ মিলিয়ন+",
+          "label": "২০২৪ সালে বাংলাদেশের সেমিকন্ডাক্টর রপ্তানি—BIDA-এর তথ্য।"
+        },
+        {
+          "value": "৭০০+ ডিজাইনার",
+          "label": "BIDA-এর বিনিয়োগ পোর্টালে চিহ্নিত দেশের চিপ-ডিজাইন জনবল।"
+        },
+        {
+          "value": "$১ বিলিয়ন লক্ষ্য",
+          "label": "২০৩০ সালের রপ্তানি আকাঙ্ক্ষা—২০২৪ সালের ভিত্তির প্রায় ১২৫ গুণ।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "সেমিকন্ডাক্টর কেবল আরেকটি আলোচিত প্রযুক্তিখাত নয়। কৃত্রিম বুদ্ধিমত্তা, ডেটা সেন্টার, টেলিযোগাযোগ, গাড়ি, চিকিৎসা যন্ত্র, বিদ্যুৎব্যবস্থা থেকে গৃহস্থালি ইলেকট্রনিকস—সবকিছুর ভিত্তিতে চিপ রয়েছে। WSTS-এর সর্বশেষ পূর্বাভাসে ২০২৬ সালের বৈশ্বিক বাজার প্রায় ১.৫ ট্রিলিয়ন ডলার। বাংলাদেশের জন্য তাই আসল প্রশ্ন ‘চিপ গুরুত্বপূর্ণ কি না’ নয়; এই জটিল মূল্যশৃঙ্খলের কোন অংশে আমরা বিশ্বাসযোগ্যভাবে প্রবেশ করতে পারি।"
+        },
+        {
+          "type": "heading",
+          "text": "বাংলাদেশ শূন্য থেকে শুরু করছে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "BIDA-এর হিসাবে ২০২৪ সালে সেমিকন্ডাক্টর রপ্তানি ৮ মিলিয়ন ডলারের বেশি, দেশে ৭০০-এর বেশি চিপ ডিজাইনার এবং বছরে CSE ও EEE থেকে ২০ হাজারের বেশি গ্র্যাজুয়েট তৈরি হয়। অন্যদিকে ২০২৬ সালের জুলাইয়ে The Daily Star-এ প্রকাশিত শিল্পখাতের হিসাবে সেমিকন্ডাক্টর-সংশ্লিষ্ট প্রতিষ্ঠানে প্রায় ১,২০০ প্রকৌশলী এবং বার্ষিক খাত-রাজস্ব ১২–১৫ মিলিয়ন ডলার। বছর ও মাপকাঠি—রপ্তানি বনাম বিস্তৃত শিল্প-রাজস্ব—এক নয়; তবে দুটি তথ্যই ছোট কিন্তু বাড়তে থাকা একটি ইকোসিস্টেমের ইঙ্গিত দেয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সক্ষমতার বাস্তব উদাহরণও আছে। ২০০৭ সালে প্রতিষ্ঠিত Ulkasemi এখন চারটি আন্তর্জাতিক ডিজাইন সেন্টারে ৬০০-এর বেশি প্রকৌশলী নিয়োজিত থাকার কথা জানায় এবং ২০২১ সাল থেকে TSMC Design Center Alliance-এর অংশীদার। Neural Semiconductor-এর প্রকৌশলী সংখ্যা ২০০ ছাড়িয়েছে। ২০২৬ সালের জুলাইয়ে BUET-এর ওপেন-সোর্স ৩২-বিট RISC-V প্রসেসর Pragati v1 সফল tape-out-এর পর fabricated chip হাতে পেয়েছে। এগুলো এখনো গণশিল্প নয়, কিন্তু বিশেষায়িত প্রকৌশল কাজ সম্পন্ন করার সক্ষমতা প্রমাণ করে।"
+        },
+        {
+          "type": "callout",
+          "text": "বাস্তবসম্মত লক্ষ্য আগামীকালই অত্যাধুনিক wafer fab ঘোষণার মধ্যে নয়; ধাপে ধাপে বিশ্বস্ত design, verification, testing ও packaging ecosystem গড়ার মধ্যে।"
+        },
+        {
+          "type": "heading",
+          "text": "কেন design-first কৌশল বাস্তবসম্মত"
+        },
+        {
+          "type": "paragraph",
+          "text": "অত্যাধুনিক fabrication plant-এ কয়েক দশ বিলিয়ন ডলার বিনিয়োগ, নিরবচ্ছিন্ন বিদ্যুৎ ও পরিষেবা, ultra-pure water, জটিল chemical supply এবং পরিণত supplier network প্রয়োজন হতে পারে। বাংলাদেশের এখনো সেই ভিত্তি নেই। চিপ design ও verification মূলধনের চেয়ে জ্ঞাননির্ভর; আর OSAT বা ATMP—assembly, testing, marking ও packaging—আন্তর্জাতিক quality, certification ও logistics শর্ত পূরণ করা গেলে পরবর্তী শিল্পধাপ হতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ধাপভিত্তিক কৌশল জনগণের অর্থের ঝুঁকিও কমায়। প্রথমে IC design, analogue ও RF layout, verification, embedded systems, RISC-V গবেষণা এবং test engineering গভীর করা যায়; এরপর shared laboratory ও আন্তর্জাতিকভাবে certified pilot packaging facility। স্বাধীন feasibility study-তে নির্ভরযোগ্য demand, infrastructure, partner ও দীর্ঘমেয়াদি অর্থায়ন প্রমাণিত হলেই fabrication প্রকল্প বিবেচনা করা উচিত।"
+        },
+        {
+          "type": "heading",
+          "text": "$১ বিলিয়নের লক্ষ্যকে forecast নয়, লক্ষ্য হিসেবেই দেখতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "BIDA ও শিল্প সংগঠনগুলো ২০২৪ সালের ৮ মিলিয়ন ডলারের বেশি রপ্তানিকে ২০৩০ সালে ১ বিলিয়নে নেওয়ার আকাঙ্ক্ষা প্রকাশ করেছে। ছয় বছরে এটি প্রায় ১২৫ গুণ বৃদ্ধি। এই লক্ষ্য অর্জনে একাধিক বড় design centre, দ্রুত অভিজ্ঞ technical leadership তৈরি, export client এবং কার্যকর testing বা packaging facility দরকার। বার্ষিক milestone ছাড়া শুধু শিরোনামটি প্রকাশ করলে শিল্পকৌশল স্লোগানে পরিণত হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারকে একক measurement framework প্রকাশ করতে হবে: প্রকৃতপক্ষে কত প্রকৌশলী সেমিকন্ডাক্টরে কাজ করছেন, মোট রাজস্বের কতটুকু রপ্তানি, প্রশিক্ষণপ্রাপ্তদের কতজন প্রাসঙ্গিক চাকরি পাচ্ছেন, কত প্রতিষ্ঠান বৈশ্বিক মানসনদ অর্জন করেছে এবং কত private investment বাস্তবে এসেছে। তা না হলে সংজ্ঞা বদলে তুলনাযোগ্য ফল ছাড়াই অগ্রগতির ছবি তৈরি হতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "নীতিগত অগ্রগতি আছে—এখন বাস্তবায়নের ব্যবধান কমাতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "Design, testing ও assembly-কে অগ্রাধিকার দিয়ে BIDA-নেতৃত্বাধীন জাতীয় taskforce ২০২৫ সালের জানুয়ারিতে অনুমোদিত হয়। এরপর ২০২৬–২৭ অর্থবছরের বাজেটে chip design, testing ও packaging-এর উপকরণে বড় ধরনের duty ও tax concession ২০৩১ সালের জুন পর্যন্ত বাড়ানো হয়েছে; সাধারণভাবে ১ শতাংশ import duty রাখা হয়েছে। এগুলো নীতির ধারাবাহিকতার ইতিবাচক সংকেত। কিন্তু প্রতিষ্ঠানগুলো সরকারকে বিচার করবে customs clearance-এর সময়, আইনসম্মত EDA ও semiconductor IP access, নির্ভরযোগ্য বিদ্যুৎ-ইন্টারনেট, research funding, investor approval এবং job-ready engineer তৈরির ফল দিয়ে।"
+        },
+        {
+          "type": "heading",
+          "text": "সাফল্য নির্ধারণ করবে যে পাঁচ পরীক্ষা"
+        },
+        {
+          "type": "list",
+          "items": [
+            "দক্ষতা: VLSI, microelectronics ও verification curriculum আধুনিক করা; faculty training অর্থায়ন এবং industry-supervised paid internship বাধ্যতামূলক করা।",
+            "টুলস: কঠোর cybersecurity ও ব্যবহারবিধিসহ বিশ্ববিদ্যালয় ও যোগ্য startup-এর জন্য আইনসম্মত licensed national EDA ও IP-access platform গড়া।",
+            "অবকাঠামো: বিদ্যুৎ, উচ্চগতির সংযোগ, customs, specialist visa, laboratory এবং prototype import-এর জন্য পরিমাপযোগ্য service standard নির্ধারণ করা।",
+            "মূলধন ও মান: certification, private co-investment, কর্মসংস্থান ও রপ্তানির যাচাইকৃত milestone-এর সঙ্গে যুক্ত করেই shared testing ও packaging facility অর্থায়ন করা।",
+            "আস্থা: intellectual-property protection, data security, export-control compliance ও independent evaluation শক্তিশালী করা, যাতে বৈশ্বিক client সংবেদনশীল কাজ দিতে আস্থা পায়।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "২০২৬–২০৩০: একটি ব্যবহারযোগ্য রোডম্যাপ"
+        },
+        {
+          "type": "paragraph",
+          "text": "এক বছরের মধ্যে taskforce-এর roadmap, budget, দায়িত্বপ্রাপ্ত সংস্থা ও quarterly dashboard প্রকাশ; shared EDA access চালু; এবং অন্তত ১০টি বিশ্ববিদ্যালয় প্রোগ্রামকে industry requirement-এর সঙ্গে সামঞ্জস্য করা উচিত। পরবর্তী ধাপে অর্থবহ আকারের design house, national centre of excellence, আন্তর্জাতিকভাবে certified testing capability এবং বিশ্বাসযোগ্য private partner-সমর্থিত pilot ATMP বা OSAT facility গড়তে হবে। প্রতিশ্রুতির ভিত্তিতে নয়, যাচাইকৃত ফলের ভিত্তিতে প্রণোদনা ছাড় করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রবাসী প্রকৌশলীরা অভিজ্ঞতার ব্যবধান দ্রুত কমাতে পারেন। জার্মানি, যুক্তরাষ্ট্র, তাইওয়ান, জাপান ও অন্যান্য semiconductor hub-এ থাকা বাংলাদেশিরা দলকে mentor, curriculum review, research laboratory সংযোগ এবং global procurement ও quality standard অর্জনে সহায়তা করতে পারেন। আনুষ্ঠানিক advisory panel-এর চেয়ে structured expert registry ও সময়বদ্ধ visiting-engineer programme বেশি কার্যকর হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "রাজনৈতিক সিদ্ধান্ত: প্রদর্শনী প্রকল্প, নাকি উৎপাদনশীল ইকোসিস্টেম?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশে উচ্চাভিলাষী প্রযুক্তি ঘোষণার পরও টেকসই প্রতিষ্ঠান তৈরি না হওয়ার নজির আছে। সেমিকন্ডাক্টর কৌশলকে সেই পথ এড়াতে হবে। Taskforce ও দীর্ঘমেয়াদি fiscal incentive-এর জন্য সরকার কৃতিত্ব পেতে পারে; এখন বাস্তবায়নের জনপর্যবেক্ষণও মেনে নিতে হবে। গ্রাহক ও অবকাঠামোহীন ব্যয়বহুল প্রদর্শনী fab হবে দায়; হাজারো দক্ষ প্রকৌশলী, প্রতিযোগিতামূলক design firm, বিশ্বস্ত laboratory ও export client-ই হবে বাস্তব শিল্প।"
+        },
+        {
+          "type": "callout",
+          "text": "সস্তা শ্রম বা স্লোগানে বাংলাদেশ silicon hub হবে না। জ্ঞানের মূল্য, মেধার সুরক্ষা এবং প্রতিটি সরকারি প্রণোদনাকে পরিমাপযোগ্য ফলের কাছে জবাবদিহি করেই তা সম্ভব।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সুযোগটি বাস্তব, বাস্তবায়নের ঝুঁকিও বাস্তব। নীতি স্থিতিশীল থাকলে, বিশ্ববিদ্যালয় ও প্রতিষ্ঠান একীভূত talent system হিসেবে কাজ করলে এবং প্রবাসী দক্ষতা জবাবদিহিমূলক বিনিয়োগে যুক্ত হলে বাংলাদেশ সেমিকন্ডাক্টর value chain-এ বিশ্বাসযোগ্য স্থান অর্জন করতে পারে। প্রথম বিজয় ‘Made in Bangladesh’ লেখা অত্যাধুনিক chip হবে না; হবে রপ্তানি-আয়কারী বিশ্বস্ত knowledge ecosystem, যা ধীরে ধীরে আরও জটিল কাজ গ্রহণ করবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সম্পাদকীয় নোট: বাজারের পূর্বাভাস দ্রুত বদলে যায়। বৈশ্বিক বাজারের সংখ্যা WSTS-এর সর্বশেষ পাওয়া forecast; বাংলাদেশের তথ্য BIDA ও ভিন্ন বছর ও পরিধির শিল্পখাতের estimate থেকে নেওয়া। ২০৩০ সালের সংখ্যাটি একটি আকাঙ্ক্ষা—নিশ্চিত পূর্বাভাস নয়।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BIDA: বাংলাদেশের সেমিকন্ডাক্টর বিনিয়োগখাত",
+          "url": "https://investbangladesh.gov.bd/investment-sector/semiconductor"
+        },
+        {
+          "label": "WSTS: ২০২৬ সালের সর্বশেষ বৈশ্বিক বাজার পূর্বাভাস",
+          "url": "https://www.wsts.org/76/Recent-News-Release"
+        },
+        {
+          "label": "The Daily Star: বৈশ্বিক chip race-এ বাংলাদেশের অগ্রগতি",
+          "url": "https://www.thedailystar.net/business/economy/news/bangladesh-steps-global-chip-race-4231056"
+        },
+        {
+          "label": "BSS: Ulkasemi CEO-এর সাক্ষাৎকার",
+          "url": "https://www.bssnews.net/interview/404466"
+        },
+        {
+          "label": "TBS: এক বিলিয়ন ডলারের লক্ষ্য ও বাস্তবায়নের পরীক্ষা",
+          "url": "https://www.tbsnews.net/economy/industry/bangladeshs-1b-semiconductor-ambition-now-faces-critical-execution-phase-1497236"
+        },
+        {
+          "label": "TBS: BUET-এর open-source 32-bit RISC-V processor",
+          "url": "https://www.tbsnews.net/economy/corporates/buet-develops-open-source-32-bit-risc-v-processor-1489691"
+        }
+      ]
+    },
+    {
       "id": "no-new-dominance-ncp-political-test",
       "slug": "no-new-dominance-ncp-political-test",
       "status": "published",
