@@ -1,5 +1,44 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T23:38:55.263Z",
-  "items": []
+  "updatedAt": "2026-07-29T23:47:41.265Z",
+  "items": [
+    {
+      "id": "facebook-122197517390921031-ddd78d972e",
+      "sourceType": "facebook",
+      "sourceId": "122197517390921031",
+      "sourceKey": "facebook:germany:122197517390921031",
+      "sourceFingerprint": "ddd78d972e2aadee816ba14653817e23aeecc65511ddfdd460cbd2ec7c740681",
+      "sourceCreatedAt": "2026-07-29T23:38:55+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1618018973176957/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-07-29T23:47:41.265Z",
+      "updatedAt": "2026-07-29T23:47:41.265Z",
+      "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
+      "excerpt": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
+      "sourceCaption": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
+      "image": "img/social/germany/fb-122197517390921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "pending",
+          "attempts": 0,
+          "text": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\nhttps://www.facebook.com/reel/1618018973176957/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg"
+        },
+        "tiktok": {
+          "status": "pending",
+          "attempts": 0,
+          "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
+          "description": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\n\nএকজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/1618018973176957/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122197517390921031-ddd78d972e-tiktok.jpg"
+          ]
+        }
+      }
+    }
+  ]
 }
