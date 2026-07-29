@@ -7,6 +7,17 @@
     "generate:blog-previews": "node scripts/generate-blog-share-pages.mjs",
     "sync:facebook": "node scripts/sync-facebook.mjs",
     "sync:facebook-events": "node scripts/sync-facebook-events.mjs",
-    "validate": "node scripts/validate-site.mjs"
+    "validate": "node scripts/validate-site.mjs",
+    "social:seed": "node scripts/social-publisher.mjs seed",
+    "social:auth": "node scripts/social-publisher.mjs auth",
+    "social:prepare": "node scripts/social-publisher.mjs prepare",
+    "social:status": "node scripts/social-publisher.mjs status",
+    "social:claim": "node scripts/social-publisher.mjs claim",
+    "social:execute": "node scripts/social-publisher.mjs execute",
+    "social:reconcile": "node scripts/social-publisher.mjs reconcile",
+    "test:social": "node scripts/test-social-publisher.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.3"
   }
 }

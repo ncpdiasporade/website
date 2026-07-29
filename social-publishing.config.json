@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "siteUrl": "https://ncpdagermany.de",
+  "facebookSourceKeys": [
+    "germany"
+  ],
+  "policy": {
+    "facebook": "automatic",
+    "blog": "approval-required"
+  },
+  "platforms": [
+    "x",
+    "tiktok"
+  ],
+  "maximumAutomaticItemsPerRun": 3,
+  "maximumAttemptsPerPlatform": 3,
+  "x": {
+    "maximumCharacters": 280,
+    "hashtags": [
+      "#NCPDAGermany"
+    ]
+  },
+  "tiktok": {
+    "username": "ncpda_germany",
+    "privacyLevel": "PUBLIC_TO_EVERYONE",
+    "autoAddMusic": false,
+    "hashtags": [
+      "#NCPDAGermany",
+      "#BangladeshDiaspora"
+    ]
+  }
+}

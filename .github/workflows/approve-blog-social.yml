@@ -1,0 +1,129 @@
+name: Approve and publish a blog post
+
+on:
+  workflow_dispatch:
+    inputs:
+      blog_item:
+        description: 'Blog slug or queue ID shown by the social queue workflow'
+        required: true
+        type: string
+      platforms:
+        description: 'Comma-separated destinations: x,tiktok'
+        required: true
+        default: 'x,tiktok'
+        type: string
+      x_text:
+        description: 'Optional replacement X caption (leave empty to use the generated draft)'
+        required: false
+        type: string
+      tiktok_description:
+        description: 'Optional replacement TikTok caption (leave empty to use the generated draft)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-facebook-content
+  cancel-in-progress: false
+
+jobs:
+  approve-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the live branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install publishing dependencies and Bengali fonts
+        run: |
+          npm ci
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-core
+
+      - name: Prepare TikTok access token
+        continue-on-error: true
+        env:
+          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_ACCESS_TOKEN_OUTPUT: ${{ runner.temp }}/tiktok-access-token
+          TIKTOK_REFRESH_TOKEN_OUTPUT: ${{ runner.temp }}/tiktok-refresh-token
+        run: |
+          npm run social:auth
+          if [ -s "$TIKTOK_ACCESS_TOKEN_OUTPUT" ]; then
+            printf 'TIKTOK_ACCESS_TOKEN=%s\n' "$(tr -d '\n' < "$TIKTOK_ACCESS_TOKEN_OUTPUT")" >> "$GITHUB_ENV"
+          fi
+
+      - name: Persist a rotated TikTok refresh token
+        env:
+          GH_TOKEN: ${{ secrets.SOCIAL_SECRETS_PAT }}
+          ROTATED_TOKEN_FILE: ${{ runner.temp }}/tiktok-refresh-token
+        run: |
+          if [ ! -s "$ROTATED_TOKEN_FILE" ]; then
+            exit 0
+          fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "TikTok rotated its refresh token, but SOCIAL_SECRETS_PAT is not configured." >&2
+            exit 1
+          fi
+          gh secret set TIKTOK_REFRESH_TOKEN < "$ROTATED_TOKEN_FILE"
+
+      - name: Claim the explicitly approved blog post
+        env:
+          SOCIAL_APPROVAL_CONFIRMED: 'true'
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          SOCIAL_ITEM: ${{ inputs.blog_item }}
+          SOCIAL_PLATFORMS: ${{ inputs.platforms }}
+          SOCIAL_X_TEXT_OVERRIDE: ${{ inputs.x_text }}
+          SOCIAL_TIKTOK_DESCRIPTION_OVERRIDE: ${{ inputs.tiktok_description }}
+        run: npm run social:claim -- --approval required --claim-id "${{ github.run_id }}-${{ github.run_attempt }}"
+
+      - name: Save the approval claim before publishing
+        run: |
+          git add data/social-review-queue.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Approve blog social publication"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Publish the approved blog post
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          SOCIAL_FAILURE_OUTPUT: ${{ runner.temp }}/social-publishing-failures
+        run: npm run social:execute -- --claim-id "${{ github.run_id }}-${{ github.run_attempt }}"
+
+      - name: Validate and save publishing results
+        run: |
+          npm run validate
+          git add data/social-publishing-state.json data/social-review-queue.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Record approved blog social publication"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Report platform publishing failures
+        env:
+          SOCIAL_FAILURE_OUTPUT: ${{ runner.temp }}/social-publishing-failures
+        run: |
+          if [ -s "$SOCIAL_FAILURE_OUTPUT" ]; then
+            echo "One or more approved platform publications failed. The queue contains the redacted API error." >&2
+            exit 1
+          fi

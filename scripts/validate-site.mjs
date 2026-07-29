@@ -11,7 +11,10 @@ const jsonFiles = [
   'data/announcements.json',
   'data/july-resources.json',
   'data/blog-posts.json',
-  'social-feed.config.json'
+  'data/social-publishing-state.json',
+  'data/social-review-queue.json',
+  'social-feed.config.json',
+  'social-publishing.config.json'
 ];
 
 for (const relativePath of jsonFiles) {
@@ -134,6 +137,33 @@ if (socialConfig.maxFeaturedItems !== 4) errors.push('social-feed.config.json: m
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 if (socialConfig.videoArchiveMaxItems < socialConfig.maxVideoItems) {
   errors.push('social-feed.config.json: videoArchiveMaxItems must cover the displayed video count');
+}
+
+const publishingConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-publishing.config.json'), 'utf8'));
+if (publishingConfig.policy?.facebook !== 'automatic') {
+  errors.push('social-publishing.config.json: Facebook-origin posts must remain automatic');
+}
+if (publishingConfig.policy?.blog !== 'approval-required') {
+  errors.push('social-publishing.config.json: Blog-origin posts must remain approval-required');
+}
+for (const platform of ['x', 'tiktok']) {
+  if (!publishingConfig.platforms?.includes(platform)) {
+    errors.push(`social-publishing.config.json: missing ${platform} platform`);
+  }
+}
+
+const socialQueue = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/social-review-queue.json'), 'utf8'));
+const queueIds = new Set();
+for (const item of socialQueue.items || []) {
+  if (!item.id || queueIds.has(item.id)) errors.push(`data/social-review-queue.json: duplicate or missing queue id ${item.id || '(empty)'}`);
+  queueIds.add(item.id);
+  const expectedApproval = item.sourceType === 'facebook' ? 'automatic' : item.sourceType === 'blog' ? 'required' : null;
+  if (!expectedApproval || item.approval !== expectedApproval) {
+    errors.push(`data/social-review-queue.json: ${item.id || '(missing id)'} violates the source approval policy`);
+  }
+  for (const platform of ['x', 'tiktok']) {
+    if (!item.platforms?.[platform]) errors.push(`data/social-review-queue.json: ${item.id || '(missing id)'} is missing ${platform} draft`);
+  }
 }
 
 if (/example\.com|images\.unsplash\.com/i.test(html)) errors.push('index.html: placeholder or stock-demo URL found');
