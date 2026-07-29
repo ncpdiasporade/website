@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-29T17:40:23.451Z",
+  "updatedAt": "2026-07-29T19:46:02.918Z",
   "items": [
+    {
+      "id": "facebook-germany-122197492406921031",
+      "facebookId": "122197492406921031",
+      "status": "published",
+      "date": "২৯ জুলাই, ২০২৬",
+      "createdAt": "2026-07-29T18:56:59+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "“বালুর ট্রাক, অ্যাম্বুলেন্স দিয়ে আটকানো—একটু স্মার্টভাবে করবেন না?”",
+      "excerpt": "— হাসনাত আবদুল্লাহ",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197492406921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122197492406921031.jpg",
+      "imageAlt": "“বালুর ট্রাক, অ্যাম্বুলেন্স দিয়ে আটকানো—একটু স্মার্টভাবে করবেন না?”",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122197465454921031",
       "facebookId": "122197465454921031",
@@ -166,25 +185,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122197303010921031.jpg",
       "imageAlt": "আমরা কারও আধিপত্য মেনে নেবো না, ভারতেরও না, আমেরিকারও না।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122197279136921031",
-      "facebookId": "122197279136921031",
-      "status": "published",
-      "date": "২৮ জুলাই, ২০২৬",
-      "createdAt": "2026-07-28T09:03:52+0000",
-      "badge": "জুলাই",
-      "title": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত।",
-      "excerpt": "জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি—NCP, প্রবাসী অধিকার, আমাদের কার্যক্রম, কর্মসূচি, সাম্প্রতিক আপডেট, ভিডিও, ব্লগ এবং সদস্যপদ সম্পর্কিত সব গুরুত্বপূর্ণ তথ্য এখন একটি প্ল্যাটফর্মে। ওয়েবসাইটটি বাংলা, English ও Deutsch—তিনটি ভাষায় ব্যবহার করা যাবে।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197279136921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122197279136921031.jpg",
-      "imageAlt": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত।",
       "managedBy": "facebook-sync"
     },
     {
