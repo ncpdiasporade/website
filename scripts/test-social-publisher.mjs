@@ -95,7 +95,8 @@ try {
     sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/new',
     createdAt: future,
     title: 'নতুন ফেসবুক আপডেট',
-    excerpt: 'এই পোস্টটি স্বয়ংক্রিয়ভাবে প্রকাশের জন্য প্রস্তুত হবে।'
+    excerpt: 'Website summary',
+    sourceCaption: 'এটি মূল Facebook caption। মূল বক্তব্য অপরিবর্তিত থাকবে।'
   });
   writeJson(files.facebook, facebook);
   const blogs = readJson(files.blogs);
@@ -118,6 +119,8 @@ try {
   const blogQueueItem = queue.items.find((item) => item.sourceType === 'blog');
   assert.equal(facebookQueueItem.approval, 'automatic');
   assert.equal(facebookQueueItem.status, 'pending');
+  assert.match(facebookQueueItem.platforms.x.text, /এটি মূল Facebook caption/u);
+  assert.doesNotMatch(facebookQueueItem.platforms.x.text, /Website summary/u);
   assert.equal(blogQueueItem.approval, 'required');
   assert.equal(blogQueueItem.status, 'awaiting-approval');
   assert.ok(fs.existsSync(path.resolve(rootDir, facebookQueueItem.platforms.x.mediaPath)) || fs.existsSync(path.join(temporaryDir, 'outbound', path.basename(facebookQueueItem.platforms.x.mediaPath))));

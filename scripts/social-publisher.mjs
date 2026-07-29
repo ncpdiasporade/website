@@ -276,8 +276,12 @@ async function materializeMedia(queueId, title, excerpt, sourceImage) {
 async function queueRecord(record, sourceHash) {
   const item = record.item;
   const isBlog = record.sourceType === 'blog';
-  const title = clean(item.title || 'NCP Diaspora Alliance Germany আপডেট');
-  const excerpt = clean(item.excerpt || title);
+  const sourceCaption = isBlog ? '' : clean(item.sourceCaption);
+  const firstSourceSentence = sourceCaption.split(/(?<=[।!?])\s+/u)[0];
+  const title = isBlog
+    ? clean(item.title || 'NCP Diaspora Alliance Germany আপডেট')
+    : clipAtWord(firstSourceSentence || item.title || 'NCP Diaspora Alliance Germany আপডেট', 150);
+  const excerpt = isBlog ? clean(item.excerpt || title) : (sourceCaption || clean(item.excerpt || title));
   const url = isBlog ? articleUrl(item) : item.sourceUrl;
   const image = isBlog ? (item.shareImage || item.image) : item.image;
   const queueId = `${record.sourceType}-${safeId(record.sourceId)}-${sourceHash.slice(0, 10)}`;
@@ -298,6 +302,7 @@ async function queueRecord(record, sourceHash) {
     updatedAt: now(),
     title,
     excerpt,
+    sourceCaption: sourceCaption || null,
     image: image || null,
     imageCredit: isBlog ? item.imageCredit || null : null,
     imageSourceUrl: isBlog ? item.imageSourceUrl || null : null,

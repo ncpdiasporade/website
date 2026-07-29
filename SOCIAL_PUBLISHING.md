@@ -8,6 +8,8 @@ The repository applies one explicit editorial rule:
 
 The first baseline records all content that already exists when the system is installed. It never republishes that backlog. New Facebook items are detected from `data/recent-updates.json`; new or materially changed Blog articles are detected from `data/blog-posts.json`.
 
+The Facebook sync stores the original Page caption separately from the shorter website excerpt. Cross-platform drafts are made from that original caption, so a website summary or editorial display label cannot silently replace the Page's meaning.
+
 ## Operational files
 
 - `social-publishing.config.json` contains the immutable source policy and platform copy limits.
