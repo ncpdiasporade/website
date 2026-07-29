@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '29 * * * *'
+  workflow_run:
+    workflows:
+      - Sync official Facebook updates
+    types:
+      - completed
   push:
     branches:
       - main
@@ -20,6 +25,7 @@ concurrency:
 
 jobs:
   publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the live branch

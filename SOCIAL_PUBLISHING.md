@@ -10,6 +10,8 @@ The first baseline records all content that already exists when the system is in
 
 The Facebook sync stores the original Page caption separately from the shorter website excerpt. Cross-platform drafts are made from that original caption, so a website summary or editorial display label cannot silently replace the Page's meaning.
 
+The publisher starts after every successful Facebook sync and also runs at minute 29 of every hour as a recovery check. The scheduled pass covers rare cases where GitHub suppresses a bot-originated push event or an earlier run was temporarily unavailable.
+
 ## Operational files
 
 - `social-publishing.config.json` contains the immutable source policy and platform copy limits.
