@@ -21,6 +21,8 @@ The publisher starts after every successful Facebook sync and also runs at minut
 
 The automatic workflow first commits a `publishing` claim and only then contacts a platform. If a runner stops after claiming, the next run will not blindly repost the item. This favours manual reconciliation over accidental duplicates.
 
+Non-retryable account conditions such as depleted X API credits put that platform delivery into `blocked` state, preventing the hourly workflow from exhausting all retry attempts. After the account condition is resolved, an operator can run `npm run social:unblock -- --item <queue-or-source-id> --platforms x` and commit the queue before retrying.
+
 ## Required GitHub Secrets
 
 ### X

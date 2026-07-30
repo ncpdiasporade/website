@@ -343,6 +343,7 @@ function recalculateItemStatus(item) {
   if (statuses.length && statuses.every((status) => terminalPlatformStatuses.has(status))) return 'completed';
   if (statuses.some((status) => status === 'publishing')) return 'publishing';
   if (item.approval === 'required' && item.approvalStatus !== 'approved') return 'awaiting-approval';
+  if (statuses.some((status) => status === 'blocked')) return 'blocked';
   if (statuses.some((status) => status === 'failed')) return 'failed';
   return 'pending';
 }
@@ -456,7 +457,7 @@ async function claim() {
 
     const claimablePlatforms = platforms.filter((platformName) => {
       const platform = item.platforms?.[platformName];
-      if (!platform || terminalPlatformStatuses.has(platform.status) || platform.status === 'publishing') return false;
+      if (!platform || terminalPlatformStatuses.has(platform.status) || platform.status === 'publishing' || platform.status === 'blocked') return false;
       if ((platform.attempts || 0) >= Number(config.maximumAttemptsPerPlatform || 3)) return false;
       return credentials[platformName] || process.env.SOCIAL_MOCK_PUBLISHING === 'true';
     });
@@ -689,6 +690,14 @@ function redactedError(error) {
   return clipAtWord(message, 700);
 }
 
+function blockingPlatformReason(platformName, error) {
+  const message = String(error?.message || error || '');
+  if (platformName === 'x' && /(credits depleted|credits-depleted|payment required)/i.test(message)) {
+    return 'credits-depleted';
+  }
+  return null;
+}
+
 function recordPublication(state, item, platformName, result) {
   state.publications ||= [];
   state.publications.push({
@@ -737,7 +746,10 @@ async function execute() {
         delete platform.lastError;
       } catch (error) {
         failures += 1;
-        platform.status = 'failed';
+        const blockReason = blockingPlatformReason(platformName, error);
+        platform.status = blockReason ? 'blocked' : 'failed';
+        if (blockReason) platform.blockReason = blockReason;
+        else delete platform.blockReason;
         platform.lastError = redactedError(error);
         console.error(`${item.id} → ${platformName}: ${platform.lastError}`);
       }
@@ -753,6 +765,34 @@ async function execute() {
     fs.writeFileSync(process.env.SOCIAL_FAILURE_OUTPUT, `${failures}\n`, { mode: 0o600 });
   }
   console.log(`Executed ${attempted} claimed platform publication(s) for ${claimId}; ${failures} failed.`);
+}
+
+function unblock() {
+  const queue = loadQueue();
+  const itemSelector = String(args.item || process.env.SOCIAL_ITEM || '').trim();
+  if (!itemSelector) throw new Error('unblock requires --item with a queue ID or source ID.');
+  const platforms = requestedPlatforms();
+  let unblocked = 0;
+
+  for (const item of queue.items || []) {
+    if (item.id !== itemSelector && item.sourceId !== itemSelector) continue;
+    for (const platformName of platforms) {
+      const platform = item.platforms?.[platformName];
+      if (!platform || platform.status !== 'blocked') continue;
+      platform.status = 'failed';
+      delete platform.blockReason;
+      delete platform.claimId;
+      delete platform.claimedAt;
+      item.updatedAt = now();
+      unblocked += 1;
+    }
+    item.status = recalculateItemStatus(item);
+  }
+
+  if (!unblocked) throw new Error(`No blocked platform matched "${itemSelector}" for ${platforms.join(', ')}.`);
+  queue.updatedAt = now();
+  writeJson(paths.queue, queue);
+  console.log(`Unblocked ${unblocked} platform delivery target(s) for ${itemSelector}.`);
 }
 
 async function reconcile() {
@@ -822,6 +862,6 @@ function status() {
   }
 }
 
-const commands = { seed, prepare, auth, claim, execute, reconcile, status };
+const commands = { seed, prepare, auth, claim, execute, reconcile, unblock, status };
 if (!commands[command]) throw new Error(`Unknown social publisher command: ${command}`);
 await commands[command]();

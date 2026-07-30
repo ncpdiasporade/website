@@ -15,6 +15,7 @@
     "social:claim": "node scripts/social-publisher.mjs claim",
     "social:execute": "node scripts/social-publisher.mjs execute",
     "social:reconcile": "node scripts/social-publisher.mjs reconcile",
+    "social:unblock": "node scripts/social-publisher.mjs unblock",
     "test:social": "node scripts/test-social-publisher.mjs"
   },
   "dependencies": {

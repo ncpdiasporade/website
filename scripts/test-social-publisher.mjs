@@ -144,6 +144,16 @@ try {
   assert.equal(approvedBlog.approvalStatus, 'approved');
   assert.match(approvedBlog.platforms.x.text, /^অনুমোদিত X caption/u);
 
+  const completedFacebook = queue.items.find((item) => item.sourceType === 'facebook');
+  completedFacebook.platforms.x.status = 'blocked';
+  completedFacebook.platforms.x.blockReason = 'credits-depleted';
+  completedFacebook.status = 'blocked';
+  writeJson(files.queue, queue);
+  run('unblock', ['--item', 'new', '--platforms', 'x']);
+  queue = readJson(files.queue);
+  assert.equal(queue.items.find((item) => item.sourceType === 'facebook').platforms.x.status, 'failed');
+  assert.equal(queue.items.find((item) => item.sourceType === 'facebook').platforms.x.blockReason, undefined);
+
   run('prepare');
   assert.equal(readJson(files.queue).items.length, 2, 'prepare must not duplicate known source items');
   assert.equal(readJson(files.state).publications.length, 4, 'two platforms should be recorded for each source item');
