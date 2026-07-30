@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-07-30T07:57:39.755Z",
+  "updatedAt": "2026-07-30T09:44:21.483Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -32,7 +32,9 @@
     "facebook:germany:122197465454921031": "2b2e6292be8a3604632d4240c8276401a8a4b4d5e4b629c1c98772e85ad308ff",
     "blog:bangladesh-semiconductor-opportunity-execution": "ab484a5e2de7a18bcbcee2db6b0d2bbf603b807b86eaf36a8227cf987cfd9675",
     "facebook:germany:122197492406921031": "12a31e511875bf6bfa561be1bf50de3fd04b002acbb450f2166670f52efb3a42",
-    "facebook:germany:122197517390921031": "ddd78d972e2aadee816ba14653817e23aeecc65511ddfdd460cbd2ec7c740681"
+    "facebook:germany:122197517390921031": "ddd78d972e2aadee816ba14653817e23aeecc65511ddfdd460cbd2ec7c740681",
+    "facebook:germany:122197580930921031": "d6f9916050e14c394ba392e364f4f78eeea1f887a66939fce4d0ea9c37d99afe",
+    "facebook:germany:122197584686921031": "a95a916cbe6adda5f58ca92b9b26a8e9f7fd9c4cf6c64c7e7db43d355240fa34"
   },
   "publications": []
 }
