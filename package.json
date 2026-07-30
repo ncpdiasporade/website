@@ -12,6 +12,7 @@
     "social:auth": "node scripts/social-publisher.mjs auth",
     "social:prepare": "node scripts/social-publisher.mjs prepare",
     "social:status": "node scripts/social-publisher.mjs status",
+    "social:drafts": "node scripts/social-publisher.mjs drafts",
     "social:claim": "node scripts/social-publisher.mjs claim",
     "social:execute": "node scripts/social-publisher.mjs execute",
     "social:reconcile": "node scripts/social-publisher.mjs reconcile",

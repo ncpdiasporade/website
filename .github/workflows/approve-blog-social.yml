@@ -100,6 +100,9 @@ jobs:
           git pull --rebase origin main
           git push origin main
 
+      - name: Show approved manual X drafts
+        run: npm run social:drafts >> "$GITHUB_STEP_SUMMARY"
+
       - name: Publish the approved blog post
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -113,6 +116,9 @@ jobs:
         run: |
           npm run validate
           git add data/social-publishing-state.json data/social-review-queue.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Record approved blog social publication"

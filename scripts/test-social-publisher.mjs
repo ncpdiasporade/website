@@ -53,7 +53,7 @@ try {
     platforms: ['x', 'tiktok'],
     maximumAutomaticItemsPerRun: 3,
     maximumAttemptsPerPlatform: 3,
-    x: { maximumCharacters: 280, hashtags: ['#NCPDAGermany'] },
+    x: { publishingMode: 'automatic', maximumCharacters: 280, hashtags: ['#NCPDAGermany'] },
     tiktok: { username: 'ncpda_germany', privacyLevel: 'PUBLIC_TO_EVERYONE', autoAddMusic: false, hashtags: ['#NCPDAGermany'] }
   });
   writeJson(files.queue, { version: 1, updatedAt: null, items: [] });
@@ -157,6 +157,38 @@ try {
   run('prepare');
   assert.equal(readJson(files.queue).items.length, 2, 'prepare must not duplicate known source items');
   assert.equal(readJson(files.state).publications.length, 4, 'two platforms should be recorded for each source item');
+
+  const draftConfig = readJson(files.config);
+  draftConfig.x.publishingMode = 'draft-only';
+  writeJson(files.config, draftConfig);
+  const draftFacebook = readJson(files.facebook);
+  draftFacebook.items.unshift({
+    id: 'facebook-germany-manual-x',
+    facebookId: 'manual-x',
+    status: 'published',
+    sourceKey: 'germany',
+    sourceName: 'NCP Diaspora Alliance Germany',
+    sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/manual-x',
+    createdAt: new Date(Date.now() + 120000).toISOString(),
+    title: 'Manual X draft',
+    excerpt: 'Website summary for manual draft',
+    sourceCaption: 'এই caption-টি manual X draft হিসেবে প্রস্তুত হবে।'
+  });
+  writeJson(files.facebook, draftFacebook);
+  run('prepare');
+  queue = readJson(files.queue);
+  const manualXItem = queue.items.find((item) => item.sourceId === 'manual-x');
+  assert.equal(manualXItem.platforms.x.status, 'draft-ready');
+  assert.equal(manualXItem.platforms.tiktok.status, 'pending');
+  run('claim', ['--approval', 'automatic', '--claim-id', 'manual-x-test'], { SOCIAL_MOCK_PUBLISHING: 'true' });
+  run('execute', ['--claim-id', 'manual-x-test'], { SOCIAL_MOCK_PUBLISHING: 'true' });
+  queue = readJson(files.queue);
+  assert.equal(queue.items.find((item) => item.sourceId === 'manual-x').platforms.x.status, 'draft-ready');
+  assert.equal(queue.items.find((item) => item.sourceId === 'manual-x').platforms.tiktok.status, 'submitted');
+  const draftOutput = run('drafts');
+  assert.match(draftOutput.stdout, /এই caption-টি manual X draft/u);
+  assert.match(draftOutput.stdout, /Download the X-ready image/u);
+  assert.equal(readJson(files.state).publications.length, 5, 'draft-only X must not create an X publication record');
   console.log('Social publisher policy, approval gate, media generation, delivery state and deduplication tests passed.');
 } finally {
   fs.rmSync(temporaryDir, { recursive: true, force: true });

@@ -49,6 +49,7 @@ jobs:
         run: |
           npm run social:prepare
           npm run social:status >> "$GITHUB_STEP_SUMMARY"
+          npm run social:drafts >> "$GITHUB_STEP_SUMMARY"
 
       - name: Save the queue and outbound media
         run: |

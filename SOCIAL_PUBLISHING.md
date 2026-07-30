@@ -2,7 +2,7 @@
 
 The repository applies one explicit editorial rule:
 
-- Content originating on the NCP Diaspora Alliance Germany Facebook Page is eligible for automatic publishing to X and TikTok.
+- Content originating on the NCP Diaspora Alliance Germany Facebook Page produces an automatic, platform-ready X draft and is eligible for automatic TikTok publishing after TikTok is connected.
 - Content originating in the website Blog always requires a manual GitHub Actions approval run.
 - Facebook-origin content is not sent back to Facebook or Instagram, preventing duplicate Meta posts.
 
@@ -19,13 +19,15 @@ The publisher starts after every successful Facebook sync and also runs at minut
 - `data/social-publishing-state.json` contains source fingerprints and the delivery history.
 - `img/social/outbound/` contains platform-ready media generated from the original source image. A text card is generated when a Facebook post has no image.
 
-The automatic workflow first commits a `publishing` claim and only then contacts a platform. If a runner stops after claiming, the next run will not blindly repost the item. This favours manual reconciliation over accidental duplicates.
+X currently runs in free `draft-only` mode. The workflow generates the final caption and image, adds them to the GitHub Actions job summary, and never calls the paid X API. An operator downloads the image and manually publishes the prepared caption through x.com.
+
+For automatic platforms, the workflow first commits a `publishing` claim and only then contacts a platform. If a runner stops after claiming, the next run will not blindly repost the item. This favours manual reconciliation over accidental duplicates.
 
 Non-retryable account conditions such as depleted X API credits put that platform delivery into `blocked` state, preventing the hourly workflow from exhausting all retry attempts. After the account condition is resolved, an operator can run `npm run social:unblock -- --item <queue-or-source-id> --platforms x` and commit the queue before retrying.
 
 ## Required GitHub Secrets
 
-### X
+### X (manual draft mode)
 
 Create a write-enabled X Developer App and authorize the NCPDA Germany X account. Add:
 
@@ -34,7 +36,7 @@ Create a write-enabled X Developer App and authorize the NCPDA Germany X account
 - `X_ACCESS_TOKEN`
 - `X_ACCESS_TOKEN_SECRET`
 
-The publisher uploads media with authenticated user context and creates the post through X API v2.
+These secrets remain encrypted for a possible future return to paid API publishing, but `publishingMode: draft-only` prevents the workflow from reading or using them for delivery. Run `npm run social:drafts` or open the latest social workflow summary to copy the caption and download its image.
 
 ### TikTok
 

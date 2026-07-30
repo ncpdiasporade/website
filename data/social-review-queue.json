@@ -13,7 +13,7 @@
       "sourceName": "NCP Diaspora Alliance Germany",
       "approval": "automatic",
       "approvalStatus": "not-required",
-      "status": "blocked",
+      "status": "pending",
       "createdAt": "2026-07-29T23:47:41.265Z",
       "updatedAt": "2026-07-30T07:57:39.755Z",
       "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
@@ -24,15 +24,10 @@
       "imageSourceUrl": null,
       "platforms": {
         "x": {
-          "status": "blocked",
-          "attempts": 1,
+          "status": "draft-ready",
+          "attempts": 0,
           "text": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\nhttps://www.facebook.com/reel/1618018973176957/\n#NCPDAGermany",
-          "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg",
-          "claimId": "30524718657-1",
-          "claimedAt": "2026-07-30T07:57:37.515Z",
-          "lastAttemptAt": "2026-07-30T07:57:39.160Z",
-          "lastError": "X API returned 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
-          "blockReason": "credits-depleted"
+          "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg"
         },
         "tiktok": {
           "status": "pending",

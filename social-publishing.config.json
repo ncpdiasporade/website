@@ -15,6 +15,7 @@
   "maximumAutomaticItemsPerRun": 3,
   "maximumAttemptsPerPlatform": 3,
   "x": {
+    "publishingMode": "draft-only",
     "maximumCharacters": 280,
     "hashtags": [
       "#NCPDAGermany"

@@ -19,7 +19,11 @@ const config = readJson(paths.config);
 const args = parseArgs(process.argv.slice(3));
 const command = process.argv[2] || 'status';
 const now = () => new Date().toISOString();
-const terminalPlatformStatuses = new Set(['published', 'submitted', 'skipped']);
+const terminalPlatformStatuses = new Set(['published', 'submitted', 'skipped', 'draft-ready']);
+
+function platformPublishingMode(platformName) {
+  return String(config[platformName]?.publishingMode || 'automatic');
+}
 
 function resolvePath(value) {
   return path.isAbsolute(value) ? value : path.join(rootDir, value);
@@ -286,6 +290,9 @@ async function queueRecord(record, sourceHash) {
   const image = isBlog ? (item.shareImage || item.image) : item.image;
   const queueId = `${record.sourceType}-${safeId(record.sourceId)}-${sourceHash.slice(0, 10)}`;
   const media = await materializeMedia(queueId, title, excerpt, image);
+  const xStatus = platformPublishingMode('x') === 'draft-only'
+    ? (record.approval === 'required' ? 'awaiting-approval' : 'draft-ready')
+    : 'pending';
   return {
     id: queueId,
     sourceType: record.sourceType,
@@ -308,7 +315,7 @@ async function queueRecord(record, sourceHash) {
     imageSourceUrl: isBlog ? item.imageSourceUrl || null : null,
     platforms: {
       x: {
-        status: 'pending',
+        status: xStatus,
         attempts: 0,
         text: xDraft(title, excerpt, url),
         mediaPath: media.x
@@ -322,6 +329,28 @@ async function queueRecord(record, sourceHash) {
       }
     }
   };
+}
+
+function applyPublishingModes(queue) {
+  if (platformPublishingMode('x') !== 'draft-only') return false;
+  let changed = false;
+  for (const item of queue.items || []) {
+    const platform = item.platforms?.x;
+    if (!platform || ['published', 'submitted', 'skipped', 'draft-ready'].includes(platform.status)) continue;
+    platform.status = item.approval === 'required' && item.approvalStatus !== 'approved'
+      ? 'awaiting-approval'
+      : 'draft-ready';
+    platform.attempts = 0;
+    delete platform.blockReason;
+    delete platform.claimId;
+    delete platform.claimedAt;
+    delete platform.lastAttemptAt;
+    delete platform.lastError;
+    item.status = recalculateItemStatus(item);
+    item.updatedAt = now();
+    changed = true;
+  }
+  return changed;
 }
 
 function loadState() {
@@ -372,7 +401,7 @@ async function prepare() {
   const queue = loadQueue();
   const queuedFingerprints = new Set((queue.items || []).map((item) => `${item.sourceKey}:${item.sourceFingerprint}`));
   let created = 0;
-  let changed = false;
+  let changed = applyPublishingModes(queue);
 
   for (const record of sourceRecords()) {
     const sourceHash = sourceFingerprint(record);
@@ -412,7 +441,8 @@ async function prepare() {
 
 function availablePlatforms() {
   return {
-    x: Boolean(process.env.X_API_KEY && process.env.X_API_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_TOKEN_SECRET),
+    x: platformPublishingMode('x') !== 'draft-only'
+      && Boolean(process.env.X_API_KEY && process.env.X_API_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_TOKEN_SECRET),
     tiktok: Boolean(
       process.env.TIKTOK_ACCESS_TOKEN
       || (process.env.TIKTOK_CLIENT_KEY && process.env.TIKTOK_CLIENT_SECRET && process.env.TIKTOK_REFRESH_TOKEN)
@@ -457,7 +487,11 @@ async function claim() {
 
     const claimablePlatforms = platforms.filter((platformName) => {
       const platform = item.platforms?.[platformName];
-      if (!platform || terminalPlatformStatuses.has(platform.status) || platform.status === 'publishing' || platform.status === 'blocked') return false;
+      if (!platform) return false;
+      if (platformPublishingMode(platformName) === 'draft-only') {
+        return approvalMode === 'required' && platform.status === 'awaiting-approval';
+      }
+      if (terminalPlatformStatuses.has(platform.status) || platform.status === 'publishing' || platform.status === 'blocked') return false;
       if ((platform.attempts || 0) >= Number(config.maximumAttemptsPerPlatform || 3)) return false;
       return credentials[platformName] || process.env.SOCIAL_MOCK_PUBLISHING === 'true';
     });
@@ -473,13 +507,20 @@ async function claim() {
     let platformClaims = 0;
     for (const platformName of claimablePlatforms) {
       const platform = item.platforms?.[platformName];
-      platform.status = 'publishing';
-      platform.claimId = claimId;
-      platform.claimedAt = now();
+      if (platformPublishingMode(platformName) === 'draft-only') {
+        platform.status = 'draft-ready';
+        platform.draftApprovedAt = now();
+        delete platform.claimId;
+        delete platform.claimedAt;
+      } else {
+        platform.status = 'publishing';
+        platform.claimId = claimId;
+        platform.claimedAt = now();
+      }
       platformClaims += 1;
     }
     if (platformClaims) {
-      item.status = 'publishing';
+      item.status = recalculateItemStatus(item);
       item.updatedAt = now();
       claimedItems += 1;
     }
@@ -862,6 +903,24 @@ function status() {
   }
 }
 
-const commands = { seed, prepare, auth, claim, execute, reconcile, unblock, status };
+function drafts() {
+  const queue = loadQueue();
+  const items = (queue.items || []).filter((item) => item.platforms?.x?.status === 'draft-ready');
+  console.log('### X manual drafts');
+  if (!items.length) {
+    console.log('\nNo X drafts are currently ready.');
+    return;
+  }
+  for (const item of items) {
+    const platform = item.platforms.x;
+    const safeText = String(platform.text || '').replaceAll('```', "'''");
+    console.log(`\n#### ${item.title}`);
+    console.log(`\nSource: [open original](${item.sourceUrl})`);
+    console.log(`\n\`\`\`text\n${safeText}\n\`\`\``);
+    if (platform.mediaPath) console.log(`\n[Download the X-ready image](${publicUrl(platform.mediaPath)})`);
+  }
+}
+
+const commands = { seed, prepare, auth, claim, execute, reconcile, unblock, status, drafts };
 if (!commands[command]) throw new Error(`Unknown social publisher command: ${command}`);
 await commands[command]();
