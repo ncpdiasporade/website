@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T23:47:41.265Z",
+  "updatedAt": "2026-07-30T07:57:37.515Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -13,9 +13,9 @@
       "sourceName": "NCP Diaspora Alliance Germany",
       "approval": "automatic",
       "approvalStatus": "not-required",
-      "status": "pending",
+      "status": "publishing",
       "createdAt": "2026-07-29T23:47:41.265Z",
-      "updatedAt": "2026-07-29T23:47:41.265Z",
+      "updatedAt": "2026-07-30T07:57:37.515Z",
       "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
       "excerpt": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
       "sourceCaption": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
@@ -24,10 +24,12 @@
       "imageSourceUrl": null,
       "platforms": {
         "x": {
-          "status": "pending",
+          "status": "publishing",
           "attempts": 0,
           "text": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\nhttps://www.facebook.com/reel/1618018973176957/\n#NCPDAGermany",
-          "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg"
+          "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg",
+          "claimId": "30524718657-1",
+          "claimedAt": "2026-07-30T07:57:37.515Z"
         },
         "tiktok": {
           "status": "pending",
