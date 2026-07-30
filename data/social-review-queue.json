@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T16:52:12.939Z",
+  "updatedAt": "2026-07-30T22:20:57.913Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -264,6 +264,44 @@
           "description": "ভারী বৃষ্টি, দীর্ঘ চার ঘণ্টার অপেক্ষা, স*ন্ত্রাসী বাহিনীর অব্যাহত হুমকি উপেক্ষা করে সিলেটের কানাইঘাট উপজেলার জুলাই পদযাত্রায় লাখো মানুষের ঢল।\n\nভারী বৃষ্টি, দীর্ঘ চার ঘণ্টার অপেক্ষা, স*ন্ত্রাসী বাহিনীর অব্যাহত হুমকি উপেক্ষা করে সিলেটের কানাইঘাট উপজেলার জুলাই পদযাত্রায় লাখো মানুষের ঢল। কানাইঘাটবাসীর প্রতি আন্তরিক কৃতজ্ঞতা। \"লড়াই চলবে সংগ্রাম চলবে\" কানাইঘাট, সিলেট। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122197646840921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122197646840921031-b8aa41ee54-tiktok.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "facebook-122197677824921031-1534929353",
+      "sourceType": "facebook",
+      "sourceId": "122197677824921031",
+      "sourceKey": "facebook:germany:122197677824921031",
+      "sourceFingerprint": "1534929353dced30f2f51e6d617d2f5ef7c37627d244bb2d3055d63426f05c4f",
+      "sourceCreatedAt": "2026-07-30T21:43:30+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197677824921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-07-30T22:20:57.912Z",
+      "updatedAt": "2026-07-30T22:20:57.912Z",
+      "title": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany",
+      "excerpt": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany",
+      "sourceCaption": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany",
+      "image": "img/social/germany/fb-122197677824921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122197677824921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122197677824921031-1534929353-x.jpg"
+        },
+        "tiktok": {
+          "status": "pending",
+          "attempts": 0,
+          "title": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany",
+          "description": "এনসিপির ৩ দফা দাবি: ✊ #ncpdagermany\n\nএনসিপির ৩ দফা দাবি: ✊ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122197677824921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122197677824921031-1534929353-tiktok.jpg"
           ]
         }
       }
