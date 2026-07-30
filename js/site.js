@@ -616,6 +616,7 @@ function initBlog() {
   let lastFocusedElement = null;
   let showingAllArticles = false;
   const mobileBlogQuery = window.matchMedia('(max-width: 680px)');
+  const initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6;
 
   const fallbackArticles = [
     {
@@ -1026,8 +1027,7 @@ function initBlog() {
     if (!published.length) return;
 
     articlesById = new Map(published.map((article, index) => [articleId(article, index), localizeArticle(article)]));
-    const initialLimit = mobileBlogQuery.matches ? 4 : 8;
-    const visibleArticles = showingAllArticles ? published : published.slice(0, initialLimit);
+    const visibleArticles = showingAllArticles ? published : published.slice(0, initialBlogLimit());
 
     if (blogMore) {
       const hasHiddenArticles = published.length > visibleArticles.length;
@@ -1073,7 +1073,7 @@ function initBlog() {
   }
 
   blogMore?.addEventListener('click', () => {
-    const firstNewArticleIndex = mobileBlogQuery.matches ? 4 : 8;
+    const firstNewArticleIndex = initialBlogLimit();
     showingAllArticles = true;
     renderArticles(rawArticles);
     blogGrid.querySelectorAll('.blog-card')[firstNewArticleIndex]?.querySelector('button')?.focus({ preventScroll: true });
