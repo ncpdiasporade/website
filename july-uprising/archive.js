@@ -132,6 +132,25 @@
   const content = { bn, en, de };
   let language = 'bn';
 
+  async function handOffToArchiveSubdomain() {
+    if (location.hostname !== 'ncpdagermany.de') return;
+
+    const destination = new URL(location.href);
+    destination.hostname = 'july36.ncpdagermany.de';
+    destination.pathname = '/';
+
+    try {
+      await fetch('https://july36.ncpdagermany.de/archive.js', {
+        method: 'HEAD',
+        mode: 'no-cors',
+        cache: 'no-store'
+      });
+      location.replace(destination.href);
+    } catch {
+      // GitHub is still provisioning TLS; remain on the secure main-site copy.
+    }
+  }
+
   function sourceLink(number) {
     const source = SOURCES[number - 1];
     return source ? `<a class="citation" href="${source.url}" target="_blank" rel="noopener noreferrer" aria-label="Source ${number}: ${source.org}">${number}</a>` : '';
@@ -207,4 +226,5 @@
   const saved = localStorage.getItem('july-archive-lang');
   language = ['bn','en','de'].includes(requested) ? requested : (['bn','en','de'].includes(saved) ? saved : 'bn');
   render(language);
+  handOffToArchiveSubdomain();
 })();
