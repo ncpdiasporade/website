@@ -552,7 +552,11 @@ function initJuly36Special() {
       <a class="july36-source" href="${safeHref(source.url)}" target="_blank" rel="noopener noreferrer">
         ${escapeHtml(cleanText(source.label, 150))}<span aria-hidden="true">↗</span>
       </a>`).join('');
-    const archiveUrl = safeHref(content.archiveUrl || 'https://july36.gov.bd/chronology');
+    const archiveUrl = safeHref(content.archiveUrl || '/july-uprising/');
+    const archiveLanguage = ['en', 'de'].includes(i18n?.language) ? i18n.language : '';
+    const localizedArchiveUrl = archiveLanguage
+      ? `${archiveUrl}${archiveUrl.includes('?') ? '&amp;' : '?'}lang=${archiveLanguage}`
+      : archiveUrl;
     const storyState = scheduleState.isLive && Number(day.julyDay) === scheduleState.currentJulyDay
       ? labels.today
       : labels.past;
@@ -583,7 +587,7 @@ function initJuly36Special() {
           <div class="july36-sources">${sources}</div>
           <div class="july36-actions">
             <button class="july36-action primary" type="button" data-july36-share="${escapeHtml(day.julyDay)}">${escapeHtml(labels.share)}</button>
-            <a class="july36-action" href="${archiveUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(labels.archive)} ↗</a>
+            <a class="july36-action" href="${localizedArchiveUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(labels.archive)} ↗</a>
           </div>
           <p class="july36-share-status" id="july36ShareStatus" role="status" aria-live="polite"></p>
         </div>
