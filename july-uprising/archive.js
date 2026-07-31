@@ -176,7 +176,9 @@
 
   async function shareArchive() {
     const c = content[language];
-    const shareData = { title: document.title, text: c.heroLead.replace(/<[^>]+>/g,''), url: 'https://july36.ncpdagermany.de/' };
+    const shareUrl = new URL(location.href);
+    shareUrl.hash = '';
+    const shareData = { title: document.title, text: c.heroLead.replace(/<[^>]+>/g,''), url: shareUrl.href };
     try {
       if (navigator.share) await navigator.share(shareData);
       else await navigator.clipboard.writeText(shareData.url);
