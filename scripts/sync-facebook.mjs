@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { metaGraphGet } from './lib/meta-graph-request.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -267,7 +268,7 @@ async function graphRequest(page, pageId, edge, fields, token, limit = config.po
     throw new Error(`${page.sourceName} generated an unexpected Meta Graph API URL.`);
   }
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  const response = await metaGraphGet(url);
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`${page.sourceName} Graph API ${edge} request failed (${response.status}): ${detail}`);
@@ -285,7 +286,7 @@ async function graphObjectRequest(page, objectId, fields, token) {
     throw new Error(`${page.sourceName} generated an unexpected Meta Graph API object URL.`);
   }
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  const response = await metaGraphGet(url);
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`${page.sourceName} Graph API object request failed (${response.status}): ${detail}`);
@@ -301,7 +302,7 @@ async function graphNextRequest(page, nextUrl, token, edge) {
   }
   url.searchParams.set('access_token', token);
 
-  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  const response = await metaGraphGet(url);
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`${page.sourceName} Graph API ${edge} pagination failed (${response.status}): ${detail}`);
@@ -323,7 +324,7 @@ async function fetchVideoViews(page, video, token) {
     if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
       throw new Error(`${page.sourceName} generated an unexpected video-insights URL.`);
     }
-    const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+    const response = await metaGraphGet(url);
     if (!response.ok) {
       const detail = clipAtWord(await response.text(), 220).replaceAll(token, '[redacted]');
       lastError = new Error(`${page.sourceName} video insights failed (${response.status}): ${detail}`);

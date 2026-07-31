@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { metaGraphGet } from './lib/meta-graph-request.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -85,7 +86,7 @@ async function graphRequest(objectId, edge, fields, limit = config.eventsPerPage
   if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
     throw new Error('Refusing an unexpected Meta Graph API URL.');
   }
-  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  const response = await metaGraphGet(url);
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
     throw new Error(`Meta Graph API ${edge || 'event'} request failed (${response.status}): ${detail}`);
