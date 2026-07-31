@@ -27,6 +27,10 @@ const configuredFeaturedUrls = new Map();
 const configuredFeaturedIds = new Map();
 const freshItems = [];
 
+if (!/^v\d{1,2}\.\d{1,2}$/.test(String(graphVersion || ''))) {
+  throw new Error('META_GRAPH_VERSION must use the expected vNN.N format.');
+}
+
 function clean(value) {
   return String(value || '')
     .replace(/https?:\/\/\S+/gi, ' ')
@@ -259,6 +263,10 @@ async function graphRequest(page, pageId, edge, fields, token, limit = config.po
   url.searchParams.set('limit', String(limit));
   url.searchParams.set('access_token', token);
 
+  if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
+    throw new Error(`${page.sourceName} generated an unexpected Meta Graph API URL.`);
+  }
+
   const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');
@@ -272,6 +280,10 @@ async function graphObjectRequest(page, objectId, fields, token) {
   const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(objectId)}`);
   url.searchParams.set('fields', fields);
   url.searchParams.set('access_token', token);
+
+  if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
+    throw new Error(`${page.sourceName} generated an unexpected Meta Graph API object URL.`);
+  }
 
   const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
   if (!response.ok) {
@@ -308,6 +320,9 @@ async function fetchVideoViews(page, video, token) {
     const url = new URL(`https://graph.facebook.com/${graphVersion}/${encodeURIComponent(video.id)}/video_insights`);
     url.searchParams.set('metric', metricNames);
     url.searchParams.set('access_token', token);
+    if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
+      throw new Error(`${page.sourceName} generated an unexpected video-insights URL.`);
+    }
     const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
     if (!response.ok) {
       const detail = clipAtWord(await response.text(), 220).replaceAll(token, '[redacted]');

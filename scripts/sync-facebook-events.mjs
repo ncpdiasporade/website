@@ -13,6 +13,10 @@ const page = config.pages.find((candidate) => candidate.key === 'germany');
 const token = page ? process.env[page.tokenEnv] : '';
 const pageId = page ? (process.env[page.pageIdEnv] || page.pageId) : '';
 
+if (!/^v\d{1,2}\.\d{1,2}$/.test(String(graphVersion || ''))) {
+  throw new Error('META_GRAPH_VERSION must use the expected vNN.N format.');
+}
+
 function clean(value) {
   return String(value || '')
     .replace(/https?:\/\/\S+/gi, ' ')
@@ -78,6 +82,9 @@ async function graphRequest(objectId, edge, fields, limit = config.eventsPerPage
   url.searchParams.set('fields', fields);
   if (edge) url.searchParams.set('limit', String(limit));
   url.searchParams.set('access_token', token);
+  if (url.protocol !== 'https:' || url.hostname !== 'graph.facebook.com' || url.port) {
+    throw new Error('Refusing an unexpected Meta Graph API URL.');
+  }
   const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
   if (!response.ok) {
     const detail = clipAtWord(await response.text(), 260).replaceAll(token, '[redacted]');

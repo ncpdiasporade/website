@@ -31,6 +31,7 @@ function run(command, extraArgs = [], extraEnv = {}, expectedStatus = 0) {
     encoding: 'utf8',
     env: {
       ...process.env,
+      SOCIAL_TEST_MODE: 'true',
       SOCIAL_CONFIG_PATH: files.config,
       SOCIAL_QUEUE_PATH: files.queue,
       SOCIAL_STATE_PATH: files.state,

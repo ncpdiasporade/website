@@ -1,5 +1,6 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -26,7 +27,29 @@ function platformPublishingMode(platformName) {
 }
 
 function resolvePath(value) {
-  return path.isAbsolute(value) ? value : path.join(rootDir, value);
+  const resolved = path.resolve(rootDir, String(value || ''));
+  const allowedRoots = [rootDir];
+  if (process.env.SOCIAL_TEST_MODE === 'true') allowedRoots.push(path.resolve(os.tmpdir()));
+  if (!allowedRoots.some((allowedRoot) => isPathInside(allowedRoot, resolved))) {
+    throw new Error('Social publishing paths must stay inside the repository.');
+  }
+  return resolved;
+}
+
+function isPathInside(allowedRoot, candidate) {
+  const relative = path.relative(allowedRoot, candidate);
+  return relative === '' || (!relative.startsWith(`..${path.sep}`) && relative !== '..' && !path.isAbsolute(relative));
+}
+
+function runnerOutputPath(value, label) {
+  const candidate = path.resolve(String(value || ''));
+  const allowedRoots = [];
+  if (process.env.RUNNER_TEMP) allowedRoots.push(path.resolve(process.env.RUNNER_TEMP));
+  if (process.env.SOCIAL_TEST_MODE === 'true') allowedRoots.push(path.resolve(os.tmpdir()));
+  if (!allowedRoots.some((allowedRoot) => isPathInside(allowedRoot, candidate))) {
+    throw new Error(`${label} must stay inside the GitHub Actions temporary directory.`);
+  }
+  return candidate;
 }
 
 function readJson(filePath, fallback) {
@@ -639,7 +662,7 @@ async function refreshTikTokToken() {
   const payload = await responseJson(response, 'TikTok OAuth');
   if (!payload.access_token) throw new Error('TikTok OAuth did not return an access token.');
   if (payload.refresh_token && payload.refresh_token !== process.env.TIKTOK_REFRESH_TOKEN && process.env.TIKTOK_REFRESH_TOKEN_OUTPUT) {
-    fs.writeFileSync(process.env.TIKTOK_REFRESH_TOKEN_OUTPUT, payload.refresh_token, { mode: 0o600 });
+    fs.writeFileSync(runnerOutputPath(process.env.TIKTOK_REFRESH_TOKEN_OUTPUT, 'TikTok refresh-token output'), payload.refresh_token, { mode: 0o600 });
   }
   return payload.access_token;
 }
@@ -651,7 +674,7 @@ async function auth() {
   }
   const token = await refreshTikTokToken();
   if (process.env.TIKTOK_ACCESS_TOKEN_OUTPUT) {
-    fs.writeFileSync(process.env.TIKTOK_ACCESS_TOKEN_OUTPUT, token, { mode: 0o600 });
+    fs.writeFileSync(runnerOutputPath(process.env.TIKTOK_ACCESS_TOKEN_OUTPUT, 'TikTok access-token output'), token, { mode: 0o600 });
   }
   console.log('TikTok access token prepared without exposing it to logs.');
 }
@@ -803,7 +826,7 @@ async function execute() {
     }
   }
   if (failures && process.env.SOCIAL_FAILURE_OUTPUT) {
-    fs.writeFileSync(process.env.SOCIAL_FAILURE_OUTPUT, `${failures}\n`, { mode: 0o600 });
+    fs.writeFileSync(runnerOutputPath(process.env.SOCIAL_FAILURE_OUTPUT, 'Social failure output'), `${failures}\n`, { mode: 0o600 });
   }
   console.log(`Executed ${attempted} claimed platform publication(s) for ${claimId}; ${failures} failed.`);
 }
@@ -921,6 +944,17 @@ function drafts() {
   }
 }
 
-const commands = { seed, prepare, auth, claim, execute, reconcile, unblock, status, drafts };
-if (!commands[command]) throw new Error(`Unknown social publisher command: ${command}`);
-await commands[command]();
+const supportedCommands = new Set(['seed', 'prepare', 'auth', 'claim', 'execute', 'reconcile', 'unblock', 'status', 'drafts']);
+if (!supportedCommands.has(command)) throw new Error(`Unknown social publisher command: ${command}`);
+switch (command) {
+  case 'seed': await seed(); break;
+  case 'prepare': await prepare(); break;
+  case 'auth': await auth(); break;
+  case 'claim': await claim(); break;
+  case 'execute': await execute(); break;
+  case 'reconcile': await reconcile(); break;
+  case 'unblock': await unblock(); break;
+  case 'status': await status(); break;
+  case 'drafts': await drafts(); break;
+  default: throw new Error(`Unknown social publisher command: ${command}`);
+}
