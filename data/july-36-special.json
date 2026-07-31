@@ -1,0 +1,439 @@
+{
+  "updatedAt": "2026-07-31",
+  "schedule": {
+    "timeZone": "Europe/Berlin",
+    "startMonth": 8,
+    "startDay": 1,
+    "endMonth": 8,
+    "endDay": 5
+  },
+  "kicker": "বিশেষ স্মরণ আয়োজন · ১–৫ আগস্ট",
+  "title": "৩২–৩৬ জুলাই: ফিরে দেখা শেষ পাঁচ দিন",
+  "intro": "শোক থেকে প্রতিরোধ, প্রতিরোধ থেকে জনতার ঐক্য, আর ঐক্য থেকে বিজয়—১ থেকে ৫ আগস্ট ২০২৪-এর প্রতিটি দিন বাংলাদেশের ইতিহাসকে নতুন দিকে নিয়ে গেছে। যাচাইকৃত তথ্য, আলোকচিত্র ও নাগরিক অঙ্গীকারে ফিরে দেখি সেই পাঁচ দিন।",
+  "closingTitle": "স্মৃতি কেবল অতীত নয়—স্মৃতি আমাদের দায়িত্ব",
+  "closingText": "জুলাইয়ের আত্মত্যাগকে ন্যায়বিচার, মানবিক মর্যাদা, জবাবদিহিমূলক প্রতিষ্ঠান এবং বৈষম্যহীন বাংলাদেশ নির্মাণের দীর্ঘমেয়াদি অঙ্গীকারে রূপ দেওয়াই ৩৬ জুলাইয়ের সবচেয়ে গভীর শিক্ষা।",
+  "archiveUrl": "https://july36.gov.bd/chronology",
+  "labels": {
+    "live": "স্মৃতি-যাত্রা এখন চলছে",
+    "preview": "বিশেষ আয়োজনের প্রিভিউ",
+    "today": "আজকের স্মৃতি",
+    "past": "পূর্ববর্তী স্মৃতি",
+    "locked": "এই দিনের স্মৃতি নির্ধারিত তারিখে উন্মোচিত হবে",
+    "sources": "যাচাইকৃত উৎস",
+    "sourceCta": "মূল উৎস পড়ুন",
+    "share": "এই স্মৃতি শেয়ার করুন",
+    "archive": "সম্পূর্ণ জুলাই টাইমলাইন",
+    "copied": "শেয়ার লিংক কপি হয়েছে",
+    "shareError": "লিংক কপি করা যায়নি—ব্রাউজারের ঠিকানা ব্যবহার করুন",
+    "progress": "৩৬ জুলাইয়ের পথে স্মৃতি-যাত্রার অগ্রগতি"
+  },
+  "translations": {
+    "en": {
+      "kicker": "Special remembrance · 1–5 August",
+      "title": "32–36 July: revisiting the final five days",
+      "intro": "From grief to resistance, from resistance to public unity, and from unity to victory—each day from 1 to 5 August 2024 changed the direction of Bangladesh’s history. We revisit those five days through verified records, photographs and a renewed civic commitment.",
+      "closingTitle": "Memory is not only the past—it is our responsibility",
+      "closingText": "The deepest lesson of 36 July is to turn July’s sacrifices into a lasting commitment to justice, human dignity, accountable institutions and a Bangladesh free from discrimination.",
+      "labels": {
+        "live": "The journey of remembrance is live",
+        "preview": "Preview of the special feature",
+        "today": "Today’s memory",
+        "past": "Earlier memory",
+        "locked": "This memory will open on its scheduled date",
+        "sources": "Verified sources",
+        "sourceCta": "Read the original source",
+        "share": "Share this memory",
+        "archive": "Full July timeline",
+        "copied": "Share link copied",
+        "shareError": "Could not copy the link—please use the browser address",
+        "progress": "Progress of the journey towards 36 July"
+      }
+    },
+    "de": {
+      "kicker": "Besonderes Gedenken · 1.–5. August",
+      "title": "32.–36. Juli: die letzten fünf Tage im Rückblick",
+      "intro": "Von Trauer zu Widerstand, von Widerstand zu gesellschaftlicher Einheit und von Einheit zum Sieg—jeder Tag vom 1. bis 5. August 2024 veränderte den Lauf der Geschichte Bangladeschs. Mit geprüften Quellen, Fotografien und einem erneuerten gesellschaftlichen Versprechen blicken wir auf diese fünf Tage zurück.",
+      "closingTitle": "Erinnerung ist nicht nur Vergangenheit—sie ist unsere Verantwortung",
+      "closingText": "Die tiefste Lehre des 36. Juli besteht darin, die Opfer des Juli in ein dauerhaftes Bekenntnis zu Gerechtigkeit, Menschenwürde, rechenschaftspflichtigen Institutionen und einem diskriminierungsfreien Bangladesch zu verwandeln.",
+      "labels": {
+        "live": "Die Reise der Erinnerung ist jetzt aktiv",
+        "preview": "Vorschau des Sonderformats",
+        "today": "Heutige Erinnerung",
+        "past": "Frühere Erinnerung",
+        "locked": "Diese Erinnerung öffnet sich am vorgesehenen Datum",
+        "sources": "Geprüfte Quellen",
+        "sourceCta": "Originalquelle lesen",
+        "share": "Diese Erinnerung teilen",
+        "archive": "Vollständige Juli-Chronologie",
+        "copied": "Link zum Teilen kopiert",
+        "shareError": "Link konnte nicht kopiert werden—bitte die Browseradresse verwenden",
+        "progress": "Fortschritt der Erinnerungsreise zum 36. Juli"
+      }
+    }
+  },
+  "days": [
+    {
+      "id": "july-32",
+      "calendarDay": 1,
+      "julyDay": 32,
+      "date": "১ আগস্ট ২০২৪",
+      "theme": "স্মরণ",
+      "title": "Remembering Our Heroes—নামগুলো আবার উচ্চারিত হলো",
+      "summary": "‘Remembering Our Heroes’ কর্মসূচিতে নিহত ও আহতদের স্মরণে সভা, গ্রাফিতি, দেয়াললিখন ও সমাবেশের ডাক ছড়িয়ে পড়ে। বিভিন্ন স্থানে বাধা ও আটকের মধ্যেও শিক্ষার্থী, শিক্ষক, আইনজীবী ও সাধারণ মানুষ রাস্তায় দাঁড়ান। একই দিনে ডিবি হেফাজত থেকে ছয় সমন্বয়ক মুক্ত হন। আন্দোলনকারীরা আগস্টের দিনগুলোকে জুলাইয়ের ধারাবাহিকতা হিসেবে গণনা করতে শুরু করেন—১ আগস্ট হয়ে ওঠে ‘৩২ জুলাই’।",
+      "mantra": "যে জাতি তার শহিদদের নাম মনে রাখে, তাকে নীরব রাখা যায় না।",
+      "image": "img/july/selected/july-resistance-art.webp",
+      "imageAlt": "জুলাই আন্দোলনকালের প্রতিরোধী শিল্পকর্ম",
+      "imageCredit": "আন্দোলনকালীন শিল্পকর্ম · সংগঠনের সংরক্ষিত সংগ্রহ · শিল্পীর পরিচয় অজানা",
+      "sources": [
+        {
+          "label": "BSS · Remembering Our Heroes ও ছয় সমন্বয়কের মুক্তি",
+          "url": "https://www.bssnews.net/july-uprising/297535"
+        },
+        {
+          "label": "OHCHR · আগস্টের শুরুতে আন্দোলনের পুনরুত্থান",
+          "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+        }
+      ],
+      "translations": {
+        "en": {
+          "date": "1 August 2024",
+          "theme": "Remembrance",
+          "title": "Remembering Our Heroes—the names were spoken again",
+          "summary": "The ‘Remembering Our Heroes’ programme called for memorial gatherings, graffiti, wall writing and public assemblies for those killed and injured. Despite obstruction and detentions in several places, students, teachers, lawyers and other citizens stood in the streets. Six protest coordinators were released from Detective Branch custody the same day. Protesters began counting the days of August as a continuation of July—1 August became ‘32 July’.",
+          "mantra": "A nation that remembers the names of its martyrs cannot be silenced.",
+          "imageAlt": "Resistance artwork created during the July movement",
+          "imageCredit": "Protest-era artwork · preserved by the organisation · artist unidentified",
+          "sources": [
+            {
+              "label": "BSS · Remembering Our Heroes and the release of six coordinators",
+              "url": "https://www.bssnews.net/july-uprising/297535"
+            },
+            {
+              "label": "OHCHR · protests resume at the beginning of August",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            }
+          ]
+        },
+        "de": {
+          "date": "1. August 2024",
+          "theme": "Gedenken",
+          "title": "Remembering Our Heroes—die Namen wurden wieder ausgesprochen",
+          "summary": "Das Programm „Remembering Our Heroes“ rief zu Gedenkveranstaltungen, Graffiti, Wandinschriften und Versammlungen für die Getöteten und Verletzten auf. Trotz Behinderungen und Festnahmen standen Studierende, Lehrkräfte, Juristinnen und Juristen sowie andere Bürgerinnen und Bürger auf der Straße. Am selben Tag wurden sechs Koordinatoren aus dem Gewahrsam der Kriminalpolizei entlassen. Die Protestierenden zählten die Augusttage als Fortsetzung des Juli—der 1. August wurde zum „32. Juli“.",
+          "mantra": "Eine Nation, die die Namen ihrer Märtyrer bewahrt, lässt sich nicht zum Schweigen bringen.",
+          "imageAlt": "Widerstandskunst aus der Zeit der Juli-Bewegung",
+          "imageCredit": "Kunstwerk aus der Protestzeit · im Archiv der Organisation · Urheber nicht bekannt",
+          "sources": [
+            {
+              "label": "BSS · Remembering Our Heroes und Freilassung von sechs Koordinatoren",
+              "url": "https://www.bssnews.net/july-uprising/297535"
+            },
+            {
+              "label": "OHCHR · Wiederaufnahme der Proteste Anfang August",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "july-33",
+      "calendarDay": 2,
+      "julyDay": 33,
+      "date": "২ আগস্ট ২০২৪",
+      "theme": "ঐক্য",
+      "title": "দ্রোহযাত্রা—ভয় ভেঙে জনতা আবার এক হলো",
+      "summary": "জুমার নামাজের পর দেশজুড়ে প্রার্থনা, গণমিছিল ও প্রতিবাদ অনুষ্ঠিত হয়। ঢাকায় জাতীয় প্রেস ক্লাব থেকে কেন্দ্রীয় শহীদ মিনার পর্যন্ত ‘দ্রোহযাত্রা’-য় শিক্ষার্থী, শিক্ষক, অভিভাবক, চিকিৎসক, লেখক, শিল্পী ও নাগরিক সমাজের মানুষ একসঙ্গে হাঁটেন। তাদের দাবি ছিল হত্যার বিচার, গণগ্রেপ্তার বন্ধ, আটক ব্যক্তিদের মুক্তি এবং দমন-পীড়নের অবসান। এই সম্মিলিত উপস্থিতি আন্দোলনকে আবার দৃশ্যমান ও সর্বজনীন শক্তিতে রূপ দেয়।",
+      "mantra": "ভয় ভাঙে, যখন বিচ্ছিন্ন কণ্ঠগুলো একই পথে হাঁটে।",
+      "image": "img/july/selected/august-02-salute-orchid-chakma.webp",
+      "imageAlt": "২ আগস্ট ২০২৪ জাতীয় পতাকার পাশে স্যালুটরত এক আন্দোলনকারী",
+      "imageCredit": "২ আগস্ট ২০২৪ · ছবি: অর্কিড চাকমা",
+      "sources": [
+        {
+          "label": "BSS · ২ আগস্টের দেশব্যাপী বিক্ষোভ ও দ্রোহযাত্রা",
+          "url": "https://www.bssnews.net/july-uprising/297832"
+        },
+        {
+          "label": "UNICEF · জুলাইয়ের সহিংসতায় অন্তত ৩২ শিশু নিহত",
+          "url": "https://www.unicef.org/press-releases/least-32-children-killed-bangladesh-violence"
+        },
+        {
+          "label": "Amnesty International · গণগ্রেপ্তার ও নির্বিচার আটক",
+          "url": "https://www.amnesty.org/en/documents/asa13/8388/2024/en/"
+        }
+      ],
+      "translations": {
+        "en": {
+          "date": "2 August 2024",
+          "theme": "Unity",
+          "title": "The March of Defiance—people overcame fear and reunited",
+          "summary": "Prayers, marches and protests took place across the country after Friday prayers. In Dhaka, students, teachers, parents, doctors, writers, artists and members of civil society walked together in the ‘Droho Jatra’ from the National Press Club to the Central Shaheed Minar. They demanded justice for the killings, an end to mass arrests, the release of detainees and an end to repression. Their collective presence made the movement visible again as a broad public force.",
+          "mantra": "Fear breaks when separate voices begin walking the same road.",
+          "imageAlt": "A protester saluting beside the national flag on 2 August 2024",
+          "imageCredit": "2 August 2024 · Photo: Orchid Chakma",
+          "sources": [
+            {
+              "label": "BSS · nationwide demonstrations and the Droho Jatra on 2 August",
+              "url": "https://www.bssnews.net/july-uprising/297832"
+            },
+            {
+              "label": "UNICEF · at least 32 children killed during July’s violence",
+              "url": "https://www.unicef.org/press-releases/least-32-children-killed-bangladesh-violence"
+            },
+            {
+              "label": "Amnesty International · mass arrests and arbitrary detention",
+              "url": "https://www.amnesty.org/en/documents/asa13/8388/2024/en/"
+            }
+          ]
+        },
+        "de": {
+          "date": "2. August 2024",
+          "theme": "Einheit",
+          "title": "Marsch des Widerstands—die Menschen überwanden die Angst",
+          "summary": "Nach dem Freitagsgebet fanden im ganzen Land Gebete, Märsche und Proteste statt. In Dhaka zogen Studierende, Lehrkräfte, Eltern, medizinisches Personal, Schriftsteller, Kunstschaffende und Mitglieder der Zivilgesellschaft beim „Droho Jatra“ gemeinsam vom National Press Club zum Zentralen Shaheed Minar. Sie forderten Gerechtigkeit für die Tötungen, ein Ende der Massenverhaftungen, die Freilassung der Inhaftierten und ein Ende der Repression. Diese gemeinsame Präsenz machte die Bewegung erneut zu einer breiten gesellschaftlichen Kraft.",
+          "mantra": "Angst zerbricht, wenn getrennte Stimmen denselben Weg gehen.",
+          "imageAlt": "Ein Demonstrant salutiert am 2. August 2024 neben der Nationalflagge",
+          "imageCredit": "2. August 2024 · Foto: Orchid Chakma",
+          "sources": [
+            {
+              "label": "BSS · landesweite Proteste und Droho Jatra am 2. August",
+              "url": "https://www.bssnews.net/july-uprising/297832"
+            },
+            {
+              "label": "UNICEF · mindestens 32 Kinder bei der Gewalt im Juli getötet",
+              "url": "https://www.unicef.org/press-releases/least-32-children-killed-bangladesh-violence"
+            },
+            {
+              "label": "Amnesty International · Massenverhaftungen und willkürliche Inhaftierung",
+              "url": "https://www.amnesty.org/en/documents/asa13/8388/2024/en/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "july-34",
+      "calendarDay": 3,
+      "julyDay": 34,
+      "date": "৩ আগস্ট ২০২৪",
+      "theme": "এক দফা",
+      "title": "শহীদ মিনার থেকে উচ্চারিত হলো জনতার এক দফা",
+      "summary": "বৃষ্টি উপেক্ষা করে দেশের নানা শ্রেণি-পেশার মানুষ কেন্দ্রীয় শহীদ মিনারে সমবেত হন। সেখান থেকে আন্দোলনের সমন্বয়ক নাহিদ ইসলাম শেখ হাসিনা ও পুরো মন্ত্রিসভার পদত্যাগের এক দফা দাবি ঘোষণা করেন এবং ৪ আগস্ট থেকে সর্বাত্মক অসহযোগের ডাক দেওয়া হয়। কোটা সংস্কারের দাবি থেকে শুরু হওয়া আন্দোলন এই দিনে স্পষ্ট রাজনৈতিক পরিণতির দাবিতে ঐক্যবদ্ধ ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়।",
+      "mantra": "দাবি যখন জনতার ভাষা হয়, ইতিহাস তখন দিক বদলায়।",
+      "image": "img/july/selected/august-03-march-palash-khan.webp",
+      "imageAlt": "৩ আগস্ট ২০২৪ জনসমাবেশে এক দফার প্ল্যাকার্ড হাতে আন্দোলনকারী",
+      "imageCredit": "৩ আগস্ট ২০২৪ · ছবি: পলাশ খান",
+      "sources": [
+        {
+          "label": "July Memorial Museum · এক দফার ঐতিহাসিক দিন",
+          "url": "https://july36.gov.bd/chronology"
+        },
+        {
+          "label": "BSS · এক দফা ও অসহযোগ আন্দোলনের ঘোষণা",
+          "url": "https://www.bssnews.net/july-uprising/298144"
+        },
+        {
+          "label": "OHCHR · ৩ আগস্টের দেশব্যাপী অসহযোগের ডাক",
+          "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+        }
+      ],
+      "translations": {
+        "en": {
+          "date": "3 August 2024",
+          "theme": "One demand",
+          "title": "The people’s one-point demand rang out from Shaheed Minar",
+          "summary": "People from across society gathered at the Central Shaheed Minar despite the rain. From there, protest coordinator Nahid Islam announced the one-point demand for the resignation of Sheikh Hasina and the entire cabinet, together with a call for nationwide non-cooperation from 4 August. A movement that began with demands for quota reform now became a student–citizen uprising united around a clear demand for political change.",
+          "mantra": "When a demand becomes the language of the people, history changes direction.",
+          "imageAlt": "A protester holds a one-point-demand placard at the mass gathering on 3 August 2024",
+          "imageCredit": "3 August 2024 · Photo: Palash Khan",
+          "sources": [
+            {
+              "label": "July Memorial Museum · the historic day of the one-point demand",
+              "url": "https://july36.gov.bd/chronology"
+            },
+            {
+              "label": "BSS · declaration of the one-point demand and non-cooperation",
+              "url": "https://www.bssnews.net/july-uprising/298144"
+            },
+            {
+              "label": "OHCHR · nationwide civil disobedience called on 3 August",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            }
+          ]
+        },
+        "de": {
+          "date": "3. August 2024",
+          "theme": "Eine Forderung",
+          "title": "Vom Shaheed Minar erklang die Ein-Punkt-Forderung der Bevölkerung",
+          "summary": "Trotz des Regens versammelten sich Menschen aus allen Teilen der Gesellschaft am Zentralen Shaheed Minar. Dort verkündete Protestkoordinator Nahid Islam die Ein-Punkt-Forderung nach dem Rücktritt von Sheikh Hasina und des gesamten Kabinetts sowie den Aufruf zur landesweiten Nichtzusammenarbeit ab dem 4. August. Aus einer Bewegung für die Reform des Quotensystems wurde nun ein Aufstand von Studierenden und Bevölkerung mit einer klaren Forderung nach politischem Wandel.",
+          "mantra": "Wenn eine Forderung zur Sprache des Volkes wird, ändert die Geschichte ihre Richtung.",
+          "imageAlt": "Ein Demonstrant hält am 3. August 2024 ein Plakat mit der Ein-Punkt-Forderung",
+          "imageCredit": "3. August 2024 · Foto: Palash Khan",
+          "sources": [
+            {
+              "label": "July Memorial Museum · der historische Tag der Ein-Punkt-Forderung",
+              "url": "https://july36.gov.bd/chronology"
+            },
+            {
+              "label": "BSS · Verkündung der Ein-Punkt-Forderung und Nichtzusammenarbeit",
+              "url": "https://www.bssnews.net/july-uprising/298144"
+            },
+            {
+              "label": "OHCHR · Aufruf zum landesweiten zivilen Ungehorsam am 3. August",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "july-35",
+      "calendarDay": 4,
+      "julyDay": 35,
+      "date": "৪ আগস্ট ২০২৪",
+      "theme": "আত্মত্যাগ",
+      "title": "অসহযোগের দিন—রক্তপাতের মধ্যেই এগিয়ে এলো মার্চ টু ঢাকা",
+      "summary": "সর্বাত্মক অসহযোগ কর্মসূচিতে দেশজুড়ে ছাত্র-জনতা রাস্তায় নামেন। নিরাপত্তা বাহিনী, সরকারসমর্থক ও বিক্ষোভকারীদের সংঘর্ষে দিনটি আন্দোলনের সবচেয়ে প্রাণঘাতী পর্যায়ে পৌঁছে। OHCHR-এর প্রাথমিক বিশ্লেষণে ৪ আগস্ট ৯৮ জন নিহত হওয়ার কথা নথিভুক্ত হয়, যাদের মধ্যে ১৩ জন পুলিশ সদস্য ছিলেন। কারফিউ ও ইন্টারনেট বিধিনিষেধের মধ্যেই ‘মার্চ টু ঢাকা’ এক দিন এগিয়ে ৫ আগস্ট করার সিদ্ধান্ত আসে।",
+      "mantra": "৩৫ জুলাই মনে করিয়ে দেয়—বিজয়ের প্রতিটি পদক্ষেপের পেছনে মানুষের জীবনের মূল্য আছে।",
+      "image": "img/july/selected/july-resistance-art.webp",
+      "imageAlt": "জুলাই আন্দোলনের প্রতিরোধ, রক্তপাত ও আত্মত্যাগের শিল্পিত স্মারক",
+      "imageCredit": "আন্দোলনকালীন শিল্পকর্ম · সংগঠনের সংরক্ষিত সংগ্রহ · শিল্পীর পরিচয় অজানা",
+      "sources": [
+        {
+          "label": "OHCHR · ৪ আগস্টের প্রাণহানি ও মার্চ টু ঢাকা",
+          "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+        },
+        {
+          "label": "BSS · অসহযোগ, প্রাণহানি ও মার্চ এগিয়ে আনার সিদ্ধান্ত",
+          "url": "https://www.bssnews.net/july-uprising/298414"
+        },
+        {
+          "label": "The Daily Star · আন্দোলনের সবচেয়ে প্রাণঘাতী দিন",
+          "url": "https://online.thedailystar.net/the-july-rocked-bangladesh/news/august-4-2024-the-deadliest-day-the-uprising-3954831"
+        }
+      ],
+      "translations": {
+        "en": {
+          "date": "4 August 2024",
+          "theme": "Sacrifice",
+          "title": "A day of non-cooperation—the March to Dhaka advanced through bloodshed",
+          "summary": "Students and citizens across the country joined the all-out non-cooperation programme. Clashes involving security forces, government supporters and protesters made it one of the uprising’s deadliest days. OHCHR’s preliminary analysis recorded 98 deaths on 4 August, including 13 police officers. Amid curfew and renewed internet restrictions, organisers brought the ‘March to Dhaka’ forward by one day, to 5 August.",
+          "mantra": "35 July reminds us that every step towards victory carried the cost of human life.",
+          "imageAlt": "An artistic memorial to resistance, bloodshed and sacrifice during the July movement",
+          "imageCredit": "Protest-era artwork · preserved by the organisation · artist unidentified",
+          "sources": [
+            {
+              "label": "OHCHR · deaths on 4 August and the March to Dhaka",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            },
+            {
+              "label": "BSS · non-cooperation, deaths and the decision to advance the march",
+              "url": "https://www.bssnews.net/july-uprising/298414"
+            },
+            {
+              "label": "The Daily Star · the deadliest day of the uprising",
+              "url": "https://online.thedailystar.net/the-july-rocked-bangladesh/news/august-4-2024-the-deadliest-day-the-uprising-3954831"
+            }
+          ]
+        },
+        "de": {
+          "date": "4. August 2024",
+          "theme": "Opfer",
+          "title": "Tag der Nichtzusammenarbeit—durch das Blutvergießen rückte der Marsch auf Dhaka vor",
+          "summary": "Studierende und Bürgerinnen und Bürger im ganzen Land beteiligten sich an der umfassenden Nichtzusammenarbeit. Zusammenstöße unter Beteiligung von Sicherheitskräften, Regierungsanhängern und Demonstrierenden machten den Tag zu einem der tödlichsten des Aufstands. Die vorläufige OHCHR-Analyse dokumentierte für den 4. August 98 Tote, darunter 13 Polizeibeamte. Inmitten von Ausgangssperre und erneuten Internetbeschränkungen wurde der „Marsch auf Dhaka“ um einen Tag auf den 5. August vorgezogen.",
+          "mantra": "Der 35. Juli erinnert uns daran, dass jeder Schritt zum Sieg Menschenleben kostete.",
+          "imageAlt": "Künstlerisches Erinnerungsbild an Widerstand, Blutvergießen und Opfer der Juli-Bewegung",
+          "imageCredit": "Kunstwerk aus der Protestzeit · im Archiv der Organisation · Urheber nicht bekannt",
+          "sources": [
+            {
+              "label": "OHCHR · Todesfälle am 4. August und der Marsch auf Dhaka",
+              "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf"
+            },
+            {
+              "label": "BSS · Nichtzusammenarbeit, Todesfälle und Vorverlegung des Marsches",
+              "url": "https://www.bssnews.net/july-uprising/298414"
+            },
+            {
+              "label": "The Daily Star · der tödlichste Tag des Aufstands",
+              "url": "https://online.thedailystar.net/the-july-rocked-bangladesh/news/august-4-2024-the-deadliest-day-the-uprising-3954831"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "july-36",
+      "calendarDay": 5,
+      "julyDay": 36,
+      "date": "৫ আগস্ট ২০২৪",
+      "theme": "বিজয় ও দায়িত্ব",
+      "title": "৩৬ জুলাই—গণঅভ্যুত্থানের বিজয়, নতুন রাষ্ট্রের পরীক্ষা",
+      "summary": "কারফিউ উপেক্ষা করে দেশের বিভিন্ন প্রান্ত থেকে মানুষ ‘মার্চ টু ঢাকা’-য় যোগ দেন। বিপুল জনসমাবেশ রাজধানীর দিকে অগ্রসর হওয়ার মধ্যে শেখ হাসিনা প্রধানমন্ত্রীর পদ থেকে সরে দাঁড়িয়ে দেশত্যাগ করেন; সেনাপ্রধান অন্তর্বর্তী সরকার গঠনের পরিকল্পনা ঘোষণা করেন। দীর্ঘ দমন-পীড়নের বিরুদ্ধে এটি ছিল ছাত্র-জনতার ঐতিহাসিক বিজয়। কিন্তু বিজয়ের পর প্রতিশোধ, সংখ্যালঘু ও রাজনৈতিক প্রতিপক্ষের ওপর হামলা প্রত্যাখ্যান করে সবার মানবাধিকার রক্ষা করাই নতুন বাংলাদেশের প্রথম নৈতিক পরীক্ষা হয়ে ওঠে।",
+      "mantra": "স্বৈরতন্ত্রের পতনই শেষ নয়—ন্যায়ভিত্তিক রাষ্ট্র গড়াই জুলাইয়ের আসল পরীক্ষা।",
+      "image": "img/july/selected/august-05-parliament-afp.webp",
+      "imageAlt": "৫ আগস্ট ২০২৪ জাতীয় সংসদ ভবনের সামনে পতাকা হাতে ছাত্র-জনতার বিজয় সমাবেশ",
+      "imageCredit": "৫ আগস্ট ২০২৪ · ছবি: AFP",
+      "sources": [
+        {
+          "label": "July Memorial Museum · ৩৬ জুলাইয়ের ঘটনাপ্রবাহ",
+          "url": "https://july36.gov.bd/chronology"
+        },
+        {
+          "label": "জাতিসংঘ · পদত্যাগ ও শান্তিপূর্ণ গণতান্ত্রিক রূপান্তরের আহ্বান",
+          "url": "https://www.un.org/sg/en/content/sg/statements/2024-08-05/statement-attributable-the-spokesperson-for-the-secretary-general-bangladesh"
+        },
+        {
+          "label": "OHCHR · চূড়ান্ত স্বাধীন অনুসন্ধান প্রতিবেদন",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+        }
+      ],
+      "translations": {
+        "en": {
+          "date": "5 August 2024",
+          "theme": "Victory & responsibility",
+          "title": "36 July—the uprising’s victory and the test of a new state",
+          "summary": "Defying curfew, people from across the country joined the ‘March to Dhaka’. As vast crowds advanced towards the capital, Sheikh Hasina stepped down as prime minister and left the country; the army chief announced plans for an interim government. It was a historic student–citizen victory over years of repression. Yet the first moral test of a new Bangladesh was to reject reprisals and attacks on minorities or political opponents, and to protect the human rights of everyone.",
+          "mantra": "The fall of authoritarian rule is not the end—building a state founded on justice is July’s real test.",
+          "imageAlt": "Students and citizens with flags outside the National Parliament on 5 August 2024",
+          "imageCredit": "5 August 2024 · Photo: AFP",
+          "sources": [
+            {
+              "label": "July Memorial Museum · the events of 36 July",
+              "url": "https://july36.gov.bd/chronology"
+            },
+            {
+              "label": "United Nations · resignation and call for a peaceful democratic transition",
+              "url": "https://www.un.org/sg/en/content/sg/statements/2024-08-05/statement-attributable-the-spokesperson-for-the-secretary-general-bangladesh"
+            },
+            {
+              "label": "OHCHR · final independent fact-finding report",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            }
+          ]
+        },
+        "de": {
+          "date": "5. August 2024",
+          "theme": "Sieg & Verantwortung",
+          "title": "36. Juli—der Sieg des Aufstands und die Bewährungsprobe eines neuen Staates",
+          "summary": "Trotz Ausgangssperre schlossen sich Menschen aus dem ganzen Land dem „Marsch auf Dhaka“ an. Während riesige Menschenmengen auf die Hauptstadt zugingen, trat Sheikh Hasina als Premierministerin zurück und verließ das Land; der Armeechef kündigte Pläne für eine Übergangsregierung an. Es war ein historischer Sieg von Studierenden und Bevölkerung über jahrelange Repression. Die erste moralische Bewährungsprobe eines neuen Bangladeschs bestand jedoch darin, Vergeltung und Angriffe auf Minderheiten oder politische Gegner zurückzuweisen und die Menschenrechte aller zu schützen.",
+          "mantra": "Der Sturz autoritärer Herrschaft ist nicht das Ende—der Aufbau eines gerechten Staates ist die eigentliche Prüfung des Juli.",
+          "imageAlt": "Studierende und Bürger mit Flaggen vor dem Nationalparlament am 5. August 2024",
+          "imageCredit": "5. August 2024 · Foto: AFP",
+          "sources": [
+            {
+              "label": "July Memorial Museum · die Ereignisse des 36. Juli",
+              "url": "https://july36.gov.bd/chronology"
+            },
+            {
+              "label": "Vereinte Nationen · Rücktritt und Aufruf zu einem friedlichen demokratischen Übergang",
+              "url": "https://www.un.org/sg/en/content/sg/statements/2024-08-05/statement-attributable-the-spokesperson-for-the-secretary-general-bangladesh"
+            },
+            {
+              "label": "OHCHR · abschließender unabhängiger Untersuchungsbericht",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

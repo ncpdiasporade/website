@@ -10,6 +10,7 @@ const jsonFiles = [
   'data/facebook-video-archive.json',
   'data/announcements.json',
   'data/july-resources.json',
+  'data/july-36-special.json',
   'data/blog-posts.json',
   'data/social-publishing-state.json',
   'data/social-review-queue.json',
@@ -28,11 +29,11 @@ for (const relativePath of jsonFiles) {
 const html = fs.readFileSync(path.join(rootDir, 'index.html'), 'utf8');
 const siteScript = fs.readFileSync(path.join(rootDir, 'js/site.js'), 'utf8');
 const markup = html.split('<script>')[0];
-for (const id of ['home', 'announcements', 'uprising', 'about', 'pillars', 'updates', 'blog', 'why-join', 'join']) {
+for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pillars', 'updates', 'blog', 'why-join', 'join']) {
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260730-blog-6-3" defer></script>')) {
+if (!html.includes('<script src="js/site.js?v=20260731-july36" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
@@ -56,6 +57,9 @@ for (const shareContract of [
 }
 if (!siteScript.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
   errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
+}
+for (const contract of ['function initJuly36Special()', "searchParams.get('july-day')", "timeZone || 'Europe/Berlin'", 'navigator.share']) {
+  if (!siteScript.includes(contract)) errors.push(`js/site.js: missing 32–36 July contract ${contract}`);
 }
 
 const ids = [...markup.matchAll(/\sid="([^"]+)"/g)].map((match) => match[1]);
@@ -113,6 +117,33 @@ for (const article of blogData.items || []) {
     }
     if (!previewHtml.includes(`https://ncpdagermany.de/${String(article.shareImage || '').replace(/^\/+/, '')}`)) {
       errors.push(`${previewPath}: missing expected Open Graph image`);
+    }
+  }
+}
+
+const july36Data = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/july-36-special.json'), 'utf8'));
+const july36Days = Array.isArray(july36Data.days) ? july36Data.days : [];
+if (july36Days.length !== 5 || july36Days.map((day) => day.julyDay).join(',') !== '32,33,34,35,36') {
+  errors.push('data/july-36-special.json: expected the five chronological days 32–36 July');
+}
+if (july36Data.schedule?.startMonth !== 8 || july36Data.schedule?.startDay !== 1
+  || july36Data.schedule?.endMonth !== 8 || july36Data.schedule?.endDay !== 5) {
+  errors.push('data/july-36-special.json: scheduled visibility must remain 1–5 August');
+}
+for (const day of july36Days) {
+  if (!day.image || !fs.existsSync(path.join(rootDir, day.image))) {
+    errors.push(`data/july-36-special.json: ${day.id || '(missing id)'} has a missing image`);
+  }
+  if (!day.imageAlt || !day.imageCredit) {
+    errors.push(`data/july-36-special.json: ${day.id || '(missing id)'} needs image alt text and credit`);
+  }
+  if (!Array.isArray(day.sources) || day.sources.length < 2 || day.sources.some((source) => !/^https:\/\//.test(source.url || ''))) {
+    errors.push(`data/july-36-special.json: ${day.id || '(missing id)'} needs at least two HTTPS sources`);
+  }
+  for (const language of ['en', 'de']) {
+    const translation = day.translations?.[language];
+    if (!translation?.title || !translation?.summary || !translation?.mantra || !Array.isArray(translation?.sources)) {
+      errors.push(`data/july-36-special.json: ${day.id || '(missing id)'} is missing the ${language} translation`);
     }
   }
 }

@@ -435,6 +435,308 @@ function initAnnouncements() {
 }
 
 /* ─────────────────────────────────────────
+   MODULE: 32–36 JULY MEMORY EXPERIENCE
+───────────────────────────────────────── */
+function initJuly36Special() {
+  const section = $('#july-36');
+  const experience = $('#july36Experience');
+  const navigationLinks = $$('[data-july36-link]');
+  if (!section || !experience) return;
+
+  let sourceContent = null;
+  let selectedJulyDay = 36;
+  let scheduleState = null;
+
+  function translatedValue(value) {
+    const language = i18n?.language || document.documentElement.lang || 'bn';
+    const { translations = {}, ...baseValue } = value || {};
+    return language !== 'bn' && translations[language]
+      ? { ...baseValue, ...translations[language] }
+      : baseValue;
+  }
+
+  function calendarDateInTimeZone(timeZone) {
+    const parts = new Intl.DateTimeFormat('en-GB', {
+      timeZone,
+      year: 'numeric',
+      month: 'numeric',
+      day: 'numeric'
+    }).formatToParts(new Date());
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return {
+      year: Number(values.year),
+      month: Number(values.month),
+      day: Number(values.day)
+    };
+  }
+
+  function resolveSchedule(content) {
+    const schedule = content.schedule || {};
+    const calendar = calendarDateInTimeZone(schedule.timeZone || 'Europe/Berlin');
+    const currentKey = calendar.month * 100 + calendar.day;
+    const startKey = Number(schedule.startMonth || 8) * 100 + Number(schedule.startDay || 1);
+    const endKey = Number(schedule.endMonth || 8) * 100 + Number(schedule.endDay || 5);
+    const isLive = currentKey >= startKey && currentKey <= endKey;
+    const requestedDay = Number(new URL(window.location.href).searchParams.get('july-day'));
+    const hasRequestedDay = content.days.some((day) => Number(day.julyDay) === requestedDay);
+    const currentJulyDay = isLive
+      ? Number(content.days.find((day) => Number(day.calendarDay) === calendar.day)?.julyDay || 36)
+      : 0;
+    const maximumUnlockedDay = isLive ? currentJulyDay : 36;
+    const requestedIsUnlocked = hasRequestedDay && requestedDay <= maximumUnlockedDay;
+
+    return {
+      isLive,
+      isPreview: !isLive && hasRequestedDay,
+      isVisible: isLive || hasRequestedDay,
+      currentJulyDay,
+      maximumUnlockedDay,
+      initialDay: requestedIsUnlocked ? requestedDay : (isLive ? currentJulyDay : requestedDay)
+    };
+  }
+
+  function setVisibility(isVisible) {
+    section.hidden = !isVisible;
+    navigationLinks.forEach((link) => {
+      link.hidden = !isVisible;
+    });
+    if (isVisible) section.classList.add('motion-visible');
+    window.dispatchEvent(new Event('resize'));
+  }
+
+  function localizedNumber(value) {
+    return i18n?.formatNumber(Number(value), { useGrouping: false }) ?? String(value);
+  }
+
+  function renderDayTabs(days, labels) {
+    const tabs = $('#july36Days', experience);
+    if (!tabs) return;
+
+    tabs.innerHTML = days.map((day) => {
+      const isActive = Number(day.julyDay) === selectedJulyDay;
+      const isToday = scheduleState.isLive && Number(day.julyDay) === scheduleState.currentJulyDay;
+      const isLocked = Number(day.julyDay) > scheduleState.maximumUnlockedDay;
+      const stateLabel = isToday ? labels.today : labels.past;
+      const accessibleLabel = isLocked
+        ? `${day.date}: ${labels.locked}`
+        : `${day.date}: ${day.title}. ${stateLabel}`;
+
+      return `
+        <button
+          class="july36-day${isActive ? ' is-active' : ''}${isToday ? ' is-today' : ''}"
+          type="button"
+          role="tab"
+          id="july36Tab${escapeHtml(day.julyDay)}"
+          aria-controls="july36Story"
+          aria-selected="${String(isActive)}"
+          aria-label="${escapeHtml(accessibleLabel)}"
+          tabindex="${isActive ? '0' : '-1'}"
+          data-july36-day="${escapeHtml(day.julyDay)}"
+          ${isLocked ? `disabled title="${escapeHtml(labels.locked)}"` : ''}
+        >
+          ${isLocked ? '<span class="july36-day-lock" aria-hidden="true">⌁</span>' : ''}
+          <strong class="july36-day-number">${escapeHtml(localizedNumber(day.julyDay))}</strong>
+          <span class="july36-day-date">${escapeHtml(cleanText(day.date, 42))}</span>
+          <span class="july36-day-theme">${escapeHtml(cleanText(day.theme, 40))}</span>
+        </button>`;
+    }).join('');
+  }
+
+  function renderStory(day, content) {
+    const story = $('#july36Story', experience);
+    if (!story || !day) return;
+
+    const labels = content.labels;
+    const image = escapeHtml(safeImageSrc(day.image, 'img/july/selected/august-05-parliament-afp.webp'));
+    const sources = contentItems(day.sources).slice(0, 4).map((source) => `
+      <a class="july36-source" href="${safeHref(source.url)}" target="_blank" rel="noopener noreferrer">
+        ${escapeHtml(cleanText(source.label, 150))}<span aria-hidden="true">↗</span>
+      </a>`).join('');
+    const archiveUrl = safeHref(content.archiveUrl || 'https://july36.gov.bd/chronology');
+    const storyState = scheduleState.isLive && Number(day.julyDay) === scheduleState.currentJulyDay
+      ? labels.today
+      : labels.past;
+
+    story.outerHTML = `
+      <article
+        class="july36-story"
+        id="july36Story"
+        role="tabpanel"
+        aria-labelledby="july36Tab${escapeHtml(day.julyDay)}"
+        data-july36-story-day="${escapeHtml(day.julyDay)}"
+      >
+        <figure class="july36-visual">
+          <img src="${image}" alt="${escapeHtml(cleanText(day.imageAlt || day.title, 220))}" width="1600" height="1067">
+          <strong class="july36-visual-number" aria-hidden="true">${escapeHtml(localizedNumber(day.julyDay))}</strong>
+          <figcaption class="july36-visual-caption">${escapeHtml(cleanText(day.imageCredit, 180))}</figcaption>
+        </figure>
+        <div class="july36-copy">
+          <div class="july36-story-meta">
+            <span>${escapeHtml(cleanText(day.date, 42))}</span>
+            <span>${escapeHtml(cleanText(day.theme, 40))}</span>
+            <span>${escapeHtml(storyState)}</span>
+          </div>
+          <h3>${escapeHtml(cleanText(day.title, 170))}</h3>
+          <p class="july36-summary">${escapeHtml(cleanText(day.summary, 1200))}</p>
+          <blockquote class="july36-mantra">${escapeHtml(cleanText(day.mantra, 260))}</blockquote>
+          <div class="july36-sources-title">${escapeHtml(labels.sources)}</div>
+          <div class="july36-sources">${sources}</div>
+          <div class="july36-actions">
+            <button class="july36-action primary" type="button" data-july36-share="${escapeHtml(day.julyDay)}">${escapeHtml(labels.share)}</button>
+            <a class="july36-action" href="${archiveUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(labels.archive)} ↗</a>
+          </div>
+          <p class="july36-share-status" id="july36ShareStatus" role="status" aria-live="polite"></p>
+        </div>
+      </article>`;
+  }
+
+  function renderExperience() {
+    if (!sourceContent || !scheduleState?.isVisible) return;
+    const content = translatedValue(sourceContent);
+    const days = sourceContent.days.map(translatedValue);
+    const labels = content.labels;
+    const currentIndex = days.findIndex((day) => Number(day.julyDay) === scheduleState.maximumUnlockedDay);
+    const progressSteps = Math.max(1, currentIndex + 1);
+    const progressPercent = `${(progressSteps / days.length) * 100}%`;
+    const liveLabel = scheduleState.isPreview ? labels.preview : labels.live;
+
+    experience.innerHTML = `
+      <div class="july36-shell reveal visible">
+        <header class="july36-header">
+          <div>
+            <div class="july36-kicker">${escapeHtml(content.kicker)}</div>
+            <h2 id="july36Title">${escapeHtml(content.title)}</h2>
+            <p>${escapeHtml(content.intro)}</p>
+          </div>
+          <div class="july36-live"><span class="july36-live-dot" aria-hidden="true"></span>${escapeHtml(liveLabel)}</div>
+        </header>
+        <div
+          class="july36-progress"
+          role="progressbar"
+          aria-label="${escapeHtml(labels.progress)}"
+          aria-valuemin="1"
+          aria-valuemax="${days.length}"
+          aria-valuenow="${progressSteps}"
+          style="--july36-progress:${progressPercent}"
+        ><span></span></div>
+        <div class="july36-days stagger-children visible" id="july36Days" role="tablist" aria-label="${escapeHtml(content.title)}"></div>
+        <article class="july36-story" id="july36Story" role="tabpanel"></article>
+        <footer class="july36-closing">
+          <h3>${escapeHtml(content.closingTitle)}</h3>
+          <p>${escapeHtml(content.closingText)}</p>
+        </footer>
+      </div>`;
+
+    renderDayTabs(days, labels);
+    const selectedDay = days.find((day) => Number(day.julyDay) === selectedJulyDay)
+      || days.find((day) => Number(day.julyDay) === scheduleState.maximumUnlockedDay)
+      || days[0];
+    selectedJulyDay = Number(selectedDay.julyDay);
+    renderStory(selectedDay, content);
+  }
+
+  function selectDay(julyDay, { updateUrl = true } = {}) {
+    if (!sourceContent) return;
+    const numericDay = Number(julyDay);
+    if (numericDay > scheduleState.maximumUnlockedDay) return;
+    const sourceDay = sourceContent.days.find((day) => Number(day.julyDay) === numericDay);
+    if (!sourceDay) return;
+
+    selectedJulyDay = numericDay;
+    const content = translatedValue(sourceContent);
+    const days = sourceContent.days.map(translatedValue);
+    renderDayTabs(days, content.labels);
+    renderStory(translatedValue(sourceDay), content);
+
+    if (updateUrl) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('july-day', String(numericDay));
+      url.hash = 'july-36';
+      window.history.replaceState({ julyDay: numericDay }, '', url);
+    }
+  }
+
+  async function shareDay(julyDay) {
+    const sourceDay = sourceContent?.days.find((day) => Number(day.julyDay) === Number(julyDay));
+    if (!sourceDay) return;
+    const day = translatedValue(sourceDay);
+    const content = translatedValue(sourceContent);
+    const language = i18n?.language || document.documentElement.lang || 'bn';
+    const url = new URL(`${window.location.origin}${window.location.pathname}`);
+    url.searchParams.set('july-day', String(day.julyDay));
+    if (language !== 'bn') url.searchParams.set('lang', language);
+    url.hash = 'july-36';
+    const shareData = {
+      title: day.title,
+      text: `${day.mantra}\n\n${day.title}`,
+      url: url.toString()
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') return;
+      }
+    }
+
+    const status = $('#july36ShareStatus', experience);
+    try {
+      await navigator.clipboard.writeText(`${shareData.text}\n${shareData.url}`);
+      if (status) status.textContent = content.labels.copied;
+    } catch {
+      if (status) status.textContent = content.labels.shareError;
+    }
+  }
+
+  experience.addEventListener('click', (event) => {
+    const dayButton = event.target.closest('[data-july36-day]');
+    if (dayButton && !dayButton.disabled) {
+      selectDay(dayButton.dataset.july36Day);
+      return;
+    }
+
+    const shareButton = event.target.closest('[data-july36-share]');
+    if (shareButton) shareDay(shareButton.dataset.july36Share);
+  });
+
+  experience.addEventListener('keydown', (event) => {
+    const currentButton = event.target.closest('[data-july36-day]');
+    if (!currentButton || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    const buttons = $$('[data-july36-day]:not(:disabled)', experience);
+    if (!buttons.length) return;
+    const currentIndex = buttons.indexOf(currentButton);
+    const nextIndex = event.key === 'Home'
+      ? 0
+      : event.key === 'End'
+        ? buttons.length - 1
+        : (currentIndex + (event.key === 'ArrowRight' ? 1 : -1) + buttons.length) % buttons.length;
+    event.preventDefault();
+    buttons[nextIndex].focus();
+    selectDay(buttons[nextIndex].dataset.july36Day);
+  });
+
+  loadContentJson(experience.dataset.contentSource || 'data/july-36-special.json')
+    .then((data) => {
+      sourceContent = data;
+      scheduleState = resolveSchedule(sourceContent);
+      if (!scheduleState.isVisible) {
+        setVisibility(false);
+        return;
+      }
+      selectedJulyDay = scheduleState.initialDay;
+      renderExperience();
+      setVisibility(true);
+    })
+    .catch(() => setVisibility(false));
+
+  i18n?.onChange(() => {
+    if (sourceContent && scheduleState?.isVisible) renderExperience();
+  });
+}
+
+/* ─────────────────────────────────────────
    MODULE: JULY RESOURCES
 ───────────────────────────────────────── */
 function initJulyResources() {
@@ -1446,6 +1748,7 @@ function init() {
     initBackToTop,
     initTicker,
     initAnnouncements,
+    initJuly36Special,
     initJulyResources,
     initRecentUpdates,
     initBlog,
