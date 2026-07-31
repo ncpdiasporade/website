@@ -662,10 +662,8 @@ function initJuly36Special() {
     const day = translatedValue(sourceDay);
     const content = translatedValue(sourceContent);
     const language = i18n?.language || document.documentElement.lang || 'bn';
-    const url = new URL(`${window.location.origin}${window.location.pathname}`);
-    url.searchParams.set('july-day', String(day.julyDay));
-    if (language !== 'bn') url.searchParams.set('lang', language);
-    url.hash = 'july-36';
+    const languageSuffix = language === 'bn' ? '' : `${language}/`;
+    const url = new URL(`/july/${day.julyDay}/${languageSuffix}`, window.location.origin);
     const shareData = {
       title: day.title,
       text: `${day.mantra}\n\n${day.title}`,

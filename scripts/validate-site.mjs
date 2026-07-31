@@ -33,7 +33,7 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260731-july36" defer></script>')) {
+if (!html.includes('<script src="js/site.js?v=20260801-july-share" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
@@ -58,7 +58,7 @@ for (const shareContract of [
 if (!siteScript.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
   errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
 }
-for (const contract of ['function initJuly36Special()', "searchParams.get('july-day')", "timeZone || 'Europe/Berlin'", 'navigator.share']) {
+for (const contract of ['function initJuly36Special()', "searchParams.get('july-day')", "timeZone || 'Europe/Berlin'", 'navigator.share', 'new URL(`/july/${day.julyDay}/${languageSuffix}`']) {
   if (!siteScript.includes(contract)) errors.push(`js/site.js: missing 32–36 July contract ${contract}`);
 }
 
@@ -144,6 +144,32 @@ for (const day of july36Days) {
     const translation = day.translations?.[language];
     if (!translation?.title || !translation?.summary || !translation?.mantra || !Array.isArray(translation?.sources)) {
       errors.push(`data/july-36-special.json: ${day.id || '(missing id)'} is missing the ${language} translation`);
+    }
+  }
+  const shareImage = path.join(rootDir, 'img', 'july', 'share', `july-${day.julyDay}.jpg`);
+  if (!fs.existsSync(shareImage)) {
+    errors.push(`data/july-36-special.json: missing July share image ${shareImage}`);
+  }
+  for (const suffix of ['', 'en', 'de']) {
+    const previewPath = path.join(rootDir, 'july', String(day.julyDay), suffix, 'index.html');
+    if (!fs.existsSync(previewPath)) {
+      errors.push(`data/july-36-special.json: missing generated preview page ${previewPath}`);
+      continue;
+    }
+    const previewHtml = fs.readFileSync(previewPath, 'utf8');
+    const expectedUrl = `https://ncpdagermany.de/july/${day.julyDay}/${suffix ? `${suffix}/` : ''}`;
+    const expectedImage = `https://ncpdagermany.de/img/july/share/july-${day.julyDay}.jpg`;
+    if (!previewHtml.includes('property="og:type" content="article"')) {
+      errors.push(`${previewPath}: missing article Open Graph metadata`);
+    }
+    if (!previewHtml.includes(`property="og:url" content="${expectedUrl}"`)) {
+      errors.push(`${previewPath}: missing canonical Open Graph URL`);
+    }
+    if (!previewHtml.includes(`property="og:image" content="${expectedImage}"`)) {
+      errors.push(`${previewPath}: missing expected Open Graph image`);
+    }
+    if (!previewHtml.includes('name="twitter:card" content="summary_large_image"')) {
+      errors.push(`${previewPath}: missing large-image X card metadata`);
     }
   }
 }
