@@ -19,9 +19,36 @@
   ];
 
   const PEOPLE_VISUALS = [
-    'https://ncpdagermany.de/img/july/selected/august-03-march-palash-khan.webp',
-    'https://ncpdagermany.de/img/july/selected/august-05-parliament-afp.webp',
-    'https://ncpdagermany.de/img/july/selected/august-02-salute-orchid-chakma.webp'
+    {
+      src: 'https://ncpdagermany.de/img/july/official/july-06-shahbagh-flag.webp',
+      source: 'https://july36.gov.bd/archives/photo/detail/1',
+      alt: {
+        bn: '৬ জুলাই ২০২৪ শাহবাগে কোটা সংস্কারের দাবিতে পতাকা ও প্ল্যাকার্ড হাতে শিক্ষার্থী ও জনতা',
+        en: 'Students and citizens with flags and placards at the quota reform protest in Shahbagh on 6 July 2024',
+        de: 'Studierende und Bürger mit Fahnen und Plakaten beim Protest für eine Quotenreform in Shahbagh am 6. Juli 2024'
+      },
+      credit: { bn: '৬ জুলাই · জুলাই স্মৃতি জাদুঘর', en: '6 July · July Memorial Museum', de: '6. Juli · July Memorial Museum' }
+    },
+    {
+      src: 'https://ncpdagermany.de/img/july/official/july-07-women-shahbagh.webp',
+      source: 'https://july36.gov.bd/archives/photo/detail/2',
+      alt: {
+        bn: '৭ জুলাই ২০২৪ শাহবাগে বিপুলসংখ্যক নারী শিক্ষার্থী ও নাগরিকের সমাবেশ',
+        en: 'A large gathering of women students and citizens in Shahbagh on 7 July 2024',
+        de: 'Eine große Versammlung von Studentinnen und Bürgerinnen in Shahbagh am 7. Juli 2024'
+      },
+      credit: { bn: '৭ জুলাই · জুলাই স্মৃতি জাদুঘর', en: '7 July · July Memorial Museum', de: '7. Juli · July Memorial Museum' }
+    },
+    {
+      src: 'https://ncpdagermany.de/img/july/germany-solidarity-2024.webp',
+      source: SOURCES[8].url,
+      alt: {
+        bn: 'জার্মানিতে জুলাই আন্দোলনের সমর্থনে বাংলাদেশি প্রবাসীদের সংহতি কর্মসূচি',
+        en: 'Bangladeshi diaspora solidarity demonstration in Germany in support of the July movement',
+        de: 'Solidaritätsdemonstration der bangladeschischen Diaspora in Deutschland für die Juli-Bewegung'
+      },
+      credit: { bn: 'জার্মানি · প্রবাসী সংহতি ২০২৪', en: 'Germany · Diaspora solidarity 2024', de: 'Deutschland · Diaspora-Solidarität 2024' }
+    }
   ];
 
   const bn = {
@@ -214,7 +241,10 @@
     document.getElementById('timeline-list').innerHTML = c.timeline.map((item, index) => `<li class="timeline-item${item.breaking ? ' breaking' : ''}" data-reveal><time class="timeline-date">${item.date}</time><article class="timeline-content"><span class="timeline-tag">${item.tag}</span><h3>${item.title}</h3><p>${item.text} ${item.src.map(sourceLink).join('')}</p></article><span class="timeline-signal" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span></li>`).join('');
     document.getElementById('violation-grid').innerHTML = c.violations.map((item) => `<article class="violation" data-reveal><b>${item[0]}</b><p>${item[1]}</p></article>`).join('');
     document.getElementById('photo-grid').innerHTML = c.photos.map((photo, index) => `<figure class="photo-card" data-reveal><span class="photo-index" aria-hidden="true">0${index + 1}</span><img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async"><figcaption class="photo-caption"><b>${photo.title}</b><small>${photo.credit}</small></figcaption></figure>`).join('');
-    document.getElementById('people-grid').innerHTML = c.people.map((item, index) => `<article class="people-card" data-reveal><div class="people-visual" aria-hidden="true"><img src="${PEOPLE_VISUALS[index]}" alt="" loading="lazy" decoding="async"><span>0${index + 1}</span></div><div class="people-copy"><h3>${item[0]}</h3><p>${item[1]}</p><a href="${item[3]}"${item[3].startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${item[2]}</a></div></article>`).join('');
+    document.getElementById('people-grid').innerHTML = c.people.map((item, index) => {
+      const visual = PEOPLE_VISUALS[index];
+      return `<article class="people-card" data-reveal><div class="people-visual"><img src="${visual.src}" alt="${visual.alt[lang]}" loading="lazy" decoding="async"><a class="people-credit" href="${visual.source}" target="_blank" rel="noopener noreferrer">${visual.credit[lang]} ↗</a><span class="people-index" aria-hidden="true">0${index + 1}</span></div><div class="people-copy"><h3>${item[0]}</h3><p>${item[1]}</p><a href="${item[3]}"${item[3].startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${item[2]}</a></div></article>`;
+    }).join('');
     document.getElementById('pledge-grid').innerHTML = c.pledges.map((item, index) => `<article class="pledge" data-reveal><span class="pledge-index">${c.promiseWord} ${localNumber(index + 1, lang)}</span><b>${item[0]}</b><p>${item[1]}</p></article>`).join('');
     document.getElementById('source-list').innerHTML = SOURCES.map((source, index) => `<a class="source" href="${source.url}" target="_blank" rel="noopener noreferrer" data-reveal><span class="source-number">${String(index + 1).padStart(2,'0')}</span><span><b>${c.sourceTitles[index] || source.title}</b><small>${c.sourceMeta[index] || source.meta}</small><em class="source-org">${source.org}</em></span><span class="source-arrow">↗</span></a>`).join('');
     localStorage.setItem('july-archive-lang', lang);
