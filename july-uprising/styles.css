@@ -132,12 +132,12 @@ button { font: inherit; }
   width: 76px;
   height: 76px;
   object-fit: contain;
-  clip-path: circle(49.5% at 50% 50%);
-  scale: 1.16;
+  clip-path: none;
+  scale: 1;
   filter: drop-shadow(0 5px 15px rgba(0, 0, 0, .4));
   transition: scale .3s var(--ease-out), width .3s, height .3s;
 }
-.identity:hover img { scale: 1.21; }
+.identity:hover img { scale: 1.06; }
 .site-header.scrolled .identity img { width: 62px; height: 62px; }
 .identity span { display: flex; flex-direction: column; line-height: 1.15; }
 .identity b { font: 600 .9rem var(--ui); }
