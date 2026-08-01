@@ -861,6 +861,10 @@
       option.classList.toggle('active', active);
       option.setAttribute('aria-checked', String(active));
     });
+    document.querySelectorAll('[data-language-logo]').forEach((logo) => {
+      const source = currentLanguage === 'bn' ? logo.dataset.logoBn : logo.dataset.logoInternational;
+      if (source && logo.getAttribute('src') !== source) logo.setAttribute('src', source);
+    });
   }
 
   function setLanguage(language, { persist = true, updateUrl = true, notify = true } = {}) {

@@ -159,6 +159,11 @@
   function render(lang) {
     const c = content[lang] || bn;
     document.documentElement.lang = lang;
+    document.querySelectorAll('[data-language-logo]').forEach((logo) => {
+      const source = lang === 'bn' ? logo.dataset.logoBn : logo.dataset.logoInternational;
+      if (source && logo.getAttribute('src') !== source) logo.setAttribute('src', source);
+      logo.alt = lang === 'bn' ? 'এনসিপি ডায়াসপোরা অ্যালায়েন্স জার্মানি' : 'NCP Diaspora Alliance Germany';
+    });
     document.title = lang === 'bn' ? 'জুলাই ২০২৪ — ৩৬ দিনের গণঅভ্যুত্থান | NCPDA Germany' : lang === 'de' ? 'Juli 2024 — 36 Tage Volksaufstand | NCPDA Germany' : 'July 2024 — 36 Days of Uprising | NCPDA Germany';
     document.querySelectorAll('[data-copy]').forEach((el) => {
       const value = c[el.dataset.copy];

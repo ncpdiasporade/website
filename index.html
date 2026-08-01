@@ -81,7 +81,7 @@
       --r-xl: 36px;
 
       --container: 1180px;
-      --nav-h: 84px;
+      --nav-h: 92px;
 
       --font-display: 'Fraunces', Georgia, serif;
       --font-ui:      'DM Sans', sans-serif;
@@ -170,27 +170,30 @@
     }
 
     .brand-icon {
-      width: 66px; height: 66px;
+      width: 88px; height: 88px;
       display: grid; place-items: center;
       position: relative;
       flex-shrink: 0;
       background: transparent;
       border: 0;
+      border-radius: 50%;
+      overflow: hidden;
       box-shadow: none;
       transition: width .4s var(--ease-in-out), height .4s var(--ease-in-out);
     }
     .brand-icon img {
-      width: 62px; height: 62px;
+      width: 84px; height: 84px;
       display: block;
       object-fit: contain;
       object-position: center;
       filter: drop-shadow(0 7px 12px rgba(3,47,24,.16));
-      clip-path: circle(100% at 50% 50%);
+      clip-path: circle(49.5% at 50% 50%);
+      scale: 1.16;
       animation: brandInkReveal .95s .08s var(--ease-out) both;
       transition: scale .3s var(--ease-spring), filter .3s var(--ease-out);
     }
     .brand:hover .brand-icon img {
-      scale: 1.065;
+      scale: 1.21;
       filter: drop-shadow(0 10px 16px rgba(3,47,24,.22));
     }
     @keyframes brandInkReveal {
@@ -234,8 +237,9 @@
     .nav-links a.is-active { color: var(--green-700); font-weight: 600; }
     .nav-links a.is-active::after { transform: scaleX(1); transform-origin: left; }
 
-    .nav-wrap.scrolled .brand-icon { width: 56px; height: 56px; }
-    .nav-wrap.scrolled .brand-icon img { width: 52px; height: 52px; }
+    .nav-wrap.scrolled .nav-inner { height: 72px; }
+    .nav-wrap.scrolled .brand-icon { width: 70px; height: 70px; }
+    .nav-wrap.scrolled .brand-icon img { width: 68px; height: 68px; }
 
     .nav-ctas { display: flex; gap: 9px; align-items: center; }
 
@@ -3833,7 +3837,7 @@
       .announcement-media { min-height: 420px; }
     }
     @media (max-width: 680px) {
-      :root { --nav-h: 70px; }
+      :root { --nav-h: 76px; }
       .hero-stats, .field-grid, .pillars-grid, .updates-grid, .blog-grid { grid-template-columns: 1fr; }
       .uprising-nums { grid-template-columns: 1fr 1fr; }
       .footer-grid { grid-template-columns: 1fr; }
@@ -4006,10 +4010,10 @@
       .nav-inner { width: calc(100% - 24px); }
       .nav-inner { padding: 0 12px; border-radius: 18px; }
       .brand { flex: 1 1 auto; gap: 10px; min-width: 0; }
-      .brand-icon { width: 52px; height: 52px; }
-      .brand-icon img { width: 49px; height: 49px; }
-      .nav-wrap.scrolled .brand-icon { width: 48px; height: 48px; }
-      .nav-wrap.scrolled .brand-icon img { width: 45px; height: 45px; }
+      .brand-icon { width: 64px; height: 64px; }
+      .brand-icon img { width: 62px; height: 62px; }
+      .nav-wrap.scrolled .brand-icon { width: 60px; height: 60px; }
+      .nav-wrap.scrolled .brand-icon img { width: 58px; height: 58px; }
       .brand-text { min-width: 0; }
       .brand-text strong,
       .brand-text span {
@@ -4026,7 +4030,7 @@
       .language-current-code { display: inline; font-size: 10px; letter-spacing: .06em; }
       .language-toggle svg { width: 14px; height: 14px; }
       .language-menu { right: -48px; width: 196px; }
-      .mobile-menu { top: 88px; left: 12px; right: 12px; }
+      .mobile-menu { top: 100px; left: 12px; right: 12px; }
       .hero { min-height: auto; padding-top: calc(var(--nav-h) + 34px); }
       .hero-grid { padding-bottom: 32px; }
       .hero-copy,
@@ -4071,8 +4075,8 @@
       .hero-grid { width: calc(100% - 20px); }
       .nav-inner { width: calc(100% - 16px); padding: 0 8px; }
       .brand { gap: 8px; }
-      .brand-icon { width: 48px; height: 48px; }
-      .brand-icon img { width: 45px; height: 45px; }
+      .brand-icon { width: 60px; height: 60px; }
+      .brand-icon img { width: 58px; height: 58px; }
       .brand-text span { display: none; }
       .brand-text strong {
         max-width: calc(100vw - 198px);
@@ -4134,8 +4138,7 @@
     <nav class="nav-inner" aria-label="প্রধান নেভিগেশন">
       <a class="brand" href="#home" aria-label="NCP Diaspora Alliance Germany হোমপেজ">
         <div class="brand-icon" aria-hidden="true">
-          <img src="img/logo/logo-premium.png" alt="NCP Logo" width="32" height="32">
-        
+          <img src="img/logo/logo-navbar-bn.png" alt="" width="720" height="720" decoding="async" data-language-logo data-logo-bn="img/logo/logo-navbar-bn.png" data-logo-international="img/logo/logo-navbar-en.png">
         </div>
         <div class="brand-text">
           <strong>NCP Diaspora Alliance</strong>
@@ -4804,7 +4807,7 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js?v=20260731-july36"></script>
+  <script src="js/i18n.js?v=20260801-language-logo"></script>
   <script src="js/site.js?v=20260801-july-share" defer></script>
 </body>
 </html>
