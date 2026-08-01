@@ -481,7 +481,7 @@ section[data-section-no]::before {
   letter-spacing: -.08em;
   pointer-events: none;
 }
-.section-heading { max-width: 840px; margin-bottom: 65px; }
+.section-heading { max-width: 840px; margin-bottom: 52px; }
 .section-heading h2,
 .note-grid h2,
 .photo-heading h2,
@@ -500,7 +500,7 @@ section[data-section-no]::before {
 .section-kicker.light { color: #82e9b4; }
 
 /* Editorial standard */
-.editorial-note { padding: 110px 0; background: var(--paper); overflow: hidden; }
+.editorial-note { padding: 96px 0; background: var(--paper); overflow: hidden; }
 .note-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 6vw; align-items: start; }
 .note-grid h2 { font-size: clamp(2.35rem, 4.4vw, 4.55rem); }
 .note-grid > div { position: relative; }
@@ -526,7 +526,7 @@ section[data-section-no]::before {
 .verification-stamp b { position: absolute; top: 48px; font: 800 2.2rem/1 var(--display); }
 
 /* Four-phase transformation */
-.phase-section { padding: 120px 0; overflow: hidden; background: #fff; }
+.phase-section { padding: 104px 0; overflow: hidden; background: #fff; }
 .uprising-word {
   position: absolute;
   z-index: -1;
@@ -589,7 +589,7 @@ section[data-section-no]::before {
 .phase-signal i:nth-child(2) { animation-delay: .4s; }.phase-signal i:nth-child(3) { animation-delay: .8s; }.phase-signal i:nth-child(4) { animation-delay: 1.2s; }
 
 /* Facts */
-.facts { padding: 115px 0; overflow: hidden; background: #06150c; color: #fff; }
+.facts { padding: 100px 0; overflow: hidden; background: #06150c; color: #fff; }
 .facts::after { content: '36'; position: absolute; right: -.03em; bottom: -.28em; color: rgba(255, 255, 255, .035); font: 800 min(42vw, 38rem)/1 var(--display); }
 .facts h2 { max-width: 980px; margin: 0 0 50px; font: 800 clamp(2.6rem, 5.2vw, 5.3rem)/.98 var(--display); }
 .fact-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; border: 1px solid rgba(255, 255, 255, .14); background: rgba(255, 255, 255, .14); }
@@ -613,7 +613,7 @@ section[data-section-no]::before {
 .fact-note { position: relative; z-index: 1; margin: 20px 0 0; color: rgba(255, 255, 255, .55); font-size: .85rem; }
 
 /* Timeline */
-.timeline-section { padding: 125px 0; overflow: hidden; background: var(--paper); }
+.timeline-section { padding: 104px 0; overflow: hidden; background: var(--paper); }
 .timeline { --timeline-progress: 0; position: relative; margin: 0; padding: 0; list-style: none; }
 .timeline::before, .timeline::after { content: ''; position: absolute; left: 172px; top: 0; width: 2px; }
 .timeline::before { bottom: 0; background: rgba(8, 20, 13, .13); }
@@ -661,10 +661,10 @@ section[data-section-no]::before {
 .citation:hover { background: var(--green); color: #fff; transform: translateY(-2px); }
 
 /* Meaning of 36 July */
-.meaning { padding: 125px 0; overflow: hidden; background: #730d1e; color: #fff; }
+.meaning { padding: 104px 0; overflow: hidden; background: #730d1e; color: #fff; }
 .meaning::before { color: rgba(255, 255, 255, .045) !important; }
 .meaning::after { content: ''; position: absolute; z-index: -1; inset: 0; background: radial-gradient(circle at 70% 30%, rgba(255, 255, 255, .08), transparent 42%), linear-gradient(135deg, transparent, rgba(0, 0, 0, .24)); }
-.meaning-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 8vw; align-items: center; }
+.meaning-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 8vw; align-items: start; }
 .meaning-copy > p { font-size: 1.1rem; color: rgba(255, 255, 255, .8); }
 .meaning-manifesto { padding: 22px 24px; border-left: 4px solid var(--gold); background: rgba(0, 0, 0, .16); color: #fff !important; font-weight: 700; }
 .source-button { display: inline-block; margin-top: 12px; color: inherit; font-weight: 700; }
@@ -684,7 +684,7 @@ section[data-section-no]::before {
 .calendar-run .victory-day { color: rgba(255, 255, 255, .28); -webkit-text-stroke: 0; }
 
 /* Evidence */
-.evidence { padding: 125px 0; overflow: hidden; background: #3f0812; color: #fff; }
+.evidence { padding: 104px 0; overflow: hidden; background: #3f0812; color: #fff; }
 .evidence::before { color: rgba(255, 255, 255, .04) !important; }
 .evidence-photo { position: absolute; z-index: -3; inset: 0; background: url('https://ncpdagermany.de/img/july/selected/july-resistance-art.webp') 8% 35% / 48% auto no-repeat; opacity: .22; filter: grayscale(.4) contrast(1.1); }
 .evidence::after { content: ''; position: absolute; z-index: -2; inset: 0; background: linear-gradient(90deg, rgba(63, 8, 18, .48), #3f0812 57%); }
@@ -714,7 +714,7 @@ section[data-section-no]::before {
 .violation b { font-size: 1.06rem; }.violation p { margin: 7px 0 0; color: rgba(255, 255, 255, .68); font-size: .9rem; }
 
 /* Visual memory */
-.photo-essay { padding: 125px 0; overflow: hidden; background: #e7e0d2; }
+.photo-essay { padding: 104px 0; overflow: hidden; background: #e7e0d2; }
 .photo-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 7vw; align-items: end; max-width: none; }
 .photo-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: 430px 430px; gap: 12px; perspective: 1100px; }
 .photo-card { position: relative; margin: 0; overflow: hidden; background: #18221b; transform: translateZ(0); }
@@ -732,7 +732,7 @@ section[data-section-no]::before {
 .photo-caption b { display: block; font: 700 1.55rem/1.08 var(--display); }.photo-caption small { display: block; margin-top: 7px; color: rgba(255, 255, 255, .7); }
 
 /* People */
-.people { padding: 125px 0; background: #fff; overflow: hidden; }
+.people { padding: 104px 0; background: #fff; overflow: hidden; }
 .centered { margin-inline: auto; text-align: center; }
 .people-grid { display: grid; grid-template-columns: 1.15fr .85fr .85fr; gap: 18px; align-items: stretch; }
 .people-card { position: relative; min-height: 510px; overflow: hidden; border-top: 5px solid var(--green); background: var(--paper); box-shadow: 0 16px 45px rgba(8, 20, 13, .08); transition: transform .4s var(--ease-out), box-shadow .4s; }
@@ -748,7 +748,7 @@ section[data-section-no]::before {
 .people-card h3 { margin: 0 0 12px; font: 700 1.6rem/1.08 var(--display); }.people-card p { color: #46574d; }.people-card a { font-weight: 700; color: var(--green); }
 
 /* 2024 to 2025 bridge */
-.ncp-bridge { padding: 130px 0; overflow: hidden; background: #06150c; color: #fff; }
+.ncp-bridge { padding: 104px 0; overflow: hidden; background: #06150c; color: #fff; }
 .ncp-bridge::before { color: rgba(255, 255, 255, .035) !important; }
 .bridge-number { position: absolute; right: -.02em; top: -.16em; color: rgba(255, 255, 255, .035); font: 800 min(26vw, 23rem)/1 var(--display); }
 .bridge-layout { position: relative; display: grid; grid-template-columns: .95fr 1.05fr; gap: 7vw; }
@@ -761,12 +761,12 @@ section[data-section-no]::before {
 .history-bridge i { position: absolute; top: -4px; left: 0; width: 9px; height: 9px; border-radius: 50%; background: var(--red); animation: bridge-travel 4.5s var(--ease-in-out) infinite; }
 
 /* Diaspora */
-.diaspora { padding: 130px 0; overflow: hidden; background: #ece7dc; }
-.diaspora-layout { display: grid; grid-template-columns: 1.08fr .92fr; gap: 6vw; align-items: center; }
+.diaspora { padding: 104px 0; overflow: hidden; background: #ece7dc; }
+.diaspora-layout { display: grid; grid-template-columns: 1.08fr .92fr; gap: 6vw; align-items: start; }
 .diaspora p { font-size: 1.08rem; }.text-link { font-weight: 700; color: var(--green); }
 .diaspora-links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 20px; }
 .diaspora-links .text-link { font-size: .9rem; }
-.diaspora-map { position: relative; width: min(54vw, 650px); margin: auto; }
+.diaspora-map { position: relative; width: min(54vw, 650px); margin: 0 auto; }
 .map-frame { position: relative; overflow: hidden; border: 1px solid rgba(0, 106, 58, .18); border-radius: 26px; background: linear-gradient(145deg, rgba(255, 255, 255, .82), rgba(231, 242, 234, .52)); box-shadow: 0 30px 90px rgba(8, 35, 20, .12); }
 .map-frame::after { content: ''; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 55px rgba(0, 106, 58, .08); pointer-events: none; }
 .world-map { display: block; width: 100%; height: auto; }
@@ -785,7 +785,7 @@ section[data-section-no]::before {
 .city-ledger span { padding: 6px 9px 5px; border: 1px solid rgba(0, 106, 58, .22); border-radius: 999px; background: rgba(255, 255, 255, .56); color: #31513f; font: 700 .55rem/1 var(--ui); letter-spacing: .08em; }
 
 /* Unfinished promise */
-.legacy { padding: 130px 0; overflow: hidden; isolation: isolate; background: var(--green); color: #fff; }
+.legacy { padding: 104px 0; overflow: hidden; isolation: isolate; background: var(--green); color: #fff; }
 .legacy::before { color: rgba(255, 255, 255, .04) !important; }
 .legacy-layout { position: relative; z-index: 1; display: grid; grid-template-columns: .8fr 1.2fr; gap: 7vw; }
 .pledges { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid rgba(255, 255, 255, .24); border-left: 1px solid rgba(255, 255, 255, .24); }
@@ -798,7 +798,7 @@ html[lang='en'] .legacy-word, html[lang='de'] .legacy-word { font-family: var(--
 html[lang='de'] .legacy-word { font-size: clamp(4.8rem, 11vw, 10rem); }
 
 /* Source library */
-.sources { padding: 130px 0; overflow: hidden; background: var(--paper); }
+.sources { padding: 104px 0; overflow: hidden; background: var(--paper); }
 .source-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .source { display: grid; grid-template-columns: 52px 1fr auto; gap: 16px; align-items: center; min-height: 100px; padding: 18px; border: 1px solid var(--line); background: rgba(255, 255, 255, .45); text-decoration: none; transition: background .25s, transform .3s var(--ease-out), box-shadow .3s; }
 .source:hover { background: #fff; transform: translateY(-4px) rotate(-.15deg); box-shadow: 0 16px 40px rgba(8, 25, 15, .08); }
@@ -806,7 +806,7 @@ html[lang='de'] .legacy-word { font-size: clamp(4.8rem, 11vw, 10rem); }
 .source-org { display: inline-block; margin-top: 5px; color: var(--green); font: 700 .62rem var(--ui); letter-spacing: .08em; text-transform: uppercase; }
 
 /* Closing */
-.closing { padding: 165px 0; overflow: hidden; background: #080d09; color: #fff; text-align: center; }
+.closing { padding: 132px 0; overflow: hidden; background: #080d09; color: #fff; text-align: center; }
 .closing::before { content: ''; position: absolute; z-index: -2; inset: 0; background: url('https://ncpdagermany.de/img/july/selected/august-03-march-palash-khan.webp') center/cover; opacity: .15; filter: grayscale(1); }
 .closing::after { content: ''; position: absolute; z-index: -1; inset: 0; background: radial-gradient(circle at center, rgba(0, 106, 58, .15), rgba(8, 13, 9, .96) 68%); }
 .closing-inner { position: relative; max-width: 960px; }
@@ -900,9 +900,9 @@ footer { background: var(--paper); }
   .chorus-center::before { width: 92vw; }
   .chorus-center::after { bottom: 48px; width: 82vw; }
   .chorus-pulse { font-size: 18rem; }
-  .editorial-note, .phase-section, .facts, .timeline-section, .meaning, .evidence, .photo-essay, .people, .ncp-bridge, .diaspora, .legacy, .sources { padding: 86px 0; }
+  .editorial-note, .phase-section, .facts, .timeline-section, .meaning, .evidence, .photo-essay, .people, .ncp-bridge, .diaspora, .legacy, .sources { padding: 70px 0; }
   section[data-section-no]::before { top: 16px; font-size: 5.8rem; }
-  .section-heading { margin-bottom: 42px; }
+  .section-heading { margin-bottom: 34px; }
   .section-heading h2, .note-grid h2, .photo-heading h2, .people h2, .ncp-bridge h2, .diaspora h2, .legacy h2, .sources h2, .meaning h2, .closing h2 { font-size: clamp(2.25rem, 10vw, 3.4rem); }
   .phase-grid, .fact-grid, .violation-grid, .pledges { grid-template-columns: 1fr; }
   .phase-card { min-height: 270px; }
@@ -928,7 +928,7 @@ footer { background: var(--paper); }
   .city-ledger span { font-size: .48rem; }
   .legacy-word { bottom: 32px; font-size: clamp(4.4rem, 20vw, 8rem); }
   .source { grid-template-columns: 42px 1fr; }.source-arrow { display: none; }
-  .closing { padding: 120px 0; }.closing-36 { font-size: 8rem; }.closing-wave { left: 0; right: 0; }
+  .closing { padding: 96px 0; }.closing-36 { font-size: 8rem; }.closing-wave { left: 0; right: 0; }
   .footer-inner, .footer-links { flex-direction: column; align-items: flex-start; }
   [data-reveal] { transform: translateY(24px); filter: none; }
 }
