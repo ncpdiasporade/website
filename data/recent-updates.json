@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-01T11:35:47.981Z",
+  "updatedAt": "2026-08-01T13:57:18.831Z",
   "items": [
+    {
+      "id": "facebook-germany-122197967102921031",
+      "facebookId": "122197967102921031",
+      "status": "published",
+      "date": "১ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-01T13:27:42+0000",
+      "badge": "আয়োজন",
+      "title": "জুলাই গণঅভ্যুত্থানের দুই বছর পূর্তি উপলক্ষে আমাদের ওয়েবসাইটে ১ আগস্ট থেকে ৫ আগস্ট পর্যন্ত থাকছে বিশেষ আয়োজন—“ফিরে দেখা…",
+      "excerpt": "জুলাই গণঅভ্যুত্থানের দুই বছর পূর্তি উপলক্ষে আমাদের ওয়েবসাইটে ১ আগস্ট থেকে ৫ আগস্ট পর্যন্ত থাকছে বিশেষ আয়োজন—“ফিরে দেখা শেষ পাঁচ দিন”। বিশেষ আয়োজনের প্রথম দিনে থাকছে— “Remembering Our Heroes” কর্মসূচির বিস্তারিত।",
+      "sourceCaption": "জুলাই গণঅভ্যুত্থানের দুই বছর পূর্তি উপলক্ষে আমাদের ওয়েবসাইটে ১ আগস্ট থেকে ৫ আগস্ট পর্যন্ত থাকছে বিশেষ আয়োজন—“ফিরে দেখা শেষ পাঁচ দিন”।\n\nবিশেষ আয়োজনের প্রথম দিনে থাকছে—\n“Remembering Our Heroes” কর্মসূচির বিস্তারিত।\n\nবিস্তারিত পড়ুন:\nhttps://ncpdagermany.de/july/32/\n\nজুলাই গণঅভ্যুত্থান সম্পর্কে বিস্তারিত জানতে ভিজিট করুন:\nhttps://july36.ncpdagermany.de\n\nজুলাই নিয়ে আপনার অভিজ্ঞতা, স্মৃতি কিংবা কোনো ঘটনা আমাদের সঙ্গে শেয়ার করতে ই-মেইল করুন:\nncpdiasporade@gmail.com\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197967102921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122197967102921031.jpg",
+      "imageAlt": "জুলাই গণঅভ্যুত্থানের দুই বছর পূর্তি উপলক্ষে আমাদের ওয়েবসাইটে ১ আগস্ট থেকে ৫ আগস্ট পর্যন্ত থাকছে বিশেষ আয়োজন—“ফিরে দেখা…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122197876676921031",
       "facebookId": "122197876676921031",
@@ -182,26 +202,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122197677824921031",
-      "facebookId": "122197677824921031",
-      "status": "published",
-      "date": "৩০ জুলাই, ২০২৬",
-      "createdAt": "2026-07-30T21:43:30+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "এনসিপির ৩ দফা দাবি: ✊",
-      "excerpt": "এনসিপির ৩ দফা দাবি: ✊",
-      "sourceCaption": "এনসিপির ৩ দফা দাবি: ✊\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197677824921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122197677824921031.jpg",
-      "imageAlt": "এনসিপির ৩ দফা দাবি: ✊",
-      "managedBy": "facebook-sync"
-    },
-    {
       "id": "facebook-germany-122197201634921031",
       "facebookId": "122197201634921031",
       "status": "published",
@@ -380,7 +380,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70885,
+      "viewCount": 70887,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
