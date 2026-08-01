@@ -373,6 +373,100 @@ button { font: inherit; }
 }
 .scroll-cue span { width: 1px; height: 42px; background: #fff; animation: scroll-pulse 1.8s infinite; }
 
+/* The people's chorus: July heard before it is explained */
+.july-chorus {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 26px 0;
+  isolation: isolate;
+  background: #020a05;
+  color: #fff;
+}
+.july-chorus::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 176, 93, .2), transparent 32%),
+    radial-gradient(circle at 82% 78%, rgba(215, 25, 50, .22), transparent 34%);
+}
+.chant-band {
+  width: 104%;
+  margin-left: -2%;
+  overflow: hidden;
+  border-block: 1px solid rgba(255, 255, 255, .18);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, .24);
+}
+.chant-green { background: var(--green); transform: rotate(-1.4deg); }
+.chant-red { background: var(--red); transform: rotate(1.4deg); }
+.chant-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  padding: 13px 0 11px;
+  will-change: transform;
+}
+.chant-track span {
+  display: block;
+  padding-right: 7vw;
+  font: 800 clamp(1rem, 2vw, 1.55rem)/1 var(--body);
+  letter-spacing: .035em;
+  white-space: nowrap;
+}
+.chant-green .chant-track { animation: chorus-three 20s linear infinite; }
+.chant-red .chant-track { animation: chorus-two 24s linear infinite reverse; }
+.chorus-center {
+  position: relative;
+  display: grid;
+  min-height: 330px;
+  place-items: center;
+  padding: 70px 24px;
+  overflow: hidden;
+}
+.chorus-center::before {
+  content: '';
+  position: absolute;
+  width: min(52vw, 520px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: repeating-conic-gradient(from 0deg, rgba(255,255,255,.24) 0 1deg, transparent 1deg 10deg);
+  mask: radial-gradient(circle, transparent 0 42%, #000 42.5% 44%, transparent 44.5%);
+  animation: chorus-orbit 28s linear infinite;
+}
+.chorus-center::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 47px;
+  width: min(640px, 70vw);
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--green-bright), #fff 50%, var(--red), transparent);
+  transform: translateX(-50%) scaleX(.2);
+  transform-origin: center;
+  animation: people-line 3.4s var(--ease-in-out) infinite;
+}
+.chorus-center p {
+  position: relative;
+  z-index: 2;
+  max-width: 940px;
+  margin: 0;
+  font: 800 clamp(2.25rem, 5.3vw, 5.4rem)/.98 var(--display);
+  letter-spacing: -.045em;
+  text-align: center;
+  text-wrap: balance;
+}
+.chorus-pulse {
+  position: absolute;
+  color: transparent;
+  font: 800 clamp(12rem, 34vw, 31rem)/1 var(--display);
+  letter-spacing: -.12em;
+  opacity: .11;
+  -webkit-text-stroke: 1px #fff;
+  animation: chorus-breathe 4.2s var(--ease-in-out) infinite;
+}
+
 /* Shared editorial structure */
 section[data-section-no] { position: relative; isolation: isolate; }
 section[data-section-no]::before {
@@ -406,7 +500,8 @@ section[data-section-no]::before {
 
 /* Editorial standard */
 .editorial-note { padding: 110px 0; background: var(--paper); overflow: hidden; }
-.note-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 8vw; align-items: start; }
+.note-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 6vw; align-items: start; }
+.note-grid h2 { font-size: clamp(2.35rem, 4.4vw, 4.55rem); }
 .note-grid > div { position: relative; }
 .note-grid > div:last-child { padding-top: 10px; }
 .note-grid p { margin: 0 0 20px; font-size: 1.12rem; }
@@ -431,6 +526,19 @@ section[data-section-no]::before {
 
 /* Four-phase transformation */
 .phase-section { padding: 120px 0; overflow: hidden; background: #fff; }
+.uprising-word {
+  position: absolute;
+  z-index: -1;
+  right: -5vw;
+  bottom: -1.5vw;
+  color: transparent;
+  font: 800 clamp(7rem, 17vw, 16rem)/.8 var(--display);
+  letter-spacing: -.07em;
+  white-space: nowrap;
+  opacity: .055;
+  -webkit-text-stroke: 2px var(--ink);
+  transform: translateX(calc((.5 - var(--page-progress)) * 18vw));
+}
 .phase-section::after {
   content: '';
   position: absolute;
@@ -701,6 +809,11 @@ footer { background: var(--paper); }
 @keyframes red-sun { to { transform: scale(1.08) translate(-2%, 4%); } }
 @keyframes scroll-pulse { 0%, 100% { transform: scaleY(.35); transform-origin: top; opacity: .35; } 50% { transform: scaleY(1); opacity: 1; } }
 @keyframes date-pulse { 50% { box-shadow: 0 0 0 13px rgba(255, 255, 255, 0); } }
+@keyframes chorus-three { to { transform: translateX(-33.333%); } }
+@keyframes chorus-two { to { transform: translateX(-50%); } }
+@keyframes chorus-orbit { to { transform: rotate(360deg); } }
+@keyframes chorus-breathe { 50% { opacity: .2; transform: scale(1.045); } }
+@keyframes people-line { 50% { transform: translateX(-50%) scaleX(1); opacity: 1; } }
 @keyframes stamp-breathe { 50% { transform: rotate(-9deg) scale(1.04); } }
 @keyframes signal-pulse { 50% { box-shadow: 0 0 0 17px rgba(215, 25, 50, 0); } }
 @keyframes calendar-rise { to { transform: translateY(0); opacity: 1; } }
@@ -747,6 +860,14 @@ footer { background: var(--paper); }
   .hero-date-rail { grid-template-columns: 1fr 1fr; row-gap: 22px; margin-top: 38px; }
   .hero-count { right: 16px; bottom: 86px; }
   .scroll-cue { left: 15px; right: auto; bottom: 28px; }
+  .july-chorus { padding: 17px 0; }
+  .chant-track { padding-block: 10px 9px; }
+  .chant-track span { padding-right: 13vw; font-size: .9rem; }
+  .chorus-center { min-height: 350px; padding: 72px 18px; }
+  .chorus-center p { font-size: clamp(2.1rem, 11vw, 3.5rem); }
+  .chorus-center::before { width: 92vw; }
+  .chorus-center::after { bottom: 48px; width: 82vw; }
+  .chorus-pulse { font-size: 18rem; }
   .editorial-note, .phase-section, .facts, .timeline-section, .meaning, .evidence, .photo-essay, .people, .ncp-bridge, .diaspora, .legacy, .sources { padding: 86px 0; }
   section[data-section-no]::before { top: 16px; font-size: 5.8rem; }
   .section-heading { margin-bottom: 42px; }
