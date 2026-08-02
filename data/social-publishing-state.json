@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-02T22:36:02.391Z",
+  "updatedAt": "2026-08-02T23:14:08.490Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -59,7 +59,9 @@
     "facebook:germany:122198131502921031": "2eba1dbfce25695c2e276b578420db925cd4da497e0cc2ad34ae0e167944eb6d",
     "facebook:germany:122198197838921031": "ee79d3ed26633da42da8a491127bed7535f04d24227c386cb0ecd265ff33b828",
     "facebook:germany:122198201414921031": "5767ab86a424dbe6ba9b0533b6eb43fa5be37057c53e9ab2821265e7e36997f4",
-    "blog:nhrc-bill-2026-independent-investigation": "f2d238eedc49f7bb2e291af33633bb61b99b07a291c74ed032e83a5dbc958af3"
+    "blog:nhrc-bill-2026-independent-investigation": "f2d238eedc49f7bb2e291af33633bb61b99b07a291c74ed032e83a5dbc958af3",
+    "facebook:germany:122198210162921031": "6669d6dfff254ccae75fc4a84953b537888d873cfa5e9892551f3b227dad0731",
+    "facebook:germany:122198210708921031": "d9996abd1097513d978de65aaaba34e6ff53a62d866fd33a9e848d0dcf4fb6ef"
   },
   "publications": []
 }
