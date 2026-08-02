@@ -1,6 +1,676 @@
 {
   "items": [
     {
+      "id": "nhrc-bill-2026-independent-investigation",
+      "slug": "nhrc-bill-2026-independent-investigation",
+      "status": "published",
+      "tag": "মানবাধিকার ও রাষ্ট্র সংস্কার",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "৩ আগস্ট ২০২৬",
+      "title": "অভিযুক্ত বাহিনীর রিপোর্টের অপেক্ষায় যে কমিশন: মানবাধিকার বিল ২০২৬ কেন বদলানো জরুরি",
+      "excerpt": "পুলিশ বা অন্য কোনো রাষ্ট্রীয় বাহিনীর বিরুদ্ধে অভিযোগ উঠলে মানবাধিকার কমিশন নিজে স্বাধীনভাবে তদন্ত না করে সেই বাহিনী বা সরকারের প্রতিবেদনের ওপর নির্ভর করবে—খসড়াটির মূল সংকট এখানেই। সহজ উদাহরণে দেখা যাক, কেন কিছু ‘কঠোর’ ক্ষমতা দিয়েও কমিশনকে কার্যত দুর্বল রাখা হচ্ছে।",
+      "image": "img/blog/photos/nhrc-consultation-2025-panel.jpg",
+      "sharePath": "blog/nhrc-bill-2026-independent-investigation",
+      "shareImage": "img/blog/photos/nhrc-consultation-2025-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-08-03T12:00:00+02:00",
+      "imageAlt": "ঢাকায় জাতীয় মানবাধিকার কমিশন অধ্যাদেশের খসড়া নিয়ে জাতীয় পরামর্শ সভা",
+      "imageCredit": "জাতীয় মানবাধিকার কমিশন অধ্যাদেশ ২০২৫-এর খসড়া নিয়ে জাতীয় পরামর্শ সভা, ঢাকা, ১১ অক্টোবর ২০২৫। ছবি: তথ্য অধিদফতর, বাংলাদেশ; Wikimedia Commons-এর মাধ্যমে পাবলিক ডোমেইন।",
+      "license": "Public Domain — Press Information Department, Government of Bangladesh; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:National_Human_Rights_Commission_Ordinance_Consultation_Meeting,_Dhaka,_2025-10-11_(PID-0061380).jpg",
+      "translations": {
+        "en": {
+          "tag": "Human rights & state reform",
+          "author": "Editorial Desk",
+          "date": "3 August 2026",
+          "title": "A commission waiting for the accused force's report: why Bangladesh's 2026 human-rights bill must change",
+          "excerpt": "When police or another state force is accused, the Human Rights Commission would still depend on a report from that force or the government instead of conducting a fully independent investigation. Simple examples show why several tough-looking powers do not cure this central weakness.",
+          "imageAlt": "National consultation in Dhaka on the draft National Human Rights Commission Ordinance",
+          "imageCredit": "National consultation on the draft National Human Rights Commission Ordinance 2025, Dhaka, 11 October 2025. Photo: Press Information Department, Bangladesh; Public Domain via Wikimedia Commons.",
+          "facts": [
+            {
+              "value": "Section 20",
+              "label": "The central concern: dependence on official or force reports when disciplinary-force members are accused."
+            },
+            {
+              "value": "19 reforms",
+              "label": "Amendments submitted by Transparency International Bangladesh after its section-by-section review."
+            },
+            {
+              "value": "6 standards",
+              "label": "The Paris Principles require a broad mandate, autonomy, legal independence, pluralism, resources and investigative powers."
+            },
+            {
+              "value": "13 groups",
+              "label": "International rights organisations that jointly urged Bangladesh to revise the bill."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Imagine that someone is taken away at night. The family alleges that members of a state force were involved and turns to the National Human Rights Commission. The Commission should be able to secure CCTV footage, custody and vehicle records, question witnesses and inspect a suspected detention site. But if it must first ask the accused force's own leadership for a report, the institution is not controlling the investigation; the chain of command under scrutiny is controlling the most important evidence."
+            },
+            {
+              "type": "callout",
+              "text": "A human-rights commission matters most when the complaint is against the state. If it is strong against an ordinary individual but weak before an armed state agency, its purpose has been reversed."
+            },
+            {
+              "type": "heading",
+              "text": "The draft in 30 seconds"
+            },
+            {
+              "type": "paragraph",
+              "text": "Parliament repealed the stronger 2025 NHRC Ordinance in April 2026 and restored the 2009 framework. The government then formulated a new draft on 17 May. The draft contains 42 sections and several new powers. Yet reviews by TIB, a joint group of international rights organisations and the legal analysis published by The Business Standard identify a common problem: the Commission may look more powerful on paper while remaining dependent on the executive and security institutions where independence is most needed."
+            },
+            {
+              "type": "heading",
+              "text": "What is a human-rights commission—police, court or watchdog?"
+            },
+            {
+              "type": "paragraph",
+              "text": "It is neither a police station nor a criminal court. Its distinctive job is to examine whether the state failed to respect, protect or fulfil a person's rights. It should receive complaints without intimidating victims, obtain information independently, visit places of detention, identify institutional responsibility, recommend remedies and publish findings that prevent repetition. Courts decide criminal guilt and punishment; police investigate crimes. Blurring those roles can leave all three institutions doing their own jobs badly."
+            },
+            {
+              "type": "heading",
+              "text": "The draft does contain improvements"
+            },
+            {
+              "type": "list",
+              "items": [
+                "written minutes of Commission meetings and greater accountability for investigating officers;",
+                "an integrated review of recognised human-rights protection measures in existing law;",
+                "a wider jurisdiction for the National Preventive Mechanism division;",
+                "sharing a disciplinary force's report with the complainant and removing a limitation period in some own-motion inquiries."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "These changes deserve recognition. But better paperwork cannot compensate for a structural conflict of interest. A Commission can keep perfect minutes and still fail a family if it cannot reach the evidence without the accused institution's cooperation."
+            },
+            {
+              "type": "heading",
+              "text": "1. Asking the accused institution to help establish the truth"
+            },
+            {
+              "type": "paragraph",
+              "text": "Section 20 is the bill's most serious weakness. According to the published legal reviews, a complaint against members of a disciplinary force would again make the Commission dependent on a report from the government or the head of that force instead of giving it full direct investigative power. This reproduces the core limitation of the 2009 law that the new legislation was expected to fix."
+            },
+            {
+              "type": "paragraph",
+              "text": "The problem is practical, not theoretical. In allegations of enforced disappearance, torture, custodial death or unlawful shooting, the decisive evidence may be inside official systems: duty rosters, radio logs, vehicle movements, weapons records, CCTV, mobile data, entry books and orders within the chain of command. Delay can erase or alter that evidence. An independent watchdog must be able to preserve and inspect it directly, while respecting due process and national-security safeguards reviewed by a court—not by seeking permission from the institution under complaint."
+            },
+            {
+              "type": "heading",
+              "text": "2. Called independent, but tied to government controls"
+            },
+            {
+              "type": "list",
+              "items": [
+                "The draft omits the explicit 2025 guarantee that the Commission shall not be under any ministry or department.",
+                "Opening offices would require government approval, weakening access outside Dhaka.",
+                "The proposed selection committee includes the Speaker, law minister, home minister, a ruling-party MP and the Cabinet Secretary, creating executive and governing-party dominance.",
+                "A serving public official could become a commissioner while on leave, lien or deputation, and up to 30 percent of staff could come on government deputation.",
+                "Budget allocation and rule-making remain significantly dependent on government decisions."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Each provision may be defended as administrative convenience. Together they form a chain of influence: government-linked selectors choose the leadership; public officials may enter the Commission; the executive controls offices, money and rules; and the Commission needs official reports in the most sensitive cases. Independence can be lost through this accumulation even if the first section calls the institution 'independent'."
+            },
+            {
+              "type": "heading",
+              "text": "3. Tough-looking powers are not necessarily the right powers"
+            },
+            {
+              "type": "paragraph",
+              "text": "The TBS analysis raises a different warning. Section 13 extends the process to alleged violations by an 'individual' and introduces a fuller adversarial hearing. Section 16(5) is read as giving arrest power, while section 17(5)(b) provides for recovery of compensation from an individual accused. These provisions can make the Commission resemble an investigator, prosecutor, court and debt-recovery body at once."
+            },
+            {
+              "type": "paragraph",
+              "text": "That may sound strong, but it can burden victims with lawyers and court-like contest, confuse the Commission's public-law task with criminal liability, and expose its findings to procedural challenge. The Commission needs power to obtain evidence, protect complainants, inspect detention, compel a timely state response and publish non-compliance. Handcuffs are not a substitute for institutional independence."
+            },
+            {
+              "type": "callout",
+              "text": "The right kind of strength is access to truth and protection for victims. The wrong kind is a dramatic power that turns the watchdog into a weaker copy of the police or a court."
+            },
+            {
+              "type": "heading",
+              "text": "4. A pending case must not silence a separate human-rights question"
+            },
+            {
+              "type": "paragraph",
+              "text": "Section 29 bars Commission action when proceedings are pending. A court may be deciding whether an individual committed an offence, while the Commission asks a different question: did the state fail to prevent abuse, preserve evidence, protect a detainee or provide a remedy? A blanket sub judice bar lets the filing of another case freeze independent oversight. The law should prevent conflicting orders, but expressly allow systemic and state-responsibility inquiries to continue."
+            },
+            {
+              "type": "heading",
+              "text": "5. A narrower mandate means fewer problems are prevented"
+            },
+            {
+              "type": "paragraph",
+              "text": "The joint statement coordinated by Human Rights Watch says the draft drops or narrows functions included in the 2025 Ordinance: protecting human-rights defenders; monitoring the rights of women, children, persons with disabilities and marginalised groups; sustained civil-society engagement; advising on international treaties; reviewing legislation; and human-rights education. A Commission that only reacts to files after harm occurs is not enough. Prevention, public reporting and legal review are essential parts of the job."
+            },
+            {
+              "type": "heading",
+              "text": "What supporters of the draft may say—and why it is not enough"
+            },
+            {
+              "type": "list",
+              "items": [
+                "'Police already investigate crimes.' Correct—but the Commission is not replacing a criminal case. It independently examines state responsibility and whether the investigation itself is credible.",
+                "'Security information cannot be opened to everyone.' Correct—but confidentiality can be protected through judicial warrants, security-cleared investigators and closed evidence procedures. Total dependence on the accused force is not the only option.",
+                "'Ministers and officials understand administration.' They may, but the body must also be visibly independent of those it may investigate. A public, pluralistic selection process can retain expertise without giving the government a controlling bloc.",
+                "'Arrest and compensation powers make the Commission effective.' Only if they fit its mandate. The Commission needs enforceable access and follow-up first; criminal arrest and punishment belong primarily to independent investigators and courts."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Why July makes this institutional question unavoidable"
+            },
+            {
+              "type": "paragraph",
+              "text": "The UN Human Rights Office estimated that as many as 1,400 people may have been killed between 1 July and 15 August 2024 and documented systematic violations involving the former government, security and intelligence services and violent Awami League elements. The lesson is not that one set of officials should be replaced by another and then trusted without scrutiny. The lesson is that no government should be able to investigate itself behind a closed door."
+            },
+            {
+              "type": "paragraph",
+              "text": "When Parliament repealed the 2025 Ordinance on 9 April 2026, NCP lawmaker Hasnat Abdullah objected and later questioned whether a non-independent Commission could credibly assess actions linked to July. That objection is consistent with the reform promise born from the uprising. The harder test for NCP—and every party—is to defend the same independent Commission even when its own allies or a future government face investigation. Institutions become democratic only when the rule is accepted before knowing who will be accused."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/jatiya-sangsad-bhaban-human-rights-bill.jpg",
+              "alt": "Bangladesh's National Parliament building in Dhaka",
+              "caption": "The draft will ultimately become law in Parliament. Citizens' rights and international standards must therefore outweigh a party majority.",
+              "credit": "Photo: Moheen Reeyad; CC BY-SA 4.0, Wikimedia Commons; resized for the web.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jatiyo_Sangshad_Bhaban_(01).jpg"
+            },
+            {
+              "type": "heading",
+              "text": "Seven changes needed before passage"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Give the Commission direct authority to investigate every state and disciplinary force, preserve records, protect witnesses and visit suspected detention sites without prior permission; protect legitimate secrecy under judicial supervision.",
+                "State expressly that the Commission is not under any ministry or department and may control its own rules, regional offices, recruitment and administration.",
+                "Use public nominations, published qualifications, conflict-of-interest declarations and a pluralistic selection committee that is not controlled by the government.",
+                "Build the Commission's own professional investigation and legal-aid teams; keep government deputations limited and transparent.",
+                "Replace mandatory court-like hearings with a victim-friendly, non-adversarial complaint process, free legal assistance and protection from retaliation.",
+                "Set deadlines for government responses and implementation, publish every final decision, report annually to Parliament and provide a clear route to the High Court when recommendations are ignored.",
+                "Restore the full mandate covering human-rights defenders, women, children, persons with disabilities, ethnic and religious minorities and marginalised groups, as well as legislative review, treaty advice, public education and civil-society engagement."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Conclusion"
+            },
+            {
+              "type": "paragraph",
+              "text": "A human-rights commission earns credibility not through statements in quiet times but by reaching the truth when a powerful state institution is accused. A Commission that can arrest an ordinary individual but cannot independently open the accused force's records is not strong; it is designed backwards. The government should not define success as passing the bill quickly. It should enact a law capable of holding future governments to account as well."
+            },
+            {
+              "type": "paragraph",
+              "text": "Editorial note: This analysis is based on the draft formulated on 17 May 2026 and legal reviews and statements published through 3 August 2026. If provisions change in the final bill, the relevant assessments should be checked again."
+            }
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard: why the draft still denies the Commission investigative power",
+              "url": "https://www.tbsnews.net/bangla/opinion/news-details-502686"
+            },
+            {
+              "label": "TIB: section-by-section review and 19 recommendations",
+              "url": "https://www.ti-bangladesh.org/upload/files/law-review/2026/TIB-Review-on-NHRC-Act-2026-En.pdf"
+            },
+            {
+              "label": "Joint statement: the NHRC Bill is a setback for protection and independence",
+              "url": "https://www.hrw.org/news/2026/06/22/the-national-human-rights-commission-bill-2026-a-setback-for-human-rights"
+            },
+            {
+              "label": "OHCHR: Paris Principles and the six standards for national institutions",
+              "url": "https://www.ohchr.org/Documents/Publications/PTS-4Rev1-NHRI_en.pdf"
+            },
+            {
+              "label": "UN Human Rights: fact-finding report on the July–August 2024 protests",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            },
+            {
+              "label": "The Daily Star: Hasnat Abdullah challenges the Commission's independence",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/baaper-doa-human-rights-commission-hasnat-slams-govt-over-nhrc-4146821"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Menschenrechte & Staatsreform",
+          "author": "Redaktion",
+          "date": "3. August 2026",
+          "title": "Wenn die Kommission auf den Bericht der beschuldigten Behörde warten muss: Warum Bangladeschs Menschenrechtsgesetz 2026 geändert werden muss",
+          "excerpt": "Wird der Polizei oder einer anderen staatlichen Sicherheitsbehörde ein Verstoß vorgeworfen, soll die Menschenrechtskommission weiterhin von einem Bericht dieser Behörde oder der Regierung abhängen. Einfache Beispiele zeigen, warum mehrere streng wirkende Befugnisse diese zentrale Schwäche nicht beheben.",
+          "imageAlt": "Nationale Konsultation in Dhaka zum Entwurf der Verordnung über die Nationale Menschenrechtskommission",
+          "imageCredit": "Nationale Konsultation zum Entwurf der Verordnung über die Nationale Menschenrechtskommission 2025, Dhaka, 11. Oktober 2025. Foto: Press Information Department, Bangladesch; Public Domain via Wikimedia Commons.",
+          "facts": [
+            {
+              "value": "§ 20",
+              "label": "Kernproblem: Abhängigkeit von Behördenberichten, wenn Angehörige einer Disziplinargewalt beschuldigt werden."
+            },
+            {
+              "value": "19 Reformen",
+              "label": "Änderungsvorschläge von Transparency International Bangladesh nach einer Prüfung Abschnitt für Abschnitt."
+            },
+            {
+              "value": "6 Standards",
+              "label": "Die Pariser Prinzipien verlangen ein breites Mandat, Autonomie, gesetzliche Unabhängigkeit, Pluralismus, Ressourcen und Untersuchungsbefugnisse."
+            },
+            {
+              "value": "13 Organisationen",
+              "label": "Internationale Menschenrechtsorganisationen, die Bangladesch gemeinsam zur Überarbeitung aufforderten."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Stellen wir uns vor, ein Mensch wird nachts abgeholt. Die Familie vermutet Angehörige einer staatlichen Einheit und wendet sich an die Nationale Menschenrechtskommission. Diese müsste Videoaufnahmen, Gewahrsams- und Fahrzeugdaten sichern, Zeugen befragen und einen mutmaßlichen Haftort untersuchen können. Muss sie jedoch zuerst die Leitung der beschuldigten Einheit um einen Bericht bitten, kontrolliert nicht die Kommission die Untersuchung, sondern die überprüfte Befehlskette die wichtigsten Beweise."
+            },
+            {
+              "type": "callout",
+              "text": "Eine Menschenrechtskommission wird vor allem dann gebraucht, wenn sich eine Beschwerde gegen den Staat richtet. Ist sie gegenüber Privatpersonen stark, aber gegenüber bewaffneten Staatsorganen schwach, wird ihr Zweck umgekehrt."
+            },
+            {
+              "type": "heading",
+              "text": "Der Entwurf in 30 Sekunden"
+            },
+            {
+              "type": "paragraph",
+              "text": "Im April 2026 hob das Parlament die stärkere NHRC-Verordnung von 2025 auf und stellte den Rahmen von 2009 wieder her. Am 17. Mai legte die Regierung einen neuen Entwurf vor. Er hat 42 Paragrafen und mehrere neue Befugnisse. Prüfungen von TIB, internationalen Menschenrechtsorganisationen und die juristische Analyse in The Business Standard benennen jedoch dasselbe Problem: Auf dem Papier wirkt die Kommission mächtiger, bleibt aber gerade dort von Exekutive und Sicherheitsorganen abhängig, wo Unabhängigkeit am wichtigsten ist."
+            },
+            {
+              "type": "heading",
+              "text": "Was ist eine Menschenrechtskommission: Polizei, Gericht oder Kontrollorgan?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Sie ist weder Polizeiwache noch Strafgericht. Ihre besondere Aufgabe ist zu prüfen, ob der Staat Rechte verletzt oder Menschen nicht ausreichend geschützt hat. Sie muss Beschwerden niedrigschwellig annehmen, selbständig Informationen beschaffen, Haftorte besuchen, institutionelle Verantwortung benennen, Abhilfe empfehlen und Erkenntnisse veröffentlichen. Gerichte entscheiden über Schuld und Strafe; die Polizei ermittelt Straftaten. Werden die Rollen vermischt, kann jede Institution ihre eigentliche Aufgabe schlechter erfüllen."
+            },
+            {
+              "type": "heading",
+              "text": "Der Entwurf enthält auch Verbesserungen"
+            },
+            {
+              "type": "list",
+              "items": [
+                "schriftliche Protokolle der Kommissionssitzungen und mehr Rechenschaftspflicht für Untersuchungsbeamte;",
+                "eine gebündelte Überprüfung anerkannter Schutzmaßnahmen im bestehenden Recht;",
+                "einen erweiterten Zuständigkeitsbereich des Nationalen Präventionsmechanismus;",
+                "die Weitergabe eines Behördenberichts an Beschwerdeführende und in bestimmten Eigeninitiativen keine Ausschlussfrist."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Diese Fortschritte verdienen Anerkennung. Bessere Aktenführung beseitigt jedoch keinen strukturellen Interessenkonflikt. Eine Kommission kann perfekte Protokolle führen und eine Familie trotzdem im Stich lassen, wenn sie ohne Mitwirkung der beschuldigten Institution nicht an die Beweise gelangt."
+            },
+            {
+              "type": "heading",
+              "text": "1. Die beschuldigte Institution soll bei der Wahrheitsfindung helfen"
+            },
+            {
+              "type": "paragraph",
+              "text": "§ 20 ist die größte Schwäche. Den veröffentlichten Rechtsprüfungen zufolge wäre die Kommission bei Beschwerden gegen Angehörige einer Disziplinargewalt erneut von einem Bericht der Regierung oder der Behördenleitung abhängig, statt unmittelbar und umfassend ermitteln zu können. Damit kehrt genau die zentrale Begrenzung des Gesetzes von 2009 zurück, die eine Neuregelung beheben sollte."
+            },
+            {
+              "type": "paragraph",
+              "text": "Das ist ein praktisches Problem. Bei Vorwürfen des Verschwindenlassens, der Folter, eines Todes in Gewahrsam oder rechtswidriger Schüsse liegen entscheidende Beweise oft in amtlichen Systemen: Dienstpläne, Funkprotokolle, Fahrzeugbewegungen, Waffenregister, Videoaufnahmen, Mobilfunkdaten, Eingangsbücher und Befehle. Verzögerungen können diese Spuren vernichten. Ein unabhängiges Kontrollorgan muss sie direkt sichern können; legitime Geheimhaltung lässt sich unter gerichtlicher Aufsicht schützen, nicht durch die Erlaubnis der beschuldigten Stelle."
+            },
+            {
+              "type": "heading",
+              "text": "2. Unabhängig genannt, aber an staatliche Kontrolle gebunden"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Die ausdrückliche Garantie von 2025, dass die Kommission keinem Ministerium und keiner Behörde untersteht, fehlt.",
+                "Für regionale Büros wäre eine Genehmigung der Regierung nötig; das schwächt den Zugang außerhalb Dhakas.",
+                "Dem vorgeschlagenen Auswahlgremium gehören Parlamentspräsident, Justiz- und Innenminister, ein Abgeordneter der Regierungspartei und der Kabinettssekretär an.",
+                "Aktive Staatsbedienstete könnten während Urlaub, Freistellung oder Abordnung Kommissionsmitglieder werden; bis zu 30 Prozent des Personals könnten aus der Verwaltung abgeordnet sein.",
+                "Haushalt und Regelsetzung bleiben wesentlich von Regierungsentscheidungen abhängig."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Jede einzelne Regel kann als Verwaltungsvereinfachung verkauft werden. Zusammen bilden sie eine Einflusskette: regierungsnahe Akteure wählen die Leitung, Staatsbedienstete prägen die Behörde, die Exekutive kontrolliert Büros, Geld und Regeln, und in sensiblen Fällen benötigt die Kommission amtliche Berichte. So kann Unabhängigkeit verloren gehen, obwohl im ersten Paragrafen 'unabhängig' steht."
+            },
+            {
+              "type": "heading",
+              "text": "3. Streng wirkende Befugnisse sind nicht automatisch die richtigen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die TBS-Analyse warnt vor einer anderen Verschiebung. § 13 bezieht mutmaßliche Verstöße eines 'Individuums' ein und schafft eine stärker kontradiktorische Anhörung. § 16 Absatz 5 wird als Festnahmebefugnis verstanden; § 17 Absatz 5 Buchstabe b sieht die Beitreibung von Entschädigung bei einer beschuldigten Person vor. Die Kommission könnte damit zugleich Ermittlungsbehörde, Staatsanwaltschaft, Gericht und Vollstreckungsstelle werden."
+            },
+            {
+              "type": "paragraph",
+              "text": "Das klingt stark, kann Opfer aber in teure, gerichtsähnliche Verfahren zwingen, die öffentlich-rechtliche Aufgabe der Kommission mit individueller Strafschuld vermischen und Entscheidungen verfahrensrechtlich angreifbar machen. Benötigt werden Beweiszugang, Schutz für Beschwerdeführende, Haftkontrolle, verbindliche Antwortfristen und Transparenz. Handschellen ersetzen keine institutionelle Unabhängigkeit."
+            },
+            {
+              "type": "callout",
+              "text": "Die richtige Stärke bedeutet Zugang zur Wahrheit und Schutz für Opfer. Die falsche Stärke ist eine spektakuläre Befugnis, die das Kontrollorgan zur schwächeren Kopie von Polizei oder Gericht macht."
+            },
+            {
+              "type": "heading",
+              "text": "4. Ein laufendes Gerichtsverfahren darf die Menschenrechtsfrage nicht zum Schweigen bringen"
+            },
+            {
+              "type": "paragraph",
+              "text": "§ 29 sperrt ein Tätigwerden bei laufenden Verfahren. Ein Gericht kann jedoch prüfen, ob eine Person eine Straftat beging, während die Kommission fragt, ob der Staat Missbrauch verhinderte, Beweise sicherte, Inhaftierte schützte oder Abhilfe gewährte. Eine pauschale Sub-judice-Sperre kann unabhängige Kontrolle durch die Einleitung eines anderen Verfahrens einfrieren. Das Gesetz sollte widersprüchliche Anordnungen vermeiden, systemische Untersuchungen und Prüfungen staatlicher Verantwortung aber ausdrücklich zulassen."
+            },
+            {
+              "type": "heading",
+              "text": "5. Ein engeres Mandat verhindert weniger Verletzungen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Nach der von Human Rights Watch koordinierten gemeinsamen Erklärung fehlen oder schrumpfen Aufgaben aus der Verordnung von 2025: der Schutz von Menschenrechtsverteidigern; die Beobachtung der Rechte von Frauen, Kindern, Menschen mit Behinderungen und marginalisierten Gruppen; die Zusammenarbeit mit der Zivilgesellschaft; Beratung zu internationalen Verträgen; Gesetzesprüfung und Menschenrechtsbildung. Eine Kommission, die nur nach einem Schaden Akten bearbeitet, reicht nicht. Prävention, öffentliche Berichte und Rechtsprüfung gehören zum Kernauftrag."
+            },
+            {
+              "type": "heading",
+              "text": "Mögliche Argumente für den Entwurf—und warum sie nicht genügen"
+            },
+            {
+              "type": "list",
+              "items": [
+                "'Die Polizei ermittelt bereits Straftaten.' Richtig—doch die Kommission ersetzt kein Strafverfahren. Sie prüft unabhängig die staatliche Verantwortung und die Glaubwürdigkeit der Ermittlung selbst.",
+                "'Sicherheitsinformationen können nicht allen offengelegt werden.' Richtig—Vertraulichkeit lässt sich durch richterliche Anordnungen, sicherheitsüberprüfte Ermittler und geschützte Beweisverfahren wahren. Totale Abhängigkeit von der beschuldigten Behörde ist nicht alternativlos.",
+                "'Minister und Beamte verstehen Verwaltung.' Möglich, aber die Kommission muss sichtbar unabhängig von den Stellen sein, die sie untersuchen kann. Ein öffentliches, pluralistisches Verfahren bewahrt Fachwissen ohne einen staatlichen Kontrollblock.",
+                "'Festnahme und Entschädigung machen die Kommission wirksam.' Nur wenn sie zum Mandat passen. Vorrang haben durchsetzbarer Informationszugang und Umsetzung; Festnahme und Bestrafung gehören grundsätzlich zu unabhängigen Ermittlungsbehörden und Gerichten."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Warum der Juli diese institutionelle Frage unausweichlich macht"
+            },
+            {
+              "type": "paragraph",
+              "text": "Das UN-Menschenrechtsbüro schätzte, dass zwischen dem 1. Juli und 15. August 2024 bis zu 1.400 Menschen getötet worden sein könnten, und dokumentierte systematische Verletzungen unter Beteiligung der damaligen Regierung, von Sicherheits- und Nachrichtendiensten sowie gewalttätigen Elementen der Awami League. Die Lehre lautet nicht, eine Gruppe von Amtsträgern durch eine andere zu ersetzen und ihr blind zu vertrauen. Kein Staat darf sich hinter verschlossenen Türen selbst untersuchen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Als das Parlament am 9. April 2026 die Verordnung von 2025 aufhob, erhob der NCP-Abgeordnete Hasnat Abdullah Einspruch und stellte später infrage, ob eine abhängige Kommission Maßnahmen im Zusammenhang mit dem Juli glaubwürdig bewerten könne. Das entspricht dem Reformversprechen des Aufstands. Die schwierigere Prüfung für NCP und jede andere Partei lautet, dieselbe unabhängige Kommission zu verteidigen, wenn eigene Verbündete oder eine künftige Regierung untersucht werden. Eine Institution wird demokratisch, wenn die Regel gilt, bevor bekannt ist, wer beschuldigt wird."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/jatiya-sangsad-bhaban-human-rights-bill.jpg",
+              "alt": "Das Gebäude des Nationalparlaments in Dhaka",
+              "caption": "Der Entwurf soll im Parlament zum Gesetz werden. Bürgerrechte und internationale Standards müssen daher mehr zählen als eine parteipolitische Mehrheit.",
+              "credit": "Foto: Moheen Reeyad; CC BY-SA 4.0, Wikimedia Commons; für das Web verkleinert.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jatiyo_Sangshad_Bhaban_(01).jpg"
+            },
+            {
+              "type": "heading",
+              "text": "Sieben notwendige Änderungen vor der Verabschiedung"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Unmittelbare Ermittlungen gegen alle staatlichen und disziplinarischen Kräfte, Beweissicherung, Zeugenschutz und unangekündigte Besuche mutmaßlicher Haftorte; legitime Geheimhaltung unter gerichtlicher Aufsicht.",
+                "Eine klare gesetzliche Garantie, dass die Kommission keinem Ministerium untersteht und eigene Regeln, Regionalbüros, Personal und Verwaltung kontrolliert.",
+                "Öffentliche Nominierungen, klare Eignungskriterien, Offenlegung von Interessenkonflikten und ein pluralistisches Auswahlgremium ohne Regierungsmehrheit.",
+                "Eigene professionelle Ermittlungs- und Rechtshilfeteams; Abordnungen aus der Verwaltung nur begrenzt und transparent.",
+                "Ein opferfreundliches, nicht-kontradiktorisches Beschwerdeverfahren statt zwingender Gerichtsähnlichkeit; kostenlose Rechtshilfe und Schutz vor Vergeltung.",
+                "Verbindliche Fristen für staatliche Antworten und Umsetzung, Veröffentlichung aller Endentscheidungen, Jahresbericht an das Parlament und ein klarer Weg zum High Court bei Nichtbefolgung.",
+                "Wiederherstellung des breiten Mandats für Menschenrechtsverteidiger, Frauen, Kinder, Menschen mit Behinderungen, ethnische und religiöse Minderheiten sowie marginalisierte Gruppen; Gesetzesprüfung, Vertragsberatung, Bildung und Zusammenarbeit mit der Zivilgesellschaft."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fazit"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Glaubwürdigkeit einer Menschenrechtskommission zeigt sich nicht an Erklärungen in ruhigen Zeiten, sondern daran, ob sie bei Vorwürfen gegen mächtige Staatsorgane zur Wahrheit vordringen kann. Eine Kommission, die Privatpersonen festnehmen, aber Akten der beschuldigten Behörde nicht selbständig öffnen kann, ist nicht stark, sondern falsch konstruiert. Die Regierung sollte nicht die schnelle Verabschiedung als Erfolg verkaufen, sondern ein Gesetz schaffen, das auch künftige Regierungen bindet."
+            },
+            {
+              "type": "paragraph",
+              "text": "Redaktioneller Hinweis: Diese Analyse beruht auf dem am 17. Mai 2026 formulierten Entwurf und auf bis zum 3. August 2026 veröffentlichten Rechtsprüfungen und Erklärungen. Werden Bestimmungen im endgültigen Gesetzentwurf geändert, müssen die betroffenen Bewertungen aktualisiert werden."
+            }
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard: Warum dem Entwurf weiterhin echte Untersuchungskompetenz fehlt",
+              "url": "https://www.tbsnews.net/bangla/opinion/news-details-502686"
+            },
+            {
+              "label": "TIB: Prüfung Abschnitt für Abschnitt und 19 Empfehlungen",
+              "url": "https://www.ti-bangladesh.org/upload/files/law-review/2026/TIB-Review-on-NHRC-Act-2026-En.pdf"
+            },
+            {
+              "label": "Gemeinsame Erklärung: Rückschritt bei Schutz und institutioneller Unabhängigkeit",
+              "url": "https://www.hrw.org/news/2026/06/22/the-national-human-rights-commission-bill-2026-a-setback-for-human-rights"
+            },
+            {
+              "label": "OHCHR: Pariser Prinzipien und sechs Standards für nationale Institutionen",
+              "url": "https://www.ohchr.org/Documents/Publications/PTS-4Rev1-NHRI_en.pdf"
+            },
+            {
+              "label": "UN-Menschenrechtsbüro: Untersuchungsbericht zu den Protesten im Juli und August 2024",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            },
+            {
+              "label": "The Daily Star: Hasnat Abdullah kritisiert die fehlende Unabhängigkeit der Kommission",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/baaper-doa-human-rights-commission-hasnat-slams-govt-over-nhrc-4146821"
+            }
+          ]
+        }
+      },
+      "facts": [
+        {
+          "value": "ধারা ২০",
+          "label": "মূল উদ্বেগ: শৃঙ্খলা বাহিনীর সদস্য অভিযুক্ত হলে সরকার বা বাহিনীর প্রতিবেদনের ওপর নির্ভরতা।"
+        },
+        {
+          "value": "১৯ দফা",
+          "label": "ধারাভিত্তিক পর্যালোচনার পর টিআইবি সরকারের কাছে যে সংশোধনগুলো দিয়েছে।"
+        },
+        {
+          "value": "৬ মানদণ্ড",
+          "label": "প্যারিস নীতিমালায় বিস্তৃত ম্যান্ডেট, স্বায়ত্তশাসন, আইনি স্বাধীনতা, বহুত্ব, সম্পদ ও তদন্তক্ষমতা।"
+        },
+        {
+          "value": "১৩ সংগঠন",
+          "label": "আন্তর্জাতিক মানবাধিকার সংগঠন, যারা যৌথভাবে বিলটি সংশোধনের আহ্বান জানিয়েছে।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ভাবুন, রাতে একজনকে তুলে নেওয়া হলো। পরিবার অভিযোগ করল—কোনো রাষ্ট্রীয় বাহিনীর সদস্যরা জড়িত। তারা জাতীয় মানবাধিকার কমিশনে গেল। কমিশনের তখনই সিসিটিভি, হেফাজত ও গাড়ির রেকর্ড সংরক্ষণ, সাক্ষীকে জিজ্ঞাসা এবং সন্দেহভাজন আটকস্থান পরিদর্শন করার কথা। কিন্তু কমিশনকে যদি প্রথমে অভিযুক্ত বাহিনীর নেতৃত্বের কাছেই রিপোর্ট চাইতে হয়, তাহলে তদন্তের নিয়ন্ত্রণ কমিশনের হাতে থাকে না; সবচেয়ে গুরুত্বপূর্ণ প্রমাণের নিয়ন্ত্রণ থাকে সেই কাঠামোর হাতে, যার বিরুদ্ধেই অভিযোগ।"
+        },
+        {
+          "type": "callout",
+          "text": "মানবাধিকার কমিশনের সবচেয়ে বেশি দরকার তখনই, যখন অভিযোগ রাষ্ট্রের বিরুদ্ধে। সাধারণ ব্যক্তির সামনে শক্তিশালী কিন্তু সশস্ত্র রাষ্ট্রীয় সংস্থার সামনে দুর্বল কমিশন তার মূল উদ্দেশ্যই উল্টে দেয়।"
+        },
+        {
+          "type": "heading",
+          "text": "৩০ সেকেন্ডে খসড়াটি"
+        },
+        {
+          "type": "paragraph",
+          "text": "২০২৬ সালের এপ্রিলে সংসদ অপেক্ষাকৃত শক্তিশালী ২০২৫ সালের জাতীয় মানবাধিকার কমিশন অধ্যাদেশ রহিত করে ২০০৯ সালের কাঠামো ফিরিয়ে আনে। এরপর ১৭ মে সরকার নতুন খসড়া প্রণয়ন করে। এতে ৪২টি ধারা ও কিছু নতুন ক্ষমতা আছে। কিন্তু টিআইবি, আন্তর্জাতিক মানবাধিকার সংগঠনগুলোর যৌথ বিবৃতি এবং The Business Standard-এ প্রকাশিত আইনগত বিশ্লেষণ একটি একই সমস্যা দেখায়: কাগজে কমিশনকে বেশি ক্ষমতাবান মনে হলেও, যেখানে স্বাধীনতা সবচেয়ে জরুরি—সরকার ও নিরাপত্তা কাঠামোর বিরুদ্ধে অভিযোগে—সেখানেই তার নির্ভরতা রয়ে গেছে।"
+        },
+        {
+          "type": "heading",
+          "text": "মানবাধিকার কমিশন আসলে কী—পুলিশ, আদালত, নাকি স্বাধীন নজরদারি প্রতিষ্ঠান?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি পুলিশ স্টেশনও নয়, ফৌজদারি আদালতও নয়। কমিশনের বিশেষ কাজ হলো রাষ্ট্র কোনো মানুষের অধিকার সম্মান, সুরক্ষা বা বাস্তবায়নে ব্যর্থ হয়েছে কি না, তা পরীক্ষা করা। ভুক্তভোগীকে ভয় না দেখিয়ে অভিযোগ গ্রহণ, স্বাধীনভাবে তথ্য সংগ্রহ, আটকস্থান পরিদর্শন, প্রাতিষ্ঠানিক দায় চিহ্নিত, প্রতিকার সুপারিশ এবং পুনরাবৃত্তি ঠেকাতে ফল প্রকাশ—এগুলো তার কাজ। ব্যক্তির অপরাধ ও শাস্তি নির্ধারণ আদালতের; অপরাধ তদন্ত পুলিশের। ভূমিকা গুলিয়ে ফেললে তিন প্রতিষ্ঠানই নিজের কাজ খারাপভাবে করতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "খসড়ায় কিছু ভালো পরিবর্তনও আছে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "কমিশনের সভার লিখিত কার্যবিবরণী এবং তদন্ত কর্মকর্তার জবাবদিহি;",
+            "বিদ্যমান আইনে স্বীকৃত মানবাধিকার সুরক্ষা ব্যবস্থাগুলো সমন্বিতভাবে পর্যালোচনার সুযোগ;",
+            "জাতীয় প্রতিরোধমূলক ব্যবস্থা বা NPM বিভাগের এখতিয়ার বৃদ্ধি;",
+            "শৃঙ্খলা বাহিনীর দেওয়া রিপোর্ট অভিযোগকারীকে জানানো এবং কিছু স্বপ্রণোদিত অনুসন্ধানে সময়সীমার বাধা না রাখা।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এগুলো স্বীকার করা দরকার। কিন্তু উন্নত নথিপত্র কাঠামোগত স্বার্থের সংঘাত দূর করে না। একটি কমিশন নিখুঁত কার্যবিবরণী লিখেও একটি পরিবারকে ব্যর্থ করতে পারে, যদি অভিযুক্ত প্রতিষ্ঠানের সহযোগিতা ছাড়া প্রমাণের কাছে পৌঁছাতে না পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "১. অভিযুক্ত প্রতিষ্ঠানের কাছেই সত্য খোঁজার দায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "ধারা ২০ খসড়াটির সবচেয়ে বড় দুর্বলতা। প্রকাশিত আইনগত পর্যালোচনা অনুযায়ী, কোনো শৃঙ্খলা বাহিনীর সদস্যের বিরুদ্ধে অভিযোগ এলে কমিশন সরাসরি পূর্ণাঙ্গ তদন্ত না করে সরকার বা সংশ্লিষ্ট বাহিনীর প্রধানের রিপোর্টের ওপর নির্ভর করবে। অর্থাৎ ২০০৯ সালের আইনের যে সীমাবদ্ধতা নতুন আইন দিয়ে দূর করার কথা, সেটিই আবার ফিরে আসছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সমস্যাটি তাত্ত্বিক নয়। গুম, নির্যাতন, হেফাজতে মৃত্যু বা বেআইনি গুলির অভিযোগে গুরুত্বপূর্ণ প্রমাণ থাকে সরকারি ব্যবস্থার ভেতরে: ডিউটি রোস্টার, বেতার বার্তা, গাড়ির চলাচল, অস্ত্রের হিসাব, সিসিটিভি, মোবাইল ডেটা, প্রবেশপত্র ও কমান্ডের নির্দেশনা। দেরিতে এগুলো মুছে বা বদলে যেতে পারে। তাই স্বাধীন প্রতিষ্ঠানকে সরাসরি প্রমাণ সংরক্ষণ ও পরীক্ষা করতে হবে। সংবেদনশীল তথ্যের গোপনীয়তা আদালতের তত্ত্বাবধানে রক্ষা করা যায়; অভিযুক্ত প্রতিষ্ঠানের অনুমতির ওপর সত্যকে নির্ভরশীল করা একমাত্র পথ নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "২. নাম স্বাধীন, কিন্তু নিয়ন্ত্রণের সুতো সরকারের হাতে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "২০২৫ সালের অধ্যাদেশে ‘কমিশন কোনো মন্ত্রণালয় বা বিভাগের অধীন নয়’—এই স্পষ্ট সুরক্ষাটি ছিল; নতুন খসড়ায় তা নেই।",
+            "আঞ্চলিক কার্যালয় খুলতে সরকারি অনুমোদন লাগবে, ফলে ঢাকার বাইরের মানুষের প্রবেশাধিকার দুর্বল হতে পারে।",
+            "প্রস্তাবিত বাছাই কমিটিতে স্পিকার, আইনমন্ত্রী, স্বরাষ্ট্রমন্ত্রী, সরকারদলীয় সংসদ সদস্য ও মন্ত্রিপরিষদ সচিব আছেন—এতে নির্বাহী ও সরকারদলীয় প্রভাবের ঝুঁকি তৈরি হয়।",
+            "চাকরিরত সরকারি কর্মকর্তা ছুটি, লিয়েন বা প্রেষণে কমিশনার হতে পারবেন; মোট জনবলের ৩০ শতাংশ পর্যন্ত সরকারি প্রেষণে আসতে পারে।",
+            "বাজেট বরাদ্দ ও বিধি তৈরির গুরুত্বপূর্ণ অংশও সরকারি সিদ্ধান্তের ওপর নির্ভরশীল।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "একেকটি বিধানকে আলাদাভাবে ‘প্রশাসনিক সুবিধা’ বলা যেতে পারে। কিন্তু সবগুলো একসঙ্গে প্রভাবের একটি শৃঙ্খল তৈরি করে: সরকারঘনিষ্ঠ কাঠামো নেতৃত্ব বাছাই করবে, সরকারি কর্মকর্তা কমিশনে আসবেন, কার্যালয়-অর্থ-বিধি সরকার নিয়ন্ত্রণ করবে, আর সংবেদনশীল তদন্তে কমিশন সরকারি রিপোর্ট চাইবে। প্রথম ধারায় ‘স্বাধীন’ লিখলেও এই সমষ্টিগত নির্ভরতা বাস্তবে স্বাধীনতা নষ্ট করতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "৩. দেখতে কঠোর সব ক্ষমতাই সঠিক ক্ষমতা নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "TBS-এর মূল বিশ্লেষণ আরেকটি ঝুঁকি দেখায়। ধারা ১৩-তে ‘ব্যক্তি’র বিরুদ্ধে মানবাধিকার লঙ্ঘনের অভিযোগ ও পূর্ণাঙ্গ প্রতিদ্বন্দ্বিতামূলক শুনানি এসেছে। ধারা ১৬(৫)-কে ব্যক্তিকে গ্রেপ্তারের ক্ষমতা এবং ১৭(৫)(খ)-কে ব্যক্তির কাছ থেকে ক্ষতিপূরণ আদায়ের বিধান হিসেবে ব্যাখ্যা করা হয়েছে। এতে কমিশন একই সঙ্গে তদন্তকারী, কৌঁসুলি, আদালত ও অর্থ আদায়কারী প্রতিষ্ঠানের মতো হয়ে যেতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "শুনতে শক্তিশালী লাগলেও এতে ভুক্তভোগীর ওপর আইনজীবী ও আদালতসদৃশ লড়াইয়ের খরচ বাড়ে, রাষ্ট্রের মানবাধিকার দায়ের সঙ্গে ব্যক্তির ফৌজদারি দায় গুলিয়ে যায় এবং কমিশনের সিদ্ধান্ত প্রক্রিয়াগত জটিলতায় আটকে পড়ে। কমিশনের দরকার প্রমাণে প্রবেশ, অভিযোগকারীকে সুরক্ষা, আটকস্থান পরিদর্শন, নির্দিষ্ট সময়ে সরকারি জবাব এবং অমান্য করার তথ্য প্রকাশের ক্ষমতা। হাতকড়া প্রাতিষ্ঠানিক স্বাধীনতার বিকল্প নয়।"
+        },
+        {
+          "type": "callout",
+          "text": "সঠিক শক্তি হলো সত্যে পৌঁছানো ও ভুক্তভোগীকে রক্ষা করা। ভুল শক্তি হলো এমন নাটকীয় ক্ষমতা, যা নজরদারি প্রতিষ্ঠানকে পুলিশ বা আদালতের দুর্বল সংস্করণে পরিণত করে।"
+        },
+        {
+          "type": "heading",
+          "text": "৪. অন্য মামলা বিচারাধীন মানেই মানবাধিকার প্রশ্নটি বন্ধ নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "ধারা ২৯-এ কোনো কার্যক্রম বিচারাধীন থাকলে কমিশনের পদক্ষেপে বাধা আছে। কিন্তু আদালত হয়তো দেখছে একজন ব্যক্তি অপরাধ করেছেন কি না; কমিশনের প্রশ্ন আলাদা—রাষ্ট্র নির্যাতন ঠেকিয়েছে কি না, প্রমাণ রক্ষা করেছে কি না, আটক ব্যক্তিকে সুরক্ষা দিয়েছে কি না বা প্রতিকার দিয়েছে কি না। বিচারাধীনতার বিস্তৃত বাধা থাকলে অন্য একটি মামলা করেই স্বাধীন নজরদারি থামানো যায়। আইনে পরস্পরবিরোধী আদেশ ঠেকানোর ব্যবস্থা থাকবে, কিন্তু প্রাতিষ্ঠানিক ব্যর্থতা ও রাষ্ট্রের দায় নিয়ে অনুসন্ধান স্পষ্টভাবে চালু রাখতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "৫. ম্যান্ডেট ছোট হলে প্রতিরোধও ছোট হয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "Human Rights Watch-সমন্বিত যৌথ বিবৃতি বলছে, ২০২৫ সালের অধ্যাদেশে থাকা কয়েকটি কাজ খসড়ায় বাদ বা সংকুচিত: মানবাধিকারকর্মীদের সুরক্ষা; নারী, শিশু, প্রতিবন্ধী ব্যক্তি ও প্রান্তিক জনগোষ্ঠীর অধিকার পর্যবেক্ষণ; নাগরিক সমাজের সঙ্গে নিয়মিত কাজ; আন্তর্জাতিক চুক্তি নিয়ে পরামর্শ; আইন পর্যালোচনা এবং মানবাধিকার শিক্ষা। ক্ষতি হয়ে যাওয়ার পর শুধু ফাইল দেখা যথেষ্ট নয়। আগাম প্রতিরোধ, প্রকাশ্য প্রতিবেদন ও আইন যাচাইও কমিশনের মৌলিক কাজ।"
+        },
+        {
+          "type": "heading",
+          "text": "খসড়ার পক্ষে কী যুক্তি আসতে পারে—এবং কেন তা যথেষ্ট নয়"
+        },
+        {
+          "type": "list",
+          "items": [
+            "‘অপরাধ তো পুলিশই তদন্ত করে।’ ঠিক; কিন্তু কমিশন ফৌজদারি মামলা প্রতিস্থাপন করে না। সে স্বাধীনভাবে রাষ্ট্রের দায় এবং পুলিশের তদন্ত নিজেই বিশ্বাসযোগ্য কি না, তা পরীক্ষা করে।",
+            "‘নিরাপত্তার তথ্য সবার জন্য খোলা যায় না।’ ঠিক; বিচারিক পরোয়ানা, নিরাপত্তা যাচাইকৃত তদন্তকারী ও গোপন প্রমাণ পদ্ধতিতে তথ্য রক্ষা করা যায়। অভিযুক্ত বাহিনীর ওপর সম্পূর্ণ নির্ভরতা একমাত্র সমাধান নয়।",
+            "‘মন্ত্রী-আমলারা প্রশাসন বোঝেন।’ তা সত্য হতে পারে; কিন্তু যাদের কাজ কমিশন তদন্ত করতে পারে, তাদের কাছ থেকে দৃশ্যমান দূরত্বও চাই। প্রকাশ্য ও বহুত্বপূর্ণ বাছাইয়ে দক্ষতা রাখা যায়, সরকারি নিয়ন্ত্রণ ছাড়াই।",
+            "‘গ্রেপ্তার ও ক্ষতিপূরণের ক্ষমতা কমিশনকে কার্যকর করবে।’ ম্যান্ডেটের সঙ্গে মিললে তবেই। প্রথম দরকার প্রমাণে বাধ্যতামূলক প্রবেশ ও সুপারিশ বাস্তবায়ন; গ্রেপ্তার ও শাস্তি স্বাধীন তদন্ত সংস্থা ও আদালতের প্রধান কাজ।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "জুলাইয়ের পর এই প্রাতিষ্ঠানিক প্রশ্ন এড়ানোর সুযোগ নেই"
+        },
+        {
+          "type": "paragraph",
+          "text": "জাতিসংঘের মানবাধিকার দপ্তর হিসাব করেছে, ১ জুলাই থেকে ১৫ আগস্ট ২০২৪-এর মধ্যে সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন। প্রতিবেদনে তৎকালীন সরকার, নিরাপত্তা ও গোয়েন্দা সংস্থা এবং আওয়ামী লীগের সহিংস অংশের সম্পৃক্ততায় পদ্ধতিগত মানবাধিকার লঙ্ঘনের কথা এসেছে। এর শিক্ষা এই নয় যে একদল কর্মকর্তার জায়গায় আরেকদল বসিয়ে বিনা প্রশ্নে বিশ্বাস করতে হবে। শিক্ষা হলো—কোনো সরকারই বন্ধ দরজার ভেতর নিজের তদন্ত নিজে করতে পারবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "৯ এপ্রিল ২০২৬ সংসদে ২০২৫ সালের অধ্যাদেশ রহিত করার সময় NCP সংসদ সদস্য হাসনাত আবদুল্লাহ আপত্তি জানান এবং পরে প্রশ্ন তোলেন—স্বাধীনতা নিশ্চিত না হলে কমিশন কীভাবে জুলাই-সংশ্লিষ্ট পদক্ষেপ নিরপেক্ষভাবে যাচাই করবে। এই আপত্তি জুলাই থেকে উঠে আসা রাষ্ট্র সংস্কারের প্রতিশ্রুতির সঙ্গে সামঞ্জস্যপূর্ণ। তবে NCP-সহ সব দলের কঠিন পরীক্ষা হলো—নিজেদের মিত্র বা ভবিষ্যৎ সরকার তদন্তের মুখে পড়লেও একই স্বাধীন কমিশনের পক্ষে থাকা। কাকে তদন্ত করা হবে জানার আগেই যে নিয়ম মেনে নেওয়া যায়, সেটিই গণতান্ত্রিক প্রতিষ্ঠান।"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/photos/jatiya-sangsad-bhaban-human-rights-bill.jpg",
+          "alt": "ঢাকার জাতীয় সংসদ ভবন",
+          "caption": "খসড়াটি শেষ পর্যন্ত সংসদে আইন হবে; তাই দলীয় সংখ্যাগরিষ্ঠতার চেয়ে নাগরিক অধিকার ও আন্তর্জাতিক মানদণ্ডকে প্রাধান্য দেওয়া জরুরি।",
+          "credit": "ছবি: Moheen Reeyad; CC BY-SA 4.0, Wikimedia Commons; ওয়েবের জন্য আকার ছোট করা হয়েছে।",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jatiyo_Sangshad_Bhaban_(01).jpg"
+        },
+        {
+          "type": "heading",
+          "text": "পাসের আগে যে সাতটি সংশোধন জরুরি"
+        },
+        {
+          "type": "list",
+          "items": [
+            "সব রাষ্ট্রীয় ও শৃঙ্খলা বাহিনীর বিরুদ্ধে কমিশনের সরাসরি তদন্ত, নথি সংরক্ষণ, সাক্ষী সুরক্ষা এবং অনুমতি ছাড়া সন্দেহভাজন আটকস্থান পরিদর্শনের ক্ষমতা নিশ্চিত করা; প্রয়োজনীয় গোপনীয়তা আদালতের তত্ত্বাবধানে রক্ষা করা।",
+            "আইনে স্পষ্ট লেখা—কমিশন কোনো মন্ত্রণালয় বা বিভাগের অধীন নয়; নিজস্ব বিধি, আঞ্চলিক কার্যালয়, নিয়োগ ও প্রশাসন পরিচালনার ক্ষমতা থাকবে।",
+            "প্রকাশ্য মনোনয়ন, যোগ্যতার মানদণ্ড, স্বার্থের সংঘাত ঘোষণা এবং সরকার-নিয়ন্ত্রিত নয়—এমন বহুমাত্রিক বাছাই কমিটি গঠন করা।",
+            "নিজস্ব পেশাদার তদন্ত ও আইন সহায়তা দল তৈরি করা; সরকারি প্রেষণ সীমিত ও স্বচ্ছ রাখা।",
+            "আদালতসদৃশ বাধ্যতামূলক শুনানির বদলে ভুক্তভোগীবান্ধব, অ-প্রতিদ্বন্দ্বিতামূলক অভিযোগ প্রক্রিয়া; বিনা খরচে আইন সহায়তা ও প্রতিশোধ থেকে সুরক্ষা দেওয়া।",
+            "সরকারি জবাব ও সুপারিশ বাস্তবায়নের নির্দিষ্ট সময়সীমা, সব চূড়ান্ত সিদ্ধান্ত প্রকাশ, সংসদে বার্ষিক প্রতিবেদন এবং অমান্য হলে উচ্চ আদালতে যাওয়ার স্পষ্ট পথ রাখা।",
+            "মানবাধিকারকর্মী, নারী, শিশু, প্রতিবন্ধী ব্যক্তি, জাতিগত-ধর্মীয় সংখ্যালঘু ও প্রান্তিক জনগোষ্ঠী; আইন পর্যালোচনা, চুক্তি-পরামর্শ, নাগরিক শিক্ষা ও নাগরিক সমাজের সঙ্গে কাজ—সবকিছুকে পূর্ণ ম্যান্ডেটে ফিরিয়ে আনা।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা"
+        },
+        {
+          "type": "paragraph",
+          "text": "মানবাধিকার কমিশনের বিশ্বাসযোগ্যতা শান্ত সময়ে বিবৃতি দেওয়ায় নয়; ক্ষমতাবান রাষ্ট্রীয় প্রতিষ্ঠানের বিরুদ্ধে অভিযোগ এলে সত্য পর্যন্ত পৌঁছাতে পারায়। যে কমিশন একজন সাধারণ ব্যক্তিকে গ্রেপ্তার করতে পারবে, কিন্তু অভিযুক্ত বাহিনীর নথি স্বাধীনভাবে খুলতে পারবে না—সেটি শক্তিশালী নয়, উল্টোভাবে নির্মিত। সরকারের উচিত বিলটি দ্রুত পাস করার সাফল্য না খুঁজে, এমন আইন তৈরি করা যা পরবর্তী সরকারগুলোকেও জবাবদিহির মধ্যে রাখবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সম্পাদকীয় নোট: এই বিশ্লেষণ ১৭ মে ২০২৬-এ প্রণীত খসড়া এবং ৩ আগস্ট ২০২৬ পর্যন্ত প্রকাশিত আইনগত পর্যালোচনা ও বিবৃতির ওপর ভিত্তি করে। চূড়ান্ত বিলে পরিবর্তন এলে সংশ্লিষ্ট ধারাগুলো নতুন করে যাচাই করা উচিত।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "The Business Standard: খসড়ায় কমিশন কেন এখনও তদন্তক্ষমতা থেকে বঞ্চিত",
+          "url": "https://www.tbsnews.net/bangla/opinion/news-details-502686"
+        },
+        {
+          "label": "টিআইবি: ধারাভিত্তিক পর্যালোচনা ও ১৯ দফা সুপারিশ",
+          "url": "https://www.ti-bangladesh.org/bn/articles/law-review/7496"
+        },
+        {
+          "label": "যৌথ বিবৃতি: মানবাধিকার সুরক্ষা ও প্রাতিষ্ঠানিক স্বাধীনতায় বিলটি পশ্চাদপসরণ",
+          "url": "https://www.hrw.org/news/2026/06/22/the-national-human-rights-commission-bill-2026-a-setback-for-human-rights"
+        },
+        {
+          "label": "OHCHR: প্যারিস নীতিমালা ও জাতীয় প্রতিষ্ঠানের ছয় মানদণ্ড",
+          "url": "https://www.ohchr.org/Documents/Publications/PTS-4Rev1-NHRI_en.pdf"
+        },
+        {
+          "label": "জাতিসংঘ: জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন নিয়ে অনুসন্ধান প্রতিবেদন",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+        },
+        {
+          "label": "The Daily Star: কমিশনের স্বাধীনতা নিয়ে হাসনাত আবদুল্লাহর আপত্তি",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/baaper-doa-human-rights-commission-hasnat-slams-govt-over-nhrc-4146821"
+        }
+      ]
+    },
+    {
       "id": "bangladesh-semiconductor-opportunity-execution",
       "slug": "bangladesh-semiconductor-opportunity-execution",
       "status": "published",
