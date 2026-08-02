@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T00:14:50.055Z",
+  "updatedAt": "2026-08-02T13:58:17.142Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -910,6 +910,44 @@
           "description": "ফ্যামিলি কার্ডের জরিপে ইউএনওকে বিএনপির দলীয় কর্মীদের নিতে বললেন মুন্সীগঞ্জ থেকে বিএনপির সংরক্ষিত নারী আসনে এমপি, জাতীয়তাবাদী মহিলা দলের আন্তর্জাতিক…\n\nফ্যামিলি কার্ডের জরিপে ইউএনওকে বিএনপির দলীয় কর্মীদের নিতে বললেন মুন্সীগঞ্জ থেকে বিএনপির সংরক্ষিত নারী আসনে এমপি, জাতীয়তাবাদী মহিলা দলের আন্তর্জাতিক বিষয়ক সম্পাদক ও ফ্রান্স মহিলা দলের সভাপতি মমতাজ আলো! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122198033438921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122198033438921031-6510e3204f-tiktok.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "facebook-122198131502921031-2eba1dbfce",
+      "sourceType": "facebook",
+      "sourceId": "122198131502921031",
+      "sourceKey": "facebook:germany:122198131502921031",
+      "sourceFingerprint": "2eba1dbfce25695c2e276b578420db925cd4da497e0cc2ad34ae0e167944eb6d",
+      "sourceCreatedAt": "2026-08-02T11:55:10+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198131502921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-08-02T13:58:17.142Z",
+      "updatedAt": "2026-08-02T13:58:17.142Z",
+      "title": "পাহাড় থেকে সমতল, এনসিপি সবার দল।",
+      "excerpt": "পাহাড় থেকে সমতল, এনসিপি সবার দল। - নাহিদ ইসলাম #ncpdagermany",
+      "sourceCaption": "পাহাড় থেকে সমতল, এনসিপি সবার দল। - নাহিদ ইসলাম #ncpdagermany",
+      "image": "img/social/germany/fb-122198131502921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "পাহাড় থেকে সমতল, এনসিপি সবার দল। পাহাড় থেকে সমতল, এনসিপি সবার দল। - নাহিদ ইসলাম #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122198131502921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122198131502921031-2eba1dbfce-x.jpg"
+        },
+        "tiktok": {
+          "status": "pending",
+          "attempts": 0,
+          "title": "পাহাড় থেকে সমতল, এনসিপি সবার দল।",
+          "description": "পাহাড় থেকে সমতল, এনসিপি সবার দল।\n\nপাহাড় থেকে সমতল, এনসিপি সবার দল। - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122198131502921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122198131502921031-2eba1dbfce-tiktok.jpg"
           ]
         }
       }
