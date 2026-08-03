@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T04:05:48.294Z",
+  "updatedAt": "2026-08-03T07:50:41.480Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -1041,7 +1041,7 @@
       "approvalStatus": "awaiting-approval",
       "status": "awaiting-approval",
       "createdAt": "2026-08-02T22:36:02.390Z",
-      "updatedAt": "2026-08-03T04:05:48.289Z",
+      "updatedAt": "2026-08-03T07:50:41.027Z",
       "title": "অভিযুক্ত বাহিনীর রিপোর্টের অপেক্ষায় যে কমিশন: মানবাধিকার বিল ২০২৬ কেন বদলানো জরুরি",
       "excerpt": "পুলিশ বা অন্য কোনো রাষ্ট্রীয় বাহিনীর বিরুদ্ধে অভিযোগ উঠলে মানবাধিকার কমিশন নিজে স্বাধীনভাবে তদন্ত না করে সেই বাহিনী বা সরকারের প্রতিবেদনের ওপর নির্ভর করবে—খসড়াটির মূল সংকট এখানেই। সহজ উদাহরণে দেখা যাক, কেন কিছু ‘কঠোর’ ক্ষমতা দিয়েও কমিশনকে কার্যত দুর্বল রাখা হচ্ছে।",
       "sourceCaption": null,
@@ -1138,6 +1138,44 @@
           "description": "দাবি যখন জনতার ভাষা হয়, ইতিহাস তখন দিক বদলায়।\n\nদাবি যখন জনতার ভাষা হয়, ইতিহাস তখন দিক বদলায়। শহীদ মিনার থেকে উচ্চারিত হলো জনতার এক দফা\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122198210708921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122198210708921031-d9996abd10-tiktok.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "facebook-122198282276921031-5959b6daf4",
+      "sourceType": "facebook",
+      "sourceId": "122198282276921031",
+      "sourceKey": "facebook:germany:122198282276921031",
+      "sourceFingerprint": "5959b6daf4b58b995a6c964eedec080e1fb8915890c3f3b145dfd1076f497ab3",
+      "sourceCreatedAt": "2026-08-03T05:33:26+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198282276921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-08-03T07:50:41.480Z",
+      "updatedAt": "2026-08-03T07:50:41.480Z",
+      "title": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany",
+      "excerpt": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany",
+      "sourceCaption": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany",
+      "image": "img/social/germany/fb-122198282276921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122198282276921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122198282276921031-5959b6daf4-x.jpg"
+        },
+        "tiktok": {
+          "status": "pending",
+          "attempts": 0,
+          "title": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany",
+          "description": "ফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany\n\nফিরে দেখা জুলাই:- ০৩ আগস্ট, ২০২৪ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122198282276921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122198282276921031-5959b6daf4-tiktok.jpg"
           ]
         }
       }
