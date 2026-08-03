@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-03T07:50:05.297Z",
+  "updatedAt": "2026-08-03T11:45:55.933Z",
   "items": [
+    {
+      "id": "facebook-germany-122198320694921031",
+      "facebookId": "122198320694921031",
+      "status": "published",
+      "date": "৩ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-03T10:10:48+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "সকল ধরনের সরকারি-বেসরকারি প্রতিষ্ঠান, অফিস-আদালত ও কলকারখানা বন্ধ থাকবে।",
+      "excerpt": "- আসিফ মাহমুদ সজীব ভুঁইয়া",
+      "sourceCaption": "সকল ধরনের সরকারি-বেসরকারি প্রতিষ্ঠান, অফিস-আদালত ও কলকারখানা বন্ধ থাকবে।\n\n- আসিফ মাহমুদ সজীব ভুঁইয়া\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198320694921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122198320694921031.jpg",
+      "imageAlt": "সকল ধরনের সরকারি-বেসরকারি প্রতিষ্ঠান, অফিস-আদালত ও কলকারখানা বন্ধ থাকবে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122198282276921031",
       "facebookId": "122198282276921031",
@@ -182,26 +202,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122198013068921031",
-      "facebookId": "122198013068921031",
-      "status": "published",
-      "date": "১ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-01T20:08:02+0000",
-      "badge": "জুলাই",
-      "title": "\"পাহাড়ে জুলাই\"",
-      "excerpt": "'সমমর্যাদা, সহাবস্থান ও সম্প্রীতি' শীর্ষক আলোচনা সভায় চট্টগ্রামের সবাইকে সাদর আমন্ত্রণ। এতে ১২টি জনগোষ্ঠীর প্রতিনিধিরা জুলাই গণঅভ্যুত্থান নিয়ে আলোচনা করবেন। প্রধান অতিথি:",
-      "sourceCaption": "\"পাহাড়ে জুলাই\"\n\n'সমমর্যাদা, সহাবস্থান ও সম্প্রীতি' শীর্ষক আলোচনা সভায় চট্টগ্রামের সবাইকে সাদর আমন্ত্রণ। এতে ১২টি জনগোষ্ঠীর প্রতিনিধিরা জুলাই গণঅভ্যুত্থান নিয়ে আলোচনা করবেন।\n\nপ্রধান অতিথি:\nমো. নাহিদ ইসলাম\nআহ্বায়ক, জাতীয় নাগরিক পার্টি (এনসিপি)\nবিরোধী দলীয় চিফ হুইপ, জাতীয় সংসদ।\n\nসময়: রোববার বিকেল ৩টা, ২ আগস্ট ২০২৬\n\nস্থান: জুলাই গণ-অভ্যুত্থান হল, প্রেসক্লাব, জামালখান, চট্টগ্রাম।\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198013068921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122198013068921031.jpg",
-      "imageAlt": "\"পাহাড়ে জুলাই\"",
-      "managedBy": "facebook-sync"
-    },
-    {
       "id": "facebook-germany-122197201634921031",
       "facebookId": "122197201634921031",
       "status": "published",
@@ -380,7 +380,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70898,
+      "viewCount": 70899,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
