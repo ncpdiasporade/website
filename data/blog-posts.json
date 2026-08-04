@@ -1,6 +1,643 @@
 {
   "items": [
     {
+      "id": "revolution-mandate-nahid-islam-interview",
+      "slug": "revolution-mandate-nahid-islam-interview",
+      "status": "published",
+      "tag": "সাক্ষাৎকার ও রাষ্ট্র সংস্কার",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "৪ আগস্ট ২০২৬",
+      "title": "বিপ্লবের ম্যান্ডেট ছিল, ব্যবহার করা হয়নি: নাহিদ ইসলামের সাক্ষাৎকারে রাষ্ট্র বদলের অসমাপ্ত পাঠ",
+      "excerpt": "একটি সরকার পতন আর একটি রাষ্ট্রব্যবস্থা বদল—দুইটি এক কথা নয়। নাহিদ ইসলামের নতুন সাক্ষাৎকারের কেন্দ্রীয় বক্তব্য ধরে সহজ ভাষায় দেখা যাক, জুলাইয়ের গণরায় কোথায় আটকে গেল, কী অর্জিত হয়েছে এবং এখন NCP-সহ সংস্কারপন্থী রাজনীতির সামনে কোন কাজগুলো জরুরি।",
+      "image": "img/blog/photos/nahid-mandate-interview-hero.jpg",
+      "sharePath": "blog/revolution-mandate-nahid-islam-interview",
+      "shareImage": "img/blog/photos/nahid-mandate-interview-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 628,
+      "publishedAt": "2026-08-04T22:00:00+02:00",
+      "imageAlt": "২০২৬ সালের জানুয়ারিতে ঢাকায় নাহিদ ইসলামের প্রতিকৃতি",
+      "imageCredit": "নাহিদ ইসলাম, ঢাকা, ৬ জানুয়ারি ২০২৬। ছবি: Rayhan Ahmed Tamim; CC BY-SA 4.0, Wikimedia Commons। ওয়েবের জন্য ছবিটির পটভূমি সম্প্রসারণ ও ক্রপ করা হয়েছে।",
+      "license": "CC BY-SA 4.0 — Rayhan Ahmed Tamim; adapted for web display; sourced via Wikimedia Commons.",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nahid_Islam_Dhaka_January_6_2026_portrait.jpg",
+      "facts": [
+        {
+          "value": "১৪:১৭ মিনিট",
+          "label": "Daily Waadaa-তে প্রকাশিত সাক্ষাৎকারটির দৈর্ঘ্য।"
+        },
+        {
+          "value": "৪টি অধ্যায়",
+          "label": "ছাত্র আন্দোলন, গণঅভ্যুত্থান, অন্তর্বর্তী সরকার এবং সংসদীয় বিরোধী রাজনীতি।"
+        },
+        {
+          "value": "১২ ফেব্রুয়ারি ২০২৬",
+          "label": "একই দিনে জাতীয় নির্বাচন ও জুলাই সনদ বাস্তবায়নসংক্রান্ত গণভোট অনুষ্ঠিত হয়।"
+        },
+        {
+          "value": "৮৪টি অঙ্গীকার",
+          "label": "জুলাই জাতীয় সনদের বিস্তৃত সংস্কার কাঠামো—যার বাস্তবায়নই এখন মূল পরীক্ষা।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "একটি সরকার পড়ে গেলে কি রাষ্ট্রও বদলে যায়? নাহিদ ইসলামের নতুন সাক্ষাৎকারটি এই অস্বস্তিকর প্রশ্নের সামনে আমাদের দাঁড় করায়। ২০২৪ সালের জুলাই গণঅভ্যুত্থান শেখ হাসিনার সরকারকে সরিয়েছিল; কিন্তু যে নিয়ম, প্রতিষ্ঠান ও ক্ষমতার সংস্কৃতি স্বৈরতন্ত্রকে সম্ভব করেছিল, তার কতটা বদলেছে—দুই বছর পর সেটিই আসল হিসাব।"
+        },
+        {
+          "type": "callout",
+          "text": "সাক্ষাৎকারের কেন্দ্রীয় বাক্য: “The revolution had a mandate … and that mandate wasn’t used.” সহজ বাংলায়—গণঅভ্যুত্থান রাষ্ট্র বদলের একটি স্পষ্ট দায়িত্ব দিয়েছিল, কিন্তু সেই সুযোগ পুরোপুরি কাজে লাগানো যায়নি।"
+        },
+        {
+          "type": "heading",
+          "text": "‘ম্যান্ডেট’ কথাটির সহজ মানে কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে ম্যান্ডেট মানে কোনো ব্যক্তি, দল বা অনির্বাচিত সরকারকে ইচ্ছামতো দেশ চালানোর খালি চেক নয়। জুলাইয়ের ম্যান্ডেট ছিল সীমিত কিন্তু গভীর একটি গণতান্ত্রিক দায়িত্ব: হত্যাকাণ্ড ও নিপীড়নের বিচার, দলীয়করণমুক্ত প্রতিষ্ঠান, ক্ষমতার ভারসাম্য, ভোটের অধিকার, নাগরিক মর্যাদা এবং এমন নিয়ম তৈরি করা—যাতে ভবিষ্যতে আর কোনো সরকার রাষ্ট্রযন্ত্রকে ব্যক্তিগত বা দলীয় অস্ত্র বানাতে না পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "দুই বছরে নাহিদের চারটি রাজনৈতিক পরিচয়"
+        },
+        {
+          "type": "list",
+          "items": [
+            "বিশ্ববিদ্যালয়ের ছাত্র ও বৈষম্যবিরোধী আন্দোলনের সংগঠক;",
+            "এক দফা ও গণঅভ্যুত্থানের অন্যতম দৃশ্যমান মুখ;",
+            "৮ আগস্ট ২০২৪-এ গঠিত অন্তর্বর্তী সরকারের উপদেষ্টা;",
+            "NCP-র প্রতিষ্ঠাতা আহ্বায়ক এবং ২০২৬ সালের সংসদে বিরোধীদলীয় চিফ হুইপ।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পথচলা শুধু ব্যক্তিগত সাফল্যের গল্প নয়। একই মানুষ রাস্তার দাবি, সরকারের ভেতরের সীমাবদ্ধতা এবং সংসদের জবাবদিহি—তিনটি অবস্থানই কাছ থেকে দেখেছেন। তাই তাঁর বক্তব্য গুরুত্বপূর্ণ; একই কারণে তাঁর বক্তব্যকে প্রশ্ন ছাড়াই গ্রহণ করা উচিত নয়। ক্ষমতার ভেতরে থাকার অভিজ্ঞতা তাঁকে ব্যাখ্যা করার বাড়তি দায়ও দেয়—কোন সুযোগ ছিল, কোথায় বাধা এসেছিল এবং কোন সিদ্ধান্ত ভিন্ন হতে পারত।"
+        },
+        {
+          "type": "heading",
+          "text": "সাক্ষাৎকারের সবচেয়ে গুরুত্বপূর্ণ স্বীকারোক্তি"
+        },
+        {
+          "type": "paragraph",
+          "text": "নাহিদের মূল মূল্যায়ন হলো, ৫ আগস্ট পর্যন্ত যে বিস্তৃত ঐক্য ছিল, সরকার গঠনের পর তা একটি যৌথ রাষ্ট্র-রূপান্তর কর্মসূচিতে পরিণত হয়নি। রাজনৈতিক দলগুলো নিজেদের নির্বাচনী হিসাব ও সাংগঠনিক স্বার্থে ফিরে যায়; ছাত্র নেতৃত্বও একক, জবাবদিহিমূলক কাঠামো ধরে রাখতে পারেনি; আর অন্তর্বর্তী সরকার মানুষের শক্তিকে সংস্কারের অংশগ্রহণমূলক প্রক্রিয়ায় যুক্ত করার মতো স্পষ্ট কর্মসূচি দিতে ব্যর্থ হয়। ফলে ক্ষমতার শীর্ষ বদলালেও পুরোনো আমলাতান্ত্রিক ও প্রাতিষ্ঠানিক অভ্যাস টিকে থাকে।"
+        },
+        {
+          "type": "heading",
+          "text": "কেন সুযোগটি পুরোপুরি ব্যবহার করা যায়নি"
+        },
+        {
+          "type": "list",
+          "items": [
+            "অন্তর্বর্তী সরকার পুরোনো সংবিধান, আইন, প্রশাসন ও নিরাপত্তা কাঠামোর ভেতর থেকেই কাজ শুরু করেছিল;",
+            "সংস্কারের প্রশ্নে রাজনৈতিক দলগুলোর ঐকমত্য ছিল আংশিক—নীতির পাশাপাশি নির্বাচন কখন হবে, সেই হিসাব প্রাধান্য পায়;",
+            "জুলাইয়ের অংশগ্রহণকারীদের জন্য সিদ্ধান্ত গ্রহণে স্থায়ী, স্বচ্ছ নাগরিক প্ল্যাটফর্ম তৈরি হয়নি;",
+            "আইনশৃঙ্খলা, মূল্যস্ফীতি, কর্মসংস্থান ও আহতদের পুনর্বাসনে ধীরগতি সংস্কারের প্রতি মানুষের আস্থা ক্ষয় করেছে;",
+            "রাষ্ট্রের ভেতরের পুরোনো সুবিধাভোগী নেটওয়ার্ককে বদলানোর লক্ষ্য, সময়সূচি ও প্রকাশ্য অগ্রগতি-পরিমাপ যথেষ্ট স্পষ্ট ছিল না।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এসব বাস্তব সীমাবদ্ধতা ব্যর্থতাকে ব্যাখ্যা করে; ক্ষমা করে না। বিপ্লব-পরবর্তী সরকারের কাজই হলো সীমাবদ্ধতার ভেতর থেকে অগ্রাধিকার ঠিক করা। সবকিছু একসঙ্গে করা সম্ভব না হলেও কোন পাঁচটি পরিবর্তন আগে হবে, কে বাধা দিচ্ছে এবং কোন সময়ের মধ্যে ফল পাওয়া যাবে—মানুষকে তা জানানো সম্ভব ছিল। সেই রাজনৈতিক যোগাযোগ ও বাস্তবায়ন শৃঙ্খলা দুর্বল ছিল।"
+        },
+        {
+          "type": "heading",
+          "text": "সবই কি ব্যর্থতা? না—কিন্তু শুরু আর সমাপ্তি এক নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "অন্তর্বর্তী সময়ে সংস্কার কমিশন গঠন, জুলাই জাতীয় সনদ নিয়ে দলীয় আলোচনা, একই দিনে প্রতিযোগিতামূলক নির্বাচন ও গণভোট, এবং রাজনৈতিক আলোচনার পরিসর উন্মুক্ত হওয়া—এসব বাস্তব অর্জন। গণভোটে সংস্কারের পক্ষে সংখ্যাগরিষ্ঠ মতও জনগণের প্রত্যাশাকে আনুষ্ঠানিক রূপ দিয়েছে। কিন্তু একটি কমিশনের প্রতিবেদন বা সনদে স্বাক্ষর রাষ্ট্র বদলায় না; নিয়োগবিধি, বাজেট, পুলিশি আচরণ, আদালতের স্বাধীনতা, স্থানীয় সরকার ও সংসদীয় নিয়ন্ত্রণে পরিবর্তন দৃশ্যমান হলেই সংস্কার পূর্ণতা পায়।"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/photos/nahid-yunus-transition-meeting-2026.jpg",
+          "alt": "২০২৬ সালের জানুয়ারিতে প্রধান উপদেষ্টা মুহাম্মদ ইউনূসের সঙ্গে নাহিদ ইসলামের নেতৃত্বাধীন NCP প্রতিনিধিদলের বৈঠক",
+          "caption": "আন্দোলন থেকে সরকার, এরপর দল ও সংসদ—এই রূপান্তরের প্রতিটি ধাপে সংস্কারের প্রতিশ্রুতিকে লিখিত ও পরিমাপযোগ্য ফলাফলে রূপ দেওয়াই ছিল মূল পরীক্ষা।",
+          "credit": "ছবি: তথ্য অধিদফতর, বাংলাদেশ; Public Domain, Wikimedia Commons; ওয়েবের জন্য আকার পরিবর্তন করা হয়েছে।",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-19_Meeting_of_Nahid_Islam,_NCP_delegation,_and_Muhammad_Yunus_at_Jamuna_State_Guest_House,_Dhaka.jpg"
+        },
+        {
+          "type": "heading",
+          "text": "ভেতরের মানুষ পরে সমালোচক—এখানেই নাহিদের কঠিন পরীক্ষা"
+        },
+        {
+          "type": "paragraph",
+          "text": "নাহিদ অন্তর্বর্তী সরকারের বাইরে দাঁড়ানো দর্শক ছিলেন না। তাই ‘সরকার পারেনি’ বলার সঙ্গে তাঁকে নিজের ভূমিকারও হিসাব দিতে হবে। কোন সংস্কার তিনি উপদেষ্টা পরিষদে তুলেছিলেন, কোনটি আটকে গিয়েছিল, কেন জনগণের জন্য অগ্রগতি-তালিকা প্রকাশ করা হয়নি, এবং আজ একই পরিস্থিতিতে তিনি কী ভিন্ন করতেন—এই প্রশ্নগুলোর স্পষ্ট উত্তর তাঁর সমালোচনাকে আরও বিশ্বাসযোগ্য করবে। আত্মসমালোচনা নেতৃত্বকে ছোট করে না; বরং পুরোনো রাজনৈতিক সংস্কৃতি থেকে তার পার্থক্য প্রমাণ করে।"
+        },
+        {
+          "type": "callout",
+          "text": "জুলাইয়ের নেতৃত্বের নৈতিক শক্তি কেবল অতীতের সাহস থেকে আসবে না; নিজের সিদ্ধান্ত, ভুল এবং সীমাবদ্ধতা প্রকাশ্যে ব্যাখ্যা করার সাহস থেকেও আসবে।"
+        },
+        {
+          "type": "heading",
+          "text": "বিপ্লবের ম্যান্ডেট মানে যা নয়"
+        },
+        {
+          "type": "list",
+          "items": [
+            "অনির্দিষ্টকাল অনির্বাচিত শাসন চালানোর অনুমতি নয়;",
+            "জুলাইকে কোনো একটি দল বা নেতার সম্পত্তি বানানোর অধিকার নয়;",
+            "ভিন্নমত, সংখ্যালঘু অধিকার বা আইনের শাসন স্থগিত করার অজুহাত নয়;",
+            "প্রতিপক্ষকে দমন করতে নতুন করে রাষ্ট্রযন্ত্র দলীয়করণের বৈধতা নয়;",
+            "সমালোচনাকে ‘বিপ্লববিরোধী’ বলে থামিয়ে দেওয়ার ঢাল নয়।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "ম্যান্ডেটের একমাত্র গণতান্ত্রিক অর্থ হলো—ক্ষমতার নিয়ম বদলানো, যাতে নিজের দল ক্ষমতায় গেলেও একই নিয়ম মানতে বাধ্য হয়। যে সংস্কার শুধু প্রতিপক্ষকে দুর্বল করে কিন্তু নিজের ক্ষমতাকে সীমাবদ্ধ করে না, সেটি জুলাইয়ের সংস্কার নয়; সেটি পুরোনো রাজনীতির নতুন সংস্করণ।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন সংসদে নাহিদ ও NCP কী করতে পারে"
+        },
+        {
+          "type": "paragraph",
+          "text": "২০২৬ সালের সংসদে বিরোধীদলীয় চিফ হুইপ হিসেবে নাহিদ এখন আর শুধু আন্দোলনের স্মৃতি বহন করছেন না; তাঁর হাতে সংসদীয় প্রশ্ন, কমিটি, সংশোধনী, ভোটের রেকর্ড এবং সরকারের ব্যয় তদারকির উপায় রয়েছে। জুলাইয়ের দাবি স্লোগান থেকে আইনে নিতে হলে NCP-কে সাতটি মাপযোগ্য অঙ্গীকার সামনে আনতে পারে।"
+        },
+        {
+          "type": "list",
+          "items": [
+            "জুলাই সনদ ও গণভোটে অনুমোদিত প্রতিটি সংস্কারের জন্য ধারা, দায়িত্বপ্রাপ্ত প্রতিষ্ঠান ও সময়সীমাসহ প্রকাশ্য বাস্তবায়ন-ট্র্যাকার;",
+            "পুলিশ, গোয়েন্দা সংস্থা, নির্বাচন কমিশন, দুর্নীতি দমন কমিশন ও মানবাধিকার কমিশনের স্বাধীন নিয়োগ এবং সংসদীয় জবাবদিহির আইন;",
+            "জুলাইয়ের শহীদ, আহত ও নিখোঁজদের যাচাইকৃত একক তালিকা, চিকিৎসা-পুনর্বাসন এবং বিচারপ্রক্রিয়ার নিয়মিত প্রকাশ্য অগ্রগতি;",
+            "প্রধানমন্ত্রীর ক্ষমতার সীমা, সংসদীয় কমিটিতে বিরোধীদের কার্যকর নেতৃত্ব এবং স্বাধীন বিচার বিভাগের নিশ্চয়তা;",
+            "নির্বাচিত ও আর্থিকভাবে সক্ষম স্থানীয় সরকার—যাতে সব সিদ্ধান্ত ঢাকায় আটকে না থাকে;",
+            "যুব কর্মসংস্থান, শিক্ষা ও দক্ষতা উন্নয়নে ব্যয় ও ফলাফলভিত্তিক বার্ষিক লক্ষ্য;",
+            "নিজ দলের অর্থায়ন, প্রার্থী নির্বাচন, অভ্যন্তরীণ ভোট, স্বার্থের সংঘাত এবং সংসদে প্রতিটি গুরুত্বপূর্ণ ভোটের পূর্ণ প্রকাশ।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "সাধারণ মানুষের জন্য এর অর্থ কোথায়?"
+        },
+        {
+          "type": "paragraph",
+          "text": "রাষ্ট্র সংস্কার কোনো দূরের সাংবিধানিক শব্দ নয়। থানায় অভিযোগ দিলে ঘুষ না লাগা, চাকরিতে দলীয় পরিচয় না দেখা, আদালতে সময়মতো বিচার, বাজারে সিন্ডিকেটের বিরুদ্ধে ব্যবস্থা, গ্রামের বাজেট গ্রামেই ঠিক করা এবং সরকারের সমালোচনা করে নিরাপদে বাড়ি ফেরা—এগুলোই সংস্কারের দৈনন্দিন রূপ। মানুষের জীবনে এই পরিবর্তন না এলে ‘ম্যান্ডেট’ ও ‘সনদ’ শুধু রাজনৈতিক ভাষণ হয়ে থাকবে।"
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা: জুলাইকে আবার ঘটানো নয়, রাষ্ট্রে লিখে রাখা"
+        },
+        {
+          "type": "paragraph",
+          "text": "নাহিদ ইসলামের সাক্ষাৎকারের শক্তি হলো, তিনি বিজয়ের স্মৃতিকে আত্মতুষ্টির গল্প বানাননি। তিনি স্বীকার করছেন—সুযোগ ছিল, তার একটি অংশ হারিয়েছে। এখন দায়িত্ব আরও কঠিন: হারানো সুযোগকে অনন্ত অভিযোগে পরিণত না করে সংসদ, আইন, সংগঠন ও জনসম্পৃক্ততার মাধ্যমে বাকি কাজ শেষ করা। জুলাই একটি সরকারকে বিদায় দিয়েছিল; জুলাইয়ের রাজনীতি সফল হবে তখনই, যখন কোনো ভবিষ্যৎ সরকার আর স্বৈরতন্ত্রের একই যন্ত্র হাতে পাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সম্পাদকীয় নোট: সাক্ষাৎকারের সরাসরি উদ্ধৃত বাক্যটি Daily Waadaa-র প্রকাশিত ক্যাপশন থেকে নেওয়া। বাকি অংশ সাক্ষাৎকারের বক্তব্যের প্রাসঙ্গিক সারাংশ ও স্বাধীন বিশ্লেষণ; তথ্য ৪ আগস্ট ২০২৬ পর্যন্ত প্রকাশিত উৎস দিয়ে যাচাই করা হয়েছে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Daily Waadaa: নাহিদ ইসলামের পূর্ণ সাক্ষাৎকার—‘The revolution had a mandate’",
+          "url": "https://www.facebook.com/reel/1696238101681840"
+        },
+        {
+          "label": "প্রথম আলো: জুলাইয়ের পর সবাই নিজের এজেন্ডায় ফিরে গেছে—নাহিদ ইসলাম",
+          "url": "https://en.prothomalo.com/amp/story/opinion/interview/acfu270gbq"
+        },
+        {
+          "label": "Dhaka Stream: The path we take will shape Bangladesh’s politics and future",
+          "url": "https://www.dhakastream.net/politics/path-we-take-will-shape-bangladeshs-politics-and-future-nahid-187135"
+        },
+        {
+          "label": "The Daily Star: নাহিদ ইসলাম বিরোধীদলীয় চিফ হুইপ",
+          "url": "https://www.thedailystar.net/news/national-election-2026/news/jamaat-ameer-shafiqur-rahman-named-opposition-leader-13th-parliament-4108366"
+        },
+        {
+          "label": "Election Commission/BSS: জুলাই সনদ গণভোটের সংশোধিত গেজেট",
+          "url": "https://www.bssnews.net/news/364239"
+        },
+        {
+          "label": "bdnews24.com: জুলাই সনদের ৮৪টি সংস্কার অঙ্গীকার ও গণভোটের ফল",
+          "url": "https://bdnews24.com/national-election-2026/de33a9ca4a1f"
+        },
+        {
+          "label": "IFES: Bangladesh 2026 election and referendum background",
+          "url": "https://www.ifes.org/sites/default/files/2026-02/Bangladesh%202026%20General%20Elections.pdf"
+        },
+        {
+          "label": "Al Jazeera: অন্তর্বর্তী সরকারের অর্জন ও ব্যর্থতা নিয়ে নাহিদের মূল্যায়ন",
+          "url": "https://www.aljazeera.com/features/2026/2/11/nahid-islam-and-the-uneasy-alliance-that-could-shape-bangladeshs-vote"
+        }
+      ],
+      "translations": {
+        "en": {
+          "tag": "Interview & state reform",
+          "author": "Editorial Desk",
+          "date": "4 August 2026",
+          "title": "The revolution had a mandate—and it was not used: the unfinished lesson of state transformation in Nahid Islam’s interview",
+          "excerpt": "Removing a government and transforming a state are not the same thing. Starting from Nahid Islam’s new interview, this accessible analysis asks where July’s democratic mandate stalled, what the transition achieved and what NCP and other reform-minded forces must do now.",
+          "imageAlt": "Portrait of Nahid Islam in Dhaka in January 2026",
+          "imageCredit": "Nahid Islam, Dhaka, 6 January 2026. Photo: Rayhan Ahmed Tamim; CC BY-SA 4.0 via Wikimedia Commons. Background extended and image cropped for web display.",
+          "facts": [
+            {
+              "value": "14:17 minutes",
+              "label": "Length of the interview published by Daily Waadaa."
+            },
+            {
+              "value": "4 chapters",
+              "label": "Student movement, mass uprising, interim government and parliamentary opposition."
+            },
+            {
+              "value": "12 February 2026",
+              "label": "The national election and referendum on implementing the July Charter were held together."
+            },
+            {
+              "value": "84 commitments",
+              "label": "The broader July National Charter framework whose implementation is now the central test."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Does the state change when a government falls? Nahid Islam’s new interview forces that uncomfortable question. The July 2024 uprising removed Sheikh Hasina’s government. Two years later, the real measure is how far Bangladesh has changed the rules, institutions and culture of power that had made authoritarian rule possible."
+            },
+            {
+              "type": "callout",
+              "text": "The interview’s central line is: ‘The revolution had a mandate … and that mandate wasn’t used.’ In plain language, the uprising created a clear responsibility to transform the state, but the opportunity was not fully used."
+            },
+            {
+              "type": "heading",
+              "text": "What does ‘mandate’ mean here?"
+            },
+            {
+              "type": "paragraph",
+              "text": "It is not a blank cheque for one leader, party or unelected administration. July’s mandate was limited but profound: justice for killings and repression; institutions free from party capture; checks on executive power; credible elections; equal citizenship; and rules that stop any future government from turning the state into a partisan weapon."
+            },
+            {
+              "type": "heading",
+              "text": "Four political identities in two years"
+            },
+            {
+              "type": "list",
+              "items": [
+                "university student and organiser of the anti-discrimination movement;",
+                "a visible leader of the one-point demand and mass uprising;",
+                "an adviser in the interim government formed on 8 August 2024;",
+                "founding convenor of NCP and opposition chief whip in the 2026 parliament."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "This is more than a personal success story. The same person has seen street mobilisation, the limits of governing and parliamentary accountability from close range. That makes his assessment important. It also gives him an added duty to explain which opportunities existed, where resistance arose and which decisions could have been different."
+            },
+            {
+              "type": "heading",
+              "text": "The interview’s most important admission"
+            },
+            {
+              "type": "paragraph",
+              "text": "Islam’s core assessment is that the broad unity sustained until 5 August never became a shared programme for rebuilding the state. Parties returned to electoral calculations and organisational interests; student leaders did not maintain a single accountable structure; and the interim administration failed to give citizens a clear programme through which they could participate in reform. Leadership changed at the top while old bureaucratic and institutional habits survived."
+            },
+            {
+              "type": "heading",
+              "text": "Why the opportunity was only partly used"
+            },
+            {
+              "type": "list",
+              "items": [
+                "The interim administration began inside the inherited constitution, laws, civil service and security structure.",
+                "Political consensus on reform was partial; the timetable for elections often competed with the content of reform.",
+                "No permanent, transparent citizens’ platform gave July participants a defined role in decision-making.",
+                "Slow progress on public safety, inflation, jobs and rehabilitation of the injured weakened trust in the wider reform project.",
+                "The targets, deadlines and public measurement of efforts to dismantle patronage networks remained unclear."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "These constraints explain failure; they do not excuse it. A transition cannot do everything at once, but it can identify five urgent changes, publish who is responsible, disclose who is blocking them and report when citizens should expect results. That discipline of implementation and political communication remained weak."
+            },
+            {
+              "type": "heading",
+              "text": "Was everything a failure? No—but a beginning is not completion"
+            },
+            {
+              "type": "paragraph",
+              "text": "The reform commissions, negotiations on the July National Charter, a competitive election and referendum on the same day, and a wider space for political speech are real gains. The referendum’s majority for reform also formalised public expectations. But commission reports and signatures do not by themselves transform a state. Reform becomes real when appointment rules, budgets, policing, judicial independence, local government and parliamentary scrutiny change in practice."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/nahid-yunus-transition-meeting-2026.jpg",
+              "alt": "An NCP delegation led by Nahid Islam meets Chief Adviser Muhammad Yunus in January 2026",
+              "caption": "From movement to government, party and parliament, the test at every stage was turning the promise of reform into written and measurable outcomes.",
+              "credit": "Photo: Press Information Department, Bangladesh; Public Domain via Wikimedia Commons; resized for web display.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-19_Meeting_of_Nahid_Islam,_NCP_delegation,_and_Muhammad_Yunus_at_Jamuna_State_Guest_House,_Dhaka.jpg"
+            },
+            {
+              "type": "heading",
+              "text": "An insider who became a critic: Islam’s harder test"
+            },
+            {
+              "type": "paragraph",
+              "text": "Islam was not an outside observer of the interim government. Saying that the government failed must therefore come with an account of his own role. Which reforms did he place before the advisory council? Which were blocked? Why was no public progress ledger created? What would he do differently now? Clear answers would make his criticism stronger. Self-criticism does not diminish leadership; it distinguishes new politics from the old culture of denying responsibility."
+            },
+            {
+              "type": "callout",
+              "text": "The moral authority of July’s leaders will come not only from their past courage, but also from the courage to explain their own choices, mistakes and limits in public."
+            },
+            {
+              "type": "heading",
+              "text": "What a revolutionary mandate is not"
+            },
+            {
+              "type": "list",
+              "items": [
+                "permission for indefinite unelected rule;",
+                "ownership of July by one party or leader;",
+                "an excuse to suspend dissent, minority rights or due process;",
+                "a licence to capture state institutions against a new opponent;",
+                "a shield for dismissing criticism as anti-revolutionary."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Its only democratic meaning is to change the rules of power so that the reformers themselves must obey them when they govern. A reform that weakens an opponent but does not limit one’s own future power is not July’s reform; it is old politics in new clothing."
+            },
+            {
+              "type": "heading",
+              "text": "What Islam and NCP can do in parliament now"
+            },
+            {
+              "type": "paragraph",
+              "text": "As opposition chief whip, Islam now has more than the memory of a movement. Parliamentary questions, committees, amendments, voting records and scrutiny of public spending are available to him. NCP can translate July from slogan into law through seven measurable commitments."
+            },
+            {
+              "type": "list",
+              "items": [
+                "a public implementation tracker for every Charter and referendum reform, naming the legal clause, responsible institution and deadline;",
+                "independent appointments and parliamentary accountability for police, intelligence agencies, the Election Commission, Anti-Corruption Commission and Human Rights Commission;",
+                "one verified register of July’s dead, injured and missing, with regular public updates on treatment, rehabilitation and justice;",
+                "limits on prime-ministerial power, meaningful opposition leadership of parliamentary committees and guarantees of judicial independence;",
+                "elected and financially capable local government so decisions do not remain trapped in Dhaka;",
+                "annual, outcome-based targets for youth employment, education and skills;",
+                "full disclosure of NCP financing, candidate selection, internal elections, conflicts of interest and every major parliamentary vote."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "What does this mean in everyday life?"
+            },
+            {
+              "type": "paragraph",
+              "text": "State reform is not distant constitutional vocabulary. It means filing a police complaint without a bribe, applying for a job without a party connection, receiving timely justice, confronting market cartels, deciding local budgets locally and returning home safely after criticising the government. If citizens cannot see those changes, ‘mandate’ and ‘charter’ remain political speech."
+            },
+            {
+              "type": "heading",
+              "text": "Conclusion: do not repeat July—write it into the state"
+            },
+            {
+              "type": "paragraph",
+              "text": "The strength of Islam’s interview is that he does not turn victory into a story of self-congratulation. He acknowledges that an opportunity existed and part of it was lost. The harder responsibility now is to stop converting that loss into endless grievance and finish the work through parliament, law, organisation and public participation. July removed a government. July’s politics will succeed only when no future government inherits the same machinery of authoritarianism."
+            },
+            {
+              "type": "paragraph",
+              "text": "Editorial note: The direct quotation is taken from Daily Waadaa’s published caption. The rest is a contextual summary of the interview and independent analysis, checked against sources available through 4 August 2026."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Daily Waadaa: full interview with Nahid Islam—‘The revolution had a mandate’",
+              "url": "https://www.facebook.com/reel/1696238101681840"
+            },
+            {
+              "label": "Prothom Alo: Everyone returned to their own agendas after July",
+              "url": "https://en.prothomalo.com/amp/story/opinion/interview/acfu270gbq"
+            },
+            {
+              "label": "Dhaka Stream: The path we take will shape Bangladesh’s politics and future",
+              "url": "https://www.dhakastream.net/politics/path-we-take-will-shape-bangladeshs-politics-and-future-nahid-187135"
+            },
+            {
+              "label": "The Daily Star: Nahid Islam named opposition chief whip",
+              "url": "https://www.thedailystar.net/news/national-election-2026/news/jamaat-ameer-shafiqur-rahman-named-opposition-leader-13th-parliament-4108366"
+            },
+            {
+              "label": "Election Commission/BSS: amended gazette on the July Charter referendum",
+              "url": "https://www.bssnews.net/news/364239"
+            },
+            {
+              "label": "bdnews24.com: the Charter’s 84 reform commitments and referendum result",
+              "url": "https://bdnews24.com/national-election-2026/de33a9ca4a1f"
+            },
+            {
+              "label": "IFES: background to Bangladesh’s 2026 election and referendum",
+              "url": "https://www.ifes.org/sites/default/files/2026-02/Bangladesh%202026%20General%20Elections.pdf"
+            },
+            {
+              "label": "Al Jazeera: Islam’s assessment of the transition’s gains and failures",
+              "url": "https://www.aljazeera.com/features/2026/2/11/nahid-islam-and-the-uneasy-alliance-that-could-shape-bangladeshs-vote"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Interview & Staatsreform",
+          "author": "Redaktion",
+          "date": "4. August 2026",
+          "title": "Die Revolution hatte ein Mandat – doch es wurde nicht genutzt: Die unvollendete Staatsreform in Nahid Islams Interview",
+          "excerpt": "Eine Regierung zu stürzen und einen Staat zu verändern sind zwei verschiedene Dinge. Ausgehend von Nahid Islams neuem Interview erklärt diese Analyse verständlich, wo das demokratische Mandat des Juli ins Stocken geriet, was der Übergang erreichte und was NCP und andere Reformkräfte jetzt tun müssen.",
+          "imageAlt": "Porträt von Nahid Islam in Dhaka im Januar 2026",
+          "imageCredit": "Nahid Islam, Dhaka, 6. Januar 2026. Foto: Rayhan Ahmed Tamim; CC BY-SA 4.0 via Wikimedia Commons. Hintergrund erweitert und Bild für die Webdarstellung beschnitten.",
+          "facts": [
+            {
+              "value": "14:17 Minuten",
+              "label": "Länge des von Daily Waadaa veröffentlichten Interviews."
+            },
+            {
+              "value": "4 Kapitel",
+              "label": "Studentenbewegung, Massenaufstand, Übergangsregierung und parlamentarische Opposition."
+            },
+            {
+              "value": "12. Februar 2026",
+              "label": "Parlamentswahl und Referendum zur Umsetzung der Juli-Charta fanden am selben Tag statt."
+            },
+            {
+              "value": "84 Verpflichtungen",
+              "label": "Der umfassende Reformrahmen der Juli-Charta, dessen Umsetzung jetzt geprüft wird."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Verändert sich ein Staat schon dadurch, dass eine Regierung stürzt? Nahid Islams neues Interview stellt diese unbequeme Frage. Der Aufstand vom Juli 2024 beendete die Regierung Sheikh Hasinas. Zwei Jahre später zählt, wie weit Bangladesch die Regeln, Institutionen und die Machtkultur verändert hat, die autoritäre Herrschaft ermöglichten."
+            },
+            {
+              "type": "callout",
+              "text": "Der zentrale Satz des Interviews lautet: ‚The revolution had a mandate … and that mandate wasn’t used.‘ Einfach gesagt: Der Aufstand schuf einen klaren Auftrag zur Veränderung des Staates, doch die Gelegenheit wurde nicht vollständig genutzt."
+            },
+            {
+              "type": "heading",
+              "text": "Was bedeutet dieses ‚Mandat‘?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Es ist kein Blankoscheck für einen Anführer, eine Partei oder eine nicht gewählte Regierung. Das Mandat des Juli war begrenzt, aber tiefgreifend: Gerechtigkeit für Tötungen und Repression, parteipolitisch unabhängige Institutionen, Grenzen exekutiver Macht, glaubwürdige Wahlen, gleiche Bürgerwürde und Regeln, die verhindern, dass eine künftige Regierung den Staat als Parteiwaffe benutzt."
+            },
+            {
+              "type": "heading",
+              "text": "Vier politische Rollen in zwei Jahren"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Universitätsstudent und Organisator der Antidiskriminierungsbewegung;",
+                "sichtbarer Anführer der Ein-Punkt-Forderung und des Massenaufstands;",
+                "Berater der am 8. August 2024 gebildeten Übergangsregierung;",
+                "Gründungskonvenor der NCP und Chief Whip der Opposition im Parlament von 2026."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Das ist mehr als eine persönliche Erfolgsgeschichte. Derselbe Mensch hat Straßenmobilisierung, die Grenzen des Regierens und parlamentarische Kontrolle aus der Nähe erlebt. Das macht seine Einschätzung wichtig. Zugleich muss er genauer erklären, welche Chancen bestanden, wo Widerstand entstand und welche Entscheidungen anders hätten ausfallen können."
+            },
+            {
+              "type": "heading",
+              "text": "Das wichtigste Eingeständnis des Interviews"
+            },
+            {
+              "type": "paragraph",
+              "text": "Islams Kernthese ist, dass die breite Einheit bis zum 5. August nie zu einem gemeinsamen Programm für den Staatsumbau wurde. Parteien kehrten zu Wahlkalkül und Organisationsinteressen zurück; die studentische Führung hielt keine einheitliche, rechenschaftspflichtige Struktur aufrecht; und die Übergangsregierung bot den Bürgerinnen und Bürgern kein klares Beteiligungsprogramm für die Reformen. Die Führung wechselte, alte bürokratische und institutionelle Gewohnheiten blieben."
+            },
+            {
+              "type": "heading",
+              "text": "Warum die Chance nur teilweise genutzt wurde"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Die Übergangsregierung begann innerhalb der geerbten Verfassung, Gesetze, Verwaltung und Sicherheitsstrukturen.",
+                "Der politische Konsens war unvollständig; der Wahltermin konkurrierte häufig mit dem Inhalt der Reformen.",
+                "Es entstand keine dauerhafte, transparente Bürgerplattform für die Teilnehmer des Juli.",
+                "Langsame Fortschritte bei Sicherheit, Inflation, Beschäftigung und Rehabilitation der Verletzten schwächten das Vertrauen.",
+                "Ziele, Fristen und öffentliche Messung beim Abbau alter Patronagenetzwerke blieben unklar."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Diese Grenzen erklären das Scheitern, entschuldigen es aber nicht. Eine Übergangsregierung kann nicht alles gleichzeitig tun. Sie kann jedoch fünf dringende Veränderungen benennen, Verantwortliche und Blockaden offenlegen und Fristen veröffentlichen. Genau diese Umsetzungsdisziplin und politische Kommunikation blieben schwach."
+            },
+            {
+              "type": "heading",
+              "text": "War alles ein Fehlschlag? Nein – aber ein Anfang ist kein Abschluss"
+            },
+            {
+              "type": "paragraph",
+              "text": "Reformkommissionen, Verhandlungen über die Juli-Charta, eine wettbewerbliche Wahl zusammen mit einem Referendum und mehr Raum für politische Rede sind reale Erfolge. Die Mehrheit für Reformen im Referendum formalisierte zudem die Erwartungen der Bevölkerung. Berichte und Unterschriften verändern jedoch keinen Staat. Reform wird erst sichtbar in Ernennungsregeln, Budgets, Polizeiarbeit, richterlicher Unabhängigkeit, kommunaler Selbstverwaltung und parlamentarischer Kontrolle."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/nahid-yunus-transition-meeting-2026.jpg",
+              "alt": "Eine von Nahid Islam geführte NCP-Delegation trifft im Januar 2026 Chefberater Muhammad Yunus",
+              "caption": "Von der Bewegung über Regierung und Partei bis ins Parlament bestand die Prüfung darin, Reformversprechen in schriftliche und messbare Ergebnisse zu übersetzen.",
+              "credit": "Foto: Press Information Department, Bangladesch; Public Domain via Wikimedia Commons; für die Webdarstellung verkleinert.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-01-19_Meeting_of_Nahid_Islam,_NCP_delegation,_and_Muhammad_Yunus_at_Jamuna_State_Guest_House,_Dhaka.jpg"
+            },
+            {
+              "type": "heading",
+              "text": "Vom Insider zum Kritiker: Islams schwierigere Prüfung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Islam war kein äußerer Beobachter der Übergangsregierung. Wenn er ihr Scheitern beschreibt, muss er daher auch die eigene Rolle erklären: Welche Reformen brachte er in den Beraterrat ein? Welche wurden blockiert? Warum gab es kein öffentliches Fortschrittsregister? Was würde er heute anders machen? Klare Antworten würden seine Kritik stärken. Selbstkritik schwächt Führung nicht; sie unterscheidet neue Politik von der alten Kultur der Verantwortungsverweigerung."
+            },
+            {
+              "type": "callout",
+              "text": "Die moralische Autorität der Juli-Führung beruht nicht nur auf früherem Mut, sondern auch auf dem Mut, eigene Entscheidungen, Fehler und Grenzen öffentlich zu erklären."
+            },
+            {
+              "type": "heading",
+              "text": "Was ein revolutionäres Mandat nicht ist"
+            },
+            {
+              "type": "list",
+              "items": [
+                "keine Erlaubnis für unbegrenzte, nicht gewählte Herrschaft;",
+                "kein Eigentumsrecht einer Partei oder Person am Juli;",
+                "kein Vorwand, Opposition, Minderheitenrechte oder Rechtsstaatlichkeit auszusetzen;",
+                "keine Lizenz zur erneuten parteipolitischen Eroberung staatlicher Institutionen;",
+                "kein Schutzschild, um Kritik als antirevolutionär abzuweisen."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Seine einzige demokratische Bedeutung besteht darin, die Regeln der Macht so zu verändern, dass auch die Reformer ihnen folgen müssen, wenn sie regieren. Eine Reform, die nur den Gegner schwächt, aber die eigene künftige Macht nicht begrenzt, ist keine Reform des Juli, sondern alte Politik in neuer Verpackung."
+            },
+            {
+              "type": "heading",
+              "text": "Was Islam und die NCP jetzt im Parlament tun können"
+            },
+            {
+              "type": "paragraph",
+              "text": "Als Chief Whip der Opposition verfügt Islam jetzt nicht nur über die Erinnerung an eine Bewegung. Er kann parlamentarische Anfragen, Ausschüsse, Änderungsanträge, Abstimmungsprotokolle und Haushaltskontrolle nutzen. Mit sieben messbaren Verpflichtungen kann die NCP den Juli vom Slogan ins Recht übersetzen."
+            },
+            {
+              "type": "list",
+              "items": [
+                "ein öffentliches Umsetzungsregister für jede Reform aus Charta und Referendum mit Rechtsgrundlage, zuständiger Institution und Frist;",
+                "unabhängige Ernennungen und parlamentarische Rechenschaft für Polizei, Nachrichtendienste, Wahlkommission, Antikorruptions- und Menschenrechtskommission;",
+                "ein verifiziertes Register der Toten, Verletzten und Vermissten des Juli mit regelmäßigen Berichten zu Behandlung, Rehabilitation und Justiz;",
+                "Grenzen der Macht des Premierministers, wirksame Oppositionsführung in Parlamentsausschüssen und richterliche Unabhängigkeit;",
+                "gewählte und finanziell handlungsfähige Kommunalverwaltungen;",
+                "jährliche, ergebnisbezogene Ziele für Jugendbeschäftigung, Bildung und Qualifizierung;",
+                "vollständige Offenlegung von NCP-Finanzierung, Kandidatenauswahl, internen Wahlen, Interessenkonflikten und wichtigen Parlamentsabstimmungen."
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Was bedeutet das im Alltag?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Staatsreform ist kein fernes Verfassungswort. Sie bedeutet eine Polizeianzeige ohne Bestechung, eine Bewerbung ohne Parteiverbindung, rechtzeitige Urteile, Maßnahmen gegen Marktkartelle, lokale Entscheidungen über lokale Haushalte und eine sichere Heimkehr nach Kritik an der Regierung. Ohne solche Veränderungen bleiben ‚Mandat‘ und ‚Charta‘ politische Sprache."
+            },
+            {
+              "type": "heading",
+              "text": "Fazit: Den Juli nicht wiederholen, sondern in den Staat einschreiben"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Stärke von Islams Interview liegt darin, dass er den Sieg nicht als Selbstlob erzählt. Er räumt ein, dass eine Chance bestand und ein Teil davon verloren ging. Die schwierigere Aufgabe ist nun, diesen Verlust nicht in endlose Klage zu verwandeln, sondern die Arbeit durch Parlament, Recht, Organisation und Bürgerbeteiligung zu beenden. Der Juli beseitigte eine Regierung. Seine Politik wird erst erfolgreich sein, wenn keine künftige Regierung dieselben Instrumente des Autoritarismus erbt."
+            },
+            {
+              "type": "paragraph",
+              "text": "Redaktioneller Hinweis: Das direkte Zitat stammt aus der von Daily Waadaa veröffentlichten Bildunterschrift. Der übrige Text ist eine kontextuelle Zusammenfassung des Interviews und eine unabhängige Analyse auf Grundlage der bis 4. August 2026 verfügbaren Quellen."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Daily Waadaa: vollständiges Interview mit Nahid Islam – ‘The revolution had a mandate’",
+              "url": "https://www.facebook.com/reel/1696238101681840"
+            },
+            {
+              "label": "Prothom Alo: Nach dem Juli kehrten alle zu ihren eigenen Agenden zurück",
+              "url": "https://en.prothomalo.com/amp/story/opinion/interview/acfu270gbq"
+            },
+            {
+              "label": "Dhaka Stream: The path we take will shape Bangladesh’s politics and future",
+              "url": "https://www.dhakastream.net/politics/path-we-take-will-shape-bangladeshs-politics-and-future-nahid-187135"
+            },
+            {
+              "label": "The Daily Star: Nahid Islam zum Chief Whip der Opposition ernannt",
+              "url": "https://www.thedailystar.net/news/national-election-2026/news/jamaat-ameer-shafiqur-rahman-named-opposition-leader-13th-parliament-4108366"
+            },
+            {
+              "label": "Wahlkommission/BSS: korrigierte Bekanntmachung zum Referendum über die Juli-Charta",
+              "url": "https://www.bssnews.net/news/364239"
+            },
+            {
+              "label": "bdnews24.com: die 84 Reformverpflichtungen der Charta und das Referendumsergebnis",
+              "url": "https://bdnews24.com/national-election-2026/de33a9ca4a1f"
+            },
+            {
+              "label": "IFES: Hintergrund zu Wahl und Referendum in Bangladesch 2026",
+              "url": "https://www.ifes.org/sites/default/files/2026-02/Bangladesh%202026%20General%20Elections.pdf"
+            },
+            {
+              "label": "Al Jazeera: Islams Bewertung von Erfolgen und Fehlschlägen des Übergangs",
+              "url": "https://www.aljazeera.com/features/2026/2/11/nahid-islam-and-the-uneasy-alliance-that-could-shape-bangladeshs-vote"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "nhrc-bill-2026-independent-investigation",
       "slug": "nhrc-bill-2026-independent-investigation",
       "status": "published",

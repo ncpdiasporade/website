@@ -1135,7 +1135,7 @@ function initBlog() {
 
     const links = article.sources
       .filter((source) => source && cleanText(source.label, 120) && safeHref(source.url) !== '#')
-      .slice(0, 6)
+      .slice(0, 10)
       .map((source) => `
         <li>
           <a href="${safeHref(source.url)}" target="_blank" rel="noopener noreferrer">
@@ -1424,7 +1424,7 @@ function initBlog() {
     openBlogModal(requestedArticleId, { updateUrl: false });
   }
 
-  loadContentJson('data/blog-posts.json?v=20260803-nhrc-bill')
+  loadContentJson('data/blog-posts.json?v=20260804-nahid-mandate')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);

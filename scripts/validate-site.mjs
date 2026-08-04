@@ -33,7 +33,7 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260803-nhrc-bill" defer></script>')) {
+if (!html.includes('<script src="js/site.js?v=20260804-nahid-mandate" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
