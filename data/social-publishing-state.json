@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-05T22:34:35.719Z",
+  "updatedAt": "2026-08-05T23:19:03.650Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -68,7 +68,8 @@
     "blog:revolution-mandate-nahid-islam-interview": "e68a766c582941ed640985d99f8d3b337fc31d1ed8ed99846df3aa5bd56d7e81",
     "facebook:germany:122198560898921031": "b78d0edca0403039e2805bf3d4aaf19a42db577698cd1e19fe558da622ced711",
     "facebook:germany:122198563544921031": "c77847f59784e4d8159fcc17337bbfa2f0efb1c3ddfa10cbc217344fa0756848",
-    "facebook:germany:122198654858921031": "aab9e4f45ade0e0e1fd9ea041f8ae2e55c3231ed8d31ee4552b7e3c10f807e17"
+    "facebook:germany:122198654858921031": "aab9e4f45ade0e0e1fd9ea041f8ae2e55c3231ed8d31ee4552b7e3c10f807e17",
+    "facebook:germany:122198724050921031": "5f6a325fe9fe986d0c4b212fb658aa2c74e79bb7f47ace62e107884ced87d6b2"
   },
   "publications": []
 }
