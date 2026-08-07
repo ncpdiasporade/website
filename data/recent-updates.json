@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-07T09:16:27.827Z",
+  "updatedAt": "2026-08-07T10:14:58.222Z",
   "items": [
+    {
+      "id": "facebook-germany-122198940704921031",
+      "facebookId": "122198940704921031",
+      "status": "published",
+      "date": "৭ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-07T09:59:35+0000",
+      "badge": "জুলাই",
+      "title": "জুলাইয়ের পর ক্ষমতার যে পুনর্বিন্যাসটা আমরা করতে চাইছি, সেখানে বিএনপির স্বার্থে আঘাত লাগলে একবিন্দুও ছাড় দেয়নি।",
+      "excerpt": "- নাহিদ ইসলাম",
+      "sourceCaption": "জুলাইয়ের পর ক্ষমতার যে পুনর্বিন্যাসটা আমরা করতে চাইছি, সেখানে বিএনপির স্বার্থে আঘাত লাগলে একবিন্দুও ছাড় দেয়নি।\n\n- নাহিদ ইসলাম\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198940704921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122198940704921031.jpg",
+      "imageAlt": "জুলাইয়ের পর ক্ষমতার যে পুনর্বিন্যাসটা আমরা করতে চাইছি, সেখানে বিএনপির স্বার্থে আঘাত লাগলে একবিন্দুও ছাড় দেয়নি।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122198844212921031",
       "facebookId": "122198844212921031",
@@ -179,26 +199,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122198210708921031.jpg",
       "imageAlt": "দাবি যখন জনতার ভাষা হয়, ইতিহাস তখন দিক বদলায়।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122198210162921031",
-      "facebookId": "122198210162921031",
-      "status": "published",
-      "date": "৩ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-02T22:25:40+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "'এত দিন যারা ধানক্ষেতে, পাটক্ষেতে লুকিয়ে ছিল, তারাই এখন আমাদের চোখ উপড়ে ফেলতে চাইছে'",
-      "excerpt": "- Sarwar Tusher",
-      "sourceCaption": "'এত দিন যারা ধানক্ষেতে, পাটক্ষেতে লুকিয়ে ছিল, তারাই এখন আমাদের চোখ উপড়ে ফেলতে চাইছে'\n\n- Sarwar Tusher\n\n#ncpdagermany #NCP #Bangladesh",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122198210162921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122198210162921031.jpg",
-      "imageAlt": "'এত দিন যারা ধানক্ষেতে, পাটক্ষেতে লুকিয়ে ছিল, তারাই এখন আমাদের চোখ উপড়ে ফেলতে চাইছে'",
       "managedBy": "facebook-sync"
     },
     {
