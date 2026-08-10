@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T15:30:47.992Z",
+  "updatedAt": "2026-08-10T17:11:12.562Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -1041,7 +1041,7 @@
       "approvalStatus": "awaiting-approval",
       "status": "awaiting-approval",
       "createdAt": "2026-08-02T22:36:02.390Z",
-      "updatedAt": "2026-08-10T15:30:47.988Z",
+      "updatedAt": "2026-08-10T17:11:11.968Z",
       "title": "অভিযুক্ত বাহিনীর রিপোর্টের অপেক্ষায় যে কমিশন: মানবাধিকার বিল ২০২৬ কেন বদলানো জরুরি",
       "excerpt": "পুলিশ বা অন্য কোনো রাষ্ট্রীয় বাহিনীর বিরুদ্ধে অভিযোগ উঠলে মানবাধিকার কমিশন নিজে স্বাধীনভাবে তদন্ত না করে সেই বাহিনী বা সরকারের প্রতিবেদনের ওপর নির্ভর করবে—খসড়াটির মূল সংকট এখানেই। সহজ উদাহরণে দেখা যাক, কেন কিছু ‘কঠোর’ ক্ষমতা দিয়েও কমিশনকে কার্যত দুর্বল রাখা হচ্ছে।",
       "sourceCaption": null,
@@ -1269,7 +1269,7 @@
       "approvalStatus": "awaiting-approval",
       "status": "awaiting-approval",
       "createdAt": "2026-08-04T21:31:41.743Z",
-      "updatedAt": "2026-08-10T15:30:47.988Z",
+      "updatedAt": "2026-08-10T17:11:11.968Z",
       "title": "বিপ্লবের ম্যান্ডেট ছিল, ব্যবহার করা হয়নি: নাহিদ ইসলামের সাক্ষাৎকারে রাষ্ট্র বদলের অসমাপ্ত পাঠ",
       "excerpt": "একটি সরকার পতন আর একটি রাষ্ট্রব্যবস্থা বদল—দুইটি এক কথা নয়। নাহিদ ইসলামের নতুন সাক্ষাৎকারের কেন্দ্রীয় বক্তব্য ধরে সহজ ভাষায় দেখা যাক, জুলাইয়ের গণরায় কোথায় আটকে গেল, কী অর্জিত হয়েছে এবং এখন NCP-সহ সংস্কারপন্থী রাজনীতির সামনে কোন কাজগুলো জরুরি।",
       "sourceCaption": null,
@@ -1860,6 +1860,44 @@
           "description": "অবিলম্বে শিক্ষাপ্রতিষ্ঠানে ম্যানেজিং কমিটির মাধ্যমে শিক্ষক নিয়োগ পদ্ধতি বন্ধ করো!\n\nঅবিলম্বে শিক্ষাপ্রতিষ্ঠানে ম্যানেজিং কমিটির মাধ্যমে শিক্ষক নিয়োগ পদ্ধতি বন্ধ করো! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122199393386921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122199393386921031-111e3d2e9e-tiktok.jpg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "facebook-122199397394921031-aa9bb6f5b7",
+      "sourceType": "facebook",
+      "sourceId": "122199397394921031",
+      "sourceKey": "facebook:germany:122199397394921031",
+      "sourceFingerprint": "aa9bb6f5b7422e469ce96a5ff039d85cb2b032e94dcafe66fd9c6f5c10494e42",
+      "sourceCreatedAt": "2026-08-10T15:27:50+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122199397394921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-08-10T17:11:12.561Z",
+      "updatedAt": "2026-08-10T17:11:12.562Z",
+      "title": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি।",
+      "excerpt": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি। - নাহিদ ইসলাম #ncpdagermany",
+      "sourceCaption": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি। - নাহিদ ইসলাম #ncpdagermany",
+      "image": "img/social/germany/fb-122199397394921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি। মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি। - নাহিদ ইসলাম #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122199397394921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122199397394921031-aa9bb6f5b7-x.jpg"
+        },
+        "tiktok": {
+          "status": "pending",
+          "attempts": 0,
+          "title": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি।",
+          "description": "মৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি।\n\nমৌলিক পরিবর্তনটা অন্তর্বর্তী সরকার করতে পারেনি। - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122199397394921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122199397394921031-aa9bb6f5b7-tiktok.jpg"
           ]
         }
       }
