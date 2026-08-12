@@ -11,6 +11,7 @@ const jsonFiles = [
   'data/announcements.json',
   'data/july-resources.json',
   'data/july-36-special.json',
+  'data/sovereignty-archive.json',
   'data/blog-posts.json',
   'data/blog-agent-review-queue.json',
   'data/blog-agent-runs.json',
@@ -40,6 +41,9 @@ if (!html.includes('<script src="js/site.js?v=20260801-july-share" defer></scrip
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
+if (!markup.includes('id="sovereignty"') || !markup.includes('href="sovereignty/"')) {
+  errors.push('index.html: missing sovereignty archive gateway or navigation link');
+}
 for (const contract of ['initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6', "t('আরও দেখুন')", 'showingAllArticles']) {
   if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive Blog limit contract ${contract}`);
 }
@@ -141,6 +145,39 @@ if (!Number.isInteger(blogAgentConfig.minimumEvidenceScore) || blogAgentConfig.m
 }
 for (const asset of ['img/blog/governance-analysis.svg', 'img/blog/governance-analysis-share.jpg']) {
   if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`automated Blog Agent: missing ${asset}`);
+}
+
+const sovereigntyHtmlPath = path.join(rootDir, 'sovereignty', 'index.html');
+const sovereigntyScriptPath = path.join(rootDir, 'sovereignty', 'archive.js');
+const sovereigntyStylePath = path.join(rootDir, 'sovereignty', 'styles.css');
+for (const requiredPath of [sovereigntyHtmlPath, sovereigntyScriptPath, sovereigntyStylePath]) {
+  if (!fs.existsSync(requiredPath)) errors.push(`sovereignty archive: missing ${requiredPath}`);
+}
+const sovereigntyData = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/sovereignty-archive.json'), 'utf8'));
+if (!Array.isArray(sovereigntyData.stories) || sovereigntyData.stories.length !== 4) {
+  errors.push('data/sovereignty-archive.json: expected four featured histories');
+}
+if (!Array.isArray(sovereigntyData.borderVictims) || sovereigntyData.borderVictims.length < 20) {
+  errors.push('data/sovereignty-archive.json: expected at least 20 sourced border-victim records');
+}
+for (const story of sovereigntyData.stories || []) {
+  if (!story.image || !fs.existsSync(path.resolve(rootDir, 'sovereignty', story.image))) {
+    errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} has a missing image`);
+  }
+  if (!story.imageAlt || !story.credit || !Array.isArray(story.sources) || story.sources.length < 2) {
+    errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} needs alt text, credit and at least two sources`);
+  }
+  for (const language of ['en', 'de']) {
+    const translation = story.translations?.[language];
+    if (!translation?.opening || !translation?.summary || !translation?.connection || !translation?.known || !translation?.unresolved) {
+      errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} is missing the ${language} evidence translation`);
+    }
+  }
+}
+for (const record of sovereigntyData.borderVictims || []) {
+  if (!record.name || !record.nameLatin || !record.year || !record.district || !/^https:\/\//.test(record.source || '')) {
+    errors.push(`data/sovereignty-archive.json: incomplete border-victim record ${record.name || '(missing name)'}`);
+  }
 }
 
 const july36Data = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/july-36-special.json'), 'utf8'));

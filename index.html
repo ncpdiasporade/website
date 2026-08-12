@@ -4089,6 +4089,152 @@
       .benefit-item { grid-template-columns: 46px 1fr; gap: 11px; padding: 14px; }
       .b-num { width: 46px; height: 46px; border-radius: 13px; }
     }
+
+    /* SOVEREIGNTY MEMORY ARCHIVE GATEWAY */
+    .sovereignty-gateway {
+      position: relative;
+      overflow: hidden;
+      padding: 118px 0 105px;
+      color: #fff;
+      background:
+        radial-gradient(circle at 92% 8%, rgba(192,22,54,.34), transparent 30%),
+        linear-gradient(145deg, #050a07, #0a1710 58%, #100709);
+    }
+    .sovereignty-gateway::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: .13;
+      background-image: linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.2) 1px, transparent 1px);
+      background-size: 9vw 9vw;
+      mask-image: linear-gradient(90deg, #000, transparent 75%);
+      pointer-events: none;
+    }
+    .sovereignty-gateway-head {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 60px;
+      align-items: end;
+      margin-bottom: 52px;
+    }
+    .sovereignty-kicker {
+      margin: 0 0 16px;
+      color: #79e9a8;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .sovereignty-gateway-head h2 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: clamp(2.9rem, 6.2vw, 5.8rem);
+      font-weight: 900;
+      line-height: .92;
+      letter-spacing: -.05em;
+    }
+    .sovereignty-gateway-head h2 em { color: var(--red-400); font-weight: 300; }
+    .sovereignty-gateway-head > p {
+      margin: 0;
+      color: rgba(255,255,255,.58);
+      font-family: var(--font-ui);
+      font-size: .97rem;
+      line-height: 1.75;
+    }
+    .sovereignty-portraits {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid rgba(255,255,255,.13);
+      border-left: 1px solid rgba(255,255,255,.13);
+    }
+    .sovereignty-person {
+      position: relative;
+      display: flex;
+      min-width: 0;
+      min-height: 520px;
+      flex-direction: column;
+      padding: 16px;
+      overflow: hidden;
+      border-right: 1px solid rgba(255,255,255,.13);
+      border-bottom: 1px solid rgba(255,255,255,.13);
+      background: rgba(255,255,255,.025);
+      text-decoration: none;
+      transition: background .35s, transform .35s var(--ease-out), box-shadow .35s;
+    }
+    .sovereignty-person:hover {
+      z-index: 2;
+      background: rgba(192,22,54,.16);
+      transform: translateY(-10px);
+      box-shadow: 0 30px 70px rgba(0,0,0,.32);
+    }
+    .sovereignty-photo {
+      position: relative;
+      height: 320px;
+      margin-bottom: 18px;
+      overflow: hidden;
+      background: #172019;
+    }
+    .sovereignty-photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(3,9,5,.56), transparent 48%), linear-gradient(120deg, rgba(13,97,48,.15), transparent);
+    }
+    .sovereignty-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(.88) contrast(1.08);
+      transition: transform .8s var(--ease-out), filter .35s;
+    }
+    .sovereignty-person.felani .sovereignty-photo img { object-position: 45% center; }
+    .sovereignty-person:hover .sovereignty-photo img { transform: scale(1.055); filter: grayscale(.35); }
+    .sovereignty-person > span { color: rgba(255,255,255,.4); font-family: var(--font-mono); font-size: 9px; letter-spacing: .08em; }
+    .sovereignty-person > strong { margin-top: auto; font-family: var(--font-display); font-size: clamp(1.5rem,2.3vw,2.15rem); line-height: 1.05; }
+    .sovereignty-person > small { margin-top: 9px; color: rgba(255,255,255,.53); font-size: .78rem; line-height: 1.55; }
+    .sovereignty-gateway-foot {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 35px;
+      margin-top: 28px;
+      padding: 28px 0 0;
+    }
+    .sovereignty-gateway-foot p { max-width: 620px; margin: 0; color: rgba(255,255,255,.5); font-size: .86rem; }
+    .sovereignty-gateway-foot p b { color: #fff; font-family: var(--font-display); font-size: 1.18rem; }
+    .sovereignty-gateway-foot > a {
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      padding: 13px 18px;
+      border-radius: 999px;
+      background: var(--red-500);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 12px 28px rgba(192,22,54,.25);
+      transition: transform .25s, background .25s;
+    }
+    .sovereignty-gateway-foot > a:hover { transform: translateY(-3px); background: var(--red-400); }
+    .sovereignty-gateway-foot > a span { font-size: 1.25rem; }
+    @media (max-width: 900px) {
+      .sovereignty-gateway-head { grid-template-columns: 1fr; gap: 20px; }
+      .sovereignty-portraits { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 580px) {
+      .sovereignty-gateway { padding: 82px 0 72px; }
+      .sovereignty-gateway-head h2 { font-size: clamp(2.7rem,14vw,4rem); }
+      .sovereignty-portraits { display: flex; margin-right: -24px; padding-right: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-left: 0; }
+      .sovereignty-portraits::-webkit-scrollbar { display: none; }
+      .sovereignty-person { flex: 0 0 82%; min-height: 490px; scroll-snap-align: start; border-left: 1px solid rgba(255,255,255,.13); }
+      .sovereignty-gateway-foot { align-items: stretch; flex-direction: column; }
+      .sovereignty-gateway-foot > a { justify-content: center; text-align: center; }
+    }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
       *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
@@ -4150,6 +4296,7 @@
         <li data-announcements-link hidden><a href="#announcements">কর্মসূচি</a></li>
         <li data-july36-link hidden><a href="#july-36">৩২–৩৬ জুলাই</a></li>
         <li><a href="#uprising">জুলাই ২০২৪</a></li>
+        <li><a href="sovereignty/">সার্বভৌমত্বের ইতিহাস</a></li>
         <li><a href="#about">আমাদের সম্পর্কে</a></li>
         <li><a href="#updates">সর্বশেষ</a></li>
         <li><a href="#join">সদস্যপদ</a></li>
@@ -4182,6 +4329,7 @@
     <a href="#announcements" data-announcements-link hidden>কর্মসূচি ও আয়োজন</a>
     <a href="#july-36" data-july36-link hidden>৩২–৩৬ জুলাই</a>
     <a href="#uprising">জুলাই ২০২৪</a>
+    <a href="sovereignty/">সার্বভৌমত্বের ইতিহাস</a>
     <a href="#about">আমাদের সম্পর্কে</a>
     <a href="#pillars">লক্ষ্য ও আদর্শ</a>
     <a href="#updates">সর্বশেষ আপডেট</a>
@@ -4344,6 +4492,40 @@
           <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
         </div>
         <p class="july-photo-credit">ওয়েবসাইটজুড়ে ব্যবহৃত জুলাইয়ের আলোকচিত্র: AFP, পলাশ খান ও অর্কিড চাকমা। আন্দোলনকালীন শিল্পকর্ম: সংগঠনের সংরক্ষিত সংগ্রহ।</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sovereignty-gateway july-visual-section" id="sovereignty" aria-labelledby="sovereigntyTitle">
+    <div class="container">
+      <div class="sovereignty-gateway-head reveal">
+        <div>
+          <p class="sovereignty-kicker">নতুন স্মৃতি-আর্কাইভ · প্রমাণসহ ইতিহাস</p>
+          <h2 id="sovereigntyTitle">চারটি নাম। চার ধরনের ক্ষত।<br><em>একটি অসমাপ্ত প্রশ্ন।</em></h2>
+        </div>
+        <p>বাংলাদেশের সীমান্ত, স্বাধীন মত এবং সার্বভৌম সিদ্ধান্তের প্রশ্নে চারটি জীবনের ইতিহাস—প্রতিটি দাবি, আদালতের তথ্য ও অমীমাংসিত প্রশ্ন আলাদা করে নথিভুক্ত।</p>
+      </div>
+      <div class="sovereignty-portraits stagger-children reveal">
+        <a class="sovereignty-person felani" href="sovereignty/#felani">
+          <div class="sovereignty-photo"><img src="img/sovereignty/border-fence.webp" alt="বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া" width="900" height="1040" loading="lazy"></div>
+          <span>২০১১ · সীমান্ত</span><strong>ফেলানী খাতুন</strong><small>সে বাড়ি ফিরতে চেয়েছিল—ইতিহাস হতে নয়।</small>
+        </a>
+        <a class="sovereignty-person" href="sovereignty/#ilias">
+          <div class="sovereignty-photo"><img src="img/sovereignty/ilias-ali.webp" alt="এম ইলিয়াস আলী" width="900" height="1040" loading="lazy"></div>
+          <span>২০১২ · গুম</span><strong>এম ইলিয়াস আলী</strong><small>একটি পরিবার প্রতিদিন নতুন করে অপেক্ষা করে।</small>
+        </a>
+        <a class="sovereignty-person" href="sovereignty/#abrar">
+          <div class="sovereignty-photo"><img src="img/sovereignty/abrar-fahad.webp" alt="আবরার ফাহাদ" width="900" height="1040" loading="lazy"></div>
+          <span>২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ</strong><small>একটি পোস্ট, কয়েকটি প্রশ্ন, তারপর বন্ধ দরজা।</small>
+        </a>
+        <a class="sovereignty-person" href="sovereignty/#hadi">
+          <div class="sovereignty-photo"><img src="img/sovereignty/osman-hadi.webp" alt="শরীফ ওসমান হাদি" width="900" height="1040" loading="lazy"></div>
+          <span>২০২৫ · প্রতিরোধ</span><strong>শরীফ ওসমান হাদি</strong><small>গুলি কণ্ঠ থামিয়েছে—প্রশ্ন নয়।</small>
+        </a>
+      </div>
+      <div class="sovereignty-gateway-foot reveal">
+        <p><b>আবেগ হৃদয় খুলে দেয়। প্রমাণ সত্যকে দাঁড় করায়।</b><br>মানুষের গল্প, ছবির আর্কাইভ, আদালতের রেকর্ড এবং সীমান্তে হারানো নামের দেয়াল।</p>
+        <a href="sovereignty/">সম্পূর্ণ স্মৃতি-আর্কাইভে প্রবেশ করুন <span>→</span></a>
       </div>
     </div>
   </section>
