@@ -362,7 +362,6 @@ async function main() {
     decision.reasons.length ? `Gate reasons: ${decision.reasons.join('; ')}` : 'Gate reasons: none'
   ].join('\n');
   console.log(summary);
-  if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Automated Blog Agent\n\n${summary.replaceAll('\n', '  \n')}\n`);
 }
 
 main().catch((error) => {
