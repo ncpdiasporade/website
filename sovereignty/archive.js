@@ -91,6 +91,18 @@ function renderNames() {
   }).join('') : `<p class="wall-empty">${esc(copy.noNames)}</p>`;
 }
 
+function restoreHashPosition() {
+  if (!location.hash) return;
+  let id;
+  try { id = decodeURIComponent(location.hash.slice(1)); } catch { id = location.hash.slice(1); }
+  const target = document.getElementById(id);
+  if (!target) return;
+  const align = () => target.scrollIntoView({block:'start'});
+  requestAnimationFrame(() => requestAnimationFrame(align));
+  if (document.fonts?.ready) document.fonts.ready.then(align).catch(() => {});
+  setTimeout(align, 350);
+}
+
 function setLanguage(next) {
   language = next;
   const url = new URL(location.href);
@@ -101,6 +113,7 @@ function setLanguage(next) {
   if (archiveData) {
     renderStories(); renderNames();
     $('#methodologyText').textContent = archiveData.methodology[language];
+    restoreHashPosition();
   }
 }
 
@@ -136,11 +149,13 @@ async function init() {
   const years = [...new Set(archiveData.borderVictims.map(item => item.year))].sort((a,b) => b-a);
   $('#yearFilter').insertAdjacentHTML('beforeend', years.map(year => `<option value="${year}">${year}</option>`).join(''));
   renderStories(); renderNames(); observeReveals();
+  restoreHashPosition();
   $$('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
   $('#nameSearch').addEventListener('input', renderNames);
   $('#yearFilter').addEventListener('change', renderNames);
   $('#shareArchive').addEventListener('click', shareArchive);
   $('#shareClosing').addEventListener('click', shareArchive);
+  addEventListener('hashchange', restoreHashPosition);
   const updateChrome = () => {
     const max = document.documentElement.scrollHeight - innerHeight;
     $('.reading-progress span').style.width = `${max > 0 ? scrollY / max * 100 : 0}%`;
