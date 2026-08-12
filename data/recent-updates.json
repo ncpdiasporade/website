@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-12T06:44:12.121Z",
+  "updatedAt": "2026-08-12T08:40:30.524Z",
   "items": [
+    {
+      "id": "facebook-germany-122199645200921031",
+      "facebookId": "122199645200921031",
+      "status": "published",
+      "date": "১২ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-12T07:31:25+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "মসজিদগুলোতে নতুন করে বিএনপিপন্থী ইমাম-মুয়াজ্জিন দলীয়ভাবে নিয়োগ দেওয়া শুরু করেছে!",
+      "excerpt": "মসজিদগুলোতে নতুন করে বিএনপিপন্থী ইমাম-মুয়াজ্জিন দলীয়ভাবে নিয়োগ দেওয়া শুরু করেছে! - সারজিস আলম",
+      "sourceCaption": "মসজিদগুলোতে নতুন করে বিএনপিপন্থী ইমাম-মুয়াজ্জিন দলীয়ভাবে নিয়োগ দেওয়া শুরু করেছে!\n\n- সারজিস আলম\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122199645200921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122199645200921031.jpg",
+      "imageAlt": "মসজিদগুলোতে নতুন করে বিএনপিপন্থী ইমাম-মুয়াজ্জিন দলীয়ভাবে নিয়োগ দেওয়া শুরু করেছে!",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122199595754921031",
       "facebookId": "122199595754921031",
@@ -182,26 +202,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122199273890921031",
-      "facebookId": "122199273890921031",
-      "status": "published",
-      "date": "৯ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-09T20:34:41+0000",
-      "badge": "শোকবার্তা",
-      "title": "শোকবার্তা -",
-      "excerpt": "শোকবার্তা -",
-      "sourceCaption": "শোকবার্তা -",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122199273890921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122199273890921031.jpg",
-      "imageAlt": "শোকবার্তা -",
-      "managedBy": "facebook-sync"
-    },
-    {
       "id": "facebook-germany-122197201634921031",
       "facebookId": "122197201634921031",
       "status": "published",
@@ -380,7 +380,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70913,
+      "viewCount": 70914,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
