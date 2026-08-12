@@ -55,7 +55,7 @@ try {
     maximumAutomaticItemsPerRun: 3,
     maximumAttemptsPerPlatform: 3,
     x: { publishingMode: 'automatic', maximumCharacters: 280, hashtags: ['#NCPDAGermany'] },
-    tiktok: { username: 'ncpda_germany', privacyLevel: 'PUBLIC_TO_EVERYONE', autoAddMusic: false, hashtags: ['#NCPDAGermany'] }
+    tiktok: { username: 'ncpda.germany', privacyLevel: 'PUBLIC_TO_EVERYONE', autoAddMusic: false, hashtags: ['#NCPDAGermany'] }
   });
   writeJson(files.queue, { version: 1, updatedAt: null, items: [] });
   writeJson(files.state, { version: 1, initializedAt: null, updatedAt: null, knownSources: {}, publications: [] });
