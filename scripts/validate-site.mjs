@@ -33,12 +33,19 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260804-nahid-mandate" defer></script>')) {
+if (!html.includes('<script src="js/site.js?v=20260812-updates-links" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
-for (const contract of ['initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6', "t('আরও দেখুন')", 'showingAllArticles']) {
-  if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive Blog limit contract ${contract}`);
+if (!markup.includes('id="updatesMore"')) errors.push('index.html: missing updates More control');
+for (const contract of [
+  'initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6',
+  'initialUpdateLimit = () => mobileUpdatesQuery.matches ? 3 : 6',
+  "t('আরও দেখুন')",
+  'showingAllArticles',
+  'showingAllUpdates'
+]) {
+  if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive content limit contract ${contract}`);
 }
 if (html.includes('<meta property="og:image" content="https://ncpdagermany.de/img/announcements/rokte-july-2026.webp"')) {
   errors.push('index.html: retired event poster must not be the website Open Graph image');
@@ -55,8 +62,8 @@ for (const shareContract of [
 ]) {
   if (!siteScript.includes(shareContract)) errors.push(`js/site.js: missing Blog share contract ${shareContract}`);
 }
-if (!siteScript.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
-  errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
+if (!siteScript.includes("activeFilter === 'featured' ? 4 : 6")) {
+  errors.push('index.html: recent-update limits must remain 4 featured and 6 other Facebook items');
 }
 for (const contract of ['function initJuly36Special()', "searchParams.get('july-day')", "timeZone || 'Europe/Berlin'", 'navigator.share', 'new URL(`/july/${day.julyDay}/${languageSuffix}`']) {
   if (!siteScript.includes(contract)) errors.push(`js/site.js: missing 32–36 July contract ${contract}`);
@@ -189,7 +196,7 @@ const featuredCount = [...featuredBySource.values()].reduce((sum, count) => sum 
 if (featuredCount > 4) errors.push(`data/recent-updates.json: ${featuredCount} featured items found; at most four are allowed`);
 
 const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.config.json'), 'utf8'));
-if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
+if (socialConfig.maxFeedItems !== 6) errors.push('social-feed.config.json: maxFeedItems must be 6');
 if (socialConfig.maxFeaturedItems !== 4) errors.push('social-feed.config.json: maxFeaturedItems must be 4');
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 if (socialConfig.videoArchiveMaxItems < socialConfig.maxVideoItems) {

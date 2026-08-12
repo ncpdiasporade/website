@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-08-12",
   "items": [
+    {
+      "id": "ncpda-july36-complete-archive",
+      "status": "published",
+      "type": "নিজস্ব জুলাই আর্কাইভ",
+      "title": "July Uprising 2024: পূর্ণাঙ্গ দলিল ও টাইমলাইন",
+      "description": "জুলাই গণঅভ্যুত্থানের ঘটনাপ্রবাহ, রাষ্ট্রীয় দমন-পীড়ন, ছাত্র-জনতার প্রতিরোধ, প্রবাসীদের ভূমিকা এবং পরবর্তী রাজনৈতিক যাত্রা—বাংলা, ইংরেজি ও জার্মান ভাষায় জানুন।",
+      "cta": "পূর্ণাঙ্গ ইতিহাস জানুন →",
+      "url": "https://july36.ncpdagermany.de/"
+    },
     {
       "id": "ohchr-fact-finding-report",
       "status": "published",
