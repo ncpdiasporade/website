@@ -12,10 +12,13 @@ const jsonFiles = [
   'data/july-resources.json',
   'data/july-36-special.json',
   'data/blog-posts.json',
+  'data/blog-agent-review-queue.json',
+  'data/blog-agent-runs.json',
   'data/social-publishing-state.json',
   'data/social-review-queue.json',
   'social-feed.config.json',
-  'social-publishing.config.json'
+  'social-publishing.config.json',
+  'config/blog-agent.json'
 ];
 
 for (const relativePath of jsonFiles) {
@@ -111,6 +114,14 @@ for (const article of blogData.items || []) {
       errors.push(`data/blog-posts.json: ${article.id || '(missing id)'} is missing ${language} photo alt text or credit`);
     }
   }
+  if (article.automation) {
+    if (article.automation.evidenceScore < 80 || article.automation.factCheckStatus !== 'PASS') {
+      errors.push(`data/blog-posts.json: automated article ${article.id || '(missing id)'} fails the publication quality gate`);
+    }
+    if (!Array.isArray(article.sources) || article.sources.length < 3) {
+      errors.push(`data/blog-posts.json: automated article ${article.id || '(missing id)'} needs at least three sources`);
+    }
+  }
   if (!article.sharePath) continue;
   for (const suffix of ['', 'en', 'de']) {
     const previewPath = path.join(rootDir, article.sharePath, suffix, 'index.html');
@@ -126,6 +137,17 @@ for (const article of blogData.items || []) {
       errors.push(`${previewPath}: missing expected Open Graph image`);
     }
   }
+}
+
+const blogAgentConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'config/blog-agent.json'), 'utf8'));
+if (!['quality-gated', 'review-only'].includes(blogAgentConfig.publicationMode)) {
+  errors.push('config/blog-agent.json: publicationMode must be quality-gated or review-only');
+}
+if (!Number.isInteger(blogAgentConfig.minimumEvidenceScore) || blogAgentConfig.minimumEvidenceScore < 80) {
+  errors.push('config/blog-agent.json: minimumEvidenceScore must be at least 80');
+}
+for (const asset of ['img/blog/governance-analysis.svg', 'img/blog/governance-analysis-share.jpg']) {
+  if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`automated Blog Agent: missing ${asset}`);
 }
 
 const july36Data = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/july-36-special.json'), 'utf8'));

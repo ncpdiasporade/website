@@ -55,6 +55,28 @@ Variables:
 
 The token must be allowed to read the corresponding Page's published posts, Page videos, pinned state, and Events. Top-Reel ranking uses `/<VIDEO_ID>/video_insights` with `blue_reels_play_count` and `total_video_views`, which requires `pages_read_engagement` and a Page token obtained by a person with the Page's `ANALYZE` task. Reading a Page that the app/user does not manage may require Meta approval for public Page content. Scheduled workflows deliberately fail when a required token or required video metric is unavailable, so GitHub does not incorrectly report that stale or unranked Facebook content was synchronized.
 
+## Automated evidence-based blog analyst
+
+`.github/workflows/automated-blog.yml` runs daily at 02:25 UTC and can also be started manually with optional context, preferred topics, and extra requirements. It uses the OpenAI Responses API in two stages: a live web-research dossier followed by a separate structured editorial and fact-check pass. The full editorial role is in `prompts/bangladesh-accountability-analyst.md`; runtime settings are in `config/blog-agent.json`.
+
+Add `OPENAI_API_KEY` under **GitHub repository → Settings → Secrets and variables → Actions → Secrets**. Optionally set the `OPENAI_BLOG_MODEL` repository variable to override the configured model without changing code.
+
+The default `quality-gated` mode publishes only when all application-enforced gates pass: model status `PUBLISH`, evidence score of at least 80, passed fact-check, non-low confidence, at least three cited sources, an institutional source, no duplicate slug, and every final source URL present in the web-research response. Other viable drafts go to `data/blog-agent-review-queue.json`; rejected topics are recorded only in `data/blog-agent-runs.json`. Set `publicationMode` to `review-only` to disable all automatic website publication.
+
+Local checks do not call the API:
+
+```bash
+npm run blog:check
+```
+
+A live local run requires `OPENAI_API_KEY` and writes the same site data as the scheduled workflow:
+
+```bash
+npm run blog:generate
+npm run generate:blog-previews
+npm run validate
+```
+
 The website's `ফিচার্ড` filter shows only Facebook-linked items marked as pinned. If Meta does not expose a Page's pinned state, the sync preserves the last verified pinned item; the optional pinned-post URL variable can explicitly identify it. If more than one URL is supplied for a Page, the first matching permalink wins. The older singular `NCPDA_GERMANY_FEATURED_POST_URL` and `NCP_FEATURED_POST_URL` variables remain supported for compatibility. Pinned items and top-viewed Reels are retained even when they are older than the newest chronological feed items. Video cards always link to Facebook; large video files are not stored in Git.
 
 ## Publishing
