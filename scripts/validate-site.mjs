@@ -11,6 +11,7 @@ const jsonFiles = [
   'data/announcements.json',
   'data/july-resources.json',
   'data/july-36-special.json',
+  'data/sovereignty-archive.json',
   'data/blog-posts.json',
   'data/social-publishing-state.json',
   'data/social-review-queue.json',
@@ -38,6 +39,9 @@ if (!html.includes('<script src="js/site.js?v=20260812-updates-links" defer></sc
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
 if (!markup.includes('id="updatesMore"')) errors.push('index.html: missing updates More control');
+if (!markup.includes('id="sovereignty"') || !markup.includes('href="sovereignty/"')) {
+  errors.push('index.html: missing sovereignty archive gateway or navigation link');
+}
 for (const contract of [
   'initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6',
   'initialUpdateLimit = () => mobileUpdatesQuery.matches ? 3 : 6',
@@ -138,6 +142,36 @@ for (const article of blogData.items || []) {
 
 for (const asset of ['img/blog/governance-analysis.svg', 'img/blog/governance-analysis-share.jpg']) {
   if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`automated Blog Agent: missing ${asset}`);
+}
+
+for (const relativePath of ['sovereignty/index.html', 'sovereignty/archive.js', 'sovereignty/styles.css']) {
+  if (!fs.existsSync(path.join(rootDir, relativePath))) errors.push(`sovereignty archive: missing ${relativePath}`);
+}
+const sovereigntyData = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/sovereignty-archive.json'), 'utf8'));
+if (!Array.isArray(sovereigntyData.stories) || sovereigntyData.stories.length !== 4) {
+  errors.push('data/sovereignty-archive.json: expected four featured histories');
+}
+if (!Array.isArray(sovereigntyData.borderVictims) || sovereigntyData.borderVictims.length < 20) {
+  errors.push('data/sovereignty-archive.json: expected at least 20 sourced border-victim records');
+}
+for (const story of sovereigntyData.stories || []) {
+  if (!story.image || !fs.existsSync(path.resolve(rootDir, 'sovereignty', story.image))) {
+    errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} has a missing image`);
+  }
+  if (!story.imageAlt || !story.credit || !Array.isArray(story.sources) || story.sources.length < 2) {
+    errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} needs alt text, credit and at least two sources`);
+  }
+  for (const language of ['en', 'de']) {
+    const translation = story.translations?.[language];
+    if (!translation?.opening || !translation?.summary || !translation?.connection || !translation?.known || !translation?.unresolved) {
+      errors.push(`data/sovereignty-archive.json: ${story.id || '(missing id)'} is missing the ${language} evidence translation`);
+    }
+  }
+}
+for (const record of sovereigntyData.borderVictims || []) {
+  if (!record.name || !record.nameLatin || !record.year || !record.district || !/^https:\/\//.test(record.source || '')) {
+    errors.push(`data/sovereignty-archive.json: incomplete border-victim record ${record.name || '(missing name)'}`);
+  }
 }
 
 const july36Data = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/july-36-special.json'), 'utf8'));

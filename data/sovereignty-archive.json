@@ -1,0 +1,205 @@
+{
+  "updated": "2026-08-13",
+  "methodology": {
+    "bn": "এই আর্কাইভে প্রতিষ্ঠিত তথ্য, আদালতের সিদ্ধান্ত, সরকারি তদন্ত, মানবাধিকার সংস্থার নথি এবং অভিযোগকে আলাদা করে দেখানো হয়েছে। সীমান্তের নামের দেয়ালটি নির্বাচিত নথিভুক্ত নামের সংগ্রহ—পূর্ণাঙ্গ সরকারি তালিকা নয়।",
+    "en": "This archive separates established facts, court findings, official investigations, human-rights documentation and allegations. The border wall is a selected collection of documented names, not a complete official list.",
+    "de": "Dieses Archiv trennt gesicherte Fakten, Gerichtsurteile, amtliche Ermittlungen, Menschenrechtsdokumentation und Vorwürfe. Die Namenswand ist eine Auswahl dokumentierter Fälle, keine vollständige amtliche Liste."
+  },
+  "stories": [
+    {
+      "id": "felani",
+      "year": "2011",
+      "name": "ফেলানী খাতুন",
+      "nameLatin": "Felani Khatun",
+      "age": "১৫ বছর",
+      "classification": "প্রত্যক্ষ সীমান্ত হত্যা",
+      "status": "প্রতিষ্ঠিত তথ্য",
+      "opening": "সে সীমান্ত পেরিয়ে বাড়ি ফিরতে চেয়েছিল—ইতিহাস হতে নয়।",
+      "summary": "৭ জানুয়ারি ২০১১। কুড়িগ্রামের অনন্তপুর সীমান্তে বাবার সঙ্গে বাংলাদেশে ফেরার সময় কাঁটাতারে আটকে পড়েছিল কিশোরী ফেলানী। ভারতীয় সীমান্তরক্ষী বাহিনী বিএসএফের গুলিতে তার মৃত্যু হয়। ঘণ্টার পর ঘণ্টা কাঁটাতারে ঝুলে থাকা তার নিথর দেহ বাংলাদেশের সীমান্ত-বাস্তবতার সবচেয়ে বেদনাদায়ক প্রতীকে পরিণত হয়।",
+      "connection": "এটি ভারতীয় রাষ্ট্রীয় বাহিনীর হাতে সংঘটিত প্রত্যক্ষ সীমান্ত হত্যার নথিভুক্ত ঘটনা। অভিযুক্ত বিএসএফ সদস্যকে বাহিনীর নিজস্ব আদালত খালাস দেয়; পরিবার দীর্ঘদিন ধরে ন্যায়বিচারের অপেক্ষায়।",
+      "known": "গুলি, স্থান, তারিখ, ভুক্তভোগীর পরিচয় এবং বিএসএফ সদস্যের বিচার—সবই প্রকাশ্য নথিতে প্রতিষ্ঠিত।",
+      "unresolved": "পরিবারের জন্য কার্যকর প্রতিকার, ক্ষতিপূরণ ও চূড়ান্ত বিচার এখনও অসম্পূর্ণ।",
+      "image": "../img/sovereignty/border-fence.webp",
+      "imageAlt": "বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া ও সীমান্তবর্তী মাঠ",
+      "contextImage": "../img/sovereignty/felani-memorial.webp",
+      "contextAlt": "ঢাকায় ফেলানী অ্যাভিনিউ নামফলক উন্মোচন অনুষ্ঠান",
+      "credit": "সীমান্ত: Nicolas Merky · CC BY-SA 3.0; ফেলানী স্মরণ: Bangladesh Press Information Department · Public domain",
+      "translations": {
+        "en": {
+          "age": "15 years old", "classification": "Direct border killing", "status": "Established fact",
+          "opening": "She was trying to cross a border to return home—not to become history.",
+          "summary": "7 January 2011. While returning to Bangladesh with her father at the Anantapur border in Kurigram, teenager Felani became caught on the barbed-wire fence. She was shot dead by India’s Border Security Force. Her body, left hanging for hours, became one of the most painful symbols of Bangladesh’s border reality.",
+          "connection": "This is a documented case of direct killing by an Indian state force. The accused BSF member was acquitted by the force’s own court; her family continues to wait for justice.",
+          "known": "The shooting, location, date, victim’s identity and BSF trial are established in public records.",
+          "unresolved": "Effective remedy, compensation and final justice for the family remain incomplete.",
+          "imageAlt": "Barbed-wire fence and fields along the Bangladesh-India border", "contextAlt": "Unveiling of the Felani Avenue nameplate in Dhaka"
+        },
+        "de": {
+          "age": "15 Jahre", "classification": "Direkte Tötung an der Grenze", "status": "Gesicherte Tatsache",
+          "opening": "Sie wollte die Grenze überqueren, um nach Hause zurückzukehren—nicht um Geschichte zu werden.",
+          "summary": "7. Januar 2011. Bei der Rückkehr nach Bangladesch mit ihrem Vater blieb Felani am Stacheldraht der Grenze bei Anantapur in Kurigram hängen. Sie wurde von Indiens Grenzschutztruppe BSF erschossen. Ihr stundenlang am Zaun hängender Körper wurde zu einem der schmerzhaftesten Symbole der Grenzrealität Bangladeschs.",
+          "connection": "Dies ist ein dokumentierter Fall einer direkten Tötung durch eine indische staatliche Einheit. Das interne BSF-Gericht sprach den Beschuldigten frei; die Familie wartet weiter auf Gerechtigkeit.",
+          "known": "Schüsse, Ort, Datum, Identität des Opfers und das BSF-Verfahren sind öffentlich dokumentiert.",
+          "unresolved": "Wirksame Abhilfe, Entschädigung und abschließende Gerechtigkeit stehen weiterhin aus.",
+          "imageAlt": "Stacheldrahtzaun und Felder an der Grenze zwischen Bangladesch und Indien", "contextAlt": "Enthüllung des Straßenschildes Felani Avenue in Dhaka"
+        }
+      },
+      "sources": [
+        {"label": "Human Rights Watch · India: Investigate Alleged Border Force Killings", "url": "https://www.hrw.org/news/2021/02/09/india-investigate-alleged-border-force-killings"},
+        {"label": "Odhikar · Felani fact-finding report", "url": "https://odhikar.org/wp-content/uploads/2011/03/Felani-killed-BSF-Fact-finding-report-2011-eng.pdf"},
+        {"label": "The Daily Star · Fifteen years on, justice remains elusive", "url": "https://www.thedailystar.net/news/bangladesh/news/fifteen-years-justice-remains-elusive-felani-killed-bangladesh-india-border-4075171"}
+      ]
+    },
+    {
+      "id": "abrar",
+      "year": "2019",
+      "name": "আবরার ফাহাদ",
+      "nameLatin": "Abrar Fahad",
+      "age": "২১ বছর",
+      "classification": "মতপ্রকাশের জন্য রাজনৈতিক হত্যা",
+      "status": "আদালতে প্রতিষ্ঠিত",
+      "opening": "একটি ফেসবুক পোস্ট। কয়েকটি প্রশ্ন। তারপর একটি বিশ্ববিদ্যালয় হলের বন্ধ দরজা।",
+      "summary": "বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের শিক্ষার্থী আবরার ফাহাদ ২০১৯ সালের ৬ অক্টোবর রাতে শেরেবাংলা হলের ভেতর ছাত্রলীগের নেতাকর্মীদের নির্যাতনে নিহত হন। এর আগে তিনি বাংলাদেশ-ভারত চুক্তি, পানি ও সম্পদবণ্টন নিয়ে সমালোচনামূলক লেখা প্রকাশ করেছিলেন।",
+      "connection": "আবরারকে ভারতীয় কোনো বাহিনী হত্যা করেনি। তাকে হত্যা করেছে বাংলাদেশি ছাত্রলীগের সদস্যরা। তবে আদালত-পরবর্তী প্রতিবেদন ও মামলার ইতিহাসে তার ভারত-সম্পর্কিত নীতির সমালোচনা হামলার তাৎক্ষণিক প্রেক্ষাপট হিসেবে উঠে এসেছে।",
+      "known": "হত্যা ও অভিযুক্তদের দায় আদালতে প্রতিষ্ঠিত; হাইকোর্ট ২০ জনের মৃত্যুদণ্ড এবং পাঁচজনের যাবজ্জীবন বহাল রেখেছে।",
+      "unresolved": "বিশ্ববিদ্যালয়ে রাজনৈতিক সহিংসতার কাঠামো এবং স্বাধীন মতপ্রকাশের নিরাপত্তা নিয়ে বড় প্রশ্ন রয়ে গেছে।",
+      "image": "../img/sovereignty/abrar-fahad.webp",
+      "imageAlt": "আবরার ফাহাদের প্রতিকৃতি",
+      "contextImage": "../img/sovereignty/abrar-protest.webp",
+      "contextAlt": "আবরার ফাহাদ হত্যার বিচার দাবিতে এক শিক্ষার্থীর প্রতিবাদ",
+      "credit": "প্রতিকৃতি: Sakib8785 · CC BY 4.0; প্রতিবাদ: Yahya · CC BY-SA 4.0",
+      "translations": {
+        "en": {
+          "age": "21 years old", "classification": "Political murder for expression", "status": "Established in court",
+          "opening": "One Facebook post. A few questions. Then a closed university hall door.",
+          "summary": "Bangladesh University of Engineering and Technology student Abrar Fahad was tortured to death by Chhatra League members inside Sher-e-Bangla Hall on the night of 6 October 2019. He had published criticism of Bangladesh-India agreements and the sharing of water and resources.",
+          "connection": "No Indian force killed Abrar; Bangladeshi Chhatra League members did. Court reporting and the case history nevertheless identify his criticism of India-related policies as the immediate context of the attack.",
+          "known": "The killing and the responsibility of those convicted were established in court; the High Court upheld death sentences for 20 and life terms for five.",
+          "unresolved": "Larger questions remain about organised political violence on campuses and the safety of free expression.",
+          "imageAlt": "Portrait of Abrar Fahad", "contextAlt": "A student demanding justice for the murder of Abrar Fahad"
+        },
+        "de": {
+          "age": "21 Jahre", "classification": "Politischer Mord wegen freier Meinungsäußerung", "status": "Gerichtlich festgestellt",
+          "opening": "Ein Facebook-Beitrag. Einige Fragen. Dann eine verschlossene Tür in einem Studentenwohnheim.",
+          "summary": "Der BUET-Student Abrar Fahad wurde in der Nacht des 6. Oktober 2019 von Mitgliedern der Chhatra League im Sher-e-Bangla-Wohnheim zu Tode gefoltert. Zuvor hatte er Abkommen zwischen Bangladesch und Indien sowie die Verteilung von Wasser und Ressourcen kritisiert.",
+          "connection": "Abrar wurde nicht von einer indischen Einheit getötet, sondern von bangladeschischen Chhatra-League-Mitgliedern. Die Prozessgeschichte nennt jedoch seine Kritik an indienbezogener Politik als unmittelbaren Kontext des Angriffs.",
+          "known": "Die Tat und die Verantwortung der Verurteilten wurden gerichtlich festgestellt; das High Court bestätigte 20 Todesurteile und fünf lebenslange Strafen.",
+          "unresolved": "Offen bleiben größere Fragen zu organisierter politischer Gewalt an Hochschulen und zum Schutz freier Meinungsäußerung.",
+          "imageAlt": "Porträt von Abrar Fahad", "contextAlt": "Ein Student fordert Gerechtigkeit für den Mord an Abrar Fahad"
+        }
+      },
+      "sources": [
+        {"label": "BSS · High Court’s complete verdict", "url": "https://b.bssnews.net/law-and-court/269382"},
+        {"label": "The Business Standard · HC releases full verdict", "url": "https://www.tbsnews.net/bangladesh/court/abrar-fahad-murder-case-hc-releases-full-verdict-1132341"}
+      ]
+    },
+    {
+      "id": "ilias",
+      "year": "2012",
+      "name": "এম ইলিয়াস আলী",
+      "nameLatin": "M Ilias Ali",
+      "age": "নিখোঁজ ১৭ এপ্রিল ২০১২",
+      "classification": "গুম ও অমীমাংসিত মৃত্যু",
+      "status": "সরকারি তদন্তাধীন",
+      "opening": "একজন মানুষ নিখোঁজ হলে শুধু একটি জীবন হারায় না—একটি পরিবার প্রতিদিন নতুন করে অপেক্ষা করে।",
+      "summary": "বিএনপি নেতা ও সাবেক সংসদ সদস্য এম ইলিয়াস আলী ২০১২ সালের ১৭ এপ্রিল ঢাকার বনানী থেকে চালক আনসার আলীসহ নিখোঁজ হন। এক দশকের বেশি সময় ধরে পরিবার তার ফিরে আসার অপেক্ষা করেছে। সাম্প্রতিক তদন্তে বাংলাদেশের সাবেক নিরাপত্তা কর্মকর্তাদের ভূমিকা নিয়ে তথ্য সামনে এসেছে।",
+      "connection": "ইলিয়াস আলীর গুমকে সরাসরি ভারতীয় রাষ্ট্রের হাতে সংঘটিত বলে প্রতিষ্ঠিত কোনো আদালতের রায় নেই। রাজনৈতিক বক্তব্যে ভারত-সংযোগের অভিযোগ রয়েছে, কিন্তু প্রকাশ্য তদন্তের বর্তমান তথ্য মূলত বাংলাদেশের সাবেক নিরাপত্তা কাঠামোর দিকে ইঙ্গিত করে।",
+      "known": "অপহরণ ও গুমের ঘটনা, গাড়ি উদ্ধার এবং দীর্ঘদিনের তদন্ত প্রকাশ্য রেকর্ডে রয়েছে। প্রধান কৌঁসুলি বলেছেন, তদন্তে তাকে অপহরণের পর হত্যার তথ্য পাওয়া গেছে।",
+      "unresolved": "সম্পূর্ণ ঘটনা, মরদেহের অবস্থান, নির্দেশদাতা এবং অভিযোগগুলোর বিচারিক নিষ্পত্তি এখনও বাকি।",
+      "image": "../img/sovereignty/ilias-ali.webp",
+      "imageAlt": "এম ইলিয়াস আলীর প্রতিকৃতি",
+      "credit": "প্রতিকৃতি: Ilias Ali · CC BY-SA 3.0",
+      "translations": {
+        "en": {
+          "age": "Missing since 17 April 2012", "classification": "Enforced disappearance and unresolved death", "status": "Under official investigation",
+          "opening": "When a person disappears, more than one life is lost—a family learns to wait again every day.",
+          "summary": "BNP leader and former member of parliament M Ilias Ali disappeared with driver Ansar Ali from Banani, Dhaka, on 17 April 2012. His family waited for his return for more than a decade. Recent investigations have produced information about the role of former Bangladeshi security officials.",
+          "connection": "No court judgment establishes that the Indian state directly carried out Ilias Ali’s disappearance. Political claims of an India connection exist, while the public investigation currently points principally toward Bangladesh’s former security structure.",
+          "known": "The abduction, disappearance, recovery of the vehicle and prolonged investigation are on public record. The chief prosecutor has said investigators found that he was killed after abduction.",
+          "unresolved": "The full sequence, location of his remains, those who gave the order and judicial resolution of the allegations remain outstanding.",
+          "imageAlt": "Portrait of M Ilias Ali"
+        },
+        "de": {
+          "age": "Vermisst seit 17. April 2012", "classification": "Verschwindenlassen und ungeklärter Tod", "status": "Amtliche Ermittlungen laufen",
+          "opening": "Wenn ein Mensch verschwindet, geht mehr als ein Leben verloren—eine Familie lernt, jeden Tag neu zu warten.",
+          "summary": "Der BNP-Politiker und frühere Abgeordnete M Ilias Ali verschwand am 17. April 2012 zusammen mit seinem Fahrer Ansar Ali in Banani, Dhaka. Seine Familie wartete mehr als ein Jahrzehnt auf seine Rückkehr. Neuere Ermittlungen enthalten Hinweise auf frühere bangladeschische Sicherheitsbeamte.",
+          "connection": "Kein Gerichtsurteil stellt fest, dass der indische Staat das Verschwinden direkt veranlasste. Politische Vorwürfe einer Indien-Verbindung bestehen; die derzeit öffentlichen Ermittlungen weisen vor allem auf frühere bangladeschische Sicherheitsstrukturen.",
+          "known": "Entführung, Verschwinden, Fund des Fahrzeugs und langjährige Ermittlungen sind öffentlich dokumentiert. Der Chefankläger erklärte, Ermittler hätten Hinweise auf eine Tötung nach der Entführung gefunden.",
+          "unresolved": "Der vollständige Ablauf, der Verbleib der sterblichen Überreste, die Auftraggeber und eine gerichtliche Klärung stehen noch aus.",
+          "imageAlt": "Porträt von M Ilias Ali"
+        }
+      },
+      "sources": [
+        {"label": "The Daily Star · Prosecutor says Ilias was killed after abduction", "url": "https://www.thedailystar.net/news/bangladesh/news/bnp-leader-ilias-ali-killed-after-abduction-ict-chief-prosecutor-tajul-4060716"},
+        {"label": "Prothom Alo · Investigation reveals those involved", "url": "https://en.prothomalo.com/bangladesh/crime-and-law/tsa3erer64"}
+      ]
+    },
+    {
+      "id": "hadi",
+      "year": "2025",
+      "name": "শরীফ ওসমান হাদি",
+      "nameLatin": "Sharif Osman Hadi",
+      "age": "৩২ বছর",
+      "classification": "আধিপত্যবিরোধী কণ্ঠের হত্যাকাণ্ড",
+      "status": "বিচারাধীন তদন্ত",
+      "opening": "যে কণ্ঠ আধিপত্যের বিরুদ্ধে কথা বলেছিল, গুলির পরও তার প্রশ্ন থামেনি।",
+      "summary": "ইনকিলাব মঞ্চের মুখপাত্র ও জুলাই অভ্যুত্থানের সংগঠক শরীফ ওসমান হাদিকে ১২ ডিসেম্বর ২০২৫ ঢাকার বিজয়নগরে গুলি করা হয়। চিকিৎসাধীন অবস্থায় ১৮ ডিসেম্বর সিঙ্গাপুরে তার মৃত্যু হয়। তার জানাজায় বিপুল মানুষের সমাগম ঘটে।",
+      "connection": "হাদি ভারত ও শেখ হাসিনার একজন কঠোর সমালোচক ছিলেন। বাংলাদেশ পুলিশ জানায় সন্দেহভাজনরা ভারতে পালিয়েছে; ২০২৬ সালের মার্চে ভারতের পশ্চিমবঙ্গে দুই সন্দেহভাজন গ্রেপ্তার হয়। এটি তদন্তে ভারত-সংযুক্ত মাত্রা প্রতিষ্ঠা করে, কিন্তু ভারতীয় রাষ্ট্র হত্যার নির্দেশ দিয়েছে—এমন প্রমাণ প্রকাশ্যে প্রতিষ্ঠিত নয়।",
+      "known": "গুলির ঘটনা, মৃত্যু, সন্দেহভাজনদের পরিচয় এবং ভারতে গ্রেপ্তার প্রকাশ্য পুলিশ ও সংবাদ নথিতে প্রতিষ্ঠিত।",
+      "unresolved": "হত্যার নির্দেশদাতা, পূর্ণ উদ্দেশ্য, সম্ভাব্য রাজনৈতিক নেটওয়ার্ক এবং চূড়ান্ত বিচার এখনও নির্ধারিত হয়নি।",
+      "image": "../img/sovereignty/osman-hadi.webp",
+      "imageAlt": "বক্তব্যরত শরীফ ওসমান হাদি",
+      "contextImage": "../img/sovereignty/hadi-funeral.webp",
+      "contextAlt": "ঢাকার মানিক মিয়া অ্যাভিনিউয়ে শরীফ ওসমান হাদির জানাজায় জনসমাগম",
+      "credit": "প্রতিকৃতি: Rayhan Ahmed Tamim / আফতাবুজ্জামান · CC BY 4.0; জানাজা: SAKIB HOWLADER · CC BY-SA 4.0",
+      "translations": {
+        "en": {
+          "age": "32 years old", "classification": "Killing of an anti-hegemony voice", "status": "Case under investigation",
+          "opening": "The voice that challenged hegemony was shot—but its questions did not stop.",
+          "summary": "Sharif Osman Hadi, spokesperson of Inqilab Moncho and an organiser of the July uprising, was shot in Bijoynagar, Dhaka, on 12 December 2025. He died in Singapore on 18 December while receiving treatment. An immense crowd attended his funeral.",
+          "connection": "Hadi was a fierce critic of India and Sheikh Hasina. Bangladesh police said suspects fled to India; two suspects were arrested in West Bengal in March 2026. This establishes an India-linked investigative dimension, but no public evidence establishes that the Indian state ordered the killing.",
+          "known": "The shooting, death, identification of suspects and arrests in India are established in public police and news records.",
+          "unresolved": "Who ordered the killing, the full motive, any wider political network and final justice have not yet been determined.",
+          "imageAlt": "Sharif Osman Hadi speaking", "contextAlt": "Crowd at Sharif Osman Hadi’s funeral on Manik Mia Avenue in Dhaka"
+        },
+        "de": {
+          "age": "32 Jahre", "classification": "Tötung einer anti-hegemonialen Stimme", "status": "Fall wird untersucht",
+          "opening": "Die Stimme, die Hegemonie herausforderte, wurde beschossen—doch ihre Fragen verstummten nicht.",
+          "summary": "Sharif Osman Hadi, Sprecher von Inqilab Moncho und Organisator des Juli-Aufstands, wurde am 12. Dezember 2025 in Bijoynagar, Dhaka, angeschossen. Er starb am 18. Dezember während der Behandlung in Singapur. Eine riesige Menschenmenge nahm an seiner Beerdigung teil.",
+          "connection": "Hadi war ein scharfer Kritiker Indiens und Sheikh Hasinas. Die Polizei Bangladeschs erklärte, Verdächtige seien nach Indien geflohen; zwei wurden im März 2026 in Westbengalen festgenommen. Damit besteht eine Indien-Dimension der Ermittlungen, doch es gibt keinen öffentlich belegten Nachweis eines indischen Staatsauftrags.",
+          "known": "Schussattacke, Tod, Identifizierung der Verdächtigen und Festnahmen in Indien sind öffentlich dokumentiert.",
+          "unresolved": "Auftraggeber, vollständiges Motiv, mögliches politisches Netzwerk und abschließende Justiz sind noch ungeklärt.",
+          "imageAlt": "Sharif Osman Hadi bei einer Rede", "contextAlt": "Menschenmenge bei Sharif Osman Hadis Beerdigung auf der Manik Mia Avenue in Dhaka"
+        }
+      },
+      "sources": [
+        {"label": "Associated Press · Bangladesh mourns slain activist", "url": "https://apnews.com/article/b137d572e22ebaf3dc1a1e684225da73"},
+        {"label": "Associated Press · Suspects arrested in India", "url": "https://apnews.com/article/5d1f04a59601203c2e50c99116a9e217"}
+      ]
+    }
+  ],
+  "borderVictims": [
+    {"name": "ফেলানী খাতুন", "nameLatin": "Felani Khatun", "year": 2011, "district": "কুড়িগ্রাম", "age": "১৫", "record": "বিএসএফের গুলিতে নিহত", "source": "https://www.hrw.org/news/2021/02/09/india-investigate-alleged-border-force-killings"},
+    {"name": "সেলিম", "nameLatin": "Selim", "year": 2020, "district": "চাঁপাইনবাবগঞ্জ", "record": "শিবগঞ্জ সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "সুমন", "nameLatin": "Sumon", "year": 2020, "district": "চাঁপাইনবাবগঞ্জ", "record": "শিবগঞ্জ সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "মফিজুল ইসলাম", "nameLatin": "Mofizul Islam", "year": 2020, "district": "নওগাঁ", "record": "পোরশা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "কামাল হোসেন", "nameLatin": "Kamal Hossain", "year": 2020, "district": "নওগাঁ", "record": "পোরশা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "রঞ্জিত কুমার", "nameLatin": "Ranjit Kumar", "year": 2020, "district": "নওগাঁ", "record": "পোরশা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "সোলাইমান", "nameLatin": "Solaiman", "year": 2020, "district": "কুষ্টিয়া", "record": "ছলিমের চর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "জয়নাল আবেদীন", "nameLatin": "Joynal Abedin", "year": 2020, "district": "ঠাকুরগাঁও", "record": "চোচপাড়া সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "শিমন রায়", "nameLatin": "Shimon Roy", "year": 2020, "district": "পঞ্চগড়", "age": "১৬", "record": "শিংরোড-প্রধানপাড়া সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "শরিফুল ইসলাম", "nameLatin": "Shariful Islam", "year": 2020, "district": "যশোর", "record": "শার্শা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "রিয়াজুল", "nameLatin": "Riazul", "year": 2020, "district": "যশোর", "record": "ধান্যখোলা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "আখিরুল ইসলাম", "nameLatin": "Akhirul Islam", "year": 2020, "district": "কুড়িগ্রাম", "record": "চর ইতালুকান্দা সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "কাশেম", "nameLatin": "Kashem", "year": 2020, "district": "কুষ্টিয়া", "record": "দৌলতপুর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "মোহাম্মদ সুমন", "nameLatin": "Mohammad Sumon", "year": 2020, "district": "চাঁপাইনবাবগঞ্জ", "record": "শিংনগর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "মোহাম্মদ বাদশা", "nameLatin": "Mohammad Badsha", "year": 2020, "district": "চাঁপাইনবাবগঞ্জ", "record": "শিবগঞ্জ সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "হাসিনুর রহমান", "nameLatin": "Hasinur Rahman", "year": 2020, "district": "কুড়িগ্রাম", "record": "রৌমারী সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "নাজিরুদ্দিন", "nameLatin": "Naziruddin", "year": 2020, "district": "ঠাকুরগাঁও", "record": "হরিপুর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "রবিউল ইসলাম", "nameLatin": "Robiul Islam", "year": 2020, "district": "ঠাকুরগাঁও", "record": "হরিপুর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "আবু তালেব", "nameLatin": "Abu Taleb", "year": 2020, "district": "লালমনিরহাট", "record": "শ্রীরামপুর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "জাহিদুল ইসলাম", "nameLatin": "Zahidul Islam", "year": 2020, "district": "লালমনিরহাট", "record": "শ্রীরামপুর সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "মোহাম্মদ খায়রুল ইসলাম", "nameLatin": "Mohammad Khairul Islam", "year": 2020, "district": "ময়মনসিংহ", "record": "হালুয়াঘাট সীমান্তে গুলিতে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"},
+    {"name": "আব্দুল", "nameLatin": "Abdul", "year": 2020, "district": "ঠাকুরগাঁও", "record": "বালিয়াডাঙ্গী সীমান্তে পাথর নিক্ষেপে নিহত", "source": "https://odhikar.org/wp-content/uploads/2021/01/Annual-HR-Report-2020_Eng.pdf"}
+  ]
+}
