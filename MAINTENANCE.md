@@ -41,6 +41,12 @@ Manual fallback:
 5. For a Reel or video, use a preview image, retain the Meta view count when available, and link `sourceUrl` to the original Facebook video.
 6. Keep the excerpt under roughly 340 characters and preserve the post's actual meaning.
 
+## Automated blog analyst workflow
+
+The daily blog workflow researches current Bangladesh government decisions and publishes only when its evidence and fact-check gates pass. Inspect `data/blog-agent-runs.json` for the run outcome. Items in `data/blog-agent-review-queue.json` are not visible on the website; review their source URLs, every number and date, the government's stated position, and any allegation before manually adapting them into `data/blog-posts.json`.
+
+For a temporary editorial hold, set `publicationMode` to `review-only` in `config/blog-agent.json`. Keep the minimum evidence score at 80 or higher. Never bypass the institutional-source and source-URL checks merely to maintain a daily publishing cadence.
+
 ## Privacy and membership submissions
 
 The membership form sends data through FormSubmit to the organization's email and links to FormSubmit's privacy notice. Do not promise storage or deletion practices that the organization cannot actually guarantee. Handle correction or deletion requests sent to `ncpdiasporade@gmail.com` promptly and document the internal retention policy before expanding data collection.
