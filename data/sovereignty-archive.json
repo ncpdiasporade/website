@@ -14,16 +14,16 @@
       "age": "১৫ বছর",
       "classification": "প্রত্যক্ষ সীমান্ত হত্যা",
       "status": "প্রতিষ্ঠিত তথ্য",
-      "opening": "সে সীমান্ত পেরিয়ে বাড়ি ফিরতে চেয়েছিল—ইতিহাস হতে নয়।",
-      "summary": "৭ জানুয়ারি ২০১১। কুড়িগ্রামের অনন্তপুর সীমান্তে বাবার সঙ্গে বাংলাদেশে ফেরার সময় কাঁটাতারে আটকে পড়েছিল কিশোরী ফেলানী। ভারতীয় সীমান্তরক্ষী বাহিনী বিএসএফের গুলিতে তার মৃত্যু হয়। ঘণ্টার পর ঘণ্টা কাঁটাতারে ঝুলে থাকা তার নিথর দেহ বাংলাদেশের সীমান্ত-বাস্তবতার সবচেয়ে বেদনাদায়ক প্রতীকে পরিণত হয়।",
-      "connection": "এটি ভারতীয় রাষ্ট্রীয় বাহিনীর হাতে সংঘটিত প্রত্যক্ষ সীমান্ত হত্যার নথিভুক্ত ঘটনা। অভিযুক্ত বিএসএফ সদস্যকে বাহিনীর নিজস্ব আদালত খালাস দেয়; পরিবার দীর্ঘদিন ধরে ন্যায়বিচারের অপেক্ষায়।",
-      "known": "গুলি, স্থান, তারিখ, ভুক্তভোগীর পরিচয় এবং বিএসএফ সদস্যের বিচার—সবই প্রকাশ্য নথিতে প্রতিষ্ঠিত।",
-      "unresolved": "পরিবারের জন্য কার্যকর প্রতিকার, ক্ষতিপূরণ ও চূড়ান্ত বিচার এখনও অসম্পূর্ণ।",
-      "image": "../img/sovereignty/border-fence.webp",
-      "imageAlt": "বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া ও সীমান্তবর্তী মাঠ",
-      "contextImage": "../img/sovereignty/felani-memorial.webp",
-      "contextAlt": "ঢাকায় ফেলানী অ্যাভিনিউ নামফলক উন্মোচন অনুষ্ঠান",
-      "credit": "সীমান্ত: Nicolas Merky · CC BY-SA 3.0; ফেলানী স্মরণ: Bangladesh Press Information Department · Public domain",
+      "opening": "বিয়ের জন্য তুলে রাখা গয়না পরে সে বাড়ি ফিরছিল—ইতিহাসের এক বেদনাদায়ক নাম হয়ে উঠতে নয়।",
+      "summary": "২০১১ সালের ৭ জানুয়ারির ভোর। বাবার সঙ্গে ভারতের অসম থেকে কুড়িগ্রামের বাড়িতে ফিরছিল পনেরো বছরের ফেলানী। অনন্তপুর সীমান্তের কাঁটাতারে তার পোশাক আটকে যায়। সাহায্যের বদলে আসে গুলি। বিএসএফের গুলিতে সে মারা যায়; ঘণ্টার পর ঘণ্টা তার দেহ কাঁটাতারে ঝুলে থাকে। সেই দৃশ্য সীমান্তে বাংলাদেশিদের জীবন কত সস্তা করে দেখা হয়, তার নির্মম প্রতীক হয়ে আছে।",
+      "connection": "এই ঘটনার ভারত-সংযোগ কোনো অনুমান নয়: গুলি চালিয়েছিল ভারতীয় সীমান্তরক্ষী বাহিনী বিএসএফের একজন সদস্য। বাহিনীর নিজস্ব আদালতে অভিযুক্ত সদস্য খালাস পায়। এক যুগেরও বেশি সময় পরও ফেলানীর পরিবার কার্যকর বিচার ও প্রতিকার পায়নি।",
+      "known": "গুলি চালানো, স্থান, তারিখ, ফেলানীর পরিচয় এবং বিএসএফের অভ্যন্তরীণ বিচার—সবই প্রকাশ্য নথিতে আছে।",
+      "unresolved": "পরিবারের জন্য কার্যকর প্রতিকার, ক্ষতিপূরণ এবং চূড়ান্ত বিচার এখনও অধরা।",
+      "image": "../img/sovereignty/felani-father-grave.webp",
+      "imageAlt": "কুড়িগ্রামে ফেলানীর কবরের পাশে দাঁড়িয়ে তার বাবা নুরুল ইসলাম",
+      "contextImage": "../img/sovereignty/border-fence.webp",
+      "contextAlt": "বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া ও সীমান্তবর্তী মাঠ",
+      "credit": "ফেলানীর কবর: স্থানীয় সাংবাদিক / Odhikar fact-finding report; সীমান্ত: Nicolas Merky · CC BY-SA 3.0",
       "translations": {
         "en": {
           "age": "15 years old", "classification": "Direct border killing", "status": "Established fact",
@@ -32,7 +32,7 @@
           "connection": "This is a documented case of direct killing by an Indian state force. The accused BSF member was acquitted by the force’s own court; her family continues to wait for justice.",
           "known": "The shooting, location, date, victim’s identity and BSF trial are established in public records.",
           "unresolved": "Effective remedy, compensation and final justice for the family remain incomplete.",
-          "imageAlt": "Barbed-wire fence and fields along the Bangladesh-India border", "contextAlt": "Unveiling of the Felani Avenue nameplate in Dhaka"
+          "imageAlt": "Felani’s father Nurul Islam standing beside her grave in Kurigram", "contextAlt": "Barbed-wire fence and fields along the Bangladesh-India border"
         },
         "de": {
           "age": "15 Jahre", "classification": "Direkte Tötung an der Grenze", "status": "Gesicherte Tatsache",
@@ -41,7 +41,7 @@
           "connection": "Dies ist ein dokumentierter Fall einer direkten Tötung durch eine indische staatliche Einheit. Das interne BSF-Gericht sprach den Beschuldigten frei; die Familie wartet weiter auf Gerechtigkeit.",
           "known": "Schüsse, Ort, Datum, Identität des Opfers und das BSF-Verfahren sind öffentlich dokumentiert.",
           "unresolved": "Wirksame Abhilfe, Entschädigung und abschließende Gerechtigkeit stehen weiterhin aus.",
-          "imageAlt": "Stacheldrahtzaun und Felder an der Grenze zwischen Bangladesch und Indien", "contextAlt": "Enthüllung des Straßenschildes Felani Avenue in Dhaka"
+          "imageAlt": "Felanis Vater Nurul Islam steht an ihrem Grab in Kurigram", "contextAlt": "Stacheldrahtzaun und Felder an der Grenze zwischen Bangladesch und Indien"
         }
       },
       "sources": [
@@ -58,16 +58,16 @@
       "age": "২১ বছর",
       "classification": "মতপ্রকাশের জন্য রাজনৈতিক হত্যা",
       "status": "আদালতে প্রতিষ্ঠিত",
-      "opening": "একটি ফেসবুক পোস্ট। কয়েকটি প্রশ্ন। তারপর একটি বিশ্ববিদ্যালয় হলের বন্ধ দরজা।",
-      "summary": "বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের শিক্ষার্থী আবরার ফাহাদ ২০১৯ সালের ৬ অক্টোবর রাতে শেরেবাংলা হলের ভেতর ছাত্রলীগের নেতাকর্মীদের নির্যাতনে নিহত হন। এর আগে তিনি বাংলাদেশ-ভারত চুক্তি, পানি ও সম্পদবণ্টন নিয়ে সমালোচনামূলক লেখা প্রকাশ করেছিলেন।",
-      "connection": "আবরারকে ভারতীয় কোনো বাহিনী হত্যা করেনি। তাকে হত্যা করেছে বাংলাদেশি ছাত্রলীগের সদস্যরা। তবে আদালত-পরবর্তী প্রতিবেদন ও মামলার ইতিহাসে তার ভারত-সম্পর্কিত নীতির সমালোচনা হামলার তাৎক্ষণিক প্রেক্ষাপট হিসেবে উঠে এসেছে।",
-      "known": "হত্যা ও অভিযুক্তদের দায় আদালতে প্রতিষ্ঠিত; হাইকোর্ট ২০ জনের মৃত্যুদণ্ড এবং পাঁচজনের যাবজ্জীবন বহাল রেখেছে।",
-      "unresolved": "বিশ্ববিদ্যালয়ে রাজনৈতিক সহিংসতার কাঠামো এবং স্বাধীন মতপ্রকাশের নিরাপত্তা নিয়ে বড় প্রশ্ন রয়ে গেছে।",
+      "opening": "একটি ফেসবুক পোস্টে কয়েকটি প্রশ্ন। তারপর বিশ্ববিদ্যালয় হলের একটি বন্ধ দরজা—আর ভোরে একটি নিথর দেহ।",
+      "summary": "আবরার ফাহাদ ছিলেন বুয়েটের ২১ বছরের একজন শিক্ষার্থী। ২০১৯ সালের ৬ অক্টোবর রাতে শেরেবাংলা হলের একটি কক্ষে তাকে ডেকে নেওয়া হয়। সেখানে ছাত্রলীগের নেতাকর্মীরা ঘণ্টার পর ঘণ্টা নির্যাতন করে তাকে হত্যা করে। এর আগে আবরার বাংলাদেশ-ভারত চুক্তি, পানি ও সম্পদবণ্টন নিয়ে প্রশ্ন তুলেছিলেন। তাঁর সেই লেখা মতপ্রকাশের মূল্য নিয়ে গোটা দেশকে নতুন করে ভাবতে বাধ্য করে।",
+      "connection": "আবরারকে ভারতীয় কোনো বাহিনী হত্যা করেনি; হত্যাকারীরা ছিল বাংলাদেশের ছাত্রলীগের সদস্য। তবে ভারত-সম্পর্কিত সরকারি নীতির সমালোচনা ছিল হামলার তাৎক্ষণিক প্রেক্ষাপট—মামলা ও আদালত-পরবর্তী প্রতিবেদনে সেই যোগসূত্র উঠে এসেছে।",
+      "known": "হত্যা এবং দোষীদের দায় আদালতে প্রতিষ্ঠিত। হাইকোর্ট ২০ জনের মৃত্যুদণ্ড ও পাঁচজনের যাবজ্জীবন সাজা বহাল রেখেছে।",
+      "unresolved": "একটি বিশ্ববিদ্যালয় হলে এমন সংগঠিত নির্যাতন কীভাবে সম্ভব হলো, এবং ক্যাম্পাসে স্বাধীন মত কতটা নিরাপদ—সেই বড় প্রশ্ন এখনও রয়ে গেছে।",
       "image": "../img/sovereignty/abrar-fahad.webp",
       "imageAlt": "আবরার ফাহাদের প্রতিকৃতি",
-      "contextImage": "../img/sovereignty/abrar-protest.webp",
-      "contextAlt": "আবরার ফাহাদ হত্যার বিচার দাবিতে এক শিক্ষার্থীর প্রতিবাদ",
-      "credit": "প্রতিকৃতি: Sakib8785 · CC BY 4.0; প্রতিবাদ: Yahya · CC BY-SA 4.0",
+      "contextImage": "../img/sovereignty/abrar-memorial.webp",
+      "contextAlt": "আবরার ফাহাদের স্মরণে নির্মিত আগ্রাসনবিরোধী আট স্তম্ভ স্মৃতিস্তম্ভ",
+      "credit": "প্রতিকৃতি: Sakib8785 · CC BY 4.0; স্মৃতিস্তম্ভ: Salim Khandoker · CC BY-SA 4.0",
       "translations": {
         "en": {
           "age": "21 years old", "classification": "Political murder for expression", "status": "Established in court",
@@ -76,7 +76,7 @@
           "connection": "No Indian force killed Abrar; Bangladeshi Chhatra League members did. Court reporting and the case history nevertheless identify his criticism of India-related policies as the immediate context of the attack.",
           "known": "The killing and the responsibility of those convicted were established in court; the High Court upheld death sentences for 20 and life terms for five.",
           "unresolved": "Larger questions remain about organised political violence on campuses and the safety of free expression.",
-          "imageAlt": "Portrait of Abrar Fahad", "contextAlt": "A student demanding justice for the murder of Abrar Fahad"
+          "imageAlt": "Portrait of Abrar Fahad", "contextAlt": "The Eight Pillars Against Aggression memorial commemorating Abrar Fahad"
         },
         "de": {
           "age": "21 Jahre", "classification": "Politischer Mord wegen freier Meinungsäußerung", "status": "Gerichtlich festgestellt",
@@ -85,7 +85,7 @@
           "connection": "Abrar wurde nicht von einer indischen Einheit getötet, sondern von bangladeschischen Chhatra-League-Mitgliedern. Die Prozessgeschichte nennt jedoch seine Kritik an indienbezogener Politik als unmittelbaren Kontext des Angriffs.",
           "known": "Die Tat und die Verantwortung der Verurteilten wurden gerichtlich festgestellt; das High Court bestätigte 20 Todesurteile und fünf lebenslange Strafen.",
           "unresolved": "Offen bleiben größere Fragen zu organisierter politischer Gewalt an Hochschulen und zum Schutz freier Meinungsäußerung.",
-          "imageAlt": "Porträt von Abrar Fahad", "contextAlt": "Ein Student fordert Gerechtigkeit für den Mord an Abrar Fahad"
+          "imageAlt": "Porträt von Abrar Fahad", "contextAlt": "Das Abrar Fahad gewidmete Denkmal Acht Säulen gegen Aggression"
         }
       },
       "sources": [
@@ -101,11 +101,11 @@
       "age": "নিখোঁজ ১৭ এপ্রিল ২০১২",
       "classification": "গুম ও অমীমাংসিত মৃত্যু",
       "status": "সরকারি তদন্তাধীন",
-      "opening": "একজন মানুষ নিখোঁজ হলে শুধু একটি জীবন হারায় না—একটি পরিবার প্রতিদিন নতুন করে অপেক্ষা করে।",
-      "summary": "বিএনপি নেতা ও সাবেক সংসদ সদস্য এম ইলিয়াস আলী ২০১২ সালের ১৭ এপ্রিল ঢাকার বনানী থেকে চালক আনসার আলীসহ নিখোঁজ হন। এক দশকের বেশি সময় ধরে পরিবার তার ফিরে আসার অপেক্ষা করেছে। সাম্প্রতিক তদন্তে বাংলাদেশের সাবেক নিরাপত্তা কর্মকর্তাদের ভূমিকা নিয়ে তথ্য সামনে এসেছে।",
-      "connection": "ইলিয়াস আলীর গুমকে সরাসরি ভারতীয় রাষ্ট্রের হাতে সংঘটিত বলে প্রতিষ্ঠিত কোনো আদালতের রায় নেই। রাজনৈতিক বক্তব্যে ভারত-সংযোগের অভিযোগ রয়েছে, কিন্তু প্রকাশ্য তদন্তের বর্তমান তথ্য মূলত বাংলাদেশের সাবেক নিরাপত্তা কাঠামোর দিকে ইঙ্গিত করে।",
-      "known": "অপহরণ ও গুমের ঘটনা, গাড়ি উদ্ধার এবং দীর্ঘদিনের তদন্ত প্রকাশ্য রেকর্ডে রয়েছে। প্রধান কৌঁসুলি বলেছেন, তদন্তে তাকে অপহরণের পর হত্যার তথ্য পাওয়া গেছে।",
-      "unresolved": "সম্পূর্ণ ঘটনা, মরদেহের অবস্থান, নির্দেশদাতা এবং অভিযোগগুলোর বিচারিক নিষ্পত্তি এখনও বাকি।",
+      "opening": "একটি খোলা গাড়ির দরজা, ভেতরে পড়ে থাকা ফোন—তারপর বছরের পর বছর দীর্ঘ অপেক্ষা।",
+      "summary": "সিলেটের রাজনীতিতে এম ইলিয়াস আলী ছিলেন পরিচিত, জনসম্পৃক্ত এক মুখ। টিপাইমুখ বাঁধবিরোধী আন্দোলনে তাঁর সরব ভূমিকা তাঁকে আলাদা পরিচিতি দিয়েছিল। ২০১২ সালের ১৭ এপ্রিল রাতে ঢাকার বনানী থেকে চালক আনসার আলীসহ তিনি নিখোঁজ হন। পরদিন রাস্তার পাশে পাওয়া যায় তাঁর গাড়ি—দরজা খোলা, ভেতরে ফোন। মানুষটি আর ফেরেননি; তাঁর পরিবারের অপেক্ষাও শেষ হয়নি।",
+      "connection": "টিপাইমুখ বাঁধসহ ভারত-সম্পর্কিত নীতির বিরুদ্ধে ইলিয়াস আলীর অবস্থান ছিল তাঁর রাজনৈতিক পরিচয়ের অংশ; কিন্তু সেটি তাঁর গুমের কারণ—এমন বিচারিক প্রমাণ নেই। সরাসরি ভারতীয় রাষ্ট্রীয় ভূমিকার অভিযোগও আদালতে প্রতিষ্ঠিত নয়। বর্তমান প্রকাশ্য তদন্ত বরং বাংলাদেশের সাবেক নিরাপত্তা কর্মকর্তাদের দিকে ইঙ্গিত করছে।",
+      "known": "নিখোঁজ হওয়া, পরিত্যক্ত গাড়ি উদ্ধার এবং দীর্ঘ তদন্ত—সবই প্রকাশ্য রেকর্ডে আছে। প্রধান কৌঁসুলি জানিয়েছেন, তদন্তে অপহরণের পর তাঁকে হত্যার তথ্য পাওয়া গেছে।",
+      "unresolved": "কী ঘটেছিল, মরদেহ কোথায়, কার নির্দেশে অপহরণ করা হয়েছিল এবং দায়ীদের বিচার—এসব প্রশ্নের পূর্ণ উত্তর এখনও মেলেনি।",
       "image": "../img/sovereignty/ilias-ali.webp",
       "imageAlt": "এম ইলিয়াস আলীর প্রতিকৃতি",
       "credit": "প্রতিকৃতি: Ilias Ali · CC BY-SA 3.0",
@@ -130,6 +130,8 @@
         }
       },
       "sources": [
+        {"label": "BSS · Ilias’s Tipaimukh campaign remembered", "url": "https://b.bssnews.net/others/264086"},
+        {"label": "The Daily Star · Ilias Ali, driver go missing", "url": "https://www.thedailystar.net/news-detail-230821"},
         {"label": "The Daily Star · Prosecutor says Ilias was killed after abduction", "url": "https://www.thedailystar.net/news/bangladesh/news/bnp-leader-ilias-ali-killed-after-abduction-ict-chief-prosecutor-tajul-4060716"},
         {"label": "Prothom Alo · Investigation reveals those involved", "url": "https://en.prothomalo.com/bangladesh/crime-and-law/tsa3erer64"}
       ]
@@ -142,16 +144,16 @@
       "age": "৩২ বছর",
       "classification": "আধিপত্যবিরোধী কণ্ঠের হত্যাকাণ্ড",
       "status": "বিচারাধীন তদন্ত",
-      "opening": "যে কণ্ঠ আধিপত্যের বিরুদ্ধে কথা বলেছিল, গুলির পরও তার প্রশ্ন থামেনি।",
-      "summary": "ইনকিলাব মঞ্চের মুখপাত্র ও জুলাই অভ্যুত্থানের সংগঠক শরীফ ওসমান হাদিকে ১২ ডিসেম্বর ২০২৫ ঢাকার বিজয়নগরে গুলি করা হয়। চিকিৎসাধীন অবস্থায় ১৮ ডিসেম্বর সিঙ্গাপুরে তার মৃত্যু হয়। তার জানাজায় বিপুল মানুষের সমাগম ঘটে।",
-      "connection": "হাদি ভারত ও শেখ হাসিনার একজন কঠোর সমালোচক ছিলেন। বাংলাদেশ পুলিশ জানায় সন্দেহভাজনরা ভারতে পালিয়েছে; ২০২৬ সালের মার্চে ভারতের পশ্চিমবঙ্গে দুই সন্দেহভাজন গ্রেপ্তার হয়। এটি তদন্তে ভারত-সংযুক্ত মাত্রা প্রতিষ্ঠা করে, কিন্তু ভারতীয় রাষ্ট্র হত্যার নির্দেশ দিয়েছে—এমন প্রমাণ প্রকাশ্যে প্রতিষ্ঠিত নয়।",
-      "known": "গুলির ঘটনা, মৃত্যু, সন্দেহভাজনদের পরিচয় এবং ভারতে গ্রেপ্তার প্রকাশ্য পুলিশ ও সংবাদ নথিতে প্রতিষ্ঠিত।",
-      "unresolved": "হত্যার নির্দেশদাতা, পূর্ণ উদ্দেশ্য, সম্ভাব্য রাজনৈতিক নেটওয়ার্ক এবং চূড়ান্ত বিচার এখনও নির্ধারিত হয়নি।",
+      "opening": "মঞ্চে তিনি উচ্চস্বরে কথা বলতেন। মৃত্যুর পর সেই কণ্ঠই লাখো মানুষের শোকে ফিরে এসেছিল।",
+      "summary": "ইনকিলাব মঞ্চের মুখপাত্র ও জুলাই অভ্যুত্থানের সংগঠক শরীফ ওসমান হাদিকে ২০২৫ সালের ১২ ডিসেম্বর ঢাকার বিজয়নগরে গুলি করা হয়। ছয় দিন পর সিঙ্গাপুরে চিকিৎসাধীন অবস্থায় তাঁর মৃত্যু হয়। তাঁর জানাজায় মানুষের ঢল নামে—একজন তরুণ বক্তার মৃত্যু তখন ব্যক্তিগত শোক ছাড়িয়ে জাতীয় ক্ষোভের ভাষা হয়ে ওঠে।",
+      "connection": "হাদি ভারত ও শেখ হাসিনার কঠোর সমালোচক ছিলেন। বাংলাদেশ পুলিশ জানায়, হামলার সন্দেহভাজনরা ভারতে পালিয়েছে; ২০২৬ সালের মার্চে পশ্চিমবঙ্গে দুজন গ্রেপ্তারও হয়। এতে মামলার একটি ভারত-সংযুক্ত মাত্রা স্পষ্ট হয়। তবে ভারতীয় রাষ্ট্র হত্যার নির্দেশ দিয়েছে—এমন প্রমাণ প্রকাশ্যে প্রতিষ্ঠিত নয়।",
+      "known": "গুলির ঘটনা, তাঁর মৃত্যু, সন্দেহভাজনদের পরিচয় এবং ভারতে দুজনের গ্রেপ্তার—পুলিশ ও সংবাদ নথিতে প্রতিষ্ঠিত।",
+      "unresolved": "কার নির্দেশে হত্যা, উদ্দেশ্যের পূর্ণ চিত্র কী, কোনো বৃহত্তর রাজনৈতিক নেটওয়ার্ক ছিল কি না এবং চূড়ান্ত বিচার—সবই এখনও তদন্তের বিষয়।",
       "image": "../img/sovereignty/osman-hadi.webp",
       "imageAlt": "বক্তব্যরত শরীফ ওসমান হাদি",
-      "contextImage": "../img/sovereignty/hadi-funeral.webp",
-      "contextAlt": "ঢাকার মানিক মিয়া অ্যাভিনিউয়ে শরীফ ওসমান হাদির জানাজায় জনসমাগম",
-      "credit": "প্রতিকৃতি: Rayhan Ahmed Tamim / আফতাবুজ্জামান · CC BY 4.0; জানাজা: SAKIB HOWLADER · CC BY-SA 4.0",
+      "contextImage": "../img/sovereignty/hadi-funeral-aerial.webp",
+      "contextAlt": "উপর থেকে দেখা ঢাকায় শরীফ ওসমান হাদির জানাজায় বিপুল জনসমাগম",
+      "credit": "প্রতিকৃতি: Rayhan Ahmed Tamim / আফতাবুজ্জামান · CC BY 4.0; জানাজা: Pinu Rahman · CC BY-SA 4.0",
       "translations": {
         "en": {
           "age": "32 years old", "classification": "Killing of an anti-hegemony voice", "status": "Case under investigation",
