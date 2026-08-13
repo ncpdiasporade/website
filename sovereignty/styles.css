@@ -606,3 +606,216 @@ button,input,select { font:inherit; }
   .hadi-human .speaker-photo { order:2; }
   .funeral-sea { min-height:86svh; }
 }
+
+/* 2026-08-13 · tighter documentary journey and mobile-first pacing */
+.hero-photo {
+  background:url('../img/sovereignty/felani-fence-history.webp') right 16% center/52% auto no-repeat;
+  opacity:.3;
+  filter:grayscale(1) contrast(1.15);
+}
+.archive-notice {
+  display:flex;
+  width:max-content;
+  max-width:100%;
+  gap:10px;
+  align-items:center;
+  margin:24px 0 0;
+  padding:8px 12px;
+  color:#d8d2c6;
+  border:1px solid rgba(255,255,255,.18);
+  background:rgba(0,0,0,.28);
+  font-size:13px;
+  line-height:1.45;
+}
+.archive-notice span { display:grid; flex:0 0 22px; width:22px; height:22px; place-items:center; color:#160709; border-radius:50%; background:var(--gold); font:800 11px/1 'DM Sans',sans-serif; }
+.archive-hero { min-height:100svh; padding-top:132px; padding-bottom:178px; }
+.hero-collage { top:96px; height:67vh; }
+.hero-ledger a { min-height:112px; }
+.prologue { padding-top:112px; }
+.prologue,.voices,.name-wall,.method { scroll-margin-top:72px; }
+.prologue-copy { padding-top:38px; }
+.prologue-copy blockquote { margin-top:34px; }
+.regime-statement {
+  display:grid;
+  grid-template-columns:auto 1fr 44px 1fr;
+  gap:28px;
+  align-items:center;
+  margin-top:74px;
+  padding:28px 0;
+  border-block:1px solid rgba(11,13,12,.28);
+}
+.regime-statement > strong { color:#9d202a; font:900 clamp(40px,5vw,72px)/.9 'Hind Siliguri',sans-serif; letter-spacing:-.06em; }
+.regime-statement p { display:flex; flex-direction:column; margin:0; }
+.regime-statement p b { font-size:20px; }
+.regime-statement p span { margin-top:5px; color:#596057; font-size:14px; line-height:1.45; }
+.regime-statement i { color:#9d202a; font:400 34px/1 'DM Sans',sans-serif; }
+.tour-pass { margin-top:72px; padding-bottom:88px; }
+.voices { padding-top:88px; }
+.voices-heading { padding-bottom:76px; }
+.scene-intro { min-height:92svh; }
+.scene-copy { padding-top:128px; padding-bottom:68px; }
+.human-before,.ilias-person,.abrar-human,.hadi-human,.aftermath-block,.ilias-aftermath { padding-top:105px; padding-bottom:105px; }
+.wire-hours,.night-route,.six-hours,.daylight-sequence { padding:92px 0; }
+.answer-block { padding:88px 0; }
+.memory-stop { padding:92px 0 60px; }
+.chapter-sources { margin-bottom:88px; }
+.movement-memory { padding:105px 0; }
+.funeral-sea { min-height:84svh; }
+.name-wall,.method { padding:112px 0; }
+.wall-tools { margin-top:58px; }
+
+.post-evidence { padding:96px 0; color:#eeeae0; background:#0a100c; }
+.post-evidence > .section-shell { display:grid; grid-template-columns:minmax(320px,.92fr) 1.08fr; gap:clamp(55px,8vw,120px); align-items:center; }
+.post-photo { min-height:0; padding:16px; background:#e8e6de; box-shadow:18px 18px 0 #1d5e3d; transform:rotate(-1.2deg); }
+.post-photo img { height:auto; object-fit:contain; }
+.post-photo figcaption { position:static; margin-top:13px; padding:0; color:#3d433d; background:none; font-size:12px; }
+.post-evidence h4 { font-size:clamp(40px,4.7vw,70px); }
+.post-evidence article > p:last-child { margin:28px 0 0; color:#c5cbc5; }
+
+@media (max-width:760px) {
+  :root { --shell:calc(100% - 28px); }
+  body { font-size:16px; }
+  .archive-header { padding-inline:10px; }
+  .archive-brand small { max-width:92px; }
+  .archive-hero {
+    display:flex;
+    min-height:0;
+    flex-direction:column;
+    align-items:stretch;
+    padding:104px 14px 0;
+  }
+  .hero-photo { background-position:center 72%; background-size:105% auto; opacity:.14; }
+  .hero-shade { background:linear-gradient(180deg,#050806 0 46%,rgba(5,8,6,.92) 66%,rgba(5,8,6,.62)); }
+  .hero-content { order:1; padding:0; }
+  .hero-kicker,.eyebrow,.story-label { margin-bottom:15px; font-size:9px; letter-spacing:.1em; }
+  .archive-hero h1 { max-width:100%; font-size:clamp(48px,14vw,66px); line-height:.9; letter-spacing:-.055em; }
+  .archive-hero h1 em { padding-top:.14em; }
+  .archive-hero h1 em::after { width:72%; height:5px; margin-top:12px; }
+  .hero-lead { margin-top:24px; font-size:16px; line-height:1.68; }
+  .archive-notice { width:100%; margin-top:18px; font-size:12px; }
+  .hero-actions { display:grid; grid-template-columns:1fr; margin-top:22px; }
+  .hero-cta { justify-content:center; }
+  .hero-instruction { margin-top:20px; }
+  .hero-collage {
+    position:relative;
+    order:2;
+    inset:auto;
+    width:calc(100% + 28px);
+    height:300px;
+    margin:30px -14px 0;
+    opacity:.78;
+    transform:none;
+  }
+  .hero-collage::before { width:170px; top:22%; left:28%; }
+  .hero-ledger { position:relative; order:3; inset:auto; grid-template-columns:1fr 1fr; width:calc(100% + 28px); margin-inline:-14px; }
+  .hero-ledger a { min-height:88px; padding:13px 14px; }
+  .hero-ledger strong { margin:7px 0 2px; font-size:17px; }
+  .hero-ledger small { font-size:8px; }
+
+  .prologue { padding-top:68px; }
+  .prologue-layout { gap:24px; }
+  .prologue-copy { padding-top:0; }
+  .prologue h2 { font-size:42px; line-height:1.02; }
+  .prologue-copy > p { font-size:17px; line-height:1.75; }
+  .prologue-copy blockquote { margin-top:26px; padding:15px 0 15px 20px; font-size:22px; }
+  .regime-statement { grid-template-columns:1fr; gap:18px; margin-top:48px; padding:22px 0; }
+  .regime-statement > strong { font-size:47px; }
+  .regime-statement i { display:none; }
+  .regime-statement p { padding-top:14px; border-top:1px solid rgba(11,13,12,.18); }
+  .tour-pass { margin-top:44px; padding-bottom:56px; }
+  .tour-pass ol { grid-template-columns:1fr; }
+  .tour-pass li,.tour-pass li + li { min-height:0; padding:15px 0; border-left:0; }
+  .voices { padding-top:62px; }
+  .voices-heading { gap:18px; padding-bottom:48px; }
+  .voices h2,.name-wall h2 { font-size:42px; }
+  .voices-heading > p,.name-wall-heading > p:last-child { font-size:16px; line-height:1.7; }
+
+  .scene-intro { min-height:max(690px,88svh); }
+  .scene-copy { padding-top:300px; padding-bottom:42px; }
+  .scene-copy h3 { font-size:44px; line-height:.98; }
+  .chapter-location { margin-bottom:22px; }
+  .chapter-opening { margin-top:22px; font-size:16px; line-height:1.65; }
+  .chapter-enter { margin-top:26px; }
+  .threshold-symbol { opacity:.38; }
+  .scene-felani .scene-image { object-position:left top; }
+  .scene-ilias .scene-image,.scene-abrar .scene-image { width:100%; height:52%; right:0; opacity:.72; object-position:center; }
+  .scene-ilias .scene-shade,.scene-abrar .scene-shade { background:linear-gradient(0deg,#03050a 0 45%,rgba(3,5,10,.2) 82%); }
+  .scene-hadi .scene-image { object-position:center 20%; }
+  .wire-symbol,.signal-symbol,.room-symbol,.voice-symbol { top:12%; }
+
+  .incident-body h4 { font-size:34px; line-height:1.13; letter-spacing:-.035em; }
+  .incident-body p { font-size:16px; line-height:1.7; }
+  .human-before,.ilias-person,.abrar-human,.hadi-human,.aftermath-block,.movement-memory > .section-shell,.ilias-aftermath,.post-evidence > .section-shell {
+    grid-template-columns:1fr;
+    gap:30px;
+    padding-top:58px;
+    padding-bottom:58px;
+  }
+  .grave-photo,.portrait-photo,.desk-photo,.speaker-photo,.fence-photo { min-height:0; height:auto; aspect-ratio:4 / 3; transform:none; box-shadow:none; }
+  .grave-photo img,.portrait-photo img,.desk-photo img,.speaker-photo img,.fence-photo img { height:100%; }
+  .missing-portrait { width:100%; padding:12px 12px 56px; transform:rotate(-1deg); }
+  .portrait-photo { aspect-ratio:4 / 5; }
+  .missing-portrait > span { right:6px; bottom:12px; padding:9px 13px; font-size:16px; }
+  .border-coordinate { padding-block:20px; }
+  .wire-hours,.night-route,.six-hours,.daylight-sequence,.post-evidence { padding:58px 0; }
+  .wire-moments,.case-file,.clock-moments,.shot-moments { gap:10px; margin-top:28px; }
+  .wire-moments article,.case-file article,.clock-moments article,.shot-moments article { min-height:0; padding:21px; transform:none; }
+  .wire-moments article time,.clock-moments time,.shot-moments time { margin-top:15px; }
+  .wire-moments h5,.case-file h5,.clock-moments h5,.shot-moments h5 { margin-block:9px; font-size:24px; }
+  .night-route-head,.six-hours-head,.daylight-head { gap:14px; margin-bottom:30px; }
+  .dossier-card { min-height:0; margin-top:32px; padding:24px; }
+  .dossier-card b { font-size:46px; }
+  .ilias-aftermath aside { min-height:230px; }
+  .ilias-aftermath aside span { font-size:110px; }
+  .post-photo { order:2; aspect-ratio:auto; padding:9px; box-shadow:8px 8px 0 #1d5e3d; }
+  .post-evidence article { order:1; }
+  .post-evidence h4 { font-size:34px; }
+  .corridor-map { padding:48px 0; }
+  .door-line { grid-template-columns:1fr 16px 1fr 16px 1fr; gap:4px; margin-top:24px; }
+  .door-line > span { min-height:104px; padding:8px 4px; }
+  .door-line > span b { font-size:22px; }
+  .door-line > span small { margin-top:9px; font-size:10px; text-align:center; }
+  .door-line > i { font-size:12px; transform:none; }
+  .door-line .door-danger { transform:none; }
+  .six-hours-head strong,.daylight-head strong { font-size:29px; }
+  .movement-memory > .section-shell > div { order:2; gap:7px; transform:none; }
+  .movement-memory .story-figure { min-height:0; aspect-ratio:3 / 4; }
+  .movement-memory .lantern-photo { margin-top:24px; }
+  .answer-block { padding:56px 0; }
+  .answer-block > .section-shell { gap:24px; }
+  .answer-block strong { font-size:72px; line-height:.85; }
+  .memory-stop { gap:18px; padding:58px 0 38px; }
+  .memory-stop > span { height:38px; font-size:78px; }
+  .memory-stop blockquote { font-size:27px; line-height:1.35; }
+  .chapter-sources { margin-bottom:56px; }
+  .chapter-sources summary { padding:18px 0; }
+  .chapter-sources a { gap:16px; font-size:13px; }
+  .chapter-bridge .section-shell { min-height:170px; padding-block:30px; }
+  .chapter-bridge p { font-size:23px; line-height:1.25; }
+  .funeral-sea { min-height:72svh; }
+  .funeral-sea > .section-shell { padding-top:200px; padding-bottom:48px; }
+
+  .name-wall { padding:72px 0; }
+  .wall-tools { grid-template-columns:1fr; gap:12px; margin:38px 0 24px; padding:12px; }
+  .wall-count { grid-column:auto; }
+  .names-grid { grid-template-columns:1fr; }
+  .name-record { min-height:140px; }
+  .wall-source-note { margin-top:32px; }
+  .method { padding:72px 0; }
+  .method-layout { gap:38px; }
+  .method h2 { font-size:40px; }
+  .method-content > p:first-child { font-size:16px; }
+  .closing { min-height:74svh; }
+  .closing h2 { font-size:44px; }
+  .closing-content { padding-top:100px; padding-bottom:52px; }
+  .closing-content > p:not(.eyebrow,.share-status) { font-size:16px; line-height:1.7; }
+  .archive-footer { gap:6px; padding:20px 14px; }
+}
+
+@media (max-width:390px) {
+  .archive-header .language button { min-width:27px; padding-inline:3px; }
+  .archive-hero h1 { font-size:46px; }
+  .hero-collage { height:270px; }
+  .scene-copy h3 { font-size:40px; }
+  .door-line > span b { font-size:19px; }
+}

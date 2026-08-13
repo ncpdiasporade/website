@@ -15,5 +15,9 @@
 - `abrar-lanterns.webp`: Lanterns and lights during the BUET students’ remembrance movement, preserved by BUET Class of ’17 in the Abrar Fahad Archive and reproduced here in its documentary context. Source: https://abrarfahadarchive.org/
 - `hadi-archive-portrait.webp`: Sharif Osman Hadi memorial portrait, preserved by the Osman Hadi Memorial Archive and reproduced here in its documentary context. Source: https://osmanhadi.info/
 - `hadi-archive-hero.webp`: Sharif Osman Hadi speaking on stage, preserved by the Osman Hadi Memorial Archive and reproduced here in its documentary context. Source: https://osmanhadi.info/
+- `felani-fence-history.webp`: Historical photograph of Felani Khatun’s body on the Anantapur border fence. Supplied by the site owner as `GU8uOkTa4AQ2G2x.jpg` for documentary use; original photographer/agency was not included in the supplied file metadata.
+- `felani-parents-grave-history.webp`: Nur Islam and Jahanara Begum holding photographs of Felani beside her grave. Supplied by the site owner as `kurigram_border_felani-01.jpg`; also published by The Daily Star: https://www.thedailystar.net/news/bangladesh/crime-justice/news/11-years-felani-killing-family-still-waiting-justice-2934311
+- `abrar-portrait-history.webp`: Widely circulated black-and-white portrait of Abrar Fahad. Supplied by the site owner as `FGEOKqTVkAMR28P.jpg` for documentary use; original photographer/agency was not included in the supplied file metadata.
+- `abrar-post-history.webp`: Screenshot of Abrar Fahad’s public Facebook post dated 30 September 2019. Supplied by the site owner as `images.jpg` and reproduced as a historical record.
 
 Images were resized and converted to WebP for web delivery. On-page credits are retained in the relevant story chapters.
