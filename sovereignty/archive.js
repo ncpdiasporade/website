@@ -1,12 +1,12 @@
 const COPY = {
   bn: {
-    skip:'মূল লেখায় যান', archiveLabel:'সার্বভৌমত্বের স্মৃতি-আর্কাইভ', navStories:'ভ্রমণপথ', navNames:'নামের করিডর', navEvidence:'দলিলঘর', share:'শেয়ার',
-    heroKicker:'আধিপত্যবিরোধী সংগ্রামের ইতিহাস · একটি স্মৃতি-ভ্রমণ', heroTitle:'চারটি দরজা।<br><em>একটি দেশের দীর্ঘ রাত।</em>', heroLead:'চলুন ফিরে যাই ২০১১, ২০১২, ২০১৯ ও ২০২৫-এ। কোনো দূরত্ব থেকে নয়—ফেলানীর বাবার পাশে, বনানীর খোলা গাড়ির দরজায়, বুয়েটের রুম ২০১১-এর করিডরে এবং হাদির জানাজার জনসমুদ্রে দাঁড়িয়ে।', enterStories:'ভ্রমণ শুরু করুন', enterNames:'নামের করিডরে যান', heroInstruction:'ধীরে স্ক্রল করুন · প্রতিটি অধ্যায়ে সময় থামবে', heroFelani:'কাঁটাতারের ভোর', heroIlias:'নিখোঁজ রাত', heroAbrar:'বন্ধ দরজা', heroHadi:'দিনের গুলি',
-    prologueKicker:'আপনার যাত্রা এখান থেকে', prologueTitle:'আপনি এখন শুধু পাঠক নন।<br><em>আপনি এই পথের সাক্ষী।</em>', prologueBody:'সামনের চারটি দরজার প্রতিটিতে প্রথমে দেখা হবে মানুষটির সঙ্গে—তাঁর স্বপ্ন, পরিবার ও কণ্ঠের সঙ্গে। তারপর ঘড়ির কাঁটা ধরে ঘটনাস্থলে যাবেন। সবশেষে দেখবেন, ঘটনা ঘটে যাওয়ার পর রাষ্ট্র কী করেছিল, কী করেনি, আর সেই না-করার মূল্য কত দীর্ঘ হয়েছে।', prologueQuote:'কোনো ইতিহাস কেবল তারিখে বাঁচে না। মানুষ, স্থান আর অপেক্ষা তাকে জীবিত রাখে।', routeLabel:'আজকের যাত্রাপথ', routeFelani:'অনন্তপুর · বাড়ি ফেরার ভোর', routeIlias:'বনানী · নিভে যাওয়া ফোন', routeAbrar:'বুয়েট · রুম ২০১১', routeHadi:'বিজয়নগর · দিনের গুলি',
-    storiesKicker:'প্রথম দরজা এখন খুলছে', storiesTitle:'ঘড়ির কাঁটা পেছনে ঘোরান', storiesIntro:'স্থানগুলো পরিচিত—সীমান্ত, বনানী, একটি বিশ্ববিদ্যালয় হল, রাজধানীর ব্যস্ত সড়ক। কিন্তু এবার সেগুলো দেখুন যাঁরা আর ফিরে আসেননি, তাঁদের চোখের উচ্চতা থেকে।', enterChapter:'অধ্যায়ে প্রবেশ করুন', personLabel:'ঘটনার আগে মানুষটি', momentLabel:'সেই দিন · সেই রাত', aftermathLabel:'তারপর কী হলো', failureLabel:'রাষ্ট্র যেখানে ব্যর্থ', sourcesLabel:'এই অধ্যায়ের দলিল ও উৎস', dossierLabel:'ফাঁস হওয়া অনুসন্ধান নথি', dossierText:'RAB-1-এর গোপন অনুসন্ধানে নজরদারি, অনুসরণ ও অপহরণের তিন দলের ছক উঠে আসে।',
-    wallKicker:'চারটি অধ্যায়ের পরে', wallTitle:'এবার নামের দীর্ঘ করিডর', wallLead:'ফেলানীর ছবিটি পৃথিবী দেখেছিল। সীমান্তে নিহত অনেকের ছবি আমরা কখনো দেখিনি। তাই এখানে সংখ্যা নয়, নামগুলো পাশাপাশি দাঁড়াবে—যতটুকু মানবাধিকার নথি থেকে উদ্ধার করা গেছে।', searchLabel:'নাম বা জেলা খুঁজুন', searchPlaceholder:'নাম / জেলা', yearLabel:'বছর', allYears:'সব বছর', documentedNames:'নথিভুক্ত নাম', noNames:'এই অনুসন্ধানে কোনো নাম পাওয়া যায়নি।', sourceRecord:'উৎসের রেকর্ড দেখুন', wallSourceNote:'২০২০ সালের নামগুলো Odhikar-এর বার্ষিক মানবাধিকার প্রতিবেদনে সংবাদসূত্রসহ নথিভুক্ত। বৃহত্তর ঐতিহাসিক প্রেক্ষাপটের জন্য Human Rights Watch-এর “Trigger Happy” প্রতিবেদন যুক্ত করা হয়েছে।',
-    methodKicker:'ভ্রমণের শেষ কক্ষ', methodTitle:'দলিলঘর: গল্পের পেছনে যে কাগজগুলো আছে', keyFact:'মানুষ আগে', keyFactBody:'প্রতিটি অধ্যায় শুরু হয়েছে হারিয়ে যাওয়া মানুষটির জীবন দিয়ে—ঘটনাটি দিয়ে নয়।', keyCourt:'ঘটনার পরে রাষ্ট্র', keyCourtBody:'রায় হয়েছে কি না শুধু নয়; সুরক্ষা, তদন্ত ও জবাবদিহি কোথায় ব্যর্থ হয়েছে, সেটিও দেখা হয়েছে।', keyInquiry:'উৎস এক ক্লিক দূরে', keyInquiryBody:'আদালতের রায়, অনুসন্ধানী প্রতিবেদন ও পরিবারের স্মৃতি-আর্কাইভ প্রতিটি অধ্যায়ের শেষে রাখা হয়েছে।', correction:'কোনো নাম, তারিখ বা তথ্য সংশোধনের প্রমাণ থাকলে আমাদের জানান: ncpdiasporade@gmail.com',
-    closingKicker:'ভ্রমণ এখানেই শেষ নয়', closingTitle:'চারটি দরজা পেরিয়েছেন।<br><em>এখন প্রশ্নগুলো বহন করুন।</em>', closingBody:'একটি কাঁটাতার, একটি খোলা গাড়ির দরজা, একটি বন্ধ হলরুম এবং একটি জনসমুদ্র—এই চারটি দৃশ্য আলাদা সময়ে ঘটেছে। তাদের এক করে মানুষের মর্যাদা, বাংলাদেশের সিদ্ধান্তের স্বাধীনতা এবং ব্যর্থ রাষ্ট্রীয় জবাবদিহির বিরুদ্ধে একই প্রশ্ন: আর কত জীবন হারালে প্রতিষ্ঠানগুলো সময়মতো জাগবে?', shareHistory:'এই ইতিহাস শেয়ার করুন', backHome:'মূল ওয়েবসাইটে ফিরুন', footer:'সত্য · স্মৃতি · সার্বভৌমত্ব', copied:'লিংক কপি হয়েছে।', shareText:'ফেলানী, ইলিয়াস আলী, আবরার ফাহাদ ও ওসমান হাদির জীবন ধরে একটি দলিলভিত্তিক স্মৃতি-ভ্রমণ।'
+    skip:'মূল লেখায় যান', archiveLabel:'বাংলাদেশের স্মৃতি ও সার্বভৌমত্ব', navStories:'ঘটনাস্থল', navNames:'সীমান্তের নাম', navEvidence:'উৎসসমূহ', share:'শেয়ার',
+    heroKicker:'বাংলাদেশের সার্বভৌমত্বের অসমাপ্ত ইতিহাস', heroTitle:'এই ইতিহাস<br><em>বাংলাদেশের।</em>', heroLead:'সার্বভৌমত্ব শুধু মানচিত্রের সবুজ রেখা নয়। সীমান্তে একটি মেয়ের জীবন, নদীর প্রশ্নে দাঁড়ানো একজন নেতার নিরাপত্তা, দেশের স্বার্থ নিয়ে লেখা এক ছাত্রের কণ্ঠ, আধিপত্যের বিরুদ্ধে বলা এক তরুণের সাহস—সবই এর অংশ। চলুন, সেই অসমাপ্ত ইতিহাসের ভেতর দিয়ে হাঁটি।', enterStories:'ইতিহাসের ভেতর হাঁটুন', enterNames:'সীমান্তের নামগুলো পড়ুন', heroInstruction:'ধীরে নামুন · সামনে চারটি সময়, চারটি বাংলাদেশ', heroFelani:'ভোর ৬টা · অনন্তপুর', heroIlias:'একটি খোলা দরজা · বনানী', heroAbrar:'ছয় ঘণ্টা · রুম ২০১১', heroHadi:'দুপুর ২টা ২০ · বিজয়নগর',
+    prologueKicker:'পথ দেখাব আমরা', prologueTitle:'দূর থেকে নয়।<br><em>ঘটনাস্থলে দাঁড়িয়ে পড়ুন।</em>', prologueBody:'আমরা আপনাকে চারটি জায়গায় নিয়ে যাব। কোথাও বাবার মতো অসহায় হয়ে কাঁটাতারের দিকে তাকাতে হবে। কোথাও খোলা গাড়ির দরজার পাশে দাঁড়িয়ে নিখোঁজ দুই মানুষকে খুঁজতে হবে। কোথাও হলের বন্ধ দরজার বাইরে ছয় ঘণ্টা অপেক্ষা করতে হবে। কোথাও একটি গুলির পর জনসমুদ্রে মিশে যেতে হবে।', prologueQuote:'এই পথের প্রতিটি প্রশ্ন বাংলাদেশের—আর প্রতিটি অপেক্ষাও আমাদের।', routeLabel:'স্মৃতি-মানচিত্র', routeFelani:'অনন্তপুর · যে ভোর ঘরে ফেরেনি', routeIlias:'বনানী · যে রাত শেষ হয়নি', routeAbrar:'বুয়েট · যে দরজা সময়মতো খোলেনি', routeHadi:'বিজয়নগর · যে কণ্ঠ জনসমুদ্র হলো',
+    storiesKicker:'২০১১ · কুড়িগ্রাম', storiesTitle:'চলুন, প্রথমে অনন্তপুর', storiesIntro:'কুয়াশার ভেতর একটি সীমান্ত। একজন বাবা ওপারে দাঁড়িয়ে। আর কাঁটাতারের ওপর আটকে আছে তাঁর মেয়ে। আমাদের যাত্রা শুরু হবে ঠিক সেই ভোর থেকে।', enterChapter:'এই ঘটনায় নামুন', personLabel:'গুলি, গুম বা হত্যার আগে', momentLabel:'এখন ঘড়ির দিকে তাকান', aftermathLabel:'ঘটনাটি এখানেই শেষ হয়নি', failureLabel:'বাংলাদেশ যে উত্তর পায়নি', sourcesLabel:'উৎস ও দলিল দেখুন', dossierLabel:'রাষ্ট্রের ভেতরের গোপন কাগজ', dossierText:'নজরদারি, অনুসরণ ও তুলে নেওয়া—আটটি নম্বর আর তিনটি দলের ছক।',
+    wallKicker:'চারটি গল্পের বাইরে', wallTitle:'সীমান্তে আরও কত নাম হারিয়েছি', wallLead:'ফেলানীর ছবিটি পৃথিবী দেখেছে। কিন্তু সীমান্তে নিহত অনেক বাংলাদেশির মুখ আমরা কোনোদিন দেখিনি। তাই এখানে সংখ্যা নয়—যতগুলো নাম নথি থেকে উদ্ধার করা গেছে, তাদের মানুষ হিসেবেই পাশাপাশি রাখা হয়েছে।', searchLabel:'নাম বা জেলা খুঁজুন', searchPlaceholder:'নাম / জেলা', yearLabel:'বছর', allYears:'সব বছর', documentedNames:'নথিভুক্ত নাম', noNames:'এই অনুসন্ধানে কোনো নাম পাওয়া যায়নি।', sourceRecord:'উৎসের রেকর্ড দেখুন', wallSourceNote:'এটি পূর্ণাঙ্গ সরকারি তালিকা নয়। যে নামগুলো প্রকাশ্য মানবাধিকার নথি ও সংবাদ রেকর্ডে পাওয়া গেছে, কেবল সেগুলোই এখানে রাখা হয়েছে। নিচের লিংক থেকে মূল নথি পড়া যাবে।',
+    methodKicker:'সব গল্পের শেষে', methodTitle:'উৎসগুলো এখানে একসঙ্গে রাখা আছে', keyFact:'ঘটনাস্থলে মানুষ', keyFactBody:'তারিখের আগে মানুষটির জীবন, পরিবার ও স্বপ্নকে দেখা হয়েছে।', keyCourt:'তারপর রাষ্ট্রের ভূমিকা', keyCourtBody:'ঘটনার আগে সুরক্ষা এবং পরে তদন্ত ও বিচারের ব্যর্থতা পাশাপাশি রাখা হয়েছে।', keyInquiry:'মূল নথি আলাদা', keyInquiryBody:'প্রতিটি ঘটনার শেষে সংবাদ, আদালতের কাগজ ও স্মৃতি-আর্কাইভের লিংক আছে।', correction:'কোনো নাম, তারিখ বা তথ্য সংশোধনের প্রমাণ থাকলে আমাদের জানান: ncpdiasporade@gmail.com',
+    closingKicker:'এখন আপনি ফিরে যাবেন', closingTitle:'এই শোক আমাদের।<br><em>জবাব চাওয়ার দায়ও আমাদের।</em>', closingBody:'ফেলানীর বাবা আজও বিচার চান। ইলিয়াস আলীর পরিবার আজও দরজার শব্দ শোনে। আবরারের বন্ধুরা স্মৃতি পাহারা দেয়। হাদির জানাজার জনসমুদ্র এখনও উত্তর চায়। রাষ্ট্র ভুলে যেতে পারে, দপ্তরের ফাইল থেমে থাকতে পারে—বাংলাদেশের মানুষ যেন নামগুলো না ভোলে।', shareHistory:'এই ইতিহাস অন্যকে পড়তে দিন', backHome:'মূল ওয়েবসাইটে ফিরুন', footer:'স্মৃতি হারালে সার্বভৌমত্বও দুর্বল হয়', copied:'লিংক কপি হয়েছে।', shareText:'বাংলাদেশের চারটি অসমাপ্ত ইতিহাস—ফেলানী, ইলিয়াস আলী, আবরার ফাহাদ ও ওসমান হাদি।'
   },
   en: {
     skip:'Skip to the archive', archiveLabel:'Sovereignty Memory Archive', navStories:'The journey', navNames:'Corridor of names', navEvidence:'Document room', share:'Share',
@@ -42,71 +42,127 @@ function applyCopy() {
   $$('[data-copy-html]').forEach(node => { const value = copy[node.dataset.copyHtml]; if (value) node.innerHTML = value; });
   $$('[data-placeholder]').forEach(node => { const value = copy[node.dataset.placeholder]; if (value) node.placeholder = value; });
   $$('[data-lang]').forEach(button => button.setAttribute('aria-pressed', button.dataset.lang === language ? 'true' : 'false'));
-  document.title = language === 'bn' ? 'আধিপত্যবিরোধী সংগ্রামের ইতিহাস | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
+  document.title = language === 'bn' ? 'এই ইতিহাস বাংলাদেশের | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
 }
 
-function galleryMarkup(story) {
-  const figures = (story.gallery || []).map((image, index) => `<figure class="gallery-frame gallery-${index + 1}">
-    <img src="${esc(image.src)}" alt="${esc(image.alt)}" loading="${index ? 'lazy' : 'eager'}">
-    <figcaption><b>${esc(image.caption)}</b><small>${esc(image.credit)}</small></figcaption>
-  </figure>`).join('');
-  if (story.id !== 'ilias') return figures;
+function storyFigure(image, className='') {
+  if (!image) return '';
+  return `<figure class="story-figure ${esc(className)}"><img src="${esc(image.src)}" alt="${esc(image.alt)}" loading="lazy"><figcaption>${esc(image.caption)}</figcaption></figure>`;
+}
+
+function sourcesMarkup(story) {
   const copy = COPY[language];
-  return `${figures}<aside class="dossier-card">
-    <span>${esc(copy.dossierLabel)}</span><b>RAB–1</b><p>${esc(copy.dossierText)}</p>
-    <small>8 CITYCELL · 3 TEAMS · NMC</small>
-  </aside>`;
+  return `<details class="chapter-sources reveal"><summary>${esc(copy.sourcesLabel)} <span aria-hidden="true">+</span></summary><div>${story.sources.map(source => `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><span>${esc(source.label)}</span><b aria-hidden="true">↗</b></a>`).join('')}</div></details>`;
+}
+
+function storyThreshold(story, index) {
+  const copy = COPY[language];
+  const tour = story.tour;
+  const leadImage = story.gallery?.[0] || {src:story.image, alt:story.imageAlt};
+  const symbols = {
+    felani:`<div class="threshold-symbol wire-symbol" aria-hidden="true"><span>06:00</span><i></i><b>11:00</b></div>`,
+    ilias:`<div class="threshold-symbol signal-symbol" aria-hidden="true"><span>17 APR 2012</span><b>NO SIGNAL</b><i></i></div>`,
+    abrar:`<div class="threshold-symbol room-symbol" aria-hidden="true"><span>1011</span><span>2011</span><span>2005</span></div>`,
+    hadi:`<div class="threshold-symbol voice-symbol" aria-hidden="true">${Array.from({length:15},(_,i)=>`<i class="bar-${(i%5)+1}"></i>`).join('')}</div>`
+  };
+  return `<header class="scene-intro scene-${esc(story.id)}">
+    <img class="scene-image" src="${esc(leadImage.src)}" alt="" loading="${index ? 'lazy' : 'eager'}">
+    <div class="scene-shade" aria-hidden="true"></div>${symbols[story.id] || ''}
+    <div class="section-shell scene-copy reveal">
+      <p class="chapter-number">${esc(tour.chapter)} <span>${esc(story.year)}</span></p>
+      <p class="chapter-location"><span>${esc(tour.place)}</span><span>${esc(tour.date)}</span></p>
+      <h3>${esc(tour.title)}</h3><p class="chapter-opening">${esc(tour.opening)}</p>
+      <a class="chapter-enter" href="#${esc(story.id)}-story"><span>${esc(copy.enterChapter)}</span><b aria-hidden="true">↓</b></a>
+    </div>
+  </header>`;
+}
+
+function momentCards(tour, className) {
+  return `<div class="${esc(className)}">${tour.moments.map((moment, index) => `<article><span>${String(index + 1).padStart(2,'0')}</span><time>${esc(moment.time)}</time><h5>${esc(moment.title)}</h5><p>${esc(moment.body)}</p></article>`).join('')}</div>`;
+}
+
+function commonMemory(story) {
+  const tour = story.tour;
+  return `<div class="memory-stop reveal"><span aria-hidden="true">“</span><blockquote>${esc(tour.quote)}</blockquote><p>${esc(tour.memory)}</p></div>${sourcesMarkup(story)}`;
+}
+
+function felaniExperience(story) {
+  const tour = story.tour;
+  const copy = COPY[language];
+  return `<div class="incident-body felani-body" id="felani-story">
+    <div class="border-coordinate section-shell reveal"><span>বাংলাদেশ</span><i aria-hidden="true"></i><b>কাঁটাতার</b><i aria-hidden="true"></i><span>ভারত</span></div>
+    <section class="section-shell human-before felani-human reveal">
+      ${storyFigure(story.gallery?.[0],'grave-photo')}
+      <div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
+    </section>
+    <section class="wire-hours">
+      <div class="section-shell"><p class="story-label reveal">${esc(copy.momentLabel)}</p>${momentCards(tour,'wire-moments reveal')}</div>
+    </section>
+    <section class="section-shell aftermath-block felani-aftermath reveal">
+      ${storyFigure(story.gallery?.[1],'fence-photo')}
+      <div><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
+    </section>
+    <section class="answer-block felani-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <div class="section-shell">${commonMemory(story)}</div>
+  </div>`;
+}
+
+function iliasExperience(story) {
+  const tour = story.tour;
+  const copy = COPY[language];
+  return `<div class="incident-body ilias-body" id="ilias-story">
+    <section class="section-shell ilias-person reveal">
+      <div class="missing-portrait">${storyFigure(story.gallery?.[0],'portrait-photo')}<span>নিখোঁজ<br>১৭.০৪.২০১২</span></div>
+      <div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
+    </section>
+    <section class="night-route"><div class="section-shell">
+      <header class="night-route-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>HOTEL SHERATON <i>→</i> BANANI <i>→</i> ?</strong></header>
+      ${momentCards(tour,'case-file reveal')}
+      <aside class="dossier-card reveal"><span>${esc(copy.dossierLabel)}</span><b>RAB–1</b><p>${esc(copy.dossierText)}</p><small>8 CITYCELL · 3 TEAMS · NMC</small></aside>
+    </div></section>
+    <section class="section-shell ilias-aftermath reveal"><div><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div><aside><span>17</span><b>APR</b><small>ক্যালেন্ডার এগোয়।<br>অপেক্ষা এগোয় না।</small></aside></section>
+    <section class="answer-block ilias-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <div class="section-shell">${commonMemory(story)}</div>
+  </div>`;
+}
+
+function abrarExperience(story) {
+  const tour = story.tour;
+  const copy = COPY[language];
+  return `<div class="incident-body abrar-body" id="abrar-story">
+    <section class="corridor-map">
+      <div class="section-shell reveal"><p class="story-label">শেরেবাংলা হল · দ্বিতীয় তলা</p><div class="door-line"><span><b>1011</b><small>নিজের ঘর</small></span><i>→</i><span class="door-danger"><b>2011</b><small>বন্ধ দরজা</small></span><i>→</i><span><b>2005</b><small>নির্যাতন চলেছে</small></span></div></div>
+    </section>
+    <section class="section-shell abrar-human reveal"><div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>${storyFigure(story.gallery?.[0],'desk-photo')}</section>
+    <section class="six-hours"><div class="section-shell"><header class="six-hours-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>20:05 <i>→</i> 02:30 <i>→</i> 03:00</strong></header>${momentCards(tour,'clock-moments reveal')}</div></section>
+    <section class="movement-memory"><div class="section-shell reveal"><div>${storyFigure(story.gallery?.[1],'movement-photo')}${storyFigure(story.gallery?.[2],'lantern-photo')}</div><article><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></article></div></section>
+    <section class="answer-block abrar-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <div class="section-shell">${commonMemory(story)}</div>
+  </div>`;
+}
+
+function hadiExperience(story) {
+  const tour = story.tour;
+  const copy = COPY[language];
+  return `<div class="incident-body hadi-body" id="hadi-story">
+    <section class="section-shell hadi-human reveal">${storyFigure(story.gallery?.[1],'speaker-photo')}<div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p><div class="sound-line" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i class="bar-${(i%5)+1}"></i>`).join('')}</div></div></section>
+    <section class="daylight-sequence"><div class="section-shell"><header class="daylight-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>12 DEC · 14:20</strong></header>${momentCards(tour,'shot-moments reveal')}</div></section>
+    <section class="funeral-sea">
+      <img src="${esc(story.gallery?.[2]?.src)}" alt="${esc(story.gallery?.[2]?.alt)}" loading="lazy"><div class="funeral-shade" aria-hidden="true"></div>
+      <div class="section-shell reveal"><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
+    </section>
+    <section class="answer-block hadi-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <div class="section-shell">${commonMemory(story)}</div>
+  </div>`;
 }
 
 function renderStories() {
   const root = $('#storyChapters');
-  const copy = COPY[language];
   const stories = archiveData.stories.slice().sort((a,b) => Number(a.year) - Number(b.year));
+  const renderers = {felani:felaniExperience, ilias:iliasExperience, abrar:abrarExperience, hadi:hadiExperience};
   root.innerHTML = stories.map((raw, index) => {
     const story = localized(raw);
-    const tour = story.tour;
-    const leadImage = story.gallery?.[0] || {src:story.image, alt:story.imageAlt, credit:story.credit};
-    return `<article class="tour-chapter theme-${esc(story.id)}" id="${esc(story.id)}">
-      <header class="chapter-threshold">
-        <img class="threshold-image" src="${esc(leadImage.src)}" alt="" loading="${index ? 'lazy' : 'eager'}">
-        <div class="threshold-shade" aria-hidden="true"></div>
-        <div class="section-shell threshold-content reveal">
-          <p class="chapter-number">${esc(tour.chapter)}</p>
-          <p class="chapter-location"><span>${esc(tour.place)}</span><span>${esc(tour.date)}</span></p>
-          <p class="chapter-year" aria-hidden="true">${esc(story.year)}</p>
-          <h3>${esc(tour.title)}</h3>
-          <p class="chapter-opening">${esc(tour.opening)}</p>
-          <a class="chapter-enter" href="#${esc(story.id)}-story"><span>${esc(copy.enterChapter)}</span><b aria-hidden="true">↓</b></a>
-        </div>
-      </header>
-
-      <div class="section-shell chapter-body" id="${esc(story.id)}-story">
-        <aside class="chapter-gallery reveal" aria-label="${esc(story.name)} photo archive">${galleryMarkup(story)}</aside>
-        <div class="chapter-narrative">
-          <section class="narrative-person reveal">
-            <p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p>
-          </section>
-          <section class="moment-route reveal">
-            <p class="story-label">${esc(copy.momentLabel)}</p>
-            <div class="moment-list">${tour.moments.map((moment, momentIndex) => `<article class="moment"><span>${String(momentIndex + 1).padStart(2,'0')}</span><time>${esc(moment.time)}</time><h5>${esc(moment.title)}</h5><p>${esc(moment.body)}</p></article>`).join('')}</div>
-          </section>
-          <section class="aftermath reveal">
-            <p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p>
-          </section>
-          <section class="state-failure reveal">
-            <p class="story-label">${esc(copy.failureLabel)}</p><strong>${esc(tour.failureStat)}</strong><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p>
-          </section>
-          <blockquote class="memory-quote reveal">${esc(tour.quote)}</blockquote>
-          <p class="chapter-memory reveal">${esc(tour.memory)}</p>
-          <details class="chapter-sources reveal">
-            <summary>${esc(copy.sourcesLabel)} <span aria-hidden="true">+</span></summary>
-            <div>${story.sources.map(source => `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><span>${esc(source.label)}</span><b aria-hidden="true">↗</b></a>`).join('')}</div>
-          </details>
-        </div>
-      </div>
-
-      <footer class="chapter-bridge"><div class="section-shell reveal"><span>${String(index + 1).padStart(2,'0')} / ${String(stories.length).padStart(2,'0')}</span><p>${esc(tour.bridge)}</p><i aria-hidden="true">→</i></div></footer>
-    </article>`;
+    return `<article class="tour-chapter theme-${esc(story.id)}" id="${esc(story.id)}">${storyThreshold(story,index)}${renderers[story.id](story)}<footer class="chapter-bridge"><div class="section-shell reveal"><span>${String(index + 1).padStart(2,'0')} / ${String(stories.length).padStart(2,'0')}</span><p>${esc(story.tour.bridge)}</p><i aria-hidden="true">→</i></div></footer></article>`;
   }).join('');
   observeReveals();
 }
@@ -174,10 +230,6 @@ async function shareArchive() {
 }
 
 async function init() {
-  try {
-    const stored = localStorage.getItem('ncpda-language');
-    if (!new URLSearchParams(location.search).has('lang') && ['bn','en','de'].includes(stored)) language = stored;
-  } catch {}
   applyCopy();
   const response = await fetch('../data/sovereignty-archive.json', {cache:'no-cache'});
   if (!response.ok) throw new Error('Archive data unavailable');
