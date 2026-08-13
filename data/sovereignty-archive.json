@@ -1,9 +1,9 @@
 {
   "updated": "2026-08-13",
   "methodology": {
-    "bn": "এই আর্কাইভে প্রতিষ্ঠিত তথ্য, আদালতের সিদ্ধান্ত, সরকারি তদন্ত, মানবাধিকার সংস্থার নথি এবং অভিযোগকে আলাদা করে দেখানো হয়েছে। সীমান্তের নামের দেয়ালটি নির্বাচিত নথিভুক্ত নামের সংগ্রহ—পূর্ণাঙ্গ সরকারি তালিকা নয়।",
-    "en": "This archive separates established facts, court findings, official investigations, human-rights documentation and allegations. The border wall is a selected collection of documented names, not a complete official list.",
-    "de": "Dieses Archiv trennt gesicherte Fakten, Gerichtsurteile, amtliche Ermittlungen, Menschenrechtsdokumentation und Vorwürfe. Die Namenswand ist eine Auswahl dokumentierter Fälle, keine vollständige amtliche Liste."
+    "bn": "এই ভ্রমণের প্রতিটি দৃশ্যের পেছনে প্রকাশ্য নথি রাখা হয়েছে—আদালতের রায়, মানবাধিকার অনুসন্ধান, সংবাদ প্রতিবেদন এবং পরিবার-সহপাঠীদের গড়া স্মৃতি-আর্কাইভ। স্মৃতিচারণ যেখানে ব্যবহার করা হয়েছে, সেখানে সেটি স্মৃতিচারণ হিসেবেই সূত্রসহ রাখা হয়েছে। নামের করিডরটি পূর্ণাঙ্গ সরকারি তালিকা নয়; নথি থেকে উদ্ধার করা নির্বাচিত নামের সংগ্রহ।",
+    "en": "Every scene in this journey is backed by a public record: court judgments, human-rights investigations, reporting, and archives built by families or classmates. Where personal memories are used, they remain attributed as memories. The corridor of names is a selected recovery from records, not a complete official list.",
+    "de": "Hinter jeder Szene dieser Reise steht ein öffentliches Dokument: Gerichtsurteile, Menschenrechtsrecherchen, Berichte sowie Archive von Familien oder Kommilitonen. Persönliche Erinnerungen bleiben als solche gekennzeichnet und belegt. Der Korridor der Namen ist eine Auswahl aus Akten, keine vollständige amtliche Liste."
   },
   "stories": [
     {
@@ -16,7 +16,7 @@
       "status": "প্রতিষ্ঠিত তথ্য",
       "opening": "বিয়ের জন্য তুলে রাখা গয়না পরে সে বাড়ি ফিরছিল—ইতিহাসের এক বেদনাদায়ক নাম হয়ে উঠতে নয়।",
       "summary": "২০১১ সালের ৭ জানুয়ারির ভোর। বাবার সঙ্গে ভারতের অসম থেকে কুড়িগ্রামের বাড়িতে ফিরছিল পনেরো বছরের ফেলানী। অনন্তপুর সীমান্তের কাঁটাতারে তার পোশাক আটকে যায়। সাহায্যের বদলে আসে গুলি। বিএসএফের গুলিতে সে মারা যায়; ঘণ্টার পর ঘণ্টা তার দেহ কাঁটাতারে ঝুলে থাকে। সেই দৃশ্য সীমান্তে বাংলাদেশিদের জীবন কত সস্তা করে দেখা হয়, তার নির্মম প্রতীক হয়ে আছে।",
-      "connection": "এই ঘটনার ভারত-সংযোগ কোনো অনুমান নয়: গুলি চালিয়েছিল ভারতীয় সীমান্তরক্ষী বাহিনী বিএসএফের একজন সদস্য। বাহিনীর নিজস্ব আদালতে অভিযুক্ত সদস্য খালাস পায়। এক যুগেরও বেশি সময় পরও ফেলানীর পরিবার কার্যকর বিচার ও প্রতিকার পায়নি।",
+      "connection": "গুলি চালিয়েছিল ভারতীয় সীমান্তরক্ষী বাহিনী বিএসএফের একজন সদস্য। বাহিনীর নিজস্ব আদালতে অভিযুক্ত সদস্য খালাস পায়। এক যুগেরও বেশি সময় পরও ফেলানীর পরিবার কার্যকর বিচার ও প্রতিকার পায়নি।",
       "known": "গুলি চালানো, স্থান, তারিখ, ফেলানীর পরিচয় এবং বিএসএফের অভ্যন্তরীণ বিচার—সবই প্রকাশ্য নথিতে আছে।",
       "unresolved": "পরিবারের জন্য কার্যকর প্রতিকার, ক্ষতিপূরণ এবং চূড়ান্ত বিচার এখনও অধরা।",
       "image": "../img/sovereignty/felani-father-grave.webp",
@@ -24,6 +24,34 @@
       "contextImage": "../img/sovereignty/border-fence.webp",
       "contextAlt": "বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া ও সীমান্তবর্তী মাঠ",
       "credit": "ফেলানীর কবর: স্থানীয় সাংবাদিক / Odhikar fact-finding report; সীমান্ত: Nicolas Merky · CC BY-SA 3.0",
+      "tour": {
+        "chapter": "দরজা ০১",
+        "place": "অনন্তপুর সীমান্ত · কুড়িগ্রাম",
+        "date": "৭ জানুয়ারি ২০১১ · ভোর ৬টা",
+        "title": "কাঁটাতারে থেমে থাকা একটি বাড়ি-ফেরা ভোর",
+        "opening": "বিয়ের জন্য মায়ের তুলে রাখা গয়না পরে পনেরো বছরের ফেলানী বাবার সঙ্গে বাড়ি ফিরছিল। কয়েক মিনিট পর একটি গুলি তাকে কেবল একটি পরিবারের কাছ থেকে নয়—পুরো একটি দেশের ভবিষ্যৎ থেকে ছিনিয়ে নেবে।",
+        "personTitle": "ফেলানী হওয়ার আগে সে ছিল বাড়ি ফিরতে চাওয়া একটি মেয়ে",
+        "personBody": "নুর ইসলামের বড় মেয়ে ফেলানী। পরিবারটি ভারতের আসামের বঙ্গাইগাঁওয়ে থাকত। বাংলাদেশে তার বিয়ের কথা ঠিক হয়েছিল। তাই বাবা-মেয়ের সেই যাত্রায় ছিল নতুন জীবনের প্রস্তুতি—কোনো সংঘাতের আহ্বান নয়।",
+        "moments": [
+          {"time": "আগের রাত", "title": "ফেরার প্রস্তুতি", "body": "মা মেয়েকে বিয়ের জন্য রাখা গয়না পরিয়ে দেন। বাবা নুর ইসলাম দালালের ঠিক করা পথে মেয়েকে নিয়ে সীমান্তের দিকে রওনা হন।"},
+          {"time": "ভোর ৬টা", "title": "মই বেয়ে কাঁটাতার", "body": "বাবা আগে পার হন। ফেলানী উঠতেই তার পোশাক কাঁটাতারে আটকে যায়। ভয়ে সে চিৎকার করে বাবাকে ডাকে।"},
+          {"time": "একটি গুলি", "title": "সাহায্যের বদলে গুলি", "body": "বিএসএফ সদস্যের গুলিতে ফেলানী আহত হয়। প্রত্যক্ষ বর্ণনা অনুযায়ী, সে প্রায় আধঘণ্টা জীবিত ছিল; কিন্তু তার কাছে কেউ পৌঁছাতে পারেনি।"},
+          {"time": "৪ ঘণ্টা ৩০ মিনিট", "title": "দেহ ঝুলে রইল", "body": "সকাল প্রায় ৬টা ৪৫ থেকে ১১টা পর্যন্ত তার দেহ কাঁটাতারে ঝুলে ছিল। সীমান্তের একটি সকাল তখন পৃথিবীর সামনে রাষ্ট্রীয় নিষ্ঠুরতার ছবি হয়ে যায়।"}
+        ],
+        "aftermathTitle": "দেহ ফিরল। বিচার ফিরল না।",
+        "aftermathBody": "বিচার শুরু হতে লেগেছিল দুই বছরেরও বেশি। ২০১৩ সালে বিএসএফের নিজস্ব আদালত অভিযুক্ত সদস্য অমিয় ঘোষকে খালাস দেয়। পুনর্বিচারেও ২০১৫ সালে একই ফল আসে। ফেলানীর বাবা ভারতের সুপ্রিম কোর্ট পর্যন্ত গেছেন; ২০২০ সালের পর পরিবার আর মামলার কোনো অগ্রগতির খবর পায়নি।",
+        "failureStat": "১৫ বছর",
+        "failureTitle": "একটি পরিবার বিচার চেয়েছে; দুই রাষ্ট্র তাদের অপেক্ষা ফিরিয়ে দিয়েছে",
+        "failureBody": "সীমান্তে একটি কিশোরীকে গুলি করা হলো, দেহ ঘণ্টার পর ঘণ্টা ঝুলে থাকল, তবু জবাবদিহি নিশ্চিত হলো না। রাষ্ট্রের ব্যর্থতা এখানেই—একটি হত্যাকে ব্যতিক্রম হিসেবে রেখে দেওয়া, আর সেই দায়মুক্তিকে পরবর্তী মৃত্যুগুলোর নীরব অনুমতি হতে দেওয়া।",
+        "memory": "আজ ফেলানীর কবরের পাশে দাঁড়ালে শুধু একজন কিশোরীর মৃত্যু দেখা যায় না; দেখা যায় বাবার পনেরো বছরের পথ, আদালতের বন্ধ দরজা এবং সীমান্তে হারানো আরও অসংখ্য নাম।",
+        "quote": "“পাখির মতো গুলি করেছিল”—মায়ের এই কয়েকটি শব্দই বিচারহীনতার পুরো ইতিহাস বহন করে।",
+        "bridge": "এক বছর তিন মাস পরে—সীমান্তের কাঁটাতার থেকে গল্পটি ঢুকে পড়বে রাজধানীর একটি অন্ধকার রাস্তায়।"
+      },
+      "gallery": [
+        {"src": "../img/sovereignty/felani-father-grave.webp", "alt": "কুড়িগ্রামে ফেলানীর কবরের পাশে তার বাবা নুর ইসলাম", "caption": "বাবা নুর ইসলাম, ফেলানীর কবরের পাশে", "credit": "স্থানীয় সাংবাদিক / Odhikar, ২০১১"},
+        {"src": "../img/sovereignty/border-fence.webp", "alt": "বাংলাদেশ-ভারত সীমান্তের কাঁটাতারের বেড়া", "caption": "যে সীমান্ত বাড়ি ফেরার পথকে মৃত্যুর ফাঁদে বদলে দিয়েছিল", "credit": "Nicolas Merky · CC BY-SA 3.0"},
+        {"src": "../img/sovereignty/felani-memorial.webp", "alt": "ঢাকায় ফেলানী অ্যাভিনিউ নামফলক উন্মোচন", "caption": "নামটি এখন স্মৃতির মানচিত্রে", "credit": "Bangladesh PID · Public domain"}
+      ],
       "translations": {
         "en": {
           "age": "15 years old", "classification": "Direct border killing", "status": "Established fact",
@@ -32,7 +60,21 @@
           "connection": "This is a documented case of direct killing by an Indian state force. The accused BSF member was acquitted by the force’s own court; her family continues to wait for justice.",
           "known": "The shooting, location, date, victim’s identity and BSF trial are established in public records.",
           "unresolved": "Effective remedy, compensation and final justice for the family remain incomplete.",
-          "imageAlt": "Felani’s father Nurul Islam standing beside her grave in Kurigram", "contextAlt": "Barbed-wire fence and fields along the Bangladesh-India border"
+          "imageAlt": "Felani’s father Nurul Islam standing beside her grave in Kurigram", "contextAlt": "Barbed-wire fence and fields along the Bangladesh-India border",
+          "tour": {
+            "chapter": "Door 01", "place": "Anantapur border · Kurigram", "date": "7 January 2011 · 6:00am", "title": "A journey home stopped at the wire",
+            "opening": "Fifteen-year-old Felani was returning home with her father, wearing jewellery her mother had saved for her wedding. Minutes later, a bullet would take her from a family—and from the future of a country.",
+            "personTitle": "Before she became a symbol, Felani was a girl going home", "personBody": "Felani was Nur Islam’s eldest daughter. The family lived in Bongaigaon, Assam, and her marriage had been arranged in Bangladesh. This was a journey toward a new life, not toward conflict.",
+            "moments": [
+              {"time":"The night before","title":"Preparing to return","body":"Her mother put on the jewellery saved for the wedding. Felani and her father set out for the crossing arranged by a broker."},
+              {"time":"6:00am","title":"A ladder against the fence","body":"Her father crossed first. Felani’s clothes caught on the wire as she climbed, and she cried out to him in fear."},
+              {"time":"One shot","title":"A bullet instead of help","body":"A BSF member shot Felani. Accounts say she remained alive for nearly half an hour, but nobody could reach her."},
+              {"time":"4 hours 30 minutes","title":"Her body remained on the wire","body":"From about 6:45am until 11:00am, her body hung on the fence. A border morning became a global image of state cruelty."}
+            ],
+            "aftermathTitle":"Her body returned. Justice did not.","aftermathBody":"The BSF’s own court acquitted Amiya Ghosh in 2013 and again after retrial in 2015. Felani’s father went as far as India’s Supreme Court; the family has received no update since 2020.",
+            "failureStat":"15 years","failureTitle":"A family asked for justice; two states returned only waiting","failureBody":"A child was shot and left hanging for hours, yet accountability never arrived. That failure turned one killing into a warning that impunity could outlive the victim.",
+            "memory":"At Felani’s grave stand fifteen years of her father’s journey, a closed courtroom door, and the names of countless others lost at the border.","quote":"Her mother’s few words—‘shot her like a bird’—carry the weight of the whole injustice.","bridge":"One year and three months later, the journey moves from the border fence to a dark road in the capital."
+          }
         },
         "de": {
           "age": "15 Jahre", "classification": "Direkte Tötung an der Grenze", "status": "Gesicherte Tatsache",
@@ -41,7 +83,16 @@
           "connection": "Dies ist ein dokumentierter Fall einer direkten Tötung durch eine indische staatliche Einheit. Das interne BSF-Gericht sprach den Beschuldigten frei; die Familie wartet weiter auf Gerechtigkeit.",
           "known": "Schüsse, Ort, Datum, Identität des Opfers und das BSF-Verfahren sind öffentlich dokumentiert.",
           "unresolved": "Wirksame Abhilfe, Entschädigung und abschließende Gerechtigkeit stehen weiterhin aus.",
-          "imageAlt": "Felanis Vater Nurul Islam steht an ihrem Grab in Kurigram", "contextAlt": "Stacheldrahtzaun und Felder an der Grenze zwischen Bangladesch und Indien"
+          "imageAlt": "Felanis Vater Nurul Islam steht an ihrem Grab in Kurigram", "contextAlt": "Stacheldrahtzaun und Felder an der Grenze zwischen Bangladesch und Indien",
+          "tour": {
+            "chapter":"Tür 01","place":"Grenze bei Anantapur · Kurigram","date":"7. Januar 2011 · 6:00 Uhr","title":"Eine Heimkehr, die am Stacheldraht endete",
+            "opening":"Die fünfzehnjährige Felani kehrte mit ihrem Vater nach Hause zurück und trug den Schmuck, den ihre Mutter für die Hochzeit aufbewahrt hatte. Wenige Minuten später riss eine Kugel sie aus ihrer Familie.",
+            "personTitle":"Bevor sie zum Symbol wurde, war Felani ein Mädchen auf dem Heimweg","personBody":"Felani war die älteste Tochter von Nur Islam. Die Familie lebte im assamesischen Bongaigaon; ihre Heirat war in Bangladesch vereinbart. Die Reise sollte in ein neues Leben führen, nicht in einen Konflikt.",
+            "moments":[{"time":"Am Vorabend","title":"Vorbereitung auf die Rückkehr","body":"Ihre Mutter legte ihr den Hochzeitsschmuck an. Vater und Tochter machten sich auf den von einem Schleuser vereinbarten Weg."},{"time":"6:00 Uhr","title":"Eine Leiter am Zaun","body":"Der Vater überquerte zuerst. Felanis Kleidung verfing sich im Draht; aus Angst rief sie nach ihm."},{"time":"Ein Schuss","title":"Eine Kugel statt Hilfe","body":"Ein BSF-Angehöriger schoss auf Felani. Berichten zufolge lebte sie noch fast eine halbe Stunde, doch niemand erreichte sie."},{"time":"4 Stunden 30 Minuten","title":"Ihr Körper blieb am Zaun","body":"Von etwa 6:45 bis 11:00 Uhr hing ihr Körper am Stacheldraht. Ein Morgen an der Grenze wurde zum Bild staatlicher Grausamkeit."}],
+            "aftermathTitle":"Ihr Körper kehrte zurück. Die Gerechtigkeit nicht.","aftermathBody":"Das eigene Gericht der BSF sprach Amiya Ghosh 2013 und nach einer Neuverhandlung 2015 erneut frei. Felanis Vater ging bis zum Obersten Gericht Indiens; seit 2020 erhielt die Familie keine Nachricht.",
+            "failureStat":"15 Jahre","failureTitle":"Eine Familie verlangte Gerechtigkeit; zwei Staaten ließen sie warten","failureBody":"Ein Kind wurde erschossen und stundenlang am Zaun gelassen, doch Verantwortung blieb aus. So wurde Straflosigkeit zur stillen Erlaubnis für weitere Todesfälle.",
+            "memory":"An Felanis Grab stehen fünfzehn Jahre des Weges ihres Vaters, eine verschlossene Gerichtstür und die Namen zahlloser weiterer Grenzopfer.","quote":"Die wenigen Worte ihrer Mutter—„wie einen Vogel erschossen“—tragen die ganze Geschichte des Unrechts.","bridge":"Ein Jahr und drei Monate später führt der Weg vom Grenzzaun in eine dunkle Straße der Hauptstadt."
+          }
         }
       },
       "sources": [
@@ -68,6 +119,34 @@
       "contextImage": "../img/sovereignty/abrar-memorial.webp",
       "contextAlt": "আবরার ফাহাদের স্মরণে নির্মিত আগ্রাসনবিরোধী আট স্তম্ভ স্মৃতিস্তম্ভ",
       "credit": "প্রতিকৃতি: Sakib8785 · CC BY 4.0; স্মৃতিস্তম্ভ: Salim Khandoker · CC BY-SA 4.0",
+      "tour": {
+        "chapter": "দরজা ০৩",
+        "place": "শেরেবাংলা হল · বুয়েট",
+        "date": "৬–৭ অক্টোবর ২০১৯ · রাত ৮টা–ভোর ৩টা",
+        "title": "রুম ২০১১-এর বন্ধ দরজার ওপারে",
+        "opening": "একটি বিশ্ববিদ্যালয় হলের করিডর। বাইরে পরীক্ষার প্রস্তুতিতে ব্যস্ত তরুণেরা। ভেতরে ছয় ঘণ্টা ধরে নির্যাতিত হচ্ছে তাদেরই সহপাঠী—কারণ সে প্রশ্ন করেছিল।",
+        "personTitle": "একজন মেধাবী ছাত্র, যে দেশের প্রশ্নে চুপ থাকতে শেখেনি",
+        "personBody": "১৯৯৮ সালে কুষ্টিয়ায় জন্ম আবরার ফাহাদের। কুষ্টিয়া জিলা স্কুল ও নটর ডেম কলেজ পেরিয়ে তিনি বুয়েটের তড়িৎ ও ইলেকট্রনিক কৌশল বিভাগে পড়ছিলেন। তিনি BUET Energy Club-এর নির্বাহী সদস্য ছিলেন; রাজনীতি, পানি, জ্বালানি ও দেশের স্বার্থ নিয়ে নিয়মিত পড়তেন ও লিখতেন। সহপাঠীদের স্মৃতিতে তিনি ছিলেন একই সঙ্গে মেধাবী, বিনয়ী এবং স্পষ্টভাষী।",
+        "moments": [
+          {"time": "রাত ৮টা ০৫", "title": "রুম ১০১১ থেকে ডেকে নেওয়া", "body": "আদালতের নথি অনুযায়ী, আবরারকে তাঁর কক্ষ থেকে শেরেবাংলা হলের রুম ২০১১ ও ২০০৫-এ নেওয়া হয়। ‘শিবির’ সন্দেহের নামে শুরু হয় জিজ্ঞাসাবাদ ও নির্যাতন।"},
+          {"time": "প্রায় ৬ ঘণ্টা", "title": "ক্রিকেট স্টাম্প ও লাঠির আঘাত", "body": "হাইকোর্টের রায়ে উঠে এসেছে—আবরারকে ক্রিকেট স্টাম্প ও লাঠি দিয়ে বারবার পেটানো হয়। যারা থামাতে পারত কিন্তু থামায়নি, আদালত তাদের দায়ও স্বীকার করেছে।"},
+          {"time": "ভোর ২টা ৩০", "title": "একটি তরুণ জীবনের শেষ", "body": "দীর্ঘ নির্যাতনে আবরার মারা যান। কয়েক মিনিট আগেও তিনি শ্বাস নিচ্ছিলেন—এমন স্মৃতি তাঁর সহপাঠীদের ৬ অক্টোবরের রাতের বর্ণনায় আছে।"},
+          {"time": "ভোর ৩টা", "title": "ঘুম ভাঙল একটি হলের", "body": "‘আবরারকে মেরে ফেলছে’—বন্ধুদের দরজায় দরজায় ছুটে যাওয়া সেই সংবাদে হল জেগে ওঠে। ভয় সত্ত্বেও শিক্ষার্থীরা একসঙ্গে পোস্ট করে, ফুটেজ রক্ষা করে এবং ধামাচাপা ঠেকাতে দাঁড়ায়।"}
+        ],
+        "aftermathTitle": "শোক থেকে সংগঠিত প্রতিরোধ",
+        "aftermathBody": "পরদিন সকালেই বুয়েট শিক্ষার্থীরা ক্যাম্পাসে জড়ো হয়। বিচার, নিরাপত্তা, রাজনৈতিক নির্যাতনের অবসান ও সাংগঠনিক ছাত্ররাজনীতি বন্ধসহ দশ দফা দাবি গড়ে ওঠে। মোমবাতি, ফানুস, গণস্বাক্ষর ও শপথের মধ্য দিয়ে আন্দোলন চলতে থাকে। ২০২১ সালে ২০ জনকে মৃত্যুদণ্ড ও পাঁচজনকে যাবজ্জীবন দেওয়া হয়; ২০২৫ সালে হাইকোর্ট সেই সাজা বহাল রাখে।",
+        "failureStat": "৬ ঘণ্টা",
+        "failureTitle": "হলের ভেতর নির্যাতন চলল; রক্ষার প্রতিষ্ঠানগুলো দেরিতে এল",
+        "failureBody": "এটি শুধু কয়েকজন ছাত্রের অপরাধ ছিল না—এটি রাজনৈতিক প্রভাবের নিচে ভেঙে পড়া একটি নিরাপত্তা ব্যবস্থার পরিণতি। হল প্রশাসনের অবহেলা, আগে থেকে চলা নির্যাতনের সংস্কৃতি এবং ভয়ের কারণে কেউ সময়মতো আবরারকে রক্ষা করতে পারেনি। আদালতের রায় বিচার দিয়েছে; কিন্তু কেন একটি মৃত্যু না হওয়া পর্যন্ত প্রতিষ্ঠান জাগল না—সেই প্রশ্ন মুছে দেয়নি।",
+        "memory": "BUET ’17 ব্যাচের বন্ধুরা আবরার আর্কাইভ বানিয়েছেন একটি বাক্যকে জীবিত রাখতে—তাঁরা বিস্মৃতির বিরুদ্ধে যুদ্ধ করছেন। এই অধ্যায় সেই স্মৃতির হাত ধরে রুম ২০১১-এর বন্ধ দরজা আবার খুলে দেয়।",
+        "quote": "একটি ফেসবুক পোস্ট মুছে ফেলা যায়; কিন্তু তার জন্য হারানো জীবন একটি জাতির বিবেক থেকে মুছে ফেলা যায় না।",
+        "bridge": "ছয় বছর পরে—আরেক তরুণ কণ্ঠ রাজধানীর দিনের আলোয় লক্ষ্যবস্তু হবে। এবার শোক নামবে সংসদ ভবনের মাঠজুড়ে।"
+      },
+      "gallery": [
+        {"src": "../img/sovereignty/abrar-archive-portrait.webp", "alt": "পড়ার টেবিলে আবরার ফাহাদ", "caption": "হল, রাজনীতি ও হত্যার আগেও ছিল একজন স্বপ্নবান ছাত্রের জীবন", "credit": "Abrar Fahad Archive · BUET ’17"},
+        {"src": "../img/sovereignty/abrar-movement.webp", "alt": "আবরার হত্যার বিচার দাবিতে বুয়েট শিক্ষার্থীদের আন্দোলন", "caption": "‘আবরার ভাই শহিদ কেন?’—ক্যাম্পাসে জবাব চাওয়া", "credit": "Abrar Fahad Archive · BUET ’17"},
+        {"src": "../img/sovereignty/abrar-lanterns.webp", "alt": "আবরারের স্মরণে ফানুস ও আলো", "caption": "শোক যখন আলো হয়ে আকাশে ওঠে", "credit": "Abrar Fahad Archive · BUET ’17"}
+      ],
       "translations": {
         "en": {
           "age": "21 years old", "classification": "Political murder for expression", "status": "Established in court",
@@ -76,7 +155,16 @@
           "connection": "No Indian force killed Abrar; Bangladeshi Chhatra League members did. Court reporting and the case history nevertheless identify his criticism of India-related policies as the immediate context of the attack.",
           "known": "The killing and the responsibility of those convicted were established in court; the High Court upheld death sentences for 20 and life terms for five.",
           "unresolved": "Larger questions remain about organised political violence on campuses and the safety of free expression.",
-          "imageAlt": "Portrait of Abrar Fahad", "contextAlt": "The Eight Pillars Against Aggression memorial commemorating Abrar Fahad"
+          "imageAlt": "Portrait of Abrar Fahad", "contextAlt": "The Eight Pillars Against Aggression memorial commemorating Abrar Fahad",
+          "tour": {
+            "chapter":"Door 03","place":"Sher-e-Bangla Hall · BUET","date":"6–7 October 2019 · 8:00pm–3:00am","title":"Beyond the closed door of room 2011",
+            "opening":"A university corridor. Students outside prepared for exams. Behind one door, their classmate was tortured for six hours because he had asked questions.",
+            "personTitle":"A gifted student who never learned to stay silent about his country","personBody":"Born in Kushtia in 1998, Abrar studied at Kushtia Zilla School and Notre Dame College before joining BUET’s EEE department. An executive member of BUET Energy Club, he read and wrote about politics, water, energy and the national interest. Friends remember him as brilliant, modest and outspoken.",
+            "moments":[{"time":"8:05pm","title":"Taken from room 1011","body":"Court records say Abrar was taken from his room to rooms 2011 and 2005. An interrogation and beating began under the pretext that he was linked to Shibir."},{"time":"Nearly 6 hours","title":"Cricket stumps and sticks","body":"The High Court record describes repeated beatings with cricket stumps and sticks. The court also held responsible those who could have intervened but did not."},{"time":"2:30am","title":"A young life ended","body":"Abrar died after the prolonged torture. His classmates’ archive remembers that he had been breathing only minutes earlier."},{"time":"3:00am","title":"A hall woke up","body":"The words ‘they have killed Abrar’ travelled door to door. Despite fear, students posted together, preserved footage and stood against an attempted cover-up."}],
+            "aftermathTitle":"Grief became organised resistance","aftermathBody":"Students gathered the next morning and formed ten demands around justice, safety and ending political torture. Candles, lanterns, signatures and a collective oath sustained the movement. Twenty defendants received death sentences and five life terms in 2021; the High Court upheld them in 2025.",
+            "failureStat":"6 hours","failureTitle":"Torture continued inside the hall while institutions arrived too late","failureBody":"This was not only the crime of a group of students. It grew inside a system weakened by political influence, administrative neglect and fear. The verdict delivered punishment, but it could not erase the question: why did an institution need a death before it woke up?",
+            "memory":"BUET’s Class of ’17 built the Abrar archive to wage what they call a war against forgetting. This chapter follows their memory back through the closed door of room 2011.","quote":"A Facebook post can be deleted. A life taken for writing it cannot be erased from a nation’s conscience.","bridge":"Six years later, another young voice becomes a target in daylight—and grief will fill the grounds of Parliament."
+          }
         },
         "de": {
           "age": "21 Jahre", "classification": "Politischer Mord wegen freier Meinungsäußerung", "status": "Gerichtlich festgestellt",
@@ -85,10 +173,21 @@
           "connection": "Abrar wurde nicht von einer indischen Einheit getötet, sondern von bangladeschischen Chhatra-League-Mitgliedern. Die Prozessgeschichte nennt jedoch seine Kritik an indienbezogener Politik als unmittelbaren Kontext des Angriffs.",
           "known": "Die Tat und die Verantwortung der Verurteilten wurden gerichtlich festgestellt; das High Court bestätigte 20 Todesurteile und fünf lebenslange Strafen.",
           "unresolved": "Offen bleiben größere Fragen zu organisierter politischer Gewalt an Hochschulen und zum Schutz freier Meinungsäußerung.",
-          "imageAlt": "Porträt von Abrar Fahad", "contextAlt": "Das Abrar Fahad gewidmete Denkmal Acht Säulen gegen Aggression"
+          "imageAlt": "Porträt von Abrar Fahad", "contextAlt": "Das Abrar Fahad gewidmete Denkmal Acht Säulen gegen Aggression",
+          "tour": {
+            "chapter":"Tür 03","place":"Sher-e-Bangla-Wohnheim · BUET","date":"6.–7. Oktober 2019 · 20:00–3:00 Uhr","title":"Hinter der verschlossenen Tür von Zimmer 2011",
+            "opening":"Ein Universitätsflur. Draußen bereiten sich Studierende auf Prüfungen vor. Hinter einer Tür wird ihr Kommilitone sechs Stunden lang gefoltert, weil er Fragen gestellt hatte.",
+            "personTitle":"Ein begabter Student, der über sein Land nicht schweigen wollte","personBody":"Abrar wurde 1998 in Kushtia geboren, besuchte das Notre Dame College und studierte Elektrotechnik an der BUET. Als Vorstandsmitglied des BUET Energy Club las und schrieb er über Politik, Wasser, Energie und nationale Interessen. Freunde erinnern sich an einen brillanten, bescheidenen und offenen Menschen.",
+            "moments":[{"time":"20:05 Uhr","title":"Aus Zimmer 1011 geholt","body":"Gerichtsakten zufolge wurde Abrar in die Zimmer 2011 und 2005 gebracht. Unter dem Vorwand einer Shibir-Verbindung begannen Verhör und Misshandlung."},{"time":"Fast 6 Stunden","title":"Cricket-Schläger und Stöcke","body":"Das Urteil beschreibt wiederholte Schläge. Das Gericht machte auch diejenigen verantwortlich, die hätten eingreifen können und es nicht taten."},{"time":"2:30 Uhr","title":"Ein junges Leben endete","body":"Abrar starb nach der langen Folter. Im Archiv seiner Kommilitonen steht die Erinnerung, dass er wenige Minuten zuvor noch geatmet hatte."},{"time":"3:00 Uhr","title":"Ein Wohnheim wachte auf","body":"Die Nachricht „Sie haben Abrar getötet“ ging von Tür zu Tür. Trotz der Angst handelten die Studierenden gemeinsam, sicherten Aufnahmen und verhinderten das Vertuschen."}],
+            "aftermathTitle":"Trauer wurde organisierter Widerstand","aftermathBody":"Am nächsten Morgen versammelten sich Studierende und formulierten zehn Forderungen. Kerzen, Laternen, Unterschriften und ein gemeinsamer Schwur trugen den Protest. 2021 erhielten zwanzig Angeklagte Todes- und fünf lebenslange Strafen; 2025 bestätigte das High Court die Urteile.",
+            "failureStat":"6 Stunden","failureTitle":"Im Wohnheim dauerte die Folter an; die schützenden Institutionen kamen zu spät","failureBody":"Die Tat wuchs in einem System aus politischem Einfluss, administrativer Nachlässigkeit und Angst. Das Urteil brachte Strafe, löschte aber die Frage nicht: Warum musste erst ein Mensch sterben, bevor die Institution erwachte?",
+            "memory":"Der BUET-Jahrgang 2017 schuf das Abrar-Archiv als Kampf gegen das Vergessen. Dieses Kapitel folgt seiner Erinnerung zurück durch die verschlossene Tür von Zimmer 2011.","quote":"Ein Facebook-Beitrag kann gelöscht werden. Ein dafür genommenes Leben nicht aus dem Gewissen einer Nation.","bridge":"Sechs Jahre später wird eine weitere junge Stimme am helllichten Tag zum Ziel—und die Trauer füllt das Gelände des Parlaments."
+          }
         }
       },
       "sources": [
+        {"label": "Abrar Fahad Archive · Biography and movement record", "url": "https://abrarfahadarchive.org/"},
+        {"label": "Bangladesh Supreme Court · High Court judgment", "url": "https://www.supremecourt.gov.bd/resources/documents/2218127_DeathRef_01of2022.pdf"},
         {"label": "BSS · High Court’s complete verdict", "url": "https://b.bssnews.net/law-and-court/269382"},
         {"label": "The Business Standard · HC releases full verdict", "url": "https://www.tbsnews.net/bangladesh/court/abrar-fahad-murder-case-hc-releases-full-verdict-1132341"}
       ]
@@ -109,6 +208,32 @@
       "image": "../img/sovereignty/ilias-ali.webp",
       "imageAlt": "এম ইলিয়াস আলীর প্রতিকৃতি",
       "credit": "প্রতিকৃতি: Ilias Ali · CC BY-SA 3.0",
+      "tour": {
+        "chapter": "দরজা ০২",
+        "place": "বনানী · ঢাকা",
+        "date": "১৭ এপ্রিল ২০১২ · রাত",
+        "title": "খোলা গাড়ির দরজা, নিভে যাওয়া ফোন",
+        "opening": "কখনো একটি রাষ্ট্র কাউকে কারাগারে নেয় না, আদালতেও তোলে না—শুধু পরিচিত পৃথিবী থেকে সরিয়ে দেয়। তারপর পরিবারকে রেখে যায় এমন এক অপেক্ষায়, যেখানে মৃত্যু বা জীবনের কোনো নিশ্চিত সংবাদ নেই।",
+        "personTitle": "সিলেটের মাঠ থেকে টিপাইমুখের প্রতিবাদ",
+        "personBody": "সাবেক সংসদ সদস্য এম ইলিয়াস আলী ছিলেন সিলেটের জনসম্পৃক্ত রাজনীতির পরিচিত মুখ। ভারতের টিপাইমুখ বাঁধ প্রকল্পের বিরুদ্ধে লংমার্চ ও গণআন্দোলন সংগঠনে তাঁর ভূমিকা তাঁকে জাতীয়ভাবে আলোচিত করে। পরিবার ও রাজনৈতিক সহকর্মীদের ভাষ্যে, এই অবস্থানই তাঁকে ক্ষমতাবানদের জন্য অস্বস্তিকর করে তুলেছিল।",
+        "moments": [
+          {"time": "১৭ এপ্রিল · রাত", "title": "ফেরার পথে অবরুদ্ধ গাড়ি", "body": "স্ত্রী তাহসিনা রুশদীরের বর্ণনা অনুযায়ী, হোটেল শেরাটন থেকে বাড়ি ফেরার পথে দুটি সাদা মাইক্রোবাস ইলিয়াস আলীর গাড়ি আটকে দেয়। সশস্ত্র সাদা পোশাকের লোকেরা তাঁকে ও চালক আনসার আলীকে তুলে নেয়।"},
+          {"time": "পরদিন", "title": "মানুষ নেই, গাড়ি পড়ে আছে", "body": "বনানীতে গাড়িটি পাওয়া যায় পরিত্যক্ত অবস্থায়—দরজা খোলা, ভেতরে মোবাইল ফোন। কিন্তু ইলিয়াস আলী ও আনসার আলীর আর কোনো সন্ধান মেলেনি।"},
+          {"time": "RAB-1 নথি", "title": "আটটি নম্বর, তিনটি দল", "body": "নেত্র নিউজের যাচাই করা গোপন RAB-1 অনুসন্ধান নথিতে আটটি CityCell নম্বর, অনুসরণকারী দল, অপহরণকারী দল এবং নজরদারি সহায়তাকারী তৃতীয় একটি দলের ছক উঠে আসে।"},
+          {"time": "নথির গন্তব্য", "title": "প্রতিবেদন পৌঁছেছিল, ব্যবস্থা পৌঁছায়নি", "body": "RAB-1-এর অনুসন্ধান DGFI, DMI ও RAB সদর দপ্তরে পাঠানো হয়েছিল বলে নথিতে উল্লেখ আছে। নেত্র নিউজের অনুসন্ধান অনুযায়ী, কোনো সংস্থাই দৃশ্যমান ব্যবস্থা নেয়নি।"}
+        ],
+        "aftermathTitle": "একটি গুম, তারপর গুম হয়ে যাওয়া তদন্ত",
+        "aftermathBody": "২০২২ সালে নেত্র নিউজ নথিগুলো প্রকাশ করে। সেখানে RAB গোয়েন্দা শাখার সদস্যদের সম্পৃক্ততার বিস্তারিত ইঙ্গিত, ফোন নজরদারির রেকর্ড এবং DGFI সদর দপ্তরের প্রবেশ-তথ্য ছিল। সংশ্লিষ্ট কর্মকর্তারা অভিযোগ অস্বীকার করেন; কিন্তু নথির সূত্র ধরে স্বচ্ছ রাষ্ট্রীয় তদন্ত ও পরিবারের কাছে পূর্ণ সত্য পৌঁছায়নি। ২০২৫ সালেও পরিবার জানতে চেয়েছে—ইলিয়াস আলী কোথায়?",
+        "failureStat": "১৪ বছর",
+        "failureTitle": "যে রাষ্ট্র তাঁকে খুঁজবে, সেই রাষ্ট্রের নথিতেই অপহরণের ছক",
+        "failureBody": "এটি শুধু একজন রাজনীতিকের অনুপস্থিতি নয়। এটি সেই ব্যবস্থার ছবি, যেখানে বাহিনীর ভেতরের অনুসন্ধানও কর্তৃপক্ষের টেবিলে থেমে যায়। পরিবার পায়নি মানুষটি, মরদেহ, কবর বা শেষ কথার অধিকার—কেবল অনন্ত অপেক্ষা।",
+        "memory": "চৌদ্দ বছর ধরে পরিবারটির জীবন থমকে আছে মৃত্যু ও জীবনের মাঝখানে—না আছে ফিরে পাওয়ার আনন্দ, না আছে শেষ বিদায়ের অধিকার। একটি মানুষকে অদৃশ্য করার সঙ্গে এভাবেই অদৃশ্য করে দেওয়া হয় একটি পরিবারের স্বাভাবিক সময়।",
+        "quote": "একটি খোলা গাড়ির দরজা আজও প্রশ্ন করে—মানুষটি কোথায়, আর রাষ্ট্র এত বছর নীরব কেন?",
+        "bridge": "সাত বছর পরে—রাষ্ট্রীয় নীরবতার এই পথ পৌঁছাবে দেশের সবচেয়ে মর্যাদাপূর্ণ বিশ্ববিদ্যালয়ের একটি বন্ধ কক্ষে।"
+      },
+      "gallery": [
+        {"src": "../img/sovereignty/ilias-ali.webp", "alt": "২০১১ সালে এম ইলিয়াস আলী", "caption": "নিখোঁজ হওয়ার এক বছর আগে এম ইলিয়াস আলী", "credit": "Ilias Ali · CC BY-SA 3.0"}
+      ],
       "translations": {
         "en": {
           "age": "Missing since 17 April 2012", "classification": "Enforced disappearance and unresolved death", "status": "Under official investigation",
@@ -117,7 +242,16 @@
           "connection": "No court judgment establishes that the Indian state directly carried out Ilias Ali’s disappearance. Political claims of an India connection exist, while the public investigation currently points principally toward Bangladesh’s former security structure.",
           "known": "The abduction, disappearance, recovery of the vehicle and prolonged investigation are on public record. The chief prosecutor has said investigators found that he was killed after abduction.",
           "unresolved": "The full sequence, location of his remains, those who gave the order and judicial resolution of the allegations remain outstanding.",
-          "imageAlt": "Portrait of M Ilias Ali"
+          "imageAlt": "Portrait of M Ilias Ali",
+          "tour": {
+            "chapter":"Door 02","place":"Banani · Dhaka","date":"17 April 2012 · Night","title":"An open car door, a silenced phone",
+            "opening":"Sometimes a state does not imprison a person or bring him before a court. It simply removes him from the known world, leaving a family suspended between life and death without an answer.",
+            "personTitle":"From Sylhet’s streets to the Tipaimukh campaign","personBody":"Former MP M Ilias Ali was a familiar grassroots political figure in Sylhet. His role in organising opposition to India’s Tipaimukh Dam brought him national attention. His family and colleagues have long said that stance made him inconvenient to powerful interests.",
+            "moments":[{"time":"17 April · Night","title":"The car was blocked on the way home","body":"According to his wife Tahsina Rushdir, two white microbuses blocked the car after he left Hotel Sheraton. Armed men in plain clothes took Ilias and driver Ansar Ali."},{"time":"The next day","title":"The car remained; the people did not","body":"The vehicle was found abandoned in Banani, its door open and phones inside. No trace of Ilias or Ansar has been found."},{"time":"RAB-1 document","title":"Eight numbers, three teams","body":"A secret RAB-1 inquiry authenticated by Netra News mapped eight CityCell numbers and three teams: surveillance, pursuit and abduction."},{"time":"Where the report went","title":"The document travelled; action did not","body":"The findings were reportedly sent to DGFI, DMI and RAB headquarters. Netra News found no visible action by any of those agencies."}],
+            "aftermathTitle":"A disappearance followed by a disappearing investigation","aftermathBody":"Netra News published the documents in 2022, including surveillance records and evidence pointing toward RAB’s intelligence wing. Named officers denied the claims, but no transparent state investigation delivered the full truth to the family. In 2025 they were still asking: where is Ilias Ali?",
+            "failureStat":"14 years","failureTitle":"The state meant to find him held a map of the abduction","failureBody":"This is more than the absence of a politician. An internal inquiry appears to have stopped at official desks, leaving a family without a person, a body, a grave or even the right to a final answer.",
+            "memory":"For fourteen years, a family’s life has been held between life and death—with neither the joy of a return nor the right to a final farewell. When a person is disappeared, a family’s ordinary sense of time disappears with him.","quote":"An open car door still asks: where is the man, and why has the state been silent for so long?","bridge":"Seven years later, this road of official silence reaches a closed room inside the country’s most prestigious university."
+          }
         },
         "de": {
           "age": "Vermisst seit 17. April 2012", "classification": "Verschwindenlassen und ungeklärter Tod", "status": "Amtliche Ermittlungen laufen",
@@ -126,10 +260,20 @@
           "connection": "Kein Gerichtsurteil stellt fest, dass der indische Staat das Verschwinden direkt veranlasste. Politische Vorwürfe einer Indien-Verbindung bestehen; die derzeit öffentlichen Ermittlungen weisen vor allem auf frühere bangladeschische Sicherheitsstrukturen.",
           "known": "Entführung, Verschwinden, Fund des Fahrzeugs und langjährige Ermittlungen sind öffentlich dokumentiert. Der Chefankläger erklärte, Ermittler hätten Hinweise auf eine Tötung nach der Entführung gefunden.",
           "unresolved": "Der vollständige Ablauf, der Verbleib der sterblichen Überreste, die Auftraggeber und eine gerichtliche Klärung stehen noch aus.",
-          "imageAlt": "Porträt von M Ilias Ali"
+          "imageAlt": "Porträt von M Ilias Ali",
+          "tour": {
+            "chapter":"Tür 02","place":"Banani · Dhaka","date":"17. April 2012 · Nacht","title":"Eine offene Autotür, ein verstummtes Telefon",
+            "opening":"Manchmal sperrt ein Staat einen Menschen nicht ein und stellt ihn vor kein Gericht. Er entfernt ihn einfach aus der bekannten Welt und lässt eine Familie ohne Antwort zwischen Leben und Tod zurück.",
+            "personTitle":"Von Sylhets Straßen zum Protest gegen Tipaimukh","personBody":"Der ehemalige Abgeordnete M Ilias Ali war eine bekannte politische Stimme in Sylhet. Seine Rolle im Widerstand gegen Indiens Tipaimukh-Staudamm machte ihn landesweit bekannt. Familie und Weggefährten sagen seit Jahren, diese Haltung habe ihn für Mächtige unbequem gemacht.",
+            "moments":[{"time":"17. April · Nacht","title":"Das Auto wurde auf dem Heimweg gestoppt","body":"Nach Aussage seiner Frau Tahsina Rushdir blockierten zwei weiße Kleinbusse das Auto. Bewaffnete Männer in Zivil nahmen Ilias und seinen Fahrer Ansar Ali mit."},{"time":"Am nächsten Tag","title":"Das Auto blieb, die Menschen nicht","body":"Der Wagen wurde verlassen in Banani gefunden, die Tür offen, Telefone im Inneren. Von Ilias und Ansar fehlt jede Spur."},{"time":"RAB-1-Dokument","title":"Acht Nummern, drei Teams","body":"Eine von Netra News geprüfte geheime RAB-1-Untersuchung beschreibt acht CityCell-Nummern und drei Teams für Überwachung, Verfolgung und Entführung."},{"time":"Wohin der Bericht ging","title":"Das Dokument kam an; Maßnahmen nicht","body":"Die Erkenntnisse wurden demnach an DGFI, DMI und das RAB-Hauptquartier geschickt. Netra News fand keine sichtbare Reaktion der Behörden."}],
+            "aftermathTitle":"Auf das Verschwinden folgte eine verschwundene Untersuchung","aftermathBody":"Netra News veröffentlichte 2022 Überwachungsdaten und Hinweise auf den RAB-Geheimdienst. Genannte Offiziere bestritten die Vorwürfe, doch eine transparente staatliche Untersuchung gab der Familie keine vollständige Wahrheit. Noch 2025 fragte sie: Wo ist Ilias Ali?",
+            "failureStat":"14 Jahre","failureTitle":"Der Staat, der ihn suchen sollte, besaß einen Plan der Entführung","failureBody":"Eine interne Untersuchung scheint an Behörden-Schreibtischen geendet zu haben. Zurück blieb eine Familie ohne Menschen, Leichnam, Grab oder das Recht auf eine letzte Antwort.",
+            "memory":"Seit vierzehn Jahren hängt das Leben einer Familie zwischen Leben und Tod—ohne Freude einer Rückkehr und ohne Recht auf Abschied. Mit einem Menschen verschwindet so auch das normale Zeitempfinden seiner Familie.","quote":"Eine offene Autotür fragt bis heute: Wo ist der Mensch, und warum schweigt der Staat so lange?","bridge":"Sieben Jahre später führt dieser Weg des amtlichen Schweigens in einen verschlossenen Raum der angesehensten Universität des Landes."
+          }
         }
       },
       "sources": [
+        {"label": "Netra News · Leaked documents: RAB abducted Ilias Ali", "url": "https://netra.news/2022/leaked-documents-rab-abducted-ilias-ali/"},
         {"label": "BSS · Ilias’s Tipaimukh campaign remembered", "url": "https://b.bssnews.net/others/264086"},
         {"label": "The Daily Star · Ilias Ali, driver go missing", "url": "https://www.thedailystar.net/news-detail-230821"},
         {"label": "The Daily Star · Prosecutor says Ilias was killed after abduction", "url": "https://www.thedailystar.net/news/bangladesh/news/bnp-leader-ilias-ali-killed-after-abduction-ict-chief-prosecutor-tajul-4060716"},
@@ -154,6 +298,34 @@
       "contextImage": "../img/sovereignty/hadi-funeral-aerial.webp",
       "contextAlt": "উপর থেকে দেখা ঢাকায় শরীফ ওসমান হাদির জানাজায় বিপুল জনসমাগম",
       "credit": "প্রতিকৃতি: Rayhan Ahmed Tamim / আফতাবুজ্জামান · CC BY 4.0; জানাজা: Pinu Rahman · CC BY-SA 4.0",
+      "tour": {
+        "chapter": "দরজা ০৪",
+        "place": "বক্স কালভার্ট রোড · বিজয়নগর",
+        "date": "১২ ডিসেম্বর ২০২৫ · দুপুর ২টা ২০",
+        "title": "দিনের আলোয় একটি গুলি, তারপর জনসমুদ্র",
+        "opening": "তিনি বলতেন, মানুষকে মেরে ফেলা যায়—চিন্তাকে নয়। ডিসেম্বরের এক দুপুরে মোটরসাইকেল থেকে ছোড়া গুলি তাঁর মাথায় লাগে। ছয় দিন পর তাঁর কণ্ঠ থামে; কিন্তু ঢাকার রাস্তায় নেমে আসে লাখো মানুষের শোক।",
+        "personTitle": "কবি, শিক্ষক, সংগঠক—তারপর একটি প্রজন্মের উচ্চকণ্ঠ",
+        "personBody": "১৯৯৩ সালে ঝালকাঠির নলছিটিতে জন্ম শরীফ ওসমান বিন হাদির। ঢাকা বিশ্ববিদ্যালয়ে পড়াশোনা, কবিতার বই ‘পূবাকাশ’, শিক্ষকতা এবং ইনকিলাব মঞ্চের মুখপাত্র হিসেবে তাঁর যাত্রা—সবকিছুর কেন্দ্রে ছিল স্বাধীনতা, মর্যাদা ও রাজনৈতিক জবাবদিহির ভাষা। জুলাই অভ্যুত্থানের পর তাঁর বক্তৃতা তাঁকে তরুণদের কাছে এক পরিচিত প্রতিরোধী কণ্ঠে পরিণত করে।",
+        "moments": [
+          {"time": "হামলার আগে", "title": "বিদেশি নম্বর থেকে হুমকি", "body": "হামলার দিন প্রকাশিত সংবাদে তাঁর সহকর্মীরা জানান, বিদেশি নম্বর থেকে হাদি ও তাঁর পরিবারকে হত্যার হুমকি দেওয়া হচ্ছিল। তবু প্রকাশ্য রাজনৈতিক কর্মসূচিতে তাঁর জন্য কার্যকর নিরাপত্তা নিশ্চিত হয়নি।"},
+          {"time": "দুপুর ২টা ২০", "title": "মোটরসাইকেল থেকে গুলি", "body": "বক্স কালভার্ট রোডে প্রচারণায় যাওয়ার পথে মোটরসাইকেল আরোহীরা গুলি করে পালিয়ে যায়। গুলি তাঁর মাথা ও ডান কানের নিচে লাগে।"},
+          {"time": "১৫–১৮ ডিসেম্বর", "title": "ঢাকা থেকে সিঙ্গাপুর", "body": "ঢাকা মেডিকেল ও এভারকেয়ার হাসপাতালের পর তাঁকে এয়ার অ্যাম্বুলেন্সে সিঙ্গাপুর নেওয়া হয়। ১৮ ডিসেম্বর চিকিৎসাধীন অবস্থায় তাঁর মৃত্যু হয়।"},
+          {"time": "২০ ডিসেম্বর", "title": "একজনের জানাজা, লাখো মানুষের বিদায়", "body": "সংসদ ভবন এলাকায় তাঁর জানাজায় মানুষের ঢল নামে। ওপর থেকে তোলা ছবিতে শহরের সবুজ মাঠ মানুষে মানুষে ভরে যায়—শোক তখন ব্যক্তিগত থাকে না।"}
+        ],
+        "aftermathTitle": "সীমান্ত পেরিয়ে গেল সন্দেহভাজনরা, অপেক্ষায় রইল বিচার",
+        "aftermathBody": "পুলিশ ১৭ জনের বিরুদ্ধে অভিযোগপত্র দিলেও বাদীপক্ষ তা প্রত্যাখ্যান করে আরও তদন্ত চায়। প্রধান দুই সন্দেহভাজন ভারতে পালিয়ে যায় এবং ২০২৬ সালের মার্চে পশ্চিমবঙ্গে গ্রেপ্তার হয়। জুলাই পর্যন্ত বাংলাদেশ তাদের প্রত্যর্পণের জবাবের অপেক্ষায় ছিল। একই সময়ে CID-এর সম্পূরক তদন্ত প্রতিবেদন জমার সময় অন্তত ১৭ বার পিছিয়েছে।",
+        "failureStat": "১৭ বার",
+        "failureTitle": "হুমকি ছিল, নিরাপত্তা ছিল না; হত্যা হলো, তদন্তের সময় পিছোল",
+        "failureBody": "একজন প্রকাশ্য রাজনৈতিক সংগঠককে দিনের আলোয় গুলি করা এবং সন্দেহভাজনদের সীমান্ত পেরিয়ে যেতে দেওয়া—এটি নিরাপত্তার ব্যর্থতা। হত্যার পর রাষ্ট্র চিকিৎসা ও কূটনৈতিক উদ্যোগ নিয়েছে; কিন্তু শোকবার্তা দায়িত্বের বিকল্প নয়। পূর্ণ তদন্ত, প্রত্যর্পণ ও দ্রুত বিচারই রাষ্ট্রের অসমাপ্ত কাজ।",
+        "memory": "হাদির স্মৃতি-আর্কাইভে তাঁর কবিতা, বক্তৃতা, পরিবার, সহযোদ্ধা এবং জানাজার জনসমুদ্র পাশাপাশি আছে। মানুষটি কেবল শেষ গুলির মুহূর্ত নন—তিনি তার আগের বত্রিশ বছরের জীবন, আর তার পরের লাখো মানুষের উচ্চারণও।",
+        "quote": "“মানুষ মরতে পারে, চিন্তা মরতে পারে না”—এই বাক্য এখন তাঁর কণ্ঠ ছাড়িয়ে স্মৃতির সম্পদ।",
+        "bridge": "চারটি দরজা পেরোনো হলো। কিন্তু সীমান্তের হিসাব চারটি নামে থামে না—এবার সামনে নামের দীর্ঘ করিডর।"
+      },
+      "gallery": [
+        {"src": "../img/sovereignty/hadi-archive-portrait.webp", "alt": "শরীফ ওসমান হাদির স্মারক প্রতিকৃতি", "caption": "কবি ও সংগঠক শরীফ ওসমান হাদি", "credit": "Osman Hadi Memorial Archive"},
+        {"src": "../img/sovereignty/hadi-archive-hero.webp", "alt": "মঞ্চে বক্তব্যরত ওসমান হাদির স্মারক শিল্পকর্ম", "caption": "মঞ্চের যে কণ্ঠ তরুণদের কাছে পৌঁছেছিল", "credit": "Osman Hadi Memorial Archive"},
+        {"src": "../img/sovereignty/hadi-funeral-aerial.webp", "alt": "সংসদ ভবন এলাকায় ওসমান হাদির জানাজায় জনসমুদ্র", "caption": "২০ ডিসেম্বর ২০২৫ · সংসদ ভবনের মাঠ", "credit": "Pinu Rahman · CC BY-SA 4.0"}
+      ],
       "translations": {
         "en": {
           "age": "32 years old", "classification": "Killing of an anti-hegemony voice", "status": "Case under investigation",
@@ -162,7 +334,16 @@
           "connection": "Hadi was a fierce critic of India and Sheikh Hasina. Bangladesh police said suspects fled to India; two suspects were arrested in West Bengal in March 2026. This establishes an India-linked investigative dimension, but no public evidence establishes that the Indian state ordered the killing.",
           "known": "The shooting, death, identification of suspects and arrests in India are established in public police and news records.",
           "unresolved": "Who ordered the killing, the full motive, any wider political network and final justice have not yet been determined.",
-          "imageAlt": "Sharif Osman Hadi speaking", "contextAlt": "Crowd at Sharif Osman Hadi’s funeral on Manik Mia Avenue in Dhaka"
+          "imageAlt": "Sharif Osman Hadi speaking", "contextAlt": "Crowd at Sharif Osman Hadi’s funeral on Manik Mia Avenue in Dhaka",
+          "tour": {
+            "chapter":"Door 04","place":"Box Culvert Road · Bijoynagar","date":"12 December 2025 · 2:20pm","title":"A bullet in daylight, then a sea of people",
+            "opening":"He said a person could be killed but an idea could not. One December afternoon a motorcycle-borne gunman shot him in the head. Six days later his voice stopped; hundreds of thousands filled Dhaka with grief.",
+            "personTitle":"Poet, teacher, organiser—then the loud voice of a generation","personBody":"Born in Nalchity in 1993, Sharif Osman Bin Hadi studied at Dhaka University, taught, published the poetry collection The Eastern Sky and became spokesperson of Inqilab Moncho. After the July uprising, his language of freedom, dignity and accountability made him a recognisable voice among young Bangladeshis.",
+            "moments":[{"time":"Before the attack","title":"Threats from foreign numbers","body":"On the day of the attack, colleagues told reporters that Hadi and his family had received death threats from foreign numbers. Effective protection was not secured for his public campaign."},{"time":"2:20pm","title":"Shots from a motorcycle","body":"Motorcycle-borne assailants opened fire on Box Culvert Road as he travelled to campaign. Bullets struck his head and below his right ear."},{"time":"15–18 December","title":"From Dhaka to Singapore","body":"After treatment at Dhaka Medical and Evercare, he was flown to Singapore. He died there on 18 December."},{"time":"20 December","title":"One funeral, hundreds of thousands of mourners","body":"People flooded the Parliament grounds for his janaza. From the air, the city’s green fields disappeared beneath a sea of mourners."}],
+            "aftermathTitle":"Suspects crossed the border; justice stayed behind","aftermathBody":"Police charged 17 people, but the complainant sought further investigation. Two principal suspects fled to India and were arrested in West Bengal in March 2026. By July, Bangladesh still awaited extradition; the CID’s supplementary report had been delayed at least 17 times.",
+            "failureStat":"17 times","failureTitle":"Threats came without protection; murder was followed by delay","failureBody":"A public organiser was shot in daylight and key suspects crossed the border. The state funded treatment and began diplomacy afterward, but condolences are not accountability. A complete investigation, extradition and timely trial remain its unfinished duty.",
+            "memory":"Hadi’s memorial archive holds his poems, speeches, family, comrades and the sea of people at his funeral. He is more than the final gunshot: he is the thirty-two years before it and the voices that followed.","quote":"‘A person can die; an idea cannot’ now belongs to public memory beyond his own voice.","bridge":"Four doors have been crossed. But the border’s history does not end with four names—next comes the long corridor of names."
+          }
         },
         "de": {
           "age": "32 Jahre", "classification": "Tötung einer anti-hegemonialen Stimme", "status": "Fall wird untersucht",
@@ -171,10 +352,22 @@
           "connection": "Hadi war ein scharfer Kritiker Indiens und Sheikh Hasinas. Die Polizei Bangladeschs erklärte, Verdächtige seien nach Indien geflohen; zwei wurden im März 2026 in Westbengalen festgenommen. Damit besteht eine Indien-Dimension der Ermittlungen, doch es gibt keinen öffentlich belegten Nachweis eines indischen Staatsauftrags.",
           "known": "Schussattacke, Tod, Identifizierung der Verdächtigen und Festnahmen in Indien sind öffentlich dokumentiert.",
           "unresolved": "Auftraggeber, vollständiges Motiv, mögliches politisches Netzwerk und abschließende Justiz sind noch ungeklärt.",
-          "imageAlt": "Sharif Osman Hadi bei einer Rede", "contextAlt": "Menschenmenge bei Sharif Osman Hadis Beerdigung auf der Manik Mia Avenue in Dhaka"
+          "imageAlt": "Sharif Osman Hadi bei einer Rede", "contextAlt": "Menschenmenge bei Sharif Osman Hadis Beerdigung auf der Manik Mia Avenue in Dhaka",
+          "tour": {
+            "chapter":"Tür 04","place":"Box Culvert Road · Bijoynagar","date":"12. Dezember 2025 · 14:20 Uhr","title":"Eine Kugel am helllichten Tag, dann ein Meer aus Menschen",
+            "opening":"Er sagte, ein Mensch könne sterben, eine Idee nicht. An einem Dezembernachmittag traf ihn die Kugel eines Motorradschützen am Kopf. Sechs Tage später verstummte seine Stimme; Hunderttausende füllten Dhaka mit Trauer.",
+            "personTitle":"Dichter, Lehrer, Organisator—dann die laute Stimme einer Generation","personBody":"Sharif Osman Bin Hadi wurde 1993 in Nalchity geboren, studierte an der Universität Dhaka, unterrichtete, veröffentlichte den Gedichtband The Eastern Sky und wurde Sprecher von Inqilab Moncho. Nach dem Juli-Aufstand machte ihn seine Sprache von Freiheit, Würde und Verantwortung unter jungen Menschen bekannt.",
+            "moments":[{"time":"Vor dem Angriff","title":"Drohungen von ausländischen Nummern","body":"Am Tag des Angriffs berichteten Weggefährten von Todesdrohungen gegen Hadi und seine Familie. Für seinen öffentlichen Wahlkampf wurde kein wirksamer Schutz gewährleistet."},{"time":"14:20 Uhr","title":"Schüsse von einem Motorrad","body":"Motorradfahrer eröffneten auf der Box Culvert Road das Feuer. Kugeln trafen seinen Kopf und den Bereich unter dem rechten Ohr."},{"time":"15.–18. Dezember","title":"Von Dhaka nach Singapur","body":"Nach Behandlungen in Dhaka wurde er nach Singapur geflogen. Dort starb er am 18. Dezember."},{"time":"20. Dezember","title":"Eine Beerdigung, Hunderttausende Trauernde","body":"Zum Totengebet strömten Menschen auf das Parlamentsgelände. Aus der Luft verschwanden die grünen Flächen unter einem Meer von Trauernden."}],
+            "aftermathTitle":"Verdächtige überquerten die Grenze; die Justiz blieb zurück","aftermathBody":"Die Polizei klagte 17 Personen an, doch der Kläger verlangte weitere Ermittlungen. Zwei Hauptverdächtige flohen nach Indien und wurden im März 2026 in Westbengalen festgenommen. Im Juli wartete Bangladesch noch auf die Auslieferung; der CID-Bericht war mindestens 17-mal verschoben worden.",
+            "failureStat":"17-mal","failureTitle":"Drohungen blieben ohne Schutz; auf den Mord folgte Verzögerung","failureBody":"Ein öffentlicher Organisator wurde bei Tageslicht angeschossen, Hauptverdächtige überquerten die Grenze. Behandlung und Diplomatie folgten, doch Beileid ersetzt keine Verantwortung. Vollständige Ermittlungen, Auslieferung und ein zügiger Prozess bleiben unerledigt.",
+            "memory":"Hadis Gedenkarchiv bewahrt Gedichte, Reden, Familie, Weggefährten und das Menschenmeer seiner Beerdigung. Er ist mehr als der letzte Schuss—er ist die zweiunddreißig Jahre davor und die Stimmen danach.","quote":"„Ein Mensch kann sterben; eine Idee nicht“ gehört heute über seine eigene Stimme hinaus zur öffentlichen Erinnerung.","bridge":"Vier Türen liegen hinter uns. Doch die Grenzgeschichte endet nicht mit vier Namen—nun folgt der lange Korridor der Namen."
+          }
         }
       },
       "sources": [
+        {"label": "Osman Hadi Memorial Archive · Life, photos and funeral", "url": "https://osmanhadi.info/"},
+        {"label": "The Business Standard · Probe report delayed for 17th time", "url": "https://www.tbsnews.net/bangladesh/court/osman-hadi-murder-case-further-probe-report-submission-deferred-to15-july-1474136"},
+        {"label": "BSS · Bangladesh awaits India response on extradition", "url": "https://www.bssnews.net/news-flash/406183"},
         {"label": "Associated Press · Bangladesh mourns slain activist", "url": "https://apnews.com/article/b137d572e22ebaf3dc1a1e684225da73"},
         {"label": "Associated Press · Suspects arrested in India", "url": "https://apnews.com/article/5d1f04a59601203c2e50c99116a9e217"}
       ]

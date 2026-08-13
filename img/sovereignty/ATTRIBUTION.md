@@ -10,5 +10,10 @@
 - `border-fence.webp`: “Indo-Bangladeshi Barrier.JPG” by Nicolas Merky, licensed under CC BY-SA 3.0. Source: https://commons.wikimedia.org/wiki/File:Indo-Bangladeshi_Barrier.JPG
 - `felani-memorial.webp`: “Adilur Rahman Khan with journalists at Felani Avenue nameplate unveiling, Gulshan-2, Dhaka, 2025-12-16.jpg” by Bangladesh Press Information Department, public domain. Source: https://commons.wikimedia.org/wiki/File:Adilur_Rahman_Khan_with_journalists_at_Felani_Avenue_nameplate_unveiling,_Gulshan-2,_Dhaka,_2025-12-16.jpg
 - `felani-father-grave.webp`: Felani’s father Nurul Islam standing beside her grave, photographed by a local journalist in Kurigram and reproduced in Odhikar’s 2011 fact-finding report. Source: https://odhikar.org/wp-content/uploads/2011/03/Felani-killed-BSF-Fact-finding-report-2011-eng.pdf
+- `abrar-archive-portrait.webp`: Abrar Fahad at his desk, preserved by BUET Class of ’17 in the Abrar Fahad Archive and reproduced here in its documentary context. Source: https://abrarfahadarchive.org/
+- `abrar-movement.webp`: BUET students demanding justice after Abrar Fahad’s murder, preserved by BUET Class of ’17 in the Abrar Fahad Archive and reproduced here in its documentary context. Source: https://abrarfahadarchive.org/
+- `abrar-lanterns.webp`: Lanterns and lights during the BUET students’ remembrance movement, preserved by BUET Class of ’17 in the Abrar Fahad Archive and reproduced here in its documentary context. Source: https://abrarfahadarchive.org/
+- `hadi-archive-portrait.webp`: Sharif Osman Hadi memorial portrait, preserved by the Osman Hadi Memorial Archive and reproduced here in its documentary context. Source: https://osmanhadi.info/
+- `hadi-archive-hero.webp`: Sharif Osman Hadi speaking on stage, preserved by the Osman Hadi Memorial Archive and reproduced here in its documentary context. Source: https://osmanhadi.info/
 
 Images were resized and converted to WebP for web delivery. On-page credits are retained in the relevant story chapters.
