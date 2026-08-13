@@ -1,8 +1,8 @@
 const COPY = {
   bn: {
     skip:'মূল লেখায় যান', archiveLabel:'বাংলাদেশের স্মৃতি ও সার্বভৌমত্ব', navStories:'ঘটনাস্থল', navNames:'সীমান্তের নাম', navEvidence:'উৎসসমূহ', share:'শেয়ার',
-    heroKicker:'বাংলাদেশের সার্বভৌমত্বের অসমাপ্ত ইতিহাস', heroTitle:'এই ইতিহাস<br><em>বাংলাদেশের।</em>', heroLead:'সার্বভৌমত্ব শুধু মানচিত্রের সবুজ রেখা নয়। সীমান্তে একটি মেয়ের জীবন, নদীর প্রশ্নে দাঁড়ানো একজন নেতার নিরাপত্তা, দেশের স্বার্থ নিয়ে লেখা এক ছাত্রের কণ্ঠ, আধিপত্যের বিরুদ্ধে বলা এক তরুণের সাহস—সবই এর অংশ। চলুন, সেই অসমাপ্ত ইতিহাসের ভেতর দিয়ে হাঁটি।', enterStories:'ইতিহাসের ভেতর হাঁটুন', enterNames:'সীমান্তের নামগুলো পড়ুন', heroInstruction:'ধীরে নামুন · সামনে চারটি সময়, চারটি বাংলাদেশ', heroFelani:'ভোর ৬টা · অনন্তপুর', heroIlias:'একটি খোলা দরজা · বনানী', heroAbrar:'ছয় ঘণ্টা · রুম ২০১১', heroHadi:'দুপুর ২টা ২০ · বিজয়নগর',
-    prologueKicker:'পথ দেখাব আমরা', prologueTitle:'দূর থেকে নয়।<br><em>ঘটনাস্থলে দাঁড়িয়ে পড়ুন।</em>', prologueBody:'আমরা আপনাকে চারটি জায়গায় নিয়ে যাব। কোথাও বাবার মতো অসহায় হয়ে কাঁটাতারের দিকে তাকাতে হবে। কোথাও খোলা গাড়ির দরজার পাশে দাঁড়িয়ে নিখোঁজ দুই মানুষকে খুঁজতে হবে। কোথাও হলের বন্ধ দরজার বাইরে ছয় ঘণ্টা অপেক্ষা করতে হবে। কোথাও একটি গুলির পর জনসমুদ্রে মিশে যেতে হবে।', prologueQuote:'এই পথের প্রতিটি প্রশ্ন বাংলাদেশের—আর প্রতিটি অপেক্ষাও আমাদের।', routeLabel:'স্মৃতি-মানচিত্র', routeFelani:'অনন্তপুর · যে ভোর ঘরে ফেরেনি', routeIlias:'বনানী · যে রাত শেষ হয়নি', routeAbrar:'বুয়েট · যে দরজা সময়মতো খোলেনি', routeHadi:'বিজয়নগর · যে কণ্ঠ জনসমুদ্র হলো',
+    heroKicker:'হাসিনা আমল ও তার দীর্ঘ ছায়া · ২০১১—২০২৫', heroTitle:'বাংলাদেশের পক্ষে দাঁড়ানো<br><em>যখন বিপজ্জনক ছিল।</em>', heroLead:'সীমান্তে বাংলাদেশির মৃত্যু ‘স্বাভাবিক’ হয়ে গিয়েছিল। টিপাইমুখের বিরুদ্ধে দাঁড়ানো কণ্ঠ গুম হলো। ভারতের সঙ্গে অসম চুক্তি নিয়ে লেখা এক ছাত্রকে নিজের হলেই পিটিয়ে মারল ছাত্রলীগ। শাসন পতনের পরও তার দীর্ঘ ছায়ায় আধিপত্যবিরোধী আরেক তরুণ গুলিবিদ্ধ হলেন; সন্দেহভাজনরা পালাল ভারতে। চারটি ঘটনা এক নয়—তবু প্রতিবারই বাংলাদেশের পক্ষে দাঁড়ানো মানুষটির পাশে রাষ্ট্রকে পাওয়া যায়নি।', enterStories:'সময়টিতে ফিরে যান', enterNames:'সীমান্তের নামগুলো পড়ুন', heroInstruction:'ধীরে নামুন · আপনি একটি সময়ের ভেতর দিয়ে হাঁটবেন', heroFelani:'ভোর ৬টা · অনন্তপুর', heroIlias:'একটি খোলা দরজা · বনানী', heroAbrar:'ছয় ঘণ্টা · রুম ২০১১', heroHadi:'দুপুর ২টা ২০ · বিজয়নগর',
+    prologueKicker:'একটি শাসনের প্রতিকৃতি', prologueTitle:'চারটি দৃশ্য।<br><em>একই নীরবতার ছায়া।</em>', prologueBody:'এই যাত্রা ২০১১ সালের কুড়িগ্রাম থেকে শুরু হবে। তারপর ২০১২-এর বনানী, ২০১৯-এর বুয়েট এবং ২০২৫-এর বিজয়নগর। কোথাও হত্যাকারী ছিল ভারতীয় সীমান্তরক্ষী; কোথাও হাসিনা আমলের গুমযন্ত্র; কোথাও ক্ষমতাসীন দলের ছাত্রসংগঠন; কোথাও হামলার পর সীমান্ত পেরিয়ে যাওয়া সন্দেহভাজন। আলাদা ঘটনার মাঝখানে যে রেখাটি বারবার দেখা যায়, সেটি রাষ্ট্রের নীরবতা—আর ভারতের সামনে বাংলাদেশের স্বার্থকে ছোট করে দেখার রাজনীতি।', prologueQuote:'তাঁদের গল্প এক নয়। কিন্তু প্রত্যেকে বাংলাদেশের পক্ষে কথা বলেছিলেন—আর তাঁদের রক্ষা করতে রাষ্ট্র ব্যর্থ হয়েছিল।', routeLabel:'স্মৃতি-মানচিত্র', routeFelani:'অনন্তপুর · যে ভোর ঘরে ফেরেনি', routeIlias:'বনানী · যে রাত শেষ হয়নি', routeAbrar:'বুয়েট · যে দরজা সময়মতো খোলেনি', routeHadi:'বিজয়নগর · যে কণ্ঠ জনসমুদ্র হলো',
     storiesKicker:'২০১১ · কুড়িগ্রাম', storiesTitle:'চলুন, প্রথমে অনন্তপুর', storiesIntro:'কুয়াশার ভেতর একটি সীমান্ত। একজন বাবা ওপারে দাঁড়িয়ে। আর কাঁটাতারের ওপর আটকে আছে তাঁর মেয়ে। আমাদের যাত্রা শুরু হবে ঠিক সেই ভোর থেকে।', enterChapter:'এই ঘটনায় নামুন', personLabel:'গুলি, গুম বা হত্যার আগে', momentLabel:'এখন ঘড়ির দিকে তাকান', aftermathLabel:'ঘটনাটি এখানেই শেষ হয়নি', failureLabel:'বাংলাদেশ যে উত্তর পায়নি', sourcesLabel:'উৎস ও দলিল দেখুন', dossierLabel:'রাষ্ট্রের ভেতরের গোপন কাগজ', dossierText:'নজরদারি, অনুসরণ ও তুলে নেওয়া—আটটি নম্বর আর তিনটি দলের ছক।',
     wallKicker:'চারটি গল্পের বাইরে', wallTitle:'সীমান্তে আরও কত নাম হারিয়েছি', wallLead:'ফেলানীর ছবিটি পৃথিবী দেখেছে। কিন্তু সীমান্তে নিহত অনেক বাংলাদেশির মুখ আমরা কোনোদিন দেখিনি। তাই এখানে সংখ্যা নয়—যতগুলো নাম নথি থেকে উদ্ধার করা গেছে, তাদের মানুষ হিসেবেই পাশাপাশি রাখা হয়েছে।', searchLabel:'নাম বা জেলা খুঁজুন', searchPlaceholder:'নাম / জেলা', yearLabel:'বছর', allYears:'সব বছর', documentedNames:'নথিভুক্ত নাম', noNames:'এই অনুসন্ধানে কোনো নাম পাওয়া যায়নি।', sourceRecord:'উৎসের রেকর্ড দেখুন', wallSourceNote:'এটি পূর্ণাঙ্গ সরকারি তালিকা নয়। যে নামগুলো প্রকাশ্য মানবাধিকার নথি ও সংবাদ রেকর্ডে পাওয়া গেছে, কেবল সেগুলোই এখানে রাখা হয়েছে। নিচের লিংক থেকে মূল নথি পড়া যাবে।',
     methodKicker:'সব গল্পের শেষে', methodTitle:'উৎসগুলো এখানে একসঙ্গে রাখা আছে', keyFact:'ঘটনাস্থলে মানুষ', keyFactBody:'তারিখের আগে মানুষটির জীবন, পরিবার ও স্বপ্নকে দেখা হয়েছে।', keyCourt:'তারপর রাষ্ট্রের ভূমিকা', keyCourtBody:'ঘটনার আগে সুরক্ষা এবং পরে তদন্ত ও বিচারের ব্যর্থতা পাশাপাশি রাখা হয়েছে।', keyInquiry:'মূল নথি আলাদা', keyInquiryBody:'প্রতিটি ঘটনার শেষে সংবাদ, আদালতের কাগজ ও স্মৃতি-আর্কাইভের লিংক আছে।', correction:'কোনো নাম, তারিখ বা তথ্য সংশোধনের প্রমাণ থাকলে আমাদের জানান: ncpdiasporade@gmail.com',
@@ -42,7 +42,7 @@ function applyCopy() {
   $$('[data-copy-html]').forEach(node => { const value = copy[node.dataset.copyHtml]; if (value) node.innerHTML = value; });
   $$('[data-placeholder]').forEach(node => { const value = copy[node.dataset.placeholder]; if (value) node.placeholder = value; });
   $$('[data-lang]').forEach(button => button.setAttribute('aria-pressed', button.dataset.lang === language ? 'true' : 'false'));
-  document.title = language === 'bn' ? 'এই ইতিহাস বাংলাদেশের | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
+  document.title = language === 'bn' ? 'বাংলাদেশের পক্ষে দাঁড়ানোর মূল্য | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
 }
 
 function storyFigure(image, className='') {
@@ -92,14 +92,14 @@ function felaniExperience(story) {
   return `<div class="incident-body felani-body" id="felani-story">
     <div class="border-coordinate section-shell reveal"><span>বাংলাদেশ</span><i aria-hidden="true"></i><b>কাঁটাতার</b><i aria-hidden="true"></i><span>ভারত</span></div>
     <section class="section-shell human-before felani-human reveal">
-      ${storyFigure(story.gallery?.[0],'grave-photo')}
+      ${storyFigure(story.gallery?.[1] || story.gallery?.[0],'grave-photo')}
       <div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
     </section>
     <section class="wire-hours">
       <div class="section-shell"><p class="story-label reveal">${esc(copy.momentLabel)}</p>${momentCards(tour,'wire-moments reveal')}</div>
     </section>
     <section class="section-shell aftermath-block felani-aftermath reveal">
-      ${storyFigure(story.gallery?.[1],'fence-photo')}
+      ${storyFigure(story.gallery?.[2] || story.gallery?.[1],'fence-photo')}
       <div><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
     </section>
     <section class="answer-block felani-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
@@ -130,12 +130,13 @@ function abrarExperience(story) {
   const tour = story.tour;
   const copy = COPY[language];
   return `<div class="incident-body abrar-body" id="abrar-story">
+    <section class="section-shell abrar-human reveal"><div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>${storyFigure(story.gallery?.[0],'desk-photo')}</section>
+    <section class="post-evidence"><div class="section-shell reveal">${storyFigure(story.gallery?.[1],'post-photo')}<article><p class="story-label">৩০ সেপ্টেম্বর ২০১৯ · একটি প্রকাশ্য পোস্ট</p><h4>প্রশ্নগুলো ছিল বাংলাদেশের পানি, বন্দর আর মর্যাদা নিয়ে</h4><p>আবরার কোনো গোপন কথা লেখেনি। সে সবার সামনে প্রশ্ন তুলেছিল—ভারতকে দেওয়া সুবিধার বিপরীতে বাংলাদেশ কী পেল? সেই পোস্টের কয়েক দিন পর ছাত্রলীগের নেতা-কর্মীরা তার ফোন তল্লাশি করে, ‘শিবির’ তকমা দেয়, তারপর ছয় ঘণ্টা ধরে পেটায়। একটি মতের জবাব আরেকটি মত দিয়ে নয়—লাঠি দিয়ে দেওয়া হয়েছিল।</p></article></div></section>
     <section class="corridor-map">
       <div class="section-shell reveal"><p class="story-label">শেরেবাংলা হল · দ্বিতীয় তলা</p><div class="door-line"><span><b>1011</b><small>নিজের ঘর</small></span><i>→</i><span class="door-danger"><b>2011</b><small>বন্ধ দরজা</small></span><i>→</i><span><b>2005</b><small>নির্যাতন চলেছে</small></span></div></div>
     </section>
-    <section class="section-shell abrar-human reveal"><div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>${storyFigure(story.gallery?.[0],'desk-photo')}</section>
     <section class="six-hours"><div class="section-shell"><header class="six-hours-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>20:05 <i>→</i> 02:30 <i>→</i> 03:00</strong></header>${momentCards(tour,'clock-moments reveal')}</div></section>
-    <section class="movement-memory"><div class="section-shell reveal"><div>${storyFigure(story.gallery?.[1],'movement-photo')}${storyFigure(story.gallery?.[2],'lantern-photo')}</div><article><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></article></div></section>
+    <section class="movement-memory"><div class="section-shell reveal"><div>${storyFigure(story.gallery?.[2],'movement-photo')}${storyFigure(story.gallery?.[3],'lantern-photo')}</div><article><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></article></div></section>
     <section class="answer-block abrar-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
     <div class="section-shell">${commonMemory(story)}</div>
   </div>`;
