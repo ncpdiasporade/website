@@ -1,12 +1,12 @@
 const COPY = {
   bn: {
     skip:'মূল লেখায় যান', archiveLabel:'বাংলাদেশের স্মৃতি ও সার্বভৌমত্ব', navStories:'ঘটনাস্থল', navNames:'সীমান্তের নাম', navEvidence:'উৎসসমূহ', share:'শেয়ার',
-    heroKicker:'হাসিনা আমল ও তার দীর্ঘ ছায়া · ২০১১—২০২৫', heroTitle:'বাংলাদেশের পক্ষে দাঁড়ানো<br><em>যখন বিপজ্জনক ছিল।</em>', heroLead:'সীমান্তে বাংলাদেশির মৃত্যু ‘স্বাভাবিক’ হয়ে গিয়েছিল। টিপাইমুখের বিরুদ্ধে দাঁড়ানো কণ্ঠ গুম হলো। ভারতের সঙ্গে অসম চুক্তি নিয়ে লেখা এক ছাত্রকে নিজের হলেই পিটিয়ে মারল ছাত্রলীগ। শাসন পতনের পরও তার দীর্ঘ ছায়ায় আধিপত্যবিরোধী আরেক তরুণ গুলিবিদ্ধ হলেন; সন্দেহভাজনরা পালাল ভারতে। চারটি ঘটনা এক নয়—তবু প্রতিবারই বাংলাদেশের পক্ষে দাঁড়ানো মানুষটির পাশে রাষ্ট্রকে পাওয়া যায়নি।', enterStories:'সময়টিতে ফিরে যান', enterNames:'সীমান্তের নামগুলো পড়ুন', heroInstruction:'ধীরে নামুন · আপনি একটি সময়ের ভেতর দিয়ে হাঁটবেন', heroFelani:'ভোর ৬টা · অনন্তপুর', heroIlias:'একটি খোলা দরজা · বনানী', heroAbrar:'ছয় ঘণ্টা · রুম ২০১১', heroHadi:'দুপুর ২টা ২০ · বিজয়নগর',
-    prologueKicker:'একটি শাসনের প্রতিকৃতি', prologueTitle:'চারটি দৃশ্য।<br><em>একই নীরবতার ছায়া।</em>', prologueBody:'এই যাত্রা ২০১১ সালের কুড়িগ্রাম থেকে শুরু হবে। তারপর ২০১২-এর বনানী, ২০১৯-এর বুয়েট এবং ২০২৫-এর বিজয়নগর। কোথাও হত্যাকারী ছিল ভারতীয় সীমান্তরক্ষী; কোথাও হাসিনা আমলের গুমযন্ত্র; কোথাও ক্ষমতাসীন দলের ছাত্রসংগঠন; কোথাও হামলার পর সীমান্ত পেরিয়ে যাওয়া সন্দেহভাজন। আলাদা ঘটনার মাঝখানে যে রেখাটি বারবার দেখা যায়, সেটি রাষ্ট্রের নীরবতা—আর ভারতের সামনে বাংলাদেশের স্বার্থকে ছোট করে দেখার রাজনীতি।', prologueQuote:'তাঁদের গল্প এক নয়। কিন্তু প্রত্যেকে বাংলাদেশের পক্ষে কথা বলেছিলেন—আর তাঁদের রক্ষা করতে রাষ্ট্র ব্যর্থ হয়েছিল।', routeLabel:'স্মৃতি-মানচিত্র', routeFelani:'অনন্তপুর · যে ভোর ঘরে ফেরেনি', routeIlias:'বনানী · যে রাত শেষ হয়নি', routeAbrar:'বুয়েট · যে দরজা সময়মতো খোলেনি', routeHadi:'বিজয়নগর · যে কণ্ঠ জনসমুদ্র হলো',
-    storiesKicker:'২০১১ · কুড়িগ্রাম', storiesTitle:'চলুন, প্রথমে অনন্তপুর', storiesIntro:'কুয়াশার ভেতর একটি সীমান্ত। একজন বাবা ওপারে দাঁড়িয়ে। আর কাঁটাতারের ওপর আটকে আছে তাঁর মেয়ে। আমাদের যাত্রা শুরু হবে ঠিক সেই ভোর থেকে।', enterChapter:'এই ঘটনায় নামুন', personLabel:'গুলি, গুম বা হত্যার আগে', momentLabel:'এখন ঘড়ির দিকে তাকান', aftermathLabel:'ঘটনাটি এখানেই শেষ হয়নি', failureLabel:'বাংলাদেশ যে উত্তর পায়নি', sourcesLabel:'উৎস ও দলিল দেখুন', dossierLabel:'রাষ্ট্রের ভেতরের গোপন কাগজ', dossierText:'নজরদারি, অনুসরণ ও তুলে নেওয়া—আটটি নম্বর আর তিনটি দলের ছক।',
-    wallKicker:'চারটি গল্পের বাইরে', wallTitle:'সীমান্তে আরও কত নাম হারিয়েছি', wallLead:'ফেলানীর ছবিটি পৃথিবী দেখেছে। কিন্তু সীমান্তে নিহত অনেক বাংলাদেশির মুখ আমরা কোনোদিন দেখিনি। তাই এখানে সংখ্যা নয়—যতগুলো নাম নথি থেকে উদ্ধার করা গেছে, তাদের মানুষ হিসেবেই পাশাপাশি রাখা হয়েছে।', searchLabel:'নাম বা জেলা খুঁজুন', searchPlaceholder:'নাম / জেলা', yearLabel:'বছর', allYears:'সব বছর', documentedNames:'নথিভুক্ত নাম', noNames:'এই অনুসন্ধানে কোনো নাম পাওয়া যায়নি।', sourceRecord:'উৎসের রেকর্ড দেখুন', wallSourceNote:'এটি পূর্ণাঙ্গ সরকারি তালিকা নয়। যে নামগুলো প্রকাশ্য মানবাধিকার নথি ও সংবাদ রেকর্ডে পাওয়া গেছে, কেবল সেগুলোই এখানে রাখা হয়েছে। নিচের লিংক থেকে মূল নথি পড়া যাবে।',
-    methodKicker:'সব গল্পের শেষে', methodTitle:'উৎসগুলো এখানে একসঙ্গে রাখা আছে', keyFact:'ঘটনাস্থলে মানুষ', keyFactBody:'তারিখের আগে মানুষটির জীবন, পরিবার ও স্বপ্নকে দেখা হয়েছে।', keyCourt:'তারপর রাষ্ট্রের ভূমিকা', keyCourtBody:'ঘটনার আগে সুরক্ষা এবং পরে তদন্ত ও বিচারের ব্যর্থতা পাশাপাশি রাখা হয়েছে।', keyInquiry:'মূল নথি আলাদা', keyInquiryBody:'প্রতিটি ঘটনার শেষে সংবাদ, আদালতের কাগজ ও স্মৃতি-আর্কাইভের লিংক আছে।', correction:'কোনো নাম, তারিখ বা তথ্য সংশোধনের প্রমাণ থাকলে আমাদের জানান: ncpdiasporade@gmail.com',
-    closingKicker:'এখন আপনি ফিরে যাবেন', closingTitle:'এই শোক আমাদের।<br><em>জবাব চাওয়ার দায়ও আমাদের।</em>', closingBody:'ফেলানীর বাবা আজও বিচার চান। ইলিয়াস আলীর পরিবার আজও দরজার শব্দ শোনে। আবরারের বন্ধুরা স্মৃতি পাহারা দেয়। হাদির জানাজার জনসমুদ্র এখনও উত্তর চায়। রাষ্ট্র ভুলে যেতে পারে, দপ্তরের ফাইল থেমে থাকতে পারে—বাংলাদেশের মানুষ যেন নামগুলো না ভোলে।', shareHistory:'এই ইতিহাস অন্যকে পড়তে দিন', backHome:'মূল ওয়েবসাইটে ফিরুন', footer:'স্মৃতি হারালে সার্বভৌমত্বও দুর্বল হয়', copied:'লিংক কপি হয়েছে।', shareText:'বাংলাদেশের চারটি অসমাপ্ত ইতিহাস—ফেলানী, ইলিয়াস আলী, আবরার ফাহাদ ও ওসমান হাদি।'
+    heroKicker:'হাসিনা আমল ও তার দীর্ঘ ছায়া · ২০১১—২০২৫', heroTitle:'দেশের পক্ষে দাঁড়ানোই<br><em>যখন অপরাধ ছিল।</em>', heroLead:'কাঁটাতারে একটি কিশোরীর দেহ ঝুলেছে, অথচ দিল্লির সঙ্গে সম্পর্কের ভাষা বদলায়নি। টিপাইমুখের বিরুদ্ধে জনমত গড়া নেতা ঢাকার বুক থেকে গুম হয়েছেন। ভারতের সঙ্গে অসম লেনদেন নিয়ে প্রশ্ন তোলা ছাত্রকে নিজের হলেই পিটিয়ে হত্যা করেছে ছাত্রলীগ। শাসন পতনের পরও আধিপত্যবিরোধী আরেক তরুণের হত্যার সন্দেহভাজনরা আশ্রয় নিয়েছে ভারতে। চারটি ঘটনা আলাদা; প্রতিবার বাংলাদেশের মানুষটি একা—আর ক্ষমতা নীরব।', enterStories:'ঘটনাগুলো পড়ুন', enterNames:'সীমান্তে হারানো নাম', heroInstruction:'চারটি ঘটনা · মানুষের জীবন, ঘটনার নথি, রাষ্ট্রের দায়', heroFelani:'একটি ভোর · অনন্তপুর', heroIlias:'একটি খোলা গাড়ি · বনানী', heroAbrar:'ছয় ঘণ্টা · রুম ২০১১', heroHadi:'দুপুরের গুলি · বিজয়নগর',
+    prologueKicker:'একটি শাসনের রাজনৈতিক উত্তরাধিকার', prologueTitle:'মানুষ বদলেছে। জায়গা বদলেছে।<br><em>নতজানু ক্ষমতার ভাষা বদলায়নি।</em>', prologueBody:'২০১১-এর অনন্তপুরে হত্যাকারী ছিল বিএসএফ। ২০১২-এর বনানীতে কাজ করেছে হাসিনা আমলের সংগঠিত গুমযন্ত্র। ২০১৯-এর বুয়েটে ক্ষমতাসীন ছাত্রলীগ একটি হলকক্ষকে নির্যাতনকক্ষ বানিয়েছে। ২০২৫-এর বিজয়নগরে হামলার পর প্রধান সন্দেহভাজনরা সীমান্ত পেরিয়ে ভারতে গেছে। ঘটনাগুলোকে এক করে দেখানো এই আর্কাইভের উদ্দেশ্য নয়; বরং প্রতিটি ঘটনায় দেখা—বাংলাদেশের নাগরিককে রক্ষা করা, সত্য বলা এবং দিল্লির কাছে জবাব চাওয়ার মুহূর্তে রাষ্ট্র কোথায় ছিল।', prologueQuote:'দেশের পক্ষে কথা বলা তাঁদের একমাত্র পরিচয় নয়। কিন্তু সেই কথাই তাঁদের বিপদের মুখে ফেলেছিল—আর ক্ষমতা তাঁদের একা ছেড়ে দিয়েছিল।', routeLabel:'ঘটনার মানচিত্র', routeFelani:'অনন্তপুর · বাড়ি ফেরার শেষ কয়েক গজ', routeIlias:'বনানী · গাড়ি আছে, মানুষ নেই', routeAbrar:'বুয়েট · একটি পোস্টের জবাব ছয় ঘণ্টার নির্যাতন', routeHadi:'বিজয়নগর · গুলির পর সীমান্ত পেরোনো',
+    storiesKicker:'প্রথম দৃশ্য · কুড়িগ্রাম', storiesTitle:'একটি কিশোরী, একটি কাঁটাতার—এবং নীরব বাংলাদেশ', storiesIntro:'৭ জানুয়ারি ২০১১। পরদিন বিয়ে হওয়ার কথা ছিল ফেলানীর। বাবার সঙ্গে বাড়ি ফেরার শেষ কয়েক গজ পথেই সে হয়ে গেল সীমান্তে বাংলাদেশি জীবনের সবচেয়ে নির্মম প্রতীক।', enterChapter:'ঘটনার বিস্তারিত', personLabel:'ঘটনার আগে মানুষটি', momentLabel:'ঘটনার সময়রেখা', aftermathLabel:'এরপর যা ঘটেছে', failureLabel:'রাষ্ট্রের দায়', sourcesLabel:'প্রমাণভান্ডার · উৎস ও দলিল', dossierLabel:'রাষ্ট্রের ভেতরের অনুসন্ধান', dossierText:'নজরদারি, অনুসরণ ও তুলে নেওয়া—আটটি নম্বর আর তিনটি দলের ছক।',
+    wallKicker:'চারটি ঘটনার বাইরেও', wallTitle:'প্রতিটি সংখ্যার ভেতরে একটি ঘর খালি হয়েছে', wallLead:'ফেলানীর ছবিটি পৃথিবী দেখেছে। সীমান্তে নিহত আরও অনেক বাংলাদেশির মুখ কখনও সংবাদেও আসেনি। প্রকাশ্য মানবাধিকার নথিতে পাওয়া নামগুলো তাই এখানে সংখ্যার সারি নয়—একটি একটি অসমাপ্ত বাড়ির দরজা।', searchLabel:'নাম বা জেলা খুঁজুন', searchPlaceholder:'নাম / জেলা', yearLabel:'বছর', allYears:'সব বছর', documentedNames:'নথিভুক্ত নাম', noNames:'এই অনুসন্ধানে কোনো নাম পাওয়া যায়নি।', sourceRecord:'উৎসের রেকর্ড দেখুন', wallSourceNote:'এটি পূর্ণাঙ্গ সরকারি তালিকা নয়। প্রকাশ্য মানবাধিকার প্রতিবেদন ও সংবাদ নথিতে যাচাই করা নামই রাখা হয়েছে। প্রতিটি নাম থেকে সংশ্লিষ্ট রেকর্ডে যাওয়া যাবে।',
+    methodKicker:'দাবির পেছনের নথি', methodTitle:'গল্প পড়েছেন—এখানে তার প্রমাণভান্ডার', keyFact:'প্রথমে মানুষ', keyFactBody:'হত্যা বা গুমের তারিখের আগে ছিল পরিবার, স্বপ্ন, কাজ এবং একটি সম্পূর্ণ জীবন।', keyCourt:'তারপর রাষ্ট্র', keyCourtBody:'সুরক্ষা কেন ছিল না, তদন্ত কোথায় থেমেছে এবং জবাবদিহি কত দূর—প্রতিটি অধ্যায়ে তার হিসাব আছে।', keyInquiry:'প্রতিটি দাবি যাচাইযোগ্য', keyInquiryBody:'আদালতের রায়, তদন্ত, মানবাধিকার প্রতিবেদন ও স্মৃতি-আর্কাইভ অধ্যায়ের শেষে রাখা হয়েছে।', correction:'কোনো নাম, তারিখ বা তথ্য সংশোধনের প্রমাণ থাকলে আমাদের জানান: ncpdiasporade@gmail.com',
+    closingKicker:'স্মৃতি মানে শুধু শোক নয়', closingTitle:'নামগুলো মনে রাখা মানে<br><em>রাষ্ট্রের কাছে জবাব চাওয়া।</em>', closingBody:'ফেলানীর বাবা বিচার চান। ইলিয়াস আলীর পরিবার জানতে চায়—মানুষ দুজন কোথায়। আবরারের বন্ধুরা প্রমাণ করেছে, স্মৃতি পাহারা দিলে ক্ষমতা সব সত্য চাপা দিতে পারে না। হাদির জানাজার জনসমুদ্র বলেছে, একটি কণ্ঠকে গুলি করলে প্রশ্ন থামে না। এই ইতিহাস বাংলাদেশের; এর জবাবও বাংলাদেশকেই আদায় করতে হবে।', shareHistory:'এই ইতিহাস অন্যকে পড়তে দিন', backHome:'মূল ওয়েবসাইটে ফিরুন', footer:'স্মৃতি হারালে সার্বভৌমত্বও দুর্বল হয়', copied:'লিংক কপি হয়েছে।', shareText:'বাংলাদেশের চারটি অসমাপ্ত ইতিহাস—ফেলানী, ইলিয়াস আলী, আবরার ফাহাদ ও ওসমান হাদি।'
   },
   en: {
     skip:'Skip to the archive', archiveLabel:'Sovereignty Memory Archive', navStories:'The journey', navNames:'Corridor of names', navEvidence:'Document room', share:'Share',
@@ -42,7 +42,7 @@ function applyCopy() {
   $$('[data-copy-html]').forEach(node => { const value = copy[node.dataset.copyHtml]; if (value) node.innerHTML = value; });
   $$('[data-placeholder]').forEach(node => { const value = copy[node.dataset.placeholder]; if (value) node.placeholder = value; });
   $$('[data-lang]').forEach(button => button.setAttribute('aria-pressed', button.dataset.lang === language ? 'true' : 'false'));
-  document.title = language === 'bn' ? 'বাংলাদেশের পক্ষে দাঁড়ানোর মূল্য | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
+  document.title = language === 'bn' ? 'দেশের পক্ষে দাঁড়ানোই যখন অপরাধ ছিল | NCPDA Germany' : language === 'de' ? 'Erinnerungsreise zur Souveränität | NCPDA Germany' : 'A Journey Through Bangladesh’s Struggle for Sovereignty | NCPDA Germany';
 }
 
 function storyFigure(image, className='') {
@@ -72,7 +72,6 @@ function storyThreshold(story, index) {
       <p class="chapter-number">${esc(tour.chapter)} <span>${esc(story.year)}</span></p>
       <p class="chapter-location"><span>${esc(tour.place)}</span><span>${esc(tour.date)}</span></p>
       <h3>${esc(tour.title)}</h3><p class="chapter-opening">${esc(tour.opening)}</p>
-      <a class="chapter-enter" href="#${esc(story.id)}-story"><span>${esc(copy.enterChapter)}</span><b aria-hidden="true">↓</b></a>
     </div>
   </header>`;
 }
@@ -93,16 +92,16 @@ function felaniExperience(story) {
     <div class="border-coordinate section-shell reveal"><span>বাংলাদেশ</span><i aria-hidden="true"></i><b>কাঁটাতার</b><i aria-hidden="true"></i><span>ভারত</span></div>
     <section class="section-shell human-before felani-human reveal">
       ${storyFigure(story.gallery?.[1] || story.gallery?.[0],'grave-photo')}
-      <div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
+      <div><p class="story-label">${esc(tour.personLabel || copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
     </section>
     <section class="wire-hours">
-      <div class="section-shell"><p class="story-label reveal">${esc(copy.momentLabel)}</p>${momentCards(tour,'wire-moments reveal')}</div>
+      <div class="section-shell"><p class="story-label reveal">${esc(tour.momentLabel || copy.momentLabel)}</p>${momentCards(tour,'wire-moments reveal')}</div>
     </section>
     <section class="section-shell aftermath-block felani-aftermath reveal">
       ${storyFigure(story.gallery?.[2] || story.gallery?.[1],'fence-photo')}
-      <div><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
+      <div><p class="story-label">${esc(tour.aftermathLabel || copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
     </section>
-    <section class="answer-block felani-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <section class="answer-block felani-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(tour.failureLabel || copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
     <div class="section-shell">${commonMemory(story)}</div>
   </div>`;
 }
@@ -113,15 +112,15 @@ function iliasExperience(story) {
   return `<div class="incident-body ilias-body" id="ilias-story">
     <section class="section-shell ilias-person reveal">
       <div class="missing-portrait">${storyFigure(story.gallery?.[0],'portrait-photo')}<span>নিখোঁজ<br>১৭.০৪.২০১২</span></div>
-      <div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
+      <div><p class="story-label">${esc(tour.personLabel || copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>
     </section>
     <section class="night-route"><div class="section-shell">
-      <header class="night-route-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>HOTEL SHERATON <i>→</i> BANANI <i>→</i> ?</strong></header>
+      <header class="night-route-head reveal"><p class="story-label">${esc(tour.momentLabel || copy.momentLabel)}</p><strong>HOTEL SHERATON <i>→</i> BANANI <i>→</i> ?</strong></header>
       ${momentCards(tour,'case-file reveal')}
       <aside class="dossier-card reveal"><span>${esc(copy.dossierLabel)}</span><b>RAB–1</b><p>${esc(copy.dossierText)}</p><small>8 CITYCELL · 3 TEAMS · NMC</small></aside>
     </div></section>
-    <section class="section-shell ilias-aftermath reveal"><div><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div><aside><span>17</span><b>APR</b><small>ক্যালেন্ডার এগোয়।<br>অপেক্ষা এগোয় না।</small></aside></section>
-    <section class="answer-block ilias-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <section class="section-shell ilias-aftermath reveal"><div><p class="story-label">${esc(tour.aftermathLabel || copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div><aside><span>17</span><b>APR</b><small>ক্যালেন্ডার এগোয়।<br>অপেক্ষা এগোয় না।</small></aside></section>
+    <section class="answer-block ilias-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(tour.failureLabel || copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
     <div class="section-shell">${commonMemory(story)}</div>
   </div>`;
 }
@@ -130,14 +129,14 @@ function abrarExperience(story) {
   const tour = story.tour;
   const copy = COPY[language];
   return `<div class="incident-body abrar-body" id="abrar-story">
-    <section class="section-shell abrar-human reveal"><div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>${storyFigure(story.gallery?.[0],'desk-photo')}</section>
-    <section class="post-evidence"><div class="section-shell reveal">${storyFigure(story.gallery?.[1],'post-photo')}<article><p class="story-label">৩০ সেপ্টেম্বর ২০১৯ · একটি প্রকাশ্য পোস্ট</p><h4>প্রশ্নগুলো ছিল বাংলাদেশের পানি, বন্দর আর মর্যাদা নিয়ে</h4><p>আবরার কোনো গোপন কথা লেখেনি। সে সবার সামনে প্রশ্ন তুলেছিল—ভারতকে দেওয়া সুবিধার বিপরীতে বাংলাদেশ কী পেল? সেই পোস্টের কয়েক দিন পর ছাত্রলীগের নেতা-কর্মীরা তার ফোন তল্লাশি করে, ‘শিবির’ তকমা দেয়, তারপর ছয় ঘণ্টা ধরে পেটায়। একটি মতের জবাব আরেকটি মত দিয়ে নয়—লাঠি দিয়ে দেওয়া হয়েছিল।</p></article></div></section>
+    <section class="section-shell abrar-human reveal"><div><p class="story-label">${esc(tour.personLabel || copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p></div>${storyFigure(story.gallery?.[0],'desk-photo')}</section>
+    <section class="post-evidence"><div class="section-shell reveal">${storyFigure(story.gallery?.[1],'post-photo')}<article><p class="story-label">৩০ সেপ্টেম্বর ২০১৯ · নিজের নামে লেখা একটি পোস্ট</p><h4>সে হিসাব চেয়েছিল: ভারতকে এত দেওয়া হলো, বাংলাদেশ পেল কী?</h4><p>আবরার গোপন কোনো প্রচারপত্র লেখেনি। ফেসবুকে নিজের নামে প্রশ্ন করেছিল—অভিন্ন নদীর পানি, বন্দর, গ্যাস ও ট্রানজিটে বাংলাদেশের প্রাপ্তি কোথায়? পোস্টটির ভাষা ছিল একজন নাগরিকের ক্ষোভ; ক্ষমতাসীন ছাত্রলীগ সেটিকে বানাল শাস্তিযোগ্য অপরাধ। কয়েক দিন পর তার ফোন তল্লাশি হলো, ‘শিবির’ তকমা লাগল, তারপর ছয় ঘণ্টা ধরে লাঠি ও স্টাম্প চলল। মতের জবাব মত দিয়ে নয়—শরীরে আঘাত লিখে দেওয়া হয়েছিল।</p></article></div></section>
     <section class="corridor-map">
       <div class="section-shell reveal"><p class="story-label">শেরেবাংলা হল · দ্বিতীয় তলা</p><div class="door-line"><span><b>1011</b><small>নিজের ঘর</small></span><i>→</i><span class="door-danger"><b>2011</b><small>বন্ধ দরজা</small></span><i>→</i><span><b>2005</b><small>নির্যাতন চলেছে</small></span></div></div>
     </section>
-    <section class="six-hours"><div class="section-shell"><header class="six-hours-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>20:05 <i>→</i> 02:30 <i>→</i> 03:00</strong></header>${momentCards(tour,'clock-moments reveal')}</div></section>
-    <section class="movement-memory"><div class="section-shell reveal"><div>${storyFigure(story.gallery?.[2],'movement-photo')}${storyFigure(story.gallery?.[3],'lantern-photo')}</div><article><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></article></div></section>
-    <section class="answer-block abrar-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <section class="six-hours"><div class="section-shell"><header class="six-hours-head reveal"><p class="story-label">${esc(tour.momentLabel || copy.momentLabel)}</p><strong>20:05 <i>→</i> 02:30 <i>→</i> 03:00</strong></header>${momentCards(tour,'clock-moments reveal')}</div></section>
+    <section class="movement-memory"><div class="section-shell reveal"><div>${storyFigure(story.gallery?.[2],'movement-photo')}${storyFigure(story.gallery?.[3],'lantern-photo')}</div><article><p class="story-label">${esc(tour.aftermathLabel || copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></article></div></section>
+    <section class="answer-block abrar-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(tour.failureLabel || copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
     <div class="section-shell">${commonMemory(story)}</div>
   </div>`;
 }
@@ -146,13 +145,13 @@ function hadiExperience(story) {
   const tour = story.tour;
   const copy = COPY[language];
   return `<div class="incident-body hadi-body" id="hadi-story">
-    <section class="section-shell hadi-human reveal">${storyFigure(story.gallery?.[1],'speaker-photo')}<div><p class="story-label">${esc(copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p><div class="sound-line" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i class="bar-${(i%5)+1}"></i>`).join('')}</div></div></section>
-    <section class="daylight-sequence"><div class="section-shell"><header class="daylight-head reveal"><p class="story-label">${esc(copy.momentLabel)}</p><strong>12 DEC · 14:20</strong></header>${momentCards(tour,'shot-moments reveal')}</div></section>
+    <section class="section-shell hadi-human reveal">${storyFigure(story.gallery?.[1],'speaker-photo')}<div><p class="story-label">${esc(tour.personLabel || copy.personLabel)}</p><h4>${esc(tour.personTitle)}</h4><p>${esc(tour.personBody)}</p><div class="sound-line" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i class="bar-${(i%5)+1}"></i>`).join('')}</div></div></section>
+    <section class="daylight-sequence"><div class="section-shell"><header class="daylight-head reveal"><p class="story-label">${esc(tour.momentLabel || copy.momentLabel)}</p><strong>12 DEC · 14:20</strong></header>${momentCards(tour,'shot-moments reveal')}</div></section>
     <section class="funeral-sea">
       <img src="${esc(story.gallery?.[2]?.src)}" alt="${esc(story.gallery?.[2]?.alt)}" loading="lazy"><div class="funeral-shade" aria-hidden="true"></div>
-      <div class="section-shell reveal"><p class="story-label">${esc(copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
+      <div class="section-shell reveal"><p class="story-label">${esc(tour.aftermathLabel || copy.aftermathLabel)}</p><h4>${esc(tour.aftermathTitle)}</h4><p>${esc(tour.aftermathBody)}</p></div>
     </section>
-    <section class="answer-block hadi-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
+    <section class="answer-block hadi-answer"><div class="section-shell reveal"><strong>${esc(tour.failureStat)}</strong><div><p class="story-label">${esc(tour.failureLabel || copy.failureLabel)}</p><h4>${esc(tour.failureTitle)}</h4><p>${esc(tour.failureBody)}</p></div></div></section>
     <div class="section-shell">${commonMemory(story)}</div>
   </div>`;
 }
@@ -166,6 +165,7 @@ function renderStories() {
     return `<article class="tour-chapter theme-${esc(story.id)}" id="${esc(story.id)}">${storyThreshold(story,index)}${renderers[story.id](story)}<footer class="chapter-bridge"><div class="section-shell reveal"><span>${String(index + 1).padStart(2,'0')} / ${String(stories.length).padStart(2,'0')}</span><p>${esc(story.tour.bridge)}</p><i aria-hidden="true">→</i></div></footer></article>`;
   }).join('');
   observeReveals();
+  observeScenes();
 }
 
 function renderNames() {
@@ -222,6 +222,17 @@ function observeReveals() {
   nodes.forEach(node => { node.dataset.observed = 'true'; observer.observe(node); });
 }
 
+function observeScenes() {
+  const scenes = $$('.scene-intro:not([data-scene-observed]),.wire-hours:not([data-scene-observed]),.night-route:not([data-scene-observed]),.post-evidence:not([data-scene-observed]),.corridor-map:not([data-scene-observed]),.six-hours:not([data-scene-observed]),.hadi-human:not([data-scene-observed]),.daylight-sequence:not([data-scene-observed]),.funeral-sea:not([data-scene-observed])');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+    scenes.forEach(scene => scene.classList.add('in-view')); return;
+  }
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    entry.target.classList.toggle('in-view', entry.isIntersecting);
+  }), {threshold:.28});
+  scenes.forEach(scene => { scene.dataset.sceneObserved = 'true'; observer.observe(scene); });
+}
+
 async function shareArchive() {
   const data = {title:document.title, text:COPY[language].shareText, url:location.href};
   try {
@@ -238,7 +249,7 @@ async function init() {
   $('#methodologyText').textContent = archiveData.methodology[language];
   const years = [...new Set(archiveData.borderVictims.map(item => item.year))].sort((a,b) => b-a);
   $('#yearFilter').insertAdjacentHTML('beforeend', years.map(year => `<option value="${year}">${year}</option>`).join(''));
-  renderStories(); renderNames(); observeReveals(); restoreHashPosition();
+  renderStories(); renderNames(); observeReveals(); observeScenes(); restoreHashPosition();
   $$('[data-lang]').forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
   $('#nameSearch').addEventListener('input', renderNames);
   $('#yearFilter').addEventListener('change', renderNames);

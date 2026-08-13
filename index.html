@@ -4095,7 +4095,7 @@
       position: relative;
       scroll-margin-top: 84px;
       overflow: hidden;
-      padding: 104px 0 88px;
+      padding: 84px 0 70px;
       color: #fff;
       background:
         radial-gradient(circle at 92% 4%, rgba(193,29,48,.42), transparent 27%),
@@ -4162,7 +4162,6 @@
     .sovereignty-era i { height: 1px; min-width: 14px; background: rgba(255,255,255,.25); }
     .sovereignty-era i.after { background: repeating-linear-gradient(90deg,#edc36a 0 6px,transparent 6px 10px); }
     .sovereignty-era span:last-child b { color: #edc36a; }
-    }
     .sovereignty-portraits {
       position: relative;
       display: grid;
@@ -4173,7 +4172,7 @@
       position: relative;
       display: flex;
       min-width: 0;
-      min-height: 590px;
+      min-height: 535px;
       flex-direction: column;
       padding: 14px 14px 24px;
       overflow: hidden;
@@ -4190,7 +4189,7 @@
     }
     .sovereignty-photo {
       position: relative;
-      height: 370px;
+      height: 320px;
       margin-bottom: 22px;
       overflow: hidden;
       background: #172019;
@@ -4208,7 +4207,14 @@
       filter: grayscale(.7) contrast(1.08);
       transition: transform .8s var(--ease-out), filter .35s;
     }
-    .sovereignty-person.felani .sovereignty-photo img { object-position: center; }
+    .sovereignty-person.felani .sovereignty-photo img { object-position: left 20%; }
+    .sovereignty-person.ilias .sovereignty-photo img { object-position: center 18%; }
+    .sovereignty-person.abrar .sovereignty-photo img { object-position: center 32%; }
+    .sovereignty-person.hadi .sovereignty-photo img { object-position: center 23%; }
+    .sovereignty-person.felani { border-top: 3px solid #edc36a; }
+    .sovereignty-person.ilias { border-top: 3px solid #c93643; }
+    .sovereignty-person.abrar { border-top: 3px solid #32b778; }
+    .sovereignty-person.hadi { border-top: 3px solid #9e1f31; }
     .sovereignty-person:hover .sovereignty-photo img { transform: scale(1.055); filter: grayscale(.35); }
     .sovereignty-person > span { color: #edc36a; font-family: var(--font-mono); font-size: 9px; letter-spacing: .08em; }
     .sovereignty-person > strong { margin-top: 12px; font-family: var(--font-display); font-size: clamp(1.9rem,3.1vw,3rem); line-height: 1.02; }
@@ -4249,14 +4255,14 @@
       .sovereignty-portraits { grid-template-columns: 1fr; }
     }
     @media (max-width: 580px) {
-      .sovereignty-gateway { padding: 72px 0 62px; }
+      .sovereignty-gateway { padding: 58px 0 50px; }
       .sovereignty-gateway-head { margin-bottom: 28px; }
       .sovereignty-gateway-head h2 { font-size: clamp(2.65rem,13.5vw,4rem); line-height: .96; }
       .sovereignty-gateway-head > p { font-size: .92rem; line-height: 1.72; }
       .sovereignty-era { grid-template-columns: 1fr 1fr; margin-bottom: 20px; }
       .sovereignty-portraits { display: grid; margin: 0; padding: 0; overflow: visible; }
-      .sovereignty-person { min-height: 0; padding: 10px 10px 20px; }
-      .sovereignty-photo { height: auto; aspect-ratio: 16 / 10; margin-bottom: 18px; }
+      .sovereignty-person { min-height: 0; padding: 8px 8px 18px; }
+      .sovereignty-photo { height: auto; aspect-ratio: 16 / 9; margin-bottom: 16px; }
       .sovereignty-person > strong { font-size: 2.15rem; }
       .sovereignty-person > small { font-size: .83rem; }
       .sovereignty-gateway-foot { align-items: stretch; flex-direction: column; }
@@ -4527,10 +4533,10 @@
     <div class="container">
       <div class="sovereignty-gateway-head reveal">
         <div>
-          <p class="sovereignty-kicker">হাসিনা আমল ও তার দীর্ঘ ছায়া · একটি স্মৃতি-যাত্রা</p>
-          <h2 id="sovereigntyTitle">বাংলাদেশের পক্ষে কথা বলার<br><em>মূল্য যখন ছিল জীবন।</em></h2>
+          <p class="sovereignty-kicker">হাসিনা আমল ও তার দীর্ঘ ছায়া · ২০১১—২০২৫</p>
+          <h2 id="sovereigntyTitle">দেশের পক্ষে দাঁড়ানোই<br><em>যখন অপরাধ ছিল।</em></h2>
         </div>
-        <p>সীমান্তে গুলি চলেছে, সরকার সম্পর্কের উৎসব করেছে। টিপাইমুখের বিরুদ্ধে কণ্ঠ গুম হয়েছে। ভারতের সঙ্গে অসম লেনদেন নিয়ে লিখে আবরার ছাত্রলীগের হাতে নিহত হয়েছে। শাসন পতনের পরও আধিপত্যবিরোধী হাদির হত্যার সন্দেহভাজনরা পালিয়েছে ভারতে। ঘটনাগুলো আলাদা—রাষ্ট্রের নীরবতার ছায়াটি একই।</p>
+        <p>কাঁটাতারে ফেলানীর দেহ, বনানীতে ইলিয়াস আলীর খোলা গাড়ি, বুয়েটের বন্ধ রুম ২০১১, বিজয়নগরে হাদির রক্ত—ঘটনাগুলো এক নয়। কিন্তু প্রতিবার বাংলাদেশের স্বার্থের পক্ষে থাকা মানুষটি বিপদে পড়েছে, আর ক্ষমতা তাকে রক্ষা বা সত্য প্রকাশের বদলে নীরবতা বেছে নিয়েছে।</p>
       </div>
       <div class="sovereignty-era reveal" aria-label="স্মৃতি-যাত্রার সময়রেখা">
         <span><b>২০০৯</b>শাসনের শুরু</span><i></i>
@@ -4542,25 +4548,25 @@
       </div>
       <div class="sovereignty-portraits stagger-children reveal">
         <a class="sovereignty-person felani" href="sovereignty/#felani">
-          <div class="sovereignty-photo"><img src="img/sovereignty/felani-parents-grave-history.webp" alt="ফেলানীর কবরের পাশে ঐতিহাসিক ছবি হাতে তাঁর বাবা-মা" width="857" height="482" loading="lazy"></div>
-          <span>০১ · ২০১১ · সীমান্ত</span><strong>ফেলানী খাতুন</strong><small>বিএসএফের গুলিতে কাঁটাতারে ঝুলেছিল তার মরদেহ। ঢাকা উদ্বেগ জানিয়েছিল—বিচার আদায় করেনি।</small><em>অনন্তপুরে ফিরে যান →</em>
+          <div class="sovereignty-photo"><img src="img/sovereignty/felani-fence-history.webp" alt="অনন্তপুর সীমান্তের কাঁটাতারে ফেলানী খাতুনের মরদেহ—ঐতিহাসিক আলোকচিত্র" width="600" height="600" loading="lazy"></div>
+          <span>০১ · ২০১১ · সীমান্ত</span><strong>ফেলানী খাতুন</strong><small>পরদিন বিয়ে হওয়ার কথা ছিল। বিএসএফের গুলিতে তার দেহ কাঁটাতারে ঝুলল; বিচার পনেরো বছরেও ফিরল না।</small><em>ফেলানীর ঘটনা পড়ুন →</em>
         </a>
-        <a class="sovereignty-person" href="sovereignty/#ilias">
+        <a class="sovereignty-person ilias" href="sovereignty/#ilias">
           <div class="sovereignty-photo"><img src="img/sovereignty/ilias-ali.webp" alt="এম ইলিয়াস আলী" width="900" height="1040" loading="lazy"></div>
-          <span>০২ · ২০১২ · গুম</span><strong>এম ইলিয়াস আলী</strong><small>টিপাইমুখের বিরুদ্ধে লংমার্চ করেছিলেন। এক রাতে গাড়ি পাওয়া গেল—মানুষটি আর ফিরলেন না।</small><em>বনানীর সেই রাতে যান →</em>
+          <span>০২ · ২০১২ · গুম</span><strong>এম ইলিয়াস আলী</strong><small>টিপাইমুখের বিরুদ্ধে লংমার্চ করেছিলেন। গাড়ি পাওয়া গেল; রাষ্ট্রের গুমযন্ত্র মানুষ দুজনকে আর ফেরাল না।</small><em>গুমের নথি পড়ুন →</em>
         </a>
-        <a class="sovereignty-person" href="sovereignty/#abrar">
+        <a class="sovereignty-person abrar" href="sovereignty/#abrar">
           <div class="sovereignty-photo"><img src="img/sovereignty/abrar-portrait-history.webp" alt="আবরার ফাহাদের বহুল প্রচারিত সাদা-কালো প্রতিকৃতি" width="730" height="409" loading="lazy"></div>
-          <span>০৩ · ২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ</strong><small>ভারতের সঙ্গে অসম লেনদেন নিয়ে লিখেছিল। ছাত্রলীগ ছয় ঘণ্টা পিটিয়ে তার জবাব দিয়েছিল।</small><em>রুম ২০১১-তে যান →</em>
+          <span>০৩ · ২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ</strong><small>ভারতকে দেওয়া সুবিধার বিপরীতে বাংলাদেশের প্রাপ্তি নিয়ে প্রশ্ন করেছিল। ছাত্রলীগ জবাব দিয়েছিল ছয় ঘণ্টার নির্যাতনে।</small><em>আবরারের শেষ রাত পড়ুন →</em>
         </a>
-        <a class="sovereignty-person" href="sovereignty/#hadi">
+        <a class="sovereignty-person hadi" href="sovereignty/#hadi">
           <div class="sovereignty-photo"><img src="img/sovereignty/hadi-archive-hero.webp" alt="মঞ্চে বক্তব্যরত শরীফ ওসমান হাদি" width="1024" height="576" loading="lazy"></div>
-          <span>০৪ · ২০২৫ · দীর্ঘ ছায়া</span><strong>শরীফ ওসমান হাদি</strong><small>ভারতীয় আধিপত্যের বিরুদ্ধে বলতেন। গুলির পর প্রধান সন্দেহভাজনরা পালিয়ে গেল ভারতে।</small><em>বিজয়নগরে যান →</em>
+          <span>০৪ · ২০২৫ · দীর্ঘ ছায়া</span><strong>শরীফ ওসমান হাদি</strong><small>ভারতীয় আধিপত্যের বিরুদ্ধে প্রকাশ্যে বলতেন। গুলির পর প্রধান সন্দেহভাজনরা সীমান্ত পেরিয়ে ভারতে গেল।</small><em>হাদির ঘটনা পড়ুন →</em>
         </a>
       </div>
       <div class="sovereignty-gateway-foot reveal">
-        <p><b>এটি চারটি জীবনী নয়—একটি সময়ের ভেতর দিয়ে হাঁটা।</b><br>ঐতিহাসিক ছবি, পরিবারের অপেক্ষা, ঘটনার ঘড়ি, আদালতের রেকর্ড এবং সীমান্তে হারানো বাংলাদেশিদের নাম এক জায়গায়।</p>
-        <a href="sovereignty/">পুরো যাত্রাটি শুরু করুন <span>→</span></a>
+        <p><b>চারটি ঘটনা; একটি রাষ্ট্রের রাজনৈতিক দায়।</b><br>ঐতিহাসিক ছবি, পরিবারের স্মৃতি, ঘটনার সময়রেখা, আদালতের রেকর্ড এবং সীমান্তে হারানো বাংলাদেশিদের নাম এক প্রমাণভান্ডারে।</p>
+        <a href="sovereignty/">পুরো আর্কাইভ পড়ুন <span>→</span></a>
       </div>
     </div>
   </section>

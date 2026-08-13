@@ -356,16 +356,16 @@ button,input,select { font:inherit; }
 .hero-collage figure:nth-child(3) { grid-column:2; clip-path:polygon(0 3%,48% 0,51% 100%,3% 97%); }
 .hero-collage figure:nth-child(4) { grid-column:2; clip-path:polygon(52% 0,100% 4%,97% 97%,49% 100%); }
 .hero-collage img { width:100%; height:100%; object-fit:cover; filter:grayscale(.35) contrast(1.12); }
-.hero-collage figure:nth-child(1) img { object-position:58% center; }
+.hero-collage figure:nth-child(1) img { object-position:left 18%; }
 .hero-collage figure:nth-child(2) img { object-position:center 20%; }
 .hero-collage figure:nth-child(3) img { object-position:center; }
 .hero-collage figure:nth-child(4) img { object-position:center; }
-.hero-content { z-index:3; width:min(760px,58vw); padding-left:2vw; }
+.hero-content { z-index:3; width:min(860px,70vw); padding-left:2vw; }
 .hero-kicker { color:#e0b870; }
-.archive-hero h1 { font-family:'Hind Siliguri',sans-serif; font-size:clamp(78px,9.2vw,148px); font-weight:700; line-height:.78; letter-spacing:-.07em; }
+.archive-hero h1 { font-family:'Hind Siliguri',sans-serif; font-size:clamp(72px,8vw,122px); font-weight:700; line-height:.8; letter-spacing:-.065em; }
 .archive-hero h1 em { display:inline-block; padding-top:.1em; color:#f6f0e4; -webkit-text-stroke:0; font-style:normal; }
 .archive-hero h1 em::after { content:''; display:block; width:58%; height:9px; margin-top:17px; background:linear-gradient(90deg,#147a4c 0 68%,#c92f35 68%); transform:skewX(-18deg); }
-.hero-lead { max-width:650px; font-size:21px; line-height:1.78; }
+.hero-lead { max-width:760px; margin-top:28px; font-size:20px; line-height:1.65; }
 .hero-ledger { z-index:4; width:100%; grid-template-columns:repeat(4,1fr); border-left:0; }
 .hero-ledger a { min-height:132px; padding-left:clamp(20px,3vw,48px); }
 .hero-ledger strong { font-size:22px; }
@@ -387,7 +387,7 @@ button,input,select { font:inherit; }
 .chapter-number { display:flex; gap:18px; align-items:center; }
 .chapter-number span { padding:5px 9px; color:#111; background:var(--accent); }
 .threshold-symbol { position:absolute; z-index:2; pointer-events:none; }
-.scene-felani .scene-image { object-position:center 35%; }
+.scene-felani .scene-image { object-position:left 20%; }
 .scene-felani .scene-shade { background:linear-gradient(90deg,rgba(7,8,6,.96),rgba(7,8,6,.72) 56%,rgba(7,8,6,.18)),linear-gradient(0deg,rgba(7,8,6,.94),transparent 58%); }
 .wire-symbol { top:17%; right:7vw; display:grid; grid-template-columns:auto 34vw auto; align-items:center; color:#e7c26d; font:600 12px/1 'JetBrains Mono',monospace; }
 .wire-symbol i { display:block; height:2px; margin:0 14px; background:repeating-linear-gradient(90deg,#ddd 0 12px,transparent 12px 17px); transform:rotate(-5deg); }
@@ -628,10 +628,13 @@ button,input,select { font:inherit; }
   line-height:1.45;
 }
 .archive-notice span { display:grid; flex:0 0 22px; width:22px; height:22px; place-items:center; color:#160709; border-radius:50%; background:var(--gold); font:800 11px/1 'DM Sans',sans-serif; }
-.archive-hero { min-height:100svh; padding-top:132px; padding-bottom:178px; }
-.hero-collage { top:96px; height:67vh; }
-.hero-ledger a { min-height:112px; }
-.prologue { padding-top:112px; }
+.archive-hero { min-height:94svh; padding-top:104px; padding-bottom:126px; }
+.archive-notice { margin-top:18px; }
+.hero-actions { margin-top:24px; }
+.hero-instruction { margin-top:22px; }
+.hero-collage { top:86px; height:62vh; }
+.hero-ledger a { min-height:96px; }
+.prologue { padding-top:84px; }
 .prologue,.voices,.name-wall,.method { scroll-margin-top:72px; }
 .prologue-copy { padding-top:38px; }
 .prologue-copy blockquote { margin-top:34px; }
@@ -640,7 +643,7 @@ button,input,select { font:inherit; }
   grid-template-columns:auto 1fr 44px 1fr;
   gap:28px;
   align-items:center;
-  margin-top:74px;
+  margin-top:52px;
   padding:28px 0;
   border-block:1px solid rgba(11,13,12,.28);
 }
@@ -649,20 +652,30 @@ button,input,select { font:inherit; }
 .regime-statement p b { font-size:20px; }
 .regime-statement p span { margin-top:5px; color:#596057; font-size:14px; line-height:1.45; }
 .regime-statement i { color:#9d202a; font:400 34px/1 'DM Sans',sans-serif; }
-.tour-pass { margin-top:72px; padding-bottom:88px; }
-.voices { padding-top:88px; }
-.voices-heading { padding-bottom:76px; }
-.scene-intro { min-height:92svh; }
-.scene-copy { padding-top:128px; padding-bottom:68px; }
-.human-before,.ilias-person,.abrar-human,.hadi-human,.aftermath-block,.ilias-aftermath { padding-top:105px; padding-bottom:105px; }
-.wire-hours,.night-route,.six-hours,.daylight-sequence { padding:92px 0; }
-.answer-block { padding:88px 0; }
-.memory-stop { padding:92px 0 60px; }
-.chapter-sources { margin-bottom:88px; }
-.movement-memory { padding:105px 0; }
-.funeral-sea { min-height:84svh; }
-.name-wall,.method { padding:112px 0; }
-.wall-tools { margin-top:58px; }
+.tour-pass { margin-top:52px; padding-bottom:66px; }
+.voices { padding-top:66px; }
+.voices-heading { padding-bottom:54px; }
+.scene-intro { min-height:clamp(640px,78svh,820px); }
+.scene-copy { padding-top:104px; padding-bottom:52px; }
+.human-before,.ilias-person,.abrar-human,.hadi-human,.aftermath-block,.ilias-aftermath { padding-top:78px; padding-bottom:78px; }
+.grave-photo,.desk-photo,.speaker-photo { min-height:540px; }
+.portrait-photo { height:500px; }
+.fence-photo { min-height:440px; }
+.wire-hours,.night-route,.six-hours,.daylight-sequence { padding:68px 0; }
+.wire-moments article,.case-file article,.clock-moments article,.shot-moments article { min-height:0; }
+.dossier-card { min-height:0; margin-top:52px; }
+.ilias-aftermath aside { min-height:300px; }
+.answer-block { padding:64px 0; }
+.memory-stop { padding:66px 0 42px; }
+.chapter-sources { margin-bottom:58px; }
+.movement-memory { padding:78px 0; }
+.movement-memory .story-figure { min-height:460px; }
+.movement-memory .lantern-photo { margin-top:54px; }
+.funeral-sea { min-height:72svh; }
+.funeral-sea > .section-shell { padding-top:120px; padding-bottom:68px; }
+.chapter-bridge .section-shell { min-height:158px; padding-top:32px; padding-bottom:32px; }
+.name-wall,.method { padding:88px 0; }
+.wall-tools { margin-top:44px; }
 
 .post-evidence { padding:96px 0; color:#eeeae0; background:#0a100c; }
 .post-evidence > .section-shell { display:grid; grid-template-columns:minmax(320px,.92fr) 1.08fr; gap:clamp(55px,8vw,120px); align-items:center; }
@@ -671,6 +684,45 @@ button,input,select { font:inherit; }
 .post-photo figcaption { position:static; margin-top:13px; padding:0; color:#3d433d; background:none; font-size:12px; }
 .post-evidence h4 { font-size:clamp(40px,4.7vw,70px); }
 .post-evidence article > p:last-child { margin:28px 0 0; color:#c5cbc5; }
+
+/* Motion follows the evidence in each chapter: wire, signal, doors, voice. */
+.scene-image { transform:scale(1.045); transition:transform 6s cubic-bezier(.2,.7,.2,1),filter 1s ease; }
+.scene-intro.in-view .scene-image { transform:scale(1); }
+.wire-symbol i,.signal-symbol i { transform-origin:left center; }
+.scene-felani.in-view .wire-symbol i { animation:wireTrace 1.5s ease both; }
+.scene-ilias.in-view .signal-symbol i { animation:signalLoss 2.4s steps(8,end) both; }
+.scene-abrar.in-view .room-symbol span { animation:doorEvidence .55s ease both; }
+.scene-abrar.in-view .room-symbol span:nth-child(2) { animation-delay:.18s; }
+.scene-abrar.in-view .room-symbol span:nth-child(3) { animation-delay:.36s; }
+.scene-hadi.in-view .voice-symbol i,.hadi-human.in-view .sound-line i { animation:voicePulse 1.15s ease-in-out infinite alternate; animation-delay:calc(var(--bar-index, 1) * -70ms); transform-origin:center; }
+.voice-symbol i:nth-child(5n+1),.sound-line i:nth-child(5n+1) { --bar-index:1; }
+.voice-symbol i:nth-child(5n+2),.sound-line i:nth-child(5n+2) { --bar-index:2; }
+.voice-symbol i:nth-child(5n+3),.sound-line i:nth-child(5n+3) { --bar-index:3; }
+.voice-symbol i:nth-child(5n+4),.sound-line i:nth-child(5n+4) { --bar-index:4; }
+.voice-symbol i:nth-child(5n),.sound-line i:nth-child(5n) { --bar-index:5; }
+.wire-hours.in-view .wire-moments article { animation:evidenceRise .62s ease both; }
+.night-route.in-view .case-file article { animation:caseDrop .62s ease both; }
+.six-hours.in-view .clock-moments article,.daylight-sequence.in-view .shot-moments article { animation:evidenceRise .62s ease both; }
+.wire-hours.in-view article:nth-child(2),.night-route.in-view article:nth-child(2),.six-hours.in-view article:nth-child(2),.daylight-sequence.in-view article:nth-child(2) { animation-delay:.12s; }
+.wire-hours.in-view article:nth-child(3),.night-route.in-view article:nth-child(3),.six-hours.in-view article:nth-child(3),.daylight-sequence.in-view article:nth-child(3) { animation-delay:.24s; }
+.wire-hours.in-view article:nth-child(4),.night-route.in-view article:nth-child(4),.six-hours.in-view article:nth-child(4),.daylight-sequence.in-view article:nth-child(4) { animation-delay:.36s; }
+.night-route.in-view .dossier-card { animation:fileStamp .75s .4s ease both; }
+.post-photo::after { content:''; position:absolute; z-index:2; left:0; right:0; top:0; height:2px; opacity:0; background:#178752; box-shadow:0 0 18px rgba(23,135,82,.9); }
+.post-evidence.in-view .post-photo::after { animation:documentScan 2.4s .35s ease both; }
+.corridor-map.in-view .door-danger { animation:lockedDoor 1.4s ease both; }
+.funeral-sea > img { transform:scale(1.08); }
+.funeral-sea.in-view > img { animation:funeralPullback 10s ease-out both; }
+
+@keyframes wireTrace { from { opacity:.15; transform:rotate(-5deg) scaleX(.08); } to { opacity:1; transform:rotate(-5deg) scaleX(1); } }
+@keyframes signalLoss { 0% { opacity:0; transform:scaleX(.05); } 55% { opacity:1; transform:scaleX(1); } 70%,82% { opacity:.12; } 76%,88% { opacity:.8; } 100% { opacity:.24; transform:scaleX(.28); } }
+@keyframes doorEvidence { from { opacity:0; transform:translateY(-18px); } to { opacity:1; transform:translateY(0); } }
+@keyframes voicePulse { from { transform:scaleY(.45); opacity:.45; } to { transform:scaleY(1.08); opacity:1; } }
+@keyframes evidenceRise { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:translateY(0); } }
+@keyframes caseDrop { from { opacity:0; transform:translateY(-24px) rotate(-1.2deg); } to { opacity:1; transform:translateY(0) rotate(0); } }
+@keyframes fileStamp { from { opacity:0; transform:translateY(25px) rotate(-4deg) scale(.94); } to { opacity:1; transform:translateY(0) rotate(-1deg) scale(1); } }
+@keyframes documentScan { 0% { top:3%; opacity:0; } 15% { opacity:1; } 85% { opacity:1; } 100% { top:94%; opacity:0; } }
+@keyframes lockedDoor { 0% { box-shadow:0 0 0 rgba(215,185,95,0); } 45% { box-shadow:0 0 0 10px rgba(215,185,95,.18); } 100% { box-shadow:0 0 0 rgba(215,185,95,0); } }
+@keyframes funeralPullback { from { transform:scale(1.08); } to { transform:scale(1); } }
 
 @media (max-width:760px) {
   :root { --shell:calc(100% - 28px); }
@@ -712,30 +764,29 @@ button,input,select { font:inherit; }
   .hero-ledger strong { margin:7px 0 2px; font-size:17px; }
   .hero-ledger small { font-size:8px; }
 
-  .prologue { padding-top:68px; }
+  .prologue { padding-top:52px; }
   .prologue-layout { gap:24px; }
   .prologue-copy { padding-top:0; }
   .prologue h2 { font-size:42px; line-height:1.02; }
   .prologue-copy > p { font-size:17px; line-height:1.75; }
   .prologue-copy blockquote { margin-top:26px; padding:15px 0 15px 20px; font-size:22px; }
-  .regime-statement { grid-template-columns:1fr; gap:18px; margin-top:48px; padding:22px 0; }
+  .regime-statement { grid-template-columns:1fr; gap:16px; margin-top:36px; padding:20px 0; }
   .regime-statement > strong { font-size:47px; }
   .regime-statement i { display:none; }
   .regime-statement p { padding-top:14px; border-top:1px solid rgba(11,13,12,.18); }
-  .tour-pass { margin-top:44px; padding-bottom:56px; }
+  .tour-pass { margin-top:34px; padding-bottom:42px; }
   .tour-pass ol { grid-template-columns:1fr; }
   .tour-pass li,.tour-pass li + li { min-height:0; padding:15px 0; border-left:0; }
-  .voices { padding-top:62px; }
-  .voices-heading { gap:18px; padding-bottom:48px; }
+  .voices { padding-top:48px; }
+  .voices-heading { gap:16px; padding-bottom:36px; }
   .voices h2,.name-wall h2 { font-size:42px; }
   .voices-heading > p,.name-wall-heading > p:last-child { font-size:16px; line-height:1.7; }
 
-  .scene-intro { min-height:max(690px,88svh); }
-  .scene-copy { padding-top:300px; padding-bottom:42px; }
+  .scene-intro { min-height:620px; }
+  .scene-copy { padding-top:255px; padding-bottom:34px; }
   .scene-copy h3 { font-size:44px; line-height:.98; }
   .chapter-location { margin-bottom:22px; }
   .chapter-opening { margin-top:22px; font-size:16px; line-height:1.65; }
-  .chapter-enter { margin-top:26px; }
   .threshold-symbol { opacity:.38; }
   .scene-felani .scene-image { object-position:left top; }
   .scene-ilias .scene-image,.scene-abrar .scene-image { width:100%; height:52%; right:0; opacity:.72; object-position:center; }
@@ -748,8 +799,8 @@ button,input,select { font:inherit; }
   .human-before,.ilias-person,.abrar-human,.hadi-human,.aftermath-block,.movement-memory > .section-shell,.ilias-aftermath,.post-evidence > .section-shell {
     grid-template-columns:1fr;
     gap:30px;
-    padding-top:58px;
-    padding-bottom:58px;
+    padding-top:46px;
+    padding-bottom:46px;
   }
   .grave-photo,.portrait-photo,.desk-photo,.speaker-photo,.fence-photo { min-height:0; height:auto; aspect-ratio:4 / 3; transform:none; box-shadow:none; }
   .grave-photo img,.portrait-photo img,.desk-photo img,.speaker-photo img,.fence-photo img { height:100%; }
@@ -757,7 +808,7 @@ button,input,select { font:inherit; }
   .portrait-photo { aspect-ratio:4 / 5; }
   .missing-portrait > span { right:6px; bottom:12px; padding:9px 13px; font-size:16px; }
   .border-coordinate { padding-block:20px; }
-  .wire-hours,.night-route,.six-hours,.daylight-sequence,.post-evidence { padding:58px 0; }
+  .wire-hours,.night-route,.six-hours,.daylight-sequence,.post-evidence { padding:46px 0; }
   .wire-moments,.case-file,.clock-moments,.shot-moments { gap:10px; margin-top:28px; }
   .wire-moments article,.case-file article,.clock-moments article,.shot-moments article { min-height:0; padding:21px; transform:none; }
   .wire-moments article time,.clock-moments time,.shot-moments time { margin-top:15px; }
@@ -770,7 +821,7 @@ button,input,select { font:inherit; }
   .post-photo { order:2; aspect-ratio:auto; padding:9px; box-shadow:8px 8px 0 #1d5e3d; }
   .post-evidence article { order:1; }
   .post-evidence h4 { font-size:34px; }
-  .corridor-map { padding:48px 0; }
+  .corridor-map { padding:40px 0; }
   .door-line { grid-template-columns:1fr 16px 1fr 16px 1fr; gap:4px; margin-top:24px; }
   .door-line > span { min-height:104px; padding:8px 4px; }
   .door-line > span b { font-size:22px; }
@@ -781,27 +832,27 @@ button,input,select { font:inherit; }
   .movement-memory > .section-shell > div { order:2; gap:7px; transform:none; }
   .movement-memory .story-figure { min-height:0; aspect-ratio:3 / 4; }
   .movement-memory .lantern-photo { margin-top:24px; }
-  .answer-block { padding:56px 0; }
+  .answer-block { padding:46px 0; }
   .answer-block > .section-shell { gap:24px; }
   .answer-block strong { font-size:72px; line-height:.85; }
-  .memory-stop { gap:18px; padding:58px 0 38px; }
+  .memory-stop { gap:18px; padding:46px 0 30px; }
   .memory-stop > span { height:38px; font-size:78px; }
   .memory-stop blockquote { font-size:27px; line-height:1.35; }
-  .chapter-sources { margin-bottom:56px; }
+  .chapter-sources { margin-bottom:42px; }
   .chapter-sources summary { padding:18px 0; }
   .chapter-sources a { gap:16px; font-size:13px; }
-  .chapter-bridge .section-shell { min-height:170px; padding-block:30px; }
+  .chapter-bridge .section-shell { min-height:132px; padding-block:24px; }
   .chapter-bridge p { font-size:23px; line-height:1.25; }
-  .funeral-sea { min-height:72svh; }
-  .funeral-sea > .section-shell { padding-top:200px; padding-bottom:48px; }
+  .funeral-sea { min-height:64svh; }
+  .funeral-sea > .section-shell { padding-top:150px; padding-bottom:40px; }
 
-  .name-wall { padding:72px 0; }
+  .name-wall { padding:58px 0; }
   .wall-tools { grid-template-columns:1fr; gap:12px; margin:38px 0 24px; padding:12px; }
   .wall-count { grid-column:auto; }
   .names-grid { grid-template-columns:1fr; }
   .name-record { min-height:140px; }
   .wall-source-note { margin-top:32px; }
-  .method { padding:72px 0; }
+  .method { padding:58px 0; }
   .method-layout { gap:38px; }
   .method h2 { font-size:40px; }
   .method-content > p:first-child { font-size:16px; }
