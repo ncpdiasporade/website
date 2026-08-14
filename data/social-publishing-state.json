@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-14T22:49:33.127Z",
+  "updatedAt": "2026-08-14T23:33:56.278Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -92,7 +92,8 @@
     "facebook:germany:122199723494921031": "34d057fee3df2b0dab1b48d3cf84ee83c26ef914444a7dda9383aca64d04c2a1",
     "facebook:germany:122199805856921031": "e85e4b6543f50367f0f9d7a626d0dad7e7e0d93850d3359de763ad1fc0493fa9",
     "facebook:germany:122199818708921031": "b75c22d3db6afcaa832a0f2a67eb0cfb02ae0bbd634bf3d6520105d7d1d442df",
-    "facebook:germany:122199823568921031": "1caebbeb6856afbe74bf4646b77d01ebd9daeec302e5416926812253620c0651"
+    "facebook:germany:122199823568921031": "1caebbeb6856afbe74bf4646b77d01ebd9daeec302e5416926812253620c0651",
+    "blog:development-authority-appointments-accountability": "015a22456f37258615d3e8e3f6b82a62b2d6b60ceaa7edcde0100b7e482af900"
   },
   "publications": []
 }
