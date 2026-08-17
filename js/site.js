@@ -1450,7 +1450,7 @@ function initBlog() {
     openBlogModal(requestedArticleId, { updateUrl: false });
   }
 
-  loadContentJson('data/blog-posts.json?v=20260817-editorial-voice')
+  loadContentJson('data/blog-posts.json?v=20260817-barapukuria-name')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);
