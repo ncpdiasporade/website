@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-17T11:42:41.504Z",
+  "updatedAt": "2026-08-17T13:07:33.226Z",
   "items": [
+    {
+      "id": "facebook-germany-122200404992921031",
+      "facebookId": "122200404992921031",
+      "status": "published",
+      "date": "১৭ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-17T12:45:44+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "সাংবাদিকদের সুরক্ষা নিশ্চিত করতে না পারলে তারা স্বাধীনভাবে কাজ করতে পারবেন না।",
+      "excerpt": "- নাহিদ ইসলাম",
+      "sourceCaption": "সাংবাদিকদের সুরক্ষা নিশ্চিত করতে না পারলে তারা স্বাধীনভাবে কাজ করতে পারবেন না।\n\n- নাহিদ ইসলাম\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122200404992921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122200404992921031.jpg",
+      "imageAlt": "সাংবাদিকদের সুরক্ষা নিশ্চিত করতে না পারলে তারা স্বাধীনভাবে কাজ করতে পারবেন না।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122200147376921031",
       "facebookId": "122200147376921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122199723494921031.jpg",
       "imageAlt": "যে ব্যবস্থায় ব্যাংক লুট হতো, বিদ্যুতের দাম নির্ধারিত হতো ইচ্ছামতো।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122199716036921031",
-      "facebookId": "122199716036921031",
-      "status": "published",
-      "date": "১২ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-12T19:59:51+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "দুই দশক পরেও শিক্ষা নেয়নি বিএনপি।",
-      "excerpt": "- নাহিদ ইসলাম",
-      "sourceCaption": "দুই দশক পরেও শিক্ষা নেয়নি বিএনপি।\n\n-  নাহিদ ইসলাম\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122199716036921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122199716036921031.jpg",
-      "imageAlt": "দুই দশক পরেও শিক্ষা নেয়নি বিএনপি।",
       "managedBy": "facebook-sync"
     },
     {
