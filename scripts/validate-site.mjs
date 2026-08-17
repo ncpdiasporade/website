@@ -34,8 +34,54 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260817-barapukuria-name" defer></script>')) {
+if (!html.includes('<script src="js/bootstrap.js?v=20260817-seo-launch" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
+}
+const bootstrapScript = fs.readFileSync(path.join(rootDir, 'js/bootstrap.js'), 'utf8');
+for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260817-seo-launch']) {
+  if (!bootstrapScript.includes(source)) errors.push(`js/bootstrap.js: missing ordered runtime asset ${source}`);
+}
+for (const seoContract of [
+  '<title>NCP Germany | NCP Diaspora Alliance Germany</title>',
+  'name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"',
+  'hreflang="en" href="https://ncpdagermany.de/en/"',
+  'hreflang="de" href="https://ncpdagermany.de/de/"',
+  'type="application/ld+json"',
+  '"@type": "WebSite"',
+  '"@type": "Organization"'
+]) {
+  if (!html.includes(seoContract)) errors.push(`index.html: missing SEO contract ${seoContract}`);
+}
+for (const asset of [
+  'robots.txt',
+  'sitemap.xml',
+  'site.webmanifest',
+  'favicon-48.png',
+  'apple-touch-icon.png',
+  'img/logo/logo-navbar-bn-seo.webp',
+  'img/logo/logo-navbar-en-seo.webp',
+  'img/logo/logo-premium-seo.webp',
+  'img/logo/logo-premium-en-seo.webp',
+  'img/july/selected/august-05-parliament-hero.webp',
+  'en/index.html',
+  'de/index.html'
+]) {
+  if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`SEO: missing ${asset}`);
+}
+const robots = fs.readFileSync(path.join(rootDir, 'robots.txt'), 'utf8');
+if (!robots.includes('Sitemap: https://ncpdagermany.de/sitemap.xml')) errors.push('robots.txt: missing canonical sitemap location');
+const sitemap = fs.readFileSync(path.join(rootDir, 'sitemap.xml'), 'utf8');
+for (const url of ['https://ncpdagermany.de/', 'https://ncpdagermany.de/en/', 'https://ncpdagermany.de/de/']) {
+  if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`sitemap.xml: missing ${url}`);
+}
+for (const language of ['en', 'de']) {
+  const landing = fs.readFileSync(path.join(rootDir, language, 'index.html'), 'utf8');
+  if (!landing.includes(`<html lang="${language}">`) || !landing.includes(`<link rel="canonical" href="https://ncpdagermany.de/${language}/">`)) {
+    errors.push(`${language}/index.html: missing matching language or canonical URL`);
+  }
+  if (!landing.includes('<h1>NCP Diaspora Alliance Germany</h1>') || !landing.includes('type="application/ld+json"')) {
+    errors.push(`${language}/index.html: missing visible identity heading or structured data`);
+  }
 }
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
 if (!markup.includes('id="updatesMore"')) errors.push('index.html: missing updates More control');
@@ -136,6 +182,12 @@ for (const article of blogData.items || []) {
     }
     if (!previewHtml.includes(`https://ncpdagermany.de/${String(article.shareImage || '').replace(/^\/+/, '')}`)) {
       errors.push(`${previewPath}: missing expected Open Graph image`);
+    }
+    if (!suffix && (!previewHtml.includes('type="application/ld+json"') || !previewHtml.includes('<article class="body">') || previewHtml.includes('window.location.replace'))) {
+      errors.push(`${previewPath}: Bengali article must be indexable, structured and contain the full body`);
+    }
+    if (suffix && !previewHtml.includes('name="robots" content="noindex,follow"')) {
+      errors.push(`${previewPath}: thin translated preview must remain out of the index`);
     }
   }
 }

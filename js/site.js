@@ -143,6 +143,22 @@ function initSignatureMotion() {
   });
 }
 
+function initHeroMemoryCanvas() {
+  const canvas = $('.hero-memory-canvas');
+  const source = canvas?.dataset.src;
+  const context = canvas?.getContext?.('2d');
+  if (!canvas || !source || !context) return;
+
+  const image = new Image();
+  image.decoding = 'async';
+  image.onload = () => {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    canvas.classList.add('is-painted');
+  };
+  image.src = source;
+}
+
 /* ─────────────────────────────────────────
    MODULE: JULY MOVEMENT MOTION
 ───────────────────────────────────────── */
@@ -1769,6 +1785,7 @@ function init() {
     initProgressBar,
     initStickyNav,
     initSignatureMotion,
+    initHeroMemoryCanvas,
     initJulyMotion,
     initActiveNavigation,
     initMobileMenu,
