@@ -44,6 +44,7 @@ for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260817
 for (const seoContract of [
   '<title>NCP Germany | NCP Diaspora Alliance Germany</title>',
   'name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"',
+  'name="google-site-verification" content="zBeoWBR-yqIwbmIsQTdiyWYc--CflR7I7C4EVRfTwyo"',
   'hreflang="en" href="https://ncpdagermany.de/en/"',
   'hreflang="de" href="https://ncpdagermany.de/de/"',
   'type="application/ld+json"',
