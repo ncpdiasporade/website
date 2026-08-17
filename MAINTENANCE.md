@@ -45,6 +45,8 @@ Manual fallback:
 
 The Codex desktop automation **Daily Bangladesh Accountability Blog** runs at 04:25 Europe/Berlin. It follows `prompts/bangladesh-accountability-analyst.md`, works from the latest `origin/main` in an isolated temporary worktree, and publishes only after the evidence and fact-check gates pass. No OpenAI API secret is used.
 
+Every Bengali article and manual edit must also follow `docs/BLOG_EDITORIAL_STYLE_BN.md`: lead with the concrete question, keep the prose conversational and precise, explain technical language, distinguish facts from allegations, and criticise decisions without personal ridicule.
+
 Manage pauses, schedule changes, and run results from the Codex **Scheduled** view. Keep the computer on and the Codex app running at execution time. Never lower the 80-point evidence threshold or bypass the institutional-source requirement merely to maintain a daily publishing cadence.
 
 ## Privacy and membership submissions

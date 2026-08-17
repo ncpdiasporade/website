@@ -1450,7 +1450,7 @@ function initBlog() {
     openBlogModal(requestedArticleId, { updateUrl: false });
   }
 
-  loadContentJson('data/blog-posts.json?v=20260804-nahid-mandate')
+  loadContentJson('data/blog-posts.json?v=20260817-editorial-voice')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);
