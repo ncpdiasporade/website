@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-17T12:11:49.859Z",
+  "updatedAt": "2026-08-17T13:08:08.679Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -96,7 +96,8 @@
     "blog:development-authority-appointments-accountability": "a22f66b0101863ec58d6b9377f09fd373cbcb68787d627f0f4b51b34b930acc5",
     "facebook:germany:122200147376921031": "0f90558d25f68113505fa37d2991f3c8a064f4c19fb33510d657a196e4f750d9",
     "blog:barapukuria-unit-two-repair-accountability": "32d455e0fe0153b42160207092167f3d6ef7184bb7128c6864349d9b324f427c",
-    "blog:sitakunda-ship-recycling-safety-accountability": "0ce4496e2826d0aeeef42697f17a1091235a5b1a9e2c8441efc69dc4c5777d41"
+    "blog:sitakunda-ship-recycling-safety-accountability": "0ce4496e2826d0aeeef42697f17a1091235a5b1a9e2c8441efc69dc4c5777d41",
+    "facebook:germany:122200404992921031": "4d51b861319f827530c1fbe5518e0d0fd36d8a5f43716248a2b05e525d4e3149"
   },
   "publications": []
 }
