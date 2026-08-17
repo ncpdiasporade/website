@@ -11,23 +11,24 @@
 
   const meta = {
     bn: {
-      title: 'NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি',
-      description: 'জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি (NCP), প্রবাসী অধিকার এবং NCP Diaspora Alliance Germany-এর কার্যক্রম, ঘোষণা ও তথ্যভান্ডার।',
+      title: 'NCP Germany | NCP Diaspora Alliance Germany',
+      description: 'NCP Diaspora Alliance Germany—জার্মানিতে জাতীয় নাগরিক পার্টি (NCP), জুলাই গণঅভ্যুত্থান ২০২৪, প্রবাসী অধিকার, কার্যক্রম, সাম্প্রতিক আপডেট ও তথ্যভান্ডার।',
       ogDescription: 'জুলাই ২০২৪-এর দলিল, NCP-এর তথ্য, প্রবাসী অধিকার, সাম্প্রতিক কার্যক্রম ও ঘোষণার নির্ভরযোগ্য কেন্দ্র।',
     },
     en: {
-      title: 'NCP Diaspora Alliance Germany | National Citizen Party',
-      description: 'Information on the July Uprising 2024, the National Citizen Party (NCP), diaspora rights, and the work and announcements of NCP Diaspora Alliance Germany.',
+      title: 'NCP Germany | National Citizen Party Diaspora Alliance',
+      description: 'NCP Diaspora Alliance Germany connects Bangladeshis in Germany with the National Citizen Party, diaspora rights and the legacy of the July Uprising 2024.',
       ogDescription: 'A trusted hub for July 2024 records, NCP information, diaspora rights, recent activities and announcements.',
     },
     de: {
-      title: 'NCP Diaspora Alliance Germany | National Citizen Party',
-      description: 'Informationen zum Juli-Aufstand 2024, zur National Citizen Party (NCP), zu Rechten der Diaspora sowie zur Arbeit und zu Ankündigungen der NCP Diaspora Alliance Germany.',
+      title: 'NCP Deutschland | NCP Diaspora Alliance Germany',
+      description: 'Die NCP Diaspora Alliance Germany verbindet Bangladescher in Deutschland mit der National Citizen Party, Diaspora-Rechten und dem Juli-Aufstand 2024.',
       ogDescription: 'Eine verlässliche Anlaufstelle für Dokumente zu Juli 2024, Informationen zur NCP, Diaspora-Rechte, aktuelle Aktivitäten und Ankündigungen.',
     },
   };
 
   const en = {
+    'NCP Germany · NCP Diaspora Alliance Germany': 'NCP Germany · NCP Diaspora Alliance Germany',
     'Germany · জার্মানি': 'Germany',
     'কর্মসূচি': 'Programmes',
     'কর্মসূচি ও আয়োজন': 'Programmes & events',
@@ -425,6 +426,7 @@
   };
 
   const de = {
+    'NCP Germany · NCP Diaspora Alliance Germany': 'NCP Deutschland · NCP Diaspora Alliance Germany',
     'Germany · জার্মানি': 'Deutschland',
     'কর্মসূচি': 'Programme',
     'কর্মসূচি ও আয়োজন': 'Programme & Veranstaltungen',

@@ -5,6 +5,7 @@
   "scripts": {
     "start": "python3 start_server.py",
     "generate:blog-previews": "node scripts/generate-blog-share-pages.mjs",
+    "generate:seo": "node scripts/generate-seo-pages.mjs",
     "generate:july-previews": "node scripts/generate-july-share-pages.mjs",
     "sync:facebook": "node scripts/sync-facebook.mjs",
     "sync:facebook-events": "node scripts/sync-facebook-events.mjs",

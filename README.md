@@ -14,6 +14,7 @@ Static website for [ncpdagermany.de](https://ncpdagermany.de), published from th
 
 ```bash
 npm start
+npm run generate:seo
 npm run validate
 ```
 
@@ -28,6 +29,12 @@ Open `http://localhost:3000` after starting the preview server.
 - `index.html`: layout, fallback content, styles, and browser-side rendering
 
 Use `status: "draft"` to keep an item out of the published interface. Keep every factual update linked to its original source.
+
+## Search visibility and multilingual landing pages
+
+`npm run generate:seo` rebuilds the dedicated English and German landing pages, optimized logo and hero assets, `robots.txt`, `sitemap.xml`, favicons, and the web app manifest. Run it whenever the organisation copy, public URLs, Blog catalogue, or source images change. Bengali Blog share pages are generated as complete indexable articles by `npm run generate:blog-previews`; the shorter English and German previews remain `noindex` until full translations are available.
+
+The canonical search identities are **NCP Diaspora Alliance Germany**, **NCP Germany**, **NCP Deutschland**, and **NCPDA Germany**. Keep these names consistent on the website, Facebook Page, Instagram, YouTube, TikTok, news profiles, and any external chapter directory. Do not create duplicate URLs for keyword variants; link external profiles to the canonical language page instead.
 
 ## Automatic Facebook posts, pinned items, Reels, and Events
 
