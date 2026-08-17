@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-17T16:47:45.287Z",
+  "updatedAt": "2026-08-17T17:47:07.479Z",
   "items": [
+    {
+      "id": "facebook-germany-122200428668921031",
+      "facebookId": "122200428668921031",
+      "status": "published",
+      "date": "১৭ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-17T17:31:03+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "\"UNO অফিসগুলো হয়ে উঠছে বিএনপি'র ২য় অফিস।",
+      "excerpt": "আর উপজেলা বিএনপি'র সভাপতি সেক্রেটারি দায়িত্ব পালন করছে ভারপ্রাপ্ত UNO হিসেবে।\" মুখ্য সংগঠক (উত্তরাঞ্চল), জাতীয় নাগরিক পার্টি",
+      "sourceCaption": "\"UNO অফিসগুলো হয়ে উঠছে বিএনপি'র ২য় অফিস।\nআর উপজেলা বিএনপি'র সভাপতি সেক্রেটারি দায়িত্ব পালন করছে ভারপ্রাপ্ত UNO হিসেবে।\"\n\n- সারজিস আলম  \nমুখ্য সংগঠক (উত্তরাঞ্চল), জাতীয় নাগরিক পার্টি\n\n#ncpdagermany #ncp #ncpdiasporagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122200428668921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122200428668921031.jpg",
+      "imageAlt": "\"UNO অফিসগুলো হয়ে উঠছে বিএনপি'র ২য় অফিস।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122200420340921031",
       "facebookId": "122200420340921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122199823568921031.jpg",
       "imageAlt": "গণভোটের রায় বাস্তবায়ন, তেল, গ্যাস, বিদ্যুৎসহ নিত্যপ্রয়োজনীয় দ্রব্যের অস্বাভাবিক মূল্যবৃদ্ধি, আইনশৃঙ্খলা পরিস্থিতির চরম…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122199818708921031",
-      "facebookId": "122199818708921031",
-      "status": "published",
-      "date": "১৩ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-13T12:54:27+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "গুম প্রতিরোধ ও প্রতিকার খসড়া আইন-২০২৬ দায়মুক্তি ও অস্বীকারের সংস্কৃতি টিকিয়ে রাখবে।",
-      "excerpt": "গুম প্রতিরোধ ও প্রতিকার খসড়া আইন-২০২৬ দায়মুক্তি ও অস্বীকারের সংস্কৃতি টিকিয়ে রাখবে।",
-      "sourceCaption": "গুম প্রতিরোধ ও প্রতিকার খসড়া আইন-২০২৬ দায়মুক্তি ও অস্বীকারের সংস্কৃতি টিকিয়ে রাখবে।\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122199818708921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122199818708921031.jpg",
-      "imageAlt": "গুম প্রতিরোধ ও প্রতিকার খসড়া আইন-২০২৬ দায়মুক্তি ও অস্বীকারের সংস্কৃতি টিকিয়ে রাখবে।",
       "managedBy": "facebook-sync"
     },
     {
