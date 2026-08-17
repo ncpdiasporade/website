@@ -34,12 +34,15 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/bootstrap.js?v=20260817-seo-launch" defer></script>')) {
+if (!html.includes('<script src="js/bootstrap.js?v=20260817-seo2" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 const bootstrapScript = fs.readFileSync(path.join(rootDir, 'js/bootstrap.js'), 'utf8');
 for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260817-seo-launch']) {
   if (!bootstrapScript.includes(source)) errors.push(`js/bootstrap.js: missing ordered runtime asset ${source}`);
+}
+if (!bootstrapScript.includes("root.classList.add('motion-ready')") || !bootstrapScript.includes("root.classList.add('page-ready')") || !bootstrapScript.includes('fonts.googleapis.com/css2')) {
+  errors.push('js/bootstrap.js: missing early hero motion or non-blocking font initialization');
 }
 for (const seoContract of [
   '<title>NCP Germany | NCP Diaspora Alliance Germany</title>',
