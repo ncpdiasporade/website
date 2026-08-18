@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T09:49:54.369Z",
+  "updatedAt": "2026-08-18T10:48:06.348Z",
   "items": [
     {
       "id": "facebook-germany-122200428668921031",
@@ -120,6 +120,27 @@
       "managedBy": "facebook-sync"
     },
     {
+      "id": "facebook-germany-122197201634921031",
+      "facebookId": "122197201634921031",
+      "status": "published",
+      "date": "২৭ জুলাই, ২০২৬",
+      "createdAt": "2026-07-27T19:20:40+0000",
+      "badge": "জুলাই",
+      "title": "\"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।\"",
+      "excerpt": "www.ncpdagermany.de",
+      "sourceCaption": "\"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।\"\n\nwww.ncpdagermany.de",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197201634921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": true,
+      "image": "img/social/germany/fb-122197201634921031.jpg",
+      "imageAlt": "\"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।\"",
+      "managedBy": "facebook-sync",
+      "featuredOrder": 1
+    },
+    {
       "id": "facebook-germany-122197194434921031",
       "facebookId": "122197194434921031",
       "status": "published",
@@ -138,7 +159,7 @@
       "image": "img/social/germany/fb-122197194434921031.jpg",
       "imageAlt": "ধন্যবাদ জুলাইয়ের ইমাম Nahid Islam ❤️",
       "managedBy": "facebook-sync",
-      "featuredOrder": 1
+      "featuredOrder": 2
     },
     {
       "id": "ncp-election-manifesto-2026",
@@ -197,7 +218,7 @@
       "image": "img/social/germany/fb-122184264350921031.jpg",
       "imageAlt": "গত ৩০ এপ্রিল জার্মানিতে বাংলাদেশ দূতাবাস, বার্লিন কর্তৃক মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে একটি গুরুত্বপূর্ণ…",
       "managedBy": "facebook-sync",
-      "featuredOrder": 2
+      "featuredOrder": 3
     },
     {
       "id": "facebook-germany-video-26579957611639020",
