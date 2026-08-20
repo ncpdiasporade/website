@@ -1717,6 +1717,16 @@ function initSmoothScroll() {
   });
 }
 
+/* Keep the page's visual section order aligned with the primary navigation. */
+function initSectionOrder() {
+  const footer = document.querySelector('footer.site-footer');
+  if (!footer) return;
+  ['sovereignty', 'uprising', 'about', 'pillars', 'updates', 'blog', 'why-join', 'join']
+    .map((id) => document.getElementById(id))
+    .filter(Boolean)
+    .forEach((section) => footer.before(section));
+}
+
 /* ─────────────────────────────────────────
    INIT
 ───────────────────────────────────────── */
@@ -1738,6 +1748,7 @@ function init() {
   window.setTimeout(revealAllContent, 1800);
   [
     () => i18n?.init(),
+    initSectionOrder,
     initProgressBar,
     initStickyNav,
     initSignatureMotion,
