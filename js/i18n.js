@@ -28,6 +28,12 @@
   };
 
   const en = {
+    'প্রবাসী অধিকার ও অংশগ্রহণ': 'Diaspora rights and participation',
+    'আমরা প্রবাসীদের অধিকার নিয়ে কাজ করি। একই সঙ্গে দল, মত ও আদর্শের ঊর্ধ্বে উঠে দক্ষ ও দায়িত্বশীল প্রবাসীরা যেন দেশের নীতিনির্ধারণে অর্থবহ ভূমিকা রাখতে পারেন—সেই অংশগ্রহণের পথও তৈরি করতে কাজ করি।': 'We work to protect the rights of Bangladeshis living abroad. Beyond party, opinion and ideology, we also work to create meaningful pathways for skilled and responsible members of the diaspora to contribute to Bangladesh’s policymaking.',
+    'আমাদের বিশেষ আর্কাইভ': 'Our special archive',
+    'পূর্ণাঙ্গ জুলাই ইতিহাস জানুন': 'Explore the complete history of July',
+    'জুলাই গণঅভ্যুত্থান ২০২৪-এর দিনভিত্তিক প্রেক্ষাপট, স্মৃতি, ছবি ও তথ্যের আমাদের বিশেষ আর্কাইভ।': 'Our special archive of the July Uprising 2024, presenting its day-by-day context, memories, photographs and documented information.',
+    'পূর্ণাঙ্গ ইতিহাস দেখুন →': 'View the complete history →',
     'হাসিনা আমলের নথিভিত্তিক ইতিহাস · ২০০৯—২০২৪': 'A documented history of the Hasina era · 2009—2024',
     'খুনি হাসিনার ইতিহাস': 'The history of killings under Hasina',
     'পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।': 'Pilkhana, Shapla Chattar, border killings, enforced disappearances, repression of free expression and July 2024 are distinct events, each with its own evidence, responsibility and judicial status. This archive places major allegations and evidence from the Awami League government years in chronological order, so memory becomes a foundation for accountability—not merely a slogan.',
@@ -463,6 +469,12 @@
   };
 
   const de = {
+    'প্রবাসী অধিকার ও অংশগ্রহণ': 'Rechte und Beteiligung der Diaspora',
+    'আমরা প্রবাসীদের অধিকার নিয়ে কাজ করি। একই সঙ্গে দল, মত ও আদর্শের ঊর্ধ্বে উঠে দক্ষ ও দায়িত্বশীল প্রবাসীরা যেন দেশের নীতিনির্ধারণে অর্থবহ ভূমিকা রাখতে পারেন—সেই অংশগ্রহণের পথও তৈরি করতে কাজ করি।': 'Wir setzen uns für die Rechte der im Ausland lebenden Bangladescherinnen und Bangladescher ein. Über Parteien, Meinungen und Ideologien hinweg schaffen wir zugleich Wege, damit qualifizierte und verantwortungsbewusste Mitglieder der Diaspora sinnvoll an der politischen Entscheidungsfindung Bangladeschs mitwirken können.',
+    'আমাদের বিশেষ আর্কাইভ': 'Unser Sonderarchiv',
+    'পূর্ণাঙ্গ জুলাই ইতিহাস জানুন': 'Die vollständige Geschichte des Juli entdecken',
+    'জুলাই গণঅভ্যুত্থান ২০২৪-এর দিনভিত্তিক প্রেক্ষাপট, স্মৃতি, ছবি ও তথ্যের আমাদের বিশেষ আর্কাইভ।': 'Unser Sonderarchiv zum Juli-Aufstand 2024 mit dem täglichen Kontext, Erinnerungen, Fotografien und dokumentierten Informationen.',
+    'পূর্ণাঙ্গ ইতিহাস দেখুন →': 'Vollständige Geschichte ansehen →',
     'হাসিনা আমলের নথিভিত্তিক ইতিহাস · ২০০৯—২০২৪': 'Dokumentierte Geschichte der Hasina-Ära · 2009—2024',
     'খুনি হাসিনার ইতিহাস': 'Die Geschichte der Tötungen unter Hasina',
     'পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।': 'Pilkhana, Shapla Chattar, Tötungen an der Grenze, gewaltsames Verschwindenlassen, die Unterdrückung freier Meinungsäußerung und der Juli 2024 sind unterschiedliche Ereignisse – jeweils mit eigener Beweislage, Verantwortung und juristischem Stand. Dieses Archiv ordnet zentrale Vorwürfe und Belege aus den Regierungsjahren der Awami League chronologisch, damit Erinnerung zur Grundlage von Rechenschaft wird und nicht nur ein Slogan bleibt.',
