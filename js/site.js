@@ -335,35 +335,33 @@ function initTicker() {
   if (!track) return;
 
   const items = [
-    { label: 'জুলাই গণঅভ্যুত্থান ২০২৪', value: 'ছাত্র-জনতার ঐতিহাসিক জাগরণ' },
-    { label: 'OHCHR অনুসন্ধান', value: 'সর্বোচ্চ ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন' },
-    { label: 'NCP প্রতিষ্ঠা', value: '২৮ ফেব্রুয়ারি ২০২৫' },
-    { label: 'জাতীয় নাগরিক পার্টি (NCP)', value: 'জুলাই নেতৃত্বের উদ্যোগে গঠিত রাজনৈতিক দল' },
-    { label: 'রাষ্ট্র সংস্কার', value: 'গণতান্ত্রিক প্রতিষ্ঠান ও জবাবদিহির অঙ্গীকার' },
-    { label: 'নতুন বাংলাদেশ', value: 'ন্যায়, সাম্য ও গণতন্ত্রের অঙ্গীকার' },
-    { label: 'প্রবাসী বাংলাদেশি', value: 'ভোট, সেবা ও প্রতিনিধিত্বের অধিকার' },
-    { label: 'NCP Diaspora Alliance Germany', value: 'প্রবাসীদের ঐক্যবদ্ধ প্ল্যাটফর্ম' },
-    { label: 'জার্মানি চ্যাপ্টার', value: 'সক্রিয় · ২০২৫' },
-    { label: 'ডায়াসপোরা নেটওয়ার্ক', value: 'জ্ঞান, দক্ষতা ও নাগরিক অংশগ্রহণ' },
-    { label: 'প্রবাসী অধিকার', value: 'রাজনৈতিক অন্তর্ভুক্তির দাবি' },
-    { label: 'দ্বিতীয় প্রজাতন্ত্র', value: 'গণতান্ত্রিক পুনর্গঠনের লক্ষ্য' }
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'রাষ্ট্র সংস্কার ও ক্ষমতার ভারসাম্য' },
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'স্বাধীন প্রতিষ্ঠান, জবাবদিহি ও আইনের সমতা' },
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'বৈষম্যহীন নাগরিক অধিকার ও মর্যাদা' },
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'স্থানীয় সরকারকে শক্তিশালী করা' },
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'প্রবাসীর ভোটাধিকার ও নাগরিক সেবা' },
+    { label: 'ইশতেহারের অঙ্গীকার', value: 'তরুণদের নেতৃত্বে নতুন রাজনৈতিক বন্দোবস্ত' },
+    { label: 'জুলাই ২০২৪', value: 'ছাত্র-জনতার ঐতিহাসিক জাগরণ' },
+    { label: 'NCP প্রতিষ্ঠা', value: '২৮ ফেব্রুয়ারি ২০২৫' }
   ];
 
-  function renderItems(list) {
-    return list.map(({ label, value }) => `
-      <span class="ticker-item">
-        ${escapeHtml(t(label))}
-        <span class="ticker-sep"></span>
-        <strong>${escapeHtml(t(value))}</strong>
-      </span>
-    `).join('');
-  }
-
+  let current = 0;
+  let timer;
   function renderTicker() {
-    track.innerHTML = renderItems(items) + renderItems(items);
+    const { label, value } = items[current];
+    track.innerHTML = `<span class="ticker-item ticker-item-single">
+      ${escapeHtml(t(label))}<span class="ticker-sep"></span><strong>${escapeHtml(t(value))}</strong>
+    </span>`;
+    track.classList.remove('ticker-in');
+    void track.offsetWidth;
+    track.classList.add('ticker-in');
   }
 
   renderTicker();
+  timer = window.setInterval(() => {
+    current = (current + 1) % items.length;
+    renderTicker();
+  }, 4200);
   i18n?.onChange(renderTicker);
 }
 

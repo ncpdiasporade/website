@@ -1,0 +1,30 @@
+{
+  "model": "gpt-5.5",
+  "reasoningEffort": "high",
+  "timezone": "Europe/Berlin",
+  "scheduleDescription": "Daily at 02:25 UTC (04:25 CEST / 03:25 CET)",
+  "publicationMode": "quality-gated",
+  "minimumEvidenceScore": 80,
+  "minimumSources": 3,
+  "requireInstitutionalSource": true,
+  "maxRecentTopics": 12,
+  "context": "",
+  "preferredTopics": [
+    "Economy",
+    "Banking",
+    "Energy",
+    "Healthcare",
+    "Education",
+    "Corruption",
+    "Governance",
+    "Parliament",
+    "Foreign policy",
+    "Infrastructure",
+    "Public spending",
+    "Taxes",
+    "Employment",
+    "Human rights",
+    "Administrative decisions"
+  ],
+  "additionalRequirements": "Do not repeat a recently published topic unless a material new government decision changes the analysis."
+}
