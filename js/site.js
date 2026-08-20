@@ -345,23 +345,17 @@ function initTicker() {
     { label: 'NCP প্রতিষ্ঠা', value: '২৮ ফেব্রুয়ারি ২০২৫' }
   ];
 
-  let current = 0;
-  let timer;
   function renderTicker() {
-    const { label, value } = items[current];
-    track.innerHTML = `<span class="ticker-item ticker-item-single">
+    const markup = items.map(({ label, value }) => `<span class="ticker-item">
       ${escapeHtml(t(label))}<span class="ticker-sep"></span><strong>${escapeHtml(t(value))}</strong>
-    </span>`;
+    </span>`).join('');
+    track.innerHTML = markup + markup;
     track.classList.remove('ticker-in');
     void track.offsetWidth;
     track.classList.add('ticker-in');
   }
 
   renderTicker();
-  timer = window.setInterval(() => {
-    current = (current + 1) % items.length;
-    renderTicker();
-  }, 4200);
   i18n?.onChange(renderTicker);
 }
 

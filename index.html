@@ -799,12 +799,8 @@
     }
     .ticker-band::before { left: 0; background: linear-gradient(90deg, var(--ink-950), transparent); }
     .ticker-band::after  { right: 0; background: linear-gradient(-90deg, var(--ink-950), transparent); }
-    .ticker-track {
-      display: flex; justify-content: center; gap: 0;
-      white-space: nowrap;
-    }
-    .ticker-track.ticker-in { animation: tickerIn .55s cubic-bezier(.22,.8,.32,1) both; }
-    @keyframes tickerIn { from { opacity:0; transform:translateY(9px); } to { opacity:1; transform:translateY(0); } }
+    .ticker-track { display:flex; width:max-content; white-space:nowrap; animation:tickerScroll 28s linear infinite; will-change:transform; }
+    .ticker-track.ticker-in { animation:tickerScroll 28s linear infinite; }
     @keyframes tickerScroll {
       0%   { transform: translateX(0); }
       100% { transform: translateX(-50%); }
@@ -819,6 +815,10 @@
     .ticker-sep { width: 4px; height: 4px; border-radius: 50%; background: var(--green-500); flex-shrink: 0; }
     .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
     .ticker-item-single { min-height: 18px; }
+    .history-incident-list { grid-template-columns: repeat(3, 1fr); }
+    .history-incident-list .sovereignty-person { min-height: 180px; }
+    @media (max-width: 800px) { .history-incident-list { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 520px) { .history-incident-list { grid-template-columns: 1fr; } }
 
     /* ══════════════════════════════════════════
        32–36 JULY · SCHEDULED MEMORY EXPERIENCE
@@ -4522,11 +4522,9 @@
         </div>
         <div class="resource-grid stagger-children reveal" id="julyResources" data-content-source="data/july-resources.json">
           <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।</p><em>মূল PDF পড়ুন →</em></a>
-          <a class="resource-card" href="https://djmu.portal.gov.bd/" target="_blank" rel="noopener noreferrer"><span>সরকারি তথ্য</span><strong>জুলাই গণঅভ্যুত্থান অধিদপ্তর</strong><p>শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।</p><em>সরকারি পোর্টাল →</em></a>
-          <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
-          <a class="resource-card" href="https://julyuprising.com/" target="_blank" rel="noopener noreferrer"><span>ডিজিটাল আর্কাইভ</span><strong>July Uprising News Archive</strong><p>সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।</p><em>আর্কাইভ দেখুন →</em></a>
-          <a class="resource-card" href="https://july36.thedailystar.net/" target="_blank" rel="noopener noreferrer"><span>সংবাদ আর্কাইভ</span><strong>36 Days of July</strong><p>১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।</p><em>টাইমলাইন দেখুন →</em></a>
-          <a class="resource-card" href="https://julyarchive.com/" target="_blank" rel="noopener noreferrer"><span>কমিউনিটি আর্কাইভ</span><strong>July Revolution Archive</strong><p>ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।</p><em>সংগ্রহ দেখুন →</em></a>
+          <a class="resource-card" href="https://july36.ncpdagermany.de/" target="_blank" rel="noopener noreferrer"><span>আমাদের বিশেষ আর্কাইভ</span><strong>July 36 · পূর্ণ টাইমলাইন</strong><p>জুলাই গণঅভ্যুত্থান ২০২৪-এর দিনভিত্তিক স্মৃতি, ছবি, সাক্ষ্য ও প্রেক্ষাপট।</p><em>আর্কাইভ দেখুন →</em></a>
+          <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>১ জুলাই–১৫ আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সর্বোচ্চ ১,৪০০ নিহতের সম্ভাবনা নিয়ে অনুসন্ধান।</p><em>মূল PDF পড়ুন →</em></a>
+          <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থানের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক সরকারি ডিজিটাল সংগ্রহ।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
         </div>
         <p class="july-photo-credit">ওয়েবসাইটজুড়ে ব্যবহৃত জুলাইয়ের আলোকচিত্র: AFP, পলাশ খান ও অর্কিড চাকমা। আন্দোলনকালীন শিল্পকর্ম: সংগঠনের সংরক্ষিত সংগ্রহ।</p>
       </div>
@@ -4538,7 +4536,7 @@
       <div class="sovereignty-gateway-head reveal">
         <div>
           <p class="sovereignty-kicker">হাসিনা আমলের নথিভিত্তিক ইতিহাস · ২০০৯—২০২৪</p>
-          <h2 id="sovereigntyTitle">খুনি হাসিনার ইতিহাস<br><em>ভুলে গেলে দায়ও হারিয়ে যায়।</em></h2>
+          <h2 id="sovereigntyTitle">খুনি হাসিনার ইতিহাস<br><em>তোমরা সবাই যাইবা বলে—মনে রাখবো।</em></h2>
         </div>
         <p>পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।</p>
       </div>
@@ -4551,23 +4549,13 @@
         <span><b>২০১৯</b>আবরার</span><i></i>
         <span><b>২০২৪</b>জুলাই গণঅভ্যুত্থান</span>
       </div>
-      <div class="sovereignty-portraits stagger-children reveal">
-        <a class="sovereignty-person felani" href="sovereignty/#felani">
-          <div class="sovereignty-photo"><img src="img/sovereignty/felani-fence-history.webp" alt="অনন্তপুর সীমান্তের কাঁটাতারে ফেলানী খাতুনের মরদেহ—ঐতিহাসিক আলোকচিত্র" width="600" height="600" loading="lazy"></div>
-          <span>০১ · ২০১১ · সীমান্ত</span><strong>ফেলানী খাতুন</strong><small>পরদিন বিয়ে হওয়ার কথা ছিল। বিএসএফের গুলিতে তার দেহ কাঁটাতারে ঝুলল; বিচার পনেরো বছরেও ফিরল না।</small><em>ফেলানীর ঘটনা পড়ুন →</em>
-        </a>
-        <a class="sovereignty-person ilias" href="sovereignty/#ilias">
-          <div class="sovereignty-photo"><img src="img/sovereignty/ilias-ali.webp" alt="এম ইলিয়াস আলী" width="900" height="1040" loading="lazy"></div>
-          <span>০২ · ২০১২ · গুম</span><strong>এম ইলিয়াস আলী</strong><small>টিপাইমুখের বিরুদ্ধে লংমার্চ করেছিলেন। গাড়ি পাওয়া গেল; রাষ্ট্রের গুমযন্ত্র মানুষ দুজনকে আর ফেরাল না।</small><em>গুমের নথি পড়ুন →</em>
-        </a>
-        <a class="sovereignty-person abrar" href="sovereignty/#abrar">
-          <div class="sovereignty-photo"><img src="img/sovereignty/abrar-portrait-history.webp" alt="আবরার ফাহাদের বহুল প্রচারিত সাদা-কালো প্রতিকৃতি" width="730" height="409" loading="lazy"></div>
-          <span>০৩ · ২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ</strong><small>ভারতকে দেওয়া সুবিধার বিপরীতে বাংলাদেশের প্রাপ্তি নিয়ে প্রশ্ন করেছিল। ছাত্রলীগ জবাব দিয়েছিল ছয় ঘণ্টার নির্যাতনে।</small><em>আবরারের শেষ রাত পড়ুন →</em>
-        </a>
-        <a class="sovereignty-person hadi" href="#uprising">
-          <div class="sovereignty-photo"><img src="img/july/selected/august-05-parliament-afp.webp" alt="৫ আগস্ট ২০২৪-এ সংসদ ভবন ঘিরে মানুষের সমাবেশ" width="1600" height="1067" loading="lazy"></div>
-          <span>০৪ · ২০২৪ · গণঅভ্যুত্থান</span><strong>জুলাই ২০২৪</strong><small>কোটা সংস্কারের দাবি রাষ্ট্রীয় দমন ও দলীয় হামলার মুখে ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়।</small><em>জুলাইয়ের নথি পড়ুন →</em>
-        </a>
+      <div class="sovereignty-portraits history-incident-list stagger-children reveal">
+        <a class="sovereignty-person" href="history/#pilkhana"><span>২০০৯ · রাষ্ট্রীয় নিরাপত্তা</span><strong>পিলখানা হত্যাকাণ্ড</strong><small>বিডিআর বিদ্রোহে ৭৪ জন নিহত হন, তাঁদের মধ্যে ৫৭ জন সেনা কর্মকর্তা। পূর্ণ সত্য ও জবাবদিহির প্রশ্ন আজও গুরুত্বপূর্ণ।</small></a>
+        <a class="sovereignty-person" href="history/#felani"><span>২০১১ · সীমান্ত</span><strong>ফেলানী হত্যাকাণ্ড</strong><small>সীমান্তের কাঁটাতারে ফেলানী খাতুনের মরদেহ ঝুলে থাকা বাংলাদেশের বিবেককে নাড়া দেয়।</small></a>
+        <a class="sovereignty-person" href="history/#ilias"><span>২০১২ · গুম</span><strong>ইলিয়াস আলী নিখোঁজ</strong><small>গাড়ি পাওয়া গেল, মানুষ ফিরলেন না—গুমের অভিযোগে একটি পরিবারের অপেক্ষা আজও শেষ হয়নি।</small></a>
+        <a class="sovereignty-person" href="history/#shapla"><span>২০১৩ · রাষ্ট্রীয় অভিযান</span><strong>শাপলা চত্বর</strong><small>রাতের অভিযানের হতাহতের সংখ্যা নিয়ে মতভেদ আছে; স্বাধীন পূর্ণাঙ্গ তদন্তের দাবি রয়ে গেছে।</small></a>
+        <a class="sovereignty-person" href="history/#abrar"><span>২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ হত্যাকাণ্ড</strong><small>একজন শিক্ষার্থীর প্রশ্নের জবাবে দলীয় সহিংসতা—আদালতের দণ্ডের পরও ক্যাম্পাস নিরাপত্তার প্রশ্ন জাগে।</small></a>
+        <a class="sovereignty-person" href="history/#july-2024"><span>২০২৪ · গণঅভ্যুত্থান</span><strong>জুলাই গণঅভ্যুত্থান</strong><small>ছাত্র-জনতার আন্দোলনে রাষ্ট্রীয় দমন, গুলি ও গণগ্রেপ্তারের বিরুদ্ধে মানুষ রাস্তায় দাঁড়ায়।</small></a>
       </div>
       <div class="sovereignty-gateway-foot reveal">
         <p><b>একটি সরকারের দীর্ঘ ছায়া; বহু মানুষের অসমাপ্ত ন্যায়বিচার।</b><br>ঘটনার তারিখ, ক্ষয়ক্ষতি, তদন্তের অবস্থা, আদালতের রেকর্ড ও উৎস—সব এক জায়গায়। অনিশ্চিত দাবি আলাদা করে চিহ্নিত করা হয়েছে।</p>
@@ -4679,8 +4667,8 @@
         <article class="pillar">
           <div class="pillar-num">০২</div>
           <div class="pillar-badge">অধিকার</div>
-          <h3>প্রবাসী ভোটাধিকার ও নাগরিক সেবা</h3>
-          <p>ভোটার নিবন্ধন, প্রবাস থেকে ভোট প্রদান, সহজ ও স্বচ্ছ কনস্যুলার সেবা এবং নীতিনির্ধারণে প্রবাসীদের অর্থবহ প্রতিনিধিত্ব নিশ্চিত করার দাবিকে আমরা সংগঠিতভাবে সামনে আনি।</p>
+          <h3>প্রবাসী অধিকার ও অংশগ্রহণ</h3>
+          <p>আমরা প্রবাসীদের অধিকার নিয়ে কাজ করি। একই সঙ্গে দল, মত ও আদর্শের ঊর্ধ্বে উঠে দক্ষ ও দায়িত্বশীল প্রবাসীরা যেন দেশের নীতিনির্ধারণে অর্থবহ ভূমিকা রাখতে পারেন—সেই অংশগ্রহণের পথও তৈরি করতে কাজ করি।</p>
         </article>
         <article class="pillar">
           <div class="pillar-num">০৩</div>
