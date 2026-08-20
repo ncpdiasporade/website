@@ -8,7 +8,7 @@
   "videoArchiveMaxItems": 600,
   "videoArchiveTopRefreshItems": 24,
   "videoMetricsBatchSize": 5,
-  "maxFeedItems": 10,
+  "maxFeedItems": 6,
   "maxFeaturedItems": 4,
   "maxVideoItems": 6,
   "maxImageBytes": 8000000,
