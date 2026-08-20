@@ -1,0 +1,20 @@
+{
+  "name": "NCP Diaspora Alliance Germany",
+  "short_name": "NCPDA Germany",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6130",
+  "icons": [
+    {
+      "src": "/favicon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

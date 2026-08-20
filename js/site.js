@@ -143,6 +143,22 @@ function initSignatureMotion() {
   });
 }
 
+function initHeroMemoryCanvas() {
+  const canvas = $('.hero-memory-canvas');
+  const source = canvas?.dataset.src;
+  const context = canvas?.getContext?.('2d');
+  if (!canvas || !source || !context) return;
+
+  const image = new Image();
+  image.decoding = 'async';
+  image.onload = () => {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    canvas.classList.add('is-painted');
+  };
+  image.src = source;
+}
+
 /* ─────────────────────────────────────────
    MODULE: JULY MOVEMENT MOTION
 ───────────────────────────────────────── */
@@ -774,9 +790,14 @@ function initRecentUpdates() {
 
   const filterButtons = $$('[data-update-filter]');
   const freshness = $('#updatesFreshness');
+  const updatesMore = $('#updatesMore');
+  const updatesMoreLabel = $('#updatesMoreLabel');
   let allUpdates = [];
   let activeFilter = 'all';
   let lastUpdatedAt = '';
+  let showingAllUpdates = false;
+  const mobileUpdatesQuery = window.matchMedia('(max-width: 680px)');
+  const initialUpdateLimit = () => mobileUpdatesQuery.matches ? 3 : 6;
 
   function renderFreshness() {
     if (!freshness) return;
@@ -804,10 +825,19 @@ function initRecentUpdates() {
       }
       return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
     });
-    const limit = activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10;
-    const published = sorted.slice(0, limit);
+    const limit = activeFilter === 'featured' ? 4 : 6;
+    const available = sorted.slice(0, limit);
+    const published = showingAllUpdates ? available : available.slice(0, initialUpdateLimit());
 
-    if (!published.length) {
+    if (updatesMore) {
+      const hasHiddenUpdates = available.length > published.length;
+      updatesMore.hidden = !hasHiddenUpdates;
+      updatesMore.setAttribute('aria-expanded', String(showingAllUpdates));
+      updatesMore.setAttribute('aria-label', t('সব আপডেট দেখুন'));
+      if (updatesMoreLabel) updatesMoreLabel.textContent = t('আরও দেখুন');
+    }
+
+    if (!available.length) {
       updatesGrid.innerHTML = `<div class="updates-empty">${escapeHtml(t(activeFilter === 'featured' ? 'এই মুহূর্তে কোনো যাচাইকৃত পিন করা Facebook পোস্ট পাওয়া যায়নি। পেজে নতুন পোস্ট পিন করা হলে এখানে দেখা যাবে।' : 'এই উৎসে এখনো কোনো প্রকাশিত আপডেট নেই। নতুন পোস্ট যুক্ত হলে এখানে দেখা যাবে।'))}</div>`;
       return;
     }
@@ -860,6 +890,7 @@ function initRecentUpdates() {
   filterButtons.forEach((button) => {
     button.addEventListener('click', () => {
       activeFilter = button.dataset.updateFilter || 'all';
+      showingAllUpdates = false;
       filterButtons.forEach((candidate) => {
         const selected = candidate === button;
         candidate.classList.toggle('active', selected);
@@ -867,6 +898,17 @@ function initRecentUpdates() {
       });
       renderUpdates(allUpdates);
     });
+  });
+
+  updatesMore?.addEventListener('click', () => {
+    const firstNewUpdateIndex = initialUpdateLimit();
+    showingAllUpdates = true;
+    renderUpdates(allUpdates);
+    updatesGrid.querySelectorAll('.update-card')[firstNewUpdateIndex]?.querySelector('a')?.focus({ preventScroll: true });
+  });
+
+  mobileUpdatesQuery.addEventListener?.('change', () => {
+    if (!showingAllUpdates) renderUpdates(allUpdates);
   });
 
   loadContentJson(updatesGrid.dataset.contentSource || 'data/recent-updates.json')
@@ -1127,7 +1169,7 @@ function initBlog() {
 
     const links = article.sources
       .filter((source) => source && cleanText(source.label, 120) && safeHref(source.url) !== '#')
-      .slice(0, 6)
+      .slice(0, 10)
       .map((source) => `
         <li>
           <a href="${safeHref(source.url)}" target="_blank" rel="noopener noreferrer">
@@ -1416,7 +1458,7 @@ function initBlog() {
     openBlogModal(requestedArticleId, { updateUrl: false });
   }
 
-  loadContentJson('data/blog-posts.json?v=20260729-real-photos')
+  loadContentJson('data/blog-posts.json?v=20260817-barapukuria-name')
     .then((data) => {
       rawArticles = Array.isArray(data.items) ? data.items : data;
       renderArticles(rawArticles);
@@ -1735,6 +1777,7 @@ function init() {
     initProgressBar,
     initStickyNav,
     initSignatureMotion,
+    initHeroMemoryCanvas,
     initJulyMotion,
     initActiveNavigation,
     initMobileMenu,
