@@ -835,6 +835,14 @@
     .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
     .ticker-item-single { min-height: 18px; }
     .history-incident-list { grid-template-columns: repeat(3, 1fr); }
+    .history-incident-list .sovereignty-person:nth-child(1) { background: linear-gradient(145deg, rgba(139,94,44,.24), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(2) { background: linear-gradient(145deg, rgba(173,33,52,.22), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(3) { background: linear-gradient(145deg, rgba(27,101,70,.25), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(4) { background: linear-gradient(145deg, rgba(37,88,132,.24), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(5) { background: linear-gradient(145deg, rgba(112,65,132,.24), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(6) { background: linear-gradient(145deg, rgba(161,96,31,.24), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(7) { background: linear-gradient(145deg, rgba(22,112,102,.25), rgba(255,255,255,.035)); }
+    .history-incident-list .sovereignty-person:nth-child(8) { background: linear-gradient(145deg, rgba(155,28,47,.25), rgba(255,255,255,.035)); }
     .history-incident-list .sovereignty-person { min-height: 180px; }
     @media (max-width: 800px) { .history-incident-list { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 520px) { .history-incident-list { grid-template-columns: 1fr; } }
@@ -1569,7 +1577,7 @@
     }
     .resource-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
     }
     .resource-card {
@@ -3835,7 +3843,7 @@
       .join-grid  { grid-template-columns: 1fr; }
       .join-aside { position: static; }
       .gallery-stage { grid-template-columns: 1fr; }
-      .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .resource-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
     @media (max-width: 760px) {
       .hero-h1 { font-size: 3.3rem; }
@@ -4272,9 +4280,9 @@
     .sovereignty-gateway-foot > a span { font-size: 1.25rem; }
     @media (max-width: 900px) {
       .sovereignty-gateway-head { grid-template-columns: 1fr; gap: 20px; }
-      .sovereignty-era { grid-template-columns: 1fr 1fr 1fr; gap: 0; padding: 0; }
-      .sovereignty-era i { display: none; }
-      .sovereignty-era span { padding: 14px; border-right: 1px solid rgba(255,255,255,.12); border-bottom: 1px solid rgba(255,255,255,.12); white-space: normal; }
+      .sovereignty-era { display: flex; grid-template-columns: none; gap: 12px; padding: 18px 20px; overflow-x: auto; scrollbar-width: thin; }
+      .sovereignty-era i { display: block; flex: 0 0 18px; }
+      .sovereignty-era span { flex: 0 0 auto; padding: 0; white-space: nowrap; }
       .sovereignty-portraits { grid-template-columns: 1fr; }
     }
     @media (max-width: 580px) {
@@ -4577,7 +4585,7 @@
         <a class="sovereignty-person" href="history/#felani"><span>২০১১ · সীমান্ত</span><strong>ফেলানী হত্যাকাণ্ড</strong><small>সীমান্তের কাঁটাতারে ফেলানী খাতুনের মরদেহ ঝুলে থাকা বাংলাদেশের বিবেককে নাড়া দেয়।</small></a>
         <a class="sovereignty-person" href="history/#ilias"><span>২০১২ · গুম</span><strong>ইলিয়াস আলী নিখোঁজ</strong><small>গাড়ি পাওয়া গেল, মানুষ ফিরলেন না—গুমের অভিযোগে একটি পরিবারের অপেক্ষা আজও শেষ হয়নি।</small></a>
         <a class="sovereignty-person" href="history/#shapla"><span>২০১৩ · রাষ্ট্রীয় অভিযান</span><strong>শাপলা চত্বর</strong><small>রাতের অভিযানের হতাহতের সংখ্যা নিয়ে মতভেদ আছে; স্বাধীন পূর্ণাঙ্গ তদন্তের দাবি রয়ে গেছে।</small></a>
-        <a class="sovereignty-person" href="history/#biswajit"><span>২০১২ · রাজনৈতিক সহিংসতা</span><strong>বিস্বজিৎ দাস হত্যাকাণ্ড</strong><small>রাজনৈতিক সংঘর্ষের মধ্যে তরুণ দর্জি বিস্বজিৎ দাস নিহত হন; মামলায় আদালতের দণ্ডও হয়েছিল।</small></a>
+        <a class="sovereignty-person" href="history/#biswajit"><span>২০১২ · রাজনৈতিক সহিংসতা</span><strong data-i18n="বিশ্বজিৎ দাস হত্যাকাণ্ড">বিশ্বজিৎ দাস হত্যাকাণ্ড</strong><small>রাজনৈতিক সংঘর্ষের মধ্যে তরুণ দর্জি বিশ্বজিৎ দাস নিহত হন; মামলায় আদালতের দণ্ডও হয়েছিল।</small></a>
         <a class="sovereignty-person" href="history/#abrar"><span>২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ হত্যাকাণ্ড</strong><small>একজন শিক্ষার্থীর প্রশ্নের জবাবে দলীয় সহিংসতা—আদালতের দণ্ডের পরও ক্যাম্পাস নিরাপত্তার প্রশ্ন জাগে।</small></a>
         <a class="sovereignty-person" href="history/#july-2024"><span>২০২৪ · গণঅভ্যুত্থান</span><strong>জুলাই গণঅভ্যুত্থান</strong><small>ছাত্র-জনতার আন্দোলনে রাষ্ট্রীয় দমন, গুলি ও গণগ্রেপ্তারের বিরুদ্ধে মানুষ রাস্তায় দাঁড়ায়।</small></a>
       </div>
