@@ -9,6 +9,7 @@
   <title>NCP Diaspora Alliance Germany | জাতীয় নাগরিক পার্টি</title>
   <meta name="description" content="জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি (NCP), প্রবাসী অধিকার এবং NCP Diaspora Alliance Germany-এর কার্যক্রম, ঘোষণা ও তথ্যভান্ডার।" />
   <link rel="canonical" href="https://ncpdagermany.de/" />
+  <link rel="alternate" href="sovereignty/" title="পূর্ববর্তী প্রমাণভিত্তিক আর্কাইভ" />
   <meta property="og:title" content="NCP Diaspora Alliance Germany" />
   <meta property="og:description" content="জুলাই ২০২৪-এর দলিল, NCP-এর তথ্য, প্রবাসী অধিকার, সাম্প্রতিক কার্যক্রম ও ঘোষণার নির্ভরযোগ্য কেন্দ্র।" />
   <meta property="og:type" content="website" />
@@ -799,10 +800,11 @@
     .ticker-band::before { left: 0; background: linear-gradient(90deg, var(--ink-950), transparent); }
     .ticker-band::after  { right: 0; background: linear-gradient(-90deg, var(--ink-950), transparent); }
     .ticker-track {
-      display: flex; gap: 0;
-      animation: tickerScroll 32s linear infinite;
+      display: flex; justify-content: center; gap: 0;
       white-space: nowrap;
     }
+    .ticker-track.ticker-in { animation: tickerIn .55s cubic-bezier(.22,.8,.32,1) both; }
+    @keyframes tickerIn { from { opacity:0; transform:translateY(9px); } to { opacity:1; transform:translateY(0); } }
     @keyframes tickerScroll {
       0%   { transform: translateX(0); }
       100% { transform: translateX(-50%); }
@@ -816,6 +818,7 @@
     }
     .ticker-sep { width: 4px; height: 4px; border-radius: 50%; background: var(--green-500); flex-shrink: 0; }
     .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
+    .ticker-item-single { min-height: 18px; }
 
     /* ══════════════════════════════════════════
        32–36 JULY · SCHEDULED MEMORY EXPERIENCE
@@ -4326,13 +4329,14 @@
       </a>
 
       <ul class="nav-links">
-        <li data-announcements-link hidden><a href="#announcements">কর্মসূচি</a></li>
-        <li data-july36-link hidden><a href="#july-36">৩২–৩৬ জুলাই</a></li>
+        <li><a href="history/">খুনি হাসিনার ইতিহাস</a></li>
         <li><a href="#uprising">জুলাই ২০২৪</a></li>
-        <li><a href="#sovereignty">সার্বভৌমত্বের ইতিহাস</a></li>
         <li><a href="#about">আমাদের সম্পর্কে</a></li>
         <li><a href="#updates">সর্বশেষ</a></li>
+        <li><a href="#blog">ব্লগ</a></li>
         <li><a href="#join">সদস্যপদ</a></li>
+        <li data-announcements-link hidden><a href="#announcements">কর্মসূচি</a></li>
+        <li data-july36-link hidden><a href="#july-36">৩২–৩৬ জুলাই</a></li>
       </ul>
 
       <div class="nav-ctas">
@@ -4359,16 +4363,16 @@
   </div>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="মোবাইল নেভিগেশন">
-    <a href="#announcements" data-announcements-link hidden>কর্মসূচি ও আয়োজন</a>
-    <a href="#july-36" data-july36-link hidden>৩২–৩৬ জুলাই</a>
+    <a href="history/">খুনি হাসিনার ইতিহাস</a>
     <a href="#uprising">জুলাই ২০২৪</a>
-    <a href="#sovereignty">সার্বভৌমত্বের ইতিহাস</a>
     <a href="#about">আমাদের সম্পর্কে</a>
     <a href="#pillars">লক্ষ্য ও আদর্শ</a>
     <a href="#updates">সর্বশেষ আপডেট</a>
     <a href="#blog">ব্লগ</a>
     <a href="#why-join">কেন যুক্ত হবেন</a>
     <a href="#join">সদস্যপদ</a>
+    <a href="#announcements" data-announcements-link hidden>কর্মসূচি ও আয়োজন</a>
+    <a href="#july-36" data-july36-link hidden>৩২–৩৬ জুলাই</a>
   </div>
 
   <header class="hero july-visual-section july-photo-section" id="home">
@@ -4533,18 +4537,19 @@
     <div class="container">
       <div class="sovereignty-gateway-head reveal">
         <div>
-          <p class="sovereignty-kicker">হাসিনা আমল ও তার দীর্ঘ ছায়া · ২০১১—২০২৫</p>
-          <h2 id="sovereigntyTitle">দেশের পক্ষে দাঁড়ানোই<br><em>যখন অপরাধ ছিল।</em></h2>
+          <p class="sovereignty-kicker">হাসিনা আমলের নথিভিত্তিক ইতিহাস · ২০০৯—২০২৪</p>
+          <h2 id="sovereigntyTitle">খুনি হাসিনার ইতিহাস<br><em>ভুলে গেলে দায়ও হারিয়ে যায়।</em></h2>
         </div>
-        <p>কাঁটাতারে ফেলানীর দেহ, বনানীতে ইলিয়াস আলীর খোলা গাড়ি, বুয়েটের বন্ধ রুম ২০১১, বিজয়নগরে হাদির রক্ত—ঘটনাগুলো এক নয়। কিন্তু প্রতিবার বাংলাদেশের স্বার্থের পক্ষে থাকা মানুষটি বিপদে পড়েছে, আর ক্ষমতা তাকে রক্ষা বা সত্য প্রকাশের বদলে নীরবতা বেছে নিয়েছে।</p>
+        <p>পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।</p>
       </div>
       <div class="sovereignty-era reveal" aria-label="স্মৃতি-যাত্রার সময়রেখা">
         <span><b>২০০৯</b>শাসনের শুরু</span><i></i>
+        <span><b>২০০৯</b>পিলখানা</span><i></i>
         <span><b>২০১১</b>ফেলানী</span><i></i>
         <span><b>২০১২</b>ইলিয়াস</span><i></i>
+        <span><b>২০১৩</b>শাপলা</span><i></i>
         <span><b>২০১৯</b>আবরার</span><i></i>
-        <span><b>২০২৪</b>শাসনের পতন</span><i class="after"></i>
-        <span><b>২০২৫</b>দীর্ঘ ছায়ায় হাদি</span>
+        <span><b>২০২৪</b>জুলাই গণঅভ্যুত্থান</span>
       </div>
       <div class="sovereignty-portraits stagger-children reveal">
         <a class="sovereignty-person felani" href="sovereignty/#felani">
@@ -4559,14 +4564,14 @@
           <div class="sovereignty-photo"><img src="img/sovereignty/abrar-portrait-history.webp" alt="আবরার ফাহাদের বহুল প্রচারিত সাদা-কালো প্রতিকৃতি" width="730" height="409" loading="lazy"></div>
           <span>০৩ · ২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ</strong><small>ভারতকে দেওয়া সুবিধার বিপরীতে বাংলাদেশের প্রাপ্তি নিয়ে প্রশ্ন করেছিল। ছাত্রলীগ জবাব দিয়েছিল ছয় ঘণ্টার নির্যাতনে।</small><em>আবরারের শেষ রাত পড়ুন →</em>
         </a>
-        <a class="sovereignty-person hadi" href="sovereignty/#hadi">
-          <div class="sovereignty-photo"><img src="img/sovereignty/hadi-archive-hero.webp" alt="মঞ্চে বক্তব্যরত শরীফ ওসমান হাদি" width="1024" height="576" loading="lazy"></div>
-          <span>০৪ · ২০২৫ · দীর্ঘ ছায়া</span><strong>শরীফ ওসমান হাদি</strong><small>ভারতীয় আধিপত্যের বিরুদ্ধে প্রকাশ্যে বলতেন। গুলির পর প্রধান সন্দেহভাজনরা সীমান্ত পেরিয়ে ভারতে গেল।</small><em>হাদির ঘটনা পড়ুন →</em>
+        <a class="sovereignty-person hadi" href="#uprising">
+          <div class="sovereignty-photo"><img src="img/july/selected/august-05-parliament-afp.webp" alt="৫ আগস্ট ২০২৪-এ সংসদ ভবন ঘিরে মানুষের সমাবেশ" width="1600" height="1067" loading="lazy"></div>
+          <span>০৪ · ২০২৪ · গণঅভ্যুত্থান</span><strong>জুলাই ২০২৪</strong><small>কোটা সংস্কারের দাবি রাষ্ট্রীয় দমন ও দলীয় হামলার মুখে ছাত্র-জনতার গণঅভ্যুত্থানে রূপ নেয়।</small><em>জুলাইয়ের নথি পড়ুন →</em>
         </a>
       </div>
       <div class="sovereignty-gateway-foot reveal">
-        <p><b>চারটি ঘটনা; একটি রাষ্ট্রের রাজনৈতিক দায়।</b><br>ঐতিহাসিক ছবি, পরিবারের স্মৃতি, ঘটনার সময়রেখা, আদালতের রেকর্ড এবং সীমান্তে হারানো বাংলাদেশিদের নাম এক প্রমাণভান্ডারে।</p>
-        <a href="sovereignty/">পুরো আর্কাইভ পড়ুন <span>→</span></a>
+        <p><b>একটি সরকারের দীর্ঘ ছায়া; বহু মানুষের অসমাপ্ত ন্যায়বিচার।</b><br>ঘটনার তারিখ, ক্ষয়ক্ষতি, তদন্তের অবস্থা, আদালতের রেকর্ড ও উৎস—সব এক জায়গায়। অনিশ্চিত দাবি আলাদা করে চিহ্নিত করা হয়েছে।</p>
+        <a href="history/">সম্পূর্ণ ইতিহাস দেখুন <span>→</span></a>
       </div>
     </div>
   </section>
@@ -4999,6 +5004,7 @@
           <h4>নেভিগেশন</h4>
           <ul>
             <li data-announcements-link hidden><a href="#announcements">কর্মসূচি ও আয়োজন</a></li>
+            <li><a href="history/">খুনি হাসিনার ইতিহাস</a></li>
             <li><a href="#uprising">জুলাই ২০২৪</a></li>
             <li><a href="#about">আমাদের সম্পর্কে</a></li>
             <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
