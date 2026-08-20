@@ -28,6 +28,13 @@
   };
 
   const en = {
+    'nav.history': 'Hasina-era history',
+    'nav.july': 'July 2024',
+    'nav.about': 'About us',
+    'nav.latest': 'Latest',
+    'nav.blog': 'Blog',
+    'nav.membership': 'Membership',
+    'বাংলাদেশের প্রথম ছাত্রনেতৃত্বাধীন রাজনৈতিক দল (২৮ ফেব্রুয়ারি ২০২৫)': 'Bangladesh’s first student-led political party (28 February 2025)',
     'প্রবাসী অধিকার ও অংশগ্রহণ': 'Diaspora rights and participation',
     'আমরা প্রবাসীদের অধিকার নিয়ে কাজ করি। একই সঙ্গে দল, মত ও আদর্শের ঊর্ধ্বে উঠে দক্ষ ও দায়িত্বশীল প্রবাসীরা যেন দেশের নীতিনির্ধারণে অর্থবহ ভূমিকা রাখতে পারেন—সেই অংশগ্রহণের পথও তৈরি করতে কাজ করি।': 'We work to protect the rights of Bangladeshis living abroad. Beyond party, opinion and ideology, we also work to create meaningful pathways for skilled and responsible members of the diaspora to contribute to Bangladesh’s policymaking.',
     'আমাদের বিশেষ আর্কাইভ': 'Our special archive',
@@ -469,6 +476,13 @@
   };
 
   const de = {
+    'nav.history': 'Geschichte der Hasina-Ära',
+    'nav.july': 'Juli 2024',
+    'nav.about': 'Über uns',
+    'nav.latest': 'Aktuelles',
+    'nav.blog': 'Blog',
+    'nav.membership': 'Mitgliedschaft',
+    'বাংলাদেশের প্রথম ছাত্রনেতৃত্বাধীন রাজনৈতিক দল (২৮ ফেব্রুয়ারি ২০২৫)': 'Bangladeschs erste studentisch geführte politische Partei (28. Februar 2025)',
     'প্রবাসী অধিকার ও অংশগ্রহণ': 'Rechte und Beteiligung der Diaspora',
     'আমরা প্রবাসীদের অধিকার নিয়ে কাজ করি। একই সঙ্গে দল, মত ও আদর্শের ঊর্ধ্বে উঠে দক্ষ ও দায়িত্বশীল প্রবাসীরা যেন দেশের নীতিনির্ধারণে অর্থবহ ভূমিকা রাখতে পারেন—সেই অংশগ্রহণের পথও তৈরি করতে কাজ করি।': 'Wir setzen uns für die Rechte der im Ausland lebenden Bangladescherinnen und Bangladescher ein. Über Parteien, Meinungen und Ideologien hinweg schaffen wir zugleich Wege, damit qualifizierte und verantwortungsbewusste Mitglieder der Diaspora sinnvoll an der politischen Entscheidungsfindung Bangladeschs mitwirken können.',
     'আমাদের বিশেষ আর্কাইভ': 'Unser Sonderarchiv',
@@ -937,10 +951,18 @@
   }
 
   function shouldIgnore(element) {
-    return !element || element.closest('script, style, [data-i18n-ignore]');
+    return !element || element.closest('script, style, [data-i18n-ignore], [data-i18n-key]');
   }
 
   function captureAndTranslate(root = document) {
+    (root.querySelectorAll ? root.querySelectorAll('[data-i18n-key]') : []).forEach((element) => {
+      if (!element.dataset.i18nBn) element.dataset.i18nBn = element.textContent.trim();
+      const key = element.dataset.i18nKey;
+      element.textContent = currentLanguage === 'bn'
+        ? element.dataset.i18nBn
+        : (catalogs[currentLanguage]?.[key] ?? element.dataset.i18nBn);
+    });
+
     const walker = document.createTreeWalker(root.body || root, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
         if (shouldIgnore(node.parentElement) || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
