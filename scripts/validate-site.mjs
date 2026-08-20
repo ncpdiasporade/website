@@ -13,13 +13,10 @@ const jsonFiles = [
   'data/july-36-special.json',
   'data/sovereignty-archive.json',
   'data/blog-posts.json',
-  'data/blog-agent-review-queue.json',
-  'data/blog-agent-runs.json',
   'data/social-publishing-state.json',
   'data/social-review-queue.json',
   'social-feed.config.json',
-  'social-publishing.config.json',
-  'config/blog-agent.json'
+  'social-publishing.config.json'
 ];
 
 for (const relativePath of jsonFiles) {
@@ -37,15 +34,72 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/site.js?v=20260801-july-share" defer></script>')) {
+if (!html.includes('<script src="js/bootstrap.js?v=20260817-seo2" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
+const bootstrapScript = fs.readFileSync(path.join(rootDir, 'js/bootstrap.js'), 'utf8');
+for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260817-seo-launch']) {
+  if (!bootstrapScript.includes(source)) errors.push(`js/bootstrap.js: missing ordered runtime asset ${source}`);
+}
+if (!bootstrapScript.includes("root.classList.add('motion-ready')") || !bootstrapScript.includes("root.classList.add('page-ready')") || !bootstrapScript.includes('fonts.googleapis.com/css2')) {
+  errors.push('js/bootstrap.js: missing early hero motion or non-blocking font initialization');
+}
+for (const seoContract of [
+  '<title>NCP Germany | NCP Diaspora Alliance Germany</title>',
+  'name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"',
+  'name="google-site-verification" content="zBeoWBR-yqIwbmIsQTdiyWYc--CflR7I7C4EVRfTwyo"',
+  'hreflang="en" href="https://ncpdagermany.de/en/"',
+  'hreflang="de" href="https://ncpdagermany.de/de/"',
+  'type="application/ld+json"',
+  '"@type": "WebSite"',
+  '"@type": "Organization"'
+]) {
+  if (!html.includes(seoContract)) errors.push(`index.html: missing SEO contract ${seoContract}`);
+}
+for (const asset of [
+  'robots.txt',
+  'sitemap.xml',
+  'site.webmanifest',
+  'favicon-48.png',
+  'apple-touch-icon.png',
+  'img/logo/logo-navbar-bn-seo.webp',
+  'img/logo/logo-navbar-en-seo.webp',
+  'img/logo/logo-premium-seo.webp',
+  'img/logo/logo-premium-en-seo.webp',
+  'img/july/selected/august-05-parliament-hero.webp',
+  'en/index.html',
+  'de/index.html'
+]) {
+  if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`SEO: missing ${asset}`);
+}
+const robots = fs.readFileSync(path.join(rootDir, 'robots.txt'), 'utf8');
+if (!robots.includes('Sitemap: https://ncpdagermany.de/sitemap.xml')) errors.push('robots.txt: missing canonical sitemap location');
+const sitemap = fs.readFileSync(path.join(rootDir, 'sitemap.xml'), 'utf8');
+for (const url of ['https://ncpdagermany.de/', 'https://ncpdagermany.de/en/', 'https://ncpdagermany.de/de/']) {
+  if (!sitemap.includes(`<loc>${url}</loc>`)) errors.push(`sitemap.xml: missing ${url}`);
+}
+for (const language of ['en', 'de']) {
+  const landing = fs.readFileSync(path.join(rootDir, language, 'index.html'), 'utf8');
+  if (!landing.includes(`<html lang="${language}">`) || !landing.includes(`<link rel="canonical" href="https://ncpdagermany.de/${language}/">`)) {
+    errors.push(`${language}/index.html: missing matching language or canonical URL`);
+  }
+  if (!landing.includes('<h1>NCP Diaspora Alliance Germany</h1>') || !landing.includes('type="application/ld+json"')) {
+    errors.push(`${language}/index.html: missing visible identity heading or structured data`);
+  }
+}
 if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
+if (!markup.includes('id="updatesMore"')) errors.push('index.html: missing updates More control');
 if (!markup.includes('id="sovereignty"') || !markup.includes('href="sovereignty/"')) {
   errors.push('index.html: missing sovereignty archive gateway or navigation link');
 }
-for (const contract of ['initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6', "t('আরও দেখুন')", 'showingAllArticles']) {
-  if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive Blog limit contract ${contract}`);
+for (const contract of [
+  'initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6',
+  'initialUpdateLimit = () => mobileUpdatesQuery.matches ? 3 : 6',
+  "t('আরও দেখুন')",
+  'showingAllArticles',
+  'showingAllUpdates'
+]) {
+  if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive content limit contract ${contract}`);
 }
 if (html.includes('<meta property="og:image" content="https://ncpdagermany.de/img/announcements/rokte-july-2026.webp"')) {
   errors.push('index.html: retired event poster must not be the website Open Graph image');
@@ -62,8 +116,8 @@ for (const shareContract of [
 ]) {
   if (!siteScript.includes(shareContract)) errors.push(`js/site.js: missing Blog share contract ${shareContract}`);
 }
-if (!siteScript.includes("activeFilter === 'featured' ? 4 : activeFilter === 'video' ? 6 : 10")) {
-  errors.push('index.html: recent-update limits must remain 4 featured, 6 videos, and 10 other items');
+if (!siteScript.includes("activeFilter === 'featured' ? 4 : 6")) {
+  errors.push('index.html: recent-update limits must remain 4 featured and 6 other Facebook items');
 }
 for (const contract of ['function initJuly36Special()', "searchParams.get('july-day')", "timeZone || 'Europe/Berlin'", 'navigator.share', 'new URL(`/july/${day.julyDay}/${languageSuffix}`']) {
   if (!siteScript.includes(contract)) errors.push(`js/site.js: missing 32–36 July contract ${contract}`);
@@ -133,25 +187,21 @@ for (const article of blogData.items || []) {
     if (!previewHtml.includes(`https://ncpdagermany.de/${String(article.shareImage || '').replace(/^\/+/, '')}`)) {
       errors.push(`${previewPath}: missing expected Open Graph image`);
     }
+    if (!suffix && (!previewHtml.includes('type="application/ld+json"') || !previewHtml.includes('<article class="body">') || previewHtml.includes('window.location.replace'))) {
+      errors.push(`${previewPath}: Bengali article must be indexable, structured and contain the full body`);
+    }
+    if (suffix && !previewHtml.includes('name="robots" content="noindex,follow"')) {
+      errors.push(`${previewPath}: thin translated preview must remain out of the index`);
+    }
   }
 }
 
-const blogAgentConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'config/blog-agent.json'), 'utf8'));
-if (!['quality-gated', 'review-only'].includes(blogAgentConfig.publicationMode)) {
-  errors.push('config/blog-agent.json: publicationMode must be quality-gated or review-only');
-}
-if (!Number.isInteger(blogAgentConfig.minimumEvidenceScore) || blogAgentConfig.minimumEvidenceScore < 80) {
-  errors.push('config/blog-agent.json: minimumEvidenceScore must be at least 80');
-}
 for (const asset of ['img/blog/governance-analysis.svg', 'img/blog/governance-analysis-share.jpg']) {
   if (!fs.existsSync(path.join(rootDir, asset))) errors.push(`automated Blog Agent: missing ${asset}`);
 }
 
-const sovereigntyHtmlPath = path.join(rootDir, 'sovereignty', 'index.html');
-const sovereigntyScriptPath = path.join(rootDir, 'sovereignty', 'archive.js');
-const sovereigntyStylePath = path.join(rootDir, 'sovereignty', 'styles.css');
-for (const requiredPath of [sovereigntyHtmlPath, sovereigntyScriptPath, sovereigntyStylePath]) {
-  if (!fs.existsSync(requiredPath)) errors.push(`sovereignty archive: missing ${requiredPath}`);
+for (const relativePath of ['sovereignty/index.html', 'sovereignty/archive.js', 'sovereignty/styles.css']) {
+  if (!fs.existsSync(path.join(rootDir, relativePath))) errors.push(`sovereignty archive: missing ${relativePath}`);
 }
 const sovereigntyData = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/sovereignty-archive.json'), 'utf8'));
 if (!Array.isArray(sovereigntyData.stories) || sovereigntyData.stories.length !== 4) {
@@ -248,7 +298,7 @@ const featuredCount = [...featuredBySource.values()].reduce((sum, count) => sum 
 if (featuredCount > 4) errors.push(`data/recent-updates.json: ${featuredCount} featured items found; at most four are allowed`);
 
 const socialConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-feed.config.json'), 'utf8'));
-if (socialConfig.maxFeedItems !== 10) errors.push('social-feed.config.json: maxFeedItems must be 10');
+if (socialConfig.maxFeedItems !== 6) errors.push('social-feed.config.json: maxFeedItems must be 6');
 if (socialConfig.maxFeaturedItems !== 4) errors.push('social-feed.config.json: maxFeaturedItems must be 4');
 if (socialConfig.maxVideoItems !== 6) errors.push('social-feed.config.json: maxVideoItems must be 6');
 if (socialConfig.videoArchiveMaxItems < socialConfig.maxVideoItems) {

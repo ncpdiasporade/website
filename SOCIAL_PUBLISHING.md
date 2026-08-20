@@ -40,7 +40,7 @@ These secrets remain encrypted for a possible future return to paid API publishi
 
 ### TikTok
 
-Create a TikTok Developer App, add the Content Posting API, obtain approval for `video.publish`, authorize `@ncpda_germany`, and verify `https://ncpdagermany.de` as a URL prefix/domain. Add:
+Create a TikTok Developer App, add the Content Posting API, obtain approval for `video.publish`, authorize `@ncpda.germany`, and verify `https://ncpdagermany.de` as a URL prefix/domain. Add:
 
 - `TIKTOK_CLIENT_KEY`
 - `TIKTOK_CLIENT_SECRET`
