@@ -14,6 +14,7 @@ Static website for [ncpdagermany.de](https://ncpdagermany.de), published from th
 
 ```bash
 npm start
+npm run generate:seo
 npm run validate
 ```
 
@@ -28,6 +29,12 @@ Open `http://localhost:3000` after starting the preview server.
 - `index.html`: layout, fallback content, styles, and browser-side rendering
 
 Use `status: "draft"` to keep an item out of the published interface. Keep every factual update linked to its original source.
+
+## Search visibility and multilingual landing pages
+
+`npm run generate:seo` rebuilds the dedicated English and German landing pages, optimized logo and hero assets, `robots.txt`, `sitemap.xml`, favicons, and the web app manifest. Run it whenever the organisation copy, public URLs, Blog catalogue, or source images change. Bengali Blog share pages are generated as complete indexable articles by `npm run generate:blog-previews`; the shorter English and German previews remain `noindex` until full translations are available.
+
+The canonical search identities are **NCP Diaspora Alliance Germany**, **NCP Germany**, **NCP Deutschland**, and **NCPDA Germany**. Keep these names consistent on the website, Facebook Page, Instagram, YouTube, TikTok, news profiles, and any external chapter directory. Do not create duplicate URLs for keyword variants; link external profiles to the canonical language page instead.
 
 ## Automatic Facebook posts, pinned items, Reels, and Events
 
@@ -57,22 +64,15 @@ The token must be allowed to read the corresponding Page's published posts, Page
 
 ## Automated evidence-based blog analyst
 
-`.github/workflows/automated-blog.yml` runs daily at 02:25 UTC and can also be started manually with optional context, preferred topics, and extra requirements. It uses the OpenAI Responses API in two stages: a live web-research dossier followed by a separate structured editorial and fact-check pass. The full editorial role is in `prompts/bangladesh-accountability-analyst.md`; runtime settings are in `config/blog-agent.json`.
+The Codex desktop automation **Daily Bangladesh Accountability Blog** runs every day at 04:25 Europe/Berlin. It researches current Bangladesh government decisions, writes a Bengali accountability analysis, validates the site, and publishes a verified commit to `main`. It uses the editorial rules in `prompts/bangladesh-accountability-analyst.md` and the neutral reusable artwork in `img/blog/governance-analysis.svg` and `img/blog/governance-analysis-share.jpg`.
 
-Add `OPENAI_API_KEY` under **GitHub repository → Settings → Secrets and variables → Actions → Secrets**. Optionally set the `OPENAI_BLOG_MODEL` repository variable to override the configured model without changing code.
+No OpenAI API key or separate API billing is required. The computer must remain on with the Codex desktop app running when local scheduled work is due. The task works in a temporary Git worktree so unfinished files in the saved checkout remain untouched.
 
-The default `quality-gated` mode publishes only when all application-enforced gates pass: model status `PUBLISH`, evidence score of at least 80, passed fact-check, non-low confidence, at least three cited sources, an institutional source, no duplicate slug, and every final source URL present in the web-research response. Other viable drafts go to `data/blog-agent-review-queue.json`; rejected topics are recorded only in `data/blog-agent-runs.json`. Set `publicationMode` to `review-only` to disable all automatic website publication.
+Publication is quality-gated: the evidence score must be at least 80, fact-checking must pass, confidence cannot be low, at least three valid sources and one primary or international institutional source are required, and the government's position must be represented fairly. A failed gate produces no website change.
 
-Local checks do not call the API:
-
-```bash
-npm run blog:check
-```
-
-A live local run requires `OPENAI_API_KEY` and writes the same site data as the scheduled workflow:
+After an automated publication, the normal site commands remain the source of truth:
 
 ```bash
-npm run blog:generate
 npm run generate:blog-previews
 npm run validate
 ```
