@@ -451,6 +451,12 @@ function initJuly36Special() {
   const navigationLinks = $$('[data-july36-link]');
   if (!section || !experience) return;
 
+  // This is a date-specific memorial feature. Keep it hidden until the
+  // organisation explicitly decides to activate it again.
+  section.hidden = true;
+  navigationLinks.forEach((link) => { link.hidden = true; });
+  return;
+
   let sourceContent = null;
   let selectedJulyDay = 36;
   let scheduleState = null;
@@ -755,7 +761,7 @@ function initJulyResources() {
   let resourceItems = [];
 
   function renderResources(items) {
-    const published = contentItems(items).filter((item) => item.status !== 'draft').slice(0, 9);
+    const published = contentItems(items).filter((item) => item.status !== 'draft').slice(0, 4);
     if (!published.length) return;
 
     resourcesGrid.innerHTML = published.map((sourceItem) => {

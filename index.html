@@ -691,7 +691,7 @@
       position: relative;
       display: grid; place-items: center;
       margin: 0 0 4px;
-      overflow: hidden;
+      overflow: visible;
       border: 0;
       background: transparent;
     }
@@ -728,6 +728,25 @@
       animation: panelLogoLight 8s 1.8s ease-in-out infinite;
       pointer-events: none;
     }
+    .panel-logo-orbit {
+      position: absolute; z-index: 4; border-radius: 50%; pointer-events: none;
+      border: 1px solid transparent;
+    }
+    .panel-logo-orbit::after {
+      content: ""; position: absolute; width: 9px; height: 9px; border-radius: 50%;
+    }
+    .panel-logo-orbit.green {
+      inset: -7px; border-top-color: rgba(77,255,160,.98); border-right-color: rgba(77,255,160,.2);
+      animation: panelLogoOrbit 8.5s linear infinite;
+    }
+    .panel-logo-orbit.green::after { top: 15px; right: 27px; background:#4dffa0; box-shadow:0 0 16px rgba(77,255,160,.95); }
+    .panel-logo-orbit.red {
+      inset: 7px; border-bottom-color: rgba(255,67,80,.95); border-left-color: rgba(255,67,80,.2);
+      animation: panelLogoOrbitReverse 11.5s linear infinite;
+    }
+    .panel-logo-orbit.red::after { bottom: 12px; left: 17px; background:#ff4350; box-shadow:0 0 16px rgba(255,67,80,.92); }
+    @keyframes panelLogoOrbit { to { transform: rotate(360deg); } }
+    @keyframes panelLogoOrbitReverse { to { transform: rotate(-360deg); } }
     @keyframes panelLogoReveal {
       from { opacity: 0; transform: scale(1.12) rotate(-2deg); filter: blur(5px) drop-shadow(0 0 0 rgba(0,0,0,0)); }
       to { opacity: 1; transform: scale(1); filter: blur(0) drop-shadow(0 17px 24px rgba(0,0,0,.32)) drop-shadow(0 0 12px rgba(77,255,160,.1)); }
@@ -799,8 +818,8 @@
     }
     .ticker-band::before { left: 0; background: linear-gradient(90deg, var(--ink-950), transparent); }
     .ticker-band::after  { right: 0; background: linear-gradient(-90deg, var(--ink-950), transparent); }
-    .ticker-track { display:flex; width:max-content; white-space:nowrap; animation:tickerScroll 28s linear infinite; will-change:transform; }
-    .ticker-track.ticker-in { animation:tickerScroll 28s linear infinite; }
+    .ticker-track { display:flex; width:max-content; white-space:nowrap; animation:tickerScroll 58s linear infinite; will-change:transform; }
+    .ticker-track.ticker-in { animation:tickerScroll 58s linear infinite; }
     @keyframes tickerScroll {
       0%   { transform: translateX(0); }
       100% { transform: translateX(-50%); }
@@ -4431,6 +4450,8 @@
         </div>
         <div class="panel-center">
           <div class="panel-logo-wrap">
+            <span class="panel-logo-orbit green" aria-hidden="true"></span>
+            <span class="panel-logo-orbit red" aria-hidden="true"></span>
             <img class="panel-logo" src="img/logo/logo-premium.png" alt="NCP Diaspora Alliance Germany Logo" width="190" height="190">
           </div>
           <div class="panel-name">NCP Diaspora Alliance<br>Germany</div>
@@ -4521,9 +4542,9 @@
           <p>জাতিসংঘের প্রতিবেদন, সরকারি তথ্য, স্মৃতি জাদুঘর এবং নির্বাচিত সংবাদ ও কমিউনিটি আর্কাইভে ঘটনাপ্রবাহ, সাক্ষ্য, নথি, ছবি ও ভিডিও দেখুন।</p>
         </div>
         <div class="resource-grid stagger-children reveal" id="julyResources" data-content-source="data/july-resources.json">
-          <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সহিংসতা বিষয়ে জাতিসংঘের স্বাধীন অনুসন্ধান প্রতিবেদন।</p><em>মূল PDF পড়ুন →</em></a>
           <a class="resource-card" href="https://july36.ncpdagermany.de/" target="_blank" rel="noopener noreferrer"><span>আমাদের বিশেষ আর্কাইভ</span><strong>July 36 · পূর্ণ টাইমলাইন</strong><p>জুলাই গণঅভ্যুত্থান ২০২৪-এর দিনভিত্তিক স্মৃতি, ছবি, সাক্ষ্য ও প্রেক্ষাপট।</p><em>আর্কাইভ দেখুন →</em></a>
           <a class="resource-card" href="https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf" target="_blank" rel="noopener noreferrer"><span>জাতিসংঘ · প্রতিবেদন</span><strong>OHCHR Fact-Finding Report</strong><p>১ জুলাই–১৫ আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন ও সর্বোচ্চ ১,৪০০ নিহতের সম্ভাবনা নিয়ে অনুসন্ধান।</p><em>মূল PDF পড়ুন →</em></a>
+          <a class="resource-card" href="https://djmu.portal.gov.bd/" target="_blank" rel="noopener noreferrer"><span>সরকারি তথ্য</span><strong>জুলাই গণঅভ্যুত্থান অধিদপ্তর</strong><p>শহিদ পরিবার, আহত জুলাই যোদ্ধা, আইন, গেজেট, সহায়তা ও পুনর্বাসন-সংক্রান্ত সরকারি তথ্য।</p><em>সরকারি পোর্টাল →</em></a>
           <a class="resource-card" href="https://july36.gov.bd/" target="_blank" rel="noopener noreferrer"><span>স্মৃতি জাদুঘর</span><strong>July Mass Uprising Memorial Museum</strong><p>জুলাই গণঅভ্যুত্থানের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক সরকারি ডিজিটাল সংগ্রহ।</p><em>ডিজিটাল সংগ্রহ দেখুন →</em></a>
         </div>
         <p class="july-photo-credit">ওয়েবসাইটজুড়ে ব্যবহৃত জুলাইয়ের আলোকচিত্র: AFP, পলাশ খান ও অর্কিড চাকমা। আন্দোলনকালীন শিল্পকর্ম: সংগঠনের সংরক্ষিত সংগ্রহ।</p>
@@ -4536,7 +4557,7 @@
       <div class="sovereignty-gateway-head reveal">
         <div>
           <p class="sovereignty-kicker">হাসিনা আমলের নথিভিত্তিক ইতিহাস · ২০০৯—২০২৪</p>
-          <h2 id="sovereigntyTitle">খুনি হাসিনার ইতিহাস<br><em>তোমরা সবাই যাইবা বলে—মনে রাখবো।</em></h2>
+          <h2 id="sovereigntyTitle">খুনি হাসিনার ইতিহাস<br><em>তোমরা হয়তো যাইবা ভুলে—সেই মায়েরা রাখবে মনে, যে খুইয়েছে পোলার লাশ।</em></h2>
         </div>
         <p>পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।</p>
       </div>

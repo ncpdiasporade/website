@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-07-19",
   "items": [
     {
-      "id": "ncpda-july36-complete-archive",
+      "id": "ncpda-july36-archive",
       "status": "published",
-      "type": "নিজস্ব জুলাই আর্কাইভ",
-      "title": "July Uprising 2024: পূর্ণাঙ্গ দলিল ও টাইমলাইন",
-      "description": "জুলাই গণঅভ্যুত্থানের ঘটনাপ্রবাহ, রাষ্ট্রীয় দমন-পীড়ন, ছাত্র-জনতার প্রতিরোধ, প্রবাসীদের ভূমিকা এবং পরবর্তী রাজনৈতিক যাত্রা—বাংলা, ইংরেজি ও জার্মান ভাষায় জানুন।",
-      "cta": "পূর্ণাঙ্গ ইতিহাস জানুন →",
+      "type": "আমাদের বিশেষ আর্কাইভ",
+      "title": "পূর্ণাঙ্গ জুলাই ইতিহাস জানুন",
+      "description": "জুলাই গণঅভ্যুত্থান ২০২৪-এর দিনভিত্তিক প্রেক্ষাপট, স্মৃতি, ছবি ও তথ্যের আমাদের বিশেষ আর্কাইভ।",
+      "cta": "পূর্ণাঙ্গ ইতিহাস দেখুন →",
       "url": "https://july36.ncpdagermany.de/"
     },
     {
@@ -36,33 +36,6 @@
       "description": "জুলাই গণঅভ্যুত্থান ও পূর্ববর্তী দমন-পীড়নের স্মৃতি, উপকরণ ও সাক্ষ্যভিত্তিক ডিজিটাল উপস্থাপনা।",
       "cta": "ডিজিটাল সংগ্রহ দেখুন →",
       "url": "https://july36.gov.bd/"
-    },
-    {
-      "id": "july-uprising-news-archive",
-      "status": "published",
-      "type": "ডিজিটাল আর্কাইভ",
-      "title": "July Uprising News Archive",
-      "description": "সংবাদ, আলোকচিত্র, মতামত ও প্রকাশিত উপকরণের বিষয়ভিত্তিক অনলাইন সংগ্রহ।",
-      "cta": "আর্কাইভ দেখুন →",
-      "url": "https://julyuprising.com/"
-    },
-    {
-      "id": "daily-star-36-days",
-      "status": "published",
-      "type": "সংবাদ আর্কাইভ",
-      "title": "36 Days of July",
-      "description": "১ জুলাই থেকে ৫ আগস্ট পর্যন্ত ঘটনাপ্রবাহের দিনভিত্তিক সংবাদ ও মাল্টিমিডিয়া আর্কাইভ।",
-      "cta": "টাইমলাইন দেখুন →",
-      "url": "https://july36.thedailystar.net/"
-    },
-    {
-      "id": "july-revolution-archive",
-      "status": "published",
-      "type": "কমিউনিটি আর্কাইভ",
-      "title": "July Revolution Archive",
-      "description": "ছবি, ভিডিও, পোস্টার ও স্মৃতি সংরক্ষণের একটি কমিউনিটি-চালিত উদ্যোগ।",
-      "cta": "সংগ্রহ দেখুন →",
-      "url": "https://julyarchive.com/"
     }
   ]
 }
