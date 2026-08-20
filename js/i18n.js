@@ -28,6 +28,7 @@
   };
 
   const en = {
+    'বিশ্বজিৎ দাস হত্যাকাণ্ড': 'The killing of Biswajit Das',
     'Germany · জার্মানি': 'Germany',
     'কর্মসূচি': 'Programmes',
     'কর্মসূচি ও আয়োজন': 'Programmes & events',
@@ -429,6 +430,7 @@
   };
 
   const de = {
+    'বিশ্বজিৎ দাস হত্যাকাণ্ড': 'Die Tötung von Biswajit Das',
     'Germany · জার্মানি': 'Deutschland',
     'কর্মসূচি': 'Programme',
     'কর্মসূচি ও আয়োজন': 'Programme & Veranstaltungen',
