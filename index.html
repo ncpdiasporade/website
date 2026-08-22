@@ -866,19 +866,6 @@
     .ticker-sep { width: 4px; height: 4px; border-radius: 50%; background: var(--green-500); flex-shrink: 0; }
     .ticker-item strong { color: rgba(255,255,255,.85); font-weight: 500; }
     .ticker-item-single { min-height: 18px; }
-    .history-incident-list { grid-template-columns: repeat(3, 1fr); }
-    .history-incident-list .sovereignty-person:nth-child(1) { background: linear-gradient(145deg, rgba(139,94,44,.24), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(2) { background: linear-gradient(145deg, rgba(173,33,52,.22), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(3) { background: linear-gradient(145deg, rgba(27,101,70,.25), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(4) { background: linear-gradient(145deg, rgba(37,88,132,.24), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(5) { background: linear-gradient(145deg, rgba(112,65,132,.24), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(6) { background: linear-gradient(145deg, rgba(161,96,31,.24), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(7) { background: linear-gradient(145deg, rgba(22,112,102,.25), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person:nth-child(8) { background: linear-gradient(145deg, rgba(155,28,47,.25), rgba(255,255,255,.035)); }
-    .history-incident-list .sovereignty-person { min-height: 180px; }
-    @media (max-width: 800px) { .history-incident-list { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 520px) { .history-incident-list { grid-template-columns: 1fr; } }
-
     /* ══════════════════════════════════════════
        32–36 JULY · SCHEDULED MEMORY EXPERIENCE
     ══════════════════════════════════════════ */
@@ -4230,28 +4217,60 @@
     .sovereignty-portraits {
       position: relative;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      counter-reset: history-card;
     }
     .sovereignty-person {
+      --card-accent: #edc36a;
+      --card-glow: rgba(237,195,106,.18);
       position: relative;
       display: flex;
       min-width: 0;
-      min-height: 535px;
+      min-height: 270px;
       flex-direction: column;
-      padding: 14px 14px 24px;
+      padding: 26px 24px 22px;
       overflow: hidden;
       border: 1px solid rgba(255,255,255,.13);
-      background: rgba(255,255,255,.035);
+      border-top: 3px solid var(--card-accent);
+      border-radius: 4px;
+      background: radial-gradient(circle at 100% 0, var(--card-glow), transparent 42%), linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.025));
       text-decoration: none;
-      transition: background .35s, transform .35s var(--ease-out), box-shadow .35s;
+      isolation: isolate;
+      counter-increment: history-card;
+      transition: border-color .35s, transform .35s var(--ease-out), box-shadow .35s;
+    }
+    .sovereignty-person::before {
+      content: "0" counter(history-card);
+      position: absolute;
+      top: 14px;
+      right: 17px;
+      z-index: -1;
+      color: rgba(255,255,255,.075);
+      font: 800 clamp(3.2rem,5vw,5rem)/1 var(--font-display);
+      letter-spacing: -.06em;
+      transition: color .35s, transform .5s var(--ease-out);
+    }
+    .sovereignty-person::after {
+      content: "";
+      position: absolute;
+      right: -28px;
+      bottom: -34px;
+      width: 110px;
+      aspect-ratio: 1;
+      border: 1px solid color-mix(in srgb, var(--card-accent) 38%, transparent);
+      border-radius: 50%;
+      box-shadow: 0 0 0 15px rgba(255,255,255,.018), 0 0 0 30px rgba(255,255,255,.012);
+      transition: transform .7s var(--ease-out);
     }
     .sovereignty-person:hover {
       z-index: 2;
-      background: rgba(192,22,54,.16);
-      transform: translateY(-10px);
-      box-shadow: 0 30px 70px rgba(0,0,0,.32);
+      border-color: color-mix(in srgb, var(--card-accent) 70%, white 8%);
+      transform: translateY(-7px);
+      box-shadow: 0 26px 60px rgba(0,0,0,.3), 0 0 34px var(--card-glow);
     }
+    .sovereignty-person:hover::before { color: color-mix(in srgb, var(--card-accent) 20%, transparent); transform: translateY(-4px); }
+    .sovereignty-person:hover::after { transform: scale(1.18) rotate(12deg); }
     .sovereignty-photo {
       position: relative;
       height: 320px;
@@ -4276,15 +4295,19 @@
     .sovereignty-person.ilias .sovereignty-photo img { object-position: center 18%; }
     .sovereignty-person.abrar .sovereignty-photo img { object-position: center 32%; }
     .sovereignty-person.hadi .sovereignty-photo img { object-position: center 23%; }
-    .sovereignty-person.felani { border-top: 3px solid #edc36a; }
-    .sovereignty-person.ilias { border-top: 3px solid #c93643; }
-    .sovereignty-person.abrar { border-top: 3px solid #32b778; }
-    .sovereignty-person.hadi { border-top: 3px solid #9e1f31; }
+    .sovereignty-person:nth-child(1) { --card-accent: #edc36a; --card-glow: rgba(237,195,106,.18); }
+    .sovereignty-person:nth-child(2) { --card-accent: #d9a43a; --card-glow: rgba(217,164,58,.18); }
+    .sovereignty-person:nth-child(3) { --card-accent: #43ba78; --card-glow: rgba(67,186,120,.18); }
+    .sovereignty-person:nth-child(4) { --card-accent: #dc5364; --card-glow: rgba(220,83,100,.2); }
+    .sovereignty-person:nth-child(5) { --card-accent: #8b8ed8; --card-glow: rgba(139,142,216,.19); }
+    .sovereignty-person:nth-child(6) { --card-accent: #e04b55; --card-glow: rgba(224,75,85,.2); }
     .sovereignty-person:hover .sovereignty-photo img { transform: scale(1.055); filter: grayscale(.35); }
-    .sovereignty-person > span { color: #edc36a; font-family: var(--font-mono); font-size: 9px; letter-spacing: .08em; }
-    .sovereignty-person > strong { margin-top: 12px; font-family: var(--font-display); font-size: clamp(1.9rem,3.1vw,3rem); line-height: 1.02; }
-    .sovereignty-person > small { max-width: 520px; margin-top: 11px; color: rgba(255,255,255,.64); font-size: .88rem; line-height: 1.62; }
-    .sovereignty-person > em { margin-top: auto; padding-top: 19px; color: #7ee4a4; font-size: .76rem; font-style: normal; font-weight: 700; }
+    .sovereignty-person > span { max-width: calc(100% - 72px); color: var(--card-accent); font-family: var(--font-mono); font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .sovereignty-person > strong { max-width: 92%; margin-top: 28px; font-family: var(--font-display); font-size: clamp(1.65rem,2.2vw,2.35rem); line-height: 1.06; }
+    .sovereignty-person > small { max-width: 520px; margin-top: 13px; color: rgba(255,255,255,.7); font-size: .86rem; line-height: 1.65; }
+    .sovereignty-person > em { display: inline-flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 19px; color: var(--card-accent); font-size: .76rem; font-style: normal; font-weight: 800; }
+    .sovereignty-person > em::after { content: "→"; font-size: 1rem; transition: transform .25s; }
+    .sovereignty-person:hover > em::after { transform: translateX(5px); }
     .sovereignty-gateway-foot {
       position: relative;
       display: flex;
@@ -4316,7 +4339,7 @@
       .sovereignty-gateway-head { grid-template-columns: 1fr; gap: 20px; }
       .sovereignty-era i { display: block; flex: 0 0 18px; }
       .sovereignty-era span { flex: 0 0 auto; padding: 0; white-space: nowrap; }
-      .sovereignty-portraits { grid-template-columns: 1fr; }
+      .sovereignty-portraits { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 580px) {
       .sovereignty-gateway { padding: 58px 0 50px; }
@@ -4324,10 +4347,10 @@
       .sovereignty-gateway-head h2 { font-size: clamp(2.65rem,13.5vw,4rem); line-height: .96; }
       .sovereignty-gateway-head > p { font-size: .92rem; line-height: 1.72; }
       .sovereignty-era { margin-bottom: 20px; }
-      .sovereignty-portraits { display: grid; margin: 0; padding: 0; overflow: visible; }
-      .sovereignty-person { min-height: 0; padding: 8px 8px 18px; }
+      .sovereignty-portraits { display: grid; grid-template-columns: 1fr; margin: 0; padding: 0; overflow: visible; }
+      .sovereignty-person { min-height: 245px; padding: 22px 20px 19px; }
       .sovereignty-photo { height: auto; aspect-ratio: 16 / 9; margin-bottom: 16px; }
-      .sovereignty-person > strong { font-size: 2.15rem; }
+      .sovereignty-person > strong { margin-top: 24px; font-size: 2rem; }
       .sovereignty-person > small { font-size: .83rem; }
       .sovereignty-gateway-foot { align-items: stretch; flex-direction: column; }
       .sovereignty-gateway-foot > a { justify-content: center; text-align: center; }
@@ -4603,23 +4626,20 @@
         <p>পিলখানা, শাপলা চত্বর, সীমান্তে হত্যাকাণ্ড, গুম, মতপ্রকাশের দমন এবং জুলাই ২০২৪—ঘটনাগুলো এক নয়; প্রতিটির নথি, দায় ও বিচার-অবস্থা আলাদা। এই আর্কাইভ ক্ষমতাসীন আওয়ামী লীগ সরকারের সময়ের প্রধান অভিযোগ ও প্রমাণকে সময়ক্রমে সাজায়, যাতে স্মৃতি স্লোগান নয়—জবাবদিহির ভিত্তি হয়।</p>
       </div>
       <div class="sovereignty-era reveal" aria-label="স্মৃতি-যাত্রার সময়রেখা">
-        <span><b>২০০৯</b>শাসনের শুরু</span><i></i>
         <span><b>২০০৯</b>পিলখানা</span><i></i>
         <span><b>২০১১</b>ফেলানী</span><i></i>
         <span><b>২০১২</b>ইলিয়াস</span><i></i>
         <span><b>২০১৩</b>শাপলা</span><i></i>
         <span><b>২০১৯</b>আবরার</span><i></i>
-        <span><b>২০২৪</b>জুলাই গণঅভ্যুত্থান</span>
+        <span><b>২০২৫</b>শহীদ হাদি</span>
       </div>
       <div class="sovereignty-portraits history-incident-list stagger-children reveal">
-        <a class="sovereignty-person" href="history/#pilkhana"><span>২০০৯ · রাষ্ট্রীয় নিরাপত্তা</span><strong>পিলখানা হত্যাকাণ্ড</strong><small>বিডিআর বিদ্রোহে ৭৪ জন নিহত হন, তাঁদের মধ্যে ৫৭ জন সেনা কর্মকর্তা। পূর্ণ সত্য ও জবাবদিহির প্রশ্ন আজও গুরুত্বপূর্ণ।</small></a>
-        <a class="sovereignty-person" href="history/#osman-hadi"><span>২০২৫ · রাজনৈতিক সহিংসতা</span><strong>ওসমান হাদী হত্যাকাণ্ড</strong><small>তরুণ রাজনৈতিক কর্মী ওসমান হাদীর হত্যাকাণ্ড রাজনৈতিক সহিংসতা, নিরাপত্তা ও জবাবদিহির প্রশ্ন সামনে আনে।</small></a>
-        <a class="sovereignty-person" href="history/#felani"><span>২০১১ · সীমান্ত</span><strong>ফেলানী হত্যাকাণ্ড</strong><small>সীমান্তের কাঁটাতারে ফেলানী খাতুনের মরদেহ ঝুলে থাকা বাংলাদেশের বিবেককে নাড়া দেয়।</small></a>
-        <a class="sovereignty-person" href="history/#ilias"><span>২০১২ · গুম</span><strong>ইলিয়াস আলী নিখোঁজ</strong><small>গাড়ি পাওয়া গেল, মানুষ ফিরলেন না—গুমের অভিযোগে একটি পরিবারের অপেক্ষা আজও শেষ হয়নি।</small></a>
-        <a class="sovereignty-person" href="history/#shapla"><span>২০১৩ · রাষ্ট্রীয় অভিযান</span><strong>শাপলা চত্বর</strong><small>রাতের অভিযানের হতাহতের সংখ্যা নিয়ে মতভেদ আছে; স্বাধীন পূর্ণাঙ্গ তদন্তের দাবি রয়ে গেছে।</small></a>
-        <a class="sovereignty-person" href="history/#biswajit"><span>২০১২ · রাজনৈতিক সহিংসতা</span><strong data-i18n="বিশ্বজিৎ দাস হত্যাকাণ্ড">বিশ্বজিৎ দাস হত্যাকাণ্ড</strong><small>রাজনৈতিক সংঘর্ষের মধ্যে তরুণ দর্জি বিশ্বজিৎ দাস নিহত হন; মামলায় আদালতের দণ্ডও হয়েছিল।</small></a>
-        <a class="sovereignty-person" href="history/#abrar"><span>২০১৯ · মতপ্রকাশ</span><strong>আবরার ফাহাদ হত্যাকাণ্ড</strong><small>একজন শিক্ষার্থীর প্রশ্নের জবাবে দলীয় সহিংসতা—আদালতের দণ্ডের পরও ক্যাম্পাস নিরাপত্তার প্রশ্ন জাগে।</small></a>
-        <a class="sovereignty-person" href="history/#july-2024"><span>২০২৪ · গণঅভ্যুত্থান</span><strong>জুলাই গণঅভ্যুত্থান</strong><small>ছাত্র-জনতার আন্দোলনে রাষ্ট্রীয় দমন, গুলি ও গণগ্রেপ্তারের বিরুদ্ধে মানুষ রাস্তায় দাঁড়ায়।</small></a>
+        <a class="sovereignty-person" href="history/#pilkhana"><span>২০০৯ · রাষ্ট্রীয় নিরাপত্তা</span><strong>পিলখানা হত্যাকাণ্ড</strong><small>২৫–২৬ ফেব্রুয়ারির বিডিআর বিদ্রোহে ৭৪ জন নিহত হন—তাঁদের মধ্যে ছিলেন ৫৭ জন সেনা কর্মকর্তা। হত্যাকাণ্ড, পরবর্তী হেফাজতে মৃত্যু ও বিচারপ্রক্রিয়া নিয়ে পূর্ণ জবাবদিহির প্রশ্ন রয়ে গেছে।</small><em>ঘটনাটি জানুন</em></a>
+        <a class="sovereignty-person" href="history/#felani"><span>২০১১ · সীমান্ত হত্যা</span><strong>ফেলানী খাতুন ও সীমান্ত হত্যা</strong><small>৭ জানুয়ারি ১৫ বছর বয়সী ফেলানী খাতুন বিএসএফের গুলিতে নিহত হন; কাঁটাতারে ঝুলে থাকা তাঁর মরদেহ সীমান্তে প্রাণের অধিকার ও বিচারহীনতার প্রতীক হয়ে আছে।</small><em>ঘটনাটি জানুন</em></a>
+        <a class="sovereignty-person" href="history/#abrar"><span>২০১৯ · ক্যাম্পাস সহিংসতা</span><strong>আবরার ফাহাদ হত্যা</strong><small>৬ অক্টোবর বুয়েটের শিক্ষার্থী আবরার ফাহাদকে ছাত্রলীগের নেতা-কর্মীরা পিটিয়ে হত্যা করে। বিচারিক আদালত ২০ জনকে মৃত্যুদণ্ড ও ৫ জনকে যাবজ্জীবন কারাদণ্ড দেয়।</small><em>ঘটনাটি জানুন</em></a>
+        <a class="sovereignty-person" href="history/#shapla"><span>২০১৩ · রাষ্ট্রীয় অভিযান</span><strong>শাপলা চত্বর অভিযান</strong><small>৫–৬ মে রাতের অভিযানে বলপ্রয়োগ ও প্রাণহানির ঘটনা ঘটে। নিহতের সংখ্যা নিয়ে ভিন্ন তথ্য থাকায় স্বচ্ছ, স্বাধীন তদন্ত এবং পূর্ণাঙ্গ নামের তালিকার দাবি আজও গুরুত্বপূর্ণ।</small><em>ঘটনাটি জানুন</em></a>
+        <a class="sovereignty-person" href="history/#ilias"><span>২০১২ · গুম</span><strong>এম. ইলিয়াস আলীর গুম</strong><small>১৭ এপ্রিল বিএনপি নেতা এম. ইলিয়াস আলী ও তাঁর গাড়িচালক আনসার আলী নিখোঁজ হন। পরিত্যক্ত গাড়ি পাওয়া গেলেও তাঁদের সন্ধান মেলেনি; পরিবার এখনো সত্যের অপেক্ষায়।</small><em>ঘটনাটি জানুন</em></a>
+        <a class="sovereignty-person" href="history/#osman-hadi"><span>২০২৫ · আধিপত্যবাদবিরোধী সংগ্রাম</span><strong>শহীদ শরিফ ওসমান হাদি</strong><small>জুলাইয়ের সংগঠক ও ইনকিলাব মঞ্চের মুখপাত্র শরিফ ওসমান হাদি ১২ ডিসেম্বর গুলিবিদ্ধ হন এবং ১৮ ডিসেম্বর চিকিৎসাধীন অবস্থায় মারা যান। তাঁর হত্যার বিচার ও রাজনৈতিক কর্মীদের নিরাপত্তা এখনো জরুরি প্রশ্ন।</small><em>ঘটনাটি জানুন</em></a>
       </div>
       <div class="sovereignty-gateway-foot reveal">
         <p><b>একটি সরকারের দীর্ঘ ছায়া; বহু মানুষের অসমাপ্ত ন্যায়বিচার।</b><br>ঘটনার তারিখ, ক্ষয়ক্ষতি, তদন্তের অবস্থা, আদালতের রেকর্ড ও উৎস—সব এক জায়গায়। অনিশ্চিত দাবি আলাদা করে চিহ্নিত করা হয়েছে।</p>
