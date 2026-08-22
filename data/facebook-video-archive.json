@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-22T03:57:40.989Z",
+  "updatedAt": "2026-08-22T04:51:22.937Z",
   "pages": {
     "germany": {
       "lastFullScanAt": "2026-08-21T20:09:44.900Z",
-      "lastCheckedAt": "2026-08-22T03:57:37.088Z",
+      "lastCheckedAt": "2026-08-22T04:51:19.199Z",
       "videos": [
         {
           "id": "1029272699980116",
@@ -14,7 +14,7 @@
           "updated_time": "2026-08-22T01:24:31+0000",
           "permalink_url": "https://www.facebook.com/reel/1029272699980116/",
           "picture": "",
-          "views": 401
+          "views": 402
         },
         {
           "id": "1351920640263498",
@@ -893,7 +893,7 @@
           "created_time": "2026-05-04T15:17:11+0000",
           "updated_time": "2026-08-10T21:41:24+0000",
           "permalink_url": "https://www.facebook.com/reel/2516886582058763/",
-          "picture": "https://scontent-atl3-2.xx.fbcdn.net/v/t15.5256-10/686959136_1294342912654704_2267139368745467977_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=102&ccb=1-7&_nc_sid=810293&_nc_ohc=yaFbBQYpqRAQ7kNvwGNYm6I&_nc_oc=Adp1qKhCY-uLsZLPzhFBqiLtU6qWxuHX0WNZNiiUlxxmUgulpeUVAHMVLWCOUaCPRqE&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&edm=APRAPSkEAAAA&_nc_gid=AivPy4TqZzdgJ3nNcvHmJA&_nc_tpa=Q5bMBQIWVuk2y4VtqEiUAG-RDb0NVDpKaqCepNSybHsG4AqTwYkxkDY1d0TnReUyEymGz6co5oz1bZT5&oh=00_AQGVMw4hdReukXWdphlFO_vf9ShxzWGYQn9DxTdj5eaU0g&oe=6A8F00CE",
+          "picture": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/686959136_1294342912654704_2267139368745467977_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=102&ccb=1-7&_nc_sid=810293&_nc_ohc=yaFbBQYpqRAQ7kNvwGduIvn&_nc_oc=Adr1OslQm8xdxaGKpno6ilrcYNZrHGs9PBX7kFGYjYhZYmwAXR0Mn6e04EnglAFp2EQ&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=APRAPSkEAAAA&_nc_gid=MU3DPttzkNJgBcUrFaqWxA&_nc_tpa=Q5bMBQLnPT9o-QV_O-sqfboHFpaT2XEn2ZZO3eBe3DRm89p_4M6NEei5X7JhZA7g3dn4TOCdLLCoyHIr&oh=00_AQHuMt7GFxeIE--ZBeu52nnP5oj0Hnoly_bnOeylsheA2w&oe=6A8F00CE",
           "views": 70715
         },
         {
@@ -1233,7 +1233,7 @@
           "created_time": "2026-04-16T20:04:24+0000",
           "updated_time": "2026-07-05T17:58:13+0000",
           "permalink_url": "https://www.facebook.com/reel/26579957611639020/",
-          "picture": "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/672715237_1508690500587169_1568284187471915873_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=110&ccb=1-7&_nc_sid=200999&_nc_ohc=rNTHvu6oXL8Q7kNvwFJVkMK&_nc_oc=AdrjeVA6RcJKC2XWUxyw-QpxoUVXLqmpS_TnrcPch6ebCGiKVrekMbDezUGvdAqW-Do&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&edm=APRAPSkEAAAA&_nc_gid=G6TWLaKI6bSmtLFoe3b9oQ&_nc_tpa=Q5bMBQIy5rIhU6q2LSjHyA6gP1W7y6_z9ZSw1Tape0IdoDHw_rseSX2VT1kA68Pk3umm8Me4LRLi5IDd&oh=00_AQE4Hdc0KrE_y-4YvQZRQa0ADTxTqLDjkMFcEblel4YP-g&oe=6A8F0723",
+          "picture": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/672715237_1508690500587169_1568284187471915873_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=110&ccb=1-7&_nc_sid=200999&_nc_ohc=rNTHvu6oXL8Q7kNvwHsY-Sl&_nc_oc=Adr5gQyOaHKmWdj11GfPgmTCA2i0BiPN1ufs3jWFkKse-kk47p7aRtXuUEi2w-Bi39g&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=APRAPSkEAAAA&_nc_gid=vaS6V24Ozdfk7DdFthbCcw&_nc_tpa=Q5bMBQI2LX6Enj4hgOoW7jjpGDlK-iT8Ptq4y_BBxfNH8hTh9KAMJTXeV_vv9nzSWdzAAlS5vbHdr6Ok&oh=00_AQHZlDe7fDnCj6CYHXPge_Lnwzi3I-9WG_K63QNZ2MoZgg&oe=6A8F0723",
           "views": 95006
         },
         {
@@ -1243,7 +1243,7 @@
           "created_time": "2026-04-16T10:19:45+0000",
           "updated_time": "2026-07-17T08:32:01+0000",
           "permalink_url": "https://www.facebook.com/reel/847006725092269/",
-          "picture": "https://scontent-atl3-2.xx.fbcdn.net/v/t15.5256-10/671889712_2209262703235545_2457555773040714112_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=104&ccb=1-7&_nc_sid=200999&_nc_ohc=FsXSfZpFAnQQ7kNvwFcbc-q&_nc_oc=AdrcPQUmEUC86OsRBc_tVsQmWof6x83vRuLDFmJQL0vcwwMyy3QAKpZJnUSmQ7djHls&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&edm=APRAPSkEAAAA&_nc_gid=yVtKhWyATCcetdTjLD5cDg&_nc_tpa=Q5bMBQJk8VeXqiI83PURZDdt2cexi96R6N3nef6e50YOF75X3dAl8lclisZ96_NecAMfBzvTlol91vND&oh=00_AQGt-mOu8iEXCLmPB0tRqTul_F6XuYFTuldm_dqemNlmlw&oe=6A8F065E",
+          "picture": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/671889712_2209262703235545_2457555773040714112_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=104&ccb=1-7&_nc_sid=200999&_nc_ohc=FsXSfZpFAnQQ7kNvwHy8nNR&_nc_oc=AdrJDwPNE6i4HSxq58ZsUea7Thedl5VYmTD933GQgrUrVxePlcD387Wjkic2-gzhGgk&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=APRAPSkEAAAA&_nc_gid=TrPRRnfLXwbrGLU18qBqrw&_nc_tpa=Q5bMBQIVxQsa96sVRcPd--YteeXYPgXVxxI654sqpcgaZptb0uEJEvD7wvmDLLZ_LQGW4I5xvOVhIYfq&oh=00_AQG8rdxgV5qgguUWKLLvbqu_3blxZfQIwMUzesvYA8336w&oe=6A8F065E",
           "views": 67277
         },
         {
@@ -2203,7 +2203,7 @@
           "created_time": "2026-03-01T01:12:55+0000",
           "updated_time": "2026-06-10T14:57:28+0000",
           "permalink_url": "https://www.facebook.com/reel/926440843294007/",
-          "picture": "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/643584376_1278030290863830_3533240001481561723_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=108&ccb=1-7&_nc_sid=200999&_nc_ohc=QM8jYPCwAiMQ7kNvwEBvb57&_nc_oc=AdqX9EUwBMhoKYQztAKPjJu0Yu_JnNbyNziC37xUvtLXX4HUjlJ6RVn3qCKNhWTN6Qs&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&edm=APRAPSkEAAAA&_nc_gid=YlF6lpMJLX3JD-wuO6vbuQ&_nc_tpa=Q5bMBQLHZW0_88u2kfzkjIj42-DN0ikaAFMfIRLRlMEpW0QeIFwGuNkDMs7mD-GP0so1c3NX4XUhBpd2&oh=00_AQH-oGrmQ6EpQsKNIIqvS68_-nasctNpmrgZkqp7I8gIow&oe=6A8EF9D8",
+          "picture": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/643584376_1278030290863830_3533240001481561723_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=108&ccb=1-7&_nc_sid=200999&_nc_ohc=QM8jYPCwAiMQ7kNvwFRJoKc&_nc_oc=Ado5qjPsbjtvCsOzB_YtU_Te8G8e-sj5Ok5JoI4SoPuMaay1tZROuPytwl3Ge0lEGAc&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=APRAPSkEAAAA&_nc_gid=_Pgn97xyXhLA411iP6nPdA&_nc_tpa=Q5bMBQIiZ8PYLjeu9urrDHH09_jXJ8KrSS4_HxND5RK6kQw1Kxr5R_x8E4ZifuoCI72qc-_mupkgocx7&oh=00_AQEreHOkXWZb0mvYUHy-iv5SN43-dPH18YQGMjEqoPasAw&oe=6A8EF9D8",
           "views": 70403
         },
         {
@@ -2273,7 +2273,7 @@
           "created_time": "2026-02-26T16:51:45+0000",
           "updated_time": "2026-08-17T15:48:28+0000",
           "permalink_url": "https://www.facebook.com/reel/2378818559257521/",
-          "picture": "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/637649841_1433718808442180_4497465791703036085_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=109&ccb=1-7&_nc_sid=200999&_nc_ohc=RW6LZx5s1coQ7kNvwG6UAxZ&_nc_oc=AdqZG2DJaqOKCSbP8hXldIg-QEBJ3MSggyXlFabt4G-DM1B1QEsdkk9b-2pmNd9HENc&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&edm=APRAPSkEAAAA&_nc_gid=mAxAjedCTbrsMEbACQQn_A&_nc_tpa=Q5bMBQKBJk0Hgldjwhss_TeQK5B50R3-I_Ky-G5XaZZCilEVWabaihvi7Lx_GqacTZMUvk7k-T8XUV2t&oh=00_AQEsc5b8-tL2mOoKKadKLsVfwVaAymD3h7FvCW8kM4RvtA&oe=6A8F065D",
+          "picture": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/637649841_1433718808442180_4497465791703036085_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=109&ccb=1-7&_nc_sid=200999&_nc_ohc=RW6LZx5s1coQ7kNvwHap7GC&_nc_oc=AdrVgl15L1ZohRAW5RzUoUAD_NgdjU2FYtdfuNrGL0trJR9N02F2anaRVpkCDR7Bf2Y&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=APRAPSkEAAAA&_nc_gid=pB6qFt_tP92mE8rda-1M8w&_nc_tpa=Q5bMBQK5k2Uo6CHr_bdvPEZQsdD5e9T9e7GLuEs5I29SfBDaUf6QYhyE5zZ2_K70zIoc7pTDPIDuQ-IA&oh=00_AQFDd-rQHIPYXGepM9SO2agYw3Vm17dOZGqv23LBY_84dg&oe=6A8F065D",
           "views": 70922
         },
         {
@@ -2343,8 +2343,8 @@
           "created_time": "2026-02-22T18:55:27+0000",
           "updated_time": "2026-08-07T14:33:31+0000",
           "permalink_url": "https://www.facebook.com/reel/1579837809918839/",
-          "picture": "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/637903141_944573918013674_8444931983939327271_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=108&ccb=1-7&_nc_sid=200999&_nc_ohc=6OGd1vSqvy4Q7kNvwEHWI43&_nc_oc=AdqDVx1BaLXBGI54EN21KQVLI3Pcj2t-AM3FgQf2bITpgGFXXqdDV-BAOXYBT92i-QU&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&edm=APRAPSkEAAAA&_nc_gid=zvIIABhUbANUXu1rpzAzJA&_nc_tpa=Q5bMBQI9wWO91V36h3GmoiiCRRwdXeX0798NQjBXrO3TL2RYVEhItxlnMoTqEs9AhLzHOniExT49J9PH&oh=00_AQFrzsxQSpnbSHnPoVka0-qeTtNt0tf9EQl0geeGKEbGqA&oe=6A8EDCE7",
-          "views": 76807
+          "picture": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/637903141_944573918013674_8444931983939327271_n.jpg?stp=dst-jpg_s160x160_tt6&_nc_cat=108&ccb=1-7&_nc_sid=200999&_nc_ohc=6OGd1vSqvy4Q7kNvwHT0qeP&_nc_oc=AdrJMs_kkmeAUZ2Ooi8ufpDZUcLbv2e7QysIQ-xMoyqJisj_7_1TpggazS9TGD5GGo0&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=APRAPSkEAAAA&_nc_gid=V6vJba5HKcAbq5KbIdpc-w&_nc_tpa=Q5bMBQIlaxvbJ49c2OwgFltlspI4ZVnfvHfwukgnpX6anAklzJ7Vo9QnKGi1ob_SO8-u3HOUeq9e94Pj&oh=00_AQFqEJT0PP5h9mOFoIS6EFPUyUfRem0eC3Ve-HVC5MbV_g&oe=6A8F1527",
+          "views": 76808
         },
         {
           "id": "1336641251609892",
