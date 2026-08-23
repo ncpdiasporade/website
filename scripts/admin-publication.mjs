@@ -79,6 +79,11 @@ async function materializePublicMedia(payload) {
   for (const [index, item] of mediaItems(publication).entries()) {
     const source = workingMediaPath(item, index);
     if (!fs.existsSync(source)) continue;
+    if (item.type === 'video') {
+      const approvedPublicUrl = /^https:\/\//i.test(item.publicUrl || '') ? item.publicUrl : null;
+      output.push({ ...item, localPath: source, publicUrl: approvedPublicUrl, rawUrl: approvedPublicUrl, variants: {} });
+      continue;
+    }
     const relative = publicMediaPath(publication, item, index);
     const destination = path.join(root, relative);
     fs.mkdirSync(path.dirname(destination), { recursive: true });
@@ -216,6 +221,9 @@ async function publishInstagram(publication, media) {
   const userId = process.env.META_INSTAGRAM_USER_ID;
   if (!token || !userId) return { platform: 'instagram', status: 'NOT_CONFIGURED' };
   if (!media.length) return { platform: 'instagram', status: 'NOT_APPLICABLE' };
+  if (media.some((item) => !item.rawUrl)) {
+    return { platform: 'instagram', status: 'BLOCKED', error: 'Instagram video delivery requires configured public object storage.' };
+  }
   const caption = captionFor(publication, 'instagram');
   let creationId;
   if (media.length > 1) {
@@ -266,9 +274,10 @@ async function publish() {
       else if (platform === 'instagram') result = await publishInstagram(publication, media);
       else if (platform === 'youtube') result = await publishYouTube(publication, media);
       else if (platform === 'tiktok') {
-        if (!media.length || media.some((item) => item.type === 'video')) result = { platform, status: media.length ? 'NOT_APPLICABLE' : 'NOT_APPLICABLE' };
+        if (!media.length) result = { platform, status: 'NOT_APPLICABLE' };
         else if (!(process.env.TIKTOK_ACCESS_TOKEN || (process.env.TIKTOK_CLIENT_KEY && process.env.TIKTOK_CLIENT_SECRET && process.env.TIKTOK_REFRESH_TOKEN))) result = { platform, status: 'NOT_CONFIGURED' };
-        else { const title = clean(override(publication, 'tiktok').title || publication.content.title).slice(0, 90); const published = await publishToTikTok({ title, description: tiktokDraft(title, captionFor(publication, 'tiktok'), publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`), mediaPaths: media.map((item) => item.variants?.tiktok || item.publicPath) }); result = { platform, status: published.status === 'submitted' ? 'SUBMITTED' : 'PUBLISHED', externalId: published.publishId, publishedAt: new Date().toISOString() }; }
+        else if (media.some((item) => item.type === 'video') && media.length !== 1) result = { platform, status: 'BLOCKED', error: 'TikTok accepts one approved video or a photo set, not mixed media.' };
+        else { const title = clean(override(publication, 'tiktok').title || publication.content.title).slice(0, 90); const description = tiktokDraft(title, captionFor(publication, 'tiktok'), publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`); const video = media.find((item) => item.type === 'video'); const published = await publishToTikTok({ title, description, ...(video ? { videoPath: video.localPath, mimeType: video.mimeType } : { mediaPaths: media.map((item) => item.variants?.tiktok || item.publicPath) }) }); result = { platform, status: published.status === 'submitted' ? 'SUBMITTED' : 'PUBLISHED', externalId: published.publishId, publishedAt: new Date().toISOString() }; }
       } else if (platform === 'x') {
         const url = publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`; const text = clean(override(publication, 'x').caption || xDraft(publication.content.title, publication.content.excerpt || publication.content.caption, url));
         if ((process.env.X_PUBLISHING_MODE || 'MANUAL') !== 'API') result = { platform, status: 'MANUAL', externalUrl: `https://x.com/intent/post?text=${encodeURIComponent(text)}` };

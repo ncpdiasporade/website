@@ -710,6 +710,64 @@ async function ensurePublicMedia(url) {
   throw new Error(`Outbound media is not live yet (${lastStatus || 'network error'}): ${url}`);
 }
 
+async function uploadTikTokVideo(platform, token, privacyLevel) {
+  const videoPath = path.resolve(String(platform.videoPath || ''));
+  if (!isPathInside(rootDir, videoPath) && !isPathInside(path.resolve(os.tmpdir()), videoPath)) {
+    throw new Error('TikTok video path escaped the approved workspace.');
+  }
+  const stat = fs.statSync(videoPath);
+  if (!stat.isFile() || stat.size < 1) throw new Error('TikTok video file is empty or unavailable.');
+
+  const chunkSize = Math.min(stat.size, 10 * 1024 * 1024);
+  const totalChunks = Math.ceil(stat.size / chunkSize);
+  const payload = await tiktokRequest('/v2/post/publish/video/init/', token, {
+    post_info: {
+      title: clipAtWord(platform.description || platform.title, 2200),
+      disable_duet: false,
+      disable_comment: false,
+      disable_stitch: false,
+      privacy_level: privacyLevel,
+      video_cover_timestamp_ms: 1000
+    },
+    source_info: {
+      source: 'FILE_UPLOAD',
+      video_size: stat.size,
+      chunk_size: chunkSize,
+      total_chunk_count: totalChunks
+    }
+  });
+  const publishId = payload.data?.publish_id;
+  const uploadUrl = payload.data?.upload_url;
+  if (!publishId || !uploadUrl) throw new Error('TikTok API did not return a video upload target.');
+  const parsedUploadUrl = new URL(uploadUrl);
+  if (parsedUploadUrl.protocol !== 'https:' || parsedUploadUrl.hostname !== 'open-upload.tiktokapis.com') {
+    throw new Error('TikTok returned an untrusted video upload target.');
+  }
+
+  const handle = fs.openSync(videoPath, 'r');
+  try {
+    for (let offset = 0; offset < stat.size; offset += chunkSize) {
+      const length = Math.min(chunkSize, stat.size - offset);
+      const chunk = Buffer.allocUnsafe(length);
+      fs.readSync(handle, chunk, 0, length, offset);
+      const response = await fetch(uploadUrl, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': platform.mimeType || 'video/mp4',
+          'Content-Length': String(length),
+          'Content-Range': `bytes ${offset}-${offset + length - 1}/${stat.size}`
+        },
+        body: chunk,
+        signal: AbortSignal.timeout(120000)
+      });
+      if (!response.ok) throw new Error(`TikTok video upload failed (${response.status}).`);
+    }
+  } finally {
+    fs.closeSync(handle);
+  }
+  return { publishId, status: 'submitted' };
+}
+
 async function publishToTikTok(platform) {
   if (process.env.SOCIAL_MOCK_PUBLISHING === 'true') {
     return { publishId: `mock-tiktok-${Date.now()}`, status: 'submitted' };
@@ -721,6 +779,7 @@ async function publishToTikTok(platform) {
   if (!availablePrivacy.includes(privacyLevel)) {
     throw new Error(`TikTok creator does not currently allow privacy level ${privacyLevel}. Available: ${availablePrivacy.join(', ')}`);
   }
+  if (platform.videoPath) return uploadTikTokVideo(platform, token, privacyLevel);
   const photoUrls = (platform.mediaPaths || []).map(publicUrl);
   for (const photoUrl of photoUrls) await ensurePublicMedia(photoUrl);
   const payload = await tiktokRequest('/v2/post/publish/content/init/', token, {
