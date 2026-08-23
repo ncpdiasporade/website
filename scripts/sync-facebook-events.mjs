@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { metaGraphGet } from './lib/meta-graph-request.mjs';
+import { resolveMetaPageAccessToken } from './lib/meta-page-token.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -11,11 +12,24 @@ const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
 const graphVersion = process.env.META_GRAPH_VERSION || config.graphVersion;
 const requireSync = String(process.env.REQUIRE_FACEBOOK_EVENTS || '').toLowerCase() === 'true';
 const page = config.pages.find((candidate) => candidate.key === 'germany');
-const token = page ? process.env[page.tokenEnv] : '';
+let token = page ? process.env[page.tokenEnv] : '';
 const pageId = page ? (process.env[page.pageIdEnv] || page.pageId) : '';
 
 if (!/^v\d{1,2}\.\d{1,2}$/.test(String(graphVersion || ''))) {
   throw new Error('META_GRAPH_VERSION must use the expected vNN.N format.');
+}
+
+if (page && token && pageId) {
+  const tokenResolution = await resolveMetaPageAccessToken({
+    graphVersion,
+    pageId,
+    token,
+    sourceName: page.sourceName
+  });
+  token = tokenResolution.token;
+  if (tokenResolution.resolved) {
+    console.log(`${page.sourceName}: resolved a dedicated Page access token for event synchronization.`);
+  }
 }
 
 function clean(value) {

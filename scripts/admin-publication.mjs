@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { materializeMedia, publishToTikTok, publishToX, redactedError, xDraft, tiktokDraft } from './social-publisher.mjs';
 import { metaGraphRequest } from './lib/meta-graph-request.mjs';
+import { resolveMetaPageAccessToken } from './lib/meta-page-token.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const command = process.argv[2] || 'project';
@@ -187,8 +188,22 @@ function formWithFile(media, field, captionField, caption) {
   return form;
 }
 
+let metaPageTokenPromise;
+async function metaPageToken() {
+  const configuredToken = process.env.NCPDA_GERMANY_PAGE_ACCESS_TOKEN;
+  const pageId = process.env.NCPDA_GERMANY_PAGE_ID;
+  if (!configuredToken || !pageId) return '';
+  metaPageTokenPromise ||= resolveMetaPageAccessToken({
+    graphVersion: process.env.META_GRAPH_VERSION || 'v24.0',
+    pageId,
+    token: configuredToken,
+    sourceName: 'NCP Diaspora Alliance Germany'
+  }).then((result) => result.token);
+  return metaPageTokenPromise;
+}
+
 async function publishFacebook(publication, media) {
-  const token = process.env.NCPDA_GERMANY_PAGE_ACCESS_TOKEN;
+  const token = await metaPageToken();
   const pageId = process.env.NCPDA_GERMANY_PAGE_ID;
   if (!token || !pageId) return { platform: 'facebook', status: 'NOT_CONFIGURED' };
   const caption = captionFor(publication, 'facebook');
@@ -221,7 +236,7 @@ async function waitContainer(id, token) {
 }
 
 async function publishInstagram(publication, media) {
-  const token = process.env.NCPDA_GERMANY_PAGE_ACCESS_TOKEN;
+  const token = await metaPageToken();
   const userId = process.env.META_INSTAGRAM_USER_ID;
   if (!token || !userId) return { platform: 'instagram', status: 'NOT_CONFIGURED' };
   if (!media.length) return { platform: 'instagram', status: 'NOT_APPLICABLE' };

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { metaGraphGet } from './lib/meta-graph-request.mjs';
+import { resolveMetaPageAccessToken } from './lib/meta-page-token.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -498,15 +499,25 @@ async function fetchPageVideos(page, pageId, token) {
 }
 
 async function fetchPageContent(page) {
-  const token = process.env[page.tokenEnv];
+  const configuredToken = process.env[page.tokenEnv];
   configuredUrlsFor(page);
   configuredIdsFor(page);
-  if (!token) {
+  if (!configuredToken) {
     console.warn(`Skipping ${page.sourceName}: ${page.tokenEnv} is not configured.`);
     return { posts: [], videos: [] };
   }
 
   const pageId = process.env[page.pageIdEnv] || page.pageId;
+  const tokenResolution = await resolveMetaPageAccessToken({
+    graphVersion,
+    pageId,
+    token: configuredToken,
+    sourceName: page.sourceName
+  });
+  const token = tokenResolution.token;
+  if (tokenResolution.resolved) {
+    console.log(`${page.sourceName}: resolved a dedicated Page access token for feed synchronization.`);
+  }
   const baseFields = 'id,message,created_time,permalink_url,full_picture,attachments{media_type,type,url,title,description,target,media,subattachments}';
   let posts = [];
   let featuredResolved = false;
