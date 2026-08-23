@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T19:26:49.956Z",
+  "updatedAt": "2026-08-23T19:27:12.422Z",
   "items": [
     {
       "id": "publisher-pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60",
@@ -13,7 +13,7 @@
       "sourceCaption": "দেশের কোথাও বিদ্যুৎ পাওয়া যাচ্ছে না। - নাহিদ ইসলাম #ncpdagermany",
       "sourceKey": "germany",
       "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://ncpdagermany.de/#updates",
+      "sourceUrl": "https://www.facebook.com/698081166720091_122201309648921031",
       "mediaType": "image",
       "featured": false,
       "image": "img/social/publisher/pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60-1.jpg",
@@ -24,7 +24,9 @@
       },
       "sourceFingerprint": "547c0b6840371ce388f1e909fcc4db4f0599bf9e0de10ec4494ed07ea4977db2",
       "managedBy": "publisher-admin",
-      "preserveCopy": true
+      "preserveCopy": true,
+      "facebookId": "122201309648921031",
+      "publishedAt": "2026-08-23T19:26:58.424Z"
     },
     {
       "id": "publisher-pub-8451b420-dde1-4aaa-a8f0-86a49bf1bdb7",
