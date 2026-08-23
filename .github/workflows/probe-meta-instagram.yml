@@ -23,12 +23,12 @@ jobs:
           if (!pageId || !token) throw new Error('Meta Page ID or Page access token is not configured.');
           console.log(`::add-mask::${token}`);
           const url = new URL(`https://graph.facebook.com/${version}/${pageId}`);
-          url.searchParams.set('fields', 'name,instagram_business_account{id,username}');
+          url.searchParams.set('fields', 'name,instagram_business_account{id,username},connected_instagram_account{id,username}');
           url.searchParams.set('access_token', token);
           const response = await fetch(url);
           const payload = await response.json();
           if (!response.ok) throw new Error(`Meta connection probe failed (${response.status}): ${payload?.error?.message || 'Unknown provider error'}`);
-          const account = payload.instagram_business_account;
+          const account = payload.instagram_business_account || payload.connected_instagram_account;
           if (!account?.id) throw new Error('The Facebook Page has no linked Instagram professional account.');
           console.log(`Facebook Page: ${payload.name || pageId}`);
           console.log(`Instagram user ID: ${account.id}`);
