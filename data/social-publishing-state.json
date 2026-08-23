@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-23T13:10:32.588Z",
+  "updatedAt": "2026-08-23T13:47:16.971Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -113,7 +113,8 @@
     "facebook:germany:122201158724921031": "13d327f710cc2ad4a0438b698f2d0b442abd64b43c9c8887bda76eff6556c28d",
     "facebook:germany:122201177072921031": "52a9aa6fb4cba6a570bb05ed1cb61d7e54e25284f17f198ea253b8550d3d09b5",
     "facebook:germany:122201183138921031": "e75f528c7c0bb50a94a971efb6b8f2e125e5a07624a5d104e7d5edd531a51088",
-    "blog:lng-contingency-disclosure-accountability": "d32fe2c63314c7aedccb61f780b8e108c2209431e1cdae9c0766a23c65bf5f2f"
+    "blog:lng-contingency-disclosure-accountability": "d32fe2c63314c7aedccb61f780b8e108c2209431e1cdae9c0766a23c65bf5f2f",
+    "facebook:germany:122201276588921031": "f38c674387754193728db446722e963ce5e5d4819b01351530f07e0a2f6c8c2f"
   },
   "publications": []
 }
