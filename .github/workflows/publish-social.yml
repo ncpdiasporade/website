@@ -46,6 +46,8 @@ jobs:
           sudo apt-get install -y fonts-noto-core
 
       - name: Prepare new Facebook and blog items
+        env:
+          TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
         run: |
           npm run social:prepare
           npm run social:status >> "$GITHUB_STEP_SUMMARY"
@@ -67,8 +69,10 @@ jobs:
           git push origin main
 
       - name: Prepare TikTok access token
+        if: vars.TIKTOK_PRODUCTION_APPROVED == 'true'
         continue-on-error: true
         env:
+          TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
           TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
@@ -78,10 +82,13 @@ jobs:
         run: |
           npm run social:auth
           if [ -s "$TIKTOK_ACCESS_TOKEN_OUTPUT" ]; then
-            printf 'TIKTOK_ACCESS_TOKEN=%s\n' "$(tr -d '\n' < "$TIKTOK_ACCESS_TOKEN_OUTPUT")" >> "$GITHUB_ENV"
+            token="$(tr -d '\n' < "$TIKTOK_ACCESS_TOKEN_OUTPUT")"
+            echo "::add-mask::$token"
+            printf 'TIKTOK_ACCESS_TOKEN=%s\n' "$token" >> "$GITHUB_ENV"
           fi
 
       - name: Persist a rotated TikTok refresh token
+        if: vars.TIKTOK_PRODUCTION_APPROVED == 'true'
         env:
           GH_TOKEN: ${{ secrets.SOCIAL_SECRETS_PAT }}
           ROTATED_TOKEN_FILE: ${{ runner.temp }}/tiktok-refresh-token
@@ -96,6 +103,8 @@ jobs:
           gh secret set TIKTOK_REFRESH_TOKEN < "$ROTATED_TOKEN_FILE"
 
       - name: Reconcile submitted TikTok posts
+        env:
+          TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
         run: npm run social:reconcile
 
       - name: Save reconciliation results
@@ -112,6 +121,7 @@ jobs:
 
       - name: Claim automatic Facebook-origin posts
         env:
+          TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
@@ -132,6 +142,7 @@ jobs:
 
       - name: Publish the claimed posts
         env:
+          TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}

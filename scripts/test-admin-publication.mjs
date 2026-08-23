@@ -50,6 +50,11 @@ try {
   const videoResult = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
   assert.deepEqual(videoResult.deliveries.map((item) => [item.platform, item.status]), [['tiktok', 'SUBMITTED']]);
   assert.equal(fs.existsSync(path.join(root, 'img/social/publisher/pub-test-video-1.mp4')), false, 'private video must not be copied into the public repository');
+
+  fs.rmSync(resultsPath, { force: true });
+  run('publish', { TIKTOK_ACCESS_TOKEN: 'test-token', TIKTOK_PRODUCTION_APPROVED: 'false' });
+  const gatedVideoResult = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
+  assert.deepEqual(gatedVideoResult.deliveries.map((item) => [item.platform, item.status]), [['tiktok', 'APPROVAL_REQUIRED']]);
   console.log('Admin stable-ID projection, website delivery, video boundary and TikTok mock delivery tests passed.');
 } finally {
   fs.writeFileSync(recentPath, original);

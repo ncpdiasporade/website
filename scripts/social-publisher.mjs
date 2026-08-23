@@ -26,6 +26,11 @@ function platformPublishingMode(platformName) {
   return String(config[platformName]?.publishingMode || 'automatic');
 }
 
+function tiktokProductionApproved() {
+  return process.env.TIKTOK_PRODUCTION_APPROVED === 'true'
+    || process.env.SOCIAL_MOCK_PUBLISHING === 'true';
+}
+
 function resolvePath(value) {
   const resolved = path.resolve(rootDir, String(value || ''));
   const allowedRoots = [rootDir];
@@ -344,34 +349,57 @@ async function queueRecord(record, sourceHash) {
         mediaPath: media.x
       },
       tiktok: {
-        status: 'pending',
+        status: tiktokProductionApproved() ? 'pending' : 'blocked',
         attempts: 0,
         title: clipAtWord(title, 90),
         description: tiktokDraft(title, excerpt, url, isBlog ? item.imageCredit : ''),
-        mediaPaths: [media.tiktok]
+        mediaPaths: [media.tiktok],
+        ...(tiktokProductionApproved() ? {} : { blockReason: 'production-approval-required' })
       }
     }
   };
 }
 
 function applyPublishingModes(queue) {
-  if (platformPublishingMode('x') !== 'draft-only') return false;
   let changed = false;
   for (const item of queue.items || []) {
-    const platform = item.platforms?.x;
-    if (!platform || ['published', 'submitted', 'skipped', 'draft-ready'].includes(platform.status)) continue;
-    platform.status = item.approval === 'required' && item.approvalStatus !== 'approved'
-      ? 'awaiting-approval'
-      : 'draft-ready';
-    platform.attempts = 0;
-    delete platform.blockReason;
-    delete platform.claimId;
-    delete platform.claimedAt;
-    delete platform.lastAttemptAt;
-    delete platform.lastError;
-    item.status = recalculateItemStatus(item);
-    item.updatedAt = now();
-    changed = true;
+    let itemChanged = false;
+    const xPlatform = item.platforms?.x;
+    if (platformPublishingMode('x') === 'draft-only'
+      && xPlatform
+      && !['published', 'submitted', 'skipped', 'draft-ready'].includes(xPlatform.status)) {
+      xPlatform.status = item.approval === 'required' && item.approvalStatus !== 'approved'
+        ? 'awaiting-approval'
+        : 'draft-ready';
+      xPlatform.attempts = 0;
+      delete xPlatform.blockReason;
+      delete xPlatform.claimId;
+      delete xPlatform.claimedAt;
+      delete xPlatform.lastAttemptAt;
+      delete xPlatform.lastError;
+      itemChanged = true;
+    }
+
+    const tiktokPlatform = item.platforms?.tiktok;
+    if (!tiktokProductionApproved()
+      && tiktokPlatform
+      && !['published', 'submitted', 'skipped'].includes(tiktokPlatform.status)
+      && (tiktokPlatform.status !== 'blocked' || tiktokPlatform.blockReason !== 'production-approval-required')) {
+      tiktokPlatform.status = 'blocked';
+      tiktokPlatform.blockReason = 'production-approval-required';
+      tiktokPlatform.attempts = 0;
+      delete tiktokPlatform.claimId;
+      delete tiktokPlatform.claimedAt;
+      delete tiktokPlatform.lastAttemptAt;
+      delete tiktokPlatform.lastError;
+      itemChanged = true;
+    }
+
+    if (itemChanged) {
+      item.status = recalculateItemStatus(item);
+      item.updatedAt = now();
+      changed = true;
+    }
   }
   return changed;
 }
@@ -466,7 +494,7 @@ function availablePlatforms() {
   return {
     x: platformPublishingMode('x') !== 'draft-only'
       && Boolean(process.env.X_API_KEY && process.env.X_API_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_TOKEN_SECRET),
-    tiktok: Boolean(
+    tiktok: tiktokProductionApproved() && Boolean(
       process.env.TIKTOK_ACCESS_TOKEN
       || (process.env.TIKTOK_CLIENT_KEY && process.env.TIKTOK_CLIENT_SECRET && process.env.TIKTOK_REFRESH_TOKEN)
     )
@@ -669,7 +697,9 @@ async function refreshTikTokToken() {
 
 async function auth() {
   if (!availablePlatforms().tiktok) {
-    console.log('TikTok credentials are not configured; token preparation skipped.');
+    console.log(tiktokProductionApproved()
+      ? 'TikTok credentials are not configured; token preparation skipped.'
+      : 'TikTok production publishing is not approved; token preparation skipped.');
     return;
   }
   const token = await refreshTikTokToken();

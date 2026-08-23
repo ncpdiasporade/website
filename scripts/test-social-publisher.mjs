@@ -38,6 +38,7 @@ function run(command, extraArgs = [], extraEnv = {}, expectedStatus = 0) {
       SOCIAL_FACEBOOK_PATH: files.facebook,
       SOCIAL_BLOG_PATH: files.blogs,
       SOCIAL_OUTBOUND_DIR: files.outbound,
+      TIKTOK_PRODUCTION_APPROVED: 'true',
       ...extraEnv
     }
   });
@@ -190,6 +191,26 @@ try {
   assert.match(draftOutput.stdout, /এই caption-টি manual X draft/u);
   assert.match(draftOutput.stdout, /Download the X-ready image/u);
   assert.equal(readJson(files.state).publications.length, 5, 'draft-only X must not create an X publication record');
+
+  const sandboxFacebook = readJson(files.facebook);
+  sandboxFacebook.items.unshift({
+    id: 'facebook-germany-sandbox-gated',
+    facebookId: 'sandbox-gated',
+    status: 'published',
+    sourceKey: 'germany',
+    sourceName: 'NCP Diaspora Alliance Germany',
+    sourceUrl: 'https://www.facebook.com/ncpdagermany/posts/sandbox-gated',
+    createdAt: new Date(Date.now() + 180000).toISOString(),
+    title: 'TikTok production gate',
+    excerpt: 'This post must not be sent while TikTok production review is pending.',
+    sourceCaption: 'TikTok production gate test.'
+  });
+  writeJson(files.facebook, sandboxFacebook);
+  run('prepare', [], { TIKTOK_PRODUCTION_APPROVED: 'false' });
+  queue = readJson(files.queue);
+  const gatedItem = queue.items.find((item) => item.sourceId === 'sandbox-gated');
+  assert.equal(gatedItem.platforms.tiktok.status, 'blocked');
+  assert.equal(gatedItem.platforms.tiktok.blockReason, 'production-approval-required');
   console.log('Social publisher policy, approval gate, media generation, delivery state and deduplication tests passed.');
 } finally {
   fs.rmSync(temporaryDir, { recursive: true, force: true });
