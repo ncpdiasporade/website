@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-facebook-content
+  group: website-content-write-main
   cancel-in-progress: false
 
 jobs:

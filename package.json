@@ -15,11 +15,14 @@
     "social:prepare": "node scripts/social-publisher.mjs prepare",
     "social:status": "node scripts/social-publisher.mjs status",
     "social:drafts": "node scripts/social-publisher.mjs drafts",
+    "publisher:admin": "node scripts/admin-publication.mjs",
     "social:claim": "node scripts/social-publisher.mjs claim",
     "social:execute": "node scripts/social-publisher.mjs execute",
     "social:reconcile": "node scripts/social-publisher.mjs reconcile",
     "social:unblock": "node scripts/social-publisher.mjs unblock",
-    "test:social": "node scripts/test-social-publisher.mjs"
+    "test:social": "node scripts/test-social-publisher.mjs",
+    "test:admin-publisher": "node scripts/test-admin-publication.mjs",
+    "test:meta": "node scripts/test-meta-graph-request.mjs"
   },
   "dependencies": {
     "sharp": "0.35.3"

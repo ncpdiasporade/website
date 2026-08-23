@@ -29,7 +29,7 @@ function platformPublishingMode(platformName) {
 function resolvePath(value) {
   const resolved = path.resolve(rootDir, String(value || ''));
   const allowedRoots = [rootDir];
-  if (process.env.SOCIAL_TEST_MODE === 'true') allowedRoots.push(path.resolve(os.tmpdir()));
+  if (process.env.SOCIAL_TEST_MODE === 'true' || process.env.SOCIAL_ADMIN_MODE === 'true') allowedRoots.push(path.resolve(os.tmpdir()));
   if (!allowedRoots.some((allowedRoot) => isPathInside(allowedRoot, resolved))) {
     throw new Error('Social publishing paths must stay inside the repository.');
   }
@@ -944,17 +944,21 @@ function drafts() {
   }
 }
 
-const supportedCommands = new Set(['seed', 'prepare', 'auth', 'claim', 'execute', 'reconcile', 'unblock', 'status', 'drafts']);
-if (!supportedCommands.has(command)) throw new Error(`Unknown social publisher command: ${command}`);
-switch (command) {
-  case 'seed': await seed(); break;
-  case 'prepare': await prepare(); break;
-  case 'auth': await auth(); break;
-  case 'claim': await claim(); break;
-  case 'execute': await execute(); break;
-  case 'reconcile': await reconcile(); break;
-  case 'unblock': await unblock(); break;
-  case 'status': await status(); break;
-  case 'drafts': await drafts(); break;
-  default: throw new Error(`Unknown social publisher command: ${command}`);
+if (path.resolve(process.argv[1] || '') === fileURLToPath(import.meta.url)) {
+  const supportedCommands = new Set(['seed', 'prepare', 'auth', 'claim', 'execute', 'reconcile', 'unblock', 'status', 'drafts']);
+  if (!supportedCommands.has(command)) throw new Error(`Unknown social publisher command: ${command}`);
+  switch (command) {
+    case 'seed': await seed(); break;
+    case 'prepare': await prepare(); break;
+    case 'auth': await auth(); break;
+    case 'claim': await claim(); break;
+    case 'execute': await execute(); break;
+    case 'reconcile': await reconcile(); break;
+    case 'unblock': await unblock(); break;
+    case 'status': await status(); break;
+    case 'drafts': await drafts(); break;
+    default: throw new Error(`Unknown social publisher command: ${command}`);
+  }
 }
+
+export { sourceRecords, sourceFingerprint, prepare, queueRecord, materializeMedia, claim, execute, reconcile, publishToTikTok, publishToX, redactedError, xDraft, tiktokDraft };

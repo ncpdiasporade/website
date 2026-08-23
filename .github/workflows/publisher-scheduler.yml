@@ -1,0 +1,28 @@
+name: Claim due private publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Claim and dispatch due publications
+        env:
+          PUBLISHER_ADMIN_URL: ${{ vars.PUBLISHER_ADMIN_URL }}
+          PUBLISHER_SCHEDULER_TOKEN: ${{ secrets.PUBLISHER_SCHEDULER_TOKEN }}
+        run: |
+          if [ -z "$PUBLISHER_ADMIN_URL" ] || [ -z "$PUBLISHER_SCHEDULER_TOKEN" ]; then
+            echo "Private scheduler bridge is not configured." >&2
+            exit 1
+          fi
+          curl --fail-with-body --silent --show-error \
+            --retry 3 --retry-all-errors \
+            -X POST \
+            -H "Authorization: Bearer $PUBLISHER_SCHEDULER_TOKEN" \
+            "$PUBLISHER_ADMIN_URL/api/internal/scheduler"

@@ -30,7 +30,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: automated-blog-agent
+  group: website-content-write-main
   cancel-in-progress: false
 
 jobs:

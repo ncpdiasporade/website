@@ -700,7 +700,8 @@ function preserveReviewedCopy(normalized) {
     sourceUrl: reviewed.sourceUrl || normalized.sourceUrl,
     image: reviewed.image || normalized.image,
     imageAlt: reviewed.imageAlt || normalized.imageAlt,
-    preserveCopy: true
+    preserveCopy: true,
+    ...(reviewed.publisherId ? { publisherId: reviewed.publisherId, sourceFingerprint: reviewed.sourceFingerprint, translations: reviewed.translations, managedBy: 'publisher-admin' } : {})
   };
 }
 
