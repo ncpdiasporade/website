@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T12:50:33.505Z",
+  "updatedAt": "2026-08-23T12:50:38.744Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -13,9 +13,9 @@
       "sourceName": "NCP Diaspora Alliance Germany",
       "approval": "automatic",
       "approvalStatus": "not-required",
-      "status": "publishing",
+      "status": "failed",
       "createdAt": "2026-07-29T23:47:41.265Z",
-      "updatedAt": "2026-08-23T12:50:33.505Z",
+      "updatedAt": "2026-08-23T12:50:36.429Z",
       "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
       "excerpt": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
       "sourceCaption": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
@@ -30,15 +30,17 @@
           "mediaPath": "img/social/outbound/facebook-122197517390921031-ddd78d972e-x.jpg"
         },
         "tiktok": {
-          "status": "publishing",
-          "attempts": 0,
+          "status": "failed",
+          "attempts": 1,
           "title": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany",
           "description": "একজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\n\nএকজন রানিং এমপির সাথে পুলিশ আজ যা করলো তা ইতিহাস হয়ে থাকবে.. #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/1618018973176957/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122197517390921031-ddd78d972e-tiktok.jpg"
           ],
           "claimId": "32640528671-1",
-          "claimedAt": "2026-08-23T12:50:33.505Z"
+          "claimedAt": "2026-08-23T12:50:33.505Z",
+          "lastAttemptAt": "2026-08-23T12:50:35.138Z",
+          "lastError": "TikTok API returned 403: {\"error\":{\"code\":\"unaudited_client_can_only_post_to_private_accounts\",\"message\":\"Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/\",\"log_id\":\"20260823125036E77087D69B5550FEBC7E\"}}"
         }
       }
     },
@@ -53,9 +55,9 @@
       "sourceName": "NCP Diaspora Alliance Germany",
       "approval": "automatic",
       "approvalStatus": "not-required",
-      "status": "publishing",
+      "status": "failed",
       "createdAt": "2026-07-30T09:44:20.941Z",
-      "updatedAt": "2026-08-23T12:50:33.505Z",
+      "updatedAt": "2026-08-23T12:50:37.584Z",
       "title": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত।",
       "excerpt": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত। জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি—NCP, প্রবাসী অধিকার, আমাদের কার্যক্রম, কর্মসূচি, সাম্প্রতিক আপডেট, ভিডিও, ব্লগ এবং সদস্যপদ সম্পর্কিত সব গুরুত্বপূর্ণ তথ্য এখন একটি প্ল্যাটফর্মে। ওয়েবসাইটটি বাংলা, English ও Deutsch—তিনটি ভাষায় ব্যবহার করা যাবে। 🔗 https://ncpdagermany.de “জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।” #ncpdagermany #JulyUprising2024 #NationalCitizenParty #নতুনবাংলাদেশ",
       "sourceCaption": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত। জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি—NCP, প্রবাসী অধিকার, আমাদের কার্যক্রম, কর্মসূচি, সাম্প্রতিক আপডেট, ভিডিও, ব্লগ এবং সদস্যপদ সম্পর্কিত সব গুরুত্বপূর্ণ তথ্য এখন একটি প্ল্যাটফর্মে। ওয়েবসাইটটি বাংলা, English ও Deutsch—তিনটি ভাষায় ব্যবহার করা যাবে। 🔗 https://ncpdagermany.de “জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।” #ncpdagermany #JulyUprising2024 #NationalCitizenParty #নতুনবাংলাদেশ",
@@ -70,15 +72,17 @@
           "mediaPath": "img/social/outbound/facebook-122197580930921031-d6f9916050-x.jpg"
         },
         "tiktok": {
-          "status": "publishing",
-          "attempts": 0,
+          "status": "failed",
+          "attempts": 1,
           "title": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত।",
           "description": "NCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত।\n\nNCP Diaspora Alliance - Germany-এর অফিসিয়াল ওয়েবসাইট এখন সবার জন্য উন্মুক্ত। জুলাই গণঅভ্যুত্থান ২০২৪, জাতীয় নাগরিক পার্টি—NCP, প্রবাসী অধিকার, আমাদের কার্যক্রম, কর্মসূচি, সাম্প্রতিক আপডেট, ভিডিও, ব্লগ এবং সদস্যপদ সম্পর্কিত সব গুরুত্বপূর্ণ তথ্য এখন একটি প্ল্যাটফর্মে। ওয়েবসাইটটি বাংলা, English ও Deutsch—তিনটি ভাষায় ব্যবহার করা যাবে। 🔗 https://ncpdagermany.de “জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।” #ncpdagermany #JulyUprising2024 #NationalCitizenParty #নতুনবাংলাদেশ\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122197580930921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122197580930921031-d6f9916050-tiktok.jpg"
           ],
           "claimId": "32640528671-1",
-          "claimedAt": "2026-08-23T12:50:33.505Z"
+          "claimedAt": "2026-08-23T12:50:33.505Z",
+          "lastAttemptAt": "2026-08-23T12:50:36.433Z",
+          "lastError": "TikTok API returned 403: {\"error\":{\"code\":\"unaudited_client_can_only_post_to_private_accounts\",\"message\":\"Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/\",\"log_id\":\"20260823125037AAAB513E362907987697\"}}"
         }
       }
     },
@@ -93,9 +97,9 @@
       "sourceName": "NCP Diaspora Alliance Germany",
       "approval": "automatic",
       "approvalStatus": "not-required",
-      "status": "publishing",
+      "status": "failed",
       "createdAt": "2026-07-30T09:44:21.483Z",
-      "updatedAt": "2026-08-23T12:50:33.505Z",
+      "updatedAt": "2026-08-23T12:50:38.744Z",
       "title": "\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh",
       "excerpt": "\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh",
       "sourceCaption": "\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh",
@@ -110,15 +114,17 @@
           "mediaPath": "img/social/outbound/facebook-122197584686921031-a95a916cbe-x.jpg"
         },
         "tiktok": {
-          "status": "publishing",
-          "attempts": 0,
+          "status": "failed",
+          "attempts": 1,
           "title": "\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh",
           "description": "\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh\n\n\"রড দিয়ে ১৮ বছরের ছেলের চোখ গলিয়ে দিলো ছাত্রদল\" #ncpdagermany #ncp #bangladesh\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122197584686921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122197584686921031-a95a916cbe-tiktok.jpg"
           ],
           "claimId": "32640528671-1",
-          "claimedAt": "2026-08-23T12:50:33.505Z"
+          "claimedAt": "2026-08-23T12:50:33.505Z",
+          "lastAttemptAt": "2026-08-23T12:50:37.588Z",
+          "lastError": "TikTok API returned 403: {\"error\":{\"code\":\"unaudited_client_can_only_post_to_private_accounts\",\"message\":\"Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/\",\"log_id\":\"20260823125038A8F7AE7D2EDF6D5BCB4B\"}}"
         }
       }
     },
