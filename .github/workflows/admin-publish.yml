@@ -131,8 +131,12 @@ jobs:
         run: |
           mkdir -p "$(dirname "$PUBLISHER_RESULTS_PATH")"
           if [ ! -s "$PUBLISHER_RESULTS_PATH" ]; then
-            jq -n --arg id "${{ inputs.publication_id }}" --arg status "$JOB_STATUS" \
-              '{publicationId:$id,deliveries:[{platform:"website",status:"FAILED",error:("Workflow " + $status)}]}' > "$PUBLISHER_RESULTS_PATH"
+            jq -n --slurpfile payload "$PUBLISHER_PAYLOAD_PATH" \
+              --arg id "${{ inputs.publication_id }}" --arg status "$JOB_STATUS" --arg retry "$PUBLISHER_RETRY_PLATFORM" '
+              ($payload[0].publication.deliveries // []) as $existing |
+              (if $retry != "" then [$retry] else [$existing[] | select(.status as $state | ["PUBLISHING","READY","FAILED","BLOCKED","NOT_CONFIGURED","MANUAL"] | index($state)) | .platform] end) as $selected |
+              {publicationId:$id,deliveries:((if ($selected|length) == 0 then ["website"] else $selected end) | unique | map({platform:.,status:"FAILED",error:("Workflow " + $status)}))}' \
+              > "$PUBLISHER_RESULTS_PATH"
           fi
           curl --fail-with-body --silent --show-error \
             --retry 3 --retry-all-errors \
