@@ -23,8 +23,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
-      PUBLISHER_PAYLOAD_PATH: ${{ runner.temp }}/publisher/publication.json
-      PUBLISHER_RESULTS_PATH: ${{ runner.temp }}/publisher/results.json
+      PUBLISHER_PAYLOAD_PATH: ${{ github.workspace }}/.publisher-tmp/publication.json
+      PUBLISHER_RESULTS_PATH: ${{ github.workspace }}/.publisher-tmp/results.json
       PUBLISHER_CALLBACK_TOKEN: ${{ secrets.PUBLISHER_CALLBACK_TOKEN }}
       PUBLISHER_ADMIN_URL: ${{ vars.PUBLISHER_ADMIN_URL }}
       PUBLISHER_RETRY_PLATFORM: ${{ inputs.retry_platform }}
