@@ -30,6 +30,12 @@ jobs:
       PUBLISHER_RETRY_PLATFORM: ${{ inputs.retry_platform }}
       SOCIAL_ADMIN_MODE: 'true'
     steps:
+      - name: Check out latest live branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          fetch-depth: 0
+
       - name: Validate private bridge configuration
         run: |
           if [ -z "$PUBLISHER_ADMIN_URL" ] || [ -z "$PUBLISHER_CALLBACK_TOKEN" ]; then
@@ -45,12 +51,6 @@ jobs:
             -H "Authorization: Bearer $PUBLISHER_CALLBACK_TOKEN" \
             "$PUBLISHER_ADMIN_URL/api/internal/publications/${{ inputs.publication_id }}" \
             -o "$PUBLISHER_PAYLOAD_PATH"
-
-      - name: Check out latest live branch
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          ref: main
-          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
@@ -129,6 +129,7 @@ jobs:
         env:
           JOB_STATUS: ${{ job.status }}
         run: |
+          mkdir -p "$(dirname "$PUBLISHER_RESULTS_PATH")"
           if [ ! -s "$PUBLISHER_RESULTS_PATH" ]; then
             jq -n --arg id "${{ inputs.publication_id }}" --arg status "$JOB_STATUS" \
               '{publicationId:$id,deliveries:[{platform:"website",status:"FAILED",error:("Workflow " + $status)}]}' > "$PUBLISHER_RESULTS_PATH"

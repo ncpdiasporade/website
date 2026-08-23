@@ -23,7 +23,11 @@ function assertInside(candidate) {
 }
 [payloadPath, resultsPath, workDir].forEach(assertInside);
 
-function readJson(file, fallback) { return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback; }
+function readJson(file, fallback) {
+  if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'));
+  if (arguments.length > 1) return fallback;
+  throw new Error(`Required publisher payload is missing: ${file}`);
+}
 function writeJson(file, value) { fs.mkdirSync(path.dirname(file), { recursive: true }); fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`); }
 function safe(value) { return String(value || '').toLowerCase().replace(/[^a-z0-9_-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 100); }
 function clean(value) { return String(value || '').replace(/\s+/g, ' ').trim(); }
