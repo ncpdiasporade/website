@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-24T05:54:46.217Z",
+  "updatedAt": "2026-08-24T07:30:06.796Z",
   "items": [
+    {
+      "id": "facebook-germany-122201367326921031",
+      "facebookId": "122201367326921031",
+      "status": "published",
+      "date": "২৪ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-24T06:26:16+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"",
+      "excerpt": "াতীয়নাগরিকপার্টি",
+      "sourceCaption": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের  \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"\n\n#NCP #জাতীয়নাগরিকপার্টি #NahidIslam #PolicyAndResearch #ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201367326921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122201367326921031.jpg",
+      "imageAlt": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "publisher-pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60",
       "facebookId": "122201309648921031",
@@ -113,26 +133,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122201183138921031.jpg",
       "imageAlt": "স্বাধীনতার পর বাংলাদেশ রাষ্ট্র হিসেবে বারবার সম্ভাবনার সামনে দাঁড়িয়েছে, আবার বারবার পিছিয়েও গেছে।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122201177072921031",
-      "facebookId": "122201177072921031",
-      "status": "published",
-      "date": "২২ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-22T19:29:08+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "সরকার নির্ধারিত ৭৯ হাজার টাকার বিপরীতে একজন কর্মীর কাছ থেকে প্রায় সাড়ে ৫ লাখ টাকা পর্যন্ত নেওয়ার অভিযোগ রয়েছে।",
-      "excerpt": "- আসিফ মাহমুদ সজীব ভুঁইয়া",
-      "sourceCaption": "সরকার নির্ধারিত ৭৯ হাজার টাকার বিপরীতে একজন কর্মীর কাছ থেকে প্রায় সাড়ে ৫ লাখ টাকা পর্যন্ত নেওয়ার অভিযোগ রয়েছে।\n\n- আসিফ মাহমুদ সজীব ভুঁইয়া\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201177072921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122201177072921031.jpg",
-      "imageAlt": "সরকার নির্ধারিত ৭৯ হাজার টাকার বিপরীতে একজন কর্মীর কাছ থেকে প্রায় সাড়ে ৫ লাখ টাকা পর্যন্ত নেওয়ার অভিযোগ রয়েছে।",
       "managedBy": "facebook-sync"
     },
     {
@@ -314,7 +314,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70925,
+      "viewCount": 70926,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
