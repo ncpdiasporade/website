@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-24T06:03:28.735Z",
+  "updatedAt": "2026-08-24T07:30:39.214Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -118,7 +118,8 @@
     "facebook:germany:122201293760921031": "a1738916a7e6510c81a1ec2fa4f1ab2278eea128f602520d75b5295eeb663566",
     "facebook:germany:122201306678921031": "ac6edbcdb52bce29a52f3e12b97209fab5902eba2669d727b2f08c71931035d6",
     "facebook:germany:122201309648921031": "4fb57f34e9f6ac9254d8f5e6d05e230f27ebe9985c19816d60e39d3161eb7746",
-    "blog:bhola-highway-feasibility-disclosure": "41a7cdb317ac43fe178f498a8b9043d40399e895378312ded8d78f0b182b689b"
+    "blog:bhola-highway-feasibility-disclosure": "41a7cdb317ac43fe178f498a8b9043d40399e895378312ded8d78f0b182b689b",
+    "facebook:germany:122201367326921031": "2258e80f01281044c673e36f8222e807ea01d827d0eaaf9964905dbfc2c15190"
   },
   "publications": []
 }
