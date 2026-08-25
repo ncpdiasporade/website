@@ -1,0 +1,2274 @@
+{
+  "meta": {
+    "title": "Bangladesh 2009–2024 Evidence Archive",
+    "version": "1.0",
+    "created_at": "2026-08-26",
+    "incident_count": 70,
+    "source_count": 63,
+    "scope_note_bn": "এটি ২০০৯–২০২৪ সময়ের ৭০টি গুরুত্বপূর্ণ ঘটনা, কেস ও প্যাটার্নের একটি গবেষণা-ভিত্তিক কোর ডেটাসেট। এটি বাংলাদেশের প্রতিটি সহিংসতা, গুম, সীমান্ত হত্যা, রাজনৈতিক ঘটনা বা মানবাধিকার লঙ্ঘনের পূর্ণ তালিকা নয়।",
+    "methodology_bn": "প্রাথমিক/সরকারি নথি, UN/OHCHR, ILO, Human Rights Watch, Amnesty International, IPU এবং নির্ভরযোগ্য আন্তর্জাতিক সংবাদসূত্রকে অগ্রাধিকার দেওয়া হয়েছে। ‘ঘটনা ঘটেছে’ এবং ‘কার দায়’—এই দুই বিষয় আলাদা রাখা হয়েছে।",
+    "editorial_rule_bn": "অভিযোগকে প্রমাণিত সত্যে রূপান্তর করবেন না। attribution, government_relation, evidence_status এবং display_caution_bn অনুসরণ করুন।",
+    "evidence_levels": {
+      "A": "Strong: primary/official, UN, detailed independent investigation, or multiple corroborating sources",
+      "B": "Good: credible independent documentation, but attribution or some details remain unresolved",
+      "C": "Caution: contested, incomplete, or primarily allegation-based"
+    }
+  },
+  "category_labels_bn": {
+    "MAJOR_TRAGEDY": "বড় ট্র্যাজেডি",
+    "STATE_VIOLENCE": "রাষ্ট্রীয় সহিংসতা / নিরাপত্তা বাহিনী",
+    "ENFORCED_DISAPPEARANCE": "গুম ও গোপন আটক",
+    "BORDER_KILLING": "সীমান্ত হত্যা",
+    "DEMOCRACY_ELECTIONS": "গণতন্ত্র ও নির্বাচন",
+    "LABOR_RIGHTS": "শ্রম অধিকার",
+    "LABOR_SAFETY": "শ্রমিক নিরাপত্তা",
+    "POLITICAL_VIOLENCE": "রাজনৈতিক সহিংসতা",
+    "FREEDOM_EXPRESSION": "মতপ্রকাশ ও গণমাধ্যম",
+    "EXTREMIST_ATTACK": "উগ্রবাদী / নন-স্টেট হামলা",
+    "STATE_REPRESSION": "রাষ্ট্রীয় দমন",
+    "JUDICIAL_INDEPENDENCE": "বিচার বিভাগের স্বাধীনতা",
+    "STUDENT_PROTESTS": "ছাত্র আন্দোলন",
+    "INTERNATIONAL_ACCOUNTABILITY": "আন্তর্জাতিক জবাবদিহি",
+    "POLITICAL_REPRESSION": "রাজনৈতিক দমন",
+    "JULY_2024": "জুলাই ২০২৪"
+  },
+  "sources": {
+    "S01": {
+      "publisher": "Human Rights Watch",
+      "title": "The Fear Never Leaves Me: Torture, Custodial Deaths, and Unfair Trials after the 2009 Mutiny",
+      "url": "https://www.hrw.org/report/2012/07/04/fear-never-leaves-me/torture-custodial-deaths-and-unfair-trials-after-2009-mutiny",
+      "type": "rights_report"
+    },
+    "S02": {
+      "publisher": "Human Rights Watch",
+      "title": "No Justice in Mass Trials for Mutineers",
+      "url": "https://www.hrw.org/news/2013/10/29/bangladesh-no-justice-mass-trials-mutineers",
+      "type": "rights_followup"
+    },
+    "S03": {
+      "publisher": "Human Rights Watch",
+      "title": "'Crossfire': Continued Human Rights Abuses by Bangladesh's Rapid Action Battalion",
+      "url": "https://www.hrw.org/report/2011/05/10/crossfire/continued-human-rights-abuses-bangladeshs-rapid-action-battalion",
+      "type": "rights_report"
+    },
+    "S04": {
+      "publisher": "Human Rights Watch",
+      "title": "Trigger Happy: Excessive Use of Force by Indian Troops at the Bangladesh Border",
+      "url": "https://www.hrw.org/report/2010/12/09/trigger-happy/excessive-use-force-indian-troops-bangladesh-border",
+      "type": "rights_report"
+    },
+    "S05": {
+      "publisher": "Human Rights Watch",
+      "title": "India: Investigate Alleged Border Force Killings",
+      "url": "https://www.hrw.org/news/2021/02/09/india-investigate-alleged-border-force-killings",
+      "type": "rights_followup"
+    },
+    "S06": {
+      "publisher": "Government of Bangladesh",
+      "title": "Constitution of Bangladesh / official laws database",
+      "url": "https://bdlaws.minlaw.gov.bd/act-367/act-part-print-201.html",
+      "type": "primary_legal"
+    },
+    "S07": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Alarming Rise in 'Disappearances'",
+      "url": "https://www.hrw.org/news/2012/04/26/bangladesh-alarming-rise-disappearances",
+      "type": "rights_report"
+    },
+    "S08": {
+      "publisher": "Human Rights Watch",
+      "title": "We Don't Have Him: Secret Detentions and Enforced Disappearances in Bangladesh",
+      "url": "https://www.hrw.org/report/2017/07/06/we-dont-have-him/secret-detentions-and-enforced-disappearances-bangladesh",
+      "type": "rights_report"
+    },
+    "S09": {
+      "publisher": "Human Rights Watch",
+      "title": "Where No Sun Can Enter: A Decade of Enforced Disappearances in Bangladesh",
+      "url": "https://www.hrw.org/report/2021/08/16/where-no-sun-can-enter/decade-enforced-disappearances-bangladesh",
+      "type": "rights_report"
+    },
+    "S10": {
+      "publisher": "Bangladesh Commission of Inquiry on Enforced Disappearances",
+      "title": "Interim Report (27 Aug–12 Dec 2024)",
+      "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-coied/2024/12/55d9a77f912d44e780c91f1891b70f62.pdf",
+      "type": "official_inquiry"
+    },
+    "S11": {
+      "publisher": "International Labour Organization",
+      "title": "Chronology of recent events in the Bangladesh Ready Made Garment sector",
+      "url": "https://www.ilo.org/resource/chronology-recent-events-bangladesh-ready-made-garment-rmg-sector",
+      "type": "intergovernmental"
+    },
+    "S12": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Investigate Killing of Labor Activist",
+      "url": "https://www.hrw.org/news/2012/04/11/bangladesh-investigate-killing-labor-activist",
+      "type": "rights_report"
+    },
+    "S13": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Tragedy Shows Urgency of Worker Protections",
+      "url": "https://www.hrw.org/news/2013/04/25/bangladesh-tragedy-shows-urgency-worker-protections",
+      "type": "rights_report"
+    },
+    "S14": {
+      "publisher": "Human Rights Watch",
+      "title": "Blood on the Streets: The Use of Excessive Force During Bangladesh Protests",
+      "url": "https://www.hrw.org/report/2013/08/01/blood-streets/use-excessive-force-during-bangladesh-protests",
+      "type": "rights_report"
+    },
+    "S15": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Free Prominent Rights Activist",
+      "url": "https://www.hrw.org/news/2013/08/11/bangladesh-free-prominent-rights-activist",
+      "type": "rights_report"
+    },
+    "S16": {
+      "publisher": "Inter-Parliamentary Union",
+      "title": "Bangladesh Parliament — January 2014 Election",
+      "url": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20140105/",
+      "type": "election_record"
+    },
+    "S17": {
+      "publisher": "Human Rights Watch",
+      "title": "Democracy in the Crossfire: Opposition Violence and Government Abuses in the 2014 Pre- and Post-Election Period",
+      "url": "https://www.hrw.org/report/2014/04/29/democracy-crossfire/opposition-violence-and-government-abuses-2014-pre-and-post",
+      "type": "rights_report"
+    },
+    "S18": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: End Deadly Cycle of Crimes",
+      "url": "https://www.hrw.org/news/2015/02/06/bangladesh-end-deadly-cycle-crimes",
+      "type": "rights_report"
+    },
+    "S19": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Investigate Case of Enforced Disappearance",
+      "url": "https://www.hrw.org/news/2015/03/17/bangladesh-investigate-case-enforced-disappearance",
+      "type": "rights_report"
+    },
+    "S20": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Stop Promoting Self-Censorship",
+      "url": "https://www.hrw.org/news/2015/08/11/bangladesh-stop-promoting-self-censorship",
+      "type": "rights_report"
+    },
+    "S21": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Killing of Blogger Blow to Free Speech",
+      "url": "https://www.hrw.org/news/2015/05/12/bangladesh-killing-blogger-blow-free-speech",
+      "type": "rights_report"
+    },
+    "S22": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Halt Mass Arbitrary Arrests",
+      "url": "https://www.hrw.org/news/2016/06/17/bangladesh-halt-mass-arbitrary-arrests",
+      "type": "rights_report"
+    },
+    "S23": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Investigate LGBT Murders",
+      "url": "https://www.hrw.org/news/2016/04/26/bangladesh-investigate-lgbt-murders",
+      "type": "rights_report"
+    },
+    "S24": {
+      "publisher": "Human Rights Watch",
+      "title": "World Report 2017: Bangladesh",
+      "url": "https://www.hrw.org/world-report/2017/country-chapters/bangladesh",
+      "type": "rights_report"
+    },
+    "S25": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: End Arbitrary and Secret Arrests",
+      "url": "https://www.hrw.org/news/2016/10/13/bangladesh-end-arbitrary-and-secret-arrests",
+      "type": "rights_report"
+    },
+    "S26": {
+      "publisher": "Human Rights Watch",
+      "title": "No Right to Live: Kneecapping and Maiming of Detainees by Bangladesh Security Forces",
+      "url": "https://www.hrw.org/report/2016/09/30/no-right-live/kneecapping-and-maiming-detainees-bangladesh-security-forces",
+      "type": "rights_report"
+    },
+    "S27": {
+      "publisher": "Human Rights Watch",
+      "title": "After the Monsoon Revolution: A Roadmap to Lasting Security Sector Reform in Bangladesh",
+      "url": "https://www.hrw.org/report/2025/01/27/after-monsoon-revolution/roadmap-lasting-security-sector-reform-bangladesh",
+      "type": "retrospective_report"
+    },
+    "S28": {
+      "publisher": "Human Rights Watch",
+      "title": "Creating Panic: Bangladesh Election Crackdown on Political Opponents and Critics",
+      "url": "https://www.hrw.org/report/2018/12/22/creating-panic/bangladesh-election-crackdown-political-opponents-and-critics",
+      "type": "rights_report"
+    },
+    "S29": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Stop Attacks on Student Protesters, Critics",
+      "url": "https://www.hrw.org/news/2018/08/06/bangladesh-stop-attacks-student-protesters-critics",
+      "type": "rights_report"
+    },
+    "S30": {
+      "publisher": "Amnesty International",
+      "title": "Killed in 'Crossfire': Allegations of Extrajudicial Executions in Bangladesh in the Guise of a War on Drugs",
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/05/ASA1312652019ENGLISH.pdf",
+      "type": "rights_report"
+    },
+    "S31": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: New Law Will Silence Critics",
+      "url": "https://www.hrw.org/news/2018/09/25/bangladesh-new-law-will-silence-critics",
+      "type": "legal_analysis"
+    },
+    "S32": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Crackdown on Social Media",
+      "url": "https://www.hrw.org/news/2018/10/19/bangladesh-crackdown-social-media",
+      "type": "rights_report"
+    },
+    "S33": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Election Abuses Need Independent Probe",
+      "url": "https://www.hrw.org/news/2019/01/02/bangladesh-election-abuses-need-independent-probe",
+      "type": "election_report"
+    },
+    "S34": {
+      "publisher": "Human Rights Watch",
+      "title": "World Report 2020: Bangladesh",
+      "url": "https://www.hrw.org/world-report/2020/country-chapters/bangladesh",
+      "type": "rights_report"
+    },
+    "S35": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh Ruling Party Activists Kill Student after Facebook Post",
+      "url": "https://www.hrw.org/news/2019/10/10/bangladesh-ruling-party-activists-kill-student-after-facebook-post",
+      "type": "case_documentation"
+    },
+    "S36": {
+      "publisher": "Human Rights Watch",
+      "title": "Still No Answers on Activist's Disappearance in Bangladesh",
+      "url": "https://www.hrw.org/news/2020/04/08/still-no-answers-activists-disappearance-bangladesh",
+      "type": "case_documentation"
+    },
+    "S37": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Government Sets up Disappearances Inquiry",
+      "url": "https://www.hrw.org/news/2024/08/29/bangladesh-government-sets-disappearances-inquiry",
+      "type": "retrospective_followup"
+    },
+    "S38": {
+      "publisher": "Human Rights Watch",
+      "title": "Joint Call for the Release of Journalist Shafiqul Islam Kajol",
+      "url": "https://www.hrw.org/news/2020/08/11/bangladesh-joint-call-release-journalist-shafiqul-islam-kajol",
+      "type": "case_documentation"
+    },
+    "S39": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Mass Arrests Over Cartoons, Posts",
+      "url": "https://www.hrw.org/news/2020/05/07/bangladesh-mass-arrests-over-cartoons-posts",
+      "type": "rights_report"
+    },
+    "S40": {
+      "publisher": "Amnesty International",
+      "title": "Urgent Action: Ahmed Kabir Kishore / Mushtaq Ahmed",
+      "url": "https://www.amnesty.org/en/documents/asa13/3800/2021/en/",
+      "type": "case_documentation"
+    },
+    "S41": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh Police Kill a Retired Army Officer",
+      "url": "https://www.hrw.org/news/2020/08/12/bangladesh-police-kill-retired-army-officer",
+      "type": "case_documentation"
+    },
+    "S42": {
+      "publisher": "Human Rights Watch",
+      "title": "World Report 2021: Bangladesh",
+      "url": "https://www.hrw.org/world-report/2021/country-chapters/bangladesh",
+      "type": "rights_report"
+    },
+    "S43": {
+      "publisher": "Amnesty International et al.",
+      "title": "Bangladesh authorities must investigate deaths of protesters and respect peaceful assembly",
+      "url": "https://www.amnesty.org/en/latest/news/2021/04/bangladesh-protests-statement/",
+      "type": "joint_statement"
+    },
+    "S44": {
+      "publisher": "US Department of the Treasury",
+      "title": "Treasury Sanctions Perpetrators of Serious Human Rights Abuse",
+      "url": "https://home.treasury.gov/news/press-releases/jy0526",
+      "type": "primary_government_action"
+    },
+    "S45": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh's Brutal Crackdown on Political Opposition",
+      "url": "https://www.hrw.org/news/2022/12/09/bangladeshs-brutal-crackdown-political-opposition",
+      "type": "rights_report"
+    },
+    "S46": {
+      "publisher": "Amnesty International",
+      "title": "Bangladesh: Authorities must end repression of demonstrations",
+      "url": "https://www.amnesty.org/en/latest/news/2022/12/bangladesh-authorities-must-end-repression-of-demonstrations/",
+      "type": "rights_report"
+    },
+    "S47": {
+      "publisher": "Amnesty International",
+      "title": "Journalist arrested for covering cost of living — Shamsuzzaman Shams",
+      "url": "https://www.amnesty.org/en/documents/asa13/6628/2023/en/",
+      "type": "case_documentation"
+    },
+    "S48": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Quash Conviction and Release Rights Defenders",
+      "url": "https://www.hrw.org/news/2023/09/14/bangladesh-quash-conviction-and-release-rights-defenders",
+      "type": "case_documentation"
+    },
+    "S49": {
+      "publisher": "Bangladesh Government Press",
+      "title": "Cyber Security Act, 2023 — Extraordinary Gazette",
+      "url": "https://www.dpp.gov.bd/bgpress/index.php/document/get_extraordinary/50352",
+      "type": "primary_legal"
+    },
+    "S50": {
+      "publisher": "Amnesty International",
+      "title": "Repackaging Repression: The Cyber Security Act and Continuing Lawfare Against Dissent",
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2024/08/ASA1383322024ENGLISH.pdf",
+      "type": "legal_analysis"
+    },
+    "S51": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Violent Autocratic Crackdown Ahead of Elections",
+      "url": "https://www.hrw.org/news/2023/11/26/bangladesh-violent-autocratic-crackdown-ahead-elections",
+      "type": "rights_report"
+    },
+    "S52": {
+      "publisher": "Amnesty International",
+      "title": "Bangladesh garment wage protests — worker deaths and repression",
+      "url": "https://www.amnesty.org/ar/wp-content/uploads/2023/12/ASA1375252023ENGLISH.pdf",
+      "type": "rights_report"
+    },
+    "S53": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh garment workers' wage despair",
+      "url": "https://www.hrw.org/news/2023/11/16/your-brand-paying-its-share-reduce-bangladesh-workers-wage-despair",
+      "type": "rights_commentary"
+    },
+    "S54": {
+      "publisher": "US Department of State",
+      "title": "Parliamentary Elections in Bangladesh — January 8, 2024",
+      "url": "https://2021-2025.state.gov/parliamentary-elections-in-bangladesh/",
+      "type": "primary_diplomatic_statement"
+    },
+    "S55": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Repression, Security Force Abuses Discredit Elections",
+      "url": "https://www.hrw.org/news/2024/01/11/bangladesh-repression-security-force-abuses-discredit-elections",
+      "type": "election_report"
+    },
+    "S56": {
+      "publisher": "Amnesty International",
+      "title": "What happened at the quota-reform protests in Bangladesh?",
+      "url": "https://www.amnesty.org/en/latest/news/2024/07/what-is-happening-at-the-quota-reform-protests-in-bangladesh/",
+      "type": "visual_investigation"
+    },
+    "S57": {
+      "publisher": "Human Rights Watch",
+      "title": "Bangladesh: Security Forces Target Unarmed Students",
+      "url": "https://www.hrw.org/news/2024/07/22/bangladesh-security-forces-target-unarmed-students",
+      "type": "rights_report"
+    },
+    "S58": {
+      "publisher": "Amnesty International",
+      "title": "End punitive mass arrests and arbitrary detention of student leaders and protesters",
+      "url": "https://www.amnesty.org/en/latest/news/2024/07/bangladesh-end-punitive-mass-arrests-and-arbitrary-detention-of-student-leaders-and-protesters/",
+      "type": "rights_report"
+    },
+    "S59": {
+      "publisher": "Amnesty International",
+      "title": "Bangladesh: Thousands of protesters arrested arbitrarily",
+      "url": "https://www.amnesty.org/en/documents/asa13/8388/2024/en/",
+      "type": "rights_report"
+    },
+    "S60": {
+      "publisher": "OHCHR",
+      "title": "Preliminary Analysis of Recent Protests and Unrest in Bangladesh",
+      "url": "https://www.ohchr.org/en/documents/country-reports/preliminary-analysis-recent-protests-and-unrest-bangladesh",
+      "type": "un_report"
+    },
+    "S61": {
+      "publisher": "OHCHR",
+      "title": "Fact-Finding Report: Human Rights Violations and Abuses related to the Protests of July and August 2024 in Bangladesh",
+      "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-fact-finding-report-human-rights-violations-and-abuses-related",
+      "type": "un_fact_finding"
+    },
+    "S62": {
+      "publisher": "United Nations in Bangladesh / UNICEF",
+      "title": "UNICEF response to OHCHR Fact-Finding Report",
+      "url": "https://bangladesh.un.org/en/289170-statement-rana-flowers-unicef-representative-bangladesh-response-ohchr-fact-finding-report",
+      "type": "un_statement"
+    },
+    "S63": {
+      "publisher": "Reuters",
+      "title": "Bangladesh to impose curfew, deploy army as protests widen",
+      "url": "https://www.reuters.com/world/asia-pacific/communications-disrupted-bangladesh-amid-student-protests-2024-07-19/",
+      "type": "international_news"
+    }
+  },
+  "incidents": [
+    {
+      "id": "2009-pilkhana-massacre",
+      "slug": "2009-pilkhana-massacre",
+      "date_start": "2009-02-25",
+      "date_end": "2009-02-26",
+      "year": 2009,
+      "title_bn": "পিলখানা বিডিআর বিদ্রোহ ও হত্যাকাণ্ড",
+      "title_en": "Pilkhana BDR mutiny and massacre",
+      "category": "MAJOR_TRAGEDY",
+      "location": "Pilkhana, Dhaka",
+      "summary_bn": "২৫–২৬ ফেব্রুয়ারির বিডিআর বিদ্রোহে ৭৪ জন নিহত হন, তাঁদের মধ্যে ৫৭ জন সেনা কর্মকর্তা। বিদ্রোহীদের হত্যাকাণ্ডের সঙ্গে তৎকালীন সরকারের সরাসরি পরিকল্পনার প্রমাণ এই উৎসগুলো প্রতিষ্ঠা করে না।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "BDR mutineers",
+      "government_relation": "Occurred under the government; direct orchestration by the government is not established by the cited evidence.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "display_caution_bn": "‘সরকার পরিকল্পনা করেছিল’—এমন দাবি প্রমাণিত তথ্য হিসেবে দেখাবেন না।",
+      "tags": [
+        "Pilkhana",
+        "BDR"
+      ]
+    },
+    {
+      "id": "2009-post-pilkhana-torture-trials",
+      "slug": "2009-post-pilkhana-torture-trials",
+      "date_start": "2009-02-27",
+      "date_end": "2013-10-29",
+      "year": 2009,
+      "title_bn": "পিলখানা-পরবর্তী নির্যাতন, হেফাজতে মৃত্যু ও গণবিচারের প্রশ্ন",
+      "title_en": "Post-Pilkhana torture, custodial deaths and fair-trial concerns",
+      "category": "STATE_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "বিদ্রোহের পর ৬,০০০-এর বেশি বিডিআর সদস্য আটক হন। HRW পদ্ধতিগত নির্যাতনের অভিযোগ, অন্তত ৪৭টি হেফাজতে মৃত্যুর প্রতিবেদন এবং গুরুতর ন্যায্য-বিচার সমস্যার নথি দিয়েছে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "Bangladesh security agencies alleged in documented cases",
+      "government_relation": "Direct state-custody responsibility and due-process obligations.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "torture",
+        "custody",
+        "trial"
+      ]
+    },
+    {
+      "id": "2009-2024-enforced-disappearances-pattern",
+      "slug": "2009-2024-enforced-disappearances-pattern",
+      "date_start": "2009-01-06",
+      "date_end": "2024-08-05",
+      "year": 2009,
+      "title_bn": "গুম ও গোপন আটক: দীর্ঘমেয়াদি প্যাটার্ন",
+      "title_en": "Enforced disappearances and secret detention pattern",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Bangladesh",
+      "summary_bn": "২০০৯–২০২৪ সময়ে নিরাপত্তা বাহিনীর বিরুদ্ধে শত শত গুমের অভিযোগ নথিভুক্ত হয়েছে। ২০২৪-পরবর্তী সরকারি তদন্ত কমিশনও বিপুলসংখ্যক অভিযোগ গ্রহণ করে এবং গোপন আটককেন্দ্রের বিষয়ে তদন্ত শুরু করে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "Multiple Bangladesh security and intelligence agencies implicated across cases",
+      "government_relation": "Systemic state accountability issue; individual case attribution varies.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S09",
+        "S10",
+        "S08"
+      ],
+      "display_caution_bn": "প্রতিটি ব্যক্তিগত কেসে একই মাত্রার প্রমাণ নেই; কেসভিত্তিক স্ট্যাটাস আলাদা রাখুন।",
+      "tags": [
+        "গুম",
+        "Aynaghar",
+        "secret detention"
+      ]
+    },
+    {
+      "id": "2009-2020-crossfire-pattern",
+      "slug": "2009-2020-crossfire-pattern",
+      "date_start": "2009-01-06",
+      "date_end": "2020-12-31",
+      "year": 2009,
+      "title_bn": "‘ক্রসফায়ার’ ও বিচারবহির্ভূত হত্যার অভিযোগ",
+      "title_en": "Crossfire and alleged extrajudicial killings",
+      "category": "STATE_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW র‍্যাব ও অন্যান্য বাহিনীর বহু ‘ক্রসফায়ার’ বর্ণনাকে প্রশ্নবিদ্ধ করে হেফাজতে হত্যা, নির্যাতন ও দায়মুক্তির প্যাটার্ন নথিভুক্ত করেছে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "RAB and other law-enforcement agencies",
+      "government_relation": "Direct state-security-force accountability issue.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S03",
+        "S30",
+        "S44"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "RAB",
+        "crossfire",
+        "extrajudicial killing"
+      ]
+    },
+    {
+      "id": "2009-2024-border-killings-pattern",
+      "slug": "2009-2024-border-killings-pattern",
+      "date_start": "2009-01-01",
+      "date_end": "2024-12-31",
+      "year": 2009,
+      "title_bn": "বাংলাদেশ–ভারত সীমান্তে বিএসএফের প্রাণঘাতী বলপ্রয়োগ",
+      "title_en": "BSF killings and excessive force at the Bangladesh–India border",
+      "category": "BORDER_KILLING",
+      "location": "Bangladesh–India border",
+      "summary_bn": "HRW সীমান্তে ভারতের BSF-এর গুলি, নির্যাতন ও নির্বিচার বলপ্রয়োগের বহু ঘটনা নথিভুক্ত করেছে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "India's Border Security Force (BSF)",
+      "government_relation": "Not direct perpetration by the Bangladesh government; Bangladesh's diplomatic response is a separate question.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "display_caution_bn": "এগুলোকে বাংলাদেশ সরকারের সরাসরি হত্যা হিসেবে দেখাবেন না।",
+      "tags": [
+        "BSF",
+        "border"
+      ]
+    },
+    {
+      "id": "2010-shyamol-karmokar",
+      "slug": "2010-shyamol-karmokar",
+      "date_start": "2010-01-26",
+      "date_end": "2010-01-27",
+      "year": 2010,
+      "title_bn": "শ্যামল কর্মকার সীমান্তে নিহত",
+      "title_en": "Killing of Shyamol Karmokar",
+      "category": "BORDER_KILLING",
+      "location": "Bangladesh–India border",
+      "summary_bn": "HRW-এর ‘Trigger Happy’ প্রতিবেদনে কিশোর শ্যামল কর্মকারকে সীমান্তে BSF-এর গুলিতে নিহত হওয়ার ঘটনা নথিভুক্ত করা হয়েছে।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "India's BSF, as documented by HRW",
+      "government_relation": "Not direct Bangladesh-government perpetration.",
+      "evidence_level": "B",
+      "bubble_weight": 2,
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "BSF"
+      ]
+    },
+    {
+      "id": "2010-farid-hossain",
+      "slug": "2010-farid-hossain",
+      "date_start": "2010-02-05",
+      "date_end": "2010-02-06",
+      "year": 2010,
+      "title_bn": "ফরিদ হোসেন সীমান্তে নিহত",
+      "title_en": "Killing of Farid Hossain",
+      "category": "BORDER_KILLING",
+      "location": "Bangladesh–India border",
+      "summary_bn": "HRW-এর সীমান্ত তদন্তে ফরিদ হোসেনের BSF-এর হাতে নিহত হওয়ার ঘটনা অন্তর্ভুক্ত রয়েছে।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "India's BSF, as documented by HRW",
+      "government_relation": "Not direct Bangladesh-government perpetration.",
+      "evidence_level": "B",
+      "bubble_weight": 2,
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "BSF"
+      ]
+    },
+    {
+      "id": "2011-felani-khatun",
+      "slug": "2011-felani-khatun",
+      "date_start": "2011-01-07",
+      "date_end": null,
+      "year": 2011,
+      "title_bn": "ফেলানী খাতুন হত্যা",
+      "title_en": "Killing of Felani Khatun",
+      "category": "BORDER_KILLING",
+      "location": "India–Bangladesh border",
+      "summary_bn": "১৫ বছর বয়সী ফেলানী খাতুন সীমান্ত পার হওয়ার সময় BSF-এর গুলিতে নিহত হন; তাঁর দেহ কাঁটাতারে ঝুলে থাকার ছবি ঘটনাটিকে প্রতীকী করে তোলে। পরবর্তী BSF বিচারেও অভিযুক্ত সদস্য খালাস পান।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "India's BSF",
+      "government_relation": "Not direct Bangladesh-government perpetration; accountability was principally an Indian-state matter.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Felani",
+        "BSF"
+      ]
+    },
+    {
+      "id": "2011-nur-hasan-hiru",
+      "slug": "2011-nur-hasan-hiru",
+      "date_start": "2011-06-20",
+      "date_end": null,
+      "year": 2011,
+      "title_bn": "নূর হাসান হিরুর গুম",
+      "title_en": "Disappearance of Nur Hasan Hiru",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Bangladesh",
+      "summary_bn": "প্রত্যক্ষদর্শীরা জানান, সাদা পোশাকের লোকেরা নিজেদের আইনশৃঙ্খলা বাহিনীর সদস্য পরিচয় দিয়ে হিরুকে তুলে নেয়; পরিবার পরে র‍্যাব হেফাজতের তথ্য পাওয়ার কথা জানায়।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Law-enforcement/RAB involvement alleged by witnesses and family sources",
+      "government_relation": "State involvement credibly alleged; final judicial determination not cited.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S09",
+        "S08"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "RAB"
+      ]
+    },
+    {
+      "id": "2011-tapan-chandra-das",
+      "slug": "2011-tapan-chandra-das",
+      "date_start": "2011-08-03",
+      "date_end": null,
+      "year": 2011,
+      "title_bn": "তপন চন্দ্র দাসের গুম",
+      "title_en": "Disappearance of Tapan Chandra Das",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW তপন চন্দ্র দাসকে সাদা পোশাকের ব্যক্তিরা DB পরিচয়ে তুলে নেওয়ার কেস নথিভুক্ত করেছে; সঙ্গে থাকা আরেকজন পরে মুক্তি পেলেও তপনের অবস্থান অজানা থাকে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Detective Branch involvement alleged",
+      "government_relation": "State involvement credibly alleged; unresolved case in cited documentation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S09",
+        "S08"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "DB"
+      ]
+    },
+    {
+      "id": "2011-15th-amendment-caretaker",
+      "slug": "2011-15th-amendment-caretaker",
+      "date_start": "2011-07-03",
+      "date_end": null,
+      "year": 2011,
+      "title_bn": "পঞ্চদশ সংশোধনী ও তত্ত্বাবধায়ক সরকার ব্যবস্থা বিলোপ",
+      "title_en": "15th Amendment and abolition of the caretaker-government system",
+      "category": "DEMOCRACY_ELECTIONS",
+      "location": "Bangladesh",
+      "summary_bn": "পঞ্চদশ সংশোধনীর মাধ্যমে সংবিধানের নির্দলীয় তত্ত্বাবধায়ক সরকার-সংক্রান্ত অধ্যায় বাদ দেওয়া হয়; ২০১৪ নির্বাচন ছিল এই পরিবর্তনের পর প্রথম জাতীয় নির্বাচন।",
+      "evidence_status": "VERIFIED_LEGAL_CHANGE",
+      "attribution": "Parliament of Bangladesh",
+      "government_relation": "Direct government/parliamentary institutional action.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S06",
+        "S16"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "constitution",
+        "caretaker government"
+      ]
+    },
+    {
+      "id": "2012-ilias-ali",
+      "slug": "2012-ilias-ali",
+      "date_start": "2012-04-17",
+      "date_end": null,
+      "year": 2012,
+      "title_bn": "ইলিয়াস আলী ও আনসার আলীর নিখোঁজ হওয়া",
+      "title_en": "Disappearance of Ilias Ali and driver Ansar Ali",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Banani, Dhaka",
+      "summary_bn": "বিএনপি নেতা ইলিয়াস আলী ও তাঁর চালক আনসার আলী ১৭ এপ্রিল নিখোঁজ হন। HRW স্বাধীন তদন্তের দাবি জানায়; উদ্ধৃত উৎসে রাষ্ট্রীয় বাহিনীর দায় চূড়ান্তভাবে প্রমাণিত নয়।",
+      "evidence_status": "UNRESOLVED_HIGH_PROFILE_CASE",
+      "attribution": "Perpetrator not conclusively established in cited evidence",
+      "government_relation": "Government had duty to investigate; direct state responsibility remains unproven in cited evidence.",
+      "evidence_level": "B",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S07",
+        "S09"
+      ],
+      "display_caution_bn": "রাষ্ট্রীয় বাহিনী অপহরণ করেছে—এটি চূড়ান্ত প্রমাণিত সত্য হিসেবে লিখবেন না।",
+      "tags": [
+        "Ilias Ali",
+        "missing"
+      ]
+    },
+    {
+      "id": "2012-aminul-islam",
+      "slug": "2012-aminul-islam",
+      "date_start": "2012-04-04",
+      "date_end": "2012-04-06",
+      "year": 2012,
+      "title_bn": "শ্রমিক নেতা আমিনুল ইসলামের গুম, নির্যাতন ও হত্যা",
+      "title_en": "Disappearance, torture and killing of labor organizer Aminul Islam",
+      "category": "LABOR_RIGHTS",
+      "location": "Tangail / Dhaka region",
+      "summary_bn": "শ্রমিক নেতা আমিনুল ইসলাম ৪ এপ্রিল নিখোঁজ হন; ৬ এপ্রিল তাঁর দেহ পাওয়া যায় এবং নির্যাতনের চিহ্নের কথা পুলিশ ও পরিবার জানায়। HRW নিরাপত্তা বাহিনীর সম্ভাব্য সংশ্লিষ্টতা নিয়ে উদ্বেগ জানালেও রাজনৈতিক দায়কে চূড়ান্তভাবে প্রতিষ্ঠিত করেনি।",
+      "evidence_status": "WELL_DOCUMENTED_EVENT_UNRESOLVED_ATTRIBUTION",
+      "attribution": "Perpetrator unresolved; security-force involvement raised as a serious concern",
+      "government_relation": "Investigation/accountability failure under the government; attribution remains unresolved.",
+      "evidence_level": "B",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S12",
+        "S07"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "labor",
+        "torture"
+      ]
+    },
+    {
+      "id": "2012-tazreen-fire",
+      "slug": "2012-tazreen-fire",
+      "date_start": "2012-11-24",
+      "date_end": null,
+      "year": 2012,
+      "title_bn": "তাজরীন ফ্যাশনস অগ্নিকাণ্ড",
+      "title_en": "Tazreen Fashions fire",
+      "category": "LABOR_SAFETY",
+      "location": "Ashulia, Dhaka",
+      "summary_bn": "তাজরীন ফ্যাশনস কারখানার আগুনে ১১২ শ্রমিক নিহত হন। ঘটনাটি বাংলাদেশের পোশাকশিল্পে অগ্নিনিরাপত্তা ও নিয়ন্ত্রণব্যবস্থার বড় ব্যর্থতার প্রতীক হয়ে ওঠে।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "Industrial/fire-safety failures",
+      "government_relation": "Regulatory and workplace-safety responsibility; not a deliberate state killing.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S11",
+        "S13"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "garment",
+        "fire",
+        "worker safety"
+      ]
+    },
+    {
+      "id": "2013-fokhrul-islam-disappearance",
+      "slug": "2013-fokhrul-islam-disappearance",
+      "date_start": "2013-05-11",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "মোহাম্মদ ফখরুল ইসলামের গুম",
+      "title_en": "Disappearance of Mohammad Fokhrul Islam",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW-এর গুমবিষয়ক গবেষণায় মোহাম্মদ ফখরুল ইসলামকে র‍্যাব তুলে নিয়েছিল বলে সাক্ষ্য নথিভুক্ত হয়েছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "RAB involvement alleged in HRW documentation",
+      "government_relation": "Credible state-force allegation; judicial determination not cited.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S09",
+        "S08"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "RAB"
+      ]
+    },
+    {
+      "id": "2013-rana-plaza",
+      "slug": "2013-rana-plaza",
+      "date_start": "2013-04-24",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "রানা প্লাজা ধস",
+      "title_en": "Rana Plaza collapse",
+      "category": "LABOR_SAFETY",
+      "location": "Savar, Dhaka",
+      "summary_bn": "রানা প্লাজা ধসে ১,১৩৬ জন নিহত হন। দুর্বল ভবননিরাপত্তা, শ্রমিক সুরক্ষা ও নিয়ন্ত্রক ব্যর্থতা নিয়ে আন্তর্জাতিক পর্যায়ে বড় সংস্কারের চাপ তৈরি হয়।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "Building/industrial safety failures",
+      "government_relation": "Regulatory failure; not a deliberate state attack.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S11",
+        "S13"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Rana Plaza",
+        "garment",
+        "worker safety"
+      ]
+    },
+    {
+      "id": "2013-feb-may-political-violence",
+      "slug": "2013-feb-may-political-violence",
+      "date_start": "2013-02-01",
+      "date_end": "2013-05-06",
+      "year": 2013,
+      "title_bn": "ফেব্রুয়ারি–মে ২০১৩: দেশজুড়ে রাজনৈতিক সহিংসতা ও প্রাণহানি",
+      "title_en": "Political violence and lethal-force allegations, February–May 2013",
+      "category": "POLITICAL_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW ফেব্রুয়ারি থেকে মে শুরুর বিভিন্ন বিক্ষোভ ও সংঘাতে ১৫০-এর বেশি মৃত্যুর কথা নথিভুক্ত করে; নিহতদের মধ্যে বিক্ষোভকারী, সাধারণ মানুষ ও নিরাপত্তা বাহিনীর সদস্য ছিলেন। উভয়পক্ষের সহিংসতা এবং অতিরিক্ত বলপ্রয়োগের অভিযোগ ছিল।",
+      "evidence_status": "MIXED_RESPONSIBILITY",
+      "attribution": "Security forces and violent protesters/opposition actors across different incidents",
+      "government_relation": "Mixed responsibility; do not attribute every death to one side.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S14",
+        "S17"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "protests",
+        "violence"
+      ]
+    },
+    {
+      "id": "2013-shapla-chattar",
+      "slug": "2013-shapla-chattar",
+      "date_start": "2013-05-05",
+      "date_end": "2013-05-06",
+      "year": 2013,
+      "title_bn": "শাপলা চত্বর অভিযান ও ৫–৬ মে সহিংসতা",
+      "title_en": "Shapla Chattar operation and May 5–6 violence",
+      "category": "STATE_VIOLENCE",
+      "location": "Shapla Chattar, Dhaka",
+      "summary_bn": "HRW দুই দিনের সহিংসতায় অন্তত ৫৮ জনের মৃত্যু যাচাই করে, যার মধ্যে সাতজন নিরাপত্তা বাহিনীর সদস্য ছিলেন; একই সঙ্গে নিরাপত্তা বাহিনীর গুরুতর অতিরিক্ত বলপ্রয়োগের প্রমাণ নথিভুক্ত করে।",
+      "evidence_status": "CONTESTED_CASUALTY_EVENT_WITH_DOCUMENTED_ABUSES",
+      "attribution": "Security forces and Hefazat/protester violence",
+      "government_relation": "State-force abuses documented, but casualty claims remain contested.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S14",
+        "S15"
+      ],
+      "display_caution_bn": "শত/হাজার নিহতের ভাইরাল দাবি যাচাই ছাড়া ব্যবহার করবেন না; উৎসভেদে সংখ্যা আলাদা।",
+      "tags": [
+        "Hefazat",
+        "Shapla"
+      ]
+    },
+    {
+      "id": "2013-odhikar-adilur-arrest",
+      "slug": "2013-odhikar-adilur-arrest",
+      "date_start": "2013-08-10",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "অধিকার সম্পাদক আদিলুর রহমান খানের গ্রেপ্তার",
+      "title_en": "Arrest and prosecution of Odhikar's Adilur Rahman Khan",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "শাপলা চত্বর নিয়ে অধিকার-এর প্রতিবেদন প্রকাশের পর আদিলুর রহমান খানকে DB গ্রেপ্তার করে; ICT Act-এর ৫৭ ধারাসহ মামলা হয় এবং অধিকার কার্যালয়ে তল্লাশি চালানো হয়।",
+      "evidence_status": "VERIFIED_STATE_ACTION",
+      "attribution": "Detective Branch / Bangladesh authorities",
+      "government_relation": "Direct state arrest and prosecution.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S15",
+        "S48"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Odhikar",
+        "ICT Act",
+        "human rights defender"
+      ]
+    },
+    {
+      "id": "2013-pre-election-disappearances-pattern",
+      "slug": "2013-pre-election-disappearances-pattern",
+      "date_start": "2013-11-28",
+      "date_end": "2013-12-12",
+      "year": 2013,
+      "title_bn": "নির্বাচনের আগে ১৯ বিরোধী কর্মীর গুম",
+      "title_en": "Disappearances of 19 opposition activists before the 2014 election",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka and surrounding areas",
+      "summary_bn": "HRW জানায়, ২০১৩ সালের শেষ দিকে দুই সপ্তাহে ঢাকার আশপাশে ১৯ বিরোধী কর্মীকে আইনশৃঙ্খলা বাহিনী তুলে নেয় এবং তাঁরা নিখোঁজ থাকেন।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "RAB, DB and other security forces alleged by witnesses",
+      "government_relation": "Strongly documented state-force pattern; individual case details vary.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S08",
+        "S17"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "election 2014"
+      ]
+    },
+    {
+      "id": "2013-sajedul-islam-sumon",
+      "slug": "2013-sajedul-islam-sumon",
+      "date_start": "2013-12-04",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "সাজেদুল ইসলাম সুমনের গুম",
+      "title_en": "Disappearance of Sajedul Islam Sumon",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "HRW প্রত্যক্ষদর্শী ও পরিবারের সাক্ষ্যে সুমন ও আরও কয়েকজনকে র‍্যাব তুলে নেওয়ার ঘটনা নথিভুক্ত করেছে; তাঁদের আর খুঁজে পাওয়া যায়নি।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "RAB involvement alleged by multiple witnesses",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "RAB"
+      ]
+    },
+    {
+      "id": "2013-parvez-hossain",
+      "slug": "2013-parvez-hossain",
+      "date_start": "2013-12-02",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "পারভেজ হোসেনের গুম",
+      "title_en": "Disappearance of Parvez Hossain",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "নির্বাচনের আগের গুমের ধারাবাহিকতায় HRW পারভেজ হোসেনের নিখোঁজ হওয়ার কেস নথিভুক্ত করেছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Law-enforcement involvement alleged in HRW documentation",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম"
+      ]
+    },
+    {
+      "id": "2013-zahidul-karim-tanvir",
+      "slug": "2013-zahidul-karim-tanvir",
+      "date_start": "2013-12-04",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "জাহিদুল করিম তানভীরের গুম",
+      "title_en": "Disappearance of Zahidul Karim Tanvir",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "HRW-এর ২০১৩ সালের ১৯ গুমের কেস-সেটে জাহিদুল করিম তানভীরের নাম ও ৪ ডিসেম্বরের নিখোঁজ হওয়ার তারিখ নথিভুক্ত আছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Security-force involvement alleged in the documented group of cases",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম"
+      ]
+    },
+    {
+      "id": "2013-mazharul-islam-russel",
+      "slug": "2013-mazharul-islam-russel",
+      "date_start": "2013-12-04",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "মাজহারুল ইসলাম রাসেলের গুম",
+      "title_en": "Disappearance of Mazharul Islam Russel",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "HRW-এর কেস ডকুমেন্টেশনে মাজহারুল ইসলাম রাসেলকে ৪ ডিসেম্বর ২০১৩ থেকে নিখোঁজ হিসেবে দেখানো হয়েছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Security-force involvement alleged in the documented group of cases",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম"
+      ]
+    },
+    {
+      "id": "2013-abdul-quader-bhuiyan-masum",
+      "slug": "2013-abdul-quader-bhuiyan-masum",
+      "date_start": "2013-12-04",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "আবদুল কাদের ভূঁইয়া মাসুমের গুম",
+      "title_en": "Disappearance of Abdul Quader Bhuiyan Masum",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "HRW-এর কেস ডকুমেন্টেশনে আবদুল কাদের ভূঁইয়া মাসুমকে ৪ ডিসেম্বর ২০১৩ থেকে নিখোঁজ হিসেবে নথিভুক্ত করা হয়েছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Security-force involvement alleged in the documented group of cases",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম"
+      ]
+    },
+    {
+      "id": "2013-selim-reza-pintu",
+      "slug": "2013-selim-reza-pintu",
+      "date_start": "2013-12-12",
+      "date_end": null,
+      "year": 2013,
+      "title_bn": "সেলিম রেজা পিন্টুর গুম",
+      "title_en": "Disappearance of Selim Reza Pintu",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "HRW-এর কেস ডকুমেন্টেশনে সেলিম রেজা পিন্টুকে ১২ ডিসেম্বর ২০১৩ থেকে নিখোঁজ হিসেবে নথিভুক্ত করা হয়েছে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Security-force involvement alleged in the documented group of cases",
+      "government_relation": "Credible state-force allegation.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S08",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম"
+      ]
+    },
+    {
+      "id": "2014-general-election",
+      "slug": "2014-general-election",
+      "date_start": "2014-01-05",
+      "date_end": null,
+      "year": 2014,
+      "title_bn": "২০১৪ সালের জাতীয় নির্বাচন",
+      "title_en": "2014 parliamentary election",
+      "category": "DEMOCRACY_ELECTIONS",
+      "location": "Bangladesh",
+      "summary_bn": "বিএনপি-নেতৃত্বাধীন জোট নির্বাচন বর্জন করে; ৩০০ আসনের মধ্যে ১৫৩টি বিনা প্রতিদ্বন্দ্বিতায় নির্ধারিত হয়। নির্বাচনের আগে ও ভোটের দিনে সহিংসতা, প্রাণহানি এবং কেন্দ্র পোড়ানোর ঘটনাও নথিভুক্ত হয়।",
+      "evidence_status": "VERIFIED_ELECTION_CONTEXT",
+      "attribution": "Election institutions, ruling coalition, opposition boycott and violence",
+      "government_relation": "Institutional responsibility is mixed; opposition violence also documented.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "election",
+        "2014"
+      ]
+    },
+    {
+      "id": "2014-narayanganj-seven-murders",
+      "slug": "2014-narayanganj-seven-murders",
+      "date_start": "2014-04-27",
+      "date_end": "2014-05-01",
+      "year": 2014,
+      "title_bn": "নারায়ণগঞ্জ সাত খুন",
+      "title_en": "Narayanganj seven murders",
+      "category": "STATE_VIOLENCE",
+      "location": "Narayanganj",
+      "summary_bn": "সাতজনকে অপহরণ ও হত্যার ঘটনায় র‍্যাব সদস্যদের সংশ্লিষ্টতা প্রকাশ্যে আসে এবং পরে বিচারিক জবাবদিহি হয়; ঘটনাটি র‍্যাবের দায়মুক্তি প্রশ্নে মোড় ঘোরানো মামলা।",
+      "evidence_status": "VERIFIED_EVENT_WITH_STATE_FORCE_INVOLVEMENT",
+      "attribution": "RAB members and others",
+      "government_relation": "Direct involvement of state-force members was established through the criminal case; not evidence of a government-wide order.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S17",
+        "S26"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "RAB",
+        "seven murders"
+      ]
+    },
+    {
+      "id": "2015-blockade-crackdown",
+      "slug": "2015-blockade-crackdown",
+      "date_start": "2015-01-05",
+      "date_end": "2015-03-31",
+      "year": 2015,
+      "title_bn": "২০১৫ অবরোধ: পেট্রোলবোমা, প্রাণহানি ও রাষ্ট্রীয় দমন",
+      "title_en": "2015 blockade violence and government crackdown",
+      "category": "POLITICAL_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "বিএনপি-নেতৃত্বাধীন অবরোধে পেট্রোলবোমা ও অন্যান্য সহিংসতায় সাধারণ মানুষ নিহত/আহত হন; একই সময়ে নিরাপত্তা বাহিনীর নির্বিচার গ্রেপ্তার, হত্যা ও গুমের অভিযোগও ওঠে।",
+      "evidence_status": "MIXED_RESPONSIBILITY",
+      "attribution": "Opposition-linked violent actors and Bangladesh security forces",
+      "government_relation": "Both non-state/opposition violence and state abuses documented.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S18",
+        "S26"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "blockade",
+        "petrol bomb",
+        "crackdown"
+      ]
+    },
+    {
+      "id": "2015-salahuddin-ahmed",
+      "slug": "2015-salahuddin-ahmed",
+      "date_start": "2015-03-10",
+      "date_end": null,
+      "year": 2015,
+      "title_bn": "সালাহউদ্দিন আহমেদের গুম ও ভারতে পুনরাবির্ভাব",
+      "title_en": "Disappearance and reappearance of Salahuddin Ahmed",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "প্রত্যক্ষদর্শীরা জানান, DB পরিচয়ধারী ব্যক্তিরা তাঁকে তুলে নেয়; সরকার হেফাজত অস্বীকার করে। প্রায় দুই মাস পর তিনি ভারতে পাওয়া যান এবং অপহরণের কথা জানান।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Detective Branch involvement alleged; RAB vehicle also reportedly seen",
+      "government_relation": "Credible state-force allegation; government denied custody.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S19",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "DB",
+        "BNP"
+      ]
+    },
+    {
+      "id": "2015-avijit-roy",
+      "slug": "2015-avijit-roy",
+      "date_start": "2015-02-26",
+      "date_end": null,
+      "year": 2015,
+      "title_bn": "অভিজিৎ রায় হত্যা",
+      "title_en": "Murder of Avijit Roy",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Dhaka",
+      "summary_bn": "লেখক ও ব্লগার অভিজিৎ রায়কে ঢাকায় কুপিয়ে হত্যা করা হয়; উগ্রবাদী গোষ্ঠীর হামলার ধারাবাহিকতার অংশ হিসেবে ঘটনাটি নথিভুক্ত।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK",
+      "attribution": "Islamist extremist attackers",
+      "government_relation": "Not a Bangladesh-government killing; state protection and accountability are separate issues.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "blogger",
+        "extremism",
+        "free speech"
+      ]
+    },
+    {
+      "id": "2015-washiqur-rahman",
+      "slug": "2015-washiqur-rahman",
+      "date_start": "2015-03-30",
+      "date_end": null,
+      "year": 2015,
+      "title_bn": "ওয়াশিকুর রহমান হত্যা",
+      "title_en": "Murder of Washiqur Rahman",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Dhaka",
+      "summary_bn": "ব্লগার ওয়াশিকুর রহমানকে ঢাকায় কুপিয়ে হত্যা করা হয়; ২০১৫ সালের ধারাবাহিক উগ্রবাদী হামলার একটি ঘটনা।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK",
+      "attribution": "Islamist extremist attackers",
+      "government_relation": "Not a Bangladesh-government killing.",
+      "evidence_level": "A",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "blogger",
+        "extremism"
+      ]
+    },
+    {
+      "id": "2015-ananta-bijoy-das",
+      "slug": "2015-ananta-bijoy-das",
+      "date_start": "2015-05-12",
+      "date_end": null,
+      "year": 2015,
+      "title_bn": "অনন্ত বিজয় দাশ হত্যা",
+      "title_en": "Murder of Ananta Bijoy Das",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Sylhet",
+      "summary_bn": "ব্লগার অনন্ত বিজয় দাশ সিলেটে কুপিয়ে নিহত হন; HRW একে মতপ্রকাশের স্বাধীনতার ওপর ধারাবাহিক হামলার অংশ হিসেবে নথিভুক্ত করে।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK",
+      "attribution": "Islamist extremist attackers",
+      "government_relation": "Not a Bangladesh-government killing.",
+      "evidence_level": "A",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S21",
+        "S20"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "blogger",
+        "extremism"
+      ]
+    },
+    {
+      "id": "2015-niloy-neel",
+      "slug": "2015-niloy-neel",
+      "date_start": "2015-08-07",
+      "date_end": null,
+      "year": 2015,
+      "title_bn": "নীলয় নীল হত্যা",
+      "title_en": "Murder of Niloy Neel",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Dhaka",
+      "summary_bn": "ব্লগার নীলয় নীলকে ঢাকার বাসায় হত্যা করা হয়; উগ্রবাদী হামলার ধারাবাহিকতায় ঘটনাটি আন্তর্জাতিকভাবে নথিভুক্ত।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK",
+      "attribution": "Islamist extremist attackers",
+      "government_relation": "Not a Bangladesh-government killing.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S20",
+        "S24"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "blogger",
+        "extremism"
+      ]
+    },
+    {
+      "id": "2016-mass-arrests",
+      "slug": "2016-mass-arrests",
+      "date_start": "2016-06-10",
+      "date_end": "2016-06-17",
+      "year": 2016,
+      "title_bn": "২০১৬: প্রায় ১৫ হাজার মানুষের গণগ্রেপ্তার",
+      "title_en": "Mass arrests during the 2016 anti-extremism crackdown",
+      "category": "STATE_REPRESSION",
+      "location": "Bangladesh",
+      "summary_bn": "ধারাবাহিক উগ্রবাদী হত্যার পর নিরাপত্তা বাহিনী এক সপ্তাহে প্রায় ১৫ হাজার মানুষকে আটক করে; HRW নির্বিচার গ্রেপ্তার ও প্রমাণহীন আটকের ব্যাপারে উদ্বেগ জানায়।",
+      "evidence_status": "DOCUMENTED_STATE_ACTION_WITH_ABUSE_CONCERNS",
+      "attribution": "Bangladesh police/security forces",
+      "government_relation": "Direct state arrest campaign; legality of many individual arrests questioned.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S22",
+        "S24"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "mass arrest",
+        "counterterrorism"
+      ]
+    },
+    {
+      "id": "2016-xulhaz-tonoy",
+      "slug": "2016-xulhaz-tonoy",
+      "date_start": "2016-04-25",
+      "date_end": null,
+      "year": 2016,
+      "title_bn": "জুলহাজ মান্নান ও তনয় মাহবুব হত্যা",
+      "title_en": "Murders of Xulhaz Mannan and Tonoy Mahbub",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Dhaka",
+      "summary_bn": "LGBT অধিকারকর্মী জুলহাজ মান্নান ও তনয় মাহবুবকে ঢাকার একটি বাসায় কুপিয়ে হত্যা করা হয়।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK",
+      "attribution": "Extremist attackers",
+      "government_relation": "Not a Bangladesh-government killing; protection failures and climate of fear are relevant context.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S23",
+        "S24"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "LGBT",
+        "extremism",
+        "human rights"
+      ]
+    },
+    {
+      "id": "2016-holey-artisan",
+      "slug": "2016-holey-artisan",
+      "date_start": "2016-07-01",
+      "date_end": "2016-07-02",
+      "year": 2016,
+      "title_bn": "হলি আর্টিজান হামলা",
+      "title_en": "Holey Artisan Bakery attack",
+      "category": "EXTREMIST_ATTACK",
+      "location": "Gulshan, Dhaka",
+      "summary_bn": "সশস্ত্র জঙ্গিরা হলি আর্টিজান বেকারিতে হামলা করে ২০-এর বেশি মানুষকে হত্যা করে। পরবর্তী নিরাপত্তা অভিযানে গোপন আটক ও সন্দেহভাজনদের ‘বন্দুকযুদ্ধে’ মৃত্যুর অভিযোগও ওঠে।",
+      "evidence_status": "VERIFIED_NON_STATE_ATTACK_WITH_STATE_RESPONSE_CONCERNS",
+      "attribution": "Militant attackers; later security-force abuses separately alleged",
+      "government_relation": "The attack itself was non-state terrorism, not government violence.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S24",
+        "S26"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Holey Artisan",
+        "terrorism"
+      ]
+    },
+    {
+      "id": "2016-humam-quader-chowdhury",
+      "slug": "2016-humam-quader-chowdhury",
+      "date_start": "2016-08-04",
+      "date_end": "2017-03-02",
+      "year": 2016,
+      "title_bn": "হুমাম কাদের চৌধুরীর গোপন আটক",
+      "title_en": "Secret detention of Humam Quader Chowdhury",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "হুমাম কাদের চৌধুরীকে আইনশৃঙ্খলা বাহিনী পরিচয়ধারীরা তুলে নেয় বলে সাক্ষ্য রয়েছে; ২০১৭ সালের মার্চে তিনি ফিরে আসেন। পরবর্তী সাক্ষ্যে গোপন আটকের কথা উঠে আসে।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION_LATER_CORROBORATED",
+      "attribution": "Bangladesh security/intelligence agencies alleged",
+      "government_relation": "State custody allegation strengthened by later survivor account.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S25",
+        "S27"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "secret detention"
+      ]
+    },
+    {
+      "id": "2016-mir-ahmad-bin-quasem",
+      "slug": "2016-mir-ahmad-bin-quasem",
+      "date_start": "2016-08-09",
+      "date_end": "2024-08-06",
+      "year": 2016,
+      "title_bn": "মীর আহমদ বিন কাসেম (আরমান) গুম",
+      "title_en": "Enforced disappearance of Mir Ahmad Bin Quasem",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "আরমানকে বাসা থেকে তুলে নেওয়ার পর কর্তৃপক্ষ বছরের পর বছর হেফাজত অস্বীকার করে; শেখ হাসিনার পতনের পর ২০২৪ সালের আগস্টে তিনি মুক্ত হন।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION_LATER_CORROBORATED",
+      "attribution": "Bangladesh security/intelligence agencies",
+      "government_relation": "Later release from secret detention strongly corroborates earlier state-custody allegations.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S25",
+        "S37",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "Aynaghar"
+      ]
+    },
+    {
+      "id": "2016-amaan-azmi",
+      "slug": "2016-amaan-azmi",
+      "date_start": "2016-08-22",
+      "date_end": "2024-08-06",
+      "year": 2016,
+      "title_bn": "আবদুল্লাহিল আমান আজমির গুম",
+      "title_en": "Enforced disappearance of Abdullahil Amaan Azmi",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "আমান আজমিকে DB পরিচয়ধারী ব্যক্তিরা তুলে নেয় বলে সাক্ষ্য ছিল; কর্তৃপক্ষ হেফাজত অস্বীকার করে। ২০২৪ সালের আগস্টে তিনি গোপন আটক থেকে মুক্ত হন।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION_LATER_CORROBORATED",
+      "attribution": "Bangladesh security/intelligence agencies",
+      "government_relation": "Later release strongly corroborates long-running state-custody allegation.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S25",
+        "S37",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "Aynaghar"
+      ]
+    },
+    {
+      "id": "2013-2016-kneecapping",
+      "slug": "2013-2016-kneecapping",
+      "date_start": "2013-01-01",
+      "date_end": "2016-09-30",
+      "year": 2013,
+      "title_bn": "হেফাজতে ‘নী-ক্যাপিং’ ও অঙ্গহানির অভিযোগ",
+      "title_en": "Kneecapping and maiming of detainees",
+      "category": "STATE_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW নিরাপত্তা বাহিনীর হেফাজতে আটক ব্যক্তিদের পায়ে কাছ থেকে গুলি করে স্থায়ীভাবে পঙ্গু করার একাধিক কেস নথিভুক্ত করে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "Bangladesh security forces",
+      "government_relation": "Direct allegations against state security forces across multiple cases.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S26",
+        "S24"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "torture",
+        "kneecapping"
+      ]
+    },
+    {
+      "id": "2017-chief-justice-sinha-crisis",
+      "slug": "2017-chief-justice-sinha-crisis",
+      "date_start": "2017-10-01",
+      "date_end": "2017-11-11",
+      "year": 2017,
+      "title_bn": "প্রধান বিচারপতি এস. কে. সিনহা ও বিচার বিভাগের স্বাধীনতা সংকট",
+      "title_en": "Chief Justice S.K. Sinha and judicial-independence crisis",
+      "category": "JUDICIAL_INDEPENDENCE",
+      "location": "Dhaka",
+      "summary_bn": "ষোড়শ সংশোধনী মামলার পর প্রধান বিচারপতি এস. কে. সিনহা ছুটিতে যান, দেশ ছাড়েন এবং ১১ নভেম্বর পদত্যাগ করেন। পরে তিনি সামরিক গোয়েন্দা সংস্থার চাপের অভিযোগ করেন; অভিযোগটি তাঁর বক্তব্য হিসেবে উপস্থাপন করা উচিত।",
+      "evidence_status": "VERIFIED_INSTITUTIONAL_CRISIS_WITH_CONTESTED_ALLEGATIONS",
+      "attribution": "Political and security pressure alleged by Sinha",
+      "government_relation": "Departure/resignation verified; coercion details are allegations, not a final judicial finding.",
+      "evidence_level": "B",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "display_caution_bn": "DGFI/প্রধানমন্ত্রীর নির্দেশের অভিযোগকে ‘সিনহার অভিযোগ’ হিসেবে উল্লেখ করুন।",
+      "tags": [
+        "judiciary",
+        "Sinha"
+      ]
+    },
+    {
+      "id": "2017-maroof-zaman",
+      "slug": "2017-maroof-zaman",
+      "date_start": "2017-12-04",
+      "date_end": "2019-03-01",
+      "year": 2017,
+      "title_bn": "মারুফ জামানের নিখোঁজ ও ১৫ মাস পর ফিরে আসা",
+      "title_en": "Disappearance and return of Maroof Zaman",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka",
+      "summary_bn": "সাবেক কূটনীতিক মারুফ জামান ২০১৭ সালের ডিসেম্বরে নিখোঁজ হন এবং প্রায় ১৫ মাস পর ফিরে আসেন; ঘটনাটি গোপন আটকের বিস্তৃত উদ্বেগের অংশ।",
+      "evidence_status": "UNRESOLVED_DISAPPEARANCE_CASE",
+      "attribution": "Perpetrator not conclusively established in cited evidence",
+      "government_relation": "State responsibility alleged in broader pattern but not conclusively established for this record.",
+      "evidence_level": "B",
+      "bubble_weight": 3,
+      "source_ids": [
+        "S09",
+        "S08"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "missing",
+        "secret detention"
+      ]
+    },
+    {
+      "id": "2018-quota-movement-crackdown",
+      "slug": "2018-quota-movement-crackdown",
+      "date_start": "2018-04-01",
+      "date_end": "2018-07-31",
+      "year": 2018,
+      "title_bn": "২০১৮ কোটা সংস্কার আন্দোলনে দমন-পীড়ন",
+      "title_en": "Crackdown on the 2018 quota-reform movement",
+      "category": "STUDENT_PROTESTS",
+      "location": "Bangladesh",
+      "summary_bn": "কোটা সংস্কারের দাবিতে শিক্ষার্থীদের আন্দোলনে পুলিশ ও ক্ষমতাসীন দলের ছাত্রসংগঠনের হামলা, গ্রেপ্তার ও হেফাজতে নির্যাতনের অভিযোগ HRW নথিভুক্ত করেছে।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "Police and ruling-party student activists",
+      "government_relation": "State and ruling-party-affiliate abuses documented.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S28",
+        "S29"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "quota",
+        "students",
+        "BCL"
+      ]
+    },
+    {
+      "id": "2018-road-safety-crackdown",
+      "slug": "2018-road-safety-crackdown",
+      "date_start": "2018-07-29",
+      "date_end": "2018-08-15",
+      "year": 2018,
+      "title_bn": "নিরাপদ সড়ক আন্দোলনে হামলা ও দমন",
+      "title_en": "Crackdown on the road-safety student movement",
+      "category": "STUDENT_PROTESTS",
+      "location": "Dhaka and elsewhere",
+      "summary_bn": "দুই শিক্ষার্থীর সড়ক দুর্ঘটনায় মৃত্যুর পর আন্দোলনে নামা স্কুল-কলেজ শিক্ষার্থীদের ওপর পুলিশ এবং আওয়ামী লীগ-সংশ্লিষ্ট ছাত্র/যুব সংগঠনের হামলার বহু সাক্ষ্য নথিভুক্ত হয়।",
+      "evidence_status": "DOCUMENTED_PATTERN",
+      "attribution": "Police and ruling-party student/youth activists",
+      "government_relation": "State-force and ruling-party-affiliate abuses documented.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S29",
+        "S28"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "road safety",
+        "students",
+        "BCL"
+      ]
+    },
+    {
+      "id": "2018-shahidul-alam",
+      "slug": "2018-shahidul-alam",
+      "date_start": "2018-08-05",
+      "date_end": null,
+      "year": 2018,
+      "title_bn": "শহিদুল আলম গ্রেপ্তার ও হেফাজতে নির্যাতনের অভিযোগ",
+      "title_en": "Arrest of Shahidul Alam and alleged custodial abuse",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "নিরাপদ সড়ক আন্দোলনের দমন নিয়ে সাক্ষাৎকার দেওয়ার কয়েক ঘণ্টার মধ্যে আলোকচিত্রী শহিদুল আলমকে DB আটক করে; তিনি হেফাজতে মারধরের অভিযোগ করেন এবং ১০০ দিনের বেশি বন্দি থাকেন।",
+      "evidence_status": "VERIFIED_STATE_ARREST_WITH_CREDIBLE_ABUSE_ALLEGATION",
+      "attribution": "Detective Branch / Bangladesh authorities",
+      "government_relation": "Direct state arrest; custodial beating allegation documented but should be attributed.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S29",
+        "S28"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Shahidul Alam",
+        "ICT Act",
+        "press freedom"
+      ]
+    },
+    {
+      "id": "2018-war-on-drugs",
+      "slug": "2018-war-on-drugs",
+      "date_start": "2018-05-03",
+      "date_end": "2019-10-31",
+      "year": 2018,
+      "title_bn": "‘মাদকবিরোধী অভিযান’ ও কথিত বিচারবহির্ভূত হত্যা",
+      "title_en": "Anti-drug campaign and alleged extrajudicial executions",
+      "category": "STATE_VIOLENCE",
+      "location": "Bangladesh",
+      "summary_bn": "Amnesty জানায়, ৩ মে ২০১৮ থেকে তাদের প্রতিবেদনের সময় পর্যন্ত অন্তত ৩৭৩ জন নিহত হন; বহু ঘটনায় হেফাজতে নেওয়ার পর ‘বন্দুকযুদ্ধ’-এর সরকারি বর্ণনা নিয়ে গুরুতর প্রশ্ন ওঠে।",
+      "evidence_status": "DOCUMENTED_PATTERN_OF_ALLEGED_EXTRAJUDICIAL_EXECUTIONS",
+      "attribution": "Police and RAB",
+      "government_relation": "Direct security-force accountability issue; each death requires case-specific determination.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S30",
+        "S44"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "war on drugs",
+        "crossfire",
+        "RAB"
+      ]
+    },
+    {
+      "id": "2018-digital-security-act",
+      "slug": "2018-digital-security-act",
+      "date_start": "2018-09-19",
+      "date_end": "2018-10-31",
+      "year": 2018,
+      "title_bn": "ডিজিটাল নিরাপত্তা আইন ২০১৮",
+      "title_en": "Digital Security Act 2018",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Bangladesh",
+      "summary_bn": "১৯ সেপ্টেম্বর সংসদে আইনটি পাস হয় এবং অক্টোবরে কার্যকর হয়। HRW বলেছিল, এর অস্পষ্ট ও বিস্তৃত ধারাগুলো শান্তিপূর্ণ মতপ্রকাশ দমনে অপব্যবহারের ঝুঁকি তৈরি করে।",
+      "evidence_status": "VERIFIED_LEGAL_CHANGE",
+      "attribution": "Parliament and Bangladesh authorities",
+      "government_relation": "Direct legislative action.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S31",
+        "S32"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "DSA",
+        "free speech",
+        "press"
+      ]
+    },
+    {
+      "id": "2018-general-election",
+      "slug": "2018-general-election",
+      "date_start": "2018-12-30",
+      "date_end": null,
+      "year": 2018,
+      "title_bn": "২০১৮ জাতীয় নির্বাচন: সহিংসতা, গ্রেপ্তার ও কারচুপির অভিযোগ",
+      "title_en": "2018 parliamentary election and abuse allegations",
+      "category": "DEMOCRACY_ELECTIONS",
+      "location": "Bangladesh",
+      "summary_bn": "নির্বাচনের আগে বিরোধীদের গণগ্রেপ্তার ও ভয়ভীতি এবং ভোটের দিনে ব্যালট ভরাট, কেন্দ্র দখল, ভোটার বাধা ও পক্ষপাতমূলক আচরণের গুরুতর অভিযোগ HRW নথিভুক্ত করে; ভোট-সংশ্লিষ্ট সহিংসতায় অন্তত ১৭ জন নিহত হওয়ার কথাও উল্লেখ করে।",
+      "evidence_status": "SERIOUS_CREDIBLE_ELECTION_ABUSE_ALLEGATIONS",
+      "attribution": "State institutions, ruling-party actors and violent political actors",
+      "government_relation": "Serious abuse allegations; the government and Election Commission disputed many claims.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S33",
+        "S28"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "election",
+        "2018",
+        "vote rigging"
+      ]
+    },
+    {
+      "id": "2019-abrar-fahad",
+      "slug": "2019-abrar-fahad",
+      "date_start": "2019-10-06",
+      "date_end": null,
+      "year": 2019,
+      "title_bn": "আবরার ফাহাদ হত্যা",
+      "title_en": "Murder of Abrar Fahad",
+      "category": "POLITICAL_VIOLENCE",
+      "location": "BUET, Dhaka",
+      "summary_bn": "বুয়েট শিক্ষার্থী আবরার ফাহাদকে ছাত্রলীগের সদস্যরা হলের একটি কক্ষে মারধর করে হত্যা করে; CCTV, ফরেনসিক তথ্য ও পরবর্তী ফৌজদারি মামলা ঘটনাটিকে শক্তভাবে নথিভুক্ত করে।",
+      "evidence_status": "VERIFIED_EVENT",
+      "attribution": "Bangladesh Chhatra League members",
+      "government_relation": "Ruling-party student-wing perpetrators; not evidence of a direct government order.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S35",
+        "S34"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Abrar Fahad",
+        "BCL",
+        "campus violence"
+      ]
+    },
+    {
+      "id": "2019-michael-chakma",
+      "slug": "2019-michael-chakma",
+      "date_start": "2019-04-09",
+      "date_end": "2024-08-06",
+      "year": 2019,
+      "title_bn": "মাইকেল চাকমার গুম",
+      "title_en": "Enforced disappearance of Michael Chakma",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Narayanganj / secret detention",
+      "summary_bn": "আদিবাসী অধিকারকর্মী মাইকেল চাকমা ৯ এপ্রিল ২০১৯ নিখোঁজ হন। ২০২৪ সালের আগস্টে শেখ হাসিনার পতনের পর তিনি মুক্ত হয়ে গোপন আটক ও নির্যাতনের অভিজ্ঞতা বর্ণনা করেন।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION_LATER_CORROBORATED",
+      "attribution": "Bangladesh security/intelligence agencies",
+      "government_relation": "Later release from secret detention strongly corroborates state-custody allegation.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S36",
+        "S37",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Michael Chakma",
+        "গুম",
+        "Aynaghar"
+      ]
+    },
+    {
+      "id": "2019-johirul-korshed-akidul",
+      "slug": "2019-johirul-korshed-akidul",
+      "date_start": "2019-01-01",
+      "date_end": "2019-10-11",
+      "year": 2019,
+      "title_bn": "জহিরুল হক, খোরশেদ আলম ও সৈয়দ আকিদুলের গোপন আটক",
+      "title_en": "Secret detention of Johirul Haque Khandaker, Korshed Alam Patwari and Sayed Akidul Ali",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Bangladesh",
+      "summary_bn": "HRW জানায়, র‍্যাবের পোশাকধারীরা তিনজনকে তুলে নিয়ে প্রায় আট মাস গোপনে আটকে রাখে বলে অভিযোগ; পরে আদালতে হাজির করা হয়। জহিরুল হক ১১ অক্টোবর ২০১৯ হাসপাতালে হেফাজত অবস্থায় মারা যান।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "RAB involvement alleged; later court production documented",
+      "government_relation": "Credible state-force allegation; torture and death require case-specific legal findings.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S09",
+        "S03"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "গুম",
+        "RAB",
+        "custody"
+      ]
+    },
+    {
+      "id": "2020-shafiqul-islam-kajol",
+      "slug": "2020-shafiqul-islam-kajol",
+      "date_start": "2020-03-10",
+      "date_end": "2020-05-03",
+      "year": 2020,
+      "title_bn": "সাংবাদিক শফিকুল ইসলাম কাজলের ৫৩ দিনের গুম",
+      "title_en": "53-day disappearance of journalist Shafiqul Islam Kajol",
+      "category": "ENFORCED_DISAPPEARANCE",
+      "location": "Dhaka / Benapole",
+      "summary_bn": "সাংবাদিক কাজল ১০ মার্চ নিখোঁজ হন; ৫৩ দিন পর বেনাপোলে চোখ বাঁধা ও হাত-পা বাঁধা অবস্থায় পাওয়া যায়। পরে তাঁকেই DSA মামলায় আটক রাখা হয়।",
+      "evidence_status": "WELL_DOCUMENTED_ALLEGATION",
+      "attribution": "Security-force custody strongly suspected in rights-group documentation",
+      "government_relation": "Strong state-custody allegation; exact chain of custody not judicially established in cited sources.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S38",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Kajol",
+        "journalist",
+        "গুম",
+        "DSA"
+      ]
+    },
+    {
+      "id": "2020-kishore-mushtaq-arrests",
+      "slug": "2020-kishore-mushtaq-arrests",
+      "date_start": "2020-05-05",
+      "date_end": null,
+      "year": 2020,
+      "title_bn": "কিশোর ও মুশতাক: DSA মামলা, দীর্ঘ আটক ও নির্যাতনের অভিযোগ",
+      "title_en": "Ahmed Kabir Kishore and Mushtaq Ahmed detained under the DSA",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "কার্টুনিস্ট আহমেদ কবির কিশোর ও লেখক মুশতাক আহমেদকে সরকার ও কোভিড ব্যবস্থাপনার সমালোচনামূলক পোস্ট/কার্টুনের অভিযোগে DSA-তে আটক করা হয়। কিশোর গোপন আটক ও নির্যাতনের অভিযোগ করেন।",
+      "evidence_status": "VERIFIED_STATE_ARREST_WITH_CREDIBLE_TORTURE_ALLEGATION",
+      "attribution": "RAB / other state security agencies",
+      "government_relation": "Direct state prosecution; torture allegation should be attributed to survivor and Amnesty documentation.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S39",
+        "S40"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "DSA",
+        "Kishore",
+        "Mushtaq"
+      ]
+    },
+    {
+      "id": "2020-major-sinha",
+      "slug": "2020-major-sinha",
+      "date_start": "2020-07-31",
+      "date_end": null,
+      "year": 2020,
+      "title_bn": "মেজর সিনহা মোহাম্মদ রাশেদ খান হত্যা",
+      "title_en": "Killing of retired Major Sinha Rashed Khan",
+      "category": "STATE_VIOLENCE",
+      "location": "Cox's Bazar",
+      "summary_bn": "কক্সবাজারে পুলিশ চেকপোস্টে অবসরপ্রাপ্ত মেজর সিনহাকে গুলি করে হত্যা করা হয়। পুলিশের প্রাথমিক আত্মরক্ষার বর্ণনার পর ব্যাপক জনরোষে একাধিক পুলিশ সদস্যের বিরুদ্ধে ব্যবস্থা নেওয়া হয়।",
+      "evidence_status": "VERIFIED_STATE_FORCE_KILLING",
+      "attribution": "Bangladesh police",
+      "government_relation": "Direct police involvement established; criminal accountability followed.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S41",
+        "S42"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Major Sinha",
+        "police",
+        "crossfire"
+      ]
+    },
+    {
+      "id": "2021-mushtaq-death",
+      "slug": "2021-mushtaq-death",
+      "date_start": "2021-02-25",
+      "date_end": null,
+      "year": 2021,
+      "title_bn": "মুশতাক আহমেদের কারাগারে মৃত্যু",
+      "title_en": "Death of writer Mushtaq Ahmed in prison",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Kashimpur prison",
+      "summary_bn": "DSA মামলায় প্রায় নয় মাস প্রাক-বিচার আটক থাকার পর লেখক মুশতাক আহমেদ কারাগারে মারা যান; তাঁর জামিন একাধিকবার নাকচ হয়েছিল।",
+      "evidence_status": "VERIFIED_CUSTODIAL_DEATH",
+      "attribution": "Bangladesh prison/state custody",
+      "government_relation": "Direct state-custody responsibility for detention; cause/criminal responsibility for death should not be overstated without judicial findings.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S40",
+        "S42"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Mushtaq",
+        "DSA",
+        "custody"
+      ]
+    },
+    {
+      "id": "2021-anti-modi-protests",
+      "slug": "2021-anti-modi-protests",
+      "date_start": "2021-03-26",
+      "date_end": "2021-03-28",
+      "year": 2021,
+      "title_bn": "মোদি-বিরোধী বিক্ষোভে প্রাণহানি ও অতিরিক্ত বলপ্রয়োগ",
+      "title_en": "Deaths and excessive-force allegations during anti-Modi protests",
+      "category": "STATE_VIOLENCE",
+      "location": "Dhaka, Chattogram, Brahmanbaria and elsewhere",
+      "summary_bn": "২৬–২৮ মার্চের বিক্ষোভে অন্তত ১৪ বিক্ষোভকারীর মৃত্যুর স্বাধীন তদন্ত দাবি করে মানবাধিকার সংগঠনগুলো; পুলিশ, BGB এবং ক্ষমতাসীন দলের কর্মীদের সহিংসতার অভিযোগ নথিভুক্ত হয়।",
+      "evidence_status": "DOCUMENTED_LETHAL_FORCE_ALLEGATIONS_WITH_MIXED_VIOLENCE",
+      "attribution": "Police, BGB and ruling-party activists; protesters also involved in later violence",
+      "government_relation": "State excessive-force allegations are strong; wider unrest involved violence by multiple actors.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S43",
+        "S42"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Modi visit",
+        "protest",
+        "BGB"
+      ]
+    },
+    {
+      "id": "2021-rab-us-sanctions",
+      "slug": "2021-rab-us-sanctions",
+      "date_start": "2021-12-10",
+      "date_end": null,
+      "year": 2021,
+      "title_bn": "র‍্যাব ও কর্মকর্তাদের ওপর যুক্তরাষ্ট্রের মানবাধিকার নিষেধাজ্ঞা",
+      "title_en": "US human-rights sanctions on RAB and officials",
+      "category": "INTERNATIONAL_ACCOUNTABILITY",
+      "location": "United States / Bangladesh",
+      "summary_bn": "যুক্তরাষ্ট্রের ট্রেজারি Global Magnitsky ব্যবস্থায় র‍্যাব ও কয়েকজন বর্তমান/সাবেক কর্মকর্তার ওপর গুরুতর মানবাধিকার লঙ্ঘনের অভিযোগের ভিত্তিতে নিষেধাজ্ঞা আরোপ করে।",
+      "evidence_status": "VERIFIED_INTERNATIONAL_ACTION",
+      "attribution": "US Treasury action concerning RAB and officials",
+      "government_relation": "Sanctions are an official action based on US findings/allegations; not a criminal-court verdict.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S44",
+        "S09"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "RAB",
+        "sanctions",
+        "Magnitsky"
+      ]
+    },
+    {
+      "id": "2022-bnp-rally-crackdown",
+      "slug": "2022-bnp-rally-crackdown",
+      "date_start": "2022-12-07",
+      "date_end": "2022-12-10",
+      "year": 2022,
+      "title_bn": "ডিসেম্বর ২০২২ বিএনপি সমাবেশ ঘিরে দমন ও সংঘর্ষ",
+      "title_en": "Crackdown around the December 2022 BNP rally",
+      "category": "POLITICAL_REPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "৭ ডিসেম্বর ঢাকায় পুলিশ, আওয়ামী লীগ ও বিএনপি সমর্থকদের সংঘর্ষে একজন নিহত এবং বহু মানুষ আহত হন; শত শত বিরোধী নেতা-কর্মী আটক হন এবং বিএনপি কার্যালয়ে অভিযান চালানো হয়।",
+      "evidence_status": "MIXED_RESPONSIBILITY_WITH_DOCUMENTED_STATE_REPRESSION",
+      "attribution": "Police, ruling-party and opposition actors",
+      "government_relation": "Mixed clashes, with documented concerns about excessive force and mass arrests.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "BNP",
+        "rally",
+        "arrests"
+      ]
+    },
+    {
+      "id": "2023-shamsuzzaman-shams",
+      "slug": "2023-shamsuzzaman-shams",
+      "date_start": "2023-03-29",
+      "date_end": null,
+      "year": 2023,
+      "title_bn": "সাংবাদিক শামসুজ্জামান শামসের গ্রেপ্তার",
+      "title_en": "Arrest of journalist Shamsuzzaman Shams",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "দ্রব্যমূল্য নিয়ে প্রতিবেদন প্রকাশের পর ভোরে সাদা পোশাকের CID সদস্যরা শামসুজ্জামান শামসকে তুলে নেয়; প্রায় ১০ ঘণ্টা তাঁর অবস্থান অজানা ছিল এবং পরে DSA-তে মামলা হয়।",
+      "evidence_status": "VERIFIED_STATE_ACTION",
+      "attribution": "Criminal Investigation Department / Bangladesh authorities",
+      "government_relation": "Direct state arrest and prosecution.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S47",
+        "S55"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "journalist",
+        "DSA",
+        "Prothom Alo"
+      ]
+    },
+    {
+      "id": "2023-odhikar-conviction",
+      "slug": "2023-odhikar-conviction",
+      "date_start": "2023-09-14",
+      "date_end": null,
+      "year": 2023,
+      "title_bn": "আদিলুর রহমান খান ও এ এস এম নাসিরুদ্দিন এলানের সাজা",
+      "title_en": "Conviction of Odhikar leaders Adilur Rahman Khan and ASM Nasiruddin Elan",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Dhaka",
+      "summary_bn": "২০১৩ সালের শাপলা চত্বর প্রতিবেদনকে কেন্দ্র করে সাইবার ট্রাইব্যুনাল দুই মানবাধিকারকর্মীকে দুই বছরের কারাদণ্ড দেয়; আন্তর্জাতিক মানবাধিকার সংগঠনগুলো বিচারপ্রক্রিয়া ও প্রতিশোধমূলক ব্যবহারের অভিযোগ তোলে।",
+      "evidence_status": "VERIFIED_STATE_JUDICIAL_ACTION_WITH_FAIR_TRIAL_CONCERNS",
+      "attribution": "Bangladesh Cyber Tribunal / authorities",
+      "government_relation": "Conviction is verified; characterization as retaliatory is rights-groups' assessment.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S48",
+        "S15"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Odhikar",
+        "human rights defenders"
+      ]
+    },
+    {
+      "id": "2023-cyber-security-act",
+      "slug": "2023-cyber-security-act",
+      "date_start": "2023-09-18",
+      "date_end": null,
+      "year": 2023,
+      "title_bn": "সাইবার নিরাপত্তা আইন ২০২৩",
+      "title_en": "Cyber Security Act 2023",
+      "category": "FREEDOM_EXPRESSION",
+      "location": "Bangladesh",
+      "summary_bn": "DSA প্রতিস্থাপন করে সাইবার নিরাপত্তা আইন গেজেট হয়। Amnesty ও অন্যরা বলেছে, আইনটি DSA-এর বহু দমনমূলক বিধান ধরে রাখে।",
+      "evidence_status": "VERIFIED_LEGAL_CHANGE",
+      "attribution": "Parliament / Government of Bangladesh",
+      "government_relation": "Direct legislative action; criticism reflects rights-law analysis.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S49",
+        "S50"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "CSA",
+        "Cyber Security Act",
+        "free speech"
+      ]
+    },
+    {
+      "id": "2023-pre-election-crackdown",
+      "slug": "2023-pre-election-crackdown",
+      "date_start": "2023-10-28",
+      "date_end": "2023-11-26",
+      "year": 2023,
+      "title_bn": "২৮ অক্টোবর-পরবর্তী বিরোধী দমন ও গণগ্রেপ্তার",
+      "title_en": "Pre-election crackdown after the October 28 rally",
+      "category": "POLITICAL_REPRESSION",
+      "location": "Bangladesh",
+      "summary_bn": "HRW জানায়, ২৮ অক্টোবরের সমাবেশের পর প্রায় ১০,০০০ বিরোধী কর্মী গ্রেপ্তার হন; সহিংসতায় অন্তত ১৬ জন নিহত ও ৫,৫০০-এর বেশি আহত হওয়ার তথ্যও নথিভুক্ত হয়। পুলিশি অতিরিক্ত বলপ্রয়োগের পাশাপাশি বিরোধী বিক্ষোভকারীদের সহিংসতাও নথিভুক্ত।",
+      "evidence_status": "MIXED_RESPONSIBILITY_WITH_LARGE_SCALE_STATE_REPRESSION",
+      "attribution": "Police/security forces and violent opposition actors",
+      "government_relation": "Large-scale state crackdown documented; violence by opposition actors also documented.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S51",
+        "S55"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "election 2024",
+        "BNP",
+        "mass arrest"
+      ]
+    },
+    {
+      "id": "2023-garment-wage-protests",
+      "slug": "2023-garment-wage-protests",
+      "date_start": "2023-10-30",
+      "date_end": "2023-11-11",
+      "year": 2023,
+      "title_bn": "পোশাকশ্রমিক মজুরি আন্দোলনে তিন শ্রমিক নিহত",
+      "title_en": "Three worker deaths during garment wage protests",
+      "category": "LABOR_RIGHTS",
+      "location": "Dhaka/Gazipur industrial areas",
+      "summary_bn": "অক্টোবর–নভেম্বর মজুরি আন্দোলনে রাসেল হাওলাদার, আনজুয়ারা খাতুন ও জালাল উদ্দিন গুলিবিদ্ধ হয়ে মারা যান বলে Amnesty নথিভুক্ত করে; একই সময়ে বিপুলসংখ্যক শ্রমিকের বিরুদ্ধে মামলা হয়।",
+      "evidence_status": "DOCUMENTED_LETHAL_FORCE_EVENT",
+      "attribution": "Police/security response and protest-related violence; case-specific shooters require determination",
+      "government_relation": "State use-of-force accountability is central; avoid assuming identical circumstances in all three deaths.",
+      "evidence_level": "A",
+      "bubble_weight": 4,
+      "source_ids": [
+        "S52",
+        "S53"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "garment",
+        "wage protest",
+        "workers"
+      ]
+    },
+    {
+      "id": "2024-general-election",
+      "slug": "2024-general-election",
+      "date_start": "2024-01-07",
+      "date_end": null,
+      "year": 2024,
+      "title_bn": "২০২৪ জাতীয় নির্বাচন",
+      "title_en": "2024 parliamentary election",
+      "category": "DEMOCRACY_ELECTIONS",
+      "location": "Bangladesh",
+      "summary_bn": "প্রধান বিরোধী বিএনপি নির্বাচন বর্জন করে। যুক্তরাষ্ট্র আনুষ্ঠানিকভাবে জানায় যে নির্বাচনটি ‘free or fair’ ছিল না এবং বিরোধী সদস্যদের ব্যাপক গ্রেপ্তার ও অনিয়মের প্রতিবেদনে উদ্বেগ প্রকাশ করে।",
+      "evidence_status": "VERIFIED_ELECTION_CONTEXT_WITH_CREDIBLE_ABUSE_CONCERNS",
+      "attribution": "Election institutions and state authorities; opposition boycott",
+      "government_relation": "Government disputed external criticism; cite the assessment to its source rather than as a universal fact.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "election",
+        "2024"
+      ]
+    },
+    {
+      "id": "2024-july15-bcl-attacks",
+      "slug": "2024-july15-bcl-attacks",
+      "date_start": "2024-07-15",
+      "date_end": null,
+      "year": 2024,
+      "title_bn": "১৫ জুলাই: শিক্ষার্থীদের ওপর ছাত্রলীগ-সংশ্লিষ্ট হামলা",
+      "title_en": "July 15 attacks on student protesters",
+      "category": "JULY_2024",
+      "location": "Dhaka University and elsewhere",
+      "summary_bn": "Amnesty-এর যাচাই অনুযায়ী ঢাকা বিশ্ববিদ্যালয়ে শান্তিপূর্ণ কোটা আন্দোলনকারীদের ওপর লাঠি, রড ও অস্ত্রধারী ব্যক্তিদের হামলা হয়; দেশজুড়ে একই ধরনের হামলায় ছাত্রলীগ-সংশ্লিষ্ট ব্যক্তিদের সম্পৃক্ততার প্যাটার্ন দেখা যায়।",
+      "evidence_status": "DOCUMENTED_RULING_PARTY_AFFILIATE_VIOLENCE",
+      "attribution": "Individuals believed/identified as Bangladesh Chhatra League members",
+      "government_relation": "Ruling-party-affiliate violence; distinguish from formal state-security action.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S56",
+        "S57"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "July 2024",
+        "BCL",
+        "students"
+      ]
+    },
+    {
+      "id": "2024-abu-sayed",
+      "slug": "2024-abu-sayed",
+      "date_start": "2024-07-16",
+      "date_end": null,
+      "year": 2024,
+      "title_bn": "আবু সাঈদ হত্যা",
+      "title_en": "Killing of Abu Sayed",
+      "category": "JULY_2024",
+      "location": "Begum Rokeya University, Rangpur",
+      "summary_bn": "রংপুরে নিরস্ত্র আবু সাঈদের দিকে পুলিশ কাছ থেকে শটগান ছোড়ে। Amnesty-এর ভিজ্যুয়াল যাচাই এবং পরবর্তী OHCHR তদন্ত ঘটনাটিকে ইচ্ছাকৃত বিচারবহির্ভূত হত্যার শক্ত প্রমাণ হিসেবে বিবেচনা করে।",
+      "evidence_status": "STRONGLY_CORROBORATED_STATE_FORCE_KILLING",
+      "attribution": "Bangladesh police",
+      "government_relation": "Direct police shooting strongly corroborated by video/forensic analysis.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S56",
+        "S61"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "Abu Sayed",
+        "July 2024",
+        "police"
+      ]
+    },
+    {
+      "id": "2024-internet-shutdown",
+      "slug": "2024-internet-shutdown",
+      "date_start": "2024-07-18",
+      "date_end": "2024-08-05",
+      "year": 2024,
+      "title_bn": "জুলাইয়ে দেশব্যাপী ইন্টারনেট বন্ধ",
+      "title_en": "Nationwide internet shutdown during the July protests",
+      "category": "JULY_2024",
+      "location": "Bangladesh",
+      "summary_bn": "১৮–২৩ জুলাই এবং আবার ৪–৫ আগস্ট ইন্টারনেট বন্ধ/তীব্রভাবে সীমিত করা হয়। OHCHR-এর প্রাথমিক বিশ্লেষণ বলেছে, তথ্যপ্রবাহ ও আন্দোলনের সমন্বয় বাধাগ্রস্ত করতে সরকার ইচ্ছাকৃতভাবে সেবা সীমিত করেছিল বলে সংগৃহীত তথ্য নির্দেশ করে।",
+      "evidence_status": "DOCUMENTED_STATE_RESTRICTION",
+      "attribution": "Bangladesh government / telecommunications authorities",
+      "government_relation": "Direct state restriction; stated government rationale and OHCHR assessment should both be preserved in detail page.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S60",
+        "S63"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "internet shutdown",
+        "July 2024",
+        "censorship"
+      ]
+    },
+    {
+      "id": "2024-mass-arrests-coordinators",
+      "slug": "2024-mass-arrests-coordinators",
+      "date_start": "2024-07-17",
+      "date_end": "2024-08-02",
+      "year": 2024,
+      "title_bn": "জুলাই গণগ্রেপ্তার ও আন্দোলন সমন্বয়কদের DB হেফাজত",
+      "title_en": "Mass arrests and detention of protest coordinators",
+      "category": "JULY_2024",
+      "location": "Bangladesh",
+      "summary_bn": "Amnesty জানায় জুলাইয়ের শেষ নাগাদ ৯,০০০–১০,০০০-এর বেশি মানুষ আটক হন। নাহিদ ইসলাম, আসিফ মাহমুদ, আবু বাকের মজুমদারসহ ছয় সমন্বয়ককে হাসপাতাল/অন্যান্য স্থান থেকে DB হেফাজতে নেওয়া হয় এবং হেফাজতে আন্দোলন প্রত্যাহারের ভিডিও বার্তা দেওয়া হয়।",
+      "evidence_status": "DOCUMENTED_STATE_REPRESSION",
+      "attribution": "Police, Detective Branch and other authorities",
+      "government_relation": "Direct state detention campaign; coercion allegations are supported by rights-group/UN reporting but should be attributed.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S58",
+        "S59",
+        "S60"
+      ],
+      "display_caution_bn": null,
+      "tags": [
+        "mass arrest",
+        "DB",
+        "July 2024",
+        "coordinators"
+      ]
+    },
+    {
+      "id": "2024-july-august-crackdown",
+      "slug": "2024-july-august-crackdown",
+      "date_start": "2024-07-01",
+      "date_end": "2024-08-15",
+      "year": 2024,
+      "title_bn": "জুলাই–আগস্ট ২০২৪: ব্যাপক রাষ্ট্রীয় দমন ও প্রাণহানি",
+      "title_en": "July–August 2024 nationwide crackdown",
+      "category": "JULY_2024",
+      "location": "Bangladesh",
+      "summary_bn": "OHCHR-এর স্বাধীন ফ্যাক্ট-ফাইন্ডিং বলেছে, সাবেক সরকার, নিরাপত্তা ও গোয়েন্দা সংস্থা এবং আওয়ামী লীগ-সংশ্লিষ্ট সহিংস উপাদানগুলো পদ্ধতিগত গুরুতর মানবাধিকার লঙ্ঘনে জড়িত ছিল। প্রতিবেদনে ১ জুলাই–১৫ আগস্ট সময়ে সর্বোচ্চ প্রায় ১,৪০০ জন protest-related death-এর অনুমান করা হয়; হাজারো মানুষ আহত হন।",
+      "evidence_status": "UN_FACT_FINDING_STRONG_FINDINGS",
+      "attribution": "Former government, security/intelligence services and violent Awami League-associated elements; some protester violence also documented",
+      "government_relation": "Highest-evidence aggregate finding in the archive; not every death is individually attributed to the state.",
+      "evidence_level": "A",
+      "bubble_weight": 5,
+      "source_ids": [
+        "S61",
+        "S62",
+        "S57"
+      ],
+      "display_caution_bn": "‘১,৪০০ জনকেই সরকার হত্যা করেছে’ লিখবেন না; OHCHR মোট protest-related deaths-এর estimate দিয়েছে এবং অধিকাংশ গুলিবিদ্ধের ক্ষেত্রে নিরাপত্তা বাহিনীর অস্ত্র ব্যবহারের প্যাটার্ন পেয়েছে।",
+      "tags": [
+        "July 2024",
+        "OHCHR",
+        "crackdown"
+      ]
+    }
+  ]
+}
