@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-25T20:47:54.471Z",
+  "updatedAt": "2026-08-25T21:45:29.658Z",
   "items": [
+    {
+      "id": "facebook-germany-122201633984921031",
+      "facebookId": "122201633984921031",
+      "status": "published",
+      "date": "২৫ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-25T21:24:33+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "রোহিঙ্গা গণহত্যার নবম বর্ষপূর্তিতে সকল রোহিঙ্গা শহিদকে শ্রদ্ধার সঙ্গে স্মরণ করছে এনসিপি।",
+      "excerpt": "এ ছাড়া এনসিপি জীবিত মজলুম রোহিঙ্গাদের নিরাপদ জীবন ও মানবিক মর্যাদা এবং দ্রুততম সময়ের মধ্যে নাগরিকত্বসহ রোহিঙ্গাদের স্বদেশ প্রত্যাবর্তন নিশ্চিত করারও দাবি জানাচ্ছে।",
+      "sourceCaption": "রোহিঙ্গা গণহত্যার নবম বর্ষপূর্তিতে সকল রোহিঙ্গা শহিদকে শ্রদ্ধার সঙ্গে স্মরণ করছে এনসিপি। \n\nএ ছাড়া এনসিপি জীবিত মজলুম রোহিঙ্গাদের নিরাপদ জীবন ও মানবিক মর্যাদা এবং দ্রুততম সময়ের মধ্যে নাগরিকত্বসহ রোহিঙ্গাদের স্বদেশ প্রত্যাবর্তন নিশ্চিত করারও দাবি জানাচ্ছে।\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201633984921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122201633984921031.jpg",
+      "imageAlt": "রোহিঙ্গা গণহত্যার নবম বর্ষপূর্তিতে সকল রোহিঙ্গা শহিদকে শ্রদ্ধার সঙ্গে স্মরণ করছে এনসিপি।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122201594336921031",
       "facebookId": "122201594336921031",
@@ -107,33 +127,6 @@
       "image": "img/social/germany/fb-122201367326921031.jpg",
       "imageAlt": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"",
       "managedBy": "facebook-sync"
-    },
-    {
-      "id": "publisher-pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60",
-      "facebookId": "122201309648921031",
-      "status": "published",
-      "date": "২৩ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-23T19:26:54+0000",
-      "badge": "সংগঠন",
-      "title": "দেশের কোথাও বিদ্যুৎ পাওয়া যাচ্ছে না",
-      "excerpt": "দেশের কোথাও বিদ্যুৎ পাওয়া যাচ্ছে না। - নাহিদ ইসলাম #ncpdagermany",
-      "sourceCaption": "দেশের কোথাও বিদ্যুৎ পাওয়া যাচ্ছে না। - নাহিদ ইসলাম #ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/698081166720091_122201309648921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/publisher/pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60-1.jpg",
-      "imageAlt": "দেশের কোথাও বিদ্যুৎ পাওয়া যাচ্ছে না।",
-      "managedBy": "publisher-admin",
-      "preserveCopy": true,
-      "publisherId": "pub-ef78fa5d-bced-4b79-8c72-0bec7c0c5f60",
-      "sourceFingerprint": "547c0b6840371ce388f1e909fcc4db4f0599bf9e0de10ec4494ed07ea4977db2",
-      "translations": {
-        "en": {},
-        "de": {}
-      }
     },
     {
       "id": "facebook-germany-122197201634921031",
