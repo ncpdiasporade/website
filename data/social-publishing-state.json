@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-25T11:54:55.129Z",
+  "updatedAt": "2026-08-25T12:40:34.411Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -120,7 +120,8 @@
     "facebook:germany:122201309648921031": "4fb57f34e9f6ac9254d8f5e6d05e230f27ebe9985c19816d60e39d3161eb7746",
     "blog:bhola-highway-feasibility-disclosure": "41a7cdb317ac43fe178f498a8b9043d40399e895378312ded8d78f0b182b689b",
     "facebook:germany:122201367326921031": "2258e80f01281044c673e36f8222e807ea01d827d0eaaf9964905dbfc2c15190",
-    "facebook:germany:122201531948921031": "80d4bc7a094eb39efcd1e5118c6a11704535f381d4deac1c6899973f0d42c064"
+    "facebook:germany:122201531948921031": "80d4bc7a094eb39efcd1e5118c6a11704535f381d4deac1c6899973f0d42c064",
+    "blog:girls-universal-stipend-feasibility-disclosure": "297504015782533386e314038b74c9a9d518583126468b859da4d78881a7c06d"
   },
   "publications": []
 }
