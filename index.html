@@ -4413,7 +4413,7 @@
       </a>
 
       <ul class="nav-links">
-        <li><a href="#sovereignty" data-i18n-key="nav.history">খুনি হাসিনার ইতিহাস</a></li>
+        <li hidden data-history-navigation><a href="#sovereignty" data-i18n-key="nav.history">খুনি হাসিনার ইতিহাস</a></li>
         <li><a href="#uprising" data-i18n-key="nav.july">জুলাই ২০২৪</a></li>
         <li><a href="#about" data-i18n-key="nav.about">আমাদের সম্পর্কে</a></li>
         <li><a href="#updates" data-i18n-key="nav.latest">সর্বশেষ</a></li>
@@ -4446,7 +4446,7 @@
   </div>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="মোবাইল নেভিগেশন">
-    <a href="#sovereignty" data-i18n-key="nav.history">খুনি হাসিনার ইতিহাস</a>
+    <a href="#sovereignty" data-i18n-key="nav.history" hidden data-history-navigation>খুনি হাসিনার ইতিহাস</a>
     <a href="#uprising" data-i18n-key="nav.july">জুলাই ২০২৪</a>
     <a href="#about" data-i18n-key="nav.about">আমাদের সম্পর্কে</a>
     <a href="#pillars">লক্ষ্য ও আদর্শ</a>
@@ -4616,7 +4616,8 @@
     </div>
   </section>
 
-  <section class="sovereignty-gateway july-visual-section" id="sovereignty" aria-labelledby="sovereigntyTitle">
+  <!-- Temporarily hidden while the standalone history archive is being completed. -->
+  <section class="sovereignty-gateway july-visual-section" id="sovereignty" aria-labelledby="sovereigntyTitle" hidden data-history-section>
     <div class="container">
       <div class="sovereignty-gateway-head reveal">
         <div>
@@ -5082,7 +5083,7 @@
           <h4>নেভিগেশন</h4>
           <ul>
             <li data-announcements-link hidden><a href="#announcements">কর্মসূচি ও আয়োজন</a></li>
-            <li><a href="#sovereignty" data-i18n-key="nav.history">খুনি হাসিনার ইতিহাস</a></li>
+            <li hidden data-history-navigation><a href="#sovereignty" data-i18n-key="nav.history">খুনি হাসিনার ইতিহাস</a></li>
             <li><a href="#uprising" data-i18n-key="nav.july">জুলাই ২০২৪</a></li>
             <li><a href="#about" data-i18n-key="nav.about">আমাদের সম্পর্কে</a></li>
             <li><a href="#pillars">লক্ষ্য ও আদর্শ</a></li>
