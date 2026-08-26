@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-26T05:59:36.622Z",
+  "updatedAt": "2026-08-26T07:11:09.296Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -126,7 +126,8 @@
     "facebook:germany:122201586566921031": "3816dcbe32b47365ec784731bddf47e9b0c11f6282508d4f36f2635255df58fb",
     "facebook:germany:122201594336921031": "4dad57885c0b42e71a69a37334bfc3da314ccb64b434db8847e3f03085b084b4",
     "facebook:germany:122201633984921031": "acdedea8824773533e4d6a90daad3d67048ee38d28da423b715d48ae0b7ab213",
-    "blog:local-government-rooftop-solar-disclosure": "a894229dab770c412d37641ffab89129bb7a3ddfba859b963e1e47a6bbb6b739"
+    "blog:local-government-rooftop-solar-disclosure": "a894229dab770c412d37641ffab89129bb7a3ddfba859b963e1e47a6bbb6b739",
+    "facebook:germany:122201692730921031": "49db2d8806b945bb2d5370fa0816d512a8e0c6b478fb13c2928ba1c96a73601d"
   },
   "publications": []
 }
