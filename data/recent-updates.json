@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-26T05:51:28.116Z",
+  "updatedAt": "2026-08-26T07:10:16.304Z",
   "items": [
+    {
+      "id": "facebook-germany-122201692730921031",
+      "facebookId": "122201692730921031",
+      "status": "published",
+      "date": "২৬ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-26T07:05:32+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "পার্বত্য চট্টগ্রামের তিন জেলা পরিষদে দলীয়করণের প্রতিবাদ; বর্তমান দলীয় পরিষদ ভেঙ্গে দিয়ে নির্বাচিত পরিষদ প্রতিষ্ঠার…",
+      "excerpt": "পার্বত্য চট্টগ্রামের তিন জেলা পরিষদে দলীয়করণের প্রতিবাদ; বর্তমান দলীয় পরিষদ ভেঙ্গে দিয়ে নির্বাচিত পরিষদ প্রতিষ্ঠার দাবি -",
+      "sourceCaption": "পার্বত্য চট্টগ্রামের তিন জেলা পরিষদে দলীয়করণের প্রতিবাদ; বর্তমান দলীয় পরিষদ ভেঙ্গে দিয়ে নির্বাচিত পরিষদ প্রতিষ্ঠার দাবি -\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201692730921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122201692730921031.jpg",
+      "imageAlt": "পার্বত্য চট্টগ্রামের তিন জেলা পরিষদে দলীয়করণের প্রতিবাদ; বর্তমান দলীয় পরিষদ ভেঙ্গে দিয়ে নির্বাচিত পরিষদ প্রতিষ্ঠার…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122201633984921031",
       "facebookId": "122201633984921031",
@@ -106,26 +126,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122201531948921031.jpg",
       "imageAlt": "এনসিপি আগামীতে একক প্রার্থী দিয়ে প্রতিটি স্থানীয় নির্বাচনে অংশ নেবে।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122201367326921031",
-      "facebookId": "122201367326921031",
-      "status": "published",
-      "date": "২৪ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-24T06:26:16+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"",
-      "excerpt": "াতীয়নাগরিকপার্টি",
-      "sourceCaption": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের  \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"\n\n#NCP #জাতীয়নাগরিকপার্টি #NahidIslam #PolicyAndResearch #ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201367326921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122201367326921031.jpg",
-      "imageAlt": "ক্ষমতাসীন বিএনপি সরকারের প্রথম ১৮০ দিনের \"ব্যর্থতা, সীমাবদ্ধতা ও বাস্তব চিত্র\"",
       "managedBy": "facebook-sync"
     },
     {
