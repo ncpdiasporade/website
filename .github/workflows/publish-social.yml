@@ -14,7 +14,6 @@ on:
       - main
     paths:
       - data/recent-updates.json
-      - data/blog-posts.json
 
 permissions:
   contents: write
@@ -45,7 +44,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y fonts-noto-core
 
-      - name: Prepare new Facebook and blog items
+      - name: Prepare new Facebook items
         env:
           TIKTOK_PRODUCTION_APPROVED: ${{ vars.TIKTOK_PRODUCTION_APPROVED }}
         run: |

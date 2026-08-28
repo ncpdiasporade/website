@@ -67,16 +67,12 @@ jobs:
       - name: Project approved canonical content
         run: npm run publisher:admin -- project
 
-      - name: Generate existing share pages and validate
-        run: |
-          npm run generate:blog-previews
-          npm run validate
+      - name: Validate projected social content
+        run: npm run validate
 
       - name: Commit validated website projection
         run: |
-          git add data/recent-updates.json data/blog-posts.json
-          if [ -d blog ]; then git add blog; fi
-          if [ -d img/blog/publisher ]; then git add img/blog/publisher; fi
+          git add data/recent-updates.json
           if [ -d img/social/publisher ]; then git add img/social/publisher; fi
           if [ -d img/social/outbound ]; then git add img/social/outbound; fi
           if git diff --cached --quiet; then

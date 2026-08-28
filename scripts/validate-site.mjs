@@ -309,9 +309,6 @@ const publishingConfig = JSON.parse(fs.readFileSync(path.join(rootDir, 'social-p
 if (publishingConfig.policy?.facebook !== 'automatic') {
   errors.push('social-publishing.config.json: Facebook-origin posts must remain automatic');
 }
-if (publishingConfig.policy?.blog !== 'approval-required') {
-  errors.push('social-publishing.config.json: Blog-origin posts must remain approval-required');
-}
 for (const platform of ['x', 'tiktok']) {
   if (!publishingConfig.platforms?.includes(platform)) {
     errors.push(`social-publishing.config.json: missing ${platform} platform`);
@@ -321,10 +318,13 @@ for (const platform of ['x', 'tiktok']) {
 const socialQueue = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/social-review-queue.json'), 'utf8'));
 const queueIds = new Set();
 for (const item of socialQueue.items || []) {
+  if (item.sourceType !== 'facebook') {
+    errors.push(`data/social-review-queue.json: ${item.id || '(missing id)'} has an unsupported non-Facebook source`);
+    continue;
+  }
   if (!item.id || queueIds.has(item.id)) errors.push(`data/social-review-queue.json: duplicate or missing queue id ${item.id || '(empty)'}`);
   queueIds.add(item.id);
-  const expectedApproval = item.sourceType === 'facebook' ? 'automatic' : item.sourceType === 'blog' ? 'required' : null;
-  if (!expectedApproval || item.approval !== expectedApproval) {
+  if (item.approval !== 'automatic') {
     errors.push(`data/social-review-queue.json: ${item.id || '(missing id)'} violates the source approval policy`);
   }
   for (const platform of ['x', 'tiktok']) {

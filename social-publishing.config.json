@@ -5,8 +5,7 @@
     "germany"
   ],
   "policy": {
-    "facebook": "automatic",
-    "blog": "approval-required"
+    "facebook": "automatic"
   },
   "platforms": [
     "x",

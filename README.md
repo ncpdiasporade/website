@@ -66,6 +66,8 @@ The token must be allowed to read the corresponding Page's published posts, Page
 
 The Codex desktop automation **4-Hour Bangladesh Accountability Blog** runs every four hours. It scans the priorities and monitoring rules in `/Users/mdtajulislam/Downloads/Bangladesh_Public_Accountability_Source_Database.xlsx`, ranks recent accountability stories, writes up to three detailed Bengali analyses when evidence qualifies, validates the site, and publishes a verified commit to `main`. It uses the editorial rules in `prompts/bangladesh-accountability-analyst.md` and the neutral reusable artwork in `img/blog/governance-analysis.svg` and `img/blog/governance-analysis-share.jpg`.
 
+This is the only automated path allowed to create or publish website blog articles. GitHub Actions may still synchronize Facebook content and publish approved social updates, but those workflows do not read from or write to the Blog catalogue.
+
 No OpenAI API key or separate API billing is required. The computer must remain on with the Codex desktop app running when local scheduled work is due. The task works in a temporary Git worktree so unfinished files in the saved checkout remain untouched.
 
 Publication is quality-gated: only `READY TO PUBLISH` work may go live; the evidence score must be at least 80, fact-checking must pass, confidence cannot be low, at least three valid sources and one primary or international institutional source are required, NCP or social claims must be independently verified, and material government responses or counterevidence cannot be hidden. A failed gate produces no website change.
