@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-08-28T06:15:51.829Z",
+  "updatedAt": "2026-08-28T17:25:39.105Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -135,7 +135,8 @@
     "facebook:germany:122201892746921031": "d2857f110dee9ccce71ad17bf7a7910c05f1e4a61e5e1f404791e809013592d2",
     "facebook:germany:122201925764921031": "0579e77f62bc837d494f28bd633a8735166ce8facbe1ef85ccd4f72e0a0066ed",
     "blog:enforced-disappearance-independent-investigation": "c06ea138fb4b4f4ac6321968448a58b24e66b62341fa144bb75837bfe106bb01",
-    "facebook:germany:122201949452921031": "679296403aebc3c511d53a2956400b1909e089125471bec3621650562a0138ed"
+    "facebook:germany:122201949452921031": "679296403aebc3c511d53a2956400b1909e089125471bec3621650562a0138ed",
+    "blog:district-oversight-public-reporting": "653cce04ed0da453c354e394b6499f0a555102d7f8993a1d4e08e601b26cbb7b"
   },
   "publications": []
 }
