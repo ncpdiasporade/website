@@ -45,6 +45,8 @@ Manual fallback:
 
 The Codex desktop automation **4-Hour Bangladesh Accountability Blog** runs every four hours. It follows `prompts/bangladesh-accountability-analyst.md`, uses `/Users/mdtajulislam/Downloads/Bangladesh_Public_Accountability_Source_Database.xlsx` as its priority/trust/cadence research map, works from the latest `origin/main` in an isolated temporary worktree, and publishes only `READY TO PUBLISH` work after every evidence and fact-check gate passes. No OpenAI API secret is used.
 
+It is the repository's only automated blog creator and publisher. Do not add Blog ingestion to GitHub social workflows or restore a separate API-based Blog agent; the private admin publisher accepts social updates only.
+
 Every Bengali article and manual edit must also follow `docs/BLOG_EDITORIAL_STYLE_BN.md`: lead with the concrete question, keep the prose conversational and precise, explain technical language, distinguish facts from allegations, and criticise decisions without personal ridicule.
 
 Manage pauses, schedule changes, and run results from the Codex **Scheduled** view. Keep the computer on and the Codex app running at execution time. Never lower the 80-point evidence threshold, treat NCP/social claims as proof, or bypass the institutional-source requirement merely to maintain a four-hour publishing cadence.

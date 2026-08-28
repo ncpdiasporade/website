@@ -12,7 +12,6 @@ const paths = {
   queue: resolvePath(process.env.SOCIAL_QUEUE_PATH || 'data/social-review-queue.json'),
   state: resolvePath(process.env.SOCIAL_STATE_PATH || 'data/social-publishing-state.json'),
   facebook: resolvePath(process.env.SOCIAL_FACEBOOK_PATH || 'data/recent-updates.json'),
-  blogs: resolvePath(process.env.SOCIAL_BLOG_PATH || 'data/blog-posts.json'),
   outbound: resolvePath(process.env.SOCIAL_OUTBOUND_DIR || 'img/social/outbound')
 };
 
@@ -114,15 +113,12 @@ function localRelativePath(absolutePath) {
   return path.relative(rootDir, absolutePath).split(path.sep).join('/');
 }
 
-function publishedAt(record, sourceType) {
-  return sourceType === 'facebook'
-    ? record.createdAt || record.created_time || null
-    : record.publishedAt || null;
+function publishedAt(record) {
+  return record.createdAt || record.created_time || null;
 }
 
 function sourceRecords() {
   const facebook = readJson(paths.facebook, { items: [] });
-  const blogs = readJson(paths.blogs, { items: [] });
   const allowedFacebookSources = new Set(config.facebookSourceKeys || ['germany']);
   const records = [];
 
@@ -133,21 +129,8 @@ function sourceRecords() {
       sourceType: 'facebook',
       sourceId: String(sourceId),
       sourceKey: `facebook:${item.sourceKey}:${sourceId}`,
-      sourceCreatedAt: publishedAt(item, 'facebook'),
+      sourceCreatedAt: publishedAt(item),
       approval: 'automatic',
-      item
-    });
-  }
-
-  for (const item of blogs.items || []) {
-    if (item.status !== 'published') continue;
-    const sourceId = item.slug || item.id;
-    records.push({
-      sourceType: 'blog',
-      sourceId: String(sourceId),
-      sourceKey: `blog:${sourceId}`,
-      sourceCreatedAt: publishedAt(item, 'blog'),
-      approval: 'required',
       item
     });
   }
@@ -156,20 +139,7 @@ function sourceRecords() {
 }
 
 function sourceFingerprint(record) {
-  if (record.sourceType === 'facebook') return fingerprint({ id: record.sourceId });
-  const item = record.item;
-  return fingerprint({
-    id: record.sourceId,
-    title: item.title,
-    excerpt: item.excerpt,
-    image: item.shareImage || item.image,
-    publishedAt: item.publishedAt
-  });
-}
-
-function articleUrl(item) {
-  if (item.sharePath) return publicUrl(`${String(item.sharePath).replace(/^\/+|\/+$/g, '')}/`);
-  return `${config.siteUrl}/?blog=${encodeURIComponent(item.slug || item.id)}#blog`;
+  return fingerprint({ id: record.sourceId });
 }
 
 function xDraft(title, excerpt, url) {
@@ -307,19 +277,16 @@ async function materializeMedia(queueId, title, excerpt, sourceImage) {
 
 async function queueRecord(record, sourceHash) {
   const item = record.item;
-  const isBlog = record.sourceType === 'blog';
-  const sourceCaption = isBlog ? '' : clean(item.sourceCaption);
+  const sourceCaption = clean(item.sourceCaption);
   const firstSourceSentence = sourceCaption.split(/(?<=[।!?])\s+/u)[0];
-  const title = isBlog
-    ? clean(item.title || 'NCP Diaspora Alliance Germany আপডেট')
-    : clipAtWord(firstSourceSentence || item.title || 'NCP Diaspora Alliance Germany আপডেট', 150);
-  const excerpt = isBlog ? clean(item.excerpt || title) : (sourceCaption || clean(item.excerpt || title));
-  const url = isBlog ? articleUrl(item) : item.sourceUrl;
-  const image = isBlog ? (item.shareImage || item.image) : item.image;
+  const title = clipAtWord(firstSourceSentence || item.title || 'NCP Diaspora Alliance Germany আপডেট', 150);
+  const excerpt = sourceCaption || clean(item.excerpt || title);
+  const url = item.sourceUrl;
+  const image = item.image;
   const queueId = `${record.sourceType}-${safeId(record.sourceId)}-${sourceHash.slice(0, 10)}`;
   const media = await materializeMedia(queueId, title, excerpt, image);
   const xStatus = platformPublishingMode('x') === 'draft-only'
-    ? (record.approval === 'required' ? 'awaiting-approval' : 'draft-ready')
+    ? 'draft-ready'
     : 'pending';
   return {
     id: queueId,
@@ -329,18 +296,18 @@ async function queueRecord(record, sourceHash) {
     sourceFingerprint: sourceHash,
     sourceCreatedAt: record.sourceCreatedAt,
     sourceUrl: url,
-    sourceName: isBlog ? 'NCPDA Germany Blog' : item.sourceName,
+    sourceName: item.sourceName,
     approval: record.approval,
-    approvalStatus: record.approval === 'required' ? 'awaiting-approval' : 'not-required',
-    status: record.approval === 'required' ? 'awaiting-approval' : 'pending',
+    approvalStatus: 'not-required',
+    status: 'pending',
     createdAt: now(),
     updatedAt: now(),
     title,
     excerpt,
     sourceCaption: sourceCaption || null,
     image: image || null,
-    imageCredit: isBlog ? item.imageCredit || null : null,
-    imageSourceUrl: isBlog ? item.imageSourceUrl || null : null,
+    imageCredit: null,
+    imageSourceUrl: null,
     platforms: {
       x: {
         status: xStatus,
@@ -352,7 +319,7 @@ async function queueRecord(record, sourceHash) {
         status: tiktokProductionApproved() ? 'pending' : 'blocked',
         attempts: 0,
         title: clipAtWord(title, 90),
-        description: tiktokDraft(title, excerpt, url, isBlog ? item.imageCredit : ''),
+        description: tiktokDraft(title, excerpt, url),
         mediaPaths: [media.tiktok],
         ...(tiktokProductionApproved() ? {} : { blockReason: 'production-approval-required' })
       }
@@ -368,9 +335,7 @@ function applyPublishingModes(queue) {
     if (platformPublishingMode('x') === 'draft-only'
       && xPlatform
       && !['published', 'submitted', 'skipped', 'draft-ready'].includes(xPlatform.status)) {
-      xPlatform.status = item.approval === 'required' && item.approvalStatus !== 'approved'
-        ? 'awaiting-approval'
-        : 'draft-ready';
+      xPlatform.status = 'draft-ready';
       xPlatform.attempts = 0;
       delete xPlatform.blockReason;
       delete xPlatform.claimId;
@@ -405,24 +370,37 @@ function applyPublishingModes(queue) {
 }
 
 function loadState() {
-  return readJson(paths.state, {
+  const state = readJson(paths.state, {
     version: 1,
     initializedAt: null,
     updatedAt: null,
     knownSources: {},
     publications: []
   });
+  const sourceEntries = Object.entries(state.knownSources || {});
+  state.knownSources = Object.fromEntries(sourceEntries.filter(([sourceKey]) => sourceKey.startsWith('facebook:')));
+  Object.defineProperty(state, 'unsupportedSourcesRemoved', {
+    value: sourceEntries.length !== Object.keys(state.knownSources).length,
+    enumerable: false
+  });
+  return state;
 }
 
 function loadQueue() {
-  return readJson(paths.queue, { version: 1, updatedAt: null, items: [] });
+  const queue = readJson(paths.queue, { version: 1, updatedAt: null, items: [] });
+  const items = queue.items || [];
+  queue.items = items.filter((item) => item.sourceType === 'facebook');
+  Object.defineProperty(queue, 'unsupportedItemsRemoved', {
+    value: items.length !== queue.items.length,
+    enumerable: false
+  });
+  return queue;
 }
 
 function recalculateItemStatus(item) {
   const statuses = Object.values(item.platforms || {}).map((platform) => platform.status);
   if (statuses.length && statuses.every((status) => terminalPlatformStatuses.has(status))) return 'completed';
   if (statuses.some((status) => status === 'publishing')) return 'publishing';
-  if (item.approval === 'required' && item.approvalStatus !== 'approved') return 'awaiting-approval';
   if (statuses.some((status) => status === 'blocked')) return 'blocked';
   if (statuses.some((status) => status === 'failed')) return 'failed';
   return 'pending';
@@ -452,13 +430,12 @@ async function prepare() {
   const queue = loadQueue();
   const queuedFingerprints = new Set((queue.items || []).map((item) => `${item.sourceKey}:${item.sourceFingerprint}`));
   let created = 0;
-  let changed = applyPublishingModes(queue);
+  let changed = state.unsupportedSourcesRemoved || queue.unsupportedItemsRemoved || applyPublishingModes(queue);
 
   for (const record of sourceRecords()) {
     const sourceHash = sourceFingerprint(record);
     const previousHash = state.knownSources[record.sourceKey];
-    const changedBlog = record.sourceType === 'blog' && previousHash && previousHash !== sourceHash;
-    if (previousHash && !changedBlog) continue;
+    if (previousHash) continue;
     if (queuedFingerprints.has(`${record.sourceKey}:${sourceHash}`)) continue;
 
     const sourceTime = new Date(record.sourceCreatedAt || 0).getTime();
@@ -487,7 +464,7 @@ async function prepare() {
   queue.items = queue.items.slice(-500);
   writeJson(paths.queue, queue);
   writeJson(paths.state, state);
-  console.log(`Prepared ${created} new social item(s): Facebook items are automatic; blog items await explicit approval.`);
+  console.log(`Prepared ${created} new Facebook-origin social item(s).`);
 }
 
 function availablePlatforms() {
@@ -509,13 +486,6 @@ function requestedPlatforms() {
   return [...new Set(requested)].filter((value) => (config.platforms || []).includes(value));
 }
 
-function applyOverrides(item) {
-  const xText = args['x-text'] || process.env.SOCIAL_X_TEXT_OVERRIDE;
-  const tiktokDescription = args['tiktok-description'] || process.env.SOCIAL_TIKTOK_DESCRIPTION_OVERRIDE;
-  if (xText) item.platforms.x.text = String(xText).trim();
-  if (tiktokDescription) item.platforms.tiktok.description = String(tiktokDescription).trim();
-}
-
 async function claim() {
   const queue = loadQueue();
   const claimId = String(args['claim-id'] || process.env.GITHUB_RUN_ID || `local-${Date.now()}`);
@@ -523,37 +493,29 @@ async function claim() {
   const itemSelector = String(args.item || process.env.SOCIAL_ITEM || '').trim();
   const credentials = availablePlatforms();
   const platforms = requestedPlatforms();
-  const maximum = approvalMode === 'automatic' ? Number(config.maximumAutomaticItemsPerRun || 3) : 1;
+  const maximum = Number(config.maximumAutomaticItemsPerRun || 3);
   let claimedItems = 0;
 
-  if (approvalMode === 'required' && process.env.SOCIAL_APPROVAL_CONFIRMED !== 'true') {
-    throw new Error('Blog publishing requires SOCIAL_APPROVAL_CONFIRMED=true from the manual approval workflow.');
+  if (approvalMode !== 'automatic') {
+    throw new Error('Only automatic Facebook-origin social publishing is supported.');
   }
 
   for (const item of queue.items || []) {
     if (claimedItems >= maximum) break;
-    if (approvalMode === 'automatic' && item.approval !== 'automatic') continue;
-    if (approvalMode === 'required' && item.approval !== 'required') continue;
+    if (item.sourceType !== 'facebook' || item.approval !== 'automatic') continue;
     if (itemSelector && item.id !== itemSelector && item.sourceId !== itemSelector) continue;
 
     const claimablePlatforms = platforms.filter((platformName) => {
       const platform = item.platforms?.[platformName];
       if (!platform) return false;
       if (platformPublishingMode(platformName) === 'draft-only') {
-        return approvalMode === 'required' && platform.status === 'awaiting-approval';
+        return false;
       }
       if (terminalPlatformStatuses.has(platform.status) || platform.status === 'publishing' || platform.status === 'blocked') return false;
       if ((platform.attempts || 0) >= Number(config.maximumAttemptsPerPlatform || 3)) return false;
       return credentials[platformName] || process.env.SOCIAL_MOCK_PUBLISHING === 'true';
     });
     if (!claimablePlatforms.length) continue;
-
-    if (approvalMode === 'required') {
-      item.approvalStatus = 'approved';
-      item.approvedAt = now();
-      item.approvedBy = process.env.GITHUB_ACTOR || 'manual-workflow';
-      applyOverrides(item);
-    }
 
     let platformClaims = 0;
     for (const platformName of claimablePlatforms) {
@@ -577,9 +539,6 @@ async function claim() {
     }
   }
 
-  if (approvalMode === 'required' && itemSelector && !claimedItems) {
-    throw new Error(`No publishable blog queue item matched "${itemSelector}". Check the queue ID, credentials, and platform status.`);
-  }
   if (claimedItems) {
     queue.updatedAt = now();
     writeJson(paths.queue, queue);

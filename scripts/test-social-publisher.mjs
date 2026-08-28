@@ -13,7 +13,6 @@ const files = {
   queue: path.join(temporaryDir, 'queue.json'),
   state: path.join(temporaryDir, 'state.json'),
   facebook: path.join(temporaryDir, 'facebook.json'),
-  blogs: path.join(temporaryDir, 'blogs.json'),
   outbound: path.join(temporaryDir, 'outbound')
 };
 
@@ -36,7 +35,6 @@ function run(command, extraArgs = [], extraEnv = {}, expectedStatus = 0) {
       SOCIAL_QUEUE_PATH: files.queue,
       SOCIAL_STATE_PATH: files.state,
       SOCIAL_FACEBOOK_PATH: files.facebook,
-      SOCIAL_BLOG_PATH: files.blogs,
       SOCIAL_OUTBOUND_DIR: files.outbound,
       TIKTOK_PRODUCTION_APPROVED: 'true',
       ...extraEnv
@@ -51,15 +49,15 @@ try {
     version: 1,
     siteUrl: 'https://ncpdagermany.de',
     facebookSourceKeys: ['germany'],
-    policy: { facebook: 'automatic', blog: 'approval-required' },
+    policy: { facebook: 'automatic' },
     platforms: ['x', 'tiktok'],
     maximumAutomaticItemsPerRun: 3,
     maximumAttemptsPerPlatform: 3,
     x: { publishingMode: 'automatic', maximumCharacters: 280, hashtags: ['#NCPDAGermany'] },
     tiktok: { username: 'ncpda.germany', privacyLevel: 'PUBLIC_TO_EVERYONE', autoAddMusic: false, hashtags: ['#NCPDAGermany'] }
   });
-  writeJson(files.queue, { version: 1, updatedAt: null, items: [] });
-  writeJson(files.state, { version: 1, initializedAt: null, updatedAt: null, knownSources: {}, publications: [] });
+  writeJson(files.queue, { version: 1, updatedAt: null, items: [{ id: 'legacy-item', sourceType: 'blog' }] });
+  writeJson(files.state, { version: 1, initializedAt: null, updatedAt: null, knownSources: { 'blog:legacy-item': 'legacy' }, publications: [] });
   writeJson(files.facebook, {
     items: [{
       id: 'facebook-germany-existing',
@@ -73,19 +71,9 @@ try {
       excerpt: 'Existing content'
     }]
   });
-  writeJson(files.blogs, {
-    items: [{
-      id: 'existing-blog',
-      slug: 'existing-blog',
-      status: 'published',
-      publishedAt: '2026-07-01T11:00:00Z',
-      sharePath: 'blog/existing-blog',
-      title: 'Existing Blog',
-      excerpt: 'Existing Blog content'
-    }]
-  });
-
   run('seed');
+  assert.deepEqual(readJson(files.queue).items, [], 'seed must purge unsupported legacy queue items');
+  assert.deepEqual(readJson(files.state).knownSources, { 'facebook:germany:existing': readJson(files.state).knownSources['facebook:germany:existing'] });
   const future = new Date(Date.now() + 60000).toISOString();
   const facebook = readJson(files.facebook);
   facebook.items.unshift({
@@ -101,50 +89,21 @@ try {
     sourceCaption: 'এটি মূল Facebook caption। মূল বক্তব্য অপরিবর্তিত থাকবে।'
   });
   writeJson(files.facebook, facebook);
-  const blogs = readJson(files.blogs);
-  blogs.items.unshift({
-    id: 'new-blog',
-    slug: 'new-blog',
-    status: 'published',
-    publishedAt: future,
-    sharePath: 'blog/new-blog',
-    title: 'নতুন বিশ্লেষণধর্মী ব্লগ',
-    excerpt: 'এই ব্লগের social post প্রকাশের আগে অনুমোদন আবশ্যক।',
-    imageCredit: 'Test image credit'
-  });
-  writeJson(files.blogs, blogs);
 
   run('prepare');
   let queue = readJson(files.queue);
-  assert.equal(queue.items.length, 2);
+  assert.equal(queue.items.length, 1);
   const facebookQueueItem = queue.items.find((item) => item.sourceType === 'facebook');
-  const blogQueueItem = queue.items.find((item) => item.sourceType === 'blog');
   assert.equal(facebookQueueItem.approval, 'automatic');
   assert.equal(facebookQueueItem.status, 'pending');
   assert.match(facebookQueueItem.platforms.x.text, /এটি মূল Facebook caption/u);
   assert.doesNotMatch(facebookQueueItem.platforms.x.text, /Website summary/u);
-  assert.equal(blogQueueItem.approval, 'required');
-  assert.equal(blogQueueItem.status, 'awaiting-approval');
   assert.ok(fs.existsSync(path.resolve(rootDir, facebookQueueItem.platforms.x.mediaPath)) || fs.existsSync(path.join(temporaryDir, 'outbound', path.basename(facebookQueueItem.platforms.x.mediaPath))));
 
   run('claim', ['--approval', 'automatic', '--claim-id', 'auto-test'], { SOCIAL_MOCK_PUBLISHING: 'true' });
   run('execute', ['--claim-id', 'auto-test'], { SOCIAL_MOCK_PUBLISHING: 'true' });
   queue = readJson(files.queue);
   assert.equal(queue.items.find((item) => item.sourceType === 'facebook').status, 'completed');
-  assert.equal(queue.items.find((item) => item.sourceType === 'blog').status, 'awaiting-approval');
-
-  run('claim', ['--approval', 'required', '--item', 'new-blog', '--claim-id', 'blog-denied'], { SOCIAL_MOCK_PUBLISHING: 'true' }, 1);
-  run('claim', ['--approval', 'required', '--item', 'new-blog', '--claim-id', 'blog-approved'], {
-    SOCIAL_MOCK_PUBLISHING: 'true',
-    SOCIAL_APPROVAL_CONFIRMED: 'true',
-    SOCIAL_X_TEXT_OVERRIDE: 'অনুমোদিত X caption https://ncpdagermany.de/blog/new-blog/'
-  });
-  run('execute', ['--claim-id', 'blog-approved'], { SOCIAL_MOCK_PUBLISHING: 'true' });
-  queue = readJson(files.queue);
-  const approvedBlog = queue.items.find((item) => item.sourceType === 'blog');
-  assert.equal(approvedBlog.status, 'completed');
-  assert.equal(approvedBlog.approvalStatus, 'approved');
-  assert.match(approvedBlog.platforms.x.text, /^অনুমোদিত X caption/u);
 
   const completedFacebook = queue.items.find((item) => item.sourceType === 'facebook');
   completedFacebook.platforms.x.status = 'blocked';
@@ -157,8 +116,8 @@ try {
   assert.equal(queue.items.find((item) => item.sourceType === 'facebook').platforms.x.blockReason, undefined);
 
   run('prepare');
-  assert.equal(readJson(files.queue).items.length, 2, 'prepare must not duplicate known source items');
-  assert.equal(readJson(files.state).publications.length, 4, 'two platforms should be recorded for each source item');
+  assert.equal(readJson(files.queue).items.length, 1, 'prepare must not duplicate known source items');
+  assert.equal(readJson(files.state).publications.length, 2, 'two platforms should be recorded for the Facebook item');
 
   const draftConfig = readJson(files.config);
   draftConfig.x.publishingMode = 'draft-only';
@@ -190,7 +149,7 @@ try {
   const draftOutput = run('drafts');
   assert.match(draftOutput.stdout, /এই caption-টি manual X draft/u);
   assert.match(draftOutput.stdout, /Download the X-ready image/u);
-  assert.equal(readJson(files.state).publications.length, 5, 'draft-only X must not create an X publication record');
+  assert.equal(readJson(files.state).publications.length, 3, 'draft-only X must not create an X publication record');
 
   const sandboxFacebook = readJson(files.facebook);
   sandboxFacebook.items.unshift({
@@ -211,7 +170,7 @@ try {
   const gatedItem = queue.items.find((item) => item.sourceId === 'sandbox-gated');
   assert.equal(gatedItem.platforms.tiktok.status, 'blocked');
   assert.equal(gatedItem.platforms.tiktok.blockReason, 'production-approval-required');
-  console.log('Social publisher policy, approval gate, media generation, delivery state and deduplication tests passed.');
+  console.log('Facebook-only social publisher policy, media generation, delivery state and deduplication tests passed.');
 } finally {
   fs.rmSync(temporaryDir, { recursive: true, force: true });
 }

@@ -1,7 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import sharp from 'sharp';
 import { materializeMedia, publishToTikTok, publishToX, redactedError, xDraft, tiktokDraft } from './social-publisher.mjs';
 import { metaGraphRequest } from './lib/meta-graph-request.mjs';
 import { resolveMetaPageAccessToken } from './lib/meta-page-token.mjs';
@@ -12,7 +11,6 @@ const payloadPath = path.resolve(process.env.PUBLISHER_PAYLOAD_PATH || process.a
 const resultsPath = path.resolve(process.env.PUBLISHER_RESULTS_PATH || '.publisher-work/results.json');
 const workDir = path.resolve(root, '.publisher-work');
 const updatesPath = path.join(root, 'data/recent-updates.json');
-const blogsPath = path.join(root, 'data/blog-posts.json');
 const siteUrl = 'https://ncpdagermany.de';
 const repo = 'ncpdiasporade/website';
 
@@ -35,9 +33,14 @@ function clean(value) { return String(value || '').replace(/\s+/g, ' ').trim(); 
 function bnDate(value) { return new Intl.DateTimeFormat('bn-BD', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Berlin' }).format(new Date(value)); }
 function contentTitle(publication) { return clean(publication.content?.title || 'NCP Diaspora Alliance Germany'); }
 function selected(publication, platform) {
-  if (platform === 'website') return publication.type === 'WEBSITE_PUBLICATION' || publication.content?.websiteVisibility === 'RECENT_UPDATES';
-  const list = publication.type === 'SOCIAL_UPDATE' ? publication.content?.platforms : publication.content?.socialDistribution;
+  if (platform === 'website') return publication.content?.websiteVisibility === 'RECENT_UPDATES';
+  const list = publication.content?.platforms;
   return Array.isArray(list) && list.includes(platform);
+}
+function assertSupported(publication) {
+  if (publication.type !== 'SOCIAL_UPDATE') {
+    throw new Error('The admin publisher accepts SOCIAL_UPDATE records only; automated website/blog publication is disabled.');
+  }
 }
 function override(publication, platform) { return publication.content?.platformOverrides?.[platform] || {}; }
 function captionFor(publication, platform) {
@@ -46,7 +49,7 @@ function captionFor(publication, platform) {
   return clean(custom.caption || custom.description || content.caption || content.excerpt || content.title);
 }
 function mediaItems(publication) {
-  const values = publication.type === 'SOCIAL_UPDATE' ? publication.content?.media : publication.content?.coverMedia ? [publication.content.coverMedia] : [];
+  const values = publication.content?.media;
   return Array.isArray(values) ? values : [];
 }
 function extFor(mime, filename) {
@@ -54,8 +57,7 @@ function extFor(mime, filename) {
   return known[mime] || path.extname(filename || '').replace('.', '') || 'bin';
 }
 function publicMediaPath(publication, item, index) {
-  const group = publication.type === 'WEBSITE_PUBLICATION' ? 'blog/publisher' : 'social/publisher';
-  return `img/${group}/${safe(publication.id)}-${index + 1}.${extFor(item.mimeType, item.filename)}`;
+  return `img/social/publisher/${safe(publication.id)}-${index + 1}.${extFor(item.mimeType, item.filename)}`;
 }
 function workingMediaPath(item, index) { return path.join(workDir, `source-${safe(item.id)}-${index + 1}.${extFor(item.mimeType, item.filename)}`); }
 function absolutePublic(relative) { return new URL(relative, `${siteUrl}/`).href; }
@@ -124,44 +126,13 @@ async function projectSocial(payload, media) {
   writeJson(updatesPath, data);
 }
 
-async function projectBlog(payload, media) {
-  const publication = payload.publication;
-  const content = publication.content;
-  const data = readJson(blogsPath, { updatedAt: null, items: [] });
-  const timestamp = new Date().toISOString();
-  const primary = media[0];
-  let image = primary?.publicPath;
-  let shareImage;
-  if (primary?.type === 'image') {
-    shareImage = `img/blog/publisher/${safe(publication.id)}-share.jpg`;
-    await sharp(primary.localPath).rotate().resize(1200, 628, { fit: 'cover', position: 'attention' }).jpeg({ quality: 88, mozjpeg: true }).toFile(path.join(root, shareImage));
-  }
-  const record = {
-    id: content.slug, publisherId: publication.id, slug: content.slug, status: 'published', tag: content.tag,
-    author: content.author, date: bnDate(timestamp), title: content.title, excerpt: content.excerpt,
-    ...(image ? { image } : {}), sharePath: `blog/${content.slug}`, ...(shareImage ? { shareImage, shareImageWidth: 1200, shareImageHeight: 628 } : {}),
-    publishedAt: timestamp, imageAlt: primary?.alt || content.title, imageCredit: primary?.credit,
-    license: primary?.license, imageSourceUrl: primary?.sourceUrl, facts: content.facts || [], blocks: content.blocks || [], sources: content.sources || [],
-    translations: Object.fromEntries(['en','de'].map((language) => [language, {
-      ...(content.translations?.[language] || {}),
-      imageAlt: content.translations?.[language]?.imageAlt || primary?.alt || content.title,
-      imageCredit: content.translations?.[language]?.imageCredit || primary?.credit || 'NCP Diaspora Alliance Germany'
-    }])), sourceFingerprint: publication.sourceFingerprint, managedBy: 'publisher-admin'
-  };
-  const index = (data.items || []).findIndex((item) => item.publisherId === publication.id || item.slug === content.slug || item.id === content.slug);
-  if (index >= 0) data.items[index] = { ...data.items[index], ...record };
-  else data.items.unshift(record);
-  data.updatedAt = timestamp;
-  writeJson(blogsPath, data);
-}
-
 async function project() {
   const payload = readJson(payloadPath);
+  assertSupported(payload.publication);
   await downloadPrivateMedia(payload);
   const media = await materializePublicMedia(payload);
-  if (payload.publication.type === 'SOCIAL_UPDATE') await projectSocial(payload, media);
-  else await projectBlog(payload, media);
-  writeJson(resultsPath, { publicationId: payload.publication.id, deliveries: selected(payload.publication, 'website') ? [{ platform: 'website', status: 'PUBLISHED', publishedAt: new Date().toISOString(), externalUrl: payload.publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${payload.publication.content.slug}/` : `${siteUrl}/#updates` }] : [] });
+  await projectSocial(payload, media);
+  writeJson(resultsPath, { publicationId: payload.publication.id, deliveries: selected(payload.publication, 'website') ? [{ platform: 'website', status: 'PUBLISHED', publishedAt: new Date().toISOString(), externalUrl: `${siteUrl}/#updates` }] : [] });
   console.log(`Projected ${payload.publication.id} through the existing public content model.`);
 }
 
@@ -217,7 +188,6 @@ async function publishFacebook(publication, media) {
     result = await graph(`${pageId}/feed`, body, token);
   } else {
     const body = new URLSearchParams({ message: caption });
-    if (publication.type === 'WEBSITE_PUBLICATION') body.set('link', `${siteUrl}/blog/${publication.content.slug}/`);
     result = await graph(`${pageId}/feed`, body, token);
   }
   const id = String(result.post_id || result.id || '');
@@ -282,6 +252,7 @@ async function publishYouTube(publication, media) {
 
 async function publish() {
   const payload = readJson(payloadPath); const publication = payload.publication;
+  assertSupported(publication);
   await downloadPrivateMedia(payload); const media = await materializePublicMedia(payload);
   const previous = readJson(resultsPath, { publicationId: publication.id, deliveries: [] });
   const retryPlatform = process.env.PUBLISHER_RETRY_PLATFORM || '';
@@ -297,14 +268,14 @@ async function publish() {
         else if (process.env.TIKTOK_PRODUCTION_APPROVED !== 'true' && process.env.SOCIAL_MOCK_PUBLISHING !== 'true') result = { platform, status: 'APPROVAL_REQUIRED', error: 'TikTok production review must be approved before public publishing is enabled.' };
         else if (!(process.env.TIKTOK_ACCESS_TOKEN || (process.env.TIKTOK_CLIENT_KEY && process.env.TIKTOK_CLIENT_SECRET && process.env.TIKTOK_REFRESH_TOKEN))) result = { platform, status: 'NOT_CONFIGURED' };
         else if (media.some((item) => item.type === 'video') && media.length !== 1) result = { platform, status: 'BLOCKED', error: 'TikTok accepts one approved video or a photo set, not mixed media.' };
-        else { const title = clean(override(publication, 'tiktok').title || publication.content.title).slice(0, 90); const description = tiktokDraft(title, captionFor(publication, 'tiktok'), publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`); const video = media.find((item) => item.type === 'video'); const published = await publishToTikTok({ title, description, ...(video ? { videoPath: video.localPath, mimeType: video.mimeType } : { mediaPaths: media.map((item) => item.variants?.tiktok || item.publicPath) }) }); result = { platform, status: published.status === 'submitted' ? 'SUBMITTED' : 'PUBLISHED', externalId: published.publishId, publishedAt: new Date().toISOString() }; }
+        else { const title = clean(override(publication, 'tiktok').title || publication.content.title).slice(0, 90); const description = tiktokDraft(title, captionFor(publication, 'tiktok'), `${siteUrl}/#updates`); const video = media.find((item) => item.type === 'video'); const published = await publishToTikTok({ title, description, ...(video ? { videoPath: video.localPath, mimeType: video.mimeType } : { mediaPaths: media.map((item) => item.variants?.tiktok || item.publicPath) }) }); result = { platform, status: published.status === 'submitted' ? 'SUBMITTED' : 'PUBLISHED', externalId: published.publishId, publishedAt: new Date().toISOString() }; }
       } else if (platform === 'x') {
-        const url = publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`; const text = clean(override(publication, 'x').caption || xDraft(publication.content.title, publication.content.excerpt || publication.content.caption, url));
+        const url = `${siteUrl}/#updates`; const text = clean(override(publication, 'x').caption || xDraft(publication.content.title, publication.content.excerpt || publication.content.caption, url));
         if ((process.env.X_PUBLISHING_MODE || 'MANUAL') !== 'API') result = { platform, status: 'MANUAL', externalUrl: `https://x.com/intent/post?text=${encodeURIComponent(text)}` };
         else if (!(process.env.X_API_KEY && process.env.X_API_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_TOKEN_SECRET)) result = { platform, status: 'NOT_CONFIGURED' };
         else { const sent = await publishToX({ text, mediaPath: media[0]?.variants?.x || media[0]?.publicPath }); result = { platform, status: 'PUBLISHED', externalId: sent.id, externalUrl: sent.url, publishedAt: new Date().toISOString() }; }
       } else {
-        const url = publication.type === 'WEBSITE_PUBLICATION' ? `${siteUrl}/blog/${publication.content.slug}/` : `${siteUrl}/#updates`; const message = clean(override(publication, 'whatsapp').caption || `${publication.content.title}\n\n${publication.content.excerpt || publication.content.caption}\n\n${url}`);
+        const url = `${siteUrl}/#updates`; const message = clean(override(publication, 'whatsapp').caption || `${publication.content.title}\n\n${publication.content.excerpt || publication.content.caption}\n\n${url}`);
         result = { platform, status: 'MANUAL', externalUrl: `https://wa.me/?text=${encodeURIComponent(message)}` };
       }
       previous.deliveries = previous.deliveries.filter((item) => item.platform !== platform); previous.deliveries.push(result);
@@ -318,7 +289,7 @@ async function publish() {
 
 function reconcileWebsite() {
   const payload = readJson(payloadPath); const results = readJson(resultsPath, { deliveries: [] });
-  if (payload.publication.type !== 'SOCIAL_UPDATE') return;
+  assertSupported(payload.publication);
   const facebook = results.deliveries.find((item) => item.platform === 'facebook' && item.status === 'PUBLISHED');
   if (!facebook) return;
   const data = readJson(updatesPath, { items: [] });

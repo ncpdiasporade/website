@@ -11,11 +11,11 @@ const payloadPath = path.join(work, 'publication.json');
 const resultsPath = path.join(work, 'results.json');
 const original = fs.readFileSync(recentPath);
 
-function run(command, extraEnv = {}) {
+function run(command, extraEnv = {}, expectedStatus = 0) {
   const result = spawnSync(process.execPath, [path.join(root, 'scripts/admin-publication.mjs'), command], {
     cwd: root, encoding: 'utf8', env: { ...process.env, SOCIAL_ADMIN_MODE: 'true', PUBLISHER_PAYLOAD_PATH: payloadPath, PUBLISHER_RESULTS_PATH: resultsPath, ...extraEnv }
   });
-  assert.equal(result.status, 0, `${command} failed\n${result.stdout}\n${result.stderr}`);
+  assert.equal(result.status, expectedStatus, `${command} exited ${result.status}\n${result.stdout}\n${result.stderr}`);
 }
 
 try {
@@ -37,6 +37,9 @@ try {
   const result = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
   assert.deepEqual(result.deliveries.map((item) => [item.platform, item.status]), [['website', 'PUBLISHED']]);
 
+  fs.writeFileSync(payloadPath, JSON.stringify({ publication: { id: 'legacy-blog', type: 'WEBSITE_PUBLICATION', content: {} } }, null, 2));
+  run('project', {}, 1);
+
   fs.writeFileSync(payloadPath, JSON.stringify({
     publication: {
       id: 'pub-test-video', draftId: 'test-video', type: 'SOCIAL_UPDATE', status: 'PUBLISHING', sourceFingerprint: 'video123',
@@ -55,7 +58,7 @@ try {
   run('publish', { TIKTOK_ACCESS_TOKEN: 'test-token', TIKTOK_PRODUCTION_APPROVED: 'false' });
   const gatedVideoResult = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
   assert.deepEqual(gatedVideoResult.deliveries.map((item) => [item.platform, item.status]), [['tiktok', 'APPROVAL_REQUIRED']]);
-  console.log('Admin stable-ID projection, website delivery, video boundary and TikTok mock delivery tests passed.');
+  console.log('Admin Recent Updates projection, blog rejection, video boundary and TikTok mock delivery tests passed.');
 } finally {
   fs.writeFileSync(recentPath, original);
   fs.rmSync(work, { recursive: true, force: true });
