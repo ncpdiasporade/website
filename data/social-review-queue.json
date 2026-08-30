@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T12:58:21.666Z",
+  "updatedAt": "2026-08-30T21:09:23.715Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -3741,6 +3741,45 @@
           "description": "Where is Miraj Sheikh, Home Minister?\n\nWhere is Miraj Sheikh, Home Minister? 30-year-old Miraj Sheikh from Mongla, Bagerhat, was taken away by members of the Bangladesh Coast Guard from the Joymonir Ghol area on 10 April 2026. His family and multiple eyewitnesses stated that he was taken away in a Coast Guard speedboat. His wife also said that she later saw him on the pontoon of the Coast Guard’s Harbaria Station. He has not been seen or heard from since. The Coast Guard, however, has denied the allegation that its personnel detained him. #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122202343010921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122202343010921031-f9337a300b-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-1627155868966522-6c9b76e700",
+      "sourceType": "facebook",
+      "sourceId": "1627155868966522",
+      "sourceKey": "facebook:germany:1627155868966522",
+      "sourceFingerprint": "6c9b76e70024857644ea65dee490b73939482304321585088267f8bd569ea299",
+      "sourceCreatedAt": "2026-08-30T18:44:16+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/videos/1627155868966522",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-08-30T21:09:23.714Z",
+      "updatedAt": "2026-08-30T21:09:23.715Z",
+      "title": "‼️Live with A K Flora",
+      "excerpt": "‼️Live with A K Flora",
+      "sourceCaption": "‼️Live with A K Flora",
+      "image": "img/social/germany/fb-1627155868966522.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "‼️Live with A K Flora\nhttps://www.facebook.com/122195961254921031/videos/1627155868966522\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-1627155868966522-6c9b76e700-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "‼️Live with A K Flora",
+          "description": "‼️Live with A K Flora\n\n‼️Live with A K Flora\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/videos/1627155868966522\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-1627155868966522-6c9b76e700-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
