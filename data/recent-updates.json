@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-30T17:31:31.199Z",
+  "updatedAt": "2026-08-30T21:08:55.779Z",
   "items": [
+    {
+      "id": "facebook-germany-1627155868966522",
+      "facebookId": "1627155868966522",
+      "status": "published",
+      "date": "৩০ আগস্ট, ২০২৬",
+      "createdAt": "2026-08-30T18:44:16+0000",
+      "badge": "ভিডিও",
+      "title": "‼️Live with A K Flora",
+      "excerpt": "‼️Live with A K Flora",
+      "sourceCaption": "‼️Live with A K Flora",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/videos/1627155868966522",
+      "mediaType": "video",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-1627155868966522.jpg",
+      "imageAlt": "‼️Live with A K Flora",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122202343010921031",
       "facebookId": "122202343010921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122201949452921031.jpg",
       "imageAlt": "‘গুম প্রতিরোধ ও প্রতিকার বিল, ২০২৬’ এবং এনসিপির অবস্থানের পার্থক্য",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122201925764921031",
-      "facebookId": "122201925764921031",
-      "status": "published",
-      "date": "২৭ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-27T20:30:18+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "\"স্বরাষ্ট্রমন্ত্রী যদি পুলিশ হেডকোয়ার্টার এর মামলার স্ট্যাটিস্টিক্স না জানেন, আবার ব্যর্থতা স্বীকার না করে সংসদে…",
-      "excerpt": "\"স্বরাষ্ট্রমন্ত্রী যদি পুলিশ হেডকোয়ার্টার এর মামলার স্ট্যাটিস্টিক্স না জানেন, আবার ব্যর্থতা স্বীকার না করে সংসদে দাঁড়িয়ে সোর্স চান এবং বিরোধীদলের এমপিদের ব্যঙ্গ করেন,তার উক্ত মন্ত্রণালয় চালানোর কোন যোগ্যতা নাই। যে পরিসংখ্যান হাসনাত আব্দুল্লাহ দিয়েছেন তা শুধু মামলার সংখ্যা, আইনশৃঙ্খলা পরিস্থিতি এর চেয়েও খারাপ।",
-      "sourceCaption": "\"স্বরাষ্ট্রমন্ত্রী যদি পুলিশ হেডকোয়ার্টার এর মামলার স্ট্যাটিস্টিক্স না জানেন, আবার ব্যর্থতা স্বীকার না করে সংসদে দাঁড়িয়ে সোর্স চান এবং বিরোধীদলের এমপিদের ব্যঙ্গ করেন,তার উক্ত মন্ত্রণালয় চালানোর কোন যোগ্যতা নাই। যে পরিসংখ্যান হাসনাত আব্দুল্লাহ দিয়েছেন তা শুধু মামলার সংখ্যা, আইনশৃঙ্খলা পরিস্থিতি এর চেয়েও খারাপ।\n\nপ্রধানমন্ত্রী কি বোঝেন না?\"\n\n- Monira Sharmin \n\n#ncpdagermany #ncp #Bangladesh",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122201925764921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122201925764921031.jpg",
-      "imageAlt": "\"স্বরাষ্ট্রমন্ত্রী যদি পুলিশ হেডকোয়ার্টার এর মামলার স্ট্যাটিস্টিক্স না জানেন, আবার ব্যর্থতা স্বীকার না করে সংসদে…",
       "managedBy": "facebook-sync"
     },
     {
