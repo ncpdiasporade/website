@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T21:09:23.715Z",
+  "updatedAt": "2026-08-31T05:40:13.386Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -3780,6 +3780,45 @@
           "description": "‼️Live with A K Flora\n\n‼️Live with A K Flora\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/videos/1627155868966522\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-1627155868966522-6c9b76e700-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122202407816921031-052597016f",
+      "sourceType": "facebook",
+      "sourceId": "122202407816921031",
+      "sourceKey": "facebook:germany:122202407816921031",
+      "sourceFingerprint": "052597016f13202425b8fe0dbf8697770a4bf93cc13b104d55a5fbc3a06aaa71",
+      "sourceCreatedAt": "2026-08-30T23:50:07+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122202407816921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-08-31T05:40:13.386Z",
+      "updatedAt": "2026-08-31T05:40:13.386Z",
+      "title": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে?",
+      "excerpt": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে? আর অপরাধই যদি প্রমাণ না হয়, তাহলে মৃত্যুদণ্ড, যাবজ্জীবন বা কোটি টাকার জরিমানা এসব বিধান কাগজেই থেকে যাবে। #ncpdagermany",
+      "sourceCaption": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে? আর অপরাধই যদি প্রমাণ না হয়, তাহলে মৃত্যুদণ্ড, যাবজ্জীবন বা কোটি টাকার জরিমানা এসব বিধান কাগজেই থেকে যাবে। #ncpdagermany",
+      "image": "img/social/germany/fb-122202407816921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে? গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে? আর অপরাধই যদি প্রমাণ না হয়, তাহলে মৃত্যুদণ্ড, যাবজ্জীবন বা কোটি টাকার জরিমানা এসব…\nhttps://www.facebook.com/122195961254921031/posts/122202407816921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122202407816921031-052597016f-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে?",
+          "description": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে?\n\nগুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে? আর অপরাধই যদি প্রমাণ না হয়, তাহলে মৃত্যুদণ্ড, যাবজ্জীবন বা কোটি টাকার জরিমানা এসব বিধান কাগজেই থেকে যাবে। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122202407816921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122202407816921031-052597016f-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
