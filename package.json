@@ -25,6 +25,6 @@
     "test:meta": "node scripts/test-meta-graph-request.mjs"
   },
   "dependencies": {
-    "sharp": "0.35.3"
+    "sharp": "0.35.4"
   }
 }
