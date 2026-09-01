@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-01T10:10:41.287Z",
+  "updatedAt": "2026-09-01T14:57:09.793Z",
   "items": [
+    {
+      "id": "facebook-germany-122202695234921031",
+      "facebookId": "122202695234921031",
+      "status": "published",
+      "date": "১ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-01T10:51:08+0000",
+      "badge": "ভিডিও",
+      "title": "“সাধারণ মানুষগুলোই আসলে অসাধারণ।",
+      "excerpt": "আর এই বাংলাদেশের সাধারণ মানুষ—কৃষক ও শ্রমিকদের জন্য প্রয়োজন স্পষ্ট, কার্যকর ও জনবান্ধব নীতি” সদস্য, International Relations and Diaspora Affairs, NCP",
+      "sourceCaption": "“সাধারণ মানুষগুলোই আসলে অসাধারণ। আর এই বাংলাদেশের সাধারণ মানুষ—কৃষক ও শ্রমিকদের জন্য প্রয়োজন স্পষ্ট, কার্যকর ও জনবান্ধব নীতি”\n\nA.K. Flora\nসদস্য, International Relations and Diaspora Affairs, NCP\n\n#ncpdagermany #ncp #ncpbangladesh",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1070488788715840/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122202695234921031.jpg",
+      "imageAlt": "“সাধারণ মানুষগুলোই আসলে অসাধারণ।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122202514814921031",
       "facebookId": "122202514814921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122202209144921031.jpg",
       "imageAlt": "জামিয়া ইউনুছিয়া, ব্রাহ্মণবাড়িয়ায় সম্মানিত শিক্ষকবৃন্দের সঙ্গে সৌজন্য সাক্ষাৎ করেছেন জাতীয় নাগরিক পার্টির (এনসিপি)…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122202206438921031",
-      "facebookId": "122202206438921031",
-      "status": "published",
-      "date": "২৯ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-29T13:52:19+0000",
-      "badge": "প্রবাসী ইস্যু",
-      "title": "আগামীকাল, ৩০ আগস্ট ২০২৬, জার্মান সময় রাত ৮টায় NCP Diaspora Alliance Germany-এর সকল সদস্যদের সঙ্গে এক অনলাইন মতবিনিময়ে…",
-      "excerpt": "আগামীকাল, ৩০ আগস্ট ২০২৬, জার্মান সময় রাত ৮টায় NCP Diaspora Alliance Germany-এর সকল সদস্যদের সঙ্গে এক অনলাইন মতবিনিময়ে যুক্ত হবেন এ কে ফ্লোরা, সদস্য, International Relations and Diaspora Affairs, National Citizen Party (NCP)।",
-      "sourceCaption": "আগামীকাল, ৩০ আগস্ট ২০২৬, জার্মান সময় রাত ৮টায় NCP Diaspora Alliance Germany-এর সকল সদস্যদের সঙ্গে এক অনলাইন মতবিনিময়ে যুক্ত হবেন এ কে ফ্লোরা, সদস্য, International Relations and Diaspora Affairs, National Citizen Party (NCP)।\n\nপ্রবাসে থেকেও দেশের রাজনৈতিক পরিবর্তন, সাংগঠনিক কার্যক্রম এবং নতুন বাংলাদেশ বিনির্মাণের যাত্রায় সরাসরি আলোচনা ও মতবিনিময়ের একটি গুরুত্বপূর্ণ সুযোগ এটি।\n\nNCP Diaspora Alliance Germany-এর সকল সদস্যকে যথাসময়ে অনলাইনে যুক্ত হয়ে আলোচনায় অংশ নেওয়ার জন্য আন্তরিকভাবে আহ্বান জানাচ্ছি।\n\n📅 ৩০ আগস্ট ২০২৬\n⏰ জার্মান সময় রাত ৮টা\n💻 অনলাইন (Zoom)\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122202206438921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122202206438921031.jpg",
-      "imageAlt": "আগামীকাল, ৩০ আগস্ট ২০২৬, জার্মান সময় রাত ৮টায় NCP Diaspora Alliance Germany-এর সকল সদস্যদের সঙ্গে এক অনলাইন মতবিনিময়ে…",
       "managedBy": "facebook-sync"
     },
     {
