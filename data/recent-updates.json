@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-02T09:40:33.458Z",
+  "updatedAt": "2026-09-02T14:31:35.219Z",
   "items": [
+    {
+      "id": "facebook-germany-122202854228921031",
+      "facebookId": "122202854228921031",
+      "status": "published",
+      "date": "২ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-02T12:38:58+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "বসুন্ধরার বিরুদ্ধে মুখ খুলতেই ৪৮ ঘণ্টায় ১০৯ নিউজ!",
+      "excerpt": "সংসদে দাঁড়িয়ে নিজের বিরুদ্ধে সংঘবদ্ধ মিডিয়া প্রচারের অভিযোগ তুললেন হাসনাত আব্দুল্লাহ।",
+      "sourceCaption": "বসুন্ধরার বিরুদ্ধে মুখ খুলতেই ৪৮ ঘণ্টায় ১০৯ নিউজ!\nসংসদে দাঁড়িয়ে নিজের বিরুদ্ধে সংঘবদ্ধ মিডিয়া প্রচারের অভিযোগ তুললেন হাসনাত আব্দুল্লাহ।\n\n#ncpdagermany #ncp #Bangladesh",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122202854228921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122202854228921031.jpg",
+      "imageAlt": "বসুন্ধরার বিরুদ্ধে মুখ খুলতেই ৪৮ ঘণ্টায় ১০৯ নিউজ!",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122202771308921031",
       "facebookId": "122202771308921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122202407816921031.jpg",
       "imageAlt": "গুমের তদন্ত যদি স্বাধীন ও নিরপেক্ষভাবে না হয়, তাহলে অপরাধ প্রমাণ হবে কীভাবে?",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-1627155868966522",
-      "facebookId": "1627155868966522",
-      "status": "published",
-      "date": "৩০ আগস্ট, ২০২৬",
-      "createdAt": "2026-08-30T18:44:16+0000",
-      "badge": "ভিডিও",
-      "title": "‼️Live with A K Flora",
-      "excerpt": "‼️Live with A K Flora",
-      "sourceCaption": "‼️Live with A K Flora",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/videos/1627155868966522",
-      "mediaType": "video",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-1627155868966522.jpg",
-      "imageAlt": "‼️Live with A K Flora",
       "managedBy": "facebook-sync"
     },
     {
