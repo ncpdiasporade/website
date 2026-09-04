@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-04T01:00:38.337Z",
+  "updatedAt": "2026-09-04T05:56:32.448Z",
   "items": [
+    {
+      "id": "facebook-germany-122203083320921031",
+      "facebookId": "122203083320921031",
+      "status": "published",
+      "date": "৪ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-04T05:27:17+0000",
+      "badge": "জুলাই",
+      "title": "গণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের…",
+      "excerpt": "গণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের ঊর্ধ্বগতি রোধ, আইনশৃঙ্খলা পরিস্থিতির উন্নতি এবং সংকীর্ণ দলীয়করণ বন্ধ—এই ৬ দফা দাবিতে রাজপথে নামছে জাতীয় নাগরিক পার্টি (এনসিপি)। 📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার দেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন”",
+      "sourceCaption": "গণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের ঊর্ধ্বগতি রোধ, আইনশৃঙ্খলা পরিস্থিতির উন্নতি এবং সংকীর্ণ দলীয়করণ বন্ধ—এই ৬ দফা দাবিতে রাজপথে নামছে জাতীয় নাগরিক পার্টি (এনসিপি)।\n\n📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার\n\nদেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন”\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203083320921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122203083320921031.jpg",
+      "imageAlt": "গণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122203050620921031",
       "facebookId": "122203050620921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122202759182921031.jpg",
       "imageAlt": "বিএনপি সরকার ক্ষমতায় এসেই অন্তর্বর্তী সরকারের করা গুম ও মানবাধিকার অধ্যাদেশ বাতিল করে দিয়েছিল এবং বলেছিল তারা অধিকতর…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122202695234921031",
-      "facebookId": "122202695234921031",
-      "status": "published",
-      "date": "১ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-01T10:51:08+0000",
-      "badge": "ভিডিও",
-      "title": "“সাধারণ মানুষগুলোই আসলে অসাধারণ।",
-      "excerpt": "আর এই বাংলাদেশের সাধারণ মানুষ—কৃষক ও শ্রমিকদের জন্য প্রয়োজন স্পষ্ট, কার্যকর ও জনবান্ধব নীতি” সদস্য, International Relations and Diaspora Affairs, NCP",
-      "sourceCaption": "“সাধারণ মানুষগুলোই আসলে অসাধারণ। আর এই বাংলাদেশের সাধারণ মানুষ—কৃষক ও শ্রমিকদের জন্য প্রয়োজন স্পষ্ট, কার্যকর ও জনবান্ধব নীতি”\n\nA.K. Flora\nসদস্য, International Relations and Diaspora Affairs, NCP\n\n#ncpdagermany #ncp #ncpbangladesh",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1070488788715840/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122202695234921031.jpg",
-      "imageAlt": "“সাধারণ মানুষগুলোই আসলে অসাধারণ।",
       "managedBy": "facebook-sync"
     },
     {
