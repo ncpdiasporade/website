@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T05:58:35.051Z",
+  "updatedAt": "2026-09-04T11:26:03.178Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -4131,6 +4131,45 @@
           "description": "গণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের ঊর্ধ্বগতি রোধ, আইনশৃঙ্খলা পরিস্থিতির…\n\nগণভোটের রায় বাস্তবায়ন, জুলাই গণহত্যার বিচার, বিদ্যুৎ-তেল-গ্যাস ও সারের সংকট নিরসন, নিত্যপ্রয়োজনীয় দ্রব্যমূল্যের ঊর্ধ্বগতি রোধ, আইনশৃঙ্খলা পরিস্থিতির উন্নতি এবং সংকীর্ণ দলীয়করণ বন্ধ—এই ৬ দফা দাবিতে রাজপথে নামছে জাতীয় নাগরিক পার্টি (এনসিপি)। 📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার দেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন” #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203083320921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122203083320921031-76f7155e3e-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122203102946921031-55db841254",
+      "sourceType": "facebook",
+      "sourceId": "122203102946921031",
+      "sourceKey": "facebook:germany:122203102946921031",
+      "sourceFingerprint": "55db8412548135585cf2efc249f923bc6c2b6c7bf48d0ae5473b6987cd41f915",
+      "sourceCreatedAt": "2026-09-04T06:41:02+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203102946921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-04T11:26:03.177Z",
+      "updatedAt": "2026-09-04T11:26:03.178Z",
+      "title": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।",
+      "excerpt": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে। - নাহিদ ইসলাম #ncpdagermany",
+      "sourceCaption": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে। - নাহিদ ইসলাম #ncpdagermany",
+      "image": "img/social/germany/fb-122203102946921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে। হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে। - নাহিদ ইসলাম #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122203102946921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122203102946921031-55db841254-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।",
+          "description": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।\n\nহিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে। - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203102946921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122203102946921031-55db841254-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
