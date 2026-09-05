@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T16:24:31.285Z",
+  "updatedAt": "2026-09-05T10:39:12.179Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -4287,6 +4287,84 @@
           "description": "📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার দেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন” #ncpdagermany\n\n📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার দেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন” #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203162460921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122203162460921031-beff31fa30-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122203246754921031-d8644db5ba",
+      "sourceType": "facebook",
+      "sourceId": "122203246754921031",
+      "sourceKey": "facebook:germany:122203246754921031",
+      "sourceFingerprint": "d8644db5ba9e739bb791aece48c33d03c0996bf1fcc08bfd9056a1cd58a67dd0",
+      "sourceCreatedAt": "2026-09-05T08:07:10+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203246754921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-05T10:39:11.679Z",
+      "updatedAt": "2026-09-05T10:39:11.679Z",
+      "title": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany",
+      "excerpt": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany",
+      "sourceCaption": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany",
+      "image": "img/social/germany/fb-122203246754921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122203246754921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122203246754921031-d8644db5ba-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany",
+          "description": "ঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany\n\nঐতিহাসিক লং মার্চ সফল হোক ✊ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203246754921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122203246754921031-d8644db5ba-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122203249484921031-71e78593b9",
+      "sourceType": "facebook",
+      "sourceId": "122203249484921031",
+      "sourceKey": "facebook:germany:122203249484921031",
+      "sourceFingerprint": "71e78593b97b8ff6e0a4010a676cd3afb54fe847821229abfeb65ce3a88d91dd",
+      "sourceCreatedAt": "2026-09-05T08:44:00+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1504474548377183/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-05T10:39:12.179Z",
+      "updatedAt": "2026-09-05T10:39:12.179Z",
+      "title": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp",
+      "excerpt": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp",
+      "sourceCaption": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp",
+      "image": "img/social/germany/fb-122203249484921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp\nhttps://www.facebook.com/reel/1504474548377183/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122203249484921031-71e78593b9-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp",
+          "description": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp\n\n“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp\n\nবিস্তারিত: https://www.facebook.com/reel/1504474548377183/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122203249484921031-71e78593b9-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
