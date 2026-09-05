@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-05T21:17:05.824Z",
+  "updatedAt": "2026-09-05T23:00:09.323Z",
   "items": [
+    {
+      "id": "facebook-germany-122203339238921031",
+      "facebookId": "122203339238921031",
+      "status": "published",
+      "date": "৬ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-05T22:56:54+0000",
+      "badge": "ভিডিও",
+      "title": "“আমরা সংস্কারের পক্ষেই থাকব, সংস্কার নিয়েই বলব, আমাদের কথা আমরা বলে যাব।”",
+      "excerpt": "“আমরা সংস্কারের পক্ষেই থাকব, সংস্কার নিয়েই বলব, আমাদের কথা আমরা বলে যাব।” A.K Flora",
+      "sourceCaption": "“আমরা সংস্কারের পক্ষেই থাকব, সংস্কার নিয়েই বলব, আমাদের কথা আমরা বলে যাব।”\n\nA.K Flora \n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1519717466846906/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122203339238921031.jpg",
+      "imageAlt": "“আমরা সংস্কারের পক্ষেই থাকব, সংস্কার নিয়েই বলব, আমাদের কথা আমরা বলে যাব।”",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122203313906921031",
       "facebookId": "122203313906921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203246754921031.jpg",
       "imageAlt": "ঐতিহাসিক লং মার্চ সফল হোক ✊",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203162460921031",
-      "facebookId": "122203162460921031",
-      "status": "published",
-      "date": "৪ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-04T16:01:33+0000",
-      "badge": "ভিডিও",
-      "title": "📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার",
-      "excerpt": "দেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন”",
-      "sourceCaption": "📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার\n\nদেশ ও মানুষের স্বার্থে “লং মার্চ সফল করুন”\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203162460921031",
-      "mediaType": "video",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122203162460921031.jpg",
-      "imageAlt": "📅 ৫ সেপ্টেম্বর ২০২৬, শনিবার",
       "managedBy": "facebook-sync"
     },
     {
