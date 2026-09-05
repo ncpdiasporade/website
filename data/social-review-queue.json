@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T10:39:12.179Z",
+  "updatedAt": "2026-09-05T13:53:03.855Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -4365,6 +4365,45 @@
           "description": "“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp\n\n“We Are The Dreamers” ❤️ ✊ #ncpdagermany #NCPBangladesh #ncp\n\nবিস্তারিত: https://www.facebook.com/reel/1504474548377183/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122203249484921031-71e78593b9-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122203269602921031-547645c874",
+      "sourceType": "facebook",
+      "sourceId": "122203269602921031",
+      "sourceKey": "facebook:germany:122203269602921031",
+      "sourceFingerprint": "547645c87412240ae2715a44d58e98b3e5b37ef70d8a517f9c51cd0602370670",
+      "sourceCreatedAt": "2026-09-05T11:48:58+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1710140834452244/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-05T13:53:03.855Z",
+      "updatedAt": "2026-09-05T13:53:03.855Z",
+      "title": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany",
+      "excerpt": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany",
+      "sourceCaption": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany",
+      "image": "img/social/germany/fb-122203269602921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany\nhttps://www.facebook.com/reel/1710140834452244/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122203269602921031-547645c874-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany",
+          "description": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany\n\nফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম... #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/1710140834452244/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122203269602921031-547645c874-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
