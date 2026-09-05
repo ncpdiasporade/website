@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-05T10:38:41.795Z",
+  "updatedAt": "2026-09-05T13:52:32.741Z",
   "items": [
+    {
+      "id": "facebook-germany-122203269602921031",
+      "facebookId": "122203269602921031",
+      "status": "published",
+      "date": "৫ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-05T11:48:58+0000",
+      "badge": "ভিডিও",
+      "title": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম...",
+      "excerpt": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম...",
+      "sourceCaption": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম...\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1710140834452244/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122203269602921031.jpg",
+      "imageAlt": "ফেনীর জনসমুদ্র থেকে জুলাই গণঅভ্যুত্থানের এক দফার ঘোষক নাহিদ ইসলাম...",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122203249484921031",
       "facebookId": "122203249484921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203124228921031.jpg",
       "imageAlt": "শ্রী কৃষ্ণের জন্মাষ্টমী উপলক্ষে সনাতন ধর্মাবলম্বীদের সঙ্গে শুভেচ্ছা বিনিময় করতে ঢাকেশ্বরী মন্দির পরিদর্শন করেছেন জাতীয়…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203102946921031",
-      "facebookId": "122203102946921031",
-      "status": "published",
-      "date": "৪ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-04T06:41:02+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।",
-      "excerpt": "- নাহিদ ইসলাম",
-      "sourceCaption": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।\n\n- নাহিদ ইসলাম\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203102946921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122203102946921031.jpg",
-      "imageAlt": "হিন্দু সম্প্রদায়সহ সব ধর্মের মানুষের সঙ্গে আমাদের একটি আত্মার বন্ধন রয়েছে।",
       "managedBy": "facebook-sync"
     },
     {
