@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-08T04:42:21.558Z",
+  "updatedAt": "2026-09-08T09:44:02.227Z",
   "items": [
+    {
+      "id": "facebook-germany-122203693904921031",
+      "facebookId": "122203693904921031",
+      "status": "published",
+      "date": "৮ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-08T06:48:15+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "নতুন কার্যক্রমের আপডেট",
+      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
+      "sourceCaption": "#StandWithAzmeriHaqueBadhon",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203693904921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122203693904921031.jpg",
+      "imageAlt": "নতুন কার্যক্রমের আপডেট",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122203641272921031",
       "facebookId": "122203641272921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203339238921031.jpg",
       "imageAlt": "“আমরা সংস্কারের পক্ষেই থাকব, সংস্কার নিয়েই বলব, আমাদের কথা আমরা বলে যাব।”",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203313906921031",
-      "facebookId": "122203313906921031",
-      "status": "published",
-      "date": "৫ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-05T18:10:39+0000",
-      "badge": "ভিডিও",
-      "title": "দিন যত যাচ্ছে এনসিপির জনপ্রিয়তা আর গ্রহনযোগ্যতা দুটোই জনগণের কাছে বাড়ছে।",
-      "excerpt": "এখান থেকে এনসিপি সামনের দিকে আরো সতর্কতার সাথে এগিয়ে যাবে এবং স্থানীয় নির্বাচনে একটা ইতিবাচক প্রভাব ফেলবে ইনশাআল্লাহ ❤️✊",
-      "sourceCaption": "দিন যত যাচ্ছে এনসিপির জনপ্রিয়তা আর গ্রহনযোগ্যতা দুটোই জনগণের কাছে বাড়ছে। এখান থেকে এনসিপি সামনের দিকে আরো সতর্কতার সাথে এগিয়ে যাবে এবং স্থানীয় নির্বাচনে একটা ইতিবাচক প্রভাব ফেলবে ইনশাআল্লাহ ❤️✊\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1760011751993379/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122203313906921031.jpg",
-      "imageAlt": "দিন যত যাচ্ছে এনসিপির জনপ্রিয়তা আর গ্রহনযোগ্যতা দুটোই জনগণের কাছে বাড়ছে।",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67295,
+      "viewCount": 67296,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
