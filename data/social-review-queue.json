@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T23:32:00.356Z",
+  "updatedAt": "2026-09-08T09:44:32.138Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -4677,6 +4677,45 @@
           "description": "#StandWithAzmeriHaqueBadhon তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇 #ncpdagermany\n\n#StandWithAzmeriHaqueBadhon তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇 #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203641272921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122203641272921031-73715c8f7a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122203693904921031-d15d8855bb",
+      "sourceType": "facebook",
+      "sourceId": "122203693904921031",
+      "sourceKey": "facebook:germany:122203693904921031",
+      "sourceFingerprint": "d15d8855bb86237ff251f9fac17d3a09e1cc233507bba082370d45bc2b46dae1",
+      "sourceCreatedAt": "2026-09-08T06:48:15+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203693904921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-08T09:44:32.138Z",
+      "updatedAt": "2026-09-08T09:44:32.138Z",
+      "title": "#StandWithAzmeriHaqueBadhon",
+      "excerpt": "#StandWithAzmeriHaqueBadhon",
+      "sourceCaption": "#StandWithAzmeriHaqueBadhon",
+      "image": "img/social/germany/fb-122203693904921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "#StandWithAzmeriHaqueBadhon\nhttps://www.facebook.com/122195961254921031/posts/122203693904921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122203693904921031-d15d8855bb-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "#StandWithAzmeriHaqueBadhon",
+          "description": "#StandWithAzmeriHaqueBadhon\n\n#StandWithAzmeriHaqueBadhon\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122203693904921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122203693904921031-d15d8855bb-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
