@@ -6,7 +6,7 @@
 
   const assets = [
     'js/i18n.js?v=20260817-seo-launch',
-    'js/site.js?v=20260817-seo-launch'
+    'js/site.js?v=20260908-blog-carousel'
   ];
 
   function loadScript(source) {

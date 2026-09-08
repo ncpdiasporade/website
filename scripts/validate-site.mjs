@@ -38,7 +38,7 @@ if (!html.includes('<script src="js/bootstrap.js?v=20260817-seo2" defer></script
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 const bootstrapScript = fs.readFileSync(path.join(rootDir, 'js/bootstrap.js'), 'utf8');
-for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260817-seo-launch']) {
+for (const source of ['js/i18n.js?v=20260817-seo-launch', 'js/site.js?v=20260908-blog-carousel']) {
   if (!bootstrapScript.includes(source)) errors.push(`js/bootstrap.js: missing ordered runtime asset ${source}`);
 }
 if (!bootstrapScript.includes("root.classList.add('motion-ready')") || !bootstrapScript.includes("root.classList.add('page-ready')") || !bootstrapScript.includes('fonts.googleapis.com/css2')) {
@@ -87,16 +87,19 @@ for (const language of ['en', 'de']) {
     errors.push(`${language}/index.html: missing visible identity heading or structured data`);
   }
 }
-if (!markup.includes('id="blogMore"')) errors.push('index.html: missing Blog More control');
+for (const id of ['blogCarousel', 'blogCarouselViewport', 'blogCarouselStatus', 'blogCarouselProgress', 'blogPrev', 'blogNext']) {
+  if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing Blog carousel control #${id}`);
+}
 if (!markup.includes('id="updatesMore"')) errors.push('index.html: missing updates More control');
 if (!markup.includes('id="sovereignty"') || !markup.includes('href="sovereignty/"')) {
   errors.push('index.html: missing sovereignty archive gateway or navigation link');
 }
 for (const contract of [
-  'initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6',
+  'const blogPageSize = () => mobileBlogQuery.matches ? 1 : tabletBlogQuery.matches ? 2 : 3',
+  'moveBlogCarousel(-1)',
+  'moveBlogCarousel(1)',
   'initialUpdateLimit = () => mobileUpdatesQuery.matches ? 3 : 6',
   "t('আরও দেখুন')",
-  'showingAllArticles',
   'showingAllUpdates'
 ]) {
   if (!siteScript.includes(contract)) errors.push(`js/site.js: missing responsive content limit contract ${contract}`);

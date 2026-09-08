@@ -940,8 +940,15 @@ function initBlog() {
   const blogGrid = $('#blogGrid');
   if (!blogGrid) return;
 
-  const blogMore = $('#blogMore');
-  const blogMoreLabel = $('#blogMoreLabel');
+  const blogCarousel = $('#blogCarousel');
+  const blogCarouselViewport = $('#blogCarouselViewport');
+  const blogCarouselStatus = $('#blogCarouselStatus');
+  const blogCarouselProgress = $('#blogCarouselProgress');
+  const blogPrev = $('#blogPrev');
+  const blogNext = $('#blogNext');
+  const blogPrevLabel = $('#blogPrevLabel');
+  const blogNextLabel = $('#blogNextLabel');
+  const blogCarouselControls = blogCarousel ? $('.blog-carousel-controls', blogCarousel) : null;
   const modal = $('#blogModal');
   const modalPanel = modal ? $('.blog-modal-panel', modal) : null;
   const modalImage = $('#blogModalImage');
@@ -958,9 +965,31 @@ function initBlog() {
   let rawArticles = [];
   let activeArticleId = '';
   let lastFocusedElement = null;
-  let showingAllArticles = false;
+  let carouselPage = 0;
+  let renderedPageSize = 3;
+  let carouselAnimationTimer = 0;
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let suppressCarouselClick = false;
   const mobileBlogQuery = window.matchMedia('(max-width: 680px)');
-  const initialBlogLimit = () => mobileBlogQuery.matches ? 3 : 6;
+  const tabletBlogQuery = window.matchMedia('(max-width: 960px)');
+
+  const carouselCopy = {
+    bn: {
+      label: 'প্রকাশিত ব্লগসমূহ', previous: 'আগের', next: 'পরের', previousLabel: 'আগের লেখাগুলো দেখুন', nextLabel: 'পরের লেখাগুলো দেখুন', instruction: 'আগের ও পরের বোতাম, কিবোর্ডের তীরচিহ্ন অথবা আঙুলের সোয়াইপ ব্যবহার করুন।', status: (start, end, total) => `লেখা ${start}${start === end ? '' : `–${end}`} / ${total}`
+    },
+    en: {
+      label: 'Published blog articles', previous: 'Previous', next: 'Next', previousLabel: 'Show previous articles', nextLabel: 'Show next articles', instruction: 'Use the previous and next buttons, keyboard arrow keys, or swipe.', status: (start, end, total) => `Articles ${start}${start === end ? '' : `–${end}`} of ${total}`
+    },
+    de: {
+      label: 'Veröffentlichte Blogbeiträge', previous: 'Zurück', next: 'Weiter', previousLabel: 'Vorherige Beiträge anzeigen', nextLabel: 'Nächste Beiträge anzeigen', instruction: 'Nutzen Sie die Schaltflächen, die Pfeiltasten oder eine Wischgeste.', status: (start, end, total) => `Beiträge ${start}${start === end ? '' : `–${end}`} von ${total}`
+    }
+  };
+
+  const blogLanguage = () => i18n?.language || document.documentElement.lang || 'bn';
+  const blogCarouselText = () => carouselCopy[blogLanguage()] || carouselCopy.bn;
+  const blogPageSize = () => mobileBlogQuery.matches ? 1 : tabletBlogQuery.matches ? 2 : 3;
+  const formatBlogNumber = (value) => new Intl.NumberFormat({ bn: 'bn-BD', en: 'en-GB', de: 'de-DE' }[blogLanguage()] || 'bn-BD').format(value);
 
   const fallbackArticles = [
     {
@@ -1366,20 +1395,42 @@ function initBlog() {
     }
   }
 
-  function renderArticles(articles) {
+  function renderArticles(articles, direction = 0) {
     const published = contentItems(articles).filter((article) => article.status !== 'draft');
     if (!published.length) return;
 
     articlesById = new Map(published.map((article, index) => [articleId(article, index), localizeArticle(article)]));
-    const visibleArticles = showingAllArticles ? published : published.slice(0, initialBlogLimit());
+    const pageSize = blogPageSize();
+    const pageCount = Math.max(1, Math.ceil(published.length / pageSize));
+    carouselPage = ((carouselPage % pageCount) + pageCount) % pageCount;
+    renderedPageSize = pageSize;
+    const startIndex = carouselPage * pageSize;
+    const visibleArticles = published.slice(startIndex, startIndex + pageSize);
+    const endIndex = startIndex + visibleArticles.length;
+    const carouselText = blogCarouselText();
+    const formattedStart = formatBlogNumber(startIndex + 1);
+    const formattedEnd = formatBlogNumber(endIndex);
+    const formattedTotal = formatBlogNumber(published.length);
 
-    if (blogMore) {
-      const hasHiddenArticles = published.length > visibleArticles.length;
-      blogMore.hidden = !hasHiddenArticles;
-      blogMore.setAttribute('aria-expanded', String(showingAllArticles));
-      blogMore.setAttribute('aria-label', t('সব ব্লগ দেখুন'));
-      if (blogMoreLabel) blogMoreLabel.textContent = t('আরও দেখুন');
+    if (blogCarousel) {
+      blogCarousel.setAttribute('aria-label', carouselText.label);
+      blogCarousel.dataset.page = String(carouselPage + 1);
+      blogCarousel.dataset.pages = String(pageCount);
     }
+    if (blogCarouselViewport) {
+      blogCarouselViewport.setAttribute('aria-label', `${carouselText.label}. ${carouselText.instruction}`);
+    }
+    if (blogCarouselStatus) {
+      blogCarouselStatus.textContent = carouselText.status(formattedStart, formattedEnd, formattedTotal);
+    }
+    if (blogCarouselProgress) {
+      blogCarouselProgress.style.width = `${((carouselPage + 1) / pageCount) * 100}%`;
+    }
+    if (blogCarouselControls) blogCarouselControls.hidden = pageCount <= 1;
+    if (blogPrev) blogPrev.setAttribute('aria-label', carouselText.previousLabel);
+    if (blogNext) blogNext.setAttribute('aria-label', carouselText.nextLabel);
+    if (blogPrevLabel) blogPrevLabel.textContent = carouselText.previous;
+    if (blogNextLabel) blogNextLabel.textContent = carouselText.next;
 
     blogGrid.innerHTML = visibleArticles.map((sourceArticle) => {
       const index = published.indexOf(sourceArticle);
@@ -1388,7 +1439,7 @@ function initBlog() {
       const image = safeImageSrc(article.image, defaultImage);
 
       return `
-      <article class="blog-card">
+      <article class="blog-card" aria-posinset="${index + 1}" aria-setsize="${published.length}">
         <div class="blog-image">
           <img src="${escapeHtml(image)}" alt="${escapeHtml(cleanText(article.imageAlt || article.title, 220))}" loading="lazy">
         </div>
@@ -1414,18 +1465,81 @@ function initBlog() {
       </article>
     `;
     }).join('');
+
+    window.clearTimeout(carouselAnimationTimer);
+    blogGrid.classList.remove('blog-page-next', 'blog-page-prev');
+    if (direction) {
+      void blogGrid.offsetWidth;
+      blogGrid.classList.add(direction > 0 ? 'blog-page-next' : 'blog-page-prev');
+      carouselAnimationTimer = window.setTimeout(() => {
+        blogGrid.classList.remove('blog-page-next', 'blog-page-prev');
+      }, 460);
+    }
   }
 
-  blogMore?.addEventListener('click', () => {
-    const firstNewArticleIndex = initialBlogLimit();
-    showingAllArticles = true;
+  function moveBlogCarousel(direction) {
+    const publishedCount = contentItems(rawArticles).filter((article) => article.status !== 'draft').length;
+    const pageCount = Math.max(1, Math.ceil(publishedCount / blogPageSize()));
+    if (pageCount <= 1) return;
+    carouselPage = (carouselPage + direction + pageCount) % pageCount;
+    renderArticles(rawArticles, direction);
+  }
+
+  function relayoutBlogCarousel() {
+    const firstVisibleIndex = carouselPage * renderedPageSize;
+    const nextPageSize = blogPageSize();
+    carouselPage = Math.floor(firstVisibleIndex / nextPageSize);
+    renderedPageSize = nextPageSize;
     renderArticles(rawArticles);
-    blogGrid.querySelectorAll('.blog-card')[firstNewArticleIndex]?.querySelector('button')?.focus({ preventScroll: true });
+  }
+
+  blogPrev?.addEventListener('click', () => moveBlogCarousel(-1));
+  blogNext?.addEventListener('click', () => moveBlogCarousel(1));
+
+  blogCarouselViewport?.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      moveBlogCarousel(-1);
+    } else if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      moveBlogCarousel(1);
+    } else if (event.key === 'Home') {
+      event.preventDefault();
+      carouselPage = 0;
+      renderArticles(rawArticles, -1);
+    } else if (event.key === 'End') {
+      event.preventDefault();
+      const publishedCount = contentItems(rawArticles).filter((article) => article.status !== 'draft').length;
+      carouselPage = Math.max(0, Math.ceil(publishedCount / blogPageSize()) - 1);
+      renderArticles(rawArticles, 1);
+    }
   });
 
-  mobileBlogQuery.addEventListener?.('change', () => {
-    if (!showingAllArticles) renderArticles(rawArticles);
-  });
+  blogCarouselViewport?.addEventListener('touchstart', (event) => {
+    const touch = event.changedTouches[0];
+    touchStartX = touch?.clientX || 0;
+    touchStartY = touch?.clientY || 0;
+  }, { passive: true });
+
+  blogCarouselViewport?.addEventListener('touchend', (event) => {
+    const touch = event.changedTouches[0];
+    if (!touch) return;
+    const distanceX = touch.clientX - touchStartX;
+    const distanceY = touch.clientY - touchStartY;
+    if (Math.abs(distanceX) < 48 || Math.abs(distanceX) <= Math.abs(distanceY) * 1.15) return;
+    suppressCarouselClick = true;
+    moveBlogCarousel(distanceX < 0 ? 1 : -1);
+    window.setTimeout(() => { suppressCarouselClick = false; }, 360);
+  }, { passive: true });
+
+  blogCarouselViewport?.addEventListener('click', (event) => {
+    if (!suppressCarouselClick) return;
+    event.preventDefault();
+    event.stopPropagation();
+  }, true);
+
+  mobileBlogQuery.addEventListener?.('change', relayoutBlogCarousel);
+  tabletBlogQuery.addEventListener?.('change', relayoutBlogCarousel);
 
   blogGrid.addEventListener('click', (event) => {
     const shareTrigger = event.target.closest('[data-blog-share-id]');

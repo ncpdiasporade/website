@@ -4355,6 +4355,174 @@
       .sovereignty-gateway-foot { align-items: stretch; flex-direction: column; }
       .sovereignty-gateway-foot > a { justify-content: center; text-align: center; }
     }
+
+    /* BLOG CAROUSEL */
+    #blog .blog-carousel {
+      position: relative;
+      isolation: isolate;
+    }
+    #blog .blog-carousel-viewport {
+      overflow: hidden;
+      margin: -8px -5px 0;
+      padding: 8px 5px 16px;
+      border-radius: calc(var(--r-lg) + 4px);
+      outline: none;
+    }
+    #blog .blog-carousel-viewport:focus-visible {
+      box-shadow: 0 0 0 3px rgba(13, 97, 48, .16);
+    }
+    #blog .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
+    }
+    #blog .blog-card {
+      min-width: 0;
+      height: 100%;
+    }
+    #blog .blog-grid.blog-page-next {
+      animation: blog-page-next .42s var(--ease-out) both;
+    }
+    #blog .blog-grid.blog-page-prev {
+      animation: blog-page-prev .42s var(--ease-out) both;
+    }
+    @keyframes blog-page-next {
+      from { opacity: .18; transform: translateX(34px); filter: blur(4px); }
+      to { opacity: 1; transform: translateX(0); filter: blur(0); }
+    }
+    @keyframes blog-page-prev {
+      from { opacity: .18; transform: translateX(-34px); filter: blur(4px); }
+      to { opacity: 1; transform: translateX(0); filter: blur(0); }
+    }
+    #blog .blog-carousel-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      margin-top: 16px;
+      padding: 13px 14px 13px 18px;
+      border: 1px solid rgba(13, 97, 48, .12);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .78);
+      box-shadow: 0 12px 28px rgba(4, 58, 31, .07);
+      backdrop-filter: blur(14px);
+    }
+    #blog .blog-carousel-position {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      min-width: 0;
+      flex: 1;
+    }
+    #blog .blog-carousel-status {
+      flex: 0 0 auto;
+      font-family: var(--font-ui);
+      font-size: .84rem;
+      font-weight: 600;
+      color: var(--ink-700);
+      white-space: nowrap;
+    }
+    #blog .blog-carousel-progress {
+      position: relative;
+      display: block;
+      width: min(250px, 28vw);
+      height: 4px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(13, 97, 48, .1);
+    }
+    #blog .blog-carousel-progress i {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--green-600), var(--gold-400), var(--red-400));
+      transition: width .4s var(--ease-out);
+    }
+    #blog .blog-carousel-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+    #blog .blog-carousel-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-width: 98px;
+      min-height: 44px;
+      padding: 9px 14px;
+      border: 1px solid rgba(13, 97, 48, .17);
+      border-radius: 999px;
+      background: var(--white);
+      color: var(--green-700);
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(4, 58, 31, .06);
+      transition: transform .22s var(--ease-out), color .22s, border-color .22s, background .22s;
+    }
+    #blog .blog-carousel-button b {
+      font-family: var(--font-ui);
+      font-size: .84rem;
+      font-weight: 600;
+    }
+    #blog .blog-carousel-button span {
+      font-size: 1.08rem;
+      line-height: 1;
+      transition: transform .22s var(--ease-out);
+    }
+    #blog .blog-carousel-button:hover {
+      transform: translateY(-2px);
+      border-color: rgba(13, 97, 48, .32);
+      background: var(--green-50);
+    }
+    #blog .blog-carousel-button:hover span { transform: translateX(-3px); }
+    #blog .blog-carousel-button-next {
+      border-color: var(--green-700);
+      background: var(--green-700);
+      color: #fff;
+    }
+    #blog .blog-carousel-button-next:hover {
+      border-color: var(--green-600);
+      background: var(--green-600);
+    }
+    #blog .blog-carousel-button-next:hover span { transform: translateX(3px); }
+    #blog .blog-carousel-button:focus-visible {
+      outline: 3px solid rgba(13, 97, 48, .22);
+      outline-offset: 2px;
+    }
+    @media (max-width: 960px) {
+      #blog .blog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 680px) {
+      #blog .blog-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+      }
+      #blog .blog-card { flex: initial; width: 100%; }
+      #blog .blog-carousel-nav {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px;
+        border-radius: 22px;
+      }
+      #blog .blog-carousel-position { justify-content: space-between; width: 100%; }
+      #blog .blog-carousel-progress { width: min(48vw, 190px); }
+      #blog .blog-carousel-controls { display: grid; grid-template-columns: 1fr 1fr; width: 100%; }
+      #blog .blog-carousel-button { width: 100%; min-height: 46px; }
+    }
+    @media (max-width: 380px) {
+      #blog .blog-carousel-position { align-items: flex-start; flex-direction: column; gap: 9px; }
+      #blog .blog-carousel-progress { width: 100%; }
+    }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
       *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
@@ -4826,13 +4994,26 @@
         </p>
       </div>
 
-      <div class="blog-grid stagger-children reveal" id="blogGrid"></div>
-
-      <div class="blog-more-wrap reveal">
-        <button class="btn-pill btn-ghost blog-more-btn" id="blogMore" type="button" aria-expanded="false" hidden>
-          <span id="blogMoreLabel">আরও দেখুন</span>
-          <span class="blog-more-arrow" aria-hidden="true">↓</span>
-        </button>
+      <div class="blog-carousel reveal" id="blogCarousel" role="region" aria-roledescription="carousel" aria-label="প্রকাশিত ব্লগসমূহ">
+        <div class="blog-carousel-viewport" id="blogCarouselViewport" tabindex="0">
+          <div class="blog-grid" id="blogGrid"></div>
+        </div>
+        <div class="blog-carousel-nav">
+          <div class="blog-carousel-position">
+            <span class="blog-carousel-status" id="blogCarouselStatus" aria-live="polite">সাম্প্রতিক ৩টি লেখা</span>
+            <span class="blog-carousel-progress" aria-hidden="true"><i id="blogCarouselProgress"></i></span>
+          </div>
+          <div class="blog-carousel-controls">
+            <button class="blog-carousel-button" id="blogPrev" type="button" aria-label="আগের লেখাগুলো দেখুন">
+              <span aria-hidden="true">←</span>
+              <b id="blogPrevLabel">আগের</b>
+            </button>
+            <button class="blog-carousel-button blog-carousel-button-next" id="blogNext" type="button" aria-label="পরের লেখাগুলো দেখুন">
+              <b id="blogNextLabel">পরের</b>
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <div class="blog-cta-row reveal">
