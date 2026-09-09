@@ -946,8 +946,6 @@ function initBlog() {
   const blogCarouselProgress = $('#blogCarouselProgress');
   const blogPrev = $('#blogPrev');
   const blogNext = $('#blogNext');
-  const blogPrevLabel = $('#blogPrevLabel');
-  const blogNextLabel = $('#blogNextLabel');
   const blogCarouselControls = blogCarousel ? $('.blog-carousel-controls', blogCarousel) : null;
   const modal = $('#blogModal');
   const modalPanel = modal ? $('.blog-modal-panel', modal) : null;
@@ -1429,8 +1427,6 @@ function initBlog() {
     if (blogCarouselControls) blogCarouselControls.hidden = pageCount <= 1;
     if (blogPrev) blogPrev.setAttribute('aria-label', carouselText.previousLabel);
     if (blogNext) blogNext.setAttribute('aria-label', carouselText.nextLabel);
-    if (blogPrevLabel) blogPrevLabel.textContent = carouselText.previous;
-    if (blogNextLabel) blogNextLabel.textContent = carouselText.next;
 
     blogGrid.innerHTML = visibleArticles.map((sourceArticle) => {
       const index = published.indexOf(sourceArticle);
