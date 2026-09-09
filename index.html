@@ -4408,11 +4408,14 @@
       gap: 11px;
       max-width: calc(100% - 24px);
       padding: 8px 13px;
-      border: 1px solid rgba(13, 97, 48, .12);
+      border: 1px solid rgba(255, 255, 255, .56);
       border-radius: 999px;
-      background: rgba(255, 255, 255, .88);
-      box-shadow: 0 9px 24px rgba(4, 58, 31, .1);
-      backdrop-filter: blur(14px);
+      background: rgba(255, 255, 255, .58);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.7),
+        0 9px 24px rgba(4, 58, 31, .09);
+      -webkit-backdrop-filter: blur(18px) saturate(135%);
+      backdrop-filter: blur(18px) saturate(135%);
       transform: translateX(-50%);
     }
     #blog .blog-carousel-status {
@@ -4456,13 +4459,18 @@
       width: 50px;
       height: 50px;
       padding: 0;
-      border: 1px solid rgba(255, 255, 255, .74);
+      border: 1px solid rgba(255, 255, 255, .62);
       border-radius: 50%;
-      background: rgba(255, 255, 255, .9);
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, .48), rgba(223, 244, 232, .18));
       color: var(--green-800);
       cursor: pointer;
-      box-shadow: 0 12px 30px rgba(4, 58, 31, .2);
-      backdrop-filter: blur(12px);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .72),
+        inset 0 -1px 0 rgba(4, 58, 31, .08),
+        0 10px 28px rgba(4, 58, 31, .17);
+      -webkit-backdrop-filter: blur(18px) saturate(145%);
+      backdrop-filter: blur(18px) saturate(145%);
       pointer-events: auto;
       transform: translateY(-50%);
       transition: transform .22s var(--ease-out), color .22s, border-color .22s, background .22s, box-shadow .22s;
@@ -4474,23 +4482,29 @@
       font-size: 1.42rem;
       font-weight: 700;
       line-height: .8;
+      text-shadow: 0 1px 8px rgba(255, 255, 255, .8);
     }
     #blog .blog-carousel-button:first-child { left: 10px; }
     #blog .blog-carousel-button-next { right: 10px; }
     #blog .blog-carousel-button:hover {
       transform: translateY(-50%) scale(1.08);
-      border-color: rgba(255, 255, 255, .94);
-      background: var(--green-700);
+      border-color: rgba(255, 255, 255, .78);
+      background: rgba(8, 93, 47, .76);
       color: #fff;
-      box-shadow: 0 14px 34px rgba(4, 58, 31, .27);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .38),
+        0 14px 34px rgba(4, 58, 31, .25);
     }
     #blog .blog-carousel-button-next {
-      background: rgba(203, 29, 48, .93);
-      color: #fff;
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, .44), rgba(255, 216, 221, .2));
+      color: #a8172b;
     }
     #blog .blog-carousel-button-next:hover {
-      background: var(--red-500);
-      box-shadow: 0 14px 34px rgba(203, 29, 48, .27);
+      background: rgba(190, 24, 48, .76);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .38),
+        0 14px 34px rgba(190, 24, 48, .24);
     }
     #blog .blog-carousel-button:focus-visible {
       outline: 3px solid rgba(255, 255, 255, .9);
@@ -4521,6 +4535,12 @@
         top: 39%;
         width: 46px;
         height: 46px;
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, .62), rgba(223, 244, 232, .28));
+      }
+      #blog .blog-carousel-button-next {
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, .58), rgba(255, 216, 221, .3));
       }
       #blog .blog-carousel-button:first-child { left: 8px; }
       #blog .blog-carousel-button-next { right: 8px; }
