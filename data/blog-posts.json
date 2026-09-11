@@ -1,6 +1,500 @@
 {
   "items": [
     {
+      "id": "hasnat-abdullah-sameerscane-interview-state-reform-energy",
+      "slug": "hasnat-abdullah-sameerscane-interview-state-reform-energy",
+      "title": "ব্যক্তি বদল নয়, ব্যবস্থা বদল: হাসনাত আবদুল্লাহর সাক্ষাৎকারে রাষ্ট্র, জ্বালানি ও জবাবদিহির প্রশ্ন",
+      "date": "১২ সেপ্টেম্বর ২০২৬",
+      "publishedAt": "2026-09-12T01:44:14+02:00",
+      "status": "published",
+      "tag": "রাজনীতি ও রাষ্ট্রসংস্কার",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "SCANeDalous-এ সংসদ সদস্য হাসনাত আবদুল্লাহ কথা বলেছেন শেখ হাসিনার বিচার, ভারত–বাংলাদেশ সম্পর্ক, বিদ্যুৎ সংকট, ফ্যামিলি কার্ড ও সংসদীয় রাজনীতি নিয়ে। আলোচনার কেন্দ্রীয় বার্তা—শুধু শাসক বদল নয়, রাষ্ট্র পরিচালনার পুরোনো কাঠামোও বদলাতে হবে।",
+      "image": "img/blog/photos/hasnat-sameerscane-interview.jpg",
+      "imageAlt": "SCANeDalous স্টুডিওতে সঞ্চালক SameerScane-এর সঙ্গে কথা বলছেন সংসদ সদস্য হাসনাত আবদুল্লাহ",
+      "imageCredit": "SCANeDalous with SameerScane-এ হাসনাত আবদুল্লাহর সাক্ষাৎকারের দৃশ্য। ছবি: SameerScane/YouTube; ব্যবহারকারীর সরবরাহ করা স্ক্রিনশট।",
+      "imageSourceUrl": "https://www.youtube.com/watch?v=dAaBfRpyYWg",
+      "license": "Editorial use — still supplied by the user from the official interview video; copyright remains with SameerScane.",
+      "shareImage": "img/blog/photos/hasnat-sameerscane-interview-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "sharePath": "blog/hasnat-abdullah-sameerscane-interview-state-reform-energy",
+      "facts": [
+        {
+          "value": "১,৪০০ পর্যন্ত",
+          "label": "জুলাই–আগস্ট ২০২৪-এর দমন-পীড়নে সম্ভাব্য নিহতের সংখ্যা—জাতিসংঘের অনুসন্ধান।"
+        },
+        {
+          "value": "৩,০০০ মেগাওয়াট",
+          "label": "২০২৬ সালের এপ্রিলে এক দিনে ঘোষিত সম্ভাব্য বিদ্যুৎ ঘাটতি।"
+        },
+        {
+          "value": "৳১,৩৩,৬১৬ কোটি",
+          "label": "পাঁচ বছরে ফ্যামিলি কার্ড কর্মসূচির প্রাক্কলিত মোট ব্যয়।"
+        },
+        {
+          "value": "৬৬.৩% বনাম ৫৪.৫%",
+          "label": "জরিপে প্রধানমন্ত্রীর ব্যক্তিগত কাজ ও সরকারের সামগ্রিক কাজের ইতিবাচক মূল্যায়ন।"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "১১ সেপ্টেম্বর প্রকাশিত SCANeDalous with SameerScane-এর নতুন পর্বে কুমিল্লা-৪ আসনের সংসদ সদস্য ও NCP-র দক্ষিণাঞ্চলের মুখ্য সংগঠক হাসনাত আবদুল্লাহকে আন্দোলনের পরিচিত ভাষার পাশাপাশি নীতি, অর্থনীতি ও রাষ্ট্র পরিচালনার বাস্তবতা নিয়ে কথা বলতে দেখা যায়। তাঁর সামনে এখন দ্বৈত দায়িত্ব—সংসদে সরকারকে জবাবদিহির মুখোমুখি করা এবং প্রমাণ করা যে জুলাই থেকে উঠে আসা রাজনৈতিক শক্তি প্রতিবাদের সঙ্গে কার্যকর বিকল্প নীতিও দিতে পারে।"
+        },
+        {
+          "type": "callout",
+          "text": "সাক্ষাৎকারটির কেন্দ্রীয় সুর পরিষ্কার: ব্যক্তি পরিবর্তন প্রয়োজনীয়, কিন্তু পুরোনো প্রতিষ্ঠান ও ক্ষমতার কাঠামো অক্ষত থাকলে রাজনৈতিক পরিবর্তন মানুষের জীবনে স্থায়ী ফল দেবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "শেখ হাসিনার প্রত্যাবর্তন: অসমাপ্ত বিচারের প্রশ্ন"
+        },
+        {
+          "type": "paragraph",
+          "text": "শেখ হাসিনার ডিসেম্বরে দেশে ফেরার ঘোষণার প্রসঙ্গে হাসনাত বলেন, তিনি চান শেখ হাসিনা ফিরে আদালতের মুখোমুখি হোন। ২০২৫ সালের নভেম্বরে আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল জুলাই–আগস্টের দমন-পীড়নসংক্রান্ত মানবতাবিরোধী অপরাধের মামলায় তাঁকে অনুপস্থিতিতে মৃত্যুদণ্ড দেয়। তিনি ভারতে অবস্থান করছেন এবং বাংলাদেশের প্রত্যর্পণ অনুরোধ ভারতীয় কর্তৃপক্ষের আইনি পর্যালোচনায় রয়েছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জাতিসংঘের অনুসন্ধানে ২০২৪ সালের ১ জুলাই থেকে ১৫ আগস্টের মধ্যে সর্বোচ্চ প্রায় ১,৪০০ মানুষ নিহত হয়ে থাকতে পারেন বলে অনুমান করা হয়েছে। প্রতিবেদনে তৎকালীন সরকার, নিরাপত্তা ও গোয়েন্দা সংস্থা এবং আওয়ামী লীগ-সংশ্লিষ্ট সহিংস গোষ্ঠীর পরিকল্পিত গুরুতর মানবাধিকার লঙ্ঘনের যুক্তিসংগত ভিত্তি পাওয়ার কথা বলা হয়েছে। এই বাস্তবতায় প্রত্যাবর্তনের প্রশ্নটি কেবল একজন সাবেক প্রধানমন্ত্রীর দেশে ফেরার প্রশ্ন নয়; এটি ভুক্তভোগীদের ন্যায়বিচার, প্রমাণনির্ভর বিচারপ্রক্রিয়া এবং রাষ্ট্রীয় অপরাধের দায় নির্ধারণের প্রশ্ন।"
+        },
+        {
+          "type": "heading",
+          "text": "ভারতের সঙ্গে সম্পর্ক হবে বাংলাদেশের মর্যাদার ভিত্তিতে"
+        },
+        {
+          "type": "paragraph",
+          "text": "হাসনাতের বক্তব্য—ভারত যদি বাংলাদেশকে শুধু আওয়ামী লীগের চোখ দিয়ে দেখে, সেটি হবে দীর্ঘমেয়াদি কৌশলগত ভুল। দুই দেশের বাণিজ্য, চিকিৎসা, সংস্কৃতি ও মানুষের যোগাযোগের কারণে সহযোগিতা জরুরি; কিন্তু সম্পর্ক কোনো নির্দিষ্ট দলের সঙ্গে বিশেষ বোঝাপড়ার ওপর দাঁড়াতে পারে না। সম্পর্ক হতে হবে রাষ্ট্রের সঙ্গে রাষ্ট্রের, নির্বাচিত সরকারের সঙ্গে সরকারের এবং পারস্পরিক সম্মান, সার্বভৌমত্ব ও সমতার ভিত্তিতে।"
+        },
+        {
+          "type": "heading",
+          "text": "যুক্তরাষ্ট্রের সঙ্গে বাণিজ্যচুক্তি: সম্ভাবনা আছে, স্বচ্ছতাও চাই"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ–যুক্তরাষ্ট্র পারস্পরিক বাণিজ্যচুক্তির কিছু সম্ভাবনা স্বীকার করেও হাসনাত প্রশ্ন তুলেছেন—এত গুরুত্বপূর্ণ একটি চুক্তির শর্ত সংসদ ও জনগণের সামনে বিস্তারিতভাবে ব্যাখ্যা করা হচ্ছে না কেন। সরকারি তথ্য অনুযায়ী অধিকাংশ বাংলাদেশি পণ্যে ১৯ শতাংশ reciprocal tariff বহাল থাকবে, নির্দিষ্ট কিছু পণ্য শূন্য হারের সুবিধা পাবে এবং গম, সয়াবিন ও তুলাসহ প্রায় ৩.৫ বিলিয়ন ডলারের মার্কিন কৃষিপণ্য কেনার বাণিজ্যিক পরিকল্পনা রয়েছে। লাভ–ক্ষতি দুটিই প্রকাশ্যে ব্যাখ্যা করা নির্বাচিত সরকারের দায়িত্ব।"
+        },
+        {
+          "type": "heading",
+          "text": "বিদ্যুৎ সংকট: উত্তরাধিকারসূত্রে পাওয়া সমস্যা, বর্তমান সরকারেরও দায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "২০২৬ সালের এপ্রিলে পাওয়ার ডিভিশনের হিসাবে এক দিনে সম্ভাব্য চাহিদা ছিল প্রায় ১৭ হাজার মেগাওয়াট, উৎপাদন সম্ভব হচ্ছিল প্রায় ১৪ হাজার মেগাওয়াট এবং ঘাটতি ছিল প্রায় তিন হাজার মেগাওয়াট। গ্যাসের ঘাটতি, কয়েকটি বড় বিদ্যুৎকেন্দ্রের কম উৎপাদন এবং আমদানিনির্ভর জ্বালানি ব্যবস্থা সংকটকে বাড়িয়েছে। হাসনাত স্বীকার করেন, এর বড় অংশ আগের সরকারের রেখে যাওয়া; তবে সমস্যার উত্তরাধিকার বর্তমান সরকারকে পরিকল্পনা, সৎ যোগাযোগ ও ফল দেওয়ার দায় থেকে মুক্ত করে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তিনি অবৈধ ও হিসাববহির্ভূত সংযোগ বন্ধ, সৌর প্যানেল–ইনভার্টার–ব্যাটারিতে কর কমানো, শিল্পের rooftop solar ব্যবহারে প্রণোদনা, দেশীয় গ্যাস অনুসন্ধান এবং আমদানির উৎস বহুমুখী করার কথা বলেন। তাঁর দাবি, NCP সরকারকে ১৫ দফা জ্বালানি প্রস্তাব দিয়েছে। এখন প্রয়োজন প্রতিটি প্রস্তাবের খরচ, সময়সীমা ও প্রত্যাশিত ফল প্রকাশ করা—তাহলেই মানুষ বুঝবে কোনটি রাজনৈতিক বক্তব্য আর কোনটি বাস্তবায়নযোগ্য বিকল্প।"
+        },
+        {
+          "type": "heading",
+          "text": "ফ্যামিলি কার্ড: সহায়তা প্রয়োজন, কিন্তু ব্যবস্থাটি কি টেকসই?"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফ্যামিলি কার্ড নিয়ে হাসনাতের মূল প্রশ্ন—দেশ যখন বিদ্যুৎ, কর্মসংস্থান ও উৎপাদন সংকটে, তখন বিপুল নগদ সহায়তা মানুষকে স্বনির্ভর করবে, নাকি রাজনৈতিক নির্ভরশীলতা বাড়াবে? সরকারি পরিকল্পনায় পাঁচ বছরে সম্ভাব্য ব্যয় প্রায় ১ লাখ ৩৩ হাজার ৬১৬ কোটি টাকা; এর মধ্যে প্রায় ১২ হাজার ৩৩০ কোটি টাকা জরিপ ও সংশ্লিষ্ট কার্যক্রমে ব্যয়ের প্রাক্কলন রয়েছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশে ২৫টি মন্ত্রণালয়ের অধীনে ৯৯টি সামাজিক সুরক্ষা কর্মসূচি রয়েছে। সঠিকভাবে বাস্তবায়িত হলে Family Card বিচ্ছিন্ন ব্যবস্থাগুলোকে এক কাঠামোয় আনতে পারে। কিন্তু সাফল্য নির্ভর করবে উপকারভোগী নির্বাচন, তথ্যের নিরাপত্তা, ডিজিটাল অন্তর্ভুক্তি এবং দলীয় প্রভাবমুক্ত বাস্তবায়নের ওপর। সামাজিক নিরাপত্তা প্রয়োজন; তবে স্থায়ী মুক্তি আসে কর্মসংস্থান, দক্ষতা ও উৎপাদনশীল সুযোগ থেকে—নগদ সহায়তা কখনোই এসবের বিকল্প নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রধানমন্ত্রী জনপ্রিয়, কিন্তু সরকার কেন পিছিয়ে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Doppler Opinion Research-এর আগস্টের জরিপে ৬৬.৩ শতাংশ উত্তরদাতা প্রধানমন্ত্রী তারেক রহমানের কাজকে ইতিবাচকভাবে দেখেছেন, অথচ সরকারের সামগ্রিক কাজের ইতিবাচক মূল্যায়ন ৫৪.৫ শতাংশ। বিদ্যুৎ, জ্বালানি ও দ্রব্যমূল্যকে মানুষ সবচেয়ে বড় সমস্যা হিসেবে চিহ্নিত করেছে। হাসনাতের বিশ্লেষণ সহজ—অধিনায়কের ব্যক্তিগত আচরণ ভালো হলেও দল ম্যাচ হারলে শেষ পর্যন্ত অধিনায়ককেই দায় নিতে হয়। ব্যক্তিগত জনপ্রিয়তাকে টেকসই করতে হলে সেটিকে মন্ত্রীদের কাজ, সেবা ও প্রাতিষ্ঠানিক ফলাফলে রূপ দিতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "NCP–জামায়াত সম্পর্ক: জোট মানেই আদর্শের একীভবন নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "জামায়াতের সঙ্গে NCP-র সম্পর্ক বোঝাতে হাসনাত বলেন, দুই ব্যক্তি একই গন্তব্যের বাসে উঠতে পারেন, কিন্তু তাঁদের বিশ্বাস ও পরবর্তী ঠিকানা এক হওয়া জরুরি নয়। সাংবিধানিক সংস্কার বা নির্দিষ্ট রাজনৈতিক লক্ষ্যে সহযোগিতা থাকতে পারে; নারী নেতৃত্ব, বহুত্ববাদ, নৈতিক পুলিশিং ও রাষ্ট্র পরিচালনায় NCP-র নিজস্ব অবস্থান রয়েছে। এই স্বাতন্ত্র্য শুধু কথায় নয়—প্রার্থী নির্বাচন, সংসদীয় ভোট ও দলীয় নীতিতে দৃশ্যমান করতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদের সীমা এবং নীতিনির্ভর বিরোধী রাজনীতি"
+        },
+        {
+          "type": "paragraph",
+          "text": "হাসনাতের অভিজ্ঞতায় সংসদের কার্যপ্রণালী, সময়সীমা ও সম্প্রচারব্যবস্থা একজন সদস্যের বক্তব্য পুরোপুরি মানুষের কাছে পৌঁছানো কঠিন করে তোলে। এটি আন্দোলনের রাজনীতি ও প্রাতিষ্ঠানিক রাজনীতির পার্থক্যও দেখায়। NCP-র সুযোগ হলো—সমালোচনার সঙ্গে লিখিত নীতিপ্রস্তাব, বিকল্প বাজেট, তথ্যচিত্র ও নিয়মিত অগ্রগতি প্রতিবেদন প্রকাশ করা। সংসদে সময় কম হলেও প্রমাণভিত্তিক রাজনীতির জায়গা ছোট হতে হবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "উত্তরাধিকার নয়, যোগ্যতার রাজনীতি"
+        },
+        {
+          "type": "paragraph",
+          "text": "নিজের সন্তান ভবিষ্যতে রাজনীতিতে এলে কী করবেন—এমন প্রশ্নে হাসনাত বলেন, শুধু তাঁর ছেলে হওয়ার কারণে কেউ যেন পদ না পায়; আগ্রহ ও যোগ্যতা থাকলে সাধারণ সদস্য হিসেবে শুরু করে এগোতে হবে। বাংলাদেশের রাজনীতিতে অন্যের সন্তানকে মাঠের সংঘাতের দিকে ঠেলে দিয়ে নিজের সন্তানকে উত্তরাধিকারসূত্রে পদ দেওয়ার সংস্কৃতির বিরুদ্ধে এটি গুরুত্বপূর্ণ অবস্থান। NCP-কে নিজের সংগঠনেও একই মানদণ্ড কার্যকর করে দেখাতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রতিবাদ থেকে নীতি-রাজনীতির পথে"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই সাক্ষাৎকারের সবচেয়ে গুরুত্বপূর্ণ দিক কোনো একক বিতর্কিত বাক্য নয়; গুরুত্বপূর্ণ হলো প্রতিবাদী রাজনীতি থেকে নীতিনির্ভর বিরোধী রাজনীতির দিকে অগ্রসর হওয়ার চেষ্টা। হাসনাত সরকারকে সমালোচনা করেছেন, কয়েকটি ক্ষেত্রে বিকল্পও দিয়েছেন; আগের সরকারের অপরাধের বিচার চেয়েছেন, বর্তমান সরকারকেও জবাবদিহির বাইরে রাখেননি। আবেগ মানুষকে আন্দোলনে যুক্ত করে, কিন্তু রাষ্ট্র চালাতে প্রয়োজন তথ্য, যোগ্য প্রতিষ্ঠান, বাস্তবায়নযোগ্য নীতি এবং ভুল স্বীকার করার সাহস।"
+        },
+        {
+          "type": "callout",
+          "text": "ব্যক্তি বদল বাংলাদেশের জন্য প্রয়োজনীয় ছিল। জুলাইয়ের প্রকৃত সাফল্য নির্ধারিত হবে তখনই, যখন ব্যক্তির সঙ্গে ক্ষমতার কাঠামো, প্রশাসনের সংস্কৃতি এবং রাষ্ট্রের জবাবদিহিও বদলাবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সম্পাদকীয় নোট: নিবন্ধে সাক্ষাৎকারে হাসনাত আবদুল্লাহর রাজনৈতিক মতামতকে তাঁর বক্তব্য হিসেবেই উপস্থাপন করা হয়েছে। সংখ্যা ও প্রাতিষ্ঠানিক তথ্য আলাদা নির্ভরযোগ্য উৎস দিয়ে যাচাই করা হয়েছে; কোনো রাজনৈতিক বক্তব্যকে স্বয়ংক্রিয়ভাবে প্রতিষ্ঠিত সত্য হিসেবে ধরা হয়নি।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SameerScane: MP Hasnat Abdullah | Hasina Return, BNP Failure & Jamaat Scandal!?",
+          "url": "https://www.youtube.com/watch?v=dAaBfRpyYWg"
+        },
+        {
+          "label": "জাতিসংঘ মানবাধিকার দপ্তর: জুলাই–আগস্ট ২০২৪-এর মানবাধিকার লঙ্ঘন বিষয়ে অনুসন্ধান প্রতিবেদন",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+        },
+        {
+          "label": "AP: শেখ হাসিনার ডিসেম্বরে ফেরার ঘোষণা, দণ্ড ও প্রত্যর্পণ পরিস্থিতি",
+          "url": "https://apnews.com/article/bangladesh-sheikh-hasina-exile-eb64bc5b38eb570044091295778bf3df"
+        },
+        {
+          "label": "USTR: যুক্তরাষ্ট্র–বাংলাদেশ পারস্পরিক বাণিজ্যচুক্তির সরকারি তথ্যপত্র",
+          "url": "https://www.ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-bangladesh-reach-agreement-reciprocal-trade"
+        },
+        {
+          "label": "The Business Standard: ১৭ হাজার মেগাওয়াট চাহিদার বিপরীতে তিন হাজার মেগাওয়াট ঘাটতি",
+          "url": "https://www.tbsnews.net/bangladesh/energy/energy-crisis-beyond-tolerable-level-3000mw-deficit-today-power-division-1419661"
+        },
+        {
+          "label": "Prothom Alo: ফ্যামিলি কার্ডের পাঁচ বছরের প্রাক্কলিত ব্যয় ও বাস্তবায়ন পরিকল্পনা",
+          "url": "https://en.prothomalo.com/bangladesh/4kem5d6ogl"
+        },
+        {
+          "label": "সরকারি Social Security Policy Support Programme: Family Card কাঠামো ও বাস্তবায়নের শর্ত",
+          "url": "https://socialprotection.gov.bd/2026/03/family-card/"
+        },
+        {
+          "label": "The Daily Star: Doppler Approval Rating Survey 2026",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/pm-doing-better-his-government-survey-finds-4252361"
+        }
+      ],
+      "translations": {
+        "en": {
+          "tag": "Politics & state reform",
+          "author": "Editorial Desk",
+          "date": "12 September 2026",
+          "title": "Changing the ruler is not enough: Hasnat Abdullah on the state, energy and accountability",
+          "excerpt": "On SCANeDalous, MP Hasnat Abdullah discussed Sheikh Hasina's trial, Bangladesh–India relations, the power crisis, the Family Card and parliamentary politics. His central argument: changing the ruler without reforming the old machinery of power will not deliver lasting change.",
+          "imageAlt": "MP Hasnat Abdullah speaking with host SameerScane in the SCANeDalous studio",
+          "imageCredit": "Hasnat Abdullah's interview on SCANeDalous with SameerScane. Image: SameerScane/YouTube; screenshot supplied by the user.",
+          "facts": [
+            {
+              "value": "Up to 1,400",
+              "label": "Estimated deaths during the July–August 2024 crackdown, according to the UN fact-finding report."
+            },
+            {
+              "value": "3,000 MW",
+              "label": "Projected electricity deficit reported for a day in April 2026."
+            },
+            {
+              "value": "BDT 1.336tn",
+              "label": "Projected total cost of the Family Card programme over five years."
+            },
+            {
+              "value": "66.3% vs 54.5%",
+              "label": "Positive ratings for the prime minister personally and the government overall in a national survey."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "In the SCANeDalous with SameerScane episode published on 11 September, Cumilla-4 MP and NCP Chief Organiser for the South Hasnat Abdullah moved beyond the familiar language of protest to discuss policy, economics and the realities of governing. His task is now twofold: hold the government accountable in parliament and show that a political force born from July can offer workable alternatives as well as resistance."
+            },
+            {
+              "type": "callout",
+              "text": "The interview's central argument is clear: replacing a leader may be necessary, but political change will not endure if the old institutions and machinery of power remain untouched."
+            },
+            {
+              "type": "heading",
+              "text": "Hasina's possible return and the unfinished question of justice"
+            },
+            {
+              "type": "paragraph",
+              "text": "Asked about Sheikh Hasina's announcement that she may return in December, Hasnat said he wanted her to come back and face the courts. In November 2025, Bangladesh's International Crimes Tribunal sentenced her to death in absentia over crimes against humanity connected to the July–August crackdown. She remains in India, where Bangladesh's extradition request is under legal review."
+            },
+            {
+              "type": "paragraph",
+              "text": "The UN fact-finding mission estimated that as many as 1,400 people may have been killed between 1 July and 15 August 2024 and found reasonable grounds to believe that serious violations were carried out systematically by the former government, security and intelligence bodies, and violent Awami League-linked elements. The return question is therefore about more than a former prime minister crossing a border: it concerns evidence-based proceedings, victims' rights and accountability for alleged state crimes."
+            },
+            {
+              "type": "heading",
+              "text": "Relations with India must rest on Bangladesh's dignity"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat argued that India makes a strategic mistake when it interprets Bangladesh mainly through the Awami League. Trade, healthcare, culture and human ties make cooperation necessary, but the relationship cannot be built around privileged access to one party. It should be government-to-government and grounded in reciprocity, sovereignty and respect for the democratic choices of Bangladeshis."
+            },
+            {
+              "type": "heading",
+              "text": "The US trade deal: opportunity requires transparency"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat acknowledged potential gains in the Bangladesh–US reciprocal trade agreement but asked why its major commitments had not been fully explained in parliament and to the public. Official documents retain a 19 per cent reciprocal tariff for most Bangladeshi goods, allow zero treatment for selected products and note planned purchases of roughly $3.5 billion in US wheat, soy products and cotton. An elected government must explain both the benefits and the long-term obligations in public."
+            },
+            {
+              "type": "heading",
+              "text": "The power crisis: inherited causes do not erase present responsibility"
+            },
+            {
+              "type": "paragraph",
+              "text": "Power Division figures for a day in April 2026 projected demand of nearly 17,000 MW, available generation of about 14,000 MW and a deficit of roughly 3,000 MW. Gas shortages, reduced output at major plants and dependence on imported fuel deepened the crisis. Hasnat accepted that much of the vulnerability was inherited, but argued that inheritance does not release the current government from the duty to plan, communicate honestly and deliver results."
+            },
+            {
+              "type": "paragraph",
+              "text": "His proposals included stopping illegal and unmetered connections, reducing taxes on solar panels, inverters and batteries, incentivising industrial rooftop solar, expanding domestic gas exploration and diversifying import sources. He said NCP had offered a 15-point energy plan. Publishing the cost, timetable and expected output of every measure would allow the public to distinguish a political claim from an implementable alternative."
+            },
+            {
+              "type": "heading",
+              "text": "Family Card: necessary support, but is the design sustainable?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat's central concern was whether a very large cash-transfer programme, introduced amid power, employment and production constraints, would build independence or political dependency. Current projections put the five-year cost at BDT 1.336 trillion, including about BDT 123.3 billion for surveys and related work. Bangladesh already runs 99 social-protection programmes across 25 ministries. A unified Family Card could reduce fragmentation, but only if beneficiary selection, data security, digital access and implementation remain free from partisan capture."
+            },
+            {
+              "type": "heading",
+              "text": "A popular prime minister and a government under pressure"
+            },
+            {
+              "type": "paragraph",
+              "text": "An August Doppler survey found that 66.3 per cent rated Prime Minister Tarique Rahman's performance positively, compared with 54.5 per cent for the government overall. Electricity, fuel and food prices were the leading public concerns. Hasnat's analogy was straightforward: a captain may appear personally capable, but the result of the whole team ultimately belongs to the captain. Personal approval must be converted into ministerial performance, public services and institutional results."
+            },
+            {
+              "type": "heading",
+              "text": "NCP and Jamaat: cooperation is not ideological merger"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat compared the relationship to two passengers sharing a bus toward one destination without sharing every belief or final address. Cooperation may exist around constitutional reform or defined political objectives, while NCP retains distinct positions on women's leadership, pluralism, moral policing and the role of the state. That distinction must be visible in candidate selection, parliamentary votes and party policy—not only in interviews."
+            },
+            {
+              "type": "heading",
+              "text": "From protest to policy politics"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat also described parliamentary time limits and procedures that, in his experience, prevent members from presenting a full argument. That is precisely where a policy-based opposition can innovate: publish written proposals, alternative budgets, explanatory graphics and regular progress reports. NCP can oppose inherited political dynasties in the same way—by making internal advancement depend on work and merit rather than family identity."
+            },
+            {
+              "type": "paragraph",
+              "text": "The interview matters less for any single provocative sentence than for its attempt to move from protest politics toward policy-driven opposition. Emotion can bring people into a movement; governing requires evidence, capable institutions, implementable plans and the courage to admit mistakes."
+            },
+            {
+              "type": "callout",
+              "text": "Bangladesh needed a change of ruler. July's deeper success will be measured by whether the structure of power, administrative culture and public accountability change as well."
+            },
+            {
+              "type": "paragraph",
+              "text": "Editorial note: Hasnat Abdullah's political assessments are presented as his views. Numerical and institutional claims were checked against separate sources; political assertions were not automatically treated as established fact."
+            }
+          ],
+          "sources": [
+            {
+              "label": "SameerScane: MP Hasnat Abdullah | Hasina Return, BNP Failure & Jamaat Scandal!?",
+              "url": "https://www.youtube.com/watch?v=dAaBfRpyYWg"
+            },
+            {
+              "label": "UN Human Rights Office: fact-finding report on violations related to the July–August 2024 protests",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            },
+            {
+              "label": "AP: Hasina's announced return, conviction and extradition context",
+              "url": "https://apnews.com/article/bangladesh-sheikh-hasina-exile-eb64bc5b38eb570044091295778bf3df"
+            },
+            {
+              "label": "USTR: official fact sheet on the US–Bangladesh reciprocal trade agreement",
+              "url": "https://www.ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-bangladesh-reach-agreement-reciprocal-trade"
+            },
+            {
+              "label": "The Business Standard: projected 3,000 MW electricity deficit",
+              "url": "https://www.tbsnews.net/bangladesh/energy/energy-crisis-beyond-tolerable-level-3000mw-deficit-today-power-division-1419661"
+            },
+            {
+              "label": "Prothom Alo: five-year Family Card cost and implementation plan",
+              "url": "https://en.prothomalo.com/bangladesh/4kem5d6ogl"
+            },
+            {
+              "label": "Government Social Security Policy Support Programme: Family Card framework",
+              "url": "https://socialprotection.gov.bd/2026/03/family-card/"
+            },
+            {
+              "label": "The Daily Star: Doppler Approval Rating Survey 2026",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/pm-doing-better-his-government-survey-finds-4252361"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Politik & Staatsreform",
+          "author": "Redaktion",
+          "date": "12. September 2026",
+          "title": "Ein Machtwechsel reicht nicht: Hasnat Abdullah über Staat, Energie und Rechenschaft",
+          "excerpt": "Im Podcast SCANeDalous sprach der Abgeordnete Hasnat Abdullah über das Verfahren gegen Sheikh Hasina, die Beziehungen zu Indien, die Energiekrise, die Family Card und die parlamentarische Politik. Seine Kernthese: Ohne Reform der alten Machtstrukturen bleibt ein Regierungswechsel unvollständig.",
+          "imageAlt": "Der Abgeordnete Hasnat Abdullah im Gespräch mit Moderator SameerScane im SCANeDalous-Studio",
+          "imageCredit": "Interview mit Hasnat Abdullah bei SCANeDalous with SameerScane. Bild: SameerScane/YouTube; Screenshot vom Nutzer bereitgestellt.",
+          "facts": [
+            {
+              "value": "Bis zu 1.400",
+              "label": "Geschätzte Zahl der Toten bei der Repression im Juli und August 2024 laut UN-Untersuchung."
+            },
+            {
+              "value": "3.000 MW",
+              "label": "Für einen Tag im April 2026 gemeldetes voraussichtliches Stromdefizit."
+            },
+            {
+              "value": "1,336 Bio. BDT",
+              "label": "Geschätzte Gesamtkosten des Family-Card-Programms über fünf Jahre."
+            },
+            {
+              "value": "66,3 % zu 54,5 %",
+              "label": "Positive Bewertung des Premierministers persönlich und der Regierung insgesamt in einer landesweiten Umfrage."
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "In der am 11. September veröffentlichten Folge von SCANeDalous with SameerScane sprach Hasnat Abdullah, Abgeordneter für Cumilla-4 und NCP-Chefkoordinator für den Süden, nicht nur in der bekannten Sprache des Protests, sondern auch über Politikgestaltung, Wirtschaft und die Realität des Regierens. Seine Aufgabe ist nun zweifach: die Regierung im Parlament zur Rechenschaft zu ziehen und zu zeigen, dass eine aus dem Juli hervorgegangene politische Kraft neben Widerstand auch tragfähige Alternativen anbieten kann."
+            },
+            {
+              "type": "callout",
+              "text": "Die Kernbotschaft des Interviews ist klar: Ein Personenwechsel kann notwendig sein. Bleiben jedoch Institutionen und Machtapparat unverändert, führt der politische Wechsel nicht zu dauerhaft besseren Lebensbedingungen."
+            },
+            {
+              "type": "heading",
+              "text": "Hasinas mögliche Rückkehr und die offene Frage der Gerechtigkeit"
+            },
+            {
+              "type": "paragraph",
+              "text": "Auf Sheikh Hasinas Ankündigung einer möglichen Rückkehr im Dezember angesprochen, erklärte Hasnat, sie solle zurückkehren und sich dem Gericht stellen. Im November 2025 verurteilte Bangladeschs International Crimes Tribunal sie in Abwesenheit wegen Verbrechen gegen die Menschlichkeit im Zusammenhang mit der Niederschlagung der Proteste zum Tode. Sie hält sich weiterhin in Indien auf; Bangladeschs Auslieferungsersuchen wird dort rechtlich geprüft."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die UN-Untersuchung schätzt, dass zwischen dem 1. Juli und 15. August 2024 bis zu 1.400 Menschen getötet worden sein könnten. Sie sieht hinreichende Gründe für die Annahme systematischer schwerer Menschenrechtsverletzungen durch die damalige Regierung, Sicherheits- und Nachrichtendienste sowie gewalttätige, mit der Awami League verbundene Akteure. Die Rückkehrfrage betrifft deshalb mehr als eine ehemalige Regierungschefin: Es geht um beweisgestützte Verfahren, die Rechte der Opfer und Verantwortung für mutmaßliche Staatsverbrechen."
+            },
+            {
+              "type": "heading",
+              "text": "Das Verhältnis zu Indien muss auf Bangladeschs Würde beruhen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat bezeichnete es als strategischen Fehler, wenn Indien Bangladesch vor allem durch die Awami League betrachtet. Handel, Gesundheitsversorgung, Kultur und zwischenmenschliche Verbindungen machen Zusammenarbeit notwendig. Die Beziehung darf jedoch nicht auf privilegiertem Zugang zu einer Partei beruhen, sondern muss von Regierung zu Regierung geführt werden und Gegenseitigkeit, Souveränität sowie die demokratischen Entscheidungen der Menschen in Bangladesch achten."
+            },
+            {
+              "type": "heading",
+              "text": "Das Handelsabkommen mit den USA: Chancen brauchen Transparenz"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat erkannte mögliche Vorteile des reziproken Handelsabkommens zwischen Bangladesch und den USA an, fragte aber, weshalb seine wesentlichen Verpflichtungen nicht vollständig im Parlament und gegenüber der Öffentlichkeit erläutert wurden. Offizielle Dokumente sehen für die meisten Waren aus Bangladesch einen reziproken Zoll von 19 Prozent vor, ermöglichen Nullsätze für ausgewählte Produkte und nennen geplante Käufe von US-Weizen, Sojaprodukten und Baumwolle im Wert von rund 3,5 Milliarden US-Dollar. Eine gewählte Regierung muss Nutzen und langfristige Verpflichtungen offen erklären."
+            },
+            {
+              "type": "heading",
+              "text": "Die Stromkrise: Geerbte Ursachen beseitigen heutige Verantwortung nicht"
+            },
+            {
+              "type": "paragraph",
+              "text": "Für einen Tag im April 2026 erwartete die Power Division eine Nachfrage von fast 17.000 MW, eine verfügbare Erzeugung von etwa 14.000 MW und damit ein Defizit von rund 3.000 MW. Gasmangel, die geringere Leistung großer Kraftwerke und die Abhängigkeit von importierten Energieträgern verschärften die Krise. Hasnat räumte ein, dass viele Ursachen geerbt wurden. Das befreit die heutige Regierung jedoch nicht von Planung, ehrlicher Kommunikation und messbaren Ergebnissen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Er schlug vor, illegale und nicht gemessene Anschlüsse zu beenden, Steuern auf Solarmodule, Wechselrichter und Batterien zu senken, industrielle Dachsolaranlagen zu fördern, die heimische Gasexploration auszuweiten und Importquellen zu diversifizieren. Nach seiner Aussage hat NCP einen 15-Punkte-Plan vorgelegt. Kosten, Zeitplan und erwartete Wirkung jeder Maßnahme sollten veröffentlicht werden, damit die Öffentlichkeit politische Behauptungen von umsetzbaren Alternativen unterscheiden kann."
+            },
+            {
+              "type": "heading",
+              "text": "Family Card: notwendige Hilfe, aber ist das Modell tragfähig?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnats Kernfrage war, ob ein sehr großes Geldtransferprogramm inmitten von Strom-, Beschäftigungs- und Produktionsproblemen Selbstständigkeit aufbaut oder politische Abhängigkeit verstärkt. Die derzeitige Planung veranschlagt für fünf Jahre rund 1,336 Billionen BDT, darunter etwa 123,3 Milliarden BDT für Erhebungen und begleitende Aufgaben. Bangladesch betreibt bereits 99 Sozialschutzprogramme in 25 Ministerien. Eine einheitliche Family Card könnte die Zersplitterung verringern, wenn Auswahl, Datenschutz, digitaler Zugang und Umsetzung frei von parteipolitischer Vereinnahmung bleiben."
+            },
+            {
+              "type": "heading",
+              "text": "Ein populärer Premierminister und eine Regierung unter Druck"
+            },
+            {
+              "type": "paragraph",
+              "text": "Eine Doppler-Umfrage vom August bewertete die Arbeit von Premierminister Tarique Rahman zu 66,3 Prozent positiv, die Gesamtleistung der Regierung jedoch nur zu 54,5 Prozent. Strom, Energie und Lebensmittelpreise waren die wichtigsten Sorgen. Hasnats Vergleich war einfach: Ein Kapitän kann persönlich kompetent wirken, doch das Ergebnis des gesamten Teams wird ihm zugerechnet. Persönliche Zustimmung muss sich in der Leistung der Ministerien, öffentlichen Dienstleistungen und institutionellen Ergebnissen niederschlagen."
+            },
+            {
+              "type": "heading",
+              "text": "NCP und Jamaat: Zusammenarbeit ist keine ideologische Verschmelzung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat verglich die Beziehung mit zwei Fahrgästen, die für ein gemeinsames Teilstück denselben Bus nehmen, ohne alle Überzeugungen oder das endgültige Ziel zu teilen. Zusammenarbeit kann bei Verfassungsreformen oder klar definierten politischen Zielen bestehen, während NCP bei Frauen in Führung, Pluralismus, moralischer Bevormundung und der Rolle des Staates eigene Positionen behält. Diese Unterschiede müssen bei Kandidaturen, Abstimmungen und Parteipolitik sichtbar werden."
+            },
+            {
+              "type": "heading",
+              "text": "Vom Protest zur Politik mit konkreten Vorschlägen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hasnat schilderte außerdem, wie parlamentarische Zeitgrenzen und Verfahren aus seiner Sicht vollständige Argumente erschweren. Gerade hier kann eine sachorientierte Opposition neue Wege gehen: schriftliche Vorschläge, Alternativbudgets, verständliche Grafiken und regelmäßige Fortschrittsberichte veröffentlichen. Auch politische Erbfolge lässt sich so überwinden—durch Aufstieg nach Arbeit und Eignung statt nach Familiennamen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bedeutend ist das Interview weniger wegen eines einzelnen provokanten Satzes als wegen des Versuchs, Protestpolitik in eine politikgestützte Opposition zu überführen. Emotion bringt Menschen in eine Bewegung; zum Regieren braucht es Belege, leistungsfähige Institutionen, umsetzbare Pläne und den Mut, Fehler einzugestehen."
+            },
+            {
+              "type": "callout",
+              "text": "Bangladesch brauchte einen Wechsel an der Spitze. Der tiefere Erfolg des Juli wird daran gemessen, ob sich auch Machtstrukturen, Verwaltungskultur und öffentliche Rechenschaft verändern."
+            },
+            {
+              "type": "paragraph",
+              "text": "Redaktioneller Hinweis: Die politischen Bewertungen Hasnat Abdullahs werden als seine Positionen wiedergegeben. Zahlen und institutionelle Angaben wurden anhand eigenständiger Quellen geprüft; politische Aussagen wurden nicht automatisch als erwiesene Tatsachen behandelt."
+            }
+          ],
+          "sources": [
+            {
+              "label": "SameerScane: MP Hasnat Abdullah | Hasina Return, BNP Failure & Jamaat Scandal!?",
+              "url": "https://www.youtube.com/watch?v=dAaBfRpyYWg"
+            },
+            {
+              "label": "UN-Menschenrechtsbüro: Untersuchungsbericht zu den Protesten im Juli und August 2024",
+              "url": "https://www.ohchr.org/sites/default/files/documents/countries/bangladesh/ohchr-fftb-hr-violations-bd.pdf"
+            },
+            {
+              "label": "AP: Hasinas angekündigte Rückkehr, Urteil und Auslieferungskontext",
+              "url": "https://apnews.com/article/bangladesh-sheikh-hasina-exile-eb64bc5b38eb570044091295778bf3df"
+            },
+            {
+              "label": "USTR: offizielles Datenblatt zum Handelsabkommen zwischen den USA und Bangladesch",
+              "url": "https://www.ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-bangladesh-reach-agreement-reciprocal-trade"
+            },
+            {
+              "label": "The Business Standard: voraussichtliches Stromdefizit von 3.000 MW",
+              "url": "https://www.tbsnews.net/bangladesh/energy/energy-crisis-beyond-tolerable-level-3000mw-deficit-today-power-division-1419661"
+            },
+            {
+              "label": "Prothom Alo: Fünfjahreskosten und Umsetzungsplan der Family Card",
+              "url": "https://en.prothomalo.com/bangladesh/4kem5d6ogl"
+            },
+            {
+              "label": "Staatliches Social Security Policy Support Programme: Family-Card-Rahmen",
+              "url": "https://socialprotection.gov.bd/2026/03/family-card/"
+            },
+            {
+              "label": "The Daily Star: Doppler Approval Rating Survey 2026",
+              "url": "https://www.thedailystar.net/news/bangladesh/news/pm-doing-better-his-government-survey-finds-4252361"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "public-accounts-committee-ten-ministries-disclosure-2026",
       "slug": "public-accounts-committee-ten-ministries-disclosure-2026",
       "status": "published",
