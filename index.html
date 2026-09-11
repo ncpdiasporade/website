@@ -46,7 +46,7 @@
         "sameAs": [
           "https://www.facebook.com/ncpdagermany",
           "https://www.instagram.com/ncpda.germany",
-          "https://www.youtube.com/@NCPDA_Germany",
+          "https://www.youtube.com/@NCPDA.Germany",
           "https://www.tiktok.com/@ncpda.germany"
         ]
       }
@@ -3448,6 +3448,50 @@
       color: rgba(255,255,255,.38); margin-bottom: 8px;
     }
     .ncp-info-box p { font-family: var(--font-ui); font-size: .88rem; font-weight: 300; line-height: 1.72; color: rgba(255,255,255,.76); }
+    .ncp-doc-links {
+      display: grid; gap: 8px; margin-top: 12px;
+    }
+    .ncp-doc-link {
+      display: flex; align-items: center; gap: 10px;
+      min-width: 0; min-height: 52px; padding: 9px 11px;
+      border-radius: 11px; background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.1);
+      color: #fff;
+      transition: background .2s, border-color .2s, transform .2s;
+    }
+    .ncp-doc-link:hover {
+      background: rgba(255,255,255,.1);
+      border-color: rgba(255,255,255,.18);
+      transform: translateY(-1px);
+    }
+    .ncp-doc-link:focus-visible {
+      outline: 2px solid var(--green-300);
+      outline-offset: 2px;
+    }
+    .ncp-doc-icon {
+      width: 32px; height: 32px; flex: 0 0 32px;
+      display: grid; place-items: center;
+      border-radius: 9px; background: rgba(255,255,255,.08);
+      color: var(--green-300);
+    }
+    .ncp-doc-icon svg {
+      width: 16px; height: 16px; fill: none; stroke: currentColor;
+      stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+    }
+    .ncp-doc-copy { min-width: 0; flex: 1; }
+    .ncp-doc-copy strong {
+      display: block; font-family: var(--font-ui); font-size: .82rem;
+      font-weight: 600; line-height: 1.35; color: #fff;
+    }
+    .ncp-doc-copy span {
+      display: block; margin-top: 2px;
+      font-family: var(--font-mono); font-size: .61rem;
+      letter-spacing: .06em; color: rgba(255,255,255,.48);
+    }
+    .ncp-doc-arrow {
+      flex: 0 0 auto; color: rgba(255,255,255,.58);
+      font-family: var(--font-ui); font-size: 1rem;
+    }
 
     /* ══════════════════════════════════════════
        JOIN FORM
@@ -5120,8 +5164,23 @@
           <cite>NCP Diaspora Alliance Germany · প্রতিষ্ঠাকালীন ভাবনা</cite>
           <div class="ncp-info-box">
             <div class="label">NCP সম্পর্কে জানুন</div>
-            <p>জাতীয় নাগরিক পার্টি ২৮ ফেব্রুয়ারি ২০২৫-এ আত্মপ্রকাশ করে। দলটির ঘোষিত অগ্রাধিকারের মধ্যে রাষ্ট্র ও সংবিধান সংস্কার, জবাবদিহিমূলক প্রতিষ্ঠান, বৈষম্যহীনতা এবং নাগরিকের রাজনৈতিক অংশগ্রহণ রয়েছে। সর্বশেষ অবস্থান ও প্রকাশনা জানতে দলটির অফিসিয়াল Facebook পেজ দেখুন।</p>
-            <a href="https://www.facebook.com/1NationalCitizenParty/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;margin-top:10px;font-family:var(--font-ui);font-size:.86rem;font-weight:600;color:var(--green-300);">অফিসিয়াল Facebook পেজ →</a>
+            <p>জাতীয় নাগরিক পার্টি ২৮ ফেব্রুয়ারি ২০২৫-এ আত্মপ্রকাশ করে। দলটির ঘোষিত অগ্রাধিকারের মধ্যে রাষ্ট্র ও সংবিধান সংস্কার, জবাবদিহিমূলক প্রতিষ্ঠান, বৈষম্যহীনতা এবং নাগরিকের রাজনৈতিক অংশগ্রহণ রয়েছে। দলটির ২০২৬ নির্বাচনী ইশতেহার ও গঠনতন্ত্র নিচে পড়ুন।</p>
+            <div class="ncp-doc-links" aria-label="জাতীয় নাগরিক পার্টির নথি">
+              <a class="ncp-doc-link" href="documents/ncp-election-manifesto-2026.pdf" target="_blank" rel="noopener noreferrer" type="application/pdf" aria-label="জাতীয় নাগরিক পার্টির ২০২৬ নির্বাচনী ইশতেহার PDF খুলুন">
+                <span class="ncp-doc-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h6"/></svg>
+                </span>
+                <span class="ncp-doc-copy"><strong>২০২৬ নির্বাচনী ইশতেহার</strong><span>PDF · ৮৬ পৃষ্ঠা</span></span>
+                <span class="ncp-doc-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="ncp-doc-link" href="documents/ncp-constitution.pdf" target="_blank" rel="noopener noreferrer" type="application/pdf" aria-label="জাতীয় নাগরিক পার্টির গঠনতন্ত্র PDF খুলুন">
+                <span class="ncp-doc-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h6"/></svg>
+                </span>
+                <span class="ncp-doc-copy"><strong>জাতীয় নাগরিক পার্টির গঠনতন্ত্র</strong><span>PDF · ৩৫ পৃষ্ঠা</span></span>
+                <span class="ncp-doc-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
           </div>
         </aside>
       </div>
@@ -5276,8 +5335,8 @@
           <div class="socials">
             <a href="https://facebook.com/ncpdagermany" target="_blank" rel="noopener noreferrer">Facebook</a>
             <a href="https://www.instagram.com/ncpda.germany" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.youtube.com/@NCPDA_Germany" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://www.tiktok.com/@ncpda_germany" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://www.youtube.com/@NCPDA.Germany" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.tiktok.com/@ncpda.germany" target="_blank" rel="noopener noreferrer">TikTok</a>
             <a href="https://wa.me/4915678304651" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </div>
@@ -5304,8 +5363,8 @@
             <li><a href="https://wa.me/4915678304651" target="_blank" rel="noopener noreferrer">WhatsApp · +49 15678 304651</a></li>
             <li><a href="https://facebook.com/ncpdagermany" target="_blank" rel="noopener noreferrer">Facebook</a></li>
             <li><a href="https://www.instagram.com/ncpda.germany" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="https://www.youtube.com/@NCPDA_Germany" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-            <li><a href="https://www.tiktok.com/@ncpda_germany" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            <li><a href="https://www.youtube.com/@NCPDA.Germany" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://www.tiktok.com/@ncpda.germany" target="_blank" rel="noopener noreferrer">TikTok</a></li>
             <li><a href="https://ncpdagermany.de/">NCP Diaspora Alliance Germany</a></li>
           </ul>
         </div>
@@ -5318,6 +5377,6 @@
     </div>
   </footer>
 
-  <script src="js/bootstrap.js?v=20260817-seo2" defer></script>
+  <script src="js/bootstrap.js?v=20260911-ncp-documents" defer></script>
 </body>
 </html>
