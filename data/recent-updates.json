@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-12T05:50:04.046Z",
+  "updatedAt": "2026-09-12T10:51:02.184Z",
   "items": [
+    {
+      "id": "facebook-germany-122204289524921031",
+      "facebookId": "122204289524921031",
+      "status": "published",
+      "date": "১২ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-12T10:45:26+0000",
+      "badge": "ভিডিও",
+      "title": "জাতীয় ছাত্রশক্তির প্রথম কাউন্সিল-২০২৬",
+      "excerpt": "সামনের সারিতে আলিফ যে জুলাই পদযাত্রায় এক চোখ হারিয়েছে, তাকেই দিয়েছে সবচেয়ে বড় সম্মান।",
+      "sourceCaption": "জাতীয় ছাত্রশক্তির প্রথম কাউন্সিল-২০২৬\n\nসামনের সারিতে আলিফ যে জুলাই পদযাত্রায় এক চোখ হারিয়েছে, তাকেই দিয়েছে সবচেয়ে বড় সম্মান।\n\n#ncpdagermany #NCPBangladesh",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1067236239539439/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122204289524921031.jpg",
+      "imageAlt": "জাতীয় ছাত্রশক্তির প্রথম কাউন্সিল-২০২৬",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122204184662921031",
       "facebookId": "122204184662921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203641272921031.jpg",
       "imageAlt": "তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203639154921031",
-      "facebookId": "122203639154921031",
-      "status": "published",
-      "date": "৭ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-07T21:25:53+0000",
-      "badge": "জুলাই",
-      "title": "NCP Diaspora Alliance - Germany strongly condemns the reported assault and harassment of Azmeri Haque Badhon in…",
-      "excerpt": "NCP Diaspora Alliance - Germany strongly condemns the reported assault and harassment of Azmeri Haque Badhon in Mestre, Italy, involving individuals she identified as expatriate Awami League activists.",
-      "sourceCaption": "NCP Diaspora Alliance - Germany strongly condemns the reported assault and harassment of Azmeri Haque Badhon in Mestre, Italy, involving individuals she identified as expatriate Awami League activists.\n\nAccording to Badhon’s public statement and videos, she was physically assaulted and a member of her family was pushed during the confrontation.\n\nThis must not be treated as an isolated incident.\n\nThe world must remember what Bangladesh witnessed in July and August 2024. The UN Human Rights Office found serious and systematic human-rights violations during the suppression of the uprising, potentially amounting to international crimes. It documented the use of lethal force against protesters and the involvement of security forces alongside violent elements associated with the then-ruling Awami League.\n\nThe UN estimated that up to 1,400 people may have been killed between 15 July and 5 August 2024.\n\nThat history cannot be erased simply by crossing a border.\n\nWe urge the Italian authorities to investigate this incident immediately and ensure accountability under Italian law.\n\nEurope must not become a safe zone for fascist political intimidation, nor a refuge from accountability for the crimes of July.\n\n— NCP Diaspora Alliance - Germany\n\n#standwithazmerihaquebadhon\n\n#AzmeriHaqueBadhon #JusticeForBadhon #StopPoliticalViolence #Bangladesh #Italy #HumanRights #JulyUprising #NCPDiasporaAllianceGermany #StandAgainstFascism",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203639154921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122203639154921031.jpg",
-      "imageAlt": "NCP Diaspora Alliance - Germany strongly condemns the reported assault and harassment of Azmeri Haque Badhon in…",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67302,
+      "viewCount": 67304,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
