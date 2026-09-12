@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-12T10:51:02.184Z",
+  "updatedAt": "2026-09-12T14:11:13.352Z",
   "items": [
+    {
+      "id": "facebook-germany-122204294924921031",
+      "facebookId": "122204294924921031",
+      "status": "published",
+      "date": "১২ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-12T11:39:59+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "এনসিপির সহযোগী ছাত্রসংগঠন জাতীয় ছাত্রশক্তির কেন্দ্রীয় সংসদ ও ঢাকা বিশ্ববিদ্যালয় শাখার নবনির্বাচিত কমিটিকে আন্তরিক…",
+      "excerpt": "এনসিপির সহযোগী ছাত্রসংগঠন জাতীয় ছাত্রশক্তির কেন্দ্রীয় সংসদ ও ঢাকা বিশ্ববিদ্যালয় শাখার নবনির্বাচিত কমিটিকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।",
+      "sourceCaption": "এনসিপির সহযোগী ছাত্রসংগঠন জাতীয় ছাত্রশক্তির কেন্দ্রীয় সংসদ ও ঢাকা বিশ্ববিদ্যালয় শাখার নবনির্বাচিত কমিটিকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122204294924921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122204294924921031.jpg",
+      "imageAlt": "এনসিপির সহযোগী ছাত্রসংগঠন জাতীয় ছাত্রশক্তির কেন্দ্রীয় সংসদ ও ঢাকা বিশ্ববিদ্যালয় শাখার নবনির্বাচিত কমিটিকে আন্তরিক…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122204289524921031",
       "facebookId": "122204289524921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203693904921031.jpg",
       "imageAlt": "নতুন কার্যক্রমের আপডেট",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203641272921031",
-      "facebookId": "122203641272921031",
-      "status": "published",
-      "date": "৭ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-07T21:41:31+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇",
-      "excerpt": "তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇",
-      "sourceCaption": "#StandWithAzmeriHaqueBadhon\n\nতাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203641272921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122203641272921031.jpg",
-      "imageAlt": "তাদের পরিচয় ফেসবুক লিংক কমেন্টে যুক্ত আছে 👇",
       "managedBy": "facebook-sync"
     },
     {
@@ -321,7 +321,7 @@
       "sourceUrl": "https://www.facebook.com/reel/1579837809918839/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 76819,
+      "viewCount": 76820,
       "featured": false,
       "image": "img/social/germany/fb-1579837809918839.jpg",
       "imageAlt": "আমাদের Akhter Hossen 🫡",
