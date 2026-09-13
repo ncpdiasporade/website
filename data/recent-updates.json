@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-13T11:57:05.786Z",
+  "updatedAt": "2026-09-13T16:20:17.864Z",
   "items": [
+    {
+      "id": "facebook-germany-122204432228921031",
+      "facebookId": "122204432228921031",
+      "status": "published",
+      "date": "১৩ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-13T13:20:20+0000",
+      "badge": "নির্বাচন",
+      "title": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
+      "excerpt": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
+      "sourceCaption": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122204432228921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122204432228921031.jpg",
+      "imageAlt": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122204294924921031",
       "facebookId": "122204294924921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122203784900921031.jpg",
       "imageAlt": "সম্প্রতি NCP Diaspora Alliance - Germany-এর সকল সদস্যের অংশগ্রহণে অনুষ্ঠিত হয়েছে জাতীয় যুবশক্তির সম্মানিত আহ্বায়ক এবং…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122203693904921031",
-      "facebookId": "122203693904921031",
-      "status": "published",
-      "date": "৮ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-08T06:48:15+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "নতুন কার্যক্রমের আপডেট",
-      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
-      "sourceCaption": "#StandWithAzmeriHaqueBadhon",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122203693904921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122203693904921031.jpg",
-      "imageAlt": "নতুন কার্যক্রমের আপডেট",
       "managedBy": "facebook-sync"
     },
     {
