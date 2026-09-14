@@ -36,8 +36,8 @@
     <text x="154" y="305" fill="#14251f" font-family="Noto Sans Bengali, sans-serif" font-size="64" font-weight="900">সাত দিনের সংবাদে</text>
     <text x="154" y="423" fill="#d72634" font-family="Noto Sans Bengali, sans-serif" font-size="78" font-weight="900">ঢাকায় ১১ মরদেহ</text>
     <line x1="154" y1="484" x2="716" y2="484" stroke="#c9d2cd" stroke-width="3"/>
-    <text x="154" y="563" fill="#21362e" font-family="Noto Sans Bengali, sans-serif" font-size="42" font-weight="750">সব মৃত্যু হত্যা নয়—</text>
-    <text x="154" y="625" fill="#21362e" font-family="Noto Sans Bengali, sans-serif" font-size="42" font-weight="750">তবু প্রতিটির হিসাব চাই</text>
+    <text x="154" y="563" fill="#21362e" font-family="Noto Sans Bengali, sans-serif" font-size="42" font-weight="750">সরকারের নিরাপত্তা</text>
+    <text x="154" y="625" fill="#d72634" font-family="Noto Sans Bengali, sans-serif" font-size="46" font-weight="850">আসলে কোথায়?</text>
     <g transform="translate(154 697)">
       <circle cx="16" cy="16" r="16" fill="#168254"/>
       <text x="48" y="26" fill="#41534c" font-family="Noto Sans Bengali, sans-serif" font-size="29" font-weight="650">৭–১৩ সেপ্টেম্বর ২০২৬</text>
