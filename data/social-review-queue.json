@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T23:10:59.651Z",
+  "updatedAt": "2026-09-19T14:27:56.574Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5028,6 +5028,84 @@
           "description": "\"দেশের বাইরে কোথাও যদি আমার ১ পয়সা বিনিয়োগ/ব্যাংকে রাখা, ভিলা, জমি তো দূরের কথা একটা ধুলিকনারও প্রমাণ দিতে পারেন তাহলে সাথে সাথে রাজনীতি ছেড়ে দিবো।\n\n\"দেশের বাইরে কোথাও যদি আমার ১ পয়সা বিনিয়োগ/ব্যাংকে রাখা, ভিলা, জমি তো দূরের কথা একটা ধুলিকনারও প্রমাণ দিতে পারেন তাহলে সাথে সাথে রাজনীতি ছেড়ে দিবো। আর যা শাস্তি হবে মাথা পেতে নিবো। দেশের বাইরে পলিটিশিয়ান, ব্যবসায়ীদের সম্পত্তি অনেক অনুসন্ধানী সাংবাদিক-সরকার এর আগে বের করেছে। সরকারের এই ক্যাপাসিটি আছে, এইটা কোন রকেট সাইন্স না। রাজনৈতিক ভাবে কতটা দেউলিয়া হইলে আপনারা এআই দিয়ে বানানো ভুঁইফোঁড় আজকের কণ্ঠের ৭ মাস আগের ফেসবুক পোস্ট কপি-পেস্ট করে অনুসন্ধান করতে পারেন? ৬ মাসেই বিরোধী দলকে রাজনৈতিক ভাবে মোকাবিলায় ব্যর্থ হয়ে, দেশ পরিচালনায় চুড়ান্ত ব্যর্থতার পরিচয় দিয়ে, আপনাদের সন্তানদের প্রকাশ্য দুর্নীতি থেকে চোখ সরাতে নাটক শুরু করেছেন? আপনাদের বিরোধী দলকে দমন-পীড়নের পদ্ধতির সাথে লীগের দমন-পীড়নের…\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122204618162921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122204618162921031-1cd931253e-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122205273104921031-49589364d3",
+      "sourceType": "facebook",
+      "sourceId": "122205273104921031",
+      "sourceKey": "facebook:germany:122205273104921031",
+      "sourceFingerprint": "49589364d3362a0a752b5744ead8bb44cc69503a7db826bf09011421152aba00",
+      "sourceCreatedAt": "2026-09-19T12:48:54+0000",
+      "sourceUrl": "https://www.facebook.com/reel/2351484288721898/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-19T14:27:56.051Z",
+      "updatedAt": "2026-09-19T14:27:56.051Z",
+      "title": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh",
+      "excerpt": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh",
+      "sourceCaption": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh",
+      "image": "img/social/germany/fb-122205273104921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh\nhttps://www.facebook.com/reel/2351484288721898/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122205273104921031-49589364d3-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh",
+          "description": "জনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh\n\nজনতার ভালোবাসায় সিক্ত নাহিদ ইসলাম- #ncpdagermany #ncp #ncpbangladesh\n\nবিস্তারিত: https://www.facebook.com/reel/2351484288721898/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122205273104921031-49589364d3-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122205280574921031-1697aa99eb",
+      "sourceType": "facebook",
+      "sourceId": "122205280574921031",
+      "sourceKey": "facebook:germany:122205280574921031",
+      "sourceFingerprint": "1697aa99eba695586e90919300ad349ab2d3b8a5b3e45db79a6417a3423eb97d",
+      "sourceCreatedAt": "2026-09-19T13:43:59+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122205280574921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-19T14:27:56.574Z",
+      "updatedAt": "2026-09-19T14:27:56.574Z",
+      "title": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany",
+      "excerpt": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany",
+      "sourceCaption": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany",
+      "image": "img/social/germany/fb-122205280574921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122205280574921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122205280574921031-1697aa99eb-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany",
+          "description": "“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany\n\n“আস্থা-ভালবাসা-বিশ্বাসের” হাত Nahid Islam #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122205280574921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122205280574921031-1697aa99eb-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
