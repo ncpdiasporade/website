@@ -1,6 +1,532 @@
 {
   "items": [
     {
+      "id": "expatriate-local-election-postal-voting-rights",
+      "slug": "expatriate-local-election-postal-voting-rights",
+      "status": "published",
+      "tag": "প্রবাসী অধিকার ও নির্বাচন",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "২৩ সেপ্টেম্বর ২০২৬",
+      "publishedAt": "2026-09-23T12:30:00+02:00",
+      "title": "সংসদে ভোট, নিজের ইউনিয়নে নয়—প্রবাসীর গণতান্ত্রিক অধিকার আর কতদিন অর্ধেক থাকবে?",
+      "excerpt": "জাতীয় নির্বাচনে বিদেশ থেকে ৫ লাখ ৪৪ হাজারের বেশি ভোট দেওয়া হয়েছে। অথচ স্থানীয় নির্বাচনে একই ভোটারের জন্য ডাকযোগে ভোটের ব্যবস্থা নেই। আইন, বাস্তব অভিজ্ঞতা ও সমাধানের পথ বলছে—প্রবাসীর অংশগ্রহণ আর পিছিয়ে রাখার সুযোগ নেই।",
+      "image": "img/blog/photos/expatriate-local-voting-rights.jpg",
+      "sharePath": "blog/expatriate-local-election-postal-voting-rights",
+      "shareImage": "img/blog/photos/expatriate-local-voting-rights.jpg",
+      "shareImageWidth": 2580,
+      "shareImageHeight": 2096,
+      "imageAlt": "১২ ফেব্রুয়ারি ২০২৬ ঢাকার একটি ভোটকেন্দ্রে ভোট দেওয়ার অপেক্ষায় সারিতে দাঁড়িয়ে থাকা ভোটাররা",
+      "imageCredit": "জাতীয় সংসদ নির্বাচন ও গণভোটে ঢাকার ভোটকেন্দ্রে ভোটারদের সারি, ১২ ফেব্রুয়ারি ২০২৬। ছবি: বাংলাদেশ তথ্য অধিদফতর (PID), Wikimedia Commons; Public Domain।",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Queues_of_voters_at_polling_station,_capital_city,_Thirteenth_National_Parliament_Election_and_2026_Referendum_2026-02-12.jpg",
+      "license": "Public Domain — Bangladesh Press Information Department official photograph; original image reproduced unchanged via Wikimedia Commons.",
+      "featuredImageText": "প্রবাসীরা বাংলাদেশের বাইরে থাকেন—বাংলাদেশের বাইরে নন",
+      "facts": [
+        {
+          "value": "৭,৬৭,২৩৩",
+          "label": "২০২৬ জাতীয় নির্বাচনে নিবন্ধিত প্রবাসী পোস্টাল ভোটার"
+        },
+        {
+          "value": "৫,৪৪,৩৭২",
+          "label": "বিদেশ থেকে দেওয়া ভোট; বৈধ হিসেবে গণনা করা ভোটের পৃথক হিসাব নয়"
+        },
+        {
+          "value": "ধারা ৮(৬)",
+          "label": "ভোটার তালিকা আইনে প্রবাসীর স্থানীয় এলাকার সঙ্গে আবাসিক যোগসূত্রের স্বীকৃতি"
+        },
+        {
+          "value": "$৩৫.৬ বিলিয়ন",
+          "label": "২০২৫–২৬ অর্থবছরের প্রবাসী আয়; ভোটাধিকার নাগরিকত্বের ভিত্তিতে"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "একজন বাংলাদেশি বিদেশ থেকে সংসদ নির্বাচনে ভোট দিতে পারেন, অথচ নিজের ইউনিয়নের চেয়ারম্যান বা পৌরসভার মেয়র বাছাই করতে পারেন না—এই অসংগতি আর কতদিন চলবে? যে রাষ্ট্র জাতীয় নির্বাচনে প্রবাসীর কাছে ব্যালট পৌঁছে দেওয়ার ব্যবস্থা করেছে, সেই রাষ্ট্র স্থানীয় নির্বাচনের বেলায় কেবল জটিলতা ও খরচের কথা বলে দায়িত্ব শেষ করতে পারে না। প্রশ্নটি বিশেষ সুবিধার নয়; দেশের ভোটার তালিকায় থাকা একজন নাগরিকের অংশগ্রহণকে কার্যকর করার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৭ জুন ২০২৬ প্রকাশিত দ্য বিজনেস স্ট্যান্ডার্ডের প্রতিবেদনে নির্বাচন কমিশনের স্থানীয় নির্বাচনে আপাতত পোস্টাল ব্যালট না রাখার সিদ্ধান্ত উঠে আসে। একই প্রতিবেদনের হিসাবে, জাতীয় নির্বাচনে ৭ লাখ ৬৭ হাজার ২৩৩ জন প্রবাসী পোস্টাল ভোটের জন্য নিবন্ধন করেছিলেন এবং বিদেশ থেকে ৫ লাখ ৪৪ হাজার ৩৭২টি ভোট দেওয়া হয়েছিল। এই অভিজ্ঞতা দেখায়, বিদেশ থেকে ভোট দেওয়ার একটি বাস্তব ব্যবস্থা তৈরি হয়েছে। এখন প্রয়োজন তার সীমাবদ্ধতা কাটিয়ে স্থানীয় নির্বাচনের উপযোগী করে গড়ে তোলা।"
+        },
+        {
+          "type": "callout",
+          "text": "বিদেশে থাকলেই স্থানীয় ভোটার পরিচয় শেষ হয় না। সংশ্লিষ্ট ভোটার তালিকায় নাম থাকা নাগরিকের অধিকার স্বীকৃত; অনুপস্থিত হলো বিদেশ থেকে সেই ভোট দেওয়ার নির্ধারিত ব্যবস্থা।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রবাসীর ঠিকানা বিদেশে, ভোটার পরিচয় দেশেই"
+        },
+        {
+          "type": "paragraph",
+          "text": "ভোটার তালিকা আইন, ২০০৯-এর ধারা ৮(৬) বিদেশে বসবাসরত বাংলাদেশিকে তাঁর সর্বশেষ নির্বাচনী বা ভোটার এলাকা, অথবা নিজ বা পৈতৃক বসতবাড়ির এলাকার অধিবাসী হিসেবে গণ্য করার বিধান রেখেছে। অর্থাৎ বার্লিন, লন্ডন, রোম বা দুবাইয়ে থাকলেই বাংলাদেশের সঙ্গে তাঁর স্থানীয় নির্বাচনী সম্পর্ক মুছে যায় না। তবে ভোট দিতে হলে সংশ্লিষ্ট চূড়ান্ত ভোটার তালিকায় নাম থাকতে হবে—শুধু নাগরিকত্ব বা পৈতৃক বাড়ি থাকাই যথেষ্ট নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ইউনিয়ন পরিষদ, পৌরসভা, সিটি কর্পোরেশন ও উপজেলা পরিষদের আইন সংশ্লিষ্ট তালিকায় থাকা ভোটারকে ভোটের অধিকার দেয়। বিদেশে থাকা নিজে থেকে অযোগ্যতার কারণ নয়। বর্তমান বাধা হলো ভোট দেওয়ার পদ্ধতি: বিধিমালা মূলত নির্ধারিত ভোটকেন্দ্রে উপস্থিতি ধরে তৈরি। ফলে স্থানীয় এলাকার ভোটার হয়েও দূরদেশে থাকা মানুষটি বাস্তবে অংশ নিতে পারেন না।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদ নির্বাচনের অভিজ্ঞতা কাজে লাগানো যাবে না কেন?"
+        },
+        {
+          "type": "paragraph",
+          "text": "গণপ্রতিনিধিত্ব আদেশের ২৭ অনুচ্ছেদে বিদেশে থাকা বাংলাদেশি ভোটারকে ডাকযোগে ভোট দেওয়ার ব্যবস্থায় স্পষ্টভাবে অন্তর্ভুক্ত করা হয়েছে। নির্বাচন কমিশনের Postal Vote BD ব্যবস্থায় নিবন্ধন, পরিচয় যাচাই, বিদেশের ডাক ঠিকানা, ব্যালট পাঠানো ও ফেরত পাওয়ার প্রক্রিয়া রয়েছে। স্থানীয় নির্বাচনের জন্য তাই একেবারে শূন্য থেকে শুরু করতে হবে না।"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/photos/postal-vote-receiving-envelope.png",
+          "alt": "২০২৬ জাতীয় সংসদ নির্বাচন ও গণভোটের পোস্টাল ব্যালট গ্রহণ-খামের সরকারি নমুনা",
+          "caption": "নির্বাচন কমিশনের প্রকাশিত ২০২৬ জাতীয় নির্বাচন ও গণভোটের পোস্টাল ব্যালট খামের নমুনা। উৎস: বাংলাদেশ নির্বাচন কমিশন, Wikimedia Commons; Public Domain। এটি নমুনা নথি, কোনো ব্যক্তির পূরণ করা ব্যালট নয়।",
+          "credit": "Bangladesh Election Commission; Public Domain (PD-ineligible), Wikimedia Commons; original sample reproduced unchanged.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Bangladeshi_general_election_and_referendum_postal_ballot_receiving_envelope.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্থানীয় নির্বাচনে অবশ্য বাড়তি কাজ আছে। একজন ভোটার কোন ইউনিয়ন, পৌরসভা, সিটি কর্পোরেশন বা উপজেলার কোন ওয়ার্ডে নিবন্ধিত, কোন পদগুলোতে তিনি ভোট দিতে পারবেন এবং তাঁর ব্যালট কোন রিটার্নিং অফিসারের কাছে যাবে—এসব নির্ভুলভাবে মিলাতে হবে। সহজ ভাষায়, সঠিক মানুষের কাছে সঠিক এলাকার সঠিক ব্যালট পৌঁছাতে হবে। জাতীয় ব্যবস্থার সঙ্গে এই স্থানীয় তথ্য ও ব্যালট পাঠানোর সংযোগ যোগ করাই প্রয়োজন।"
+        },
+        {
+          "type": "heading",
+          "text": "স্থানীয় সরকারই প্রবাসী পরিবারের সবচেয়ে কাছের সরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "দেশে থাকা পরিবারের রাস্তা, পানি, বর্জ্য ব্যবস্থাপনা, জলাবদ্ধতা, জন্মনিবন্ধন, বাজার ও নাগরিক সেবার সঙ্গে স্থানীয় সরকারের সরাসরি সম্পর্ক। প্রবাসীর বাড়ি, জমি ও ভবিষ্যৎ বিনিয়োগও স্থানীয় সিদ্ধান্তে প্রভাবিত হয়। যাঁর সিদ্ধান্তের ফল একটি পরিবার প্রতিদিন ভোগ করে, তাঁকে বাছাইয়ের সুযোগ থেকে সেই পরিবারের প্রবাসী সদস্যকে বাস্তবে দূরে রাখা গণতান্ত্রিক প্রতিনিধিত্বকে দুর্বল করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের হিসাবে ২০২৫–২৬ অর্থবছরে প্রবাসী আয় প্রায় ৩৫.৬ বিলিয়ন মার্কিন ডলার। দেশের অর্থনীতিতে এই অবদান স্বীকৃতি পায়; রাজনৈতিক অংশগ্রহণের বেলায় একই গুরুত্ব কোথায়? তবে ভোট টাকা পাঠানোর বিনিময়ে পাওয়া পুরস্কার নয়। যিনি রেমিট্যান্স পাঠান না, ভোটার হিসেবে তাঁর অধিকারও সমান। প্রবাসীকে পূর্ণ নাগরিক হিসেবে দেখার অর্থই হলো তাঁর রাজনৈতিক অংশগ্রহণকে বৈদেশিক মুদ্রার হিসাবের বাইরে স্বীকৃতি দেওয়া।"
+        },
+        {
+          "type": "heading",
+          "text": "খরচের হিসাব প্রকাশ করুন, অংশগ্রহণের পথও খুলুন"
+        },
+        {
+          "type": "paragraph",
+          "text": "জটিলতা ও ব্যয় নির্বাচন পরিচালনার বাস্তব প্রশ্ন। কিন্তু কোনো ব্যবস্থার খরচ আছে বলেই সেটি বন্ধ রাখার সিদ্ধান্ত যথেষ্ট নয়। কত খরচ, কোন ধাপে সমস্যা, কীভাবে কমানো সম্ভব এবং কত সময় লাগবে—নির্বাচন কমিশনকে সেই হিসাব প্রকাশ করতে হবে। নাগরিকের অংশগ্রহণ বাদ দেওয়ার আগে বিকল্পগুলো পরীক্ষা করার দায়ও কমিশনের।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সব স্থানীয় প্রতিষ্ঠানে একসঙ্গে চালু করা কঠিন হলে নির্ধারিত সময়সীমায় পরীক্ষামূলক প্রয়োগের পরিকল্পনা করা যায়। কয়েকটি পৌরসভা বা সিটি কর্পোরেশনে অভিজ্ঞতা নিয়ে ইউনিয়ন ও উপজেলায় বিস্তারের পথ তৈরি হতে পারে। সেই পরীক্ষার নিয়ম, কারা সুযোগ পাবেন, কেন তাঁদের নির্বাচন করা হচ্ছে এবং পরবর্তী সম্প্রসারণ কবে—সব প্রকাশ্য থাকতে হবে। পরীক্ষামূলক উদ্যোগ যেন অনির্দিষ্ট অপেক্ষার নতুন নাম না হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "আইন সংশোধনের পথ রয়েছে—দায়িত্ব নেওয়ার সিদ্ধান্ত প্রয়োজন"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্থানীয় সরকার আইনগুলো ভোটদান পদ্ধতি ও ব্যালট ব্যবস্থাপনা নিয়ে নির্বাচন কমিশনকে বিধি তৈরির ক্ষমতা দেয়। সেই ক্ষমতা ব্যবহার করে ডাকযোগে ভোটের বিধান যুক্ত করার একটি যুক্তিসংগত আইনগত পথ রয়েছে। তবে তার পরিধি আইনগতভাবে যাচাই করে নেওয়া দরকার। সবচেয়ে স্পষ্ট ও টেকসই সমাধান হলো মূল আইনগুলোতে বিদেশে থাকা নিবন্ধিত ভোটারের ডাকযোগে ভোটদানের বিধান যোগ করা এবং তার অধীনে বিস্তারিত নির্বাচন বিধিমালা প্রণয়ন করা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "মূল বিধানের বক্তব্য হতে পারে: সংশ্লিষ্ট নির্বাচনী এলাকার ভোটার তালিকায় থাকা বাংলাদেশি বিদেশে অবস্থান করলে নির্বাচন কমিশন নির্ধারিত পদ্ধতিতে ডাকযোগে ভোট দিতে পারবেন। এরপর কার্যপ্রণালিতে পরিচয় যাচাই, স্থানীয় এলাকা ও পদের সঙ্গে ভোটারকে মেলানো, ব্যালটের গোপনীয়তা, আন্তর্জাতিক ডাকের সময়সীমা, গণনা এবং অভিযোগ নিষ্পত্তির নিয়ম স্পষ্ট করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একজন যেন ডাকযোগে ভোট দিয়ে আবার কেন্দ্রে ভোট দিতে না পারেন, তার জন্য তালিকা সমন্বয় প্রয়োজন। পরিচয় যাচাইয়ের তথ্য ও ভোটের পছন্দ এমনভাবে আলাদা রাখতে হবে যাতে গোপনীয়তা অক্ষুণ্ন থাকে। প্রার্থী বা অনুমোদিত এজেন্টের উপস্থিতিতে যাচাই ও গণনা, বাতিল ব্যালটের নির্দিষ্ট কারণ এবং স্বাধীন নিরীক্ষাও জরুরি। অংশগ্রহণ বাড়ানো ও নির্বাচনের বিশ্বাসযোগ্যতা রক্ষা—দুটি দায়িত্ব একসঙ্গেই পালন করতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন যে সিদ্ধান্তগুলো চাই"
+        },
+        {
+          "type": "list",
+          "items": [
+            "বিদেশ থেকে স্থানীয় নির্বাচনে ভোট দেওয়ার ব্যবস্থা চালুর নির্দিষ্ট সময়সীমাসহ রোডম্যাপ প্রকাশ।",
+            "সরকার ও নির্বাচন কমিশনের যৌথ উদ্যোগে প্রয়োজনীয় আইন ও বিধিমালার সংশোধনী খসড়া প্রকাশ এবং উন্মুক্ত মতামত গ্রহণ।",
+            "Postal Vote BD-এর সঙ্গে স্থানীয় ভোটার এলাকা, নির্বাচনী পদ ও রিটার্নিং অফিসারের তথ্য যুক্ত করার প্রযুক্তিগত প্রস্তুতি।",
+            "স্বচ্ছ বাছাইয়ের ভিত্তিতে পরীক্ষামূলক প্রয়োগ, ব্যয় ও ফলাফলের প্রকাশ্য মূল্যায়ন এবং পরবর্তী সম্প্রসারণের সময়সূচি।",
+            "ভোটের গোপনীয়তা, দ্বৈত ভোট প্রতিরোধ, ডাকের সময়সীমা ও স্বাধীন নিরীক্ষার কার্যকর নিশ্চয়তা।",
+            "প্রবাসী সংগঠন, নির্বাচন বিশেষজ্ঞ, নাগরিক সমাজ ও রাজনৈতিক দলগুলোর সঙ্গে অর্থবহ পরামর্শ।"
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "প্রবাসীরা বাংলাদেশের বাইরে থাকেন—বাংলাদেশের বাইরে নন। তাঁদের নাগরিক পরিচয় যদি পূর্ণ হয়, নির্বাচনী অংশগ্রহণের পথও পূর্ণ করার দায়িত্ব রাষ্ট্রের।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জাতীয় নির্বাচন একটি দরজা খুলেছে। স্থানীয় নির্বাচনে এসে সেই দরজা বন্ধ রাখার পক্ষে শুধু প্রশাসনিক অসুবিধার কথা যথেষ্ট নয়। সরকারের কাজ প্রয়োজনীয় আইনগত উদ্যোগ নেওয়া; নির্বাচন কমিশনের কাজ কার্যকর, বিশ্বাসযোগ্য ব্যবস্থার পরিকল্পনা ও বাস্তবায়ন। প্রবাসীর অংশগ্রহণকে প্রশংসার বক্তব্যে সীমাবদ্ধ রাখলে চলবে না—এবার তা ব্যালটেও পৌঁছাতে হবে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ভোটার তালিকা আইন, ২০০৯—ধারা ৮(৬)",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-1005.html"
+        },
+        {
+          "label": "গণপ্রতিনিধিত্ব আদেশ—অনুচ্ছেদ ২৭: ডাকযোগে ভোট",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-424/section-print-18871.html"
+        },
+        {
+          "label": "স্থানীয় সরকার (ইউনিয়ন পরিষদ) আইন—ভোটাধিকার ও নির্বাচন পরিচালনা",
+          "url": "https://bdlaws.minlaw.gov.bd/act-1027/act-chapter-print-2255.html"
+        },
+        {
+          "label": "স্থানীয় সরকার (পৌরসভা) আইন, ২০০৯",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-1024.html"
+        },
+        {
+          "label": "নির্বাচন কমিশন—প্রযুক্তিসহায়ক পোস্টাল ভোটের নির্দেশনা",
+          "url": "https://ecs.gov.bd/en/page/postal-voting-it-supported"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড, ১৭ জুন ২০২৬—স্থানীয় নির্বাচনে পোস্টাল ব্যালটের সিদ্ধান্ত ও জাতীয় নির্বাচনের হিসাব",
+          "url": "https://www.tbsnews.net/bangladesh/no-postal-ballot-local-government-elections-polls-likely-year-end-1465176"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক, ৩০ জুন ২০২৬—২০২৫–২৬ অর্থবছরের প্রবাসী আয়",
+          "url": "https://www.bb.org.bd/pub/fortnightly/fortnightly_30%20jun-2026.pdf"
+        },
+        {
+          "label": "প্রচ্ছদের ছবি: বাংলাদেশ তথ্য অধিদফতর, Wikimedia Commons—১২ ফেব্রুয়ারি ২০২৬",
+          "url": "https://commons.wikimedia.org/wiki/File:Queues_of_voters_at_polling_station,_capital_city,_Thirteenth_National_Parliament_Election_and_2026_Referendum_2026-02-12.jpg"
+        }
+      ],
+      "translations": {
+        "en": {
+          "tag": "Diaspora rights and elections",
+          "author": "Editorial Desk",
+          "date": "23 September 2026",
+          "title": "A vote for parliament, but not for one’s own union—how long will diaspora voting rights remain incomplete?",
+          "excerpt": "More than 544,000 votes were cast from abroad in the national election. Yet local elections offer the same voters no overseas postal procedure. The law and practical experience point towards a solution; participation should no longer be postponed.",
+          "imageAlt": "Voters queue at a polling station in Dhaka on 12 February 2026",
+          "imageCredit": "Voters at a Dhaka polling station during the national election and referendum, 12 February 2026. Photo: Bangladesh Press Information Department (PID), Wikimedia Commons; Public Domain.",
+          "featuredImageText": "Bangladeshis abroad remain part of Bangladesh",
+          "facts": [
+            {
+              "value": "767,233",
+              "label": "Expatriate postal voters registered for the 2026 national election"
+            },
+            {
+              "value": "544,372",
+              "label": "Votes cast from abroad; not a separate total of ballots counted as valid"
+            },
+            {
+              "value": "Section 8(6)",
+              "label": "The Electoral Rolls Act recognises expatriates’ residential link to a local electoral area"
+            },
+            {
+              "value": "US$35.6bn",
+              "label": "Remittances in FY2025–26; voting rights rest on citizenship"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A Bangladeshi can vote in a parliamentary election from abroad, yet cannot use that opportunity to choose the chairperson of their own union or their municipal mayor. How long should this inconsistency continue? A state that has organised overseas ballots for national elections cannot discharge its responsibility for local elections simply by citing complexity and cost. The issue is making participation effective for a citizen already on the electoral roll."
+            },
+            {
+              "type": "paragraph",
+              "text": "A report published by The Business Standard on 17 June 2026 described the Election Commission’s decision not to introduce postal ballots in local elections for the time being. Its figures show that 767,233 expatriates registered for national postal voting and 544,372 votes were cast from abroad. This demonstrates that a working overseas voting process has been established. Its limitations now need to be addressed as it is adapted for local elections."
+            },
+            {
+              "type": "callout",
+              "text": "Living abroad does not erase a person’s local voter identity. A citizen on the relevant electoral roll retains recognised voting rights; what is missing is a prescribed way to exercise them from abroad."
+            },
+            {
+              "type": "heading",
+              "text": "An overseas address does not erase a local electoral identity"
+            },
+            {
+              "type": "paragraph",
+              "text": "Section 8(6) of the Electoral Rolls Act 2009 provides for Bangladeshis abroad to be treated as residents of their last electoral area or the area of their own or ancestral home. Living in Berlin, London, Rome or Dubai therefore does not erase that local electoral connection. The person must nevertheless be on the relevant final electoral roll: citizenship or an ancestral home alone is insufficient."
+            },
+            {
+              "type": "paragraph",
+              "text": "The laws governing union parishads, municipalities, city corporations and upazila parishads grant voting rights to people on the relevant rolls. Being abroad is not itself disqualifying. The present obstacle is procedural: election rules are largely built around attending an assigned polling station. A local voter who lives far away is therefore unable to participate in practice."
+            },
+            {
+              "type": "heading",
+              "text": "Why not use the experience of parliamentary elections?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Article 27 of the Representation of the People Order expressly includes Bangladeshi voters living abroad in postal voting. The Election Commission’s Postal Vote BD framework covers registration, identity checks, overseas addresses, ballot dispatch and return. Local elections would therefore not have to start from nothing."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/postal-vote-receiving-envelope.png",
+              "alt": "Official specimen of the postal ballot receiving envelope for Bangladesh’s 2026 national election and referendum",
+              "caption": "The Election Commission’s specimen postal ballot envelope for the 2026 national election and referendum. Source: Bangladesh Election Commission, Wikimedia Commons; Public Domain. This is a sample document, not a voter’s completed ballot.",
+              "credit": "Bangladesh Election Commission; Public Domain (PD-ineligible), Wikimedia Commons; original sample reproduced unchanged.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Bangladeshi_general_election_and_referendum_postal_ballot_receiving_envelope.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "Local elections do require additional work. Each voter must be matched accurately to their union, municipality, city corporation or upazila, their ward, the offices they may elect and the returning officer who should receive the ballot. Put simply, the right person must receive the right ballot for the right area. Those local records and dispatch arrangements must be connected to the national system."
+            },
+            {
+              "type": "heading",
+              "text": "Local government is the government closest to diaspora families"
+            },
+            {
+              "type": "paragraph",
+              "text": "Roads, water, waste collection, drainage, birth registration, markets and everyday public services are directly connected to local government. Local decisions also affect expatriates’ homes, land and future investment. Effectively excluding a family’s overseas member from choosing those decision-makers weakens democratic representation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bangladesh Bank reports approximately US$35.6 billion in remittances in FY2025–26. That economic contribution receives recognition; where is the equivalent attention to political participation? Voting is not a reward for sending money. A voter who sends no remittance has the same right. Treating expatriates as full citizens means recognising their political participation independently of foreign-exchange totals."
+            },
+            {
+              "type": "heading",
+              "text": "Publish the costs—and open a route to participation"
+            },
+            {
+              "type": "paragraph",
+              "text": "Complexity and expense are real electoral-management issues. But the existence of a cost does not by itself justify shelving a system. The Commission should explain the cost, identify the obstacles, show how they can be reduced and set out the time required. It also has a responsibility to examine alternatives before excluding participation."
+            },
+            {
+              "type": "paragraph",
+              "text": "If simultaneous introduction across every local body is difficult, a time-bound pilot is possible. Experience in selected municipalities or city corporations could inform expansion to unions and upazilas. The rules, eligibility for the pilot, reasons for selecting those areas and expansion timetable must all be public. A pilot must not become another name for indefinite delay."
+            },
+            {
+              "type": "heading",
+              "text": "A legal route exists—the decision requires responsibility"
+            },
+            {
+              "type": "paragraph",
+              "text": "Local-government laws authorise the Election Commission to make rules on voting methods and ballot management. There is a reasonable legal argument for using those powers to introduce postal voting, subject to checking their scope. The clearest and most durable solution is an express provision for registered overseas voters in the parent laws, followed by detailed election rules."
+            },
+            {
+              "type": "paragraph",
+              "text": "The enabling provision could state that a Bangladeshi on the relevant electoral roll may vote by post while abroad under a procedure prescribed by the Commission. The rules would then specify identity verification, matching voters to local areas and offices, ballot secrecy, international postal deadlines, counting and complaint handling."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rolls must be coordinated so that a person cannot vote by post and again at a polling station. Identity-verification material must be separated from voting choices to protect secrecy. Verification and counting in the presence of candidates or authorised agents, explicit rejection grounds and independent audit are also essential. Expanding participation and protecting electoral credibility are responsibilities that must be fulfilled together."
+            },
+            {
+              "type": "heading",
+              "text": "The decisions needed now"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Publish a timetable for introducing overseas participation in local elections.",
+                "Have the government and Election Commission jointly publish draft legal and procedural amendments for public consultation.",
+                "Prepare Postal Vote BD to connect local voter areas, elected offices and returning officers.",
+                "Run transparently selected pilots, publish costs and results, and set a timetable for expansion.",
+                "Provide effective safeguards for secrecy, prevention of double voting, postal deadlines and independent audit.",
+                "Consult diaspora organisations, election specialists, civil society and political parties meaningfully."
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "Bangladeshis abroad live outside the country, but remain part of Bangladesh. Full citizenship calls for the state to make electoral participation fully accessible."
+            },
+            {
+              "type": "paragraph",
+              "text": "The national election opened a door. Administrative difficulties alone cannot justify closing it at the local level. The government must take the necessary legislative steps; the Election Commission must plan and implement a workable, credible system. Recognition of expatriate participation must reach beyond speeches and into the ballot."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Electoral Rolls Act 2009, section 8(6)",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-1005.html"
+            },
+            {
+              "label": "Representation of the People Order, Article 27: postal voting",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-424/section-print-18871.html"
+            },
+            {
+              "label": "Local Government (Union Parishad) Act: franchise and election administration",
+              "url": "https://bdlaws.minlaw.gov.bd/act-1027/act-chapter-print-2255.html"
+            },
+            {
+              "label": "Local Government (Municipality) Act 2009",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-1024.html"
+            },
+            {
+              "label": "Election Commission: IT-supported postal-voting instructions",
+              "url": "https://ecs.gov.bd/en/page/postal-voting-it-supported"
+            },
+            {
+              "label": "The Business Standard, 17 June 2026: local postal-ballot decision and national figures",
+              "url": "https://www.tbsnews.net/bangladesh/no-postal-ballot-local-government-elections-polls-likely-year-end-1465176"
+            },
+            {
+              "label": "Bangladesh Bank, 30 June 2026: FY2025–26 remittances",
+              "url": "https://www.bb.org.bd/pub/fortnightly/fortnightly_30%20jun-2026.pdf"
+            },
+            {
+              "label": "Cover photograph: Bangladesh Press Information Department, Wikimedia Commons, 12 February 2026",
+              "url": "https://commons.wikimedia.org/wiki/File:Queues_of_voters_at_polling_station,_capital_city,_Thirteenth_National_Parliament_Election_and_2026_Referendum_2026-02-12.jpg"
+            }
+          ]
+        },
+        "de": {
+          "tag": "Diaspora-Rechte und Wahlen",
+          "author": "Redaktion",
+          "date": "23. September 2026",
+          "title": "Eine Stimme fürs Parlament, aber nicht für die eigene Gemeinde – wie lange bleibt das Wahlrecht der Diaspora unvollständig?",
+          "excerpt": "Bei der nationalen Wahl wurden mehr als 544.000 Stimmen aus dem Ausland abgegeben. Für Kommunalwahlen fehlt denselben Wählern ein Auslandsbriefwahlverfahren. Gesetz und Erfahrung weisen einen Lösungsweg; die Beteiligung darf nicht weiter aufgeschoben werden.",
+          "imageAlt": "Wähler stehen am 12. Februar 2026 vor einem Wahllokal in Dhaka an",
+          "imageCredit": "Wähler an einem Wahllokal in Dhaka bei der Parlamentswahl und dem Referendum am 12. Februar 2026. Foto: Press Information Department Bangladesch (PID), Wikimedia Commons; gemeinfrei.",
+          "featuredImageText": "Bangladescher im Ausland bleiben Teil Bangladeschs",
+          "facts": [
+            {
+              "value": "767.233",
+              "label": "Registrierte Auslandsbriefwähler bei der nationalen Wahl 2026"
+            },
+            {
+              "value": "544.372",
+              "label": "Aus dem Ausland abgegebene Stimmen; keine gesonderte Zahl gültiger Stimmzettel"
+            },
+            {
+              "value": "§ 8 Abs. 6",
+              "label": "Das Wählerlistengesetz erkennt den Wohnsitzbezug der Diaspora zu einem örtlichen Wahlgebiet an"
+            },
+            {
+              "value": "35,6 Mrd. US$",
+              "label": "Rücküberweisungen 2025/26; Wahlrechte beruhen auf Staatsbürgerschaft"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ein Bangladescher kann aus dem Ausland bei einer Parlamentswahl abstimmen, aber diese Möglichkeit nicht nutzen, um den Vorsitzenden seiner Union oder seinen Bürgermeister zu wählen. Wie lange soll dieser Widerspruch bestehen? Ein Staat, der Auslandsstimmzettel für nationale Wahlen organisiert hat, erfüllt seine Verantwortung für Kommunalwahlen nicht allein durch Verweise auf Komplexität und Kosten. Es geht darum, einem bereits eingetragenen Wähler tatsächliche Beteiligung zu ermöglichen."
+            },
+            {
+              "type": "paragraph",
+              "text": "The Business Standard berichtete am 17. Juni 2026 über die Entscheidung der Wahlkommission, bei Kommunalwahlen vorerst keine Briefwahl einzuführen. Dem Bericht zufolge hatten sich 767.233 Auslandsbangladescher für die nationale Briefwahl registriert; 544.372 Stimmen wurden aus dem Ausland abgegeben. Ein praktisches Verfahren besteht somit bereits. Nun müssen seine Schwächen behoben und seine Abläufe an Kommunalwahlen angepasst werden."
+            },
+            {
+              "type": "callout",
+              "text": "Ein Auslandsaufenthalt löscht die örtliche Wähleridentität nicht. Bürger auf der maßgeblichen Wählerliste haben anerkannte Wahlrechte; es fehlt ein geregelter Weg, sie aus dem Ausland auszuüben."
+            },
+            {
+              "type": "heading",
+              "text": "Eine Auslandsadresse hebt den örtlichen Wahlbezug nicht auf"
+            },
+            {
+              "type": "paragraph",
+              "text": "§ 8 Absatz 6 des Electoral Rolls Act 2009 sieht vor, Bangladescher im Ausland als Einwohner ihres letzten Wahlgebiets oder des Gebiets ihres eigenen beziehungsweise elterlichen Hauses zu behandeln. Das Leben in Berlin, London, Rom oder Dubai löscht diese Verbindung nicht. Die Person muss dennoch auf der einschlägigen endgültigen Wählerliste stehen; Staatsbürgerschaft oder ein elterliches Haus allein reichen nicht aus."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Gesetze über Union Parishads, Kommunen, City Corporations und Upazila Parishads gewähren den auf den jeweiligen Listen eingetragenen Personen Wahlrechte. Der Auslandsaufenthalt ist für sich genommen kein Ausschlussgrund. Das Hindernis liegt im Verfahren: Die Wahlregeln gehen überwiegend von der Anwesenheit im zugewiesenen Wahllokal aus. Wer weit entfernt lebt, kann sein örtliches Wahlrecht praktisch nicht ausüben."
+            },
+            {
+              "type": "heading",
+              "text": "Warum die Erfahrung der Parlamentswahl nicht nutzen?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Artikel 27 der Representation of the People Order bezieht bangladeschische Wähler im Ausland ausdrücklich in die Briefwahl ein. Postal Vote BD umfasst Registrierung, Identitätsprüfung, Auslandsadressen sowie Versand und Rücklauf der Stimmzettel. Für Kommunalwahlen müsste deshalb nicht bei null begonnen werden."
+            },
+            {
+              "type": "image",
+              "src": "img/blog/photos/postal-vote-receiving-envelope.png",
+              "alt": "Amtliches Muster des Empfangsumschlags für Briefwahlstimmzettel der bangladeschischen Parlamentswahl und des Referendums 2026",
+              "caption": "Musterumschlag der Wahlkommission für Briefwahlstimmzettel der nationalen Wahl und des Referendums 2026. Quelle: Wahlkommission Bangladesch, Wikimedia Commons; gemeinfrei. Es handelt sich um ein Musterdokument, nicht um einen ausgefüllten Stimmzettel.",
+              "credit": "Wahlkommission Bangladesch; gemeinfrei (PD-ineligible), Wikimedia Commons; unveränderte Wiedergabe des Originalmusters.",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Bangladeshi_general_election_and_referendum_postal_ballot_receiving_envelope.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kommunalwahlen erfordern zusätzliche Arbeit: Jeder Wähler muss seiner Union, Kommune, City Corporation oder Upazila, seinem Ward, den zu wählenden Ämtern und dem zuständigen Wahlleiter genau zugeordnet werden. Einfach gesagt: Die richtige Person muss den richtigen Stimmzettel für das richtige Gebiet erhalten. Diese örtlichen Daten und Versandwege müssen mit dem nationalen System verbunden werden."
+            },
+            {
+              "type": "heading",
+              "text": "Kommunalverwaltung ist die Regierungsebene, die Diaspora-Familien am nächsten ist"
+            },
+            {
+              "type": "paragraph",
+              "text": "Straßen, Wasser, Abfallentsorgung, Entwässerung, Geburtsregistrierung, Märkte und alltägliche Dienstleistungen hängen unmittelbar mit der Kommunalverwaltung zusammen. Örtliche Entscheidungen beeinflussen auch Häuser, Grundstücke und künftige Investitionen der Diaspora. Ein im Ausland lebendes Familienmitglied faktisch von der Wahl dieser Entscheidungsträger auszuschließen, schwächt demokratische Repräsentation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Bangladesh Bank beziffert die Rücküberweisungen im Haushaltsjahr 2025/26 auf rund 35,6 Milliarden US-Dollar. Dieser wirtschaftliche Beitrag findet Anerkennung; wo bleibt die entsprechende Aufmerksamkeit für politische Beteiligung? Das Wahlrecht ist keine Belohnung für Geldtransfers. Wer nichts überweist, hat als Wähler dieselben Rechte. Die Diaspora als vollwertige Bürgerschaft anzuerkennen bedeutet, ihre politische Beteiligung unabhängig von Devisensummen zu betrachten."
+            },
+            {
+              "type": "heading",
+              "text": "Kosten offenlegen und Beteiligung ermöglichen"
+            },
+            {
+              "type": "paragraph",
+              "text": "Komplexität und Kosten sind reale Fragen der Wahlorganisation. Allein das Bestehen von Kosten rechtfertigt aber nicht, ein Verfahren auf Eis zu legen. Die Kommission muss Kosten, Hindernisse, mögliche Einsparungen und Zeitbedarf offenlegen. Sie ist außerdem dafür verantwortlich, Alternativen zu prüfen, bevor sie Beteiligung ausschließt."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ist eine gleichzeitige Einführung in allen Kommunen schwierig, kommt ein zeitlich begrenzter Pilot infrage. Erfahrungen in ausgewählten Kommunen oder City Corporations können die Ausweitung auf Unions und Upazilas vorbereiten. Regeln, Teilnahmebedingungen, Auswahlgründe und Ausbauplan müssen öffentlich sein. Ein Pilot darf kein neuer Name für unbefristetes Warten werden."
+            },
+            {
+              "type": "heading",
+              "text": "Ein rechtlicher Weg besteht – jetzt braucht es Verantwortung"
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Kommunalgesetze ermächtigen die Wahlkommission, Regeln über Abstimmungsverfahren und Stimmzettelverwaltung zu erlassen. Es gibt daher ein begründetes rechtliches Argument, diese Befugnisse für die Briefwahl zu nutzen; ihr Umfang muss juristisch geprüft werden. Die klarste und dauerhafteste Lösung ist eine ausdrückliche Regelung für registrierte Auslandswähler in den Stammgesetzen mit anschließenden detaillierten Wahlvorschriften."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Grundregel könnte festlegen, dass ein Bangladescher auf der jeweiligen Wählerliste während eines Auslandsaufenthalts nach dem von der Kommission vorgeschriebenen Verfahren per Post abstimmen darf. Die Ausführungsregeln müssten Identitätsprüfung, Zuordnung zu Gebieten und Ämtern, Wahlgeheimnis, internationale Postfristen, Auszählung und Beschwerdeverfahren bestimmen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die Listen müssen so abgestimmt werden, dass niemand erst per Post und dann erneut im Wahllokal abstimmen kann. Identitätsunterlagen und Wahlentscheidung sind zum Schutz des Wahlgeheimnisses voneinander zu trennen. Ebenso notwendig sind Prüfung und Auszählung in Anwesenheit von Kandidaten oder bevollmächtigten Vertretern, eindeutige Ablehnungsgründe und unabhängige Kontrolle. Beteiligung zu erweitern und die Glaubwürdigkeit der Wahl zu schützen sind gleichzeitige Aufgaben."
+            },
+            {
+              "type": "heading",
+              "text": "Welche Entscheidungen jetzt nötig sind"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Einen Zeitplan für die Teilnahme aus dem Ausland an Kommunalwahlen veröffentlichen.",
+                "Regierung und Wahlkommission sollen gemeinsam Gesetzes- und Verfahrensentwürfe zur öffentlichen Konsultation vorlegen.",
+                "Postal Vote BD technisch mit örtlichen Wahlgebieten, zu wählenden Ämtern und zuständigen Wahlleitern verbinden.",
+                "Pilotgebiete transparent auswählen, Kosten und Ergebnisse veröffentlichen und die Ausweitung terminieren.",
+                "Wahlgeheimnis, Schutz vor Doppelwahl, Postfristen und unabhängige Kontrolle wirksam sichern.",
+                "Diaspora-Organisationen, Wahlexperten, Zivilgesellschaft und politische Parteien sinnvoll einbeziehen."
+              ]
+            },
+            {
+              "type": "callout",
+              "text": "Bangladescher im Ausland leben außerhalb des Landes, bleiben aber Teil Bangladeschs. Vollwertige Staatsbürgerschaft verpflichtet den Staat, auch die Wahlbeteiligung vollständig zugänglich zu machen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die nationale Wahl hat eine Tür geöffnet. Verwaltungsschwierigkeiten allein rechtfertigen es nicht, sie auf kommunaler Ebene wieder zu schließen. Die Regierung muss die nötigen rechtlichen Schritte einleiten; die Wahlkommission muss ein funktionsfähiges, glaubwürdiges Verfahren planen und umsetzen. Die Anerkennung der Diaspora darf nicht bei Reden enden – sie muss den Stimmzettel erreichen."
+            }
+          ],
+          "sources": [
+            {
+              "label": "Electoral Rolls Act 2009, § 8 Absatz 6",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-1005.html"
+            },
+            {
+              "label": "Representation of the People Order, Artikel 27: Briefwahl",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-424/section-print-18871.html"
+            },
+            {
+              "label": "Gesetz über Union Parishads: Wahlrecht und Wahlorganisation",
+              "url": "https://bdlaws.minlaw.gov.bd/act-1027/act-chapter-print-2255.html"
+            },
+            {
+              "label": "Kommunalgesetz für Gemeinden von 2009",
+              "url": "https://bdlaws.minlaw.gov.bd/act-print-1024.html"
+            },
+            {
+              "label": "Wahlkommission: Anweisungen zur technisch unterstützten Briefwahl",
+              "url": "https://ecs.gov.bd/en/page/postal-voting-it-supported"
+            },
+            {
+              "label": "The Business Standard, 17. Juni 2026: kommunale Briefwahlentscheidung und nationale Zahlen",
+              "url": "https://www.tbsnews.net/bangladesh/no-postal-ballot-local-government-elections-polls-likely-year-end-1465176"
+            },
+            {
+              "label": "Bangladesh Bank, 30. Juni 2026: Rücküberweisungen 2025/26",
+              "url": "https://www.bb.org.bd/pub/fortnightly/fortnightly_30%20jun-2026.pdf"
+            },
+            {
+              "label": "Titelbild: Press Information Department Bangladesch, Wikimedia Commons, 12. Februar 2026",
+              "url": "https://commons.wikimedia.org/wiki/File:Queues_of_voters_at_polling_station,_capital_city,_Thirteenth_National_Parliament_Election_and_2026_Referendum_2026-02-12.jpg"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "july-uprising-seven-leaders-verdict-compensation",
       "slug": "july-uprising-seven-leaders-verdict-compensation",
       "status": "published",
