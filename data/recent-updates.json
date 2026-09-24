@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-24T04:55:25.050Z",
+  "updatedAt": "2026-09-24T10:04:09.541Z",
   "items": [
+    {
+      "id": "facebook-germany-122206088378921031",
+      "facebookId": "122206088378921031",
+      "status": "published",
+      "date": "২৪ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-24T06:07:37+0000",
+      "badge": "নির্বাচন",
+      "title": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।",
+      "excerpt": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।",
+      "sourceCaption": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122206088378921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122206088378921031.jpg",
+      "imageAlt": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122205592664921031",
       "facebookId": "122205592664921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122204559920921031.jpg",
       "imageAlt": "আগামী ১২ নভেম্বর ৮০টি উপজেলার ইউনিয়ন পরিষদ নির্বাচনের মধ্য দিয়ে স্থানীয় সরকার নির্বাচন শুরু হবে বলে জানিয়েছেন নির্বাচন…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122204432228921031",
-      "facebookId": "122204432228921031",
-      "status": "published",
-      "date": "১৩ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-13T13:20:20+0000",
-      "badge": "নির্বাচন",
-      "title": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
-      "excerpt": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
-      "sourceCaption": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122204432228921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122204432228921031.jpg",
-      "imageAlt": "এনসিপি সমর্থিত ঢাকা উত্তর ও দক্ষিণ সিটি কর্পোরেশন নির্বাচনের মেয়র পদপ্রার্থী",
       "managedBy": "facebook-sync"
     },
     {
