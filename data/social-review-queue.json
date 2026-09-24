@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T14:14:55.056Z",
+  "updatedAt": "2026-09-24T10:04:42.967Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5145,6 +5145,45 @@
           "description": "জ্বালানি তেলের দামবৃদ্ধির প্রতিবাদে এনসিপির বিক্ষোভ মিছিল জ্বালানি তেলের দামবৃদ্ধির প্রতিবাদে জাতীয় নাগরিক পার্টি (এনসিপি) বিক্ষোভ মিছিল আহ্বান করেছে।\n\nজ্বালানি তেলের দামবৃদ্ধির প্রতিবাদে এনসিপির বিক্ষোভ মিছিল জ্বালানি তেলের দামবৃদ্ধির প্রতিবাদে জাতীয় নাগরিক পার্টি (এনসিপি) বিক্ষোভ মিছিল আহ্বান করেছে। এনসিপি ঢাকা মহানগর উত্তর ও দক্ষিণ আয়োজিত এ বিক্ষোভে দলের মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীসহ শীর্ষ নেতৃবৃন্দ উপস্থিত থাকবেন। সময়: আজ সোমবার সন্ধ্যা ৭:৩০টা তারিখ: ২১ সেপ্টেম্বর ২০২৬ স্থান: বাংলামোটর, ঢাকা। জ্বালানির বাড়তি খরচ শেষ পর্যন্ত আপনার যাতায়াত, বাজার, কৃষি, ব্যবসা ও সংসারের খরচেও প্রভাব ফেলতে পারে। এই মূল্যবৃদ্ধি নিয়ে আপনার কথা ও অভিজ্ঞতা জানাতে চাইলে শান্তিপূর্ণভাবে এ কর্মসূচিতে অংশ নিতে পারেন। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122205592664921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122205592664921031-61ee7f0eda-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206088378921031-9ae0b8612c",
+      "sourceType": "facebook",
+      "sourceId": "122206088378921031",
+      "sourceKey": "facebook:germany:122206088378921031",
+      "sourceFingerprint": "9ae0b8612cda1339f73fd6a29f2b8639e38cc01606defe9a265c906a2bf504f4",
+      "sourceCreatedAt": "2026-09-24T06:07:37+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122206088378921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-24T10:04:42.967Z",
+      "updatedAt": "2026-09-24T10:04:42.967Z",
+      "title": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।",
+      "excerpt": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে। #ncpdagermany",
+      "sourceCaption": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে। #ncpdagermany",
+      "image": "img/social/germany/fb-122206088378921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে। স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে। #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122206088378921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206088378921031-9ae0b8612c-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।",
+          "description": "স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে।\n\nস্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122206088378921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206088378921031-9ae0b8612c-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
