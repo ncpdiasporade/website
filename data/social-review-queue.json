@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T15:09:41.594Z",
+  "updatedAt": "2026-09-25T13:51:26.649Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5223,6 +5223,45 @@
           "description": "স্থানীয় সরকারেও প্রবাসীর কণ্ঠস্বর থাকতে হবে ✊ আমরা দেশের বাইরে থাকি, কিন্তু আমাদের পরিবার, বাড়ি, সম্পদ, শিকড় এবং ভবিষ্যৎ সবই বাংলাদেশের স্থানীয়…\n\nস্থানীয় সরকারেও প্রবাসীর কণ্ঠস্বর থাকতে হবে ✊ আমরা দেশের বাইরে থাকি, কিন্তু আমাদের পরিবার, বাড়ি, সম্পদ, শিকড় এবং ভবিষ্যৎ সবই বাংলাদেশের স্থানীয় সমাজের সঙ্গে যুক্ত। স্থানীয় সরকারই আমাদের গ্রাম, ইউনিয়ন, উপজেলা ও এলাকার দৈনন্দিন সেবা এবং উন্নয়নের সবচেয়ে কাছের প্রতিষ্ঠান। সেখানে কে নেতৃত্ব দেবেন সে সিদ্ধান্তে একজন প্রবাসী নাগরিকের মতামত কেন অনুপস্থিত থাকবে? এই প্রশ্ন থেকেই NCP Diaspora Alliance Germany প্রবাসী বাংলাদেশিদের মতামত তুলে ধরার উদ্যোগ নিয়েছে। আমাদের দাবি খুবই স্পষ্ট:- প্রবাসীদের ভোটাধিকার যদি সাংবিধানিকভাবে স্বীকৃত হয়, তাহলে স্থানীয় সরকার নির্বাচনেও সেই অধিকার নিশ্চিত করার কার্যকর ব্যবস্থা থাকতে হবে। প্রবাসে আছি, দেশের বাইরে নই। স্থানীয় সিদ্ধান্তেও আমাদের কণ্ঠস্বর থাকতে হবে।…\n\nবিস্তারিত: https://www.facebook.com/reel/1116942434609982/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122206138790921031-d12c61b6d1-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206296068921031-1195329a62",
+      "sourceType": "facebook",
+      "sourceId": "122206296068921031",
+      "sourceKey": "facebook:germany:122206296068921031",
+      "sourceFingerprint": "1195329a62da77419c83660b34e6160fde7277b1bdb6801260c4d97a5923c535",
+      "sourceCreatedAt": "2026-09-25T07:55:06+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1675756317453547/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-25T13:51:26.649Z",
+      "updatedAt": "2026-09-25T13:51:26.649Z",
+      "title": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh",
+      "excerpt": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh",
+      "sourceCaption": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh",
+      "image": "img/social/germany/fb-122206296068921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh\nhttps://www.facebook.com/reel/1675756317453547/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206296068921031-1195329a62-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp…",
+          "description": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh\n\n“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh\n\nবিস্তারিত: https://www.facebook.com/reel/1675756317453547/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206296068921031-1195329a62-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
