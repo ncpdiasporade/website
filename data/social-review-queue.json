@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T13:51:26.649Z",
+  "updatedAt": "2026-09-26T01:37:13.299Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5262,6 +5262,45 @@
           "description": "“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh\n\n“জাতীয় নির্বাচনের মতো স্থানীয় নির্বাচনেও প্রবাস থেকে ভোট দিতে চাই” #ncpdagermany #ncp #bangladesh\n\nবিস্তারিত: https://www.facebook.com/reel/1675756317453547/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122206296068921031-1195329a62-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206427372921031-e45704e1a8",
+      "sourceType": "facebook",
+      "sourceId": "122206427372921031",
+      "sourceKey": "facebook:germany:122206427372921031",
+      "sourceFingerprint": "e45704e1a824e941873ca7e30486411236b34ee9142142cc4ac24ea776008042",
+      "sourceCreatedAt": "2026-09-26T00:30:43+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1614655080065757/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-26T01:37:13.298Z",
+      "updatedAt": "2026-09-26T01:37:13.299Z",
+      "title": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে।",
+      "excerpt": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে। #NCPDAGermany #ncp #bangladesh #ncpda_germany #diasporavoting",
+      "sourceCaption": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে। #NCPDAGermany #ncp #bangladesh #ncpda_germany #diasporavoting",
+      "image": "img/social/germany/fb-122206427372921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে। “ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী…\nhttps://www.facebook.com/reel/1614655080065757/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206427372921031-e45704e1a8-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে…",
+          "description": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে।\n\n“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে। #NCPDAGermany #ncp #bangladesh #ncpda_germany #diasporavoting\n\nবিস্তারিত: https://www.facebook.com/reel/1614655080065757/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206427372921031-e45704e1a8-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
