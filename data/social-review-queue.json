@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T01:37:13.299Z",
+  "updatedAt": "2026-09-26T13:08:40.716Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5301,6 +5301,45 @@
           "description": "“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে।\n\n“ভোট কোনো দয়া নয়—এটি আমাদের সাংবিধানিক ও গণতান্ত্রিক অধিকার।” আসন্ন স্থানীয় নির্বাচনে প্রবাসী বাংলাদেশিদের ভোটাধিকার নিশ্চিত করতে হবে। #NCPDAGermany #ncp #bangladesh #ncpda_germany #diasporavoting\n\nবিস্তারিত: https://www.facebook.com/reel/1614655080065757/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122206427372921031-e45704e1a8-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206536536921031-82eab95687",
+      "sourceType": "facebook",
+      "sourceId": "122206536536921031",
+      "sourceKey": "facebook:germany:122206536536921031",
+      "sourceFingerprint": "82eab956876bfcd153cf9e314bc12a7077f35e395b3671486d6731c617dc423b",
+      "sourceCreatedAt": "2026-09-26T12:23:04+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122206536536921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-26T13:08:40.715Z",
+      "updatedAt": "2026-09-26T13:08:40.716Z",
+      "title": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে।",
+      "excerpt": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে। অন্যান্য উপজেলাসমূহ: গোপালগঞ্জ সদর, মুকসুদপুর, কাশিয়ানী ও কোটালীপাড়া। #ncp #bangladesh #germany",
+      "sourceCaption": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে। অন্যান্য উপজেলাসমূহ: গোপালগঞ্জ সদর, মুকসুদপুর, কাশিয়ানী ও কোটালীপাড়া। #ncp #bangladesh #germany",
+      "image": "img/social/germany/fb-122206536536921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে। টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে। অন্যান্য উপজেলাসমূহ: গোপালগঞ্জ সদর, মুকসুদপুর, কাশিয়ানী ও কোটালীপাড়া। #ncp #bangladesh…\nhttps://www.facebook.com/122195961254921031/posts/122206536536921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206536536921031-82eab95687-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে।",
+          "description": "টুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে।\n\nটুঙ্গিপাড়াসহ গোপালগঞ্জের পাঁচ উপজেলায় আহ্বায়ক (আংশিক) কমিটি গঠন করা হয়েছে। অন্যান্য উপজেলাসমূহ: গোপালগঞ্জ সদর, মুকসুদপুর, কাশিয়ানী ও কোটালীপাড়া। #ncp #bangladesh #germany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122206536536921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206536536921031-82eab95687-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
