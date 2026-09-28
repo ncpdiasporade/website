@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T14:02:41.048Z",
+  "updatedAt": "2026-09-28T00:52:21.772Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5457,6 +5457,45 @@
           "description": "জাতীয় নাগরিক পার্টির মুখপাত্র ও ঢাকা উত্তর সিটি করপোরেশনের মেয়র প্রার্থী আসিফ মাহমুদ সজিব ভুইয়ার নেতৃত্বে রাড্ডা স্বাস্থ্যকেন্দ্রে দখলদারদের লাগানো…\n\nজাতীয় নাগরিক পার্টির মুখপাত্র ও ঢাকা উত্তর সিটি করপোরেশনের মেয়র প্রার্থী আসিফ মাহমুদ সজিব ভুইয়ার নেতৃত্বে রাড্ডা স্বাস্থ্যকেন্দ্রে দখলদারদের লাগানো বিলবোর্ড গুঁড়িয়ে দিল এনসিপি নেতাকর্মীরা। #ncpdagermany #ncp #ncpbangladesh #ncpda_germany\n\nবিস্তারিত: https://www.facebook.com/reel/28769784732661933/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122206680002921031-18a5614f4f-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206780268921031-c587eaaffc",
+      "sourceType": "facebook",
+      "sourceId": "122206780268921031",
+      "sourceKey": "facebook:germany:122206780268921031",
+      "sourceFingerprint": "c587eaaffcddc48dc0caf1d2b1cde4d242b3f474d1970b3e7a68119a18f94420",
+      "sourceCreatedAt": "2026-09-27T22:37:09+0000",
+      "sourceUrl": "https://www.facebook.com/reel/2343738729747347/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-28T00:52:21.771Z",
+      "updatedAt": "2026-09-28T00:52:21.772Z",
+      "title": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না?",
+      "excerpt": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না? কার্ড ছাড়া যদি কোনো সমস্যার সমাধান না হয়, তাহলে নিরাপত্তার জন্যও কার্ড ছাড়া উপায় নেই। - মনিরা শারমিন #ncpdagermany",
+      "sourceCaption": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না? কার্ড ছাড়া যদি কোনো সমস্যার সমাধান না হয়, তাহলে নিরাপত্তার জন্যও কার্ড ছাড়া উপায় নেই। - মনিরা শারমিন #ncpdagermany",
+      "image": "img/social/germany/fb-122206780268921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না? স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না? কার্ড ছাড়া যদি কোনো সমস্যার সমাধান না হয়, তাহলে নিরাপত্তার জন্যও কার্ড ছাড়া উপায় নেই। - মনিরা শারমিন…\nhttps://www.facebook.com/reel/2343738729747347/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206780268921031-c587eaaffc-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না?",
+          "description": "স্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না?\n\nস্বরাষ্ট্রমন্ত্রীর নিরাপত্তা কার্ড নিয়ে কোনো পরিকল্পনা আছে কি না? কার্ড ছাড়া যদি কোনো সমস্যার সমাধান না হয়, তাহলে নিরাপত্তার জন্যও কার্ড ছাড়া উপায় নেই। - মনিরা শারমিন #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/2343738729747347/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206780268921031-c587eaaffc-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
