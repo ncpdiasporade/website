@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T06:58:15.244Z",
+  "updatedAt": "2026-09-28T15:32:22.627Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5535,6 +5535,45 @@
           "description": "খুলনা মহানগর কমিটির মধ্য দিয়ে বাংলাদেশের সকল জেলা ও মহানগরে জাতীয় নাগরিক পার্টি - এনসিপির আহ্বায়ক কমিটি গঠন প্রক্রিয়া সম্পন্ন হলো।\n\nখুলনা মহানগর কমিটির মধ্য দিয়ে বাংলাদেশের সকল জেলা ও মহানগরে জাতীয় নাগরিক পার্টি - এনসিপির আহ্বায়ক কমিটি গঠন প্রক্রিয়া সম্পন্ন হলো। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122206825136921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122206825136921031-032e333df0-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122206895372921031-6ab0829f21",
+      "sourceType": "facebook",
+      "sourceId": "122206895372921031",
+      "sourceKey": "facebook:germany:122206895372921031",
+      "sourceFingerprint": "6ab0829f21d4f9597382479ad7cfab6c77ac7f191305ae8d3c2e4c329646b6b7",
+      "sourceCreatedAt": "2026-09-28T13:59:56+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122206895372921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-09-28T15:32:22.626Z",
+      "updatedAt": "2026-09-28T15:32:22.627Z",
+      "title": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany",
+      "excerpt": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany",
+      "sourceCaption": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany",
+      "image": "img/social/germany/fb-122206895372921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122206895372921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122206895372921031-6ab0829f21-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও…",
+          "description": "এনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany\n\nএনসিপির সর্বোচ্চ নীতিনির্ধারণী ফোরাম ‘রাজনৈতিক পর্ষদ’-এর আজকের মিটিংয়ের আলোচ্য বিষয় ও সিদ্ধান্তসমূহ:- #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122206895372921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122206895372921031-6ab0829f21-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
