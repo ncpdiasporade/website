@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-29T02:01:51.200Z",
+  "updatedAt": "2026-09-29T08:34:44.002Z",
   "items": [
+    {
+      "id": "facebook-germany-122207015336921031",
+      "facebookId": "122207015336921031",
+      "status": "published",
+      "date": "২৯ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-29T07:44:08+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "NCP–International IDEA Meeting on Electoral Reforms",
+      "excerpt": "A meeting between the National Citizen Party (NCP) and International IDEA was held at the NCP office to discuss electoral reforms and related democratic processes.",
+      "sourceCaption": "NCP–International IDEA Meeting on Electoral Reforms\n\nA meeting between the National Citizen Party (NCP) and International IDEA was held at the NCP office to discuss electoral reforms and related democratic processes.\n\nInternational IDEA was represented by Principal Adviser Peter Wolf and Consultant Dr. Abdul Aleem. The NCP delegation comprised Spokesperson Asif Mahmud Sajib Bhuiyan, Joint Convener Sarwar Tushar, and Joint Secretary Alauddin Mohammad.\n\nThe meeting focused on key aspects of electoral reform, with an emphasis on strengthening the electoral process and institutions.\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207015336921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122207015336921031.jpg",
+      "imageAlt": "NCP–International IDEA Meeting on Electoral Reforms",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122206927616921031",
       "facebookId": "122206927616921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122206680002921031.jpg",
       "imageAlt": "জাতীয় নাগরিক পার্টির মুখপাত্র ও ঢাকা উত্তর সিটি করপোরেশনের মেয়র প্রার্থী আসিফ মাহমুদ সজিব ভুইয়ার নেতৃত্বে রাড্ডা…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122206601390921031",
-      "facebookId": "122206601390921031",
-      "status": "published",
-      "date": "২৭ সেপ্টেম্বর, ২০২৬",
-      "createdAt": "2026-09-26T22:10:31+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "কিছুদিন পর বিএনপি বিএনপির ঘর লুট করবে, জমি দখল করবে, দোকানে চাঁদাবাজি করবে, রক্ত ঝরাবে, জীবন নিবে!",
-      "excerpt": "কিছুদিন পর বিএনপি বিএনপির ঘর লুট করবে, জমি দখল করবে, দোকানে চাঁদাবাজি করবে, রক্ত ঝরাবে, জীবন নিবে! - সারজিস আলম",
-      "sourceCaption": "কিছুদিন পর বিএনপি বিএনপির ঘর লুট করবে, জমি দখল করবে, দোকানে চাঁদাবাজি করবে, রক্ত ঝরাবে, জীবন নিবে!\n\n- সারজিস আলম\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122206601390921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122206601390921031.jpg",
-      "imageAlt": "কিছুদিন পর বিএনপি বিএনপির ঘর লুট করবে, জমি দখল করবে, দোকানে চাঁদাবাজি করবে, রক্ত ঝরাবে, জীবন নিবে!",
       "managedBy": "facebook-sync"
     },
     {
@@ -321,7 +321,7 @@
       "sourceUrl": "https://www.facebook.com/reel/1579837809918839/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 76828,
+      "viewCount": 76829,
       "featured": false,
       "image": "img/social/germany/fb-1579837809918839.jpg",
       "imageAlt": "আমাদের Akhter Hossen 🫡",
