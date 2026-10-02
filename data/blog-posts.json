@@ -1,6 +1,237 @@
 {
   "items": [
     {
+      "id": "nct-concession-public-terms-accountability-2026",
+      "slug": "nct-concession-public-terms-accountability-2026",
+      "status": "published",
+      "tag": "বন্দরনীতি ও সরকারি জবাবদিহি",
+      "title": "১৫ বছরের এনসিটি চুক্তি: অনুমোদন হয়েছে, কিন্তু জনতার দেখার মতো শর্ত কোথায়?",
+      "date": "২ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-02T07:10:00+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "চট্টগ্রাম বন্দরের এনসিটি ১৫ বছরের জন্য বিদেশি অপারেটরকে দেওয়ার খসড়া চুক্তি অনুমোদিত হয়েছে। কিন্তু অপারেটর, রাজস্ব, বিনিয়োগ, ঝুঁকি ও কর্মসংস্থানের শর্ত প্রকাশ ছাড়া জবাবদিহি অসম্পূর্ণ।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about a port concession, public contract disclosure and accountability in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "চুক্তির শর্ত প্রকাশ চাই",
+      "facebookCaption": "চট্টগ্রাম বন্দরের এনসিটি ১৫ বছরের জন্য বিদেশি অপারেটরকে দেওয়ার খসড়া চুক্তি অনুমোদিত হয়েছে। নাম, রাজস্ব ভাগ, বিনিয়োগ, ঝুঁকি ও চাকরির সুরক্ষা প্রকাশ না করলে জনগণ বুঝবে কী অনুমোদিত হলো?",
+      "facts": [
+        {
+          "value": "১৫ বছর",
+          "label": "এনসিটি ও ওভারফ্লো কনটেইনার ইয়ার্ড পরিচালনা-রক্ষণাবেক্ষণের অনুমোদিত খসড়া কনসেশনের মেয়াদ"
+        },
+        {
+          "value": "US$205 মিলিয়ন",
+          "label": "পিপিপি কর্তৃপক্ষের প্রকল্প পাতায় সম্ভাব্যতা সমীক্ষাভিত্তিক আনুমানিক প্রকল্প ব্যয়"
+        },
+        {
+          "value": "DP World",
+          "label": "পিপিপি কর্তৃপক্ষের পাতায় দুবাই সরকারের মনোনীত জি-টু-জি কনসেশনপ্রার্থী"
+        },
+        {
+          "value": "৩.৫ মিলিয়ন TEU",
+          "label": "স্বাধীন প্রতিবেদনে ২০২৫-২৬ অর্থবছরে চট্টগ্রাম বন্দরের মোট কনটেইনার হ্যান্ডলিং; এর ৪০ শতাংশের বেশি এনসিটি পরিচালনা করে"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "চট্টগ্রাম বন্দরের নিউমুরিং কনটেইনার টার্মিনাল বা এনসিটি ১৫ বছরের জন্য একটি আন্তর্জাতিক অপারেটরকে চালাতে দেওয়ার খসড়া কনসেশন চুক্তি ১ অক্টোবর অর্থনৈতিক বিষয়সংক্রান্ত মন্ত্রিসভা কমিটি অনুমোদন করেছে। এটি ছোট কোনো প্রশাসনিক কাগজ নয়। এনসিটি দেশের প্রধান সমুদ্রবন্দরের বড় কনটেইনার স্থাপনা। স্বাধীন প্রতিবেদনে ২০২৫-২৬ অর্থবছরে বন্দরের মোট কনটেইনার হ্যান্ডলিং প্রায় ৩৫ লাখ টিইইউ এবং তার ৪০ শতাংশের বেশি এনসিটির মাধ্যমে হওয়ার কথা বলা হয়েছে। তাই প্রশ্নটি বিদেশি অপারেটর ভালো না খারাপ—এই সরল স্লোগান নয়। প্রশ্ন হলো, রাষ্ট্র কোন শর্তে ১৫ বছরের জন্য এই দায়িত্ব দিচ্ছে, আর সেই শর্ত জনগণকে কেন দেখানো হচ্ছে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের সিদ্ধান্ত নেওয়ার অধিকার আছে। বন্দর আধুনিকায়ন, দক্ষতা বাড়ানো এবং আন্তর্জাতিক অপারেটরের অভিজ্ঞতা নেওয়া যুক্তিসংগত নীতিগত লক্ষ্য হতে পারে। কিন্তু সেই লক্ষ্যই গোপন চুক্তির লাইসেন্স নয়। রাজস্ব কত ভাগে যাবে, অপারেটর কত বিনিয়োগ করবে, রাষ্ট্র কোন ঝুঁকি নেবে, কাজের মান কে মাপবে, ব্যর্থ হলে জরিমানা কী, এবং ১৫ বছর শেষে বাংলাদেশের হাতে কী থাকবে—এসব না জেনে নাগরিক কেবল সিদ্ধান্তের খবর পান, সিদ্ধান্তের অর্থ পান না। জবাবদিহি ঠিক এখানেই থেমে যায়।"
+        },
+        {
+          "type": "callout",
+          "text": "অনুমোদন কোনো চুক্তির শেষ কথা নয়। জনস্বার্থে চুক্তি বৈধভাবে এগোতে পারে, কিন্তু তার মূল্য, ঝুঁকি, দায় ও ফল মাপার ভাষা জনগণের অজানা থাকতে পারে না।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার ঠিক কী অনুমোদন দিয়েছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ সংবাদ সংস্থার ১ অক্টোবরের বিবরণে বলা হয়েছে, অর্থনৈতিক বিষয়সংক্রান্ত মন্ত্রিসভা কমিটি এনসিটি এবং তার ওভারফ্লো ইয়ার্ড পরিচালনা ও রক্ষণাবেক্ষণের জন্য আন্তর্জাতিক টার্মিনাল অপারেটরের সঙ্গে ১৫ বছরের খসড়া কনসেশন চুক্তি অনুমোদন করেছে। নৌপরিবহন মন্ত্রণালয়ের প্রস্তাবে চট্টগ্রাম বন্দর কর্তৃপক্ষ এই চুক্তি করবে এবং প্রকল্পটি পিপিপি কাঠামোর। একই দিনের দুটি স্বাধীন প্রতিবেদনে অনুমোদনের খবর মিলেছে। তবে সেখানে খসড়া চুক্তির পূর্ণ পাঠ, আর্থিক কাঠামো বা কোনো ধারা প্রকাশ করা হয়নি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই সীমাটি খুব গুরুত্বপূর্ণ। অনুমোদন মানে চূড়ান্ত স্বাক্ষর হয়েছে—এমন কথা এই সম্পাদকীয় বলছে না। আবার অনুমোদনকে নিছক প্রাথমিক আলোচনা বলেও ছোট করা যাবে না। এটি এমন একটি সরকারি সিদ্ধান্ত, যা চুক্তি স্বাক্ষরের পথ খুলে দেয়। ফলে স্বাক্ষরের আগেই শর্ত দেখার সুযোগ সবচেয়ে বেশি কার্যকর। একবার চুক্তি হয়ে গেলে পরিবর্তনের খরচ বাড়ে, গোপনীয়তার যুক্তি আরও জোরালো হয়, আর জনস্বার্থের প্রশ্নকে ‘দেরিতে তোলা’ বলে এড়িয়ে যাওয়া সহজ হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের অবস্থান কী"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের সবচেয়ে শক্তিশালী যুক্তিটি সরকারি পিপিপি প্রকল্প পাতাতেই আছে। সেখানে বলা হয়েছে, চট্টগ্রাম বন্দর কর্তৃপক্ষ এনসিটি উন্নয়ন, পরিচালনা ও রক্ষণাবেক্ষণের জন্য দুবাই সরকারের মনোনীত ডিপি ওয়ার্ল্ডকে সরকার-টু-সরকার বা জি-টু-জি কনসেশন দিতে চায়। সম্ভাব্যতা সমীক্ষার ভিত্তিতে সম্ভাব্য ব্যয় ধরা হয়েছে ২০ কোটি ৫০ লাখ মার্কিন ডলার। পিপিপি কর্তৃপক্ষ ও বন্দর কর্তৃপক্ষ আন্তর্জাতিক অর্থ করপোরেশনকে লেনদেন-পরামর্শক করেছে; তাদের কাজ ছিল যথাযথ যাচাই, লেনদেন কাঠামো, আরএফপি ও চুক্তির খসড়া এবং আলোচনায় সহায়তা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি হালকাভাবে উড়িয়ে দেওয়ার মতো উত্তর নয়। আন্তর্জাতিক টার্মিনাল পরিচালনায় অভিজ্ঞ প্রতিষ্ঠানের প্রযুক্তি, ব্যবস্থাপনা, নতুন বিনিয়োগ এবং বৈশ্বিক নেটওয়ার্ক পেলে বন্দরসেবা উন্নত হতে পারে। পিপিপি কাঠামোতে বিশেষজ্ঞ পরামর্শক থাকাও নিজে থেকে অনিয়মের প্রমাণ নয়। সরকার চাইলে দক্ষতা, জাহাজের অপেক্ষার সময়, কার্গো হ্যান্ডলিং ও ভবিষ্যৎ সক্ষমতা বাড়ানোর লক্ষ্য সামনে রাখতে পারে। কিন্তু একটি ভালো লক্ষ্য প্রমাণ করার দায়িত্বও সরকারের। ‘আন্তর্জাতিক’ শব্দটি রাজস্ব, সেবামান ও সার্বভৌম নিয়ন্ত্রণের শর্তের বিকল্প নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সরকারি তথ্যের মধ্যেই একটি অস্বস্তিকর ফাঁক আছে। পিপিপি কর্তৃপক্ষের বর্তমান প্রকল্প পাতায় ডিপি ওয়ার্ল্ডের নাম, ২০ কোটি ৫০ লাখ ডলারের আনুমানিক ব্যয় এবং প্রকল্পের ‘উন্নয়ন পর্যায়’ লেখা আছে। অন্যদিকে, ১ অক্টোবরের অনুমোদন নিয়ে দ্য ডেইলি স্টার জানিয়েছে, কমিটির অনুমোদনের বিবরণে বিদেশি অপারেটরের নাম ছিল না এবং বন্দর কর্তৃপক্ষ বা বিনিয়োগ উন্নয়ন কর্তৃপক্ষ স্বাক্ষরের সময় নিয়ে মন্তব্য করেনি। এই পার্থক্য অপরাধের প্রমাণ নয়। কিন্তু জনগণের জন্য এটি যথেষ্ট কারণ: শেষ চুক্তিতে কে পক্ষ, কী বদলেছে এবং কোন দায় কার—তার স্পষ্ট সরকারি নথি প্রকাশ চাই।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যা বিদেশি হওয়া নয়, অদৃশ্য শর্ত"
+        },
+        {
+          "type": "paragraph",
+          "text": "রাষ্ট্রীয় সম্পদ পরিচালনায় বিদেশি অংশীদারিত্ব নিষিদ্ধ নয়। প্রশ্ন হলো, অংশীদারিত্বে রাষ্ট্র কী সুরক্ষা রেখেছে। এনসিটি নিয়ে যাঁরা উদ্বেগ তুলেছেন, তাঁদের সব বক্তব্য সত্য বলে ধরে নেওয়ার কারণ নেই। চট্টগ্রাম বন্দর রক্ষা সংগ্রাম পরিষদের দাবি রাজনৈতিক ও নাগরিক অবস্থান; এটি চুক্তির ত্রুটি প্রমাণ করে না। কিন্তু তাদের চাওয়া—খসড়া প্রকাশ, স্বতন্ত্র অর্থনৈতিক ও কারিগরি পরীক্ষা, রাজস্ব, কর্মসংস্থান, নিরাপত্তা ও চুক্তি বাতিলের ধারা জানানো—নীতিগতভাবে একেবারেই যৌক্তিক। এসব তথ্য প্রকাশ হলে সমালোচনার বাস্তব ভিত্তি পরীক্ষা করা যাবে; না হলে সমর্থক ও বিরোধী উভয় পক্ষই অনুমানের ওপর দাঁড়াবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বন্দর কনসেশনে কমপক্ষে আটটি বিষয় লুকিয়ে রাখা চলবে না। প্রথমত, পরিচালন অধিকার ও রাষ্ট্রের নিয়ন্ত্রণের সীমা। দ্বিতীয়ত, কোন অবকাঠামো ও যন্ত্রপাতিতে অপারেটরের বিনিয়োগ বাধ্যতামূলক। তৃতীয়ত, ট্যারিফ বা মাশুল কীভাবে ঠিক হবে এবং আমদানিকারক-রপ্তানিকারকের ওপর তার প্রভাব কী। চতুর্থত, আয় ও মুনাফার ভাগ। পঞ্চমত, কাজের মানের সূচক—জাহাজের অপেক্ষা, কনটেইনার খালাস, নিরাপত্তা ও ক্ষতিপূরণ। ষষ্ঠত, শ্রমিকের বর্তমান চাকরি ও নতুন নিয়োগের সুরক্ষা। সপ্তমত, তথ্য ও বন্দরনিরাপত্তার নিয়ন্ত্রণ। অষ্টমত, চুক্তি ভাঙা, পুনঃআলোচনা বা বিরোধ নিষ্পত্তির নিয়ম।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তালিকা চুক্তি আটকে দেওয়ার ফাঁদ নয়। বরং এটি সরকারের ভালো সিদ্ধান্তকে শক্তিশালী করার উপায়। যদি চুক্তিতে যথেষ্ট বিনিয়োগ, কার্যকর সেবামান, ন্যায্য রাজস্ব এবং রাষ্ট্রের নিয়ন্ত্রণ থাকে, প্রকাশ সেই শক্তি দেখাবে। যদি কোনো দুর্বলতা থাকে, স্বাক্ষরের আগে তা ঠিক করার সুযোগ থাকবে। গোপনীয়তা কেবল বাণিজ্যিকভাবে সংবেদনশীল কিছু তথ্য রক্ষার জন্য হতে পারে; পুরো ১৫ বছরের চুক্তিকে অদৃশ্য রাখার জন্য নয়। প্রতিটি সংখ্যা তাৎক্ষণিকভাবে প্রকাশ না করলেও ন্যূনতম সারসংক্ষেপ, দায়িত্বের তালিকা ও স্বাধীন পর্যালোচনার পথ অবশ্যই প্রকাশ করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রকাশের একটি ব্যবহারযোগ্য মানও আছে। সরকার এক পাতার প্রচারপত্রে সন্তুষ্ট থাকতে পারে না। ধারা ধরে কী প্রকাশ করা গেল না, কেন গেল না এবং কবে প্রকাশ করা যাবে—সেটিও জানাতে হবে। চুক্তির বাংলা সারসংক্ষেপ এমন ভাষায় হতে হবে যাতে ব্যবসায়ী, শ্রমিক ও সাধারণ পাঠক বুঝতে পারেন। ইংরেজি আইনি নথি শুধু ওয়েবসাইটে তুলে দিয়ে দায় শেষ হবে না। বন্দর ব্যবহারকারী ও শ্রমিক প্রতিনিধিদের লিখিত মতামত নেওয়া হলে সেই মতামতের সারও প্রকাশ করা উচিত। এতে সিদ্ধান্ত ধীর হবে না; বরং পরে গোপন শর্ত নিয়ে যে অনাস্থা ও বিরোধ তৈরি হয়, তার ঝুঁকি কমবে।"
+        },
+        {
+          "type": "heading",
+          "text": "আগের প্রতিশ্রুতি ও বর্তমান সিদ্ধান্ত"
+        },
+        {
+          "type": "paragraph",
+          "text": "এনসিটিকে পিপিপি কাঠামোয় নেওয়ার চিন্তা আজকের নয়। পিপিপি কর্তৃপক্ষের পাতায় ২৩ মার্চ ২০২৩ সালের নীতিগত অনুমোদনের কথা আছে। অর্থাৎ পরিকল্পনাটি আগের সরকারের সময় শুরু হয়েছিল এবং বর্তমান সরকার সেটি এগিয়ে নিয়েছে। তাই এটি কেবল বর্তমান সরকারের বানানো প্রকল্প—এমন কথা সঠিক নয়। আবার পুরোনো নীতিগত অনুমোদনের আড়ালে আজকের সিদ্ধান্তের দায়ও লুকানো যাবে না। বর্তমান সরকারই ২০২৬ সালে খসড়া চুক্তি অনুমোদনের পর্যায়ে পৌঁছেছে; সুতরাং চূড়ান্ত শর্ত, স্বাক্ষর ও বাস্তবায়নের জবাব বর্তমান কর্তৃপক্ষকেই দিতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই ধারাবাহিকতার আরও একটি শিক্ষা আছে। দীর্ঘ আলোচনায় যে নথি বদলায়, তা জনগণের সামনে পুরোনো নামে চালানো যায় না। ২০২৩ সালের প্রকল্প ধারণা, সম্ভাব্যতা সমীক্ষা ও আজকের খসড়া একই কি না, কী ধারা যোগ-বিয়োগ হয়েছে, আর কেন হয়েছে—তা দেখানোর দায়িত্ব সরকারের। পুরোনো অনুমোদন দিয়ে নতুন চুক্তির আর্থিক বা আইনগত শর্ত অনুমান করা যায় না। জনগণকে চুক্তির শেষ সংস্করণই দেখতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "কার লাভ, কার ঝুঁকি"
+        },
+        {
+          "type": "paragraph",
+          "text": "চুক্তি ভালো হলে লাভবান হতে পারেন রপ্তানিকারক, আমদানিকারক, জাহাজ কোম্পানি ও শেষ পর্যন্ত ভোক্তা—যদি জট কমে, সময় বাঁচে, সেবার মান বাড়ে এবং ব্যয় অযৌক্তিক না বাড়ে। দেশের বন্দর ব্যবস্থাপনাও নতুন দক্ষতা ও বিনিয়োগ পেতে পারে। কিন্তু বিপরীত সম্ভাবনাও বাস্তব: মাশুল বাড়লে ব্যবসার খরচ ও পণ্যের দাম বাড়তে পারে; বিনিয়োগের প্রতিশ্রুতি দুর্বল হলে রাষ্ট্র কম সুবিধা পেতে পারে; শ্রমিক ও স্থানীয় দক্ষতার সুরক্ষা না থাকলে কাজের মানুষ ঝুঁকিতে পড়তে পারেন। কোন ফল হবে, তা কোনো পক্ষের স্লোগান থেকে জানা যাবে না; জানা যাবে প্রকাশ্য চুক্তি ও পরিমাপযোগ্য ফল থেকে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এনসিটির মতো ব্যস্ত টার্মিনালে ঝুঁকির বোঝা শুধু সরকারের নয়, ব্যবসা ও সাধারণ মানুষেরও। রাষ্ট্র যদি ন্যূনতম আয় নিশ্চয়তা, বৈদেশিক মুদ্রার প্রতিশ্রুতি, করছাড়, ক্ষতিপূরণ বা একতরফা ট্যারিফ সমন্বয়ের সুযোগ দেয়, সেগুলো শেষ পর্যন্ত জনসম্পদের দায় হতে পারে। আবার অপারেটরকে বিনিয়োগ, সময়সীমা, যন্ত্রপাতি, কর্মী প্রশিক্ষণ ও সেবামান পূরণে কঠিন শর্ত দিলে জনগণ তার সুফল পেতে পারে। কোন চিত্রটি সত্য, তা এখনো নাগরিকেরা যাচাই করতে পারছেন না—কারণ অনুমোদিত খসড়াটি প্রকাশ করা হয়নি।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন সরকারের করণীয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বাক্ষরের আগে নৌপরিবহন মন্ত্রণালয়, চট্টগ্রাম বন্দর কর্তৃপক্ষ ও পিপিপি কর্তৃপক্ষকে একটি বাংলা-ইংরেজি জনসারাংশ প্রকাশ করতে হবে। সেখানে অন্তত থাকবে: চূড়ান্ত অপারেটরের পরিচয় ও মালিকানা, ১৫ বছরের মেয়াদ ও নবায়নের শর্ত, বিনিয়োগের অঙ্ক ও সময়সূচি, রাজস্ব ও মাশুলের নীতি, কর্মসংস্থান পরিকল্পনা, তথ্য ও নিরাপত্তার দায়িত্ব, সেবামানের সূচক, রাষ্ট্রের আর্থিক দায় এবং বিরোধ নিষ্পত্তির ব্যবস্থা। বাণিজ্যিকভাবে গোপন কোনো নির্দিষ্ট দাম থাকলে তার কারণও বলতে হবে। ‘গোপন’ শব্দটি দিয়ে পুরো চুক্তি আড়াল করা চলবে না।"
+        },
+        {
+          "type": "list",
+          "items": [
+            "চুক্তি স্বাক্ষরের আগে পূর্ণ খসড়া বা ধারা-ভিত্তিক জনসারাংশ প্রকাশ করুন।",
+            "চূড়ান্ত অপারেটর, জি-টু-জি মনোনয়ন ও মালিকানা পরিষ্কার করুন।",
+            "বিনিয়োগ, রাজস্ব ভাগ, মাশুল এবং রাষ্ট্রের সম্ভাব্য দায় আলাদা করে জানান।",
+            "চাকরি, শ্রমিক নিরাপত্তা ও স্থানীয় দক্ষতা উন্নয়নের বাধ্যবাধকতা প্রকাশ করুন।",
+            "সংসদীয় কমিটি ও স্বাধীন বিশেষজ্ঞদের মাধ্যমে আর্থিক, কারিগরি ও নিরাপত্তা পর্যালোচনার ব্যবস্থা করুন।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "সংসদীয় তদারকি এখানে বিশেষ জরুরি। নৌপরিবহন মন্ত্রণালয়সংক্রান্ত স্থায়ী কমিটি চুক্তি স্বাক্ষরের আগে সংশ্লিষ্ট দপ্তরকে ডেকে প্রকাশযোগ্য অংশ, রাষ্ট্রের দায় এবং ফল মাপার পদ্ধতি জানতে চাইতে পারে। এতে সরকারকে অকারণে দুর্বল করা হবে না। বরং ১৫ বছরের এমন সিদ্ধান্ত ব্যক্তি বা গোষ্ঠীর পছন্দের বাইরে গিয়ে রাষ্ট্রের প্রতিষ্ঠানের পরীক্ষায় যাবে। স্বাধীন কারিগরি মতামতও কোনো ‘বিদেশবিরোধী’ অবস্থান নয়; এটি চুক্তির সক্ষমতা যাচাইয়ের স্বাভাবিক নিয়ম।"
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা"
+        },
+        {
+          "type": "paragraph",
+          "text": "এনসিটি কনসেশন বাংলাদেশের বন্দরকে আধুনিক করতে পারে। আবার দুর্বল শর্তে এটি রাষ্ট্রের রাজস্ব, শ্রমিক, ব্যবসা ও নীতিগত নিয়ন্ত্রণের জন্য দীর্ঘ ঝুঁকি হয়ে উঠতে পারে। কোন পথটি সামনে আছে, তা আজ প্রমাণ করার মতো নথি জনসমক্ষে নেই। এই সম্পাদকীয় কোনো কোম্পানিকে অপরাধী বলছে না, কোনো কর্মকর্তার বিরুদ্ধে অনিয়মের অভিযোগও করছে না। আমরা বলছি আরও সাধারণ কথা: ১৫ বছরের রাষ্ট্রীয় চুক্তিতে নাগরিকের অধিকার অনুমোদনের খবর জানা নয়, শর্ত জানা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার যদি সত্যিই দক্ষতা ও জনস্বার্থের জন্য এনসিটি পরিচালনায় নতুন ব্যবস্থা আনতে চায়, তাহলে তার প্রথম পরীক্ষা হবে স্বচ্ছতা। স্বাক্ষরের আগে চুক্তির সার, দায় ও পরিমাপের নিয়ম প্রকাশ করুন। তারপর ফল দেখান—জাহাজের অপেক্ষা কমল কি না, ব্যয় ন্যায্য রইল কি না, রাজস্ব বাড়ল কি না, এবং বাংলাদেশের নিয়ন্ত্রণ অক্ষুণ্ন থাকল কি না। বন্দর কেবল জেটি আর ক্রেন নয়; এটি দেশের বাণিজ্য, শ্রম এবং জনসম্পদের দরজা। সেই দরজা কার হাতে, কোন শর্তে এবং কত দিনের জন্য যাচ্ছে—সেটি জনগণের জানার অধিকার।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা (BSS) — “CCEA approves draft agreement for 15-yr operation of New Mooring Terminal”, ১ অক্টোবর ২০২৬; অর্থনৈতিক বিষয়সংক্রান্ত মন্ত্রিসভা কমিটির অনুমোদন ও নৌপরিবহন মন্ত্রণালয়ের প্রস্তাব",
+          "url": "https://www.bssnews.net/business/430339"
+        },
+        {
+          "label": "পাবলিক প্রাইভেট পার্টনারশিপ কর্তৃপক্ষ — “Operation and Maintenance of CPA’s New Mooring Container Terminal”, সরকারি প্রকল্প প্রোফাইল; জি-টু-জি কাঠামো, DP World, IFC পরামর্শক ও সম্ভাব্যতা সমীক্ষাভিত্তিক ব্যয়",
+          "url": "https://www.pppo.gov.bd/projects-Operation-and-Maintenance-of-CPAs-New-Mooring-Container-Terminal.php"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — “NCT operator: Govt okays deal with foreign firm”, ২ অক্টোবর ২০২৬; অনুমোদনের বিবরণে অপারেটরের নাম না থাকা, টার্মিনালের প্রাসঙ্গিকতা ও সংস্থাগুলোর প্রতিক্রিয়া",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/nct-operator-govt-okays-deal-foreign-firm-4288471"
+        },
+        {
+          "label": "bdnews24.com — “Govt clears major metro rail contracts, 15-year international operator plan for NCT”, ১ অক্টোবর ২০২৬; অর্থ মন্ত্রণালয়ের বিবৃতিভিত্তিক অনুমোদন ও পিপিপি কাঠামো",
+          "url": "https://bdnews24.com/bangladesh/mnr1gwf5sj"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড — “Ctg Port Protection Committee against govt's 15-year plan for New Mooring terminal”, ১ অক্টোবর ২০২৬; নাগরিক প্ল্যাটফর্মের অবস্থান ও প্রকাশ্য শর্তের দাবি",
+          "url": "https://www.tbsnews.net/bangladesh/ctg-port-protection-committee-against-govts-15-year-plan-new-mooring-terminal-1559876"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "A 15-year NCT concession was approved. Where are the public terms?",
+          "excerpt": "Bangladesh approved a draft 15-year concession for Chattogram Port’s NCT, but the operator, revenue, investment, risk and employment terms need public disclosure before signing.",
+          "imageAlt": "Editorial illustration about a port concession, public contract disclosure and accountability in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A draft 15-year NCT concession has been approved. Before signing, Bangladesh should publish the operator, revenue-sharing, investment, risk and employment safeguards."
+        },
+        "de": {
+          "title": "15 Jahre NCT-Konzession genehmigt: Wo bleiben die öffentlichen Vertragsbedingungen?",
+          "excerpt": "Bangladesch hat einen Entwurf für eine 15-jährige Konzession des NCT im Hafen Chattogram genehmigt. Betreiber, Einnahmen, Investitionen, Risiken und Beschäftigungsschutz müssen vor der Unterzeichnung offengelegt werden.",
+          "imageAlt": "Redaktionelle Illustration zu einer Hafenkonzession, Vertragsveröffentlichung und öffentlicher Rechenschaft in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Ein Entwurf für eine 15-jährige NCT-Konzession ist genehmigt. Vor der Unterzeichnung müssen Betreiber, Einnahmenteilung, Investitionen, Risiken und Beschäftigungsschutz öffentlich werden."
+        }
+      },
+      "automation": {
+        "evidenceScore": 88,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "researchReason": "Die zentrale Entscheidung vom 1. Oktober wird durch BSS und zwei unabhängige Medienberichte gestützt. Das offizielle Projektprofil der PPP Authority belegt die NCT-Projektstruktur, die G2G-Nominierung von DP World, den IFC-Mandatsrahmen und den auf der Machbarkeitsstudie beruhenden Schätzwert von USD 205 Millionen. Der Text trennt nachweisbare Beschlüsse, die Regierungslogik und die Forderungen einer zivilgesellschaftlichen Plattform; er behauptet weder Korruption noch einen bereits unterschriebenen Vertrag.",
+        "governmentPosition": "Die Regierung verfolgt für Betrieb und Modernisierung des NCT ein PPP- und G2G-Modell. Laut PPP Authority soll DP World, von der Regierung Dubais nominiert, den Terminal modernisieren, betreiben und warten; IFC unterstützt die Transaktionsstruktur und Verhandlungen. Am 1. Oktober billigte der CCEA laut BSS den Entwurf einer 15-jährigen Konzessionsvereinbarung auf Vorschlag des Schifffahrtsministeriums.",
+        "findings": [
+          "CCEA genehmigte am 1. Oktober einen Entwurf für eine 15-jährige Konzession für Betrieb und Wartung von NCT und OCY; daraus folgt nicht, dass der endgültige Vertrag bereits unterzeichnet ist.",
+          "Das offizielle PPP-Profil nennt DP World als von Dubai nominierten G2G-Konzessionspartner, USD 205 Millionen geschätzte Kosten und IFC als Transaktionsberater; die Seite führt den Projektstatus weiterhin als Entwicklungsphase.",
+          "Die öffentlichen Berichte zur Genehmigung legen weder den vollständigen Entwurf noch die Verteilung von Einnahmen, Investitionen, Risiken, Tarifen, Beschäftigungs- und Kündigungsregeln offen.",
+          "Die Forderungen des Port Protection Committee sind eine politische beziehungsweise zivilgesellschaftliche Position, kein Beleg für Fehlverhalten. Sie unterstreichen jedoch überprüfbare Fragen, die eine Veröffentlichung beantworten könnte.",
+          "Die aktuelle Regierung trägt nicht allein Verantwortung für die ursprüngliche PPP-Idee von 2023, ist aber für die 2026 genehmigte Fassung, ihre Veröffentlichung und die endgültigen Vertragsbedingungen rechenschaftspflichtig."
+        ],
+        "seoTitle": "এনসিটি চুক্তি: শর্ত প্রকাশ ছাড়া অনুমোদন কেন?",
+        "metaDescription": "এনসিটি ১৫ বছরের কনসেশন চুক্তির খসড়া অনুমোদিত হয়েছে। অপারেটর, রাজস্ব, বিনিয়োগ, ঝুঁকি, মাশুল ও শ্রমিক সুরক্ষার শর্ত স্বাক্ষরের আগেই প্রকাশ জরুরি।",
+        "categories": [
+          "বন্দরনীতি",
+          "পাবলিক-প্রাইভেট পার্টনারশিপ",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "চট্টগ্রাম বন্দর",
+          "নিউমুরিং কনটেইনার টার্মিনাল",
+          "NCT",
+          "পিপিপি",
+          "DP World",
+          "কনসেশন চুক্তি",
+          "বন্দর পরিচালনা",
+          "সরকারি চুক্তি",
+          "স্বচ্ছতা",
+          "সরকারি জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/nct-concession-public-terms-accountability-2026"
+    },
+    {
       "id": "quarterly-monetary-policy-transparency-test-2026",
       "slug": "quarterly-monetary-policy-transparency-test-2026",
       "status": "published",
