@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T18:28:08.848Z",
+  "updatedAt": "2026-10-03T13:25:46.039Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5769,6 +5769,84 @@
           "description": "প্রবাসীরা চাঁদাবাজদের ভোট দেয় না, এজন্যই কি প্রবাসী ভোটে এত অনীহা সরকারের?\n\nপ্রবাসীরা চাঁদাবাজদের ভোট দেয় না, এজন্যই কি প্রবাসী ভোটে এত অনীহা সরকারের? #ncpdagermany #ncp #germany🇩🇪\n\nবিস্তারিত: https://www.facebook.com/reel/948664594979497/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122207597528921031-2c7a7e9cf8-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122207741426921031-d80cd0fa14",
+      "sourceType": "facebook",
+      "sourceId": "122207741426921031",
+      "sourceKey": "facebook:germany:122207741426921031",
+      "sourceFingerprint": "d80cd0fa147f8e7baf54da18691d19dc4edb6731831ed40b59f989596485411d",
+      "sourceCreatedAt": "2026-10-03T10:51:38+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1331955708860352/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-03T13:25:45.556Z",
+      "updatedAt": "2026-10-03T13:25:45.556Z",
+      "title": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany",
+      "excerpt": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany",
+      "sourceCaption": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany",
+      "image": "img/social/germany/fb-122207741426921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany\nhttps://www.facebook.com/reel/1331955708860352/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122207741426921031-d80cd0fa14-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম,…",
+          "description": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany\n\nএই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/1331955708860352/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122207741426921031-d80cd0fa14-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122207755334921031-276d39e5cf",
+      "sourceType": "facebook",
+      "sourceId": "122207755334921031",
+      "sourceKey": "facebook:germany:122207755334921031",
+      "sourceFingerprint": "276d39e5cf18ac8aeda4e8fe4faa250064df776cc8049107ef1fc671a54b22e4",
+      "sourceCreatedAt": "2026-10-03T12:35:09+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207755334921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-03T13:25:46.039Z",
+      "updatedAt": "2026-10-03T13:25:46.039Z",
+      "title": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary…",
+      "excerpt": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary General of the China–Bangladesh Partnership Platform, met today with Mr. Nahid Islam MP, Opposition Chief Whip and Convener of the National Citizen Party (NCP), and Mr. Asif Mahmud Shojib Bhuyain, Spokesperson of NCP and Chief of its Sub-Committee on Diaspora & International Affairs. Mr. Alauddin Mohammad, Joint Member Secretary and member of Sub-Committee on Diaspora & International Affairs and Mr. Abdullah Al Faisal, Joint Chief Coordinator, were also present. The meeting provided an opportunity to share experiences and perspectives on parliamentary engagement, democratic governance, and international relations, with discussions also focusing on the importance of continued dialogue and cooperation. #ncpdagermany",
+      "sourceCaption": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary General of the China–Bangladesh Partnership Platform, met today with Mr. Nahid Islam MP, Opposition Chief Whip and Convener of the National Citizen Party (NCP), and Mr. Asif Mahmud Shojib Bhuyain, Spokesperson of NCP and Chief of its Sub-Committee on Diaspora & International Affairs. Mr. Alauddin Mohammad, Joint Member Secretary and member of Sub-Committee on Diaspora & International Affairs and Mr. Abdullah Al Faisal, Joint Chief Coordinator, were also present. The meeting provided an opportunity to share experiences and perspectives on parliamentary engagement, democratic governance, and international relations, with discussions also focusing on the importance of continued dialogue and cooperation. #ncpdagermany",
+      "image": "img/social/germany/fb-122207755334921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary… Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former…\nhttps://www.facebook.com/122195961254921031/posts/122207755334921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122207755334921031-276d39e5cf-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former…",
+          "description": "Former President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang,…\n\nFormer President of Serbia Boris Tadić Paid Visit to NCP Office H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary General of the China–Bangladesh Partnership Platform, met today with Mr. Nahid Islam MP, Opposition Chief Whip and Convener of the National Citizen Party (NCP), and Mr. Asif Mahmud Shojib Bhuyain, Spokesperson of NCP and Chief of its Sub-Committee on Diaspora & International Affairs. Mr. Alauddin Mohammad, Joint Member Secretary and member of Sub-Committee on Diaspora & International Affairs and Mr. Abdullah Al Faisal, Joint Chief Coordinator, were also present. The meeting provided an opportunity to share experiences and perspectives on…\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122207755334921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122207755334921031-276d39e5cf-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
