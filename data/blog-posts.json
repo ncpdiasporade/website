@@ -1,6 +1,250 @@
 {
   "items": [
     {
+      "id": "dhaka-bypass-cracks-independent-engineering-report-2026",
+      "slug": "dhaka-bypass-cracks-independent-engineering-report-2026",
+      "status": "published",
+      "tag": "অবকাঠামো ও জবাবদিহি",
+      "title": "ঢাকা বাইপাসে ফাটল: কারণের স্বাধীন প্রকৌশল প্রতিবেদন ও নতুন সময়সূচি প্রকাশ চাই",
+      "date": "৪ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-04T16:28:31+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "সোনারগাঁয়ে নির্মাণাধীন ঢাকা বাইপাসের প্রায় ২৫০ মিটার অংশে ফাটল ও বসে যাওয়ার পর এক পাশের চলাচল বন্ধ হয়েছে। বৃষ্টি ও ভারী যানকে কারণ বলছে প্রকল্প কর্তৃপক্ষ; এখন স্বাধীন প্রকৌশল পরীক্ষা, মেরামতের নকশা ও হালনাগাদ সময়সূচি প্রকাশ জরুরি।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public infrastructure engineering, road safety and accountability in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "ফাটল ঢেকে নয়, স্বাধীন প্রকৌশল পরীক্ষা ও খোলা সময়সূচিতে আস্থা ফিরুক",
+      "facebookCaption": "সোনারগাঁয়ে নির্মাণাধীন ঢাকা বাইপাসের প্রায় ২৫০ মিটার অংশে ফাটল ও বসে যাওয়ার ঘটনায় যান চলাচল বন্ধ হয়েছে। প্রকল্প পরিচালক বৃষ্টি ও ভারী যানকে কারণ বলেছেন এবং অনিয়মের অভিযোগ নাকচ করেছেন। অভিযোগকে রায় বানানো যাবে না; কিন্তু স্বাধীন প্রকৌশল প্রতিবেদন, মেরামতের মানদণ্ড, দায়বণ্টন ও পুরো প্রকল্পের নতুন সময়সূচি প্রকাশ না হলে মানুষ জানবে না ঝুঁকি কোথায় এবং সমাধান কত দূর।",
+      "facts": [
+        {
+          "value": "প্রায় ২৫০ মিটার",
+          "label": "সোনারগাঁয়ের পাকুন্দা এলাকায় ফাটল ও আংশিক বসে যাওয়ার প্রতিবেদিত অংশ"
+        },
+        {
+          "value": "৪৮ কিলোমিটার",
+          "label": "ঢাকা বাইপাস এক্সপ্রেসওয়ের পুরো করিডোরের দৈর্ঘ্য"
+        },
+        {
+          "value": "১৮ কিলোমিটার",
+          "label": "প্রকল্প কোম্পানির ওয়েবসাইটে যান চলাচলের জন্য খোলা দেখানো অংশ"
+        },
+        {
+          "value": "জুন ২০২৬",
+          "label": "২০২৫ সালের সরকারি প্রতিবেদনে পুরো নির্মাণ শেষ হওয়ার প্রত্যাশিত সময়"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ঢাকার বাইরে দিয়ে পণ্য ও যাত্রীবাহী যান চালানোর জন্য যে সড়ককে দ্রুত, নিরাপদ বিকল্প বলা হয়েছিল, তারই নির্মাণাধীন একটি অংশে এখন ফাটল, খসে পড়া পিচ আর মাটি বসে যাওয়ার দৃশ্য। ৩ অক্টোবর সোনারগাঁয়ের পাকুন্দা এলাকায় ঢাকা বাইপাসের প্রায় ২৫০ মিটার অংশে এই ক্ষতি দেখা যায়। ৪ অক্টোবর দ্য বিজনেস স্ট্যান্ডার্ড জানায়, ঝুঁকি এড়াতে সড়ক ও জনপথ অধিদপ্তর ওই পাশের চলাচল সাময়িক বন্ধ করেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি এখনই ‘নিম্নমানের নির্মাণ’ বা দুর্নীতির প্রমাণ নয়। প্রকল্প পরিচালক সৈয়দ আসলাম আলী অনিয়মের অভিযোগ নাকচ করে বলেছেন, টানা বৃষ্টিতে নরম হওয়া মাটি ও ভারী যান চলাচলে মাটি সরে গিয়ে ফাটল হয়েছে। এই ব্যাখ্যা নথিতে রাখতে হবে এবং পরীক্ষা করতে হবে। কিন্তু একটি বড় সরকারি-বেসরকারি অংশীদারিত্বের সড়কে দৃশ্যমান বসে যাওয়ার পর কারণ কেবল মৌখিক ব্যাখ্যায় থামতে পারে না। স্বাধীন প্রকৌশল পরীক্ষা, মেরামতের নকশা, নিরাপত্তা-পরীক্ষার ফল এবং নতুন কাজ শেষের তারিখ প্রকাশ করাই এখন ন্যূনতম জবাবদিহি।"
+        },
+        {
+          "type": "callout",
+          "text": "ফাটলের কারণ আগে থেকেই ঠিক করে দেওয়া যাবে না। কিন্তু কারণ নির্ণয়ের রিপোর্ট, ঝুঁকিপূর্ণ অংশের তালিকা এবং মেরামত যাচাইয়ের ফল গোপন রাখারও কোনো যুক্তি নেই।"
+        },
+        {
+          "type": "heading",
+          "text": "যা নিশ্চিত, আর যা এখনো নিশ্চিত নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "ঘটনাটি নিয়ে দুটি আলাদা সংবাদ প্রতিবেদন একই মৌলিক ছবি দেখায়। অবজারভার ৩ অক্টোবর জানায়, নির্মাণাধীন মদনপুর-জয়দেবপুর এক্সপ্রেসওয়ের একটি আন্ডারপাসের পাশে প্রায় এক-চতুর্থাংশ কিলোমিটারজুড়ে আড়াআড়ি ও লম্বালম্বি ফাটল দেখা গেছে এবং কিছু জায়গায় পিচ উঠে নিচের স্তর বেরিয়ে এসেছে। পরদিন দ্য বিজনেস স্ট্যান্ডার্ডও প্রায় ২৫০ মিটার অংশে ফাটল ও আংশিক বসে যাওয়ার কথা জানায়। দুটি রিপোর্টই এটিকে নির্মাণাধীন অংশ হিসেবে চিহ্নিত করেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নিশ্চিত তথ্যের এখানেই সীমা টানতে হবে। স্থানীয় কয়েকজন বাসিন্দা নিম্নমানের উপকরণ ব্যবহার, তাড়াহুড়ো এবং পাশের মাটি কাটার অভিযোগ করেছেন। এগুলো অভিযোগ, পরীক্ষাগারের ফল নয়। প্রকল্প পরিচালক সেগুলো প্রত্যাখ্যান করেছেন। কোনো প্রকাশ্য মাটি-পরীক্ষা, নকশা পর্যালোচনা, উপকরণের ল্যাবরেটরি ফল বা দায় নির্ধারণের সরকারি তদন্ত প্রতিবেদন এই লেখার গবেষণা-সীমা পর্যন্ত পাওয়া যায়নি। তাই অভিযোগকে সম্পাদকীয় রায় বানানো হবে না। বরং এই অনিশ্চয়তাই স্বাধীন পরীক্ষার প্রয়োজনকে আরও স্পষ্ট করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি প্রতিক্রিয়ায় একটি তাৎক্ষণিক পদক্ষেপ আছে। দ্য বিজনেস স্ট্যান্ডার্ডের প্রতিবেদনে প্রকল্প পরিচালক বলেন, নির্মাণ কোম্পানি ও ঢাকা বাইপাস এক্সপ্রেসওয়ে ডেভেলপমেন্ট কোম্পানি লিমিটেডের কর্মকর্তাদের সঙ্গে আলোচনা হয়েছে এবং স্বাভাবিক চলাচল ফিরিয়ে আনতে জরুরি বিকল্প সড়ক করা হবে। এটি প্রয়োজনীয় ক্ষতি-নিয়ন্ত্রণ। কিন্তু বিকল্প সড়ক মূল প্রশ্নের উত্তর নয়: যে অংশ বসে গেছে, সেটির ভূতাত্ত্বিক, নকশাগত ও নির্মাণগত কারণ কী, একই ঝুঁকি আর কোথায় আছে, এবং ঠিক করার পর কে তার নিরাপত্তা যাচাই করবে?"
+        },
+        {
+          "type": "heading",
+          "text": "প্রকল্পের প্রতিশ্রুতি ও আজকের প্রকাশ্য হিসাব"
+        },
+        {
+          "type": "paragraph",
+          "text": "ঢাকা বাইপাস কোনো ছোট স্থানীয় সড়ক নয়। পাবলিক-প্রাইভেট পার্টনারশিপ কর্তৃপক্ষের তথ্যকক্ষে এটি জয়দেবপুর-দেবগ্রাম-ভুলতা-মদনপুর জাতীয় মহাসড়ক এন-১০৫কে চার লেনে উন্নীত করার প্রকল্প হিসেবে বর্ণিত হয়েছে। করিডোরটি প্রায় ৪৮ কিলোমিটার এবং নকশা, নির্মাণ, অর্থায়ন, পরিচালনা ও রক্ষণাবেক্ষণের দায়িত্ব পিপিপি কাঠামোয় দেওয়া হয়েছে। কর্তৃপক্ষের ৩ মে ২০২৫-এর প্রকল্প-পরিদর্শন সংবাদে তখনকার ভৌত অগ্রগতি ৭২ শতাংশ এবং মূল সমাপ্তি সময় জুলাই ২০২৫ বলা হয়েছিল।"
+        },
+        {
+          "type": "paragraph",
+          "text": "২৪ আগস্ট ২০২৫-এ বাংলাদেশ সংবাদ সংস্থার সরকারি প্রতিবেদনে ১৮ কিলোমিটার অংশ খুলে দেওয়ার সময় পুরো কাজ জুন ২০২৬-এ শেষ হওয়ার আশা জানানো হয়েছিল। এখন সেই সময় পেরিয়েছে। প্রকল্প কোম্পানির বর্তমান ওয়েবসাইটে ৪৮ কিলোমিটার করিডোরের বিপরীতে মাত্র ১৮ কিলোমিটার ‘open to traffic’ দেখানো আছে। এই সংখ্যা দিয়ে নির্মাণের মোট অগ্রগতি নির্ণয় করা ঠিক হবে না, কারণ চালু অংশ আর নির্মাণ-সমাপ্তির পরিমাণ এক জিনিস নয়। তবে পুরোনো লক্ষ্য পেরিয়ে যাওয়ার পর নতুন পূর্ণাঙ্গ সময়সূচি, ভৌত অগ্রগতি, ব্যয়ের অবস্থা এবং ঝুঁকিপূর্ণ কাজের তালিকা এক জায়গায় না পাওয়া অবশ্যই জবাবদিহির ঘাটতি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে বর্তমান সরকার আগের সব বিলম্বের একমাত্র দায়ী নয়। পিপিপি চুক্তি ২০১৮ সালের এবং নির্মাণের বহু সিদ্ধান্ত বহু সময়ে হয়েছে। কিন্তু ২০২৬ সালে চলমান সড়ক, জনগণের নিরাপত্তা এবং আজকের প্রকাশ্য তথ্যের দায় বর্তমান সড়ক কর্তৃপক্ষ এড়াতে পারে না। পুরোনো সিদ্ধান্তের দায় নিয়ে বিতর্ক চলতে পারে; কিন্তু আজ একটি অংশ বসে যাওয়ার পর কী পরীক্ষা হলো, কে দেখল এবং কবে নিরাপদ হলো—এই প্রশ্নের জবাব আজকের দায়িত্বশীলদেরই দিতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সময়সূচির স্বচ্ছতা কেবল ঠিকাদারি ব্যবস্থাপনার বিষয় নয়। এই পথে প্রতিদিনের যাতায়াত, পণ্য পরিবহন, টোল পরিকল্পনা এবং বিকল্প রুটের চাপ নির্ভর করে। ১৮ কিলোমিটার খোলার খবর থেকে মানুষ স্বাভাবিকভাবেই ধরে নিতে পারে পুরো করিডোর দ্রুত প্রস্তুত হবে। কিন্তু অবশিষ্ট অংশের কাজ, আন্ডারপাস, জলনিকাশ, ভূমি-সংযোগ ও নিরাপত্তা পরীক্ষার মাইলফলক আলাদা করে প্রকাশ না হলে সেই প্রত্যাশা যাচাই করার উপায় থাকে না। পরের সমাপ্তির তারিখ কেবল ঘোষণা নয়, মাসভিত্তিক কাজ ও তার প্রমাণসহ দিতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশেষ করে এই ঘটনার পরে সময় বাড়ানোর প্রয়োজন হলে সেটিও লুকানোর বিষয় নয়। একটি সড়ক নিরাপদ করতে প্রকৃত সময় লাগলে দ্রুত উদ্বোধনের জন্য তাড়াহুড়ো করা বিপজ্জনক। কিন্তু সময় বাড়লে কেন বাড়ছে, কোন কাজ পুনরায় করতে হচ্ছে, অর্থায়ন বা টোলের শর্তে কী বদল আসছে এবং পুনর্নির্ধারিত সময় কীভাবে স্বাধীনভাবে দেখা হবে—এসব জানানো বাধ্যতামূলক হওয়া উচিত। জনতা বিলম্ব মেনে নিতে পারে; অন্ধকারে বিলম্ব মেনে নেওয়ার বাধ্যবাধকতা তাদের নেই।"
+        },
+        {
+          "type": "heading",
+          "text": "বৃষ্টি কারণ হতে পারে, কিন্তু সেটিই শেষ উত্তর নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "টানা বৃষ্টি ও ভারী যান চলাচল সত্যিই সড়কের নিচের মাটিকে দুর্বল করতে পারে। বিশেষ করে আন্ডারপাস, জলনিকাশ, ভরাট মাটি ও ঢাল-রক্ষার সংযোগস্থলে পানি ব্যবস্থাপনা ঠিক না থাকলে ঝুঁকি বাড়ে। প্রকল্প পরিচালকের ব্যাখ্যাকে তাই উপহাস করা নয়, প্রকৌশলগতভাবে যাচাই করা দরকার। বৃষ্টির কারণে ক্ষতি হয়ে থাকলে প্রশ্ন হবে: এই পরিমাণ বৃষ্টি ও ভারী যান কি নকশার অনুমিত ঝুঁকির মধ্যে ছিল, নিষ্কাশন ও প্রতিরোধক দেয়াল কীভাবে কাজ করেছে, আর নিয়মিত পরিদর্শনে আগে কোনো সতর্কতা ধরা পড়েছিল কি না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আবার যদি মাটি, উপকরণ বা নির্মাণপদ্ধতির কোনো দুর্বলতা থাকে, সেটিও অনুমান দিয়ে বলা যাবে না। নমুনা পরীক্ষা, নকশার সঙ্গে বাস্তব কাজ মিলিয়ে দেখা, নিকাশের পথ পরীক্ষা এবং ক্ষতিগ্রস্ত অংশের ভারবহন সক্ষমতার স্বাধীন মূল্যায়ন দরকার। ‘স্বাধীন’ বলতে কেবল প্রকল্প কোম্পানি বা একটি দপ্তরের অভ্যন্তরীণ নোট বোঝালে চলবে না। সড়ক ও জনপথ অধিদপ্তর, পিপিপি কর্তৃপক্ষ, প্রকল্প কোম্পানি এবং প্রয়োজনে স্বীকৃত বাইরের প্রকৌশল বিশেষজ্ঞের স্বাক্ষরিত রিপোর্ট প্রকাশ করতে হবে, যাতে একটি পক্ষ নিজের কাজ নিজেই চূড়ান্তভাবে যাচাই না করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এমন রিপোর্টে দোষী ব্যক্তির নাম আগে থেকে লিখে দেওয়ার দরকার নেই। প্রথম কাজ হলো ঘটনার সীমা নির্ধারণ করা: কোন চেইনেজে ক্ষতি, কত গভীর বসে গেছে, কোথায় পানি জমেছে, কোন নকশা-স্তর পরীক্ষা হয়েছে এবং পাশের অংশে একই লক্ষণ আছে কি না। দ্বিতীয় কাজ হলো সমাধান: কতটুকু অংশ খুঁড়ে আবার করতে হবে, কোন মানদণ্ডে উপকরণ পরীক্ষা হবে, বিকল্প সড়ক কত দিন চলবে এবং পুনরায় চালুর আগে কে সনদ দেবে। এই তথ্য ছাড়া ‘মেরামত চলছে’ কথাটি জনগণের জন্য যাচাইযোগ্য প্রতিশ্রুতি নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পরীক্ষার ফল প্রকাশের একটি বাস্তব সুবিধাও আছে। পরে একই জায়গায় আবার সমস্যা দেখা দিলে তখন আর ছবি বা বক্তব্যের ওপর নির্ভর করতে হবে না; আগের ফাটলের মানচিত্র, পরীক্ষার ফল এবং মেরামতের নকশার সঙ্গে নতুন অবস্থা মিলিয়ে দেখা যাবে। আর মেরামত সফল হলে প্রকল্প কর্তৃপক্ষের জন্যও সেটি প্রমাণ করার পথ খুলবে। তথ্য প্রকাশ তাই শুধু অভিযোগকারীর অস্ত্র নয়, সঠিক কাজের প্রমাণও।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নিরাপত্তার প্রশ্নে প্রকাশের গতি গুরুত্বপূর্ণ। পূর্ণাঙ্গ বিশ্লেষণ সময় নিতে পারে, কিন্তু এক সপ্তাহের মধ্যে প্রাথমিক ফল, ৩০ দিনের মধ্যে বিস্তারিত রিপোর্ট এবং কাজ শেষের আগে পুনঃপরীক্ষার সনদ দেওয়া সম্ভব। এই তিন ধাপের তারিখ এখনই জানালে মানুষ বুঝবে কর্তৃপক্ষ ঘটনাকে কেবল সাময়িক যানজট হিসেবে দেখছে না। সময়সীমাহীন তদন্তের সবচেয়ে বড় ক্ষতি হলো, ক্ষতিগ্রস্ত অংশটি মেরামত হয়ে গেলেও শেখার দায়টি হারিয়ে যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "পিপিপি হলে জনতার জানার অধিকার কমে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "ঢাকা বাইপাস এক্সপ্রেসওয়ে ডেভেলপমেন্ট কোম্পানি নিজেকে এই ৪৮ কিলোমিটার করিডোরের নির্মাণ, পরিচালনা ও রক্ষণাবেক্ষণের কনসেশন কোম্পানি বলে। তাদের ওয়েবসাইটে সড়ক ও জনপথ অধিদপ্তরকে বাস্তবায়নকারী সংস্থা এবং সিচুয়ান রোড অ্যান্ড ব্রিজ গ্রুপ, শামীম এন্টারপ্রাইজ ও ইউডিসি কনস্ট্রাকশনকে কনসোর্টিয়ামের অংশ হিসেবে উল্লেখ করা হয়েছে। বেসরকারি অংশীদার থাকায় তথ্য অধিকার সংকুচিত হয় না; বরং টোল, জননিরাপত্তা ও দীর্ঘমেয়াদি রক্ষণাবেক্ষণের সঙ্গে জনস্বার্থ জড়িয়ে থাকায় নথি প্রকাশের দাবি আরও শক্ত হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পিপিপির যুক্তি হলো দক্ষতা ও ঝুঁকি ভাগাভাগি। সেই যুক্তি পরীক্ষা করতে হলে জনগণকে অন্তত জানতে হবে কোন ঝুঁকি কার, ক্ষতিগ্রস্ত অংশ মেরামতের খরচ কে দেবে, সময় বাড়লে চুক্তির ওপর কী প্রভাব পড়বে এবং স্বাধীন প্রকৌশলী কী দেখেছেন। এসব প্রশ্নের উত্তর গোপন বাণিজ্যিক তথ্য দাবি করে আটকে রাখা যাবে না, যদি তা সরাসরি সড়কের নিরাপত্তা, সরকারি তদারকি ও জনসেবার সঙ্গে সম্পর্কিত হয়। চুক্তির সংবেদনশীল আর্থিক শর্ত আলাদা হতে পারে; কিন্তু নিরাপত্তা-পরীক্ষার সারাংশ, মেরামতের সময়সূচি ও দায়িত্ব বণ্টন গোপন থাকার কথা নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন যে ছয়টি তথ্য প্রকাশ করতে হবে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "সোনারগাঁয়ের ক্ষতিগ্রস্ত অংশের অবস্থান, ফাটল ও বসে যাওয়ার পরিমাপ, ছবি এবং প্রাথমিক নিরাপত্তা-ঝুঁকির মানচিত্র।",
+            "স্বাধীন প্রকৌশল দলের নাম, কাজের শর্ত, পরীক্ষার পদ্ধতি এবং রিপোর্ট প্রকাশের নির্দিষ্ট তারিখ।",
+            "বৃষ্টি ও ভারী যান চলাচল বিষয়ে প্রকল্প পরিচালকের ব্যাখ্যার পক্ষে মাটি, নিকাশ ও ট্রাফিক-লোডের পরিমাপযোগ্য প্রমাণ।",
+            "একই নকশা বা মাটির অবস্থার অন্য আন্ডারপাস ও অংশগুলোর জরুরি পরিদর্শনের ফল।",
+            "মেরামত, বিকল্প সড়ক, পুনরায় চালু এবং নিরাপত্তা সনদের সময়সূচি; সঙ্গে ব্যয় ও দায় কোন পক্ষ নেবে তার সারাংশ।",
+            "পুরো ৪৮ কিলোমিটার প্রকল্পের হালনাগাদ ভৌত অগ্রগতি, নতুন সমাপ্তি লক্ষ্য এবং ওই লক্ষ্যে মাসভিত্তিক মাইলফলক।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "সড়ক ও জনপথ অধিদপ্তর, পিপিপি কর্তৃপক্ষ এবং প্রকল্প কোম্পানির এই ছয়টি তথ্য প্রকাশে কোনো দীর্ঘ তদন্ত শেষ হওয়ার অপেক্ষা নেই। প্রাথমিক তথ্য এখনই দেওয়া যায়; পূর্ণ তদন্তের রিপোর্ট পরে যুক্ত হবে। তথ্য লুকিয়ে রাখলে গুজব বাড়ে এবং সৎ প্রকৌশলগত ব্যাখ্যাও বিশ্বাস হারায়। তথ্য খুলে দিলে কোনো পক্ষের বিরুদ্ধে আগাম রায় নয়, বরং মেরামতটি সঠিকভাবে হচ্ছে কি না যাচাইয়ের সুযোগ তৈরি হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা: চলাচল ফিরলেই জবাব শেষ হয় না"
+        },
+        {
+          "type": "paragraph",
+          "text": "জরুরি বিকল্প পথ চালু করা দরকার, কিন্তু সেটি সাফল্যের শেষ মাপকাঠি নয়। একটি ফাটল-ধরা অংশে গাড়ি আবার চলতে শুরু করলেই মানুষ জানতে পারবে না কেন ক্ষতি হলো, একই ঝুঁকি আর কোথায় আছে, কিংবা পুরো প্রকল্প কবে শেষ হবে। জুন ২০২৬-এর পুরোনো লক্ষ্য পেরিয়ে যাওয়ার পর এবং আজকের এই ঘটনার পরে কেবল আশ্বাস যথেষ্ট নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আমাদের বিবেচনায়, এই মুহূর্তের দায়িত্বশীল সিদ্ধান্ত হলো স্বাধীন প্রকৌশল রিপোর্ট প্রকাশ করা, রিপোর্টের সুপারিশ অনুযায়ী মেরামত করা এবং পূর্ণ প্রকল্পের বাস্তবসম্মত নতুন সময়সূচি জানানো। এতে কারও বিরুদ্ধে প্রমাণহীন অভিযোগ তোলা হবে না। বরং সরকার, প্রকল্প কোম্পানি ও প্রকৌশলীরা দেখানোর সুযোগ পাবেন যে জননিরাপত্তার প্রশ্নে তাদের কাজ পরীক্ষা সহ্য করতে পারে। সেটিই একটি পিপিপি সড়কের প্রকৃত আস্থার পরীক্ষা।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "পাবলিক-প্রাইভেট পার্টনারশিপ কর্তৃপক্ষ — ঢাকা বাইপাস প্রকল্পের তথ্যকক্ষ ও প্রকল্প বিবরণ",
+          "url": "https://www.pppo.gov.bd/dataroom/dhakabypass/"
+        },
+        {
+          "label": "পাবলিক-প্রাইভেট পার্টনারশিপ কর্তৃপক্ষ — ৩ মে ২০২৫-এর প্রকল্প-পরিদর্শন সংবাদ: ৭২% অগ্রগতি ও জুলাই ২০২৫-এর মূল সমাপ্তি সময়",
+          "url": "https://www.pppo.gov.bd/events2025_36.php"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — “Bhogra-Purbachal section bypass expressway opened”, ২৪ আগস্ট ২০২৫",
+          "url": "https://www.bssnews.net/news/304721/Bhogra-Purbachal-section-bypass-expressway-opened%C2%A0"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড — “Major cracks, subsidence hit Dhaka Bypass in Sonargaon”, ৪ অক্টোবর ২০২৬",
+          "url": "https://www.tbsnews.net/bangladesh/major-cracks-subsidence-hit-dhaka-bypass-sonargaon-1561771"
+        },
+        {
+          "label": "দ্য অবজারভার — “Cracks develop on Dhaka Bypass road in Sonargaon”, ৩ অক্টোবর ২০২৬",
+          "url": "https://observerbd.com/news/597193"
+        },
+        {
+          "label": "ঢাকা বাইপাস এক্সপ্রেসওয়ে ডেভেলপমেন্ট কোম্পানি — প্রকল্প কোম্পানি, করিডোর ও খোলা অংশের বর্তমান তথ্য",
+          "url": "https://dhakabypass.com/en/about"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Dhaka Bypass cracks require an independent engineering report",
+          "excerpt": "A cracked and subsided under-construction Dhaka Bypass section needs an independent engineering report, a repair plan and a public, updated completion schedule.",
+          "imageAlt": "Editorial illustration about public infrastructure engineering, road safety and accountability in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "The Dhaka Bypass incident requires a public engineering assessment, repair milestones and an updated completion timetable—not unverified blame."
+        },
+        "de": {
+          "title": "Risse an der Dhaka Bypass brauchen einen unabhängigen Ingenieurbericht",
+          "excerpt": "Für den beschädigten Abschnitt der im Bau befindlichen Dhaka Bypass braucht es einen unabhängigen Ingenieurbericht, einen Reparaturplan und einen öffentlichen, aktualisierten Fertigstellungsplan.",
+          "imageAlt": "Redaktionelle Illustration zu öffentlicher Infrastrukturtechnik, Straßensicherheit und Rechenschaft in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Der Vorfall an der Dhaka Bypass verlangt eine öffentliche technische Prüfung, Reparaturmeilensteine und einen aktualisierten Zeitplan – keine unbelegten Schuldzuweisungen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 87,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "Die zentrale These ist bewusst eng: Zwei unabhängige Berichte dokumentieren am 3./4. Oktober 2026 Risse und teilweise Setzung auf rund 250 Metern einer im Bau befindlichen Dhaka-Bypass-Strecke; der Projektleiter bestreitet Unregelmäßigkeiten und nennt Regen sowie schwere Fahrzeuge als Ursache. Die Analyse behandelt Anwohnerangaben zu Material oder Erdarbeiten ausschließlich als unbestätigte Vorwürfe. PPPA-Unterlagen, BSS und die Projektgesellschaft belegen Projektstruktur, frühere Zieltermine und den aktuell als geöffnet ausgewiesenen Abschnitt. Der überprüfbare Schluss lautet nicht, dass die Ursache feststeht, sondern dass eine unabhängige technische Untersuchung, der Sanierungsplan und ein aktualisierter Terminplan veröffentlicht werden müssen.",
+        "governmentPosition": "Der Projektleiter sagte laut The Business Standard, anhaltender Regen habe den Untergrund aufgeweicht und schwere Fahrzeuge hätten eine Verschiebung verursacht; er wies Vorwürfe minderwertiger Arbeit und Unregelmäßigkeiten zurück. Er kündigte Gespräche mit Bauunternehmen und Projektgesellschaft sowie eine Notumfahrung zur Wiederherstellung des Verkehrs an. Diese Reaktion wird wiedergegeben und als prüfbare Erklärung behandelt, nicht als abschließender technischer Befund.",
+        "findings": [
+          "Zwei voneinander unabhängige Berichte dokumentieren Risse und Oberflächenschäden an einem etwa 250 Meter langen Abschnitt bei einem Unterpass in Sonargaon; RHD schränkte die Nutzung der betroffenen Seite laut The Business Standard vorsorglich ein.",
+          "Die Behauptung, minderwertige Materialien oder unzulässiger Erdaushub hätten den Schaden verursacht, stammt von Anwohnern und ist nicht als Tatsache veröffentlicht worden.",
+          "PPPA nannte im Mai 2025 für das 48-Kilometer-Projekt 72 Prozent Baufortschritt bei ursprünglich vorgesehenem Abschluss im Juli 2025. BSS meldete im August 2025 eine erwartete Fertigstellung im Juni 2026; keine aktuelle öffentliche Gesamtterminplanung wurde für diese Recherche gefunden.",
+          "Die Projektgesellschaft weist derzeit 18 Kilometer als für den Verkehr geöffnet aus. Diese Zahl ist kein Maß für den gesamten Baufortschritt, zeigt aber die Notwendigkeit einer klaren aktuellen Projektbilanz nach Ablauf der früher kommunizierten Ziele.",
+          "Die angemessene Forderung ist eine veröffentlichte, unabhängige technische Untersuchung mit Sanierungs-, Sicherheits- und Zeitplan; der Artikel behauptet weder Korruption noch eine bereits feststehende Ursache."
+        ],
+        "claimMatrix": {
+          "damageAndClosure": "VERIFIED FACT — HIGH — two independent reports, including the RHD action and visible surface damage",
+          "cause": "REPORTED FACT — HIGH — project director's attributed explanation; no independent technical finding yet",
+          "residentsAllegations": "ALLEGATION — UNVERIFIED — excluded as a factual conclusion",
+          "projectTargets": "VERIFIED FACT — HIGH — PPPA and BSS reporting record earlier stated completion targets",
+          "editorialConclusion": "ANALYSIS — HIGH — a public PPP safety incident warrants independently checkable engineering, repair and schedule disclosures"
+        },
+        "seoTitle": "ঢাকা বাইপাসের ফাটল: স্বাধীন প্রকৌশল রিপোর্ট চাই",
+        "metaDescription": "সোনারগাঁয়ে নির্মাণাধীন ঢাকা বাইপাসের প্রায় ২৫০ মিটার অংশে ফাটল ও বসে যাওয়ার পর স্বাধীন প্রকৌশল পরীক্ষা, মেরামত পরিকল্পনা ও নতুন সময়সূচি প্রকাশ জরুরি।",
+        "categories": [
+          "অবকাঠামো",
+          "সড়ক নিরাপত্তা",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "ঢাকা বাইপাস",
+          "সোনারগাঁ",
+          "সড়ক ও জনপথ অধিদপ্তর",
+          "পিপিপি",
+          "সড়ক নিরাপত্তা",
+          "প্রকৌশল পরীক্ষা",
+          "অবকাঠামো",
+          "প্রকল্প সময়সূচি",
+          "জননিরাপত্তা",
+          "সরকারি জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/dhaka-bypass-cracks-independent-engineering-report-2026"
+    },
+    {
       "id": "supreme-court-judges-asset-disclosure-rule-2026",
       "slug": "supreme-court-judges-asset-disclosure-rule-2026",
       "status": "published",
