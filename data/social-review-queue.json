@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T13:14:07.148Z",
+  "updatedAt": "2026-10-04T17:38:13.918Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -5925,6 +5925,45 @@
           "description": "অন্তর্বর্তীকালীন সরকার যদি এত অল্প সময়ের মধ্যেই প্রবাসীদের ভোটাধিকার নিশ্চিত করার উদ্যোগ নিতে পারে, তাহলে বর্তমান সরকার কেন পারবে না?\n\nঅন্তর্বর্তীকালীন সরকার যদি এত অল্প সময়ের মধ্যেই প্রবাসীদের ভোটাধিকার নিশ্চিত করার উদ্যোগ নিতে পারে, তাহলে বর্তমান সরকার কেন পারবে না? বিশেষ করে স্থানীয় সরকার নির্বাচন একজন প্রবাসীর জন্য অত্যন্ত গুরুত্বপূর্ণ কারণ তার পরিবার, সম্পদ, সামাজিক সম্পর্ক এবং শিকড় সরাসরি নিজের এলাকার সঙ্গে যুক্ত। তাই আসন্ন স্থানীয় সরকার নির্বাচনেও প্রবাসীদের ভোটাধিকার নিশ্চিত করা এখন সময়ের দাবি ✊ #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpdiasporagermany\n\nবিস্তারিত: https://www.facebook.com/reel/2178488896882229/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122207934458921031-835239742a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122207943494921031-cacecc2abe",
+      "sourceType": "facebook",
+      "sourceId": "122207943494921031",
+      "sourceKey": "facebook:germany:122207943494921031",
+      "sourceFingerprint": "cacecc2abec1fc97558d0bc54b1a23b411bf3b40448fd8fdb25ab992872feb95",
+      "sourceCreatedAt": "2026-10-04T13:52:16+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207943494921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-04T17:38:13.918Z",
+      "updatedAt": "2026-10-04T17:38:13.918Z",
+      "title": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
+      "excerpt": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
+      "sourceCaption": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
+      "image": null,
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।\nhttps://www.facebook.com/122195961254921031/posts/122207943494921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122207943494921031-cacecc2abe-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে…",
+          "description": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।\n\nকুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122207943494921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122207943494921031-cacecc2abe-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
