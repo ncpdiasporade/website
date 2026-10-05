@@ -1,6 +1,262 @@
 {
   "items": [
     {
+      "id": "constitutional-amendment-committee-consultation-representation-update-2026",
+      "slug": "constitutional-amendment-committee-consultation-representation-update-2026",
+      "status": "published",
+      "tag": "সংবিধান ও জবাবদিহি",
+      "title": "মতামত নেওয়া শুরু হয়েছে, কিন্তু সংবিধান বদলের টেবিলে বিরোধীর আসন এখনো খালি",
+      "date": "৫ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-05T14:24:00+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "সংবিধান সংশোধন-সম্পর্কিত বিশেষ কমিটি শ্রমজীবী ও ক্ষুদ্র জাতিসত্তার প্রতিনিধিদের সঙ্গে কথা বলছে এবং আরও পক্ষকে ডাকবে বলছে। কিন্তু ১২ সদস্যের টেবিলে বিরোধীদের জন্য রাখা পাঁচ আসন খালি, সেখানে এনসিপিরও প্রতিনিধি নেই। মতামত নেওয়া দরকার, সিদ্ধান্তের ক্ষমতায় প্রতিনিধিত্বও দরকার।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about constitutional reform, parliamentary representation and public accountability in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "শুনানি চলুক, কিন্তু সংবিধান বদলের সিদ্ধান্তে বিরোধীর আসনও পূরণ হোক",
+      "facebookCaption": "৪ অক্টোবর সংবিধান সংশোধন-সম্পর্কিত বিশেষ কমিটি শ্রমজীবী ও ক্ষুদ্র জাতিসত্তার প্রতিনিধিদের সঙ্গে বৈঠক করেছে এবং আরও পক্ষকে ডাকবে বলেছে। এটি প্রয়োজনীয় পদক্ষেপ। কিন্তু সরকারি ব্যাখ্যায়ও বিরোধীদের জন্য রাখা পাঁচ আসন খালি আছে, আর ৮ জন এনসিপি এমপি থাকা সংসদেও দলটির কোনো সদস্য কমিটিতে নেই। লিখিত মতামত নেওয়া প্রতিনিধিত্বের বিকল্প নয়। সংবিধান বদলের আগে সরকারকে খালি আসন পূরণ, বৈঠকের নথি প্রকাশ এবং ভিন্নমতের প্রস্তাব কীভাবে বিবেচিত হবে তা জানাতে হবে।",
+      "facts": [
+        {
+          "value": "১২ সদস্য",
+          "label": "১৩ জুলাই গঠিত সংবিধান সংশোধন-সম্পর্কিত বিশেষ কমিটির বর্তমান আকার"
+        },
+        {
+          "value": "৫ আসন খালি",
+          "label": "বিরোধী প্রতিনিধিদের জন্য ১৭ সদস্যে সম্প্রসারণের যে সুযোগ রাখা হয়েছিল"
+        },
+        {
+          "value": "৮ জন এনসিপি এমপি",
+          "label": "জাতীয় সংসদের বর্তমান দলভিত্তিক প্রতিনিধিত্বে এনসিপির আসন"
+        },
+        {
+          "value": "৪ অক্টোবর",
+          "label": "কমিটির পঞ্চম বৈঠকে শ্রমজীবী ও ক্ষুদ্র জাতিসত্তার প্রতিনিধিদের সঙ্গে আলোচনা"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "সংবিধান বদলানোর কাজ শুরু হয়েছে মানুষের কথা শোনার মধ্য দিয়ে, কিন্তু সিদ্ধান্ত নেওয়ার টেবিলে বিরোধীর চেয়ার এখনো খালি। ৪ অক্টোবর জাতীয় সংসদের সংবিধান সংশোধন-সম্পর্কিত বিশেষ কমিটি শ্রমজীবী মানুষ ও ক্ষুদ্র জাতিসত্তা ও নৃগোষ্ঠীর প্রতিনিধিদের সঙ্গে বৈঠক করেছে। সংসদ সচিবালয়ের তথ্যের ভিত্তিতে bdnews24.com জানিয়েছে, কমিটি পরে বিচারক, আইনজীবী, শিক্ষক, নারী নেতৃত্ব, সংবিধানবিশেষজ্ঞ ও জুলাই-সম্পৃক্ত আরও মানুষ ও সংগঠনকে ডাকবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই দরজা খোলার সিদ্ধান্তকে ছোট করে দেখার কারণ নেই। যাদের জীবন ও অধিকার সংবিধানের ভাষায় প্রভাবিত হয়, তাদের কথা শোনা জরুরি। কিন্তু শুনানি আর প্রতিনিধিত্ব এক জিনিস নয়। যে কমিটি শেষ পর্যন্ত সুপারিশ লিখবে, তার সদস্যদের ভোট, নথি চাওয়ার অধিকার এবং ভিন্নমত লিপিবদ্ধ করার ক্ষমতা থাকে। আমন্ত্রিত নাগরিকের সেই ক্ষমতা থাকে না। তাই পাঁচটি বিরোধী আসন খালি রেখেই পরামর্শের পরিধি বাড়ানো সংলাপের সূচনা হতে পারে, সংবিধান সংস্কারের পূর্ণ বৈধতার বিকল্প নয়।"
+        },
+        {
+          "type": "callout",
+          "text": "লিখিত প্রস্তাব গ্রহণ ভালো পদক্ষেপ। কিন্তু প্রস্তাব গ্রহণ আর প্রস্তাবের পক্ষে টেবিলে বসে সিদ্ধান্তে অংশ নেওয়া এক বিষয় নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "কী ঘটেছে, কী এখনো হয়নি"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৩ জুলাই সংসদে স্বরাষ্ট্র মন্ত্রী সালাহউদ্দিন আহমদের নেতৃত্বে ১২ সদস্যের বিশেষ কমিটি গঠিত হয়। রাষ্ট্রীয় বার্তা সংস্থা বাসসের প্রতিবেদনে বলা হয়, সেটিকে ১৭ সদস্যে বাড়িয়ে বিরোধীদের অন্তর্ভুক্ত করার সুযোগ রাখা হয়েছিল। কিন্তু বিরোধী পক্ষ নাম না দেওয়ায় ১২ সদস্য নিয়েই কাজ শুরু হয়। বাসসের প্রকাশিত সদস্যতালিকায় বিএনপির আটজন, এবং অন্য কয়েকটি দলের একজন করে সদস্য আছেন; এনসিপির কেউ নেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জাতীয় সংসদের নিজের ওয়েবসাইটে দলভিত্তিক প্রতিনিধিত্বে এনসিপির আটজন সংসদ সদস্য দেখানো আছে। অর্থাৎ দলটি সংসদের বাইরের কোনো কণ্ঠ নয়। তবু বর্তমান কমিটিতে তাদের আসন নেই। সরকার বলতে পারে, সুযোগ খোলা ছিল এবং বিরোধীরা নাম দেয়নি। সেই কথাটি সত্যের অংশ। কিন্তু খালি আসনকে স্থায়ী বাস্তবতা মেনে নিয়ে এমন একটি প্রক্রিয়া এগিয়ে নেওয়া, যার ফল সংবিধানের বহু ধারায় পড়বে, সরকারের দায়িত্ব হালকা করে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে এনসিপির অবস্থানও পরিষ্কারভাবে আলাদা করে বলা দরকার। দ্য ডেইলি স্টার ১৯ সেপ্টেম্বর জানায়, এনসিপি ও জামায়াতসহ কয়েকটি বিরোধী দল জুলাই সনদের সংবিধান-সংক্রান্ত প্রস্তাব বাস্তবায়নে ‘সংবিধান সংস্কার পরিষদ’ চায়। ওই প্রতিবেদনে আরও আছে, এনসিপি ফেব্রুয়ারির নির্বাচনের পরে জুলাই সনদে সমর্থন দেয় এবং বিরোধী এমপিরা সংস্কার পরিষদের সদস্য হিসেবে আলাদা শপথও নিয়েছেন। এই অবস্থান গ্রহণযোগ্য হোক বা না হোক, সেটি একটি রাজনৈতিক ও প্রাতিষ্ঠানিক আপত্তি—শুধু অনুপস্থিতির অজুহাত নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি শোনা দরকার, কিন্তু পরীক্ষা আরও দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের সবচেয়ে শক্তিশালী যুক্তিটিও উপেক্ষা করা যাবে না। কমিটি গঠনের দিন স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ বলেন, বর্তমান সংসদ বিদ্যমান সংবিধানের অধীনেই নির্বাচিত হয়েছে; তাই পৃথক সংস্কার পরিষদের শপথের সাংবিধানিক বা আইনি ভিত্তি নেই। তাঁর বক্তব্য ছিল, জনগণের গণভোটের রায়কে সম্মান করতে হলে আগে সংবিধান সংশোধন করতে হবে, এবং ঐকমত্যের বিষয়গুলো এই কমিটিতেই আলোচনা হতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই যুক্তি একটি পথ দেখায়, কিন্তু পথটি একাই বৈধতার প্রমাণ নয়। সংসদের কার্যপ্রণালী বিধির ২৬৬ নম্বর বিধিতে বিশেষ কমিটি গঠনের ক্ষমতা আছে; সেখানে সংসদ প্রস্তাবের মাধ্যমে কমিটির গঠন ও কাজ ঠিক করে। অর্থাৎ আইনগত কাঠামোর ভেতরে কমিটিটি কাজ করছে। কিন্তু সংবিধান সংশোধন কেবল বিধি মেনে চলার কাজ নয়। এটি জনগণের দেওয়া সংস্কার-আদেশকে কোন প্রক্রিয়ায় বাস্তবায়ন করা হচ্ছে, সেই রাজনৈতিক আস্থার প্রশ্নও।"
+        },
+        {
+          "type": "paragraph",
+          "text": "৪ অক্টোবরের বৈঠকে কমিটি শুধু আলোচনা করেনি, পরে আরও পক্ষকে আমন্ত্রণ এবং বাইরের লিখিত প্রস্তাব গ্রহণের কথাও বলেছে। Sarabangla-ও বৈঠক, আলোচ্য বিষয় ও অংশগ্রহণকারীদের বিষয়ে একই মূল তথ্য জানিয়েছে। এটি সরকারের পক্ষে একটি গুরুত্বপূর্ণ পাল্টা তথ্য: কমিটি দরজা পুরোপুরি বন্ধ রাখছে না। কিন্তু দরজা খোলা থাকলেই ঘরের ভেতর ক্ষমতার বণ্টন বদলায় না। পাঁচটি নির্ধারিত বিরোধী আসন খালি, সদস্যদের নামের তালিকা ও তাদের সিদ্ধান্ত-ক্ষমতা অপরিবর্তিত থাকলে শুনানি একতরফা সিদ্ধান্তের ঝুঁকি কমায়, দূর করে না।"
+        },
+        {
+          "type": "heading",
+          "text": "জুলাই সনদের দাবি ও কমিটির বাস্তবতার ফাঁক"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য ডেইলি স্টারের প্রতিবেদন অনুযায়ী, জুলাই সনদে ৮৪টি সংস্কার প্রস্তাবের মধ্যে ৪৮টি সংবিধান-সম্পর্কিত। সেই সনদ বাস্তবায়নের আদেশে ত্রয়োদশ সংসদ সদস্যদের আইনপ্রণেতা ও সংস্কার পরিষদের সদস্য—দুই ভূমিকায় কাজ করার ধারণা ছিল। সরকার ও বিরোধীর বিরোধটি তাই কেবল একটি কমিটির চেয়ার নিয়ে নয়; গণভোটের পর সংস্কারের ম্যান্ডেট কীভাবে কার্যকর হবে, তা নিয়ে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার যদি বলে বিদ্যমান সংসদীয় প্রক্রিয়াই একমাত্র বৈধ পথ, তবে তাকে দেখাতে হবে কীভাবে সেই পথে ভিন্নমত সিদ্ধান্তে প্রভাব ফেলবে। আবার এনসিপি ও অন্য বিরোধীদেরও কেবল প্রত্যাখ্যান করে থেমে থাকলে চলবে না। কোন ন্যূনতম শর্তে তারা বৈঠকে ফিরবে, কোন ৪৮ প্রস্তাবকে অগ্রাধিকার দেয়, এবং কোন ধারায় বিকল্প ভাষা চায়—তা প্রকাশ করতে হবে। প্রাতিষ্ঠানিক রাজনীতি তখনই মানুষের কাজে লাগে, যখন আপত্তি যাচাই করা যায় এবং সমাধানের ভাষাও দেখা যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "কেন খালি চেয়ার শুধু প্রতীকের প্রশ্ন নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটির সদস্য হওয়া মানে কেবল বৈঠকের ছবিতে থাকা নয়। সদস্যেরা আলোচ্যসূচি নিয়ে কথা বলতে পারেন, নথি চাইতে পারেন, খসড়ার শব্দ বদলানোর প্রস্তাব দিতে পারেন এবং শেষ প্রতিবেদনে মতভেদ থাকলে সেটি রেকর্ডে আনতে পারেন। বাইরের কোনো সংগঠন বা নাগরিক লিখিত মত পাঠাতে পারেন, কিন্তু তাঁর প্রস্তাব কোন অনুচ্ছেদে গেল, কোনটি বাদ পড়ল এবং কেন বাদ পড়ল—সে সিদ্ধান্তে তাঁর সমান অবস্থান থাকে না। সংবিধানের মতো বিষয়ে এই পার্থক্যটি মৌলিক।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটির সামনে এখন যে শুনানি চলছে, সেখানে শ্রমজীবী ও ক্ষুদ্র জাতিসত্তার প্রতিনিধিদের অংশগ্রহণ বিশেষভাবে গুরুত্বপূর্ণ। তাদের অভিজ্ঞতা ছাড়া নাগরিক অধিকার, বৈষম্য, স্থানীয় ক্ষমতা ও রাষ্ট্রের দায় নিয়ে সম্পূর্ণ আলোচনা হয় না। কিন্তু যে মানুষদের কথা শোনা হচ্ছে, তাদের প্রস্তাবের পাশে কমিটি কী সিদ্ধান্ত নিল তা প্রকাশ না হলে এই অংশগ্রহণের ফল মাপা যাবে না। ‘শুনেছি’ বলা আর নথিতে ‘গ্রহণ করেছি’ বা ‘প্রত্যাখ্যান করেছি’ বলা এক নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই কারণে বৈঠকের শেষে সাধারণ সংবাদ বিজ্ঞপ্তি যথেষ্ট নয়। কমিটিকে প্রতিটি বিষয়ভিত্তিক প্রস্তাবের জন্য একটি প্রকাশ্য তালিকা করা উচিত: কে প্রস্তাব দিয়েছেন, কোন অনুচ্ছেদের সঙ্গে সেটি সম্পর্কিত, কমিটি কী প্রাথমিক মত দিয়েছে, এবং খসড়া আইনে সেটি কোথায় দেখা যাবে। ব্যক্তিগত নিরাপত্তা বা সংবেদনশীল তথ্য থাকলে তা বাদ দেওয়া যেতে পারে; কিন্তু নীতিগত প্রস্তাব গোপন রাখার যুক্তি দুর্বল। প্রকাশ্য তালিকা থাকলে সরকারও প্রমাণ করতে পারবে যে বিরোধী মতামত শুধু শোনা হয়নি, বিবেচনাও করা হয়েছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সময়ের প্রশ্নটিও জরুরি। সংবিধান সংশোধনের আলোচনা অনির্দিষ্টকাল চললে মানুষ কেবল নতুন নতুন বৈঠকের খবর পাবে, কোন পরিবর্তন সত্যিই আসছে তা জানবে না। আবার তাড়াহুড়ো করে বড় পরিবর্তন করলে ভাষার অস্পষ্টতা পরের আদালত, সংসদ বা নাগরিকের ঘাড়ে চাপবে। তাই দরকার দুই স্তরের সময়সূচি: প্রথমত, কোন কোন বিষয়ে শুনানি শেষ হবে তার তারিখ; দ্বিতীয়ত, খসড়া, ভিন্নমত ও চূড়ান্ত সুপারিশ প্রকাশের তারিখ। সময়সূচি না থাকলে পরামর্শকে দায়বদ্ধ প্রক্রিয়া হিসেবে যাচাই করা যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের জন্য এখানেই একটি বাস্তব সুযোগ আছে। বিরোধীদের জন্য রাখা আসন পূরণে আমন্ত্রণ নতুন করে জানানো, ন্যূনতম আলোচ্যসূচি প্রকাশ করা এবং অংশগ্রহণের শর্ত পরিষ্কার করা কোনো পক্ষকে রাজনৈতিক ছাড় দেওয়া নয়। এটি ভবিষ্যতের সংবিধানকে এক দলের মালিকানা থেকে দূরে রাখার ব্যবস্থা। বিরোধীরা যোগ না দিলেও সরকার তখন বলতে পারবে, দরজা, নথি ও সময়সীমা খোলা ছিল। আর তারা যোগ দিলে বিতর্কটি স্লোগানের বদলে ধারাভিত্তিক আলোচনায় নামবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এনসিপির জন্যও একই মানদণ্ড প্রযোজ্য। দলটি সংস্কার পরিষদের পক্ষে বলেছে এবং বর্তমান পদ্ধতি নিয়ে আপত্তি তুলেছে। সেই অবস্থানকে শক্তিশালী করতে হলে তাদের প্রকাশ করতে হবে: পরিষদের সদস্য বাছাই কীভাবে হবে, সংসদের সঙ্গে তার সম্পর্ক কী, ১৮০ কর্মদিবসের কাজ কোন ধাপে চলবে, আর কোন সাংবিধানিক প্রস্তাবে তাদের বিকল্প ভাষা কী। নাগরিককে শুধু বলা যথেষ্ট নয় যে বর্তমান পদ্ধতি ভুল; কার্যকর বিকল্পটি কেমন, তাও দেখাতে হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিরোধী প্রতিনিধিত্ব মানে সব প্রস্তাবে ভেটো নয়। সংসদে সংখ্যাগরিষ্ঠতার বাস্তবতা থাকবে এবং শেষ সিদ্ধান্তে ভোটও হবে। কিন্তু সংখ্যালঘু বা বিরোধী মত প্রথম খসড়া থেকেই উপস্থিত থাকলে সংখ্যাগরিষ্ঠকে তার যুক্তি লিখে দেখাতে হয়। তাতেই জবাবদিহি বাড়ে। আজ যে দল সরকারে, কাল সে বিরোধীতে যেতে পারে; তাই নিয়মটি কার জন্য সুবিধাজনক তা নয়, সকলের জন্য কতটা ন্যায্য—সেটিই আসল পরীক্ষা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটির কাছে জমা দেওয়া প্রস্তাবগুলো নিয়ে আরেকটি সতর্কতা দরকার। একটি শ্রমিক সংগঠন, নারী সংগঠন বা ক্ষুদ্র জাতিসত্তার প্রতিনিধি যে বক্তব্য দিচ্ছে, তাকে কোনো দল নিজের সমর্থনের প্রমাণ হিসেবে ব্যবহার করতে পারে না। একইভাবে, কোনো মতবিনিময়ে উপস্থিত না থাকা মানে সেই গোষ্ঠীর মতামত অপ্রাসঙ্গিক হয়ে যাওয়া নয়। কমিটিকে তাই অংশগ্রহণের তালিকা ও প্রস্তাবের সারাংশ আলাদা করে প্রকাশ করতে হবে। এতে কে কার হয়ে কথা বলেছে এবং কোন মত আসলে কার, তা নিয়ে পরের বিভ্রান্তি কমবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংবিধান সংশোধনের কাজ শেষে যদি শুধু একটি চূড়ান্ত লেখা প্রকাশ করা হয়, তখন নাগরিকের পক্ষে বোঝা কঠিন হবে কোন সিদ্ধান্ত কোথা থেকে এল। তার চেয়ে ভালো হবে তুলনামূলক খসড়া প্রকাশ করা: বর্তমান ভাষা, প্রস্তাবিত ভাষা, পরিবর্তনের কারণ, পাওয়া ভিন্নমত এবং সংশ্লিষ্ট মতামতের সংক্ষিপ্ত উত্তর। এই ধরনের প্রকাশনা আইনজীবী বা বিশেষজ্ঞের জন্যই নয়; সাধারণ মানুষও তখন নিজের অধিকার, সংসদের ক্ষমতা কিংবা স্থানীয় প্রতিষ্ঠানের দায়ে কী বদল আসছে তা যাচাই করতে পারবেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি কোনো অতিরিক্ত সৌজন্য নয়। জনসম্মুখে কারণ দেখানোর এই শৃঙ্খলাই ভবিষ্যৎ সরকারকেও একই মানদণ্ডে বেঁধে রাখে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এমন রেকর্ড থাকলে কোনো পক্ষ পরে নিজেদের সুবিধামতো ইতিহাস লিখতে পারবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন প্রকাশ করতে হবে পাঁচটি জবাব"
+        },
+        {
+          "type": "list",
+          "items": [
+            "বিরোধীদের জন্য সংরক্ষিত পাঁচ আসন পূরণে কমিটি ও সংসদ কোন তারিখের মধ্যে নতুন উদ্যোগ নেবে?",
+            "এনসিপিসহ অনুপস্থিত দলগুলোর লিখিত আপত্তি ও বিকল্প প্রস্তাব কি কমিটি পূর্ণাঙ্গভাবে প্রকাশ করবে?",
+            "প্রতিটি বৈঠকের কার্যবিবরণী, অংশগ্রহণকারীর তালিকা এবং জমা পড়া প্রস্তাবের গ্রহণ বা প্রত্যাখ্যানের কারণ কি অনলাইনে দেওয়া হবে?",
+            "জুলাই সনদের ৪৮টি সংবিধান-সংক্রান্ত প্রস্তাবের প্রতিটির পাশে কমিটির অবস্থান ও খসড়া ভাষা কবে প্রকাশ হবে?",
+            "শেষ সুপারিশে সদস্যদের ভিন্নমত থাকলে তা কি মূল প্রতিবেদনের সঙ্গে সংযুক্ত থাকবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "শুনানি থেকে যৌথ সিদ্ধান্তে যেতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংবিধান জনগণের সঙ্গে করা রাষ্ট্রের সবচেয়ে বড় চুক্তি। সেটি বদলানোর সময় শ্রমজীবী মানুষ, নারী, ক্ষুদ্র জাতিসত্তা, বিচারক, শিক্ষক ও বিশেষজ্ঞের কথা শোনা বাধ্যতামূলক হওয়া উচিত। ৪ অক্টোবরের বৈঠক সেই কাজের একটি প্রয়োজনীয় শুরু। কিন্তু শুরুটিকেই শেষ বলা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আমাদের বিবেচনায়, সরকারকে এখন দুটি কাজ একসঙ্গে করতে হবে: কমিটির সব নথি ও সময়সূচি প্রকাশ্য করা এবং বিরোধীদের জন্য রাখা পাঁচ আসনের প্রশ্নে নির্দিষ্ট, সময়বদ্ধ উদ্যোগ জানানো। একই সঙ্গে এনসিপিকে তার সংস্কার-পরিষদ প্রস্তাবের বাস্তব ও প্রকাশ্য রূপরেখা দিতে হবে। এতে কারও দাবি স্বয়ংক্রিয়ভাবে মেনে নেওয়া হবে না; বরং মানুষ বুঝতে পারবে কার প্রস্তাব কী, কার আপত্তি কোথায়, আর শেষ সিদ্ধান্তের দায় কার। সংবিধান পরিবর্তনের গ্রহণযোগ্যতা শোনা কথার সংখ্যায় নয়—সিদ্ধান্তের টেবিলে নথিবদ্ধ অংশগ্রহণে প্রমাণিত হবে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ জাতীয় সংসদ — দলভিত্তিক বর্তমান প্রতিনিধিত্ব: এনসিপির ৮ সদস্য এবং সংসদের অবস্থা",
+          "url": "https://www.parliament.gov.bd/"
+        },
+        {
+          "label": "বাংলাদেশ জাতীয় সংসদ — কার্যপ্রণালী বিধি, বিধি ২৬৬: বিশেষ কমিটির গঠন ও কাজ",
+          "url": "https://www.parliament.gov.bd/uploads/pdf/actOrderRules/EN/Rules_of_Procedures_English.pdf"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — “Special committee for constitution amendment formed”, ১৩ জুলাই ২০২৬",
+          "url": "https://www.bssnews.net/js-session/405326"
+        },
+        {
+          "label": "bdnews24.com — “সংবিধান সংশোধনে আরও বিভিন্ন পক্ষের মত নেবে বিশেষ কমিটি”, ৪ অক্টোবর ২০২৬",
+          "url": "https://bangla.bdnews24.com/politics/mj1hxrz9f7"
+        },
+        {
+          "label": "The Daily Star — “Constitutional amendments: JS body to hold discussions with political parties”, ১৯ সেপ্টেম্বর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/constitutional-amendments-js-body-hold-discussions-political-parties-4276606"
+        },
+        {
+          "label": "Sarabangla — “সংবিধান সংশোধনে ক্ষুদ্র নৃগোষ্ঠী ও শ্রমজীবী প্রতিনিধিদের সঙ্গে মতবিনিময়”, ৪ অক্টোবর ২০২৬",
+          "url": "https://sarabangla.net/politics/post-1205883/"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Consultation has begun, but opposition seats in constitutional reform remain empty",
+          "excerpt": "Bangladesh’s constitutional-amendment committee is expanding consultation, but its five opposition seats remain unfilled and NCP has no representative despite eight MPs. Consultation needs to lead to recorded representation.",
+          "imageAlt": "Editorial illustration about constitutional reform, parliamentary representation and public accountability in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "The constitutional-amendment committee’s expanded consultation is necessary, but it cannot substitute for filling the opposition seats reserved in the decision-making body."
+        },
+        "de": {
+          "title": "Anhörungen laufen, doch Oppositionssitze bei der Verfassungsreform bleiben leer",
+          "excerpt": "Der Ausschuss für Verfassungsänderungen erweitert seine Anhörungen, doch fünf Oppositionssitze bleiben unbesetzt und die NCP ist trotz acht Abgeordneten nicht vertreten. Anhörung braucht dokumentierte Mitentscheidung.",
+          "imageAlt": "Redaktionelle Illustration zu Verfassungsreform, parlamentarischer Vertretung und öffentlicher Rechenschaft in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Breitere Anhörungen sind nötig, ersetzen aber nicht die Besetzung der für die Opposition vorgesehenen Sitze im Entscheidungsgremium."
+        }
+      },
+      "automation": {
+        "evidenceScore": 86,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "Fresh follow-up to the 4 October fifth meeting: bdnews24.com and Sarabangla independently report the consultation with labour and ethnic-minority representatives and the committee’s plan to widen consultation. Parliament’s own site confirms NCP has eight MPs; BSS records the 13 July formation of the 12-member committee, the reserved path to 17 members and the government’s legal rationale. The Daily Star corroborates both the unfilled opposition places and the NCP-led preference for a Constitutional Reform Council. The editorial makes no claim that consultation is unlawful or that any party is barred; its evidence-bounded conclusion is that consultation does not substitute for decision-making representation and publication of the record.",
+        "governmentPosition": "Home Minister Salahuddin Ahmed said the current Parliament was elected under the existing Constitution, that a separate Constitutional Reform Council oath has no constitutional or legal basis, and that constitutional amendment is necessary to honour the referendum verdict. The committee has also said it will invite broader groups and receive written proposals. These points are presented as the government’s strongest case.",
+        "findings": [
+          "The current committee has 12 members, while the formation announcement retained a route to expand it to 17 and include opposition members.",
+          "Bangladesh Parliament’s current party representation lists eight NCP MPs, but the BSS membership list of the committee contains no NCP representative.",
+          "The fifth meeting on 4 October heard labour and ethnic-minority representatives and announced broader future consultation; this is a meaningful consultative step but does not change committee membership or decision rights.",
+          "NCP’s preferred Constitutional Reform Council process and the government’s parliamentary-committee process are a documented institutional disagreement, not evidence of wrongdoing by either side.",
+          "The proportionate accountability demand is to publish a timetable for filling opposition seats, meeting records, submissions, treatment of proposals and dissenting opinions."
+        ],
+        "claimMatrix": {
+          "committeeFormationAndMembership": "VERIFIED FACT — HIGH — BSS formation report and current Parliament information",
+          "ncpParliamentaryRepresentation": "VERIFIED FACT — HIGH — Parliament’s party-wise representation page",
+          "octoberFourthConsultation": "VERIFIED FACT — HIGH — bdnews24.com and Sarabangla, based on Parliament Secretariat information",
+          "governmentLegalPosition": "REPORTED FACT — HIGH — directly attributed to the Home Minister in BSS",
+          "ncpReformCouncilPosition": "REPORTED FACT — HIGH — independently reported by The Daily Star; treated as a political position, not proof",
+          "editorialConclusion": "ANALYSIS — HIGH — a consultative process gains accountability when membership, records, proposals and dissent are public and oppositional representation is meaningfully addressed"
+        },
+        "seoTitle": "সংবিধান সংশোধন কমিটি: বিরোধীর খালি আসন পূরণ চাই",
+        "metaDescription": "সংবিধান সংশোধন কমিটি মতামত নিচ্ছে, কিন্তু বিরোধীদের জন্য রাখা পাঁচ আসন খালি। এনসিপির ৮ এমপি থাকা সংসদেও প্রতিনিধিত্ব নেই—নথিবদ্ধ অংশগ্রহণ ও জবাব চাই।",
+        "categories": [
+          "সংবিধান সংস্কার",
+          "সংসদ",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "সংবিধান সংশোধন",
+          "বিশেষ কমিটি",
+          "জাতীয় সংসদ",
+          "এনসিপি",
+          "জুলাই সনদ",
+          "বিরোধী প্রতিনিধিত্ব",
+          "সালাহউদ্দিন আহমদ",
+          "সংস্কার পরিষদ",
+          "জনঅংশগ্রহণ",
+          "জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/constitutional-amendment-committee-consultation-representation-update-2026"
+    },
+    {
       "id": "bank-report-public-data-accountability-2026",
       "slug": "bank-report-public-data-accountability-2026",
       "status": "published",
