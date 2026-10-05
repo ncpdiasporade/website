@@ -1,6 +1,247 @@
 {
   "items": [
     {
+      "id": "bank-report-public-data-accountability-2026",
+      "slug": "bank-report-public-data-accountability-2026",
+      "status": "published",
+      "tag": "ব্যাংক খাত ও জবাবদিহি",
+      "title": "সংসদ কমিটি তথ্য চেয়েছে, এবার ব্যাংক খাতের পুরো হিসাব জনসমক্ষে চাই",
+      "date": "৫ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-05T14:15:25+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "ব্যাংকে বিপুল তরল সম্পদ থাকা সত্ত্বেও দুর্বল প্রতিষ্ঠানে জরুরি সহায়তা, ঋণখেলাপি ও মূলধন ঘাটতি রয়ে গেছে। সংসদীয় কমিটি নির্দিষ্ট তথ্য চেয়েছে; এখন বাংলাদেশ ব্যাংক ও অর্থ মন্ত্রণালয়কে সেই হিসাব প্রকাশ করতে হবে।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about banking transparency, public data and accountability in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "কমিটির প্রশ্নের উত্তর কেবল সভাকক্ষে নয়, প্রকাশ্য তথ্যেও দিতে হবে",
+      "facebookCaption": "সংসদীয় কমিটি ব্যাংক খাত নিয়ে নির্দিষ্ট তথ্য চেয়েছে। সেটি দরকারি পদক্ষেপ। কিন্তু ৪.৫ লাখ কোটি টাকার তরল সম্পদ, ১৫ ব্যাংকের ঋণাত্মক মূলধন, জরুরি সহায়তা ও খেলাপি ঋণের পূর্ণ হিসাব জনসমক্ষে না এলে মানুষ বুঝবে না কোন ব্যাংকের ঝুঁকি কী, কার টাকা সুরক্ষিত, আর সংস্কারের খরচ কে বহন করবে।",
+      "facts": [
+        {
+          "value": "৪.৫ লাখ কোটি টাকা",
+          "label": "আগস্ট শেষে নগদ ও সরকারি সিকিউরিটিসহ ব্যাংকিং খাতের মোট তরল সম্পদ; বাংলাদেশ ব্যাংকের কর্মপত্রের বরাতে সংবাদে প্রকাশিত"
+        },
+        {
+          "value": "১৫টি ব্যাংক",
+          "label": "মার্চ ২০২৬ শেষে যাদের মূলধন ঋণাত্মক ছিল বলে বাংলাদেশ ব্যাংকের তথ্যের বরাতে প্রকাশিত"
+        },
+        {
+          "value": "৩১.৪১%",
+          "label": "জুন ২০২৬ শেষে মোট ঋণের বিপরীতে খেলাপি ঋণের প্রতিবেদিত হার"
+        },
+        {
+          "value": "৪ অক্টোবর",
+          "label": "সংসদীয় অর্থ মন্ত্রণালয়-সম্পর্কিত স্থায়ী কমিটি নির্দিষ্ট তথ্য দিতে মন্ত্রণালয়কে নির্দেশ দেয়"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "সংক্ষেপে"
+        },
+        {
+          "type": "paragraph",
+          "text": "ব্যাংক খাতে টাকা আছে—এই বাক্যটি এখন আর স্বস্তির খবর নয়, বরং অসম্পূর্ণ খবর। ৪ অক্টোবর অর্থ মন্ত্রণালয়-সম্পর্কিত সংসদীয় স্থায়ী কমিটির বৈঠকে অর্থ মন্ত্রণালয় ব্যাংক খাতের অবস্থা নিয়ে বিস্তারিত উপস্থাপনা দেয়। সংসদ সচিবালয়ের সংবাদ বিজ্ঞপ্তির ভিত্তিতে বাংলাদেশ সংবাদ সংস্থা জানায়, কমিটি পরের বৈঠকে নির্দিষ্ট তথ্য দিতে মন্ত্রণালয়কে নির্দেশ দিয়েছে। এই নির্দেশটি সঠিক। কারণ যে খাতের ঝুঁকি আমানতকারী, ব্যবসা, করদাতা ও পুরো অর্থনীতির ওপর পড়ে, তার হিসাব শুধু সভাকক্ষের কাগজে থাকলে জবাবদিহি হয় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংবাদে বাংলাদেশ ব্যাংকের কর্মপত্রের বরাতে যে চিত্র এসেছে, তা দ্বিধাহীনভাবে পড়তে হবে। একদিকে আগস্ট শেষে নগদ ও সরকারি সিকিউরিটিসহ ব্যাংকিং খাতের মোট তরল সম্পদ ৪ লাখ ৫০ হাজার কোটি টাকায় পৌঁছেছে, যা এক বছর আগে ছিল ৩ লাখ ১০ হাজার কোটি টাকা। অন্যদিকে কয়েকটি দুর্বল ব্যাংক জরুরি তারল্য সহায়তার ওপর নির্ভরশীল, মূলধন ঘাটতি গভীর, আর খেলাপি ঋণের বোঝা বড়। অর্থাৎ সব ব্যাংক একই জায়গায় নেই। শক্তিশালী ব্যাংকের হাতে অর্থ থাকা আর পুরো ব্যবস্থার স্বাস্থ্যকর হওয়া এক কথা নয়।"
+        },
+        {
+          "type": "callout",
+          "text": "সংসদীয় কমিটির ‘নির্দিষ্ট তথ্য’ চাওয়ার সিদ্ধান্ত স্বাগতযোগ্য। কিন্তু সেই তথ্য জনগণ, আমানতকারী ও সংসদ সদস্যরা একইভাবে না দেখতে পারলে প্রশ্নের উত্তর যাচাই করা যাবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার ও সংসদ কী করেছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ সংবাদ সংস্থার ৪ অক্টোবরের প্রতিবেদনে বলা হয়েছে, কমিটির চতুর্থ বৈঠকে অর্থ মন্ত্রণালয় ব্যাংকসহ আর্থিক প্রতিষ্ঠানের বর্তমান অবস্থা নিয়ে উপস্থাপনা দেয়। কমিটির সদস্যরা স্বচ্ছতা, জবাবদিহি ও অর্থনৈতিক স্থিতিশীলতার ওপর জোর দেন এবং পরবর্তী বৈঠকে সুনির্দিষ্ট তথ্য দিতে মন্ত্রণালয়কে নির্দেশ দেন। বৈঠকে অর্থ মন্ত্রণালয়ের দুই বিভাগ, বাংলাদেশ ব্যাংক ও সংশ্লিষ্ট সংস্থার কর্মকর্তারাও ছিলেন। এটি কেবল রাজনৈতিক বক্তব্য নয়; সংসদ সচিবালয়ের বিজ্ঞপ্তিভিত্তিক প্রাতিষ্ঠানিক পদক্ষেপ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের সদ্য প্রকাশিত অক্টোবর-ডিসেম্বরের মুদ্রানীতি বিবৃতিতেও সমস্যার ভাষা আড়াল করা হয়নি। সেখানে প্রবৃদ্ধি ও মূল্যস্ফীতির ঝুঁকির সঙ্গে বিলম্বিত ব্যাংক সংস্কার এবং উঁচু খেলাপি ঋণকে অভ্যন্তরীণ ঝুঁকি বলা হয়েছে। বিবৃতিটি আরও বলছে, মুদ্রানীতির কার্যকারিতা বাড়াতে ব্যাংকের সক্ষমতা, সুশাসন ও ঋণশৃঙ্খলা ফেরানো জরুরি। এই স্বীকারোক্তি গুরুত্বপূর্ণ। কারণ এটি মানে সমস্যাটি কেবল কয়েকটি ব্যাংকের দৈনন্দিন নগদ ব্যবস্থাপনা নয়; নিয়ন্ত্রণ, মূলধন ও আস্থার প্রশ্ন।"
+        },
+        {
+          "type": "heading",
+          "text": "তথ্য কী বলছে, এবং কোথায় সতর্কতা দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য ডেইলি স্টার ৫ অক্টোবর বাংলাদেশ ব্যাংকের ওই কর্মপত্রের বরাতে জানায়, আগস্ট শেষে মোট তরল সম্পদ ৪ লাখ ৫০ হাজার কোটি টাকা; এক বছর আগে তা ছিল ৩ লাখ ১০ হাজার কোটি টাকা। ব্যবধান ১ লাখ ৪০ হাজার কোটি টাকা, অর্থাৎ প্রায় ৪৫ শতাংশ বৃদ্ধি। কিন্তু এই সংখ্যা দেখে ‘তারল্য সংকট শেষ’ বলা যাবে না। প্রতিবেদনে বলা হয়েছে, শক্তিশালী প্রচলিত ব্যাংকগুলোর উদ্বৃত্ত অর্থের বড় অংশ সরকারি ট্রেজারি বিল ও বন্ডে আছে, আর কয়েকটি বিশেষত শরিয়াহভিত্তিক ব্যাংক চাপের মধ্যে রয়েছে। অর্থ তাই ব্যবস্থার এক অংশে জমে থাকতে পারে, কিন্তু যেখানে ক্ষতি শোষণ করার মূলধন নেই সেখানে নতুন ঋণ দেওয়ার সক্ষমতা তৈরি নাও হতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই জায়গায় পরিভাষা স্পষ্ট রাখা জরুরি। নগদ ও সরকারি সিকিউরিটিসহ ‘মোট তরল সম্পদ’ আর প্রতিটি ব্যাংকের হাতে ব্যবহারযোগ্য উদ্বৃত্ত নগদ একই মাপকাঠি নয়। আবার সরকারি সিকিউরিটিতে বিনিয়োগ নিজে অনিয়ম বা ব্যর্থতা নয়। ব্যাংক নিরাপদ সম্পদও রাখবে। সমস্যাটি তখনই, যখন একই সময়ে দুর্বল ব্যাংক টিকে থাকে জরুরি সহায়তায়, ক্ষতি ঢাকার মতো মূলধন থাকে না, আর উৎপাদনশীল খাতে ঋণ দেওয়ার সক্ষমতা ক্ষয়ে যায়। এই তিনটি বিষয় কোন ব্যাংকে কতটা সত্য, তা দেখার জন্যই প্রকাশ্য, একই ছকে সাজানো তথ্য দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একই কর্মপত্রের তথ্যের বরাতে দ্য ডেইলি স্টার জানায়, দুর্বল প্রতিষ্ঠানগুলোকে কেন্দ্রীয় ব্যাংক শেষ ভরসার ঋণদাতা হিসেবে ৮৪ হাজার ৯৪৫ দশমিক ৭১ কোটি টাকা জরুরি সহায়তা দিয়েছে। এই অঙ্কের প্রয়োজনীয়তা নিয়ে আগাম রায় দেওয়া ঠিক হবে না। আমানতকারীর সুরক্ষা ও সংক্রমণ ঠেকাতে জরুরি সহায়তা লাগতে পারে। কিন্তু জনস্বার্থের প্রশ্নটি খুব সোজা: কোন সহায়তা কোন কাঠামোয় দেওয়া হলো, জামানত কী, ফেরতের সময়সূচি কী, মূলধন ঘাটতি পূরণের দায়িত্ব কার, আর সহায়তার বদলে মালিকানা, বোর্ড, ব্যবস্থাপনা বা ঝুঁকি নিয়ন্ত্রণে কী পরিবর্তন হলো? এগুলোর উত্তর ছাড়া ‘সহায়তা’ শব্দটি করদাতা ও আমানতকারীর জন্য যথেষ্ট ব্যাখ্যা নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "আগের ত্রৈমাসিকের সঙ্গে তুলনা"
+        },
+        {
+          "type": "paragraph",
+          "text": "কালের বেলার ৫ অক্টোবরের প্রতিবেদনে বাংলাদেশ ব্যাংকের উপস্থাপনার বরাতে বলা হয়, মার্চ শেষে ১৫টি ব্যাংকের মূলধন ঋণাত্মক ছিল এবং পুরো খাতের মূলধন-ঝুঁকিভার অনুপাত ঋণাত্মক ৩ দশমিক ১৭ শতাংশে নেমেছিল। একই প্রতিবেদনে জুন শেষে খেলাপি ঋণ ৫ লাখ ৮১ হাজার ২৩৮ কোটি টাকার কাছাকাছি, অর্থাৎ মোট ঋণের ৩১ দশমিক ৪১ শতাংশ বলা হয়েছে। মার্চে এই অঙ্ক ছিল প্রায় ৫ লাখ ৬৪ হাজার ১০৬ কোটি টাকা। তিন মাসে বৃদ্ধি প্রায় ১৭ হাজার ১৩২ কোটি টাকা। এই তুলনা কোনো ব্যাংক বা ব্যক্তির বিরুদ্ধে অপরাধের রায় নয়। এটি দেখায়, কেবল মোট তরল সম্পদ বাড়া দিয়ে ঝুঁকির মীমাংসা হচ্ছে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আরও একটি সীমা মনে রাখা দরকার। খেলাপি ঋণ, শ্রেণিকৃত ঋণ, প্রভিশন ঘাটতি ও মূলধন-ঝুঁকিভার অনুপাত আলাদা সূচক। এগুলো যোগ করে নতুন কোনো বড় সংখ্যা বানানো যাবে না। সংবাদ প্রতিবেদনে সংখ্যাগুলো বাংলাদেশ ব্যাংকের কর্মপত্র থেকে এসেছে বলে বলা হলেও কর্মপত্রটি জনসাধারণের জন্য আলাদা করে পাওয়া যায়নি। তাই এই লেখায় ওই তথ্যকে প্রতিবেদিত কেন্দ্রীয়-ব্যাংক উপাত্ত হিসেবে নেওয়া হয়েছে, গোপন নথি দেখে নিশ্চিত করা তথ্য হিসেবে নয়। সেই সীমাবদ্ধতাই প্রকাশের দাবিকে দুর্বল নয়, আরও শক্তিশালী করে।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি কতটা টেকে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পক্ষে সবচেয়ে শক্ত যুক্তি হলো, আস্থার উন্নতি, রেমিট্যান্স এবং বৈদেশিক মুদ্রার অবস্থার পরিবর্তনে কিছু ব্যাংকে তরল সম্পদ বেড়েছে; একই সঙ্গে কেন্দ্রীয় ব্যাংক সংস্কার ও আইনি পরিবর্তনের কাজ করছে। মুদ্রানীতি বিবৃতিতেও বিনিয়োগে গতি ফেরাতে পুনঃঅর্থায়ন এবং সংস্কারের কার্যকর বাস্তবায়নের কথা আছে। এই যুক্তিকে বাতিল করার কারণ নেই। অস্থিরতার সময় আমানতকারীর আস্থা ফেরানো এবং ব্যাংকব্যবস্থায় নগদের প্রবাহ থাকা দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু ওই যুক্তির পরীক্ষা ফলাফলে। আমানত বাড়লেই যদি দুর্বল ব্যাংকের মূলধন ঘাটতি, খেলাপি ঋণ, প্রভিশন ও শাসনব্যবস্থার সমস্যা আড়ালে থাকে, তবে সেটি পুনরুদ্ধার নয়, সময় কেনা। সংসদীয় কমিটি নিজেই পরের বৈঠকে নির্দিষ্ট তথ্য চেয়েছে। তার মানে সিদ্ধান্ত নেওয়ার মতো খোলামেলা, তুলনাযোগ্য তথ্য এখনও যথেষ্ট নয়—অন্তত তা প্রকাশ্যে নেই। কমিটির প্রশ্ন তাই সরকারের বিরুদ্ধে অভিযোগপত্র নয়; সরকারের নিজের স্বচ্ছতার পরীক্ষাও।"
+        },
+        {
+          "type": "heading",
+          "text": "কার লাভ, কার ঝুঁকি"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি সুস্থ ব্যাংকব্যবস্থার সুবিধা সবার। আমানতকারী নিরাপদে টাকা রাখেন, ছোট ব্যবসা কার্যকর সুদে চলতি মূলধন পায়, বড় বিনিয়োগকারী দীর্ঘমেয়াদি অর্থায়নের পথ খুঁজে পায়, আর সরকার জরুরি আগুন নেভানোর বদলে শিক্ষা, স্বাস্থ্য বা অবকাঠামোয় করের টাকা ব্যয় করতে পারে। সরকারি ট্রেজারি বিল বা বন্ডে বিনিয়োগও রাষ্ট্রের অর্থায়নের স্বাভাবিক অংশ। তাই ব্যাংকের হাতে সরকারি সিকিউরিটি আছে বলেই সেটি ব্যর্থতার প্রমাণ হয় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু সুবিধাটি সমানভাবে ছড়াচ্ছে কি না, সেটিই মূল প্রশ্ন। যে ব্যাংকের পর্যাপ্ত মূলধন আছে, তার জন্য নিরাপদ সিকিউরিটিতে রাখা অর্থ ঝুঁকি সামলানোর কৌশল হতে পারে। যে ব্যাংক মূলধন ঘাটতিতে আছে বা জরুরি সহায়তা নিচ্ছে, তার ক্ষেত্রে একই চিত্রের অর্থ ভিন্ন। তার ক্ষতি কে বহন করবে—বর্তমান মালিক, দায়ী ঋণগ্রহীতা, নতুন বিনিয়োগকারী, নাকি শেষ পর্যন্ত জনগণ—তা না জানলে আমানতকারীও ঝুঁকি বুঝতে পারেন না, নীতিনির্ধারকরাও খরচের তুলনা করতে পারেন না। তথ্য গোপন থাকলে ভালো ব্যাংক ও দুর্বল ব্যাংককে একই সন্দেহে দেখা হয়; এটি সৎ প্রতিষ্ঠানের জন্যও ক্ষতিকর।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সবচেয়ে বেশি অদৃশ্য ঝুঁকিতে থাকেন ছোট আমানতকারী ও ঋণপ্রত্যাশী ক্ষুদ্র ব্যবসায়ী। বড় প্রতিষ্ঠানের বিকল্প ব্যাংক, আইনজীবী ও সম্পর্কের জোর থাকে। কিন্তু একজন অবসরপ্রাপ্ত মানুষ, প্রবাসী পরিবারের সদস্য বা দোকানদার ব্যাংকের বার্ষিক প্রতিবেদনের জটিল হিসাব থেকে বুঝতে পারেন না তাঁর প্রতিষ্ঠানের অবস্থান কী। আবার কর্মসংস্থান বাড়াতে ঋণ দরকার এমন ছোট ব্যবসা জানে না কেন তার আবেদন আটকে গেল—সামগ্রিক চাহিদা দুর্বল, ব্যাংক ঝুঁকি কমাচ্ছে, না প্রতিষ্ঠানটির মূলধনই নেই। প্রকাশ্য সূচক থাকলে অন্তত জবাব চাওয়ার ভাষা তৈরি হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদীয় নজরদারি কীভাবে অর্থবহ হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "পরের বৈঠকে একটি উপস্থাপনা হলেই কাজ শেষ হবে না। সংসদীয় কমিটিকে প্রথমে ঠিক করতে হবে কোন তথ্য কোন তারিখের এবং কোন সংজ্ঞায় দেওয়া হচ্ছে। যেমন, খেলাপি ঋণ বলতে কোন শ্রেণির ঋণ ধরা হয়েছে, প্রভিশন ঘাটতি কতটা সম্ভাব্য ক্ষতি ধরে, জরুরি সহায়তা নগদ না সিকিউরিটির বিপরীতে, আর পুনরুদ্ধার পরিকল্পনার লক্ষ্য কোন সময়ের মধ্যে—এসব না বললে একই সংখ্যা ভিন্ন অর্থ বহন করবে। কমিটির প্রকাশ্য কার্যবিবরণীতে সিদ্ধান্ত, দায়িত্বপ্রাপ্ত সংস্থা ও অগ্রগতির সময়সীমা থাকলে পরের সভায় কথার সঙ্গে ফল মিলিয়ে দেখা সম্ভব হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে গোপনীয়তার যুক্তি আনা হতে পারে। সত্যিই, কোনো ব্যাংকের প্রতিটি গ্রাহকের পরিচয় বা চলমান উদ্ধার-আলোচনার সংবেদনশীল তথ্য প্রকাশ করা উচিত নয়। কিন্তু গোপনীয়তা মানে সামষ্টিক তথ্য, ঝুঁকির শ্রেণি, সহায়তার শর্ত বা পুনরুদ্ধারের মাইলফলক গোপন রাখা নয়। আন্তর্জাতিক মানের তদারকিতেও প্রতিষ্ঠানের সংবেদনশীল গ্রাহকতথ্য বাদ দিয়ে মূলধন, সম্পদের মান, তারল্য ও ঝুঁকি নিয়ে প্রকাশ্য সারসংক্ষেপ দেওয়া হয়। বাংলাদেশেও সেই ন্যূনতম পার্থক্যটি করা সম্ভব।"
+        },
+        {
+          "type": "heading",
+          "text": "এবার কী প্রকাশ করা উচিত"
+        },
+        {
+          "type": "list",
+          "items": [
+            "পরবর্তী কমিটির বৈঠকের আগেই বাংলাদেশ ব্যাংকের কর্মপত্র, ব্যবহৃত সংজ্ঞা ও তথ্যের তারিখ প্রকাশ করতে হবে।",
+            "প্রতিটি ব্যাংকের মূলধন-ঝুঁকিভার অনুপাত, খেলাপি ও শ্রেণিকৃত ঋণ, প্রভিশন ঘাটতি, তারল্য সহায়তা এবং পুনরুদ্ধার পরিকল্পনা একই ছকে দিতে হবে; সংবেদনশীল ব্যক্তিগত তথ্য বাদ রাখা যায়, কিন্তু সামষ্টিক ঝুঁকি আড়াল করা যাবে না।",
+            "জরুরি তারল্য সহায়তার ক্ষেত্রে জামানত, পরিশোধের সময়, সুদ, শর্ত এবং বোর্ড বা মালিকানা-সংস্কারের অগ্রগতি সংসদীয় কমিটিকে জানিয়ে জনসমক্ষে সারসংক্ষেপ প্রকাশ করতে হবে।",
+            "অর্থ মন্ত্রণালয়কে বলতে হবে সম্ভাব্য মূলধন জোগানের দায় কতটা বিদ্যমান মালিক, কতটা সম্পদ উদ্ধার, আর কতটা সরকারি অর্থ বহন করবে।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "বড় ছবিটা কী"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের ব্যাংক সংস্কারকে শুধু একটি আর্থিক কারিগরি বিষয় ভাবলে ভুল হবে। এখানে ঋণ পাওয়ার সুযোগ, কর্মসংস্থান, মূল্যস্ফীতি সামলানোর সক্ষমতা এবং রাষ্ট্রের ভবিষ্যৎ ব্যয়ের প্রশ্ন জড়িয়ে আছে। কেন্দ্রীয় ব্যাংক নীতি সুদহার ঠিক করতে পারে, সরকার পুনঃঅর্থায়ন দিতে পারে, সংসদ কমিটি নির্দেশও দিতে পারে। কিন্তু দুর্বল ঋণমূল্যায়ন, অপর্যাপ্ত মূলধন ও অস্পষ্ট দায়বণ্টনের তথ্য নিয়মিতভাবে প্রকাশ না হলে কোনো পদক্ষেপের ফল মাপা যায় না। প্রকাশ্য তথ্য কোনো শাস্তি নয়; এটি সঠিক প্রতিষ্ঠানকে আস্থা দেখানোর এবং দুর্বল প্রতিষ্ঠানের সংস্কারকে যাচাইযোগ্য করার সবচেয়ে কম খরচের উপায়, যাতে সবাই তা সহজে বুঝতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "উপসংহার"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংসদীয় কমিটি তথ্য চেয়েছে—এটি শুরু, সমাধান নয়। ব্যাংকিং খাতে মানুষের সঞ্চয় আছে, ব্যবসার কর্মসংস্থান আছে, আবার করদাতার সম্ভাব্য দায়ও আছে। তাই জনসমক্ষে না আসা কর্মপত্রের ওপর আস্থা চাওয়া যথেষ্ট নয়। সরকার ও বাংলাদেশ ব্যাংক যদি সংস্কারের কথা সত্যিই বলতে চায়, তবে তাদের প্রথম কাজ হবে সংখ্যাগুলো প্রকাশ করা, ব্যাংকভিত্তিক ঝুঁকি ও পুনরুদ্ধার পরিকল্পনা বোঝানো, এবং পরের বৈঠকে কোন প্রতিশ্রুতি কতটা বাস্তবায়িত হলো তার হিসাব দেওয়া। স্বচ্ছতার বদলে আশ্বাস চললে ব্যাংক খাতের সংকট কমবে না; শুধু বোঝা কঠিন হবে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — “JS committee asks Finance Ministry to ensure transparency, accountability in financial institutions”, ৪ অক্টোবর ২০২৬; সংসদ সচিবালয়ের বিজ্ঞপ্তিভিত্তিক প্রতিবেদন",
+          "url": "https://www.bssnews.net/business/431168"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক — Quarterly Monetary Policy Statement, October–December 2026; ব্যাংক সংস্কার, সুশাসন ও খেলাপি ঋণকে আর্থিক স্থিতিশীলতার ঝুঁকি হিসেবে চিহ্নিত",
+          "url": "https://www.bb.org.bd/monetaryactivity/mps/mps_q2fy27.pdf"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — “Surplus liquidity at banks past Tk 4 lakh crore”, ৫ অক্টোবর ২০২৬; বাংলাদেশ ব্যাংকের সংসদীয় কর্মপত্রের প্রতিবেদিত তথ্য",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/surplus-liquidity-banks-past-tk-4-lakh-crore-4290711"
+        },
+        {
+          "label": "কালের বেলা — “লোকসানে ২২ ব্যাংক পুঞ্জীভূত, ক্ষতি আড়াই লাখ কোটি টাকা”, ৫ অক্টোবর ২০২৬; মূলধন ও খেলাপি ঋণের প্রতিবেদিত উপাত্ত",
+          "url": "https://www.kalbela.com/ajkerpatrika/firstpage/335424"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Parliament requested banking data; the public needs the full account",
+          "excerpt": "A parliamentary committee has requested specific banking-sector data. Bangladesh Bank and the Finance Ministry should now publish the figures, risks and recovery plans.",
+          "imageAlt": "Editorial illustration about banking transparency, public data and accountability in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Parliament has asked for banking data. The public needs comparable, published figures on risks, support and recovery plans."
+        },
+        "de": {
+          "title": "Parlament fordert Bankdaten: Die Öffentlichkeit braucht die vollständige Bilanz",
+          "excerpt": "Ein Parlamentsausschuss fordert konkrete Bankdaten. Nun müssen Zentralbank und Finanzministerium Kennzahlen, Risiken und Sanierungspläne veröffentlichen.",
+          "imageAlt": "Redaktionelle Illustration zu Bankentransparenz, öffentlichen Daten und Rechenschaft in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Das Parlament fordert Bankdaten. Öffentlichkeit und Einleger brauchen vergleichbare, veröffentlichte Zahlen zu Risiken, Hilfen und Sanierungsplänen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 84,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "The central, time-sensitive fact is confirmed by the Parliament Secretariat release reported by BSS: on 4 October the Finance Ministry standing committee required specific banking-sector information at its next meeting. Bangladesh Bank's current October–December 2026 MPS independently identifies delayed bank reform, solvency/governance restoration and elevated NPLs as material risks. The reported working-paper figures are attributed as reported, not treated as an unpublished primary document; two independent news reports corroborate the key capital and NPL indicators. The conclusion is limited to a disclosure and accountability demand, not an allegation of wrongdoing by any bank or person.",
+        "governmentPosition": "The committee called for transparency, accountability and economic stability after the Finance Ministry's presentation and required specific information at the next meeting. Bangladesh Bank says its quarterly policy approach and reform measures seek to restore solvency, governance and credit discipline, while its MPS acknowledges delayed banking reform and elevated NPLs as risks. This article treats those measures as necessary but tests them against the absence of a public, bank-by-bank account of outcomes.",
+        "findings": [
+          "The Parliament Secretariat release confirms that the Finance Ministry standing committee required specific financial-sector information at its next meeting after receiving a detailed presentation on 4 October.",
+          "Bangladesh Bank's October–December 2026 MPS identifies delayed banking reform, elevated NPLs and the need to restore bank solvency, governance and credit discipline as material issues.",
+          "Daily Star and Kalbela reported Bangladesh Bank working-paper figures on liquidity, emergency support, negative capital and NPLs; because the working paper was not publicly located, these figures are explicitly described as reported central-bank data.",
+          "No claim of corruption, insolvency of a named bank, or cause of the financial weakness is made. The editorial conclusion is that public, comparable data and recovery conditions are needed for democratic scrutiny."
+        ],
+        "claimMatrix": {
+          "committeeDirective": "VERIFIED FACT — HIGH — Parliament Secretariat release reported by BSS",
+          "centralBankRiskAssessment": "VERIFIED FACT — HIGH — Bangladesh Bank October–December 2026 Monetary Policy Statement",
+          "workingPaperFigures": "STRONGLY SUPPORTED REPORTED FACT — HIGH — independently reported by Daily Star and Kalbela; underlying working paper not publicly located",
+          "bankSpecificWrongdoing": "NOT CLAIMED — no person or institution is accused",
+          "editorialConclusion": "ANALYSIS — HIGH — parliamentary oversight requires public, comparable risk and recovery data"
+        },
+        "seoTitle": "ব্যাংক খাতের হিসাব জনসমক্ষে প্রকাশ চাই",
+        "metaDescription": "সংসদীয় কমিটি নির্দিষ্ট ব্যাংক খাতের তথ্য চেয়েছে। এবার মূলধন, খেলাপি ঋণ, জরুরি সহায়তা ও পুনরুদ্ধার পরিকল্পনার পূর্ণ হিসাব জনসমক্ষে প্রকাশ জরুরি।",
+        "categories": [
+          "ব্যাংকিং",
+          "সংসদীয় নজরদারি",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "বাংলাদেশ ব্যাংক",
+          "অর্থ মন্ত্রণালয়",
+          "সংসদীয় স্থায়ী কমিটি",
+          "ব্যাংক সংস্কার",
+          "খেলাপি ঋণ",
+          "মূলধন ঘাটতি",
+          "তারল্য সহায়তা",
+          "আমানতকারী",
+          "আর্থিক স্থিতিশীলতা",
+          "তথ্য প্রকাশ"
+        ]
+      },
+      "sharePath": "blog/bank-report-public-data-accountability-2026"
+    },
+    {
       "id": "dhaka-bypass-cracks-independent-engineering-report-2026",
       "slug": "dhaka-bypass-cracks-independent-engineering-report-2026",
       "status": "published",
