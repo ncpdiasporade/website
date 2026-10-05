@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-05T16:03:50.763Z",
+  "updatedAt": "2026-10-05T22:41:50.347Z",
   "items": [
+    {
+      "id": "facebook-germany-122208164354921031",
+      "facebookId": "122208164354921031",
+      "status": "published",
+      "date": "৫ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-05T17:05:04+0000",
+      "badge": "আয়োজন",
+      "title": "শহীদ আবরার ফাহাদের ৭ম শাহাদাত বার্ষিকী উপলক্ষে একটি স্মরণসভার আয়োজন করা হয়েছে।",
+      "excerpt": "উক্ত স্মরণসভায় আপনাদের অংশগ্রহণের আহ্বান। তারিখ: ০৭-১০-২০২৬ (বুধবার) সময়: বিকাল ৩:০০ টা",
+      "sourceCaption": "শহীদ আবরার ফাহাদের ৭ম শাহাদাত বার্ষিকী উপলক্ষে একটি স্মরণসভার আয়োজন করা হয়েছে। উক্ত স্মরণসভায় আপনাদের অংশগ্রহণের আহ্বান। \n\nতারিখ: ০৭-১০-২০২৬ (বুধবার) \nসময়: বিকাল ৩:০০ টা\nস্থান: আগ্রাসন বিরোধী আটস্তম্ভের পাদদেশ। বুয়েট-ঢাবি সংলগ্ন পলাশী চত্ত্বর। \nআয়োজনে: আবরার ফাহাদ স্মৃতি সংসদ\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208164354921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122208164354921031.jpg",
+      "imageAlt": "শহীদ আবরার ফাহাদের ৭ম শাহাদাত বার্ষিকী উপলক্ষে একটি স্মরণসভার আয়োজন করা হয়েছে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122208145346921031",
       "facebookId": "122208145346921031",
@@ -100,26 +120,6 @@
       "managedBy": "facebook-sync"
     },
     {
-      "id": "facebook-germany-122207741426921031",
-      "facebookId": "122207741426921031",
-      "status": "published",
-      "date": "৩ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-03T10:51:38+0000",
-      "badge": "ভিডিও",
-      "title": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম,…",
-      "excerpt": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊",
-      "sourceCaption": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম, বাংলাদেশের নাহিদ ইসলাম ❤️✊\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1331955708860352/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122207741426921031.jpg",
-      "imageAlt": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম,…",
-      "managedBy": "facebook-sync"
-    },
-    {
       "id": "facebook-germany-122197201634921031",
       "facebookId": "122197201634921031",
       "status": "published",
@@ -192,7 +192,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2516886582058763/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70747,
+      "viewCount": 70752,
       "featured": false,
       "image": "img/social/germany/fb-2516886582058763.jpg",
       "imageAlt": "জার্মানিতে NCP-এর কার্যক্রম ও প্রতিনিধিত্ব নিয়ে ভিডিও",
