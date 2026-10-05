@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-05T07:06:00.664Z",
+  "updatedAt": "2026-10-05T16:03:50.763Z",
   "items": [
+    {
+      "id": "facebook-germany-122208145346921031",
+      "facebookId": "122208145346921031",
+      "status": "published",
+      "date": "৫ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-05T14:34:36+0000",
+      "badge": "ভিডিও",
+      "title": "স্থানীয় পর্যায়ে প্রবাসীদের অংশগ্রহণ বদলে দিতে পারে বাংলাদেশের সামগ্রিক চিত্র।",
+      "excerpt": "জার্মানিতে বসবাসরত তুর্কি কমিউনিটির নিজ দেশের স্থানীয় রাজনীতিতে সক্রিয় অংশগ্রহণ তুরস্কের সামগ্রিক রাজনৈতিক চিত্রে যে প্রভাব রেখেছে, সেটাই তার বড় উদাহরণ। দাবি আমাদের একটাইঃ- আসন্ন স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে ✊",
+      "sourceCaption": "স্থানীয় পর্যায়ে প্রবাসীদের অংশগ্রহণ বদলে দিতে পারে বাংলাদেশের সামগ্রিক চিত্র। জার্মানিতে বসবাসরত তুর্কি কমিউনিটির নিজ দেশের স্থানীয় রাজনীতিতে সক্রিয় অংশগ্রহণ তুরস্কের সামগ্রিক রাজনৈতিক চিত্রে যে প্রভাব রেখেছে, সেটাই তার বড় উদাহরণ।\n\nদাবি আমাদের একটাইঃ-\n\nআসন্ন স্থানীয় সরকার নির্বাচনে প্রবাসীদের ভোটাধিকার নিশ্চিত করতে হবে ✊\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1090913459987799/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122208145346921031.jpg",
+      "imageAlt": "স্থানীয় পর্যায়ে প্রবাসীদের অংশগ্রহণ বদলে দিতে পারে বাংলাদেশের সামগ্রিক চিত্র।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122207943494921031",
       "facebookId": "122207943494921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122207741426921031.jpg",
       "imageAlt": "এই প্রজন্মের সবাই জানে জুলাই আন্দোলনের মহানায়ক ঐতিহাসিক এক দফার ঘোষক আমাদের নাহিদ ইসলাম, জনতার নাহিদ ইসলাম,…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122207597528921031",
-      "facebookId": "122207597528921031",
-      "status": "published",
-      "date": "২ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-02T15:36:16+0000",
-      "badge": "ভিডিও",
-      "title": "প্রবাসীরা চাঁদাবাজদের ভোট দেয় না,",
-      "excerpt": "এজন্যই কি প্রবাসী ভোটে এত অনীহা সরকারের?",
-      "sourceCaption": "প্রবাসীরা চাঁদাবাজদের ভোট দেয় না,\nএজন্যই কি প্রবাসী ভোটে এত অনীহা সরকারের?\n\n#ncpdagermany #ncp #germany🇩🇪",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/948664594979497/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122207597528921031.jpg",
-      "imageAlt": "প্রবাসীরা চাঁদাবাজদের ভোট দেয় না,",
       "managedBy": "facebook-sync"
     },
     {
