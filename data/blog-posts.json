@@ -1,6 +1,246 @@
 {
   "items": [
     {
+      "id": "world-bank-october-2026-reform-dashboard-follow-up",
+      "slug": "world-bank-october-2026-reform-dashboard-follow-up",
+      "status": "published",
+      "tag": "অর্থনীতি ও জবাবদিহি",
+      "title": "প্রবৃদ্ধি ৩.৪ শতাংশে আটকে যাওয়ার সতর্কতা—এবার সংস্কারের মাসিক ফলাফল প্রকাশ করুক সরকার",
+      "date": "৬ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-06T18:47:13+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "বিশ্বব্যাংক বলছে বাংলাদেশে প্রবৃদ্ধি ৩.৪ শতাংশে আটকে থাকতে পারে; ব্যাংক, জ্বালানি ও রাজস্বের দুর্বলতা একে অন্যকে টানছে। প্রতিশ্রুতি নয়, সরকারকে এখন মাসিক খোলা সংস্কার-হিসাব দিতে হবে।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability for Bangladesh's banking, energy and revenue reforms",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "ব্যাংক, জ্বালানি ও রাজস্ব সংস্কারের প্রতিটি প্রতিশ্রুতির মাসিক ফলাফল জনসমক্ষে আসুক",
+      "facebookCaption": "বিশ্বব্যাংকের নতুন বাংলাদেশ ডেভেলপমেন্ট আপডেটের সতর্কতা স্পষ্ট: ব্যাংকের দুর্বলতা, জ্বালানি সংকট ও কম রাজস্ব একসঙ্গে বিনিয়োগ ও কর্মসংস্থানকে চেপে ধরছে। বাংলাদেশ ব্যাংক নিজেও বলছে বেসরকারি ঋণপ্রবাহ দুর্বল, খেলাপি ঋণ ও পুঁজিঘাটতি ঝুঁকি তৈরি করছে। এখন সরকারের কাজ আরেকটি বক্তৃতা নয়—সম্পদমান যাচাই, ব্যাংক পুনর্গঠন, জ্বালানি সরবরাহ, রাজস্ব ও দরিদ্র-সুরক্ষার মাসিক ফলাফল প্রকাশ করা।",
+      "facts": [
+        {
+          "value": "৩.৪%",
+          "label": "বিশ্বব্যাংকের পূর্বাভাসে ২০২৬ ও ২০২৭ অর্থবছরে প্রবৃদ্ধির হার"
+        },
+        {
+          "value": "৩৩.২%",
+          "label": "জুন ২০২৬-এ সব ব্যাংকের শ্রেণিকৃত ঋণের হার; বাংলাদেশ ব্যাংকের প্রকাশিত তথ্য"
+        },
+        {
+          "value": "৪.৭৫%",
+          "label": "আগস্ট ২০২৬-এ বেসরকারি খাতে ঋণ প্রবৃদ্ধি; বাংলাদেশ ব্যাংকের মুদ্রানীতি বিবৃতি"
+        },
+        {
+          "value": "৯.৫০%",
+          "label": "অক্টোবর–ডিসেম্বর প্রান্তিকের জন্য অপরিবর্তিত নীতি-রেপো হার"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের অর্থনীতি নিয়ে আজকের সবচেয়ে জরুরি খবর কোনো উদ্বোধন নয়। বিশ্বব্যাংক বলেছে, ২০২৬ ও ২০২৭ অর্থবছরে দেশের প্রবৃদ্ধি ৩ দশমিক ৪ শতাংশে আটকে থাকতে পারে। একই সঙ্গে ব্যাংকের দুর্বলতা, জ্বালানি-সংকট এবং কম রাজস্ব আদায় বিনিয়োগ ও কর্মসংস্থানকে চেপে ধরছে। এটি ভবিষ্যদ্বাণীর খেলা নয়; সরকারের সামনে এখন মাপা কাজের তালিকা। সেই কাজের অগ্রগতি মাসে মাসে প্রকাশ না হলে ‘সংস্কার চলছে’ কথাটিও আর যাচাই করা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই লেখা ৫ অক্টোবর প্রকাশিত সংসদীয় ব্যাংক-হিসাব সংক্রান্ত সম্পাদকীয়র পরবর্তী প্রতিবেদন। তখন প্রশ্ন ছিল, সংসদ কমিটি যে ব্যাংক-তথ্য চাইছে তা জনতার জন্যও খোলা হবে কি না। এক দিন পর বিশ্বব্যাংকের বাংলাদেশ ডেভেলপমেন্ট আপডেট সেই প্রশ্নকে আরও বড় করেছে: শুধু একটি কমিটির ফাইল নয়, ব্যাংক, জ্বালানি, রাজস্ব এবং সামাজিক সুরক্ষার সংস্কার-ফল এক জায়গায় প্রকাশ দরকার।"
+        },
+        {
+          "type": "callout",
+          "text": "প্রবৃদ্ধির পূর্বাভাস কমেছে বলে সরকার ব্যর্থ—এ কথা নথি বলে না। কিন্তু একই নথি যখন ব্যাংক, জ্বালানি ও রাজস্বের জরুরি সংস্কারের কথা বলে, তখন সময়সীমা ও ফলাফল গোপন রাখা চলতে পারে না।"
+        },
+        {
+          "type": "heading",
+          "text": "একটি সংখ্যা নয়, তিনটি আটকে থাকা পথ"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশ্বব্যাংকের ৬ অক্টোবরের দক্ষিণ এশিয়া অর্থনৈতিক হালনাগাদে বাংলাদেশের জন্য ৩ দশমিক ৪ শতাংশ প্রবৃদ্ধির পূর্বাভাস দেওয়া হয়েছে। সংস্থাটি বলছে, আর্থিক খাত, জ্বালানি খাত এবং অভ্যন্তরীণ রাজস্ব সংগ্রহের স্থায়ী দুর্বলতা বেসরকারি বিনিয়োগকে চাপ দিচ্ছে। অর্থাৎ সমস্যা কেবল বৈশ্বিক যুদ্ধ বা জ্বালানি-দামের নয়। বাইরের ধাক্কা আছে, কিন্তু দেশের ভেতরের দুর্বল প্রতিষ্ঠান সেই ধাক্কাকে মানুষ ও ব্যবসার জন্য আরও ব্যয়বহুল করে দিচ্ছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পার্থক্যটি গুরুত্বপূর্ণ। মধ্যপ্রাচ্যের সংঘাত, হরমুজ প্রণালীর বিঘ্ন এবং উচ্চ আমদানি-ব্যয় বাংলাদেশের নিয়ন্ত্রণে নয়। কিন্তু কোন ব্যাংকের আসল ক্ষতি কত, কে টিকে থাকার যোগ্য, কোথায় করদাতার অর্থ বা আমানতকারীর ঝুঁকি বাড়ছে, আর কোন জ্বালানি প্রকল্পে সরবরাহ ও ব্যয় কমছে—এসব সরকারের সিদ্ধান্ত ও প্রকাশ্য তদারকির বিষয়। বাইরের অজুহাত দিয়ে ভেতরের হিসাব বন্ধ রাখা যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশ্বব্যাংকের বার্তাটিও একপেশে নয়। সংস্থাটি রেমিট্যান্স ও বৈদেশিক মুদ্রার রিজার্ভকে শক্তির জায়গা বলেছে এবং শর্তসাপেক্ষে ২০২৮ অর্থবছরে ৩ দশমিক ৯ শতাংশ প্রবৃদ্ধির সম্ভাবনার কথা বলেছে। শর্তটি হলো জ্বালানি সরবরাহ ধীরে ধীরে স্বাভাবিক হওয়া এবং সরকারের সংস্কার-তৎপরতা গতি পাওয়া। সুতরাং আজকের সতর্কতা অনিবার্য পতনের ঘোষণা নয়; এটি এমন একটি পরীক্ষার সময়, যেখানে ভালো ফল দেখতে হলে প্রমাণও দেখাতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "ব্যাংকের ক্ষত ঢেকে রাখলে ঋণ ফেরে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের নিজস্ব জুন ২০২৬ ব্যাংকিং সেক্টর আপডেট বলছে, সব ব্যাংক মিলিয়ে শ্রেণিকৃত ঋণের হার মার্চের ৩২ দশমিক ৭ শতাংশ থেকে জুনে ৩৩ দশমিক ২ শতাংশ হয়েছে। একই টেবিলে পূর্ণাঙ্গ ইসলামী ব্যাংকে হার ৫৮ দশমিক ৯ শতাংশ এবং রাষ্ট্রায়ত্ত বাণিজ্যিক ব্যাংকে ৪৩ দশমিক ২ শতাংশ। এগুলো কোনো রাজনৈতিক দলের অভিযোগ নয়; নিয়ন্ত্রকের প্রকাশিত পরিসংখ্যান। আবার একই প্রতিবেদন বলে, জুন ২০২৫-এর ৩৪ দশমিক ৬ শতাংশের তুলনায় সামগ্রিক হার কম। দুই সত্য একসঙ্গেই আছে: বছরভিত্তিক সামান্য উন্নতি হয়েছে, কিন্তু ঝুঁকির মাত্রা এখনো অত্যন্ত উঁচু।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আরও উদ্বেগের বিষয় হলো ঝুঁকির বণ্টন। বাংলাদেশ ব্যাংকের তথ্য অনুযায়ী, ৫০ কোটি টাকা ও তার বেশি অঙ্কের ঋণে শ্রেণিকৃত ঋণের হার ৪৩ দশমিক ৪ শতাংশ। বড় শিল্পখাতে মোট ঋণের অংশ ৬০ শতাংশ, সেখানে শ্রেণিকৃত ঋণের হার ৩৯ দশমিক ৬ শতাংশ। কাজেই ক্ষুদ্র ঋণগ্রহীতাকে দোষ দিয়ে এই সমস্যা ব্যাখ্যা করা সৎ হবে না। বড় ঋণের অনুমোদন, জামানত, পুনঃতফসিল, আদায় এবং পরিচালনা-পর্ষদের ওপর নজরদারির ফলও প্রকাশ্য পরীক্ষার মধ্যে আনতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার ও কেন্দ্রীয় ব্যাংকের শক্তিশালী যুক্তিটিও অগ্রাহ্য করা ঠিক নয়। ৩০ সেপ্টেম্বরের প্রান্তিক মুদ্রানীতি বিবৃতিতে বাংলাদেশ ব্যাংক বলেছে, মূল্যস্ফীতি কমলেও সরবরাহজনিত ঝুঁকি রয়ে গেছে; প্রবৃদ্ধি দুর্বল, তাই নীতি-রেপো হার ৯ দশমিক ৫০ শতাংশে রাখা হয়েছে। বিবৃতিতে বেসরকারি ঋণপ্রবাহকে দুর্বল এবং কিছু ব্যাংকের তহবিলচাপকে বাস্তব সমস্যা বলা হয়েছে। অর্থাৎ নিয়ন্ত্রক ঝুঁকি অস্বীকার করছে না; নীতি সুদ ও তারল্য দিয়ে আঘাত সামলাতে চাচ্ছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু সুদের হার ঠিক রাখা সম্পদমান যাচাইয়ের বিকল্প নয়। একই মুদ্রানীতি বিবৃতিতে আগস্টে বেসরকারি খাতে ঋণ প্রবৃদ্ধি ৪ দশমিক ৭৫ শতাংশ এবং খেলাপি ঋণের হার ৩২ দশমিক ৭৮ শতাংশ বলা হয়েছে; পুঁজিক্ষয়কেও ঝুঁকি হিসেবে স্বীকার করা হয়েছে। এই স্বীকারোক্তির পর ন্যূনতম জবাবদিহি হলো—কোন কোন ব্যাংকের স্বাধীন সম্পদমান যাচাই শেষ হলো, কোনটির পুনর্গঠন পরিকল্পনা অনুমোদিত হলো, আমানত সুরক্ষার অর্থ কখন ও কীভাবে ব্যবহারযোগ্য, তা নির্দিষ্ট সময়সূচিসহ জানানো। ব্যক্তিগত ঋণগ্রহীতার নাম প্রকাশের কথা নয়; প্রতিষ্ঠানভিত্তিক অগ্রগতি ও নীতির হিসাব চাওয়া হচ্ছে।"
+        },
+        {
+          "type": "heading",
+          "text": "জ্বালানি-দাম ও রাজস্বের চাপ মানুষের ঘরে গিয়ে থামে"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংক নিজেই বলছে, প্রশাসনিক জ্বালানি-দাম বৃদ্ধির প্রভাব পরিবহন, ভাড়া, বিদ্যুৎ ও সেবার খরচে পড়ছে। আগস্টে সার্বিক মূল্যস্ফীতি ৮ দশমিক ২৬ শতাংশ হলেও খাদ্যবহির্ভূত মূল্যস্ফীতি ছিল ৯ দশমিক ৩২ শতাংশ। তাই কমে আসা গড় সংখ্যাকে দেখিয়ে স্বস্তির গল্প বললে সাধারণ মানুষের মাসিক বাজেটের চাপ ধরা পড়ে না। জ্বালানি সরবরাহ অনিশ্চিত হলে কারখানার উৎপাদন ব্যয় বাড়ে, আবার দাম বাড়লে দোকান, বাসা ও ক্ষুদ্র ব্যবসার খরচও বাড়ে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশ্বব্যাংক এই চাপে একটি বাস্তব পথও দেখিয়েছে: দেশীয় গ্যাস উৎপাদন বাড়ানো, এলএনজি অবকাঠামো ও বিদ্যুৎ সঞ্চালন-ব্যবস্থা উন্নত করা, জ্বালানি উৎস বৈচিত্র্য করা এবং নবায়নযোগ্য জ্বালানিতে স্বচ্ছ প্রতিযোগিতামূলক ক্রয় চালু করা। এগুলো শুধু ভালো ইচ্ছার বাক্য নয়। প্রতিটির জন্য প্রকল্পের নাম, উৎপাদন বা সঞ্চালন সক্ষমতা, ব্যয়, সময়সীমা, ক্রয়পদ্ধতি ও বাস্তব অগ্রগতি প্রকাশ করা সম্ভব। প্রকাশ না করলে মানুষ বুঝবেন না কোন বাধা সত্যিই বৈশ্বিক, কোনটি প্রকল্প ব্যবস্থাপনার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "রাজস্বের প্রশ্নও একই রকম সরাসরি। কম রাজস্ব হলে সরকার একদিকে ব্যাংক থেকে বেশি ঋণ নেয়, অন্যদিকে বিদ্যুৎ, সামাজিক সুরক্ষা, স্বাস্থ্য বা শিক্ষায় টেকসই ব্যয়ের জায়গা সংকুচিত হয়। বাংলাদেশ ব্যাংকের বিবৃতিতে নেট সরকারি ঋণ বাড়াকে দুর্বল রাজস্ব সংগ্রহ ও বড় অর্থায়ন-প্রয়োজনের ইঙ্গিত বলা হয়েছে। বিশ্বব্যাংক করনীতি ও করপ্রশাসন আলাদা করা, সমন্বিত করদাতা তথ্যভাণ্ডার গড়া, ভ্যাটে ছাড় কমানো এবং প্রত্যক্ষ ও সম্পত্তিকর প্রশাসন শক্ত করার পরামর্শ দিয়েছে। পরামর্শ মানা হবে কি না, সেটি সরকারের নীতিগত সিদ্ধান্ত; কিন্তু কোন সুপারিশ গ্রহণ, সংশোধন বা প্রত্যাখ্যান হলো, তার কারণ জনসমক্ষে থাকা চাই।"
+        },
+        {
+          "type": "heading",
+          "text": "দরিদ্র সুরক্ষায় কেবল বরাদ্দের অঙ্ক যথেষ্ট নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের অবস্থান হলো মূল্যচাপ সামলাতে যোগ্য দরিদ্র পরিবারকে মোবাইল আর্থিক সেবার মাধ্যমে মাসে ২ হাজার ৫০০ টাকা পারিবারিক কার্ড সহায়তা দেওয়া হচ্ছে। এটি গুরুত্বপূর্ণ প্রতিরক্ষা। কিন্তু সহায়তা পৌঁছানো আর সহায়তা যথাযথ মানুষের কাছে পৌঁছানো এক কথা নয়। বিশ্বব্যাংকের প্রতিবেদনের সারসংক্ষেপে বলা হয়েছে, সবচেয়ে দরিদ্র পরিবারের প্রায় অর্ধেক কোনো সামাজিক সুরক্ষা কর্মসূচির বাইরে এবং ডায়নামিক সোশ্যাল রেজিস্ট্রি বিস্তৃত করা জরুরি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সম্পাদকীয় সিদ্ধান্তটি পরিষ্কার: ভর্তুকি বা নগদ সহায়তা কমানোর দাবি নয়; তালিকা ও ফলের খোলা যাচাই দাবি। পরিবার কার্ডে কত পরিবার আছে, নতুন করে কতজন যুক্ত বা বাদ গেল, আপিল কতটি, কোন জেলায় অর্থ পাঠানো ও উত্তোলনের হার কত—ব্যক্তির পরিচয় গোপন রেখে এসব মাসে মাসে প্রকাশ করা যায়। এতে প্রকৃত দরিদ্র বাদ পড়লে তা ধরা পড়বে, আবার রাজনৈতিক বা প্রশাসনিক পছন্দে সুবিধা গেলে তা আড়ালও থাকবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারকে এখন যে পাঁচটি উত্তর দিতে হবে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "কোন তারিখের মধ্যে রাষ্ট্রায়ত্ত, ইসলামী ও ঝুঁকিপূর্ণ অন্য ব্যাংকের স্বাধীন সম্পদমান যাচাই সম্পন্ন হবে এবং সংক্ষিপ্ত ফল প্রকাশ হবে?",
+            "যে ব্যাংক টিকিয়ে রাখা হবে, একীভূত হবে বা পুনর্গঠিত হবে—প্রতিটির সিদ্ধান্তের নীতি, অর্থের উৎস ও আমানতকারী সুরক্ষা কী?",
+            "গ্যাস, এলএনজি, বিদ্যুৎ সঞ্চালন ও নবায়নযোগ্য জ্বালানির কোন প্রকল্পে কত সরবরাহ, ব্যয় ও বিলম্ব আছে—মাসিক ড্যাশবোর্ড কোথায়?",
+            "রাজস্ব বাড়াতে কোন কর-প্রশাসন সংস্কারের দায়িত্ব কোন দপ্তরের, কী সময়সীমা এবং কী পরিমাপক ধরা হয়েছে?",
+            "পারিবারিক কার্ড ও অন্য সুরক্ষা কর্মসূচিতে কতজন সবচেয়ে দরিদ্র মানুষ বাদ পড়ছেন, তা ধরতে ডায়নামিক সোশ্যাল রেজিস্ট্রি কবে কোন জেলায় চালু হবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "ড্যাশবোর্ড মানে প্রচারপত্র নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি ভালো প্রকাশ্য ড্যাশবোর্ডে রঙিন সফলতার বাক্য নয়, একই সংজ্ঞায় ধারাবাহিক সংখ্যা থাকে। যেমন, ব্যাংক সংস্কারে লক্ষ্য হবে শুধু ‘খেলাপি ঋণ কমানো’ নয়; কোন ব্যাংকে সম্পদমান যাচাই শুরু ও শেষ হলো, কত টাকার ঋণ নতুন করে শ্রেণিকরণ হলো, কত অর্থ আদায় হলো, কত ক্ষেত্রে পুনর্গঠনের শর্ত মানা হলো এবং আমানতকারীর সুরক্ষার কী ব্যবস্থা নেওয়া হলো। আগের মাসের সংখ্যা পরে সংশোধন করতে হলে সংশোধনের কারণও থাকবে। এতে ভুল ধরা পড়লে সরকার দুর্বল নয়, বরং বিশ্বাসযোগ্য হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জ্বালানির ক্ষেত্রেও একই নিয়ম প্রযোজ্য। গ্যাসের উৎপাদন, আমদানি, টার্মিনালের ব্যবহার, বিদ্যুৎকেন্দ্রে সরবরাহ, সঞ্চালন-বিঘ্ন ও লোড-ব্যবস্থাপনার তথ্য আলাদা আলাদা দপ্তরে থাকলে নাগরিক পুরো ছবি পান না। বিদ্যুৎ বিভাগ, পেট্রোবাংলা, বাংলাদেশ পেট্রোলিয়াম করপোরেশন এবং অর্থ বিভাগকে তাই একসঙ্গে একটি মাসিক সূচক দিতে হবে। সেখানে বিশ্ববাজারের দাম ও যুদ্ধজনিত বাধাও থাকবে, পাশাপাশি সরকারের নিয়ন্ত্রণের মধ্যে থাকা ক্রয়, রক্ষণাবেক্ষণ, বিল পরিশোধ ও প্রকল্পের সময়সূচিও থাকবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "রাজস্বে লক্ষ্য-অর্জনের শতকরা হার একা যথেষ্ট নয়। নতুন করদাতা নিবন্ধন, অনলাইন রিটার্ন, বড় করছাড়ের ব্যয়, আপিল-নিষ্পত্তি, প্রত্যক্ষ কর ও সম্পত্তিকরের অগ্রগতি এবং কর-ফাঁকির ঝুঁকি ধরার ফলও দরকার। এতে ছোট ব্যবসায়ীকে অযথা হয়রানি বাড়ছে কি না, আবার প্রভাবশালী বড় করদাতা নিয়মের বাইরে থাকছেন কি না—দুই প্রশ্নই দেখা যাবে। ন্যায্য রাজস্ব সংস্কার মানে বেশি কর আদায়ের স্লোগান নয়; নিয়ম সবার জন্য সমানভাবে কার্যকর হওয়ার প্রমাণ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এ ধরনের তথ্য প্রকাশে গোপনীয়তা ভাঙার কোনো প্রয়োজন নেই। ব্যক্তির ব্যাংক হিসাব, কর নথি বা পরিবার কার্ডের নাম প্রকাশ করা যাবে না এবং করা উচিতও নয়। দরকার হলো সমষ্টিগত ফল, প্রতিষ্ঠানের আইনগত সিদ্ধান্ত, সরকারি ব্যয়ের অগ্রগতি এবং ব্যর্থতার কারণ। স্বাধীন গবেষক, সাংবাদিক ও সংসদ সদস্য তখন একই সংখ্যায় কাজ করতে পারবেন। ভুল ব্যাখ্যা হলে সংশ্লিষ্ট দপ্তরও একই খোলা নথি দেখিয়ে জবাব দিতে পারবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই প্রশ্নগুলোর উত্তর নীতিপত্রে লুকিয়ে রাখলে চলবে না। অর্থ মন্ত্রণালয়, বাংলাদেশ ব্যাংক, বিদ্যুৎ ও জ্বালানি সংশ্লিষ্ট দপ্তর এবং জাতীয় রাজস্ব বোর্ডের যৌথ প্রকাশ্য ড্যাশবোর্ডে মাসিক ভিত্তিতে লক্ষ্য, অগ্রগতি, ব্যতিক্রম ও পরের মাসের কাজ দিতে হবে। সংসদীয় কমিটিরও ওই ড্যাশবোর্ড নিয়ে প্রকাশ্য শুনানি করা উচিত। তখন সরকার তার কাজের কৃতিত্ব নিতে পারবে, বিরোধী দল ও এনসিপির সংসদ সদস্যরাও নথি দেখে প্রশ্ন তুলতে পারবেন, আর নাগরিক বুঝতে পারবেন কোন প্রতিশ্রুতি বাস্তব।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশ্বব্যাংকের পূর্বাভাস কোনো নির্বাচিত সরকারের বিকল্প নয় এবং বিদেশি প্রতিষ্ঠানের প্রতিটি নীতি-পরামর্শও অন্ধভাবে মানার বিধান নয়। বাংলাদেশের মানুষই ঠিক করবেন কোন করনীতি, ভর্তুকি বা ব্যাংক কাঠামো ন্যায্য। কিন্তু তথ্য লুকিয়ে রেখে সেই গণতান্ত্রিক সিদ্ধান্ত সম্ভব নয়। ৩ দশমিক ৪ শতাংশের সতর্কতা তাই সরকারের জন্য অপমান নয়; এটি পরীক্ষার প্রশ্নপত্র। এখন প্রয়োজন উত্তরপত্র—মাসভিত্তিক, সংখ্যাসহ, জনতার দেখার মতো করে। প্রথম প্রকাশের ৩০ দিনের মধ্যে অন্তত একটি পূর্ণাঙ্গ অগ্রগতি প্রতিবেদন না এলে, সংসদ ও নাগরিকদের সেই ব্যর্থতার কারণও জানার অধিকার আছে। এটি গণতান্ত্রিক জবাবদিহির মৌলিক শর্ত।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বিশ্বব্যাংক — South Asia Economic Update, অক্টোবর ২০২৬; ৬ অক্টোবর প্রকাশিত আঞ্চলিক প্রাথমিক নথি, যেখানে বাংলাদেশের প্রবৃদ্ধি, আর্থিক খাত, জ্বালানি ও রাজস্বের ঝুঁকির হালনাগাদ আছে",
+          "url": "https://thedocs.worldbank.org/en/doc/8ad688ae83bb2966f2ae7f2316431df3-0310012026/south-asia-economic-update-oct-2026"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক — Banking Sector Update, জুন ২০২৬; সব ব্যাংক ও ব্যাংক-গোষ্ঠীভিত্তিক শ্রেণিকৃত ঋণের প্রাথমিক পরিসংখ্যান",
+          "url": "https://www.bb.org.bd/pub/quaterly/bsupdate/banking%20sector%20update%20june%202026.pdf"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক — Quarterly Monetary Policy Statement, অক্টোবর–ডিসেম্বর ২০২৬; নীতি সুদ, মূল্যস্ফীতি, বেসরকারি ঋণ, সরকারি ব্যাংকঋণ ও সরকারের পারিবারিক-কার্ড সহায়তার সরকারি অবস্থান",
+          "url": "https://www.bb.org.bd/monetaryactivity/mps/mps_q2fy27.pdf"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — “Banking rot, energy crisis to choke growth: WB”, ৬ অক্টোবর ২০২৬; বিশ্বব্যাংকের সদ্যপ্রকাশিত বাংলাদেশ হালনাগাদের স্বাধীন সংবাদ প্রতিবেদন",
+          "url": "https://online92.thedailystar.net/business/news/banking-rot-energy-crisis-choke-growth-wb-4291786"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — “Bangladesh’s external sector shows resilience with strong remittance inflows, improving forex reserves: WB”, ৬ অক্টোবর ২০২৬; বিশ্বব্যাংকের উপস্থাপনা, সংস্কার-সুপারিশ ও সরকারের শক্তির জায়গার প্রতিবেদন",
+          "url": "https://www.bssnews.net/news/431835"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "World Bank’s 3.4% warning demands a monthly public reform scorecard",
+          "excerpt": "The World Bank says growth may stall at 3.4% as banking, energy and revenue weaknesses reinforce each other. Bangladesh now needs a public monthly record of reform delivery.",
+          "imageAlt": "Editorial illustration about public accountability for Bangladesh's banking, energy and revenue reforms",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A World Bank warning about banking, energy and revenue weakness must now be answered with measurable monthly public reform results."
+        },
+        "de": {
+          "title": "Die Weltbank-Warnung von 3,4 Prozent verlangt einen öffentlichen monatlichen Reformbericht",
+          "excerpt": "Die Weltbank erwartet nur 3,4 Prozent Wachstum, während Schwächen bei Banken, Energie und Einnahmen sich gegenseitig verstärken. Jetzt braucht Bangladesch monatlich überprüfbare Reformdaten.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft bei Banken-, Energie- und Einnahmenreformen in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Auf die Warnung zu Banken, Energie und Staatseinnahmen muss eine messbare monatliche öffentliche Reformbilanz folgen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 88,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "Fresh 6 October World Bank Bangladesh Development Update, clearly identified as a follow-up to the 5 October parliamentary bank-report editorial. The central factual claims are supported by World Bank and Bangladesh Bank primary documents and independently corroborated by The Daily Star. The editorial makes no claim of criminality or a forecast presented as observed fact; it asks for time-bound, proportionate disclosure of reform delivery.",
+        "governmentPosition": "Bangladesh Bank says inflation has eased but remains exposed to supply and energy-price shocks, and it kept the policy repo rate at 9.50 percent to balance inflation and weak activity. It acknowledges weak private credit, elevated NPLs and capital erosion, and says the government has begun monthly Tk2,500 Family Card support for eligible poor households. These positions are included and tested against the need for public reform milestones.",
+        "findings": [
+          "The World Bank’s 6 October update projects Bangladesh growth at 3.4 percent in FY26 and FY27, subject to reforms in financial, energy and revenue systems.",
+          "Bangladesh Bank reports that classified loans were 33.2 percent of all outstanding loans in June 2026; full-fledged Islamic banks were at 58.9 percent and state-owned commercial banks at 43.2 percent.",
+          "Bangladesh Bank reports private-sector credit growth of 4.75 percent in August 2026 and says government bank borrowing signals weak revenue mobilization and fiscal-financing needs.",
+          "The central bank recognises the impact of administered energy-price increases on transport, rent and services, and says it retained the 9.50 percent policy rate.",
+          "A monthly cross-agency dashboard can disclose reform actions and outcomes without exposing individual borrowers or private customer data."
+        ],
+        "claimMatrix": {
+          "worldBankGrowthForecast": "VERIFIED FACT — HIGH — World Bank October 2026 update; forecast explicitly labelled as forecast",
+          "classifiedLoanRatios": "VERIFIED FACT — HIGH — Bangladesh Bank June 2026 Banking Sector Update",
+          "privateCreditAndPolicyRate": "VERIFIED FACT — HIGH — Bangladesh Bank October–December 2026 Monetary Policy Statement",
+          "worldBankReformRecommendations": "REPORTED FACT — HIGH — BSS and The Daily Star, attributed to the 6 October World Bank update",
+          "governmentResponse": "VERIFIED FACT — HIGH — Bangladesh Bank Monetary Policy Statement",
+          "editorialConclusion": "ANALYSIS — HIGH — public milestones and aggregate results are proportionate accountability measures for acknowledged systemic reforms"
+        },
+        "seoTitle": "বিশ্বব্যাংকের ৩.৪% সতর্কতা: সংস্কারের খোলা হিসাব চাই",
+        "metaDescription": "বিশ্বব্যাংক বলছে ব্যাংক, জ্বালানি ও রাজস্বের দুর্বলতায় প্রবৃদ্ধি ৩.৪ শতাংশে আটকে থাকতে পারে। সরকারকে এবার সংস্কারের সময়সীমা ও মাসিক ফলাফল প্রকাশ করতে হবে।",
+        "categories": [
+          "অর্থনীতি",
+          "ব্যাংকিং",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "বিশ্বব্যাংক",
+          "বাংলাদেশ ব্যাংক",
+          "খেলাপি ঋণ",
+          "জ্বালানি",
+          "রাজস্ব",
+          "মূল্যস্ফীতি",
+          "সংস্কার",
+          "পারিবারিক কার্ড",
+          "সরকারি ঋণ",
+          "সংসদীয় তদারকি"
+        ]
+      },
+      "sharePath": "blog/world-bank-october-2026-reform-dashboard-follow-up"
+    },
+    {
       "id": "world-bank-food-security-fertiliser-credit-public-tracker-2026",
       "slug": "world-bank-food-security-fertiliser-credit-public-tracker-2026",
       "status": "published",
