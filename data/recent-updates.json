@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-06T10:22:49.444Z",
+  "updatedAt": "2026-10-06T17:13:05.222Z",
   "items": [
+    {
+      "id": "facebook-germany-122208339800921031",
+      "facebookId": "122208339800921031",
+      "status": "published",
+      "date": "৬ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-06T16:17:32+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "বিনম্র শ্রদ্ধা হে বীর!",
+      "excerpt": "ভারতীয় আগ্রাসনবিরোধী আন্দোলনের প্রতীক শহীদ আবরার ফাহাদ ৭ম শাহাদাত বার্ষিকীতে বিনম্র শ্রদ্ধা 🖤 তুমি ছিলে, তুমি আছো, তুমি থাকবে কোটি তরুণের হৃদয়ে।",
+      "sourceCaption": "বিনম্র শ্রদ্ধা হে বীর! 🇧🇩\n\nভারতীয় আগ্রাসনবিরোধী আন্দোলনের প্রতীক শহীদ আবরার ফাহাদ\n৭ম শাহাদাত বার্ষিকীতে বিনম্র শ্রদ্ধা 🖤\n\nতুমি ছিলে, তুমি আছো, তুমি থাকবে কোটি তরুণের হৃদয়ে।\nভারতীয় আগ্রাসনের বিরুদ্ধে তোমার কলম আজও আমাদের প্রেরণা।\n\n(১২ ফেব্রুয়ারি ১৯৯৮ - ৭ অক্টোবর ২০১৯)\n\n#AbrarFahad #বিপ্লব #শহীদআবরারফাহাদ #Bangladesh #BUET #ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208339800921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122208339800921031.jpg",
+      "imageAlt": "বিনম্র শ্রদ্ধা হে বীর!",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122208164354921031",
       "facebookId": "122208164354921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122207833388921031.jpg",
       "imageAlt": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122207755334921031",
-      "facebookId": "122207755334921031",
-      "status": "published",
-      "date": "৩ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-03T12:35:09+0000",
-      "badge": "প্রবাসী ইস্যু",
-      "title": "Former President of Serbia Boris Tadić Paid Visit to NCP Office",
-      "excerpt": "H.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary General of the China–Bangladesh Partnership Platform, met today with Mr. Nahid Islam MP, Opposition Chief Whip and Convener of the National Citizen Party (NCP), and Mr. Asif Mahmud Shojib Bhuyain, Spokesperson of NCP and Chief of its Sub-Committee on…",
-      "sourceCaption": "Former President of Serbia Boris Tadić Paid Visit to NCP Office\n\nH.E. Boris Tadić, former President of Serbia (2004–2012), and Mr. Alex Wang, Secretary General of the China–Bangladesh Partnership Platform, met today with Mr. Nahid Islam MP, Opposition Chief Whip and Convener of the National Citizen Party (NCP), and Mr. Asif Mahmud Shojib Bhuyain, Spokesperson of NCP and Chief of its Sub-Committee on Diaspora & International Affairs.\n\nMr. Alauddin Mohammad, Joint Member Secretary and member of Sub-Committee on Diaspora & International Affairs and Mr. Abdullah Al Faisal, Joint Chief Coordinator, were also present.\n\nThe meeting provided an opportunity to share experiences and perspectives on parliamentary engagement, democratic governance, and international relations, with discussions also focusing on the importance of continued dialogue and cooperation.\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207755334921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122207755334921031.jpg",
-      "imageAlt": "Former President of Serbia Boris Tadić Paid Visit to NCP Office",
       "managedBy": "facebook-sync"
     },
     {
@@ -256,7 +256,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67333,
+      "viewCount": 67334,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
