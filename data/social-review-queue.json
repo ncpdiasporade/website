@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T17:13:34.158Z",
+  "updatedAt": "2026-10-07T16:33:13.123Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6081,6 +6081,45 @@
           "description": "বিনম্র শ্রদ্ধা হে বীর!\n\nবিনম্র শ্রদ্ধা হে বীর! 🇧🇩 ভারতীয় আগ্রাসনবিরোধী আন্দোলনের প্রতীক শহীদ আবরার ফাহাদ ৭ম শাহাদাত বার্ষিকীতে বিনম্র শ্রদ্ধা 🖤 তুমি ছিলে, তুমি আছো, তুমি থাকবে কোটি তরুণের হৃদয়ে। ভারতীয় আগ্রাসনের বিরুদ্ধে তোমার কলম আজও আমাদের প্রেরণা। (১২ ফেব্রুয়ারি ১৯৯৮ - ৭ অক্টোবর ২০১৯) #AbrarFahad #বিপ্লব #শহীদআবরারফাহাদ #Bangladesh #BUET #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122208339800921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122208339800921031-0f8ce6a5b8-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122208456866921031-17e758fd93",
+      "sourceType": "facebook",
+      "sourceId": "122208456866921031",
+      "sourceKey": "facebook:germany:122208456866921031",
+      "sourceFingerprint": "17e758fd936de15063bfb87b442a0992627ca8ea79a12ddb8ade471ba0fa2c7b",
+      "sourceCreatedAt": "2026-10-07T10:41:05+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208456866921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-07T16:33:13.123Z",
+      "updatedAt": "2026-10-07T16:33:13.123Z",
+      "title": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "excerpt": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "sourceCaption": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "image": "img/social/germany/fb-122208456866921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী\nhttps://www.facebook.com/122195961254921031/posts/122208456866921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122208456866921031-17e758fd93-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+          "description": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী\n\nআজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122208456866921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122208456866921031-17e758fd93-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
