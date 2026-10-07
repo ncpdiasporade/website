@@ -1,6 +1,252 @@
 {
   "items": [
     {
+      "id": "radiotherapy-machines-delivery-disclosure-2026",
+      "slug": "radiotherapy-machines-delivery-disclosure-2026",
+      "status": "published",
+      "tag": "জনস্বাস্থ্য ও জবাবদিহি",
+      "title": "১৭টি রেডিওথেরাপি মেশিনের প্রতিশ্রুতি যথেষ্ট নয়—জুনের আগেই হাসপাতাল, ক্রয় ও চালুর পূর্ণ হিসাব চাই",
+      "date": "৭ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-07T20:42:00+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "সরকার জুনের মধ্যে ১৭টি রেডিওথেরাপি মেশিন বসানোর কথা বলেছে। দীর্ঘ অপেক্ষায় থাকা ক্যানসার রোগীদের জন্য এটি জরুরি পদক্ষেপ; কিন্তু কোন হাসপাতালে, কোন অর্থে, কোন ক্রয়ে ও কোন জনবলে তা চালু হবে—সেই প্রকাশ্য হিসাব ছাড়া প্রতিশ্রুতির ফল যাচাই করা যাবে না।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability for cancer radiotherapy access in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "যন্ত্র কেনার ঘোষণার পর আসল পরীক্ষা হলো: কোন হাসপাতালে কবে চালু, কত রোগী সেবা পেলেন, আর কতদিন অপেক্ষা কমল",
+      "facebookCaption": "সরকার জুনের মধ্যে ১৭টি রেডিওথেরাপি মেশিন বসানোর কথা বলেছে। অপেক্ষমাণ ক্যানসার রোগীদের জন্য এটি জরুরি। এখন হাসপাতালভিত্তিক তালিকা, বাজেট, টেন্ডার, জনবল, চালুর তারিখ ও অপেক্ষার সারি কমার ফল প্রকাশ করতে হবে।",
+      "facts": [
+        {
+          "value": "১৭টি",
+          "label": "স্বাস্থ্য মন্ত্রীর ৭ অক্টোবরের ঘোষণা অনুযায়ী জুন ২০২৭-এর মধ্যে বসানোর কথা বলা নতুন রেডিওথেরাপি মেশিন"
+        },
+        {
+          "value": "৬ + ১১",
+          "label": "সরকারি ঘোষণায় ঢাকায় ছয়টি ও ঢাকার বাইরে ১১টি মেশিন বসানোর পরিকল্পনা"
+        },
+        {
+          "value": "৬,৫০০–৭,০০০",
+          "label": "TBS-এর ২৬ সেপ্টেম্বরের প্রতিবেদনে জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট ও হাসপাতালে উল্লেখিত অপেক্ষমাণ রোগীর সংখ্যা"
+        },
+        {
+          "value": "১,৬৭,২৫৬",
+          "label": "IARC-এর GLOBOCAN 2022 অনুমান অনুযায়ী বাংলাদেশে এক বছরে নতুন ক্যানসার রোগী"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "সরকার বলেছে, আগামী জুনের মধ্যে সরকারি হাসপাতালে ১৭টি নতুন রেডিওথেরাপি মেশিন বসানো হবে। ক্যানসার চিকিৎসার দীর্ঘ সারিতে দাঁড়িয়ে থাকা মানুষের কাছে এটি শুধু একটি যন্ত্র-ঘোষণা নয়; সময়মতো চিকিৎসা পাওয়ার সম্ভাবনা। কিন্তু এই প্রতিশ্রুতির মূল্য হবে ফলাফলে, মঞ্চের বক্তব্যে নয়। কোন ১৭টি হাসপাতালে কী যন্ত্র যাবে, কত টাকায়, কোন টেন্ডারে, কবে কক্ষ প্রস্তুত হবে, কতজন চিকিৎসক-ফিজিসিস্ট-প্রযুক্তিবিদ থাকবেন এবং প্রথম রোগী কবে চিকিৎসা পাবেন—এই হিসাব এখনই প্রকাশ করা চাই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আমাদের অবস্থান পরিষ্কার। নতুন যন্ত্র বসানোর সিদ্ধান্ত সঠিক দিকে পদক্ষেপ; সেটিকে ছোট করে দেখানো রোগীদের স্বার্থে নয়। আবার অতীতের যন্ত্র বসে থাকা, নষ্ট হয়ে যাওয়া বা জনবলের অভাবে বন্ধ থাকার অভিজ্ঞতার পর শুধু ‘আসছে’ শুনে নিশ্চিন্ত হওয়ারও কারণ নেই। স্বাস্থ্য মন্ত্রণালয়কে জুন ২০২৭ পর্যন্ত অপেক্ষা না করে মাসে মাসে দৃশ্যমান অগ্রগতি জানাতে হবে। সেটিই হবে সরকারকে সমর্থন করারও সবচেয়ে সৎ উপায়: কাজ হলে কৃতিত্ব, না হলে দায়—দুইটিই প্রমাণের ভিত্তিতে।"
+        },
+        {
+          "type": "callout",
+          "text": "ক্যানসার রোগীর কাছে ‘মেশিন আসবে’ কোনো চিকিৎসা নয়। চিকিৎসা শুরু হয় তখনই, যখন যন্ত্রটি নিরাপদে চালু, প্রশিক্ষিত দল প্রস্তুত এবং অপেক্ষমাণ রোগীর তারিখ হাতে।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার কী বলেছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "৭ অক্টোবর সচিবালয়ের সংবাদ ব্রিফিংয়ে স্বাস্থ্য ও পরিবারকল্যাণমন্ত্রী সারদার মো. সাখাওয়াত হোসাইন বলেন, ১৭টি নতুন রেডিওথেরাপি মেশিন সরকারি হাসপাতালে বসানো হবে। বাংলাদেশ সংবাদ সংস্থার প্রতিবেদনে তাঁর ভাষ্য অনুযায়ী, ছয়টি বিশেষায়িত হাসপাতাল ও মেডিকেল কলেজে ঢাকায় এবং ১১টি ঢাকার বাইরে বসবে; প্রয়োজনীয় কারিগরি জনবলের প্রশিক্ষণও শুরু হয়েছে। দ্য ডেইলি স্টার একই ব্রিফিং থেকে জানায়, লক্ষ্য আগামী জুনের মধ্যে স্থাপন শেষ করা এবং ছয়টি হবে লিনিয়ার অ্যাক্সিলারেটর।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের যুক্তিটিও শক্তিশালী এবং তা বাদ দেওয়ার উপায় নেই। মন্ত্রী নিজেই বলেছেন, ক্যানসার রোগী বাড়ছে এবং কেমোথেরাপি ও রেডিওথেরাপির যন্ত্রের সংকট ও বিকল যন্ত্র দরিদ্র রোগীর চিকিৎসাকে কঠিন করে তুলছে। নতুন সক্ষমতা ঢাকার বাইরেও গেলে মানুষের ভ্রমণ, ভাড়া ও দীর্ঘ অপেক্ষার চাপ কমতে পারে। সঠিক যন্ত্র, সঠিক স্থানে, নিরবচ্ছিন্নভাবে চালু হলে এই সিদ্ধান্তের উপকার সরাসরি রোগীর ঘরে পৌঁছাবে।"
+        },
+        {
+          "type": "heading",
+          "text": "সারির বাস্তবতা: ঘোষণার কারণ এখানেই"
+        },
+        {
+          "type": "paragraph",
+          "text": "২৬ সেপ্টেম্বরের দ্য বিজনেস স্ট্যান্ডার্ডের মাঠপ্রতিবেদনটি দেখায় কেন জুনের সময়সীমা কেবল প্রশাসনিক ক্যালেন্ডার নয়। জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট ও হাসপাতালে প্রতিদিন ২০০ থেকে ৩০০ নতুন রোগী রেডিওথেরাপির খোঁজে আসেন বলে হাসপাতাল কর্তৃপক্ষ জানিয়েছে। প্রতিবেদনে অপেক্ষমাণ রোগীর সংখ্যা ৬ হাজার ৫০০ থেকে ৭ হাজার বলা হয়েছে। প্রতিষ্ঠানটির পরিচালক বলেছেন, চালু আছে মাত্র দুটি রেডিওথেরাপি মেশিন; তিনটি অতিরিক্ত বাঙ্কারে আগে বসানো যন্ত্র নষ্ট।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একই প্রতিবেদনে ঢাকা মেডিকেল কলেজ হাসপাতালে তিনটি বাঙ্কারের বিপরীতে একটিমাত্র মেশিন এবং বাংলাদেশ মেডিকেল বিশ্ববিদ্যালয়ে এক মেশিনে দৈনিক প্রায় ৭০ জন চিকিৎসা পাওয়ার কথা এসেছে। সেখানে নতুন রোগীর চাপ দৈনিক ২০০ থেকে ৩০০; অপেক্ষার তালিকা প্রায় ছয় মাসের। চিকিৎসকদের বক্তব্য, তিন থেকে চার মাসের বিলম্ব কিছু রোগীর ক্ষেত্রে রোগকে আরও জটিল করে দিতে পারে। এটি কোনো একক রোগীর চিকিৎসা-ফল নিয়ে রায় নয়; কিন্তু সারি ছোট করা কেন জরুরি, তার যথেষ্ট ব্যাখ্যা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আন্তর্জাতিক ক্যানসার গবেষণা সংস্থা আইএআরসি-র GLOBOCAN 2022 তথ্যপত্রে বাংলাদেশে ওই বছরে নতুন ক্যানসার রোগীর সংখ্যা ১ লাখ ৬৭ হাজার ২৫৬ এবং ক্যানসারে মৃত্যুর আনুমানিক সংখ্যা ১ লাখ ১৬ হাজার ৫৯৮। এগুলো নিবন্ধিত প্রতিটি রোগীর পূর্ণ গণনা নয়, মডেলভিত্তিক আন্তর্জাতিক অনুমান—তাই এগুলোকে বর্তমান হাসপাতাল-সারির বিকল্প বলা যাবে না। কিন্তু রোগের বোঝা যে বড়, সেই প্রেক্ষাপটটি তারা স্পষ্ট করে।"
+        },
+        {
+          "type": "heading",
+          "text": "আগের সমস্যার সঙ্গে এবারকার প্রতিশ্রুতির পরীক্ষা"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের জন্য সবচেয়ে অস্বস্তিকর কিন্তু সবচেয়ে দরকারি তথ্যটি এসেছে সরকারেরই স্বাস্থ্য ব্যবস্থার এক কর্মকর্তার কথায়। TBS-কে স্বাস্থ্য অধিদপ্তরের প্রশাসনবিষয়ক মহাপরিচালক অধ্যাপক ডা. জাহিদ রায়হান বলেন, ফরিদপুর ও খুলনাসহ কয়েকটি মেডিকেল কলেজে লিনিয়ার অ্যাক্সিলারেটর বাক্সবন্দী অবস্থায় নষ্ট হতে দেখা গেছে। তিনি এটিকে সরকারি যন্ত্র ক্রয়ের ‘সততার’ সমস্যা হিসেবে বর্ণনা করেন এবং সমাধানের চেষ্টা চলছে বলেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই বক্তব্য থেকে ১৭টি নতুন মেশিনের ক্রয়ে অনিয়ম হয়েছে বা হবেই—এমন কথা বলা যাবে না। তেমন কোনো নথি আমাদের কাছে নেই। কিন্তু একটি সুস্পষ্ট নীতিগত শিক্ষা পাওয়া যায়: কেনা আর চালু হওয়া এক জিনিস নয়। রেডিওথেরাপি যন্ত্রের জন্য বাঙ্কার, বিদ্যুৎ ও শীতলীকরণ, রেডিয়েশন সুরক্ষা, মেডিকেল ফিজিসিস্ট, রেডিয়েশন অনকোলজিস্ট, প্রকৌশলী, রক্ষণাবেক্ষণ চুক্তি এবং মান-নিয়ন্ত্রণ দরকার। বিশ্ব স্বাস্থ্য সংস্থার ২০২৩ সালের নির্দেশিকাও যন্ত্র কেনা থেকে আয়ুষ্কাল শেষে বদলানো পর্যন্ত পুরো ব্যবস্থাপনা পরিকল্পনার কথা বলে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তাই পুরোনো ব্যর্থতার দায় শুধু আগের কারও ঘাড়ে দিয়ে বর্তমানের কাজ শেষ হয় না। বর্তমান সরকারের সুবিধা হলো, সমস্যাটি এখন প্রকাশ্যে স্বীকৃত। সেই স্বীকৃতির পর ন্যূনতম দায়িত্ব হলো আগের ভুল যাতে না ফেরে, তার প্রমাণ আগেভাগে দেখানো। জুনে ছবি তুলে মেশিন উদ্বোধন নয়, কার্যকর সেবা দেওয়াই প্রকল্পের শেষ মাপকাঠি হতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "সংখ্যা বাড়লেই সেবা বাড়ে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৭টি মেশিনের সংখ্যা শুনতে বড়, এবং বর্তমান ঘাটতিতে তা অবশ্যই গুরুত্বপূর্ণ। কিন্তু এই একটি সংখ্যা থেকে কত রোগীর অপেক্ষা কমবে, কতটি কেন্দ্র সত্যিকার অর্থে নতুন সেবা দেবে, বা ঢাকার বাইরের মানুষ কী সুবিধা পাবেন—এখনই হিসাব করা সৎ হবে না। প্রতিটি মেশিনের ধরন, প্রতিদিনের নিরাপদ চিকিৎসা-ক্ষমতা, নির্ধারিত চিকিৎসার ধরন, কর্মঘণ্টা এবং রোগী বণ্টন আলাদা হতে পারে। নতুন যন্ত্রের সঙ্গে যদি পুরোনো অচল যন্ত্র মেরামত, পর্যাপ্ত কর্মী এবং স্থানীয় রেফারেল-ব্যবস্থা না বাড়ে, তাহলে কেবল ঘোষিত সংখ্যা দিয়ে অপেক্ষার সারি মাপা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই সতর্কতা নতুন উদ্যোগের বিরোধিতা নয়। বরং সঠিক পরিকল্পনার দাবি। জাতীয় ক্যানসার গবেষণা ইনস্টিটিউটের পরিচালক TBS-কে বলেছেন, সাত থেকে ১০টি মেশিন সচল থাকলে অপেক্ষার সময় উল্লেখযোগ্যভাবে কমানো যেত। একই প্রতিবেদনে তিনি বলেন, নির্ধারিত রোগীদের চিকিৎসা শেষ না করে নতুন রোগী নেওয়া যায় না এবং একটি কোর্স প্রায় ছয় সপ্তাহ চলতে পারে। তাই একটি হাসপাতালের মেশিন বসার ছবি আর সেই হাসপাতালের নতুন রোগীর জন্য নির্ভরযোগ্য সময় দেওয়ার সক্ষমতার মধ্যে বড় পার্থক্য আছে। ড্যাশবোর্ডে শুধু ‘স্থাপিত’ নয়, ‘সচল’, ‘চিকিৎসা দিচ্ছে’, ‘পরিকল্পিত রক্ষণাবেক্ষণে’ এবং ‘অচল’—এই আলাদা অবস্থা থাকতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ঢাকার বাইরে ১১টি মেশিন দেওয়ার ঘোষণার সম্ভাবনা এখানেই সবচেয়ে বড়। দূর জেলার একজন রোগীর জন্য ঢাকায় আসা মানে শুধু ভ্রমণ নয়; সঙ্গে থাকা মানুষ, থাকা-খাওয়া, কাজের আয় হারানো এবং অনিশ্চিত তারিখের চাপ। কিন্তু হাসপাতালের নাম ছাড়া নাগরিক বা স্থানীয় প্রতিনিধি জানবেন না তাঁদের অঞ্চলে আদৌ কী আসছে। কোন এলাকায় ক্যানসার-চিকিৎসা কেন্দ্র আছে, কোন জায়গায় নতুন বাঙ্কার দরকার, কোন জায়গায় প্রশিক্ষিত দল আছে এবং কোন জায়গা থেকে রোগী সবচেয়ে বেশি অন্যত্র পাঠানো হয়—এসব মানদণ্ড প্রকাশ করলে বণ্টনের ন্যায্যতাও যাচাই করা যাবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "মন্ত্রণালয়ের সামনে সময় এখনও আছে বলেই প্রকাশ্য পরিকল্পনার দাবি জরুরি। পরিকল্পনা গোপন রেখে শেষ মুহূর্তে বাধা জানালে রোগীর কোনো লাভ হয় না। এখনই চুক্তি, নির্মাণ, আমদানি, স্থাপন, সুরক্ষা পরীক্ষা, লাইসেন্স, ট্রায়াল এবং রোগী নেওয়ার সময়কে আলাদা ধাপে দেখালে প্রকল্প ব্যবস্থাপকেরাও চাপ ও সহায়তা দুটোই পাবেন। কোনো ধাপ পিছিয়ে গেলে কারণ, সংশোধিত তারিখ এবং করণীয়ও লেখা উচিত। প্রকল্পে সমস্যা হওয়া ব্যতিক্রম নয়; সমস্যা লুকিয়ে রেখে রোগীকে অনিশ্চয়তায় রাখা ব্যর্থতা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সংসদীয় তদারকিরও কাজ আছে। স্বাস্থ্য মন্ত্রণালয় ও স্বাস্থ্য অধিদপ্তরকে নিয়মিত অগ্রগতি দিতে বললে প্রতিনিধিরা দেখাতে পারবেন, বরাদ্দ কোথায় আটকে আছে এবং কোথায় রোগীর কষ্ট কমছে। সরকারের বিরোধী দলের সংসদ সদস্যদের জন্যও এটি স্লোগানের বদলে নথি ধরে প্রশ্ন করার সুযোগ। আর রোগীর পরিবারের জন্য অর্থ হবে আরও সহজ: ঘোষণার খবর শুনে কোথায় যেতে হবে, কবে ফোন করতে হবে বা স্থানীয় হাসপাতালেই সেবা মিলবে কি না—তার উত্তর আগেই জানা। জনস্বাস্থ্য পরিকল্পনা তখন দূরের নথি থাকে না; তা চিকিৎসার পথে বাস্তব নির্দেশনা হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তথ্য প্রকাশের আরেকটি লাভ হলো আঞ্চলিক বৈষম্য ধরা পড়া। শুধু ঢাকায় যন্ত্র বাড়লে জাতীয় সক্ষমতা বাড়লেও দূরের রোগীর যাত্রা ও খরচ অপরিবর্তিত থাকতে পারে। আবার শুধু যন্ত্র পাঠিয়ে দক্ষ দল না দিলে সেটি ব্যবহার না হওয়ার ঝুঁকি থাকে। হাসপাতালভিত্তিক অপেক্ষার সময়, রেফারেল, কর্মী এবং যন্ত্রের সচলতার তথ্য একসঙ্গে থাকলে কোন জেলায় পরের বিনিয়োগ দরকার, তা অনুমান নয়, প্রমাণ দিয়ে ঠিক করা সম্ভব। সরকারের নিজেদের পরবর্তী বাজেট ও ক্রয় সিদ্ধান্তও তখন আরও শক্ত ভিত্তি পাবে।"
+        },
+        {
+          "type": "heading",
+          "text": "কোন তথ্য এখনই প্রকাশ করা দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "মন্ত্রীর ঘোষণা রোগীদের আশার কারণ, কিন্তু ঘোষণার সঙ্গে হাসপাতালভিত্তিক পূর্ণ বাস্তবায়ন তালিকা প্রকাশ পেলে সেই আশা যাচাইযোগ্য হবে। এতে কোনো বাণিজ্যিক গোপন তথ্য ফাঁসের প্রয়োজন নেই। মানুষকে বলা যায় কোন হাসপাতালে কোন ধরনের মেশিন যাবে, কোনটি নতুন বাঙ্কারে আর কোনটি বিদ্যমান বাঙ্কারে বসবে, কারা পরিচালনার প্রশিক্ষণ নিচ্ছেন, এবং প্রতিটি ধাপে লক্ষ্যমাত্রার তারিখ কী।"
+        },
+        {
+          "type": "list",
+          "items": [
+            "১৭টি মেশিনের হাসপাতালভিত্তিক নাম, ধরন ও সক্ষমতা প্রকাশ করতে হবে।",
+            "প্রতিটির অর্থের উৎস, অনুমোদিত ব্যয়, ক্রয়পদ্ধতি, টেন্ডার বা প্যাকেজ নম্বর এবং চুক্তির অবস্থা এক পাতায় দিতে হবে।",
+            "বাঙ্কার, বিদ্যুৎ, সুরক্ষা-অনুমোদন ও স্থাপনার কাজ কবে শেষ হবে—সেই মাইলফলক দেখাতে হবে।",
+            "হাসপাতালভিত্তিক রেডিয়েশন অনকোলজিস্ট, মেডিকেল ফিজিসিস্ট, প্রযুক্তিবিদ ও প্রকৌশলীর অনুমোদিত ও কর্মরত পদের সংখ্যা জানাতে হবে।",
+            "চালুর পর কত রোগী চিকিৎসা পেলেন, গড় অপেক্ষার সময় কত কমল এবং কত দিন যন্ত্র অচল ছিল—প্রতি মাসে সেই ফল প্রকাশ করতে হবে।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "জবাবদিহির লক্ষ্য ঘোষণা ঠেকানো নয়, রোগীকে সময় দেওয়া"
+        },
+        {
+          "type": "paragraph",
+          "text": "কেউ বলতে পারেন, এত তথ্য চাওয়া প্রকল্পকে ধীর করবে। বাস্তবতা উল্টো। হাসপাতাল, সরবরাহকারী, প্রকৌশলী এবং রোগীর পরিবার একই সময়সূচি দেখলে কোথায় আটকে আছে তা দ্রুত বোঝা যায়। টেন্ডার দেরি হলে সেটি ধরা পড়ে, বাঙ্কার প্রস্তুত না হলে আগে ব্যবস্থা নেওয়া যায়, প্রশিক্ষিত জনবল না থাকলে বদলি বা নিয়োগের চাপ তৈরি হয়। অস্পষ্টতা দুর্নীতির একমাত্র কারণ নয়, কিন্তু অস্পষ্টতা ভুল ঢাকার জায়গা করে দেয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের বক্তব্য অনুযায়ী প্রশিক্ষণ শুরু হয়েছে—এটি স্বাগতযোগ্য। কিন্তু প্রশিক্ষণের নাম নয়, ফল জানতে হবে। কতজন কোন দক্ষতায় প্রশিক্ষণ নিচ্ছেন, তাঁরা কোথায় দায়িত্ব নেবেন, যন্ত্র চালুর আগে সুরক্ষার পরীক্ষা কে করবেন এবং বিকল হলে কত সময়ে মেরামত হবে—এই প্রশ্নগুলোর উত্তর ছাড়া রোগীর হাতে তারিখ পৌঁছায় না। যন্ত্র কেবল ক্রয়-তালিকার বস্তু নয়; এটি একটি পূর্ণ সেবা-ব্যবস্থা।"
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৭টি মেশিন বসানোর অঙ্গীকারকে আমরা সমর্থন করি, কারণ বর্তমান সংকটে নতুন সক্ষমতা দরকার। কিন্তু সমর্থন মানে খালি চেক নয়। জাতীয় ক্যানসার গবেষণা ইনস্টিটিউটের দীর্ঘ সারি এবং নষ্ট বা অচল যন্ত্রের তথ্য মনে করিয়ে দেয়, রোগীর জন্য আসল প্রতিশ্রুতি হলো চালু সেবা। স্বাস্থ্য মন্ত্রণালয় নভেম্বরের মধ্যে হাসপাতাল, ব্যয়, ক্রয়, অবকাঠামো, জনবল ও জুনের চালুর তারিখসহ একটি খোলা ড্যাশবোর্ড প্রকাশ করুক। এরপর প্রতি মাসে ফল জানাক। জুনে যদি মেশিনগুলো সত্যিই চালু হয়, সারি কমে এবং কম খরচে মানুষ চিকিৎসা পায়, সরকার তার কৃতিত্ব পাবে। আর যদি আবার বাক্স, বাঙ্কার ও অপেক্ষার তালিকার ফাঁকে রোগীরা হারিয়ে যান, তখন দায়টিও পরিষ্কার থাকবে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা (BSS) · 17 new radiotherapy machines to be added to make cancer treatment accessible · ৭ অক্টোবর ২০২৬",
+          "url": "https://www.bssnews.net/news/432302"
+        },
+        {
+          "label": "The Daily Star · 17 radiotherapy machines to be installed in public hospitals by June next year · ৭ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/news/governance/news/17-radiotherapy-machines-be-installed-public-hospitals-june-health-minister-4292861"
+        },
+        {
+          "label": "The Business Standard · Cancer patients face long waits amid radiotherapy machine shortage · ২৬ সেপ্টেম্বর ২০২৬",
+          "url": "https://www.tbsnews.net/bangladesh/health/cancer-patients-face-long-waits-amid-radiotherapy-machine-shortage-1553881"
+        },
+        {
+          "label": "International Agency for Research on Cancer (WHO) · Bangladesh fact sheet, GLOBOCAN 2022",
+          "url": "https://gco.iarc.who.int/media/globocan/factsheets/populations/50-bangladesh-fact-sheet.pdf"
+        },
+        {
+          "label": "World Health Organization · Sustainable management of radiotherapy facilities and equipment · ২০২৩",
+          "url": "https://www.who.int/publications/b/69546"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Seventeen radiotherapy machines need a public delivery plan",
+          "excerpt": "The government has pledged 17 new radiotherapy machines by June 2027. Patients need the named hospitals, procurement route, staffing plan, commissioning dates and monthly proof that waiting times are falling.",
+          "imageAlt": "Editorial illustration about public accountability for cancer radiotherapy access in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A radiotherapy pledge will count only when named hospitals, staffed machines and shorter queues are publicly demonstrated."
+        },
+        "de": {
+          "title": "Siebzehn Strahlentherapiegeräte brauchen einen öffentlichen Lieferplan",
+          "excerpt": "Die Regierung verspricht bis Juni 2027 siebzehn neue Geräte. Patientinnen und Patienten brauchen benannte Kliniken, Beschaffung, Personal, Inbetriebnahmetermine und monatliche Nachweise kürzerer Wartezeiten.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft für den Zugang zur Krebs-Strahlentherapie in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Das Versprechen zählt erst, wenn benannte Kliniken, Personal und kürzere Warteschlangen öffentlich nachweisbar sind."
+        }
+      },
+      "automation": {
+        "evidenceScore": 85,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "A fresh 7 October Health Ministry commitment is independently reported by BSS and The Daily Star, including the 17-machine total, the Dhaka/outside-Dhaka split and June 2027 target. TBS provides independently reported, recent hospital-level evidence of the existing shortage, long queues and prior equipment failures, while IARC supplies clearly labelled 2022 burden estimates and WHO supplies lifecycle-management context. The article does not say the 17 machines have been bought, that any tender has been awarded, that corruption occurred, or that the pledge will fail. It tests a concrete government commitment against documented service constraints and asks for a proportionate public delivery record.",
+        "governmentPosition": "The Health Minister says 17 new machines, including six in Dhaka and 11 outside it, will improve access for cancer patients; the ministry says training for needed technical staff has begun. This is a legitimate response to a recognised shortage and the editorial accepts the need for expansion. The conclusion is that a June deadline is credible only when hospitals, procurement, infrastructure, staffing and commissioning outcomes are openly trackable.",
+        "findings": [
+          "BSS and The Daily Star independently reported the 7 October ministerial announcement of 17 new radiotherapy machines, with six planned in Dhaka and 11 outside it; The Daily Star reported a June 2027 installation target.",
+          "TBS reported on 26 September that NICRH had only two operating radiotherapy machines, 6,500–7,000 people on its waiting list and 200–300 new radiotherapy seekers daily, based on hospital authorities and named clinicians.",
+          "TBS also reported statements from DGHS administration director Professor Dr Zahid Raihan about previously packed-and-deteriorating LINACs at several medical colleges; this is used as a delivery-risk context, not as proof of wrongdoing in the new plan.",
+          "IARC's GLOBOCAN 2022 country fact sheet estimates 167,256 new cancer cases and 116,598 cancer deaths in Bangladesh in 2022. These are international estimates, not a current registry count or a measure of radiotherapy demand.",
+          "WHO's 2023 guidance says sustainable radiotherapy services require lifecycle management from procurement through replacement, supporting scrutiny of infrastructure, staffing, quality management and maintenance alongside machine acquisition.",
+          "The proportionate remedy is a hospital-by-hospital public dashboard covering machine type, financing, procurement stage, site readiness, staffing, commissioning and service outcomes."
+        ],
+        "claimMatrix": {
+          "seventeenMachineCommitment": "REPORTED OFFICIAL COMMITMENT — HIGH — BSS and The Daily Star independently report the minister's 7 October announcement; it is not presented as a completed purchase or installation.",
+          "june2027Deadline": "REPORTED FACT — HIGH — The Daily Star reports the minister said installation would occur by June next year; BSS confirms the same-day commitment but does not add the deadline.",
+          "currentQueuesAndMachineShortage": "STRONGLY SUPPORTED — HIGH — TBS reports specific, attributed NICRH, Dhaka Medical and BMU capacity and waiting-list accounts on 26 September.",
+          "priorEquipmentFailureContext": "REPORTED OFFICIAL POSITION — HIGH — TBS attributes the account of deteriorating packed LINACs to a named DGHS official; no claim of crime or responsibility is made.",
+          "nationalCancerBurden": "VERIFIED ESTIMATE — HIGH — IARC GLOBOCAN 2022 fact sheet; explicitly labelled as an estimate for 2022.",
+          "procurementOrInstallationStatusOfNew17": "UNVERIFIED — NOT ASSERTED — no tender award, contract, hospital list or commissioning record for the 17 machines is claimed.",
+          "editorialConclusion": "ANALYSIS — HIGH — public lifecycle milestones and monthly service outcomes are a proportionate accountability test for a time-bound medical-equipment pledge."
+        },
+        "seoTitle": "১৭ রেডিওথেরাপি মেশিন: প্রকাশ্য ডেলিভারি পরিকল্পনা চাই",
+        "metaDescription": "সরকার ১৭টি রেডিওথেরাপি মেশিন বসানোর প্রতিশ্রুতি দিয়েছে। ক্যানসার রোগীদের জন্য হাসপাতাল, ক্রয়, জনবল, চালু ও অপেক্ষার সারি কমার মাসিক হিসাব প্রকাশ জরুরি।",
+        "categories": [
+          "জনস্বাস্থ্য",
+          "সরকারি জবাবদিহি",
+          "ক্যানসার চিকিৎসা"
+        ],
+        "tags": [
+          "রেডিওথেরাপি",
+          "ক্যানসার চিকিৎসা",
+          "স্বাস্থ্য মন্ত্রণালয়",
+          "সরকারি হাসপাতাল",
+          "লিনিয়ার অ্যাক্সিলারেটর",
+          "জাতীয় ক্যানসার গবেষণা ইনস্টিটিউট",
+          "চিকিৎসার অপেক্ষা",
+          "স্বাস্থ্য খাত",
+          "সরকারি ক্রয়",
+          "জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/radiotherapy-machines-delivery-disclosure-2026"
+    },
+    {
       "id": "dengue-october-response-disclosure-2026",
       "slug": "dengue-october-response-disclosure-2026",
       "status": "published",
