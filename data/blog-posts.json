@@ -1,6 +1,241 @@
 {
   "items": [
     {
+      "id": "dengue-october-response-disclosure-2026",
+      "slug": "dengue-october-response-disclosure-2026",
+      "status": "published",
+      "tag": "জনস্বাস্থ্য ও জবাবদিহি",
+      "title": "দশ মৃত্যু, ১,৯৯৬ ভর্তি: ডেঙ্গু প্রস্তুতির ফল এখন জেলা ও হাসপাতালভিত্তিক প্রকাশ করতে হবে",
+      "date": "৭ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-07T16:30:02+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "২৪ ঘণ্টায় ১০ জনের মৃত্যু ও ১,৯৯৬ জনের হাসপাতালে ভর্তির পর সরকার বলছে, শয্যা, পরীক্ষা ও চিকিৎসাসামগ্রী বাড়ানো হয়েছে। সেই দাবি যাচাইয়ের জন্য প্রতিরোধ, রেফারেল ও হাসপাতাল-চাপের জেলা-ভিত্তিক ফল প্রকাশ এখন জরুরি।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability in Bangladesh dengue response",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "মৃত্যুর সংখ্যা কমানোর দাবি যাচাই হবে হাসপাতালের শয্যা, রেফারেল ও মশক নিয়ন্ত্রণের প্রকাশ্য ফলাফলে",
+      "facebookCaption": "৬ অক্টোবরের সরকারি হিসাবে ২৪ ঘণ্টায় ১০ জন ডেঙ্গু রোগীর মৃত্যু এবং ১,৯৯৬ জনের হাসপাতালে ভর্তি হয়েছে। সরকার বলছে, শয্যা ও চিকিৎসাসামগ্রী বাড়ানো হয়েছে। এখন প্রতিটি জেলা ও হাসপাতালের বাস্তব শয্যা-চাপ, রেফারেল এবং মশক নিয়ন্ত্রণের ফল প্রকাশ করতে হবে।",
+      "facts": [
+        {
+          "value": "১০ জন",
+          "label": "৬ অক্টোবর সকাল ৮টা পর্যন্ত আগের ২৪ ঘণ্টায় ডেঙ্গুতে মৃত্যুর স্বাস্থ্য অধিদপ্তরের হিসাব"
+        },
+        {
+          "value": "১,৯৯৬ জন",
+          "label": "একই ২৪ ঘণ্টায় নতুন হাসপাতালে ভর্তি; চলতি বছরে এক দিনের সর্বোচ্চ মৃত্যুর সরকারি হিসাবের সঙ্গে প্রকাশিত"
+        },
+        {
+          "value": "২৮১ জন ও ৯০,৩৫৬ জন",
+          "label": "৬ অক্টোবর পর্যন্ত চলতি বছরের মোট মৃত্যু ও হাসপাতালে ভর্তির স্বাস্থ্য অধিদপ্তরের হিসাব"
+        },
+        {
+          "value": "১৪৮ জন",
+          "label": "সেপ্টেম্বরে রিপোর্ট হওয়া ডেঙ্গু মৃত্যু; পরবর্তী কয়েক দিনের অক্টোবরেও ৩৬ মৃত্যুর কথা স্বাধীন প্রতিবেদনে এসেছে"
+        },
+        {
+          "value": "০.৩১%",
+          "label": "সরকারি ভাষ্য অনুযায়ী ৬ অক্টোবর পর্যন্ত শনাক্ত/হাসপাতাল-ভর্তি তথ্যের ভিত্তিতে মামলাপ্রতি মৃত্যুর হার; এটি সংক্রমণ প্রতিরোধের পূর্ণ মাপকাঠি নয়"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "এক দিনে ১০ জনের মৃত্যু এবং ১,৯৯৬ জনের হাসপাতালে ভর্তি কোনো সাধারণ দৈনিক ওঠানামা নয়। ৬ অক্টোবর সকাল ৮টা পর্যন্ত আগের ২৪ ঘণ্টার এই হিসাব স্বাস্থ্য অধিদপ্তরের; এতে চলতি বছরে মোট মৃত্যু দাঁড়ায় ২৮১ এবং হাসপাতালে ভর্তি ৯০ হাজার ৩৫৬। একই সময়ে সরকার বলছে, হাসপাতালের শয্যা, পরীক্ষার কিট, স্যালাইন ও প্রশিক্ষিত জনবল বাড়ানো হয়েছে। দুটি কথাই সত্য হতে পারে। কিন্তু এ কারণেই এখন প্রশ্নটি আরও ধারালো: প্রস্তুতি সত্যিই কাজ করলে তার ফল কোন জেলা, কোন হাসপাতাল ও কোন মশক-নিয়ন্ত্রণ এলাকায় কতটা দেখা যাচ্ছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "আমাদের অবস্থান স্পষ্ট। এই মৃত্যুগুলোকে কারও ব্যক্তিগত অপরাধ বা প্রশাসনিক অবহেলার প্রমাণ বলা যাবে না; এমন সিদ্ধান্তের জন্য রোগীভিত্তিক চিকিৎসা-নথি, তদন্ত ও যথাযথ প্রক্রিয়া লাগে। কিন্তু সরকারের নিজের প্রস্তুতির দাবিকে কেবল বিবৃতি হিসেবেও মেনে নেওয়া যাবে না। ডেঙ্গু এখন ঢাকার সীমিত সমস্যা নয়। মানুষ শয্যা পাচ্ছে কি না, সময়মতো পরীক্ষা ও রেফারেল পাচ্ছে কি না, আর স্থানীয় কর্তৃপক্ষ প্রজননস্থল কমাতে পারছে কি না—এসবের ফল নিয়মিত প্রকাশ করাই জবাবদিহির ন্যূনতম শর্ত।"
+        },
+        {
+          "type": "callout",
+          "text": "ডেঙ্গুতে মৃত্যু কমানোর সরকারি দাবি বিশ্বাসযোগ্য হবে তখনই, যখন একই পাতায় দেখা যাবে কোথায় রোগী বেড়েছে, কোথায় শয্যা শেষ, কোথা থেকে কোথায় রোগী পাঠানো হয়েছে এবং মশক নিয়ন্ত্রণে কী ফল মিলেছে।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারি হিসাব যা বলছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বাস্থ্য অধিদপ্তরের হেলথ ইমার্জেন্সি অপারেশন সেন্টারের ড্যাশবোর্ডে ৬ অক্টোবরের দৈনিক প্রতিবেদনে ১০ মৃত্যু, ১,৯৯৬ নতুন ভর্তি, ৫,৭৭৬ জন চিকিৎসাধীন এবং ৯০,৩৫৬ মোট ভর্তির তথ্য দেখা যায়। বয়সভিত্তিক তালিকায়ও মৃত্যু শুধু এক প্রবীণ বা এক ভৌগোলিক গোষ্ঠীতে সীমিত নয়। একই সরকারি তথ্যের ভিত্তিতে আজকের পত্রিকার প্রতিবেদনে বলা হয়েছে, ওই ২৪ ঘণ্টায় খুলনায় তিনজন, বরিশালে দুইজন, ঢাকা উত্তর সিটি এলাকায় দুইজন এবং ঢাকা বিভাগ, ঢাকা দক্ষিণ ও রাজশাহীতে একজন করে রোগী মারা গেছেন। অর্থাৎ জাতীয় মোটের আড়ালে রোগের চাপের মানচিত্র আলাদা করে দেখা দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ওই স্বাধীন প্রতিবেদনে আরও আছে, ঢাকার দুই সিটি করপোরেশনের বাইরে ৪৮০ জন নতুন রোগী হাসপাতালে ভর্তি হয়েছেন। খুলনা বিভাগে ৩০২, চট্টগ্রামে ২৪২, বরিশালে ২০৩ ও রাজশাহীতে ১৯৯ জন নতুন ভর্তি হয়েছেন। এই সংখ্যা নিজে থেকে কোনো নির্দিষ্ট সিটি করপোরেশন, হাসপাতাল বা কর্মকর্তার ব্যর্থতা প্রমাণ করে না। বৃষ্টি, ভাইরাসের ধরন, মানুষের ঘরে জমা পানি, দেরিতে চিকিৎসা নেওয়া এবং স্থানীয় চিকিৎসা-সুবিধা—সবই ফলকে বদলাতে পারে। তবু সংখ্যা বলছে, প্রতিরোধ ও চিকিৎসার ফল শুধু রাজধানীর সংবাদ সম্মেলন দিয়ে মাপার সময় শেষ।"
+        },
+        {
+          "type": "heading",
+          "text": "শয্যা বাড়ানো জরুরি, কিন্তু চাপের হিসাবও দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের সবচেয়ে শক্তিশালী বক্তব্যটি বাদ দেওয়ার সুযোগ নেই। রাষ্ট্রীয় সংবাদ সংস্থা বাসস ৭ অক্টোবর জানায়, সরকারি হাসপাতালগুলোকে শয্যা বাড়ানো, আলাদা ডেঙ্গু ওয়ার্ড, ওয়ান-স্টপ সেবা, পরীক্ষার কিট ও শিরাপথে দেওয়া তরল বা স্যালাইনের মজুত নিশ্চিত করার নির্দেশ দেওয়া হয়েছে। একই প্রতিবেদনে মুগদা মেডিকেল কলেজ হাসপাতালে ডেঙ্গু শয্যা ৬০ থেকে ২০০-তে উন্নীত করার এবং কুর্মিটোলা মাল্টিকেয়ার বিশেষায়িত হাসপাতালে আরও ১০০ শয্যা চালুর কথা বলা হয়েছে। ডিজিএইচএসের হাসপাতাল ও ক্লিনিক বিভাগের পরিচালকও বলেছেন, চাহিদা বাড়লে ঢাকা মেডিকেল কলেজ হাসপাতাল প্রাঙ্গণের ফিল্ড হাসপাতাল চালুর বিষয়টি বিবেচনায় আছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এগুলো প্রয়োজনীয় পদক্ষেপ। কিন্তু ‘বিবেচনায় আছে’ এবং ‘শয্যা বাড়ানো হয়েছে’—এই দুই বাক্য দিয়ে মানুষের বাস্তব অভিজ্ঞতা মাপা যায় না। দ্য বিজনেস স্ট্যান্ডার্ড ৬ অক্টোবর চট্টগ্রাম মেডিকেল কলেজ হাসপাতালের ৪০ শয্যার ডেঙ্গু ইউনিটে ১১৪ রোগী ভর্তি থাকার কথা জানিয়েছে। একই প্রতিবেদনে ময়মনসিংহ মেডিকেল কলেজ হাসপাতালের ৫০ শয্যার ওয়ার্ডে ১১৯ রোগী, ফলে কারও মেঝে ও বারান্দায় চিকিৎসা নেওয়ার তথ্য এসেছে। এগুলো নির্দিষ্ট দিনের স্বাধীন প্রতিবেদনের ঘটনা; এগুলো থেকে সারা দেশের সব হাসপাতালে একই অবস্থা ছিল এমন সিদ্ধান্ত টানা ঠিক হবে না। কিন্তু সরকারি ব্যবস্থার পরীক্ষা ঠিক এখানেই: এমন চাপ দেখা দিলে কত ঘণ্টার মধ্যে অতিরিক্ত শয্যা, কর্মী, রেফারেল যানবাহন ও নিরাপদ বিকল্প ব্যবস্থা চালু হলো?"
+        },
+        {
+          "type": "paragraph",
+          "text": "সেবা-চাপের তথ্য প্রকাশ রোগীকে আতঙ্কিত করার জন্য নয়। বরং এটি চিকিৎসক, অ্যাম্বুলেন্স, স্থানীয় প্রশাসন এবং পরিবারকে সঠিক সিদ্ধান্ত নিতে সাহায্য করে। কোন হাসপাতালে কত নির্ধারিত ও অস্থায়ী শয্যা, কতটি খালি, কত রোগী অপেক্ষায়, কতজনকে অন্যত্র পাঠানো হলো এবং পাঠানোর পর তাঁরা কোথায় ভর্তি হলেন—এই সমষ্টিগত তথ্য প্রতিদিন প্রকাশ করা সম্ভব। ব্যক্তিগত পরিচয় প্রকাশের দরকার নেই। হাসপাতালের মর্যাদা বাঁচাতে ভিড় আড়াল করলে রোগীর ক্ষতি বাড়ে; সঠিক তথ্য দিলে সীমিত সক্ষমতাও দ্রুত সঠিক জায়গায় দেওয়া যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "কম মৃত্যুহারের যুক্তি যথেষ্ট নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাসসের প্রতিবেদনে কর্মকর্তারা বলেছেন, ৬ অক্টোবর পর্যন্ত ২৮১ মৃত্যু ও ৯০,৩৫৬ ভর্তির অনুপাতে মৃত্যুহার ০.৩১ শতাংশ। সাধারণ ভাগেও সংখ্যাটি প্রায় তাই হয়। প্রতিবেদনে ২০২৩ সালে ০.৫৩ শতাংশ, ২০২৪ সালে ০.৪৯ শতাংশ এবং ২০২৫ সালে ০.৩৪ শতাংশের সঙ্গে তুলনা করে বলা হয়েছে, এবারের হার গত তিন বছরের চেয়ে কম। সময়মতো রোগ শনাক্ত, চিকিৎসা-নির্দেশনা, স্যালাইন ও প্রশিক্ষণের ফলে মৃত্যুঝুঁকি কমে থাকলে সেটি গুরুত্বপূর্ণ অগ্রগতি এবং সরকার তার কৃতিত্ব পাওয়ার অধিকার রাখে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু এই অনুপাত পুরো হিসাবের শেষ কথা নয়। হাসপাতাল-ভর্তির সঙ্গে মৃত্যুর অনুপাত কমা মানে এই নয় যে সংক্রমণ রোধে সব পদক্ষেপ সফল হয়েছে, বা সব অসুস্থ মানুষ একইভাবে পরীক্ষিত ও নিবন্ধিত হয়েছেন। আবার ২৮১টি মৃত্যু কম হার হলেও ২৮১টি পরিবারে অপূরণীয় ক্ষতি। সঠিক মূল্যায়নের জন্য একই সময়সীমায় জেলা-ভিত্তিক ভর্তি, গুরুতর রোগী, রেফারেল সময়, হাসপাতালের শয্যা-দখল এবং মৃত্যু-পর্যালোচনার সমষ্টিগত ফল পাশাপাশি লাগবে। কেবল একটি অনুপাত দিয়ে প্রতিরোধের সাফল্য ঘোষণা করলে কোথায় দুর্বলতা জমছে, তা দেখা যায় না।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রতিরোধের ফল কোথায় দেখা যাবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য বিজনেস স্ট্যান্ডার্ডের প্রতিবেদনে জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের চিকিৎসা কীটতত্ত্ববিদ অধ্যাপক কবিরুল বাশার বলেছেন, এডিস মশা এখন জেলা, উপজেলা ও গ্রাম পর্যন্ত ছড়িয়েছে। একই প্রতিবেদনে সাবেক ডিজিএইচএস পরিচালক অধ্যাপক বে-নজির আহমেদ রাজধানীর বাইরে চিকিৎসাসুবিধা বাড়ানোর প্রয়োজনের কথা বলেছেন। এই মতামত সরকারি পরিসংখ্যানের বিকল্প নয়; তবে নীতির দিকটি পরিষ্কার করে। ইউনিয়ন, উপজেলা, জেলা পরিষদ, পৌরসভা ও সিটি করপোরেশনের দায়িত্ব ও বাজেট আছে। তাই মশক নিয়ন্ত্রণের ফলও তাদের প্রশাসনিক সীমানা ধরে প্রকাশ করা উচিত।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফগিং করা হয়েছে কি না, কতটি পরিচ্ছন্নতা অভিযান হলো, বা কতটি সভা বসেছে—এসব ইনপুট মানুষের ঝুঁকি কমার প্রমাণ নয়। ফলের ন্যূনতম সূচক হতে পারে: কতটি সম্ভাব্য প্রজননস্থল পরিদর্শন হয়েছে, কতটিতে লার্ভা মিলেছে, পুনঃপরিদর্শনে সেই হার কত কমেছে, কোন এলাকায় অভিযোগের পর কত সময়ে ব্যবস্থা নেওয়া হয়েছে এবং সপ্তাহভিত্তিক ভর্তি কোন দিকে যাচ্ছে। রোগী বাড়লেই যে স্থানীয় সরকারের একার দায়, তা বলা যাবে না। কিন্তু দায়িত্ব ভাগ করে দেওয়া আর ফল গোপন রাখা এক বিষয় নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "একই সময়সীমার তথ্য না মিললে সিদ্ধান্তও ভুল হয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "ডেঙ্গুর তথ্য নিয়ে আরেকটি শৃঙ্খলা জরুরি। আজকের পত্রিকার ৬ অক্টোবরের প্রতিবেদনে সেপ্টেম্বর মাসে ১৪৮ মৃত্যু এবং অক্টোবরের প্রথম কয়েক দিনে ৩৬ মৃত্যুর কথা এসেছে। এই সংখ্যা ভয়াবহতার একটি সংকেত, কিন্তু মাসের মাঝপথের সংখ্যাকে আগের পূর্ণ মাসের সঙ্গে সরাসরি বসিয়ে ‘উন্নতি’ বা ‘অবনতি’ ঘোষণা করা পদ্ধতিগত ভুল হবে। একইভাবে এক হাসপাতালের এক দিনের ভিড় দিয়ে দেশের সব হাসপাতালের অবস্থা বলা যাবে না। প্রকাশ্য ড্যাশবোর্ডে তাই প্রতিটি সূচকের পাশে তার সময়সীমা, তথ্যের উৎস, সংশোধনের তারিখ এবং তুলনার ভিত্তি থাকতে হবে। তবেই সাংবাদিক, গবেষক ও সংসদ সদস্যরা একই সংখ্যাকে ভিন্নভাবে ব্যবহার করে মানুষকে বিভ্রান্ত করতে পারবেন না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বাস্থ্য অধিদপ্তরের দৈনিক ড্যাশবোর্ড একটি গুরুত্বপূর্ণ শুরু। সেখানে ভর্তি, মৃত্যু, বয়স ও ভৌগোলিক বণ্টনের অংশ আছে। কিন্তু জাতীয় যোগফল থেকে প্রশাসনিক সিদ্ধান্ত পর্যন্ত যাওয়ার সেতুটি এখনো দুর্বল। মানুষ জানতে পারে কতজন ভর্তি হলেন; জানতে পারে না কোন জেলার রোগী কত দূরে গিয়ে চিকিৎসা নিলেন, কোন হাসপাতালে অতিরিক্ত শয্যা কত দিন চালু ছিল, বা কোনো এলাকার পরিচ্ছন্নতা অভিযানের পর রোগীর প্রবণতা বদলাল কি না। এসব তথ্য প্রতিদিন নিখুঁত হওয়া লাগবে না; প্রাথমিক, সংশোধিত ও চূড়ান্ত—এই তিন অবস্থাও স্পষ্ট করে দেওয়া যায়। ভুল লুকানোর চেয়ে সংশোধনের ইতিহাস দেখানোই বেশি বিশ্বাসযোগ্য।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই স্বচ্ছতার আরেকটি ন্যায়বিচারের দিক আছে। ঢাকায় শয্যা বাড়লেই দেশের সব নাগরিক সমান সুরক্ষা পাচ্ছেন—এমন ধরে নেওয়া যায় না। বাইরে থেকে ঢাকায় রেফার হওয়া রোগীর যাতায়াত, স্বজনের খরচ ও চিকিৎসা পেতে দেরির বোঝা আলাদা। আবার কোনো জেলা হাসপাতাল ভালোভাবে চাপ সামলালে সেই অভিজ্ঞতা অন্য জেলায় ব্যবহার করা যায়। তাই তথ্য জেলা-ভিত্তিক করলে সেটি কেবল ব্যর্থতার তালিকা হবে না; কার্যকর ব্যবস্থারও মানচিত্র হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সব তথ্য এক দিনে সম্পূর্ণ হবে না—এ অজুহাত গ্রহণযোগ্য। কিন্তু অসম্পূর্ণ তথ্যও সময়মতো প্রকাশ করা যায়, যদি পাশে স্পষ্টভাবে লেখা থাকে কোন সংখ্যা প্রাথমিক, কোনটি সংশোধিত, আর কোনটি যাচাইাধীন। স্বাস্থ্য-জরুরিতে নীরবতার চেয়ে এই সততা বেশি কার্যকর; এতে ভুল ধরা পড়ে, গুজব কমে এবং সিদ্ধান্ত নেওয়ার মানুষ একই বাস্তবতা দেখতে পান।"
+        },
+        {
+          "type": "heading",
+          "text": "সাত দিনের মধ্যে যে হিসাব জনগণ পেতে পারে"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বাস্থ্য মন্ত্রণালয়, স্বাস্থ্য অধিদপ্তর এবং স্থানীয় সরকার বিভাগের জন্য কাজটি জটিল হওয়ার কথা নয়। সাত দিনের মধ্যে একটি একই-পদ্ধতির উন্মুক্ত ড্যাশবোর্ডে অন্তত ছয়টি তথ্য দেওয়া উচিত: (১) প্রতিটি জেলা ও সিটি এলাকার দৈনিক ভর্তি, মৃত্যু ও চিকিৎসাধীন রোগী; (২) সরকারি ও অংশগ্রহণকারী বেসরকারি হাসপাতালের নির্ধারিত, বাড়তি ও খালি ডেঙ্গু শয্যা; (৩) রেফার করা রোগীর সংখ্যা, গন্তব্য ও গড় সময়; (৪) কিট, স্যালাইন ও প্রয়োজনীয় ওষুধের নিরাপদ মজুত-অবস্থা; (৫) মশক নিয়ন্ত্রণে পরিদর্শন, লার্ভা শনাক্ত ও পুনঃপরিদর্শনের হার; এবং (৬) মৃত্যুর কারণ বোঝার জন্য পরিচয়বিহীন ক্লিনিক্যাল পর্যালোচনার মাসিক সারসংক্ষেপ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এ তালিকা কোনো শাস্তির তালিকা নয়। কোথাও শয্যা কম থাকলে সেটি প্রকাশ পেলে বরাদ্দ ও কর্মী পাঠানো সহজ হয়। কোথাও রেফারেল দেরি হলে প্রশাসন তার কারণ ঠিক করতে পারে। কোথাও লার্ভার হার না কমলে স্থানীয় কর্তৃপক্ষ পদ্ধতি বদলাতে পারে। আর কোথাও চিকিৎসার ফল ভালো হলে সেটিও দেখা যাবে। তথ্য গোপন রাখা কেবল সমালোচনা ঠেকায় না; ভালো কাজকেও অদৃশ্য করে।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রস্তুতির দাবির সত্য-মিথ্যা ফলেই ধরা পড়বে"
+        },
+        {
+          "type": "paragraph",
+          "text": "ডেঙ্গু এমন রোগ নয় যার সব ঝুঁকি সরকার একা মুছে দিতে পারে। পরিবারের পানি-ব্যবস্থাপনা, চিকিৎসা নিতে দেরি, আবহাওয়া ও ভাইরাসের জটিলতা বাস্তব বিষয়। সেই বাস্তবতা স্বীকার করেই সরকারি সক্ষমতার পরীক্ষা করতে হবে। সরকার যদি সত্যিই আগেভাগে প্রস্তুতি নিয়ে থাকে এবং চিকিৎসামৃত্যুর ঝুঁকি কমিয়ে থাকে, তাহলে জেলা ও হাসপাতালভিত্তিক ফল প্রকাশে তার কোনো ভয় থাকার কথা নয়। বরং সেই তথ্যই দেখাবে কোথায় ব্যবস্থা কাজ করেছে এবং কোথায় দ্রুত সহায়তা দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "৬ অক্টোবরের ১০ মৃত্যু তাই কেবল একটি সংখ্যা নয়; এটি তথ্যের শৃঙ্খলা তৈরির সতর্ক ঘণ্টা। শয্যা বাড়ানোর ঘোষণা জরুরি, কিন্তু মানুষের অধিকার হলো জানতে পারা সেই শয্যায় পৌঁছানো গেল কি না। পরিচ্ছন্নতা অভিযান জরুরি, কিন্তু মানুষের অধিকার হলো দেখা যে ঝুঁকির এলাকাগুলোতে লার্ভা ও ভর্তি কমল কি না। আগামী সাত দিনের উন্মুক্ত, তুলনাযোগ্য হিসাবই প্রমাণ করবে সরকার কেবল সংকট সামলাচ্ছে, নাকি সত্যিই মৃত্যুঝুঁকি কমাচ্ছে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "স্বাস্থ্য অধিদপ্তর (ডিজিএইচএস), হেলথ ইমার্জেন্সি অপারেশন সেন্টার ও কন্ট্রোল রুমের ডেঙ্গু ড্যাশবোর্ড; ৬ অক্টোবর ২০২৬ পর্যন্ত দৈনিক ভর্তি, মৃত্যু ও হাসপাতাল-ভিত্তিক সরকারি তথ্য",
+          "url": "https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1.php"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা (বাসস) · Govt gears up healthcare nationwide to tackle dengue situation · ৭ অক্টোবর ২০২৬; সরকারি শয্যা, কিট, স্যালাইন, জনবল ও মৃত্যুহার-সংক্রান্ত অবস্থান",
+          "url": "https://www.bssnews.net/news/432129"
+        },
+        {
+          "label": "আজকের পত্রিকা · Record 10 dengue deaths in a single day, 1996 hospitalized · ৬ অক্টোবর ২০২৬; ডিজিএইচএসের দৈনিক বুলেটিনের স্বাধীন প্রতিবেদন",
+          "url": "https://www.ajkerpatrika.com/en/health/ajp1bm1juix1h"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড · Dengue surges beyond Dhaka as hospitals struggle with rising cases · ৬ অক্টোবর ২০২৬; জেলা-ভিত্তিক চাপ, হাসপাতাল সক্ষমতা ও বিশেষজ্ঞ মতামত",
+          "url": "https://www.tbsnews.net/bangladesh/health/dengue-surges-beyond-dhaka-hospitals-struggle-rising-cases-1563901"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · Hospitals told to add beds amid dengue surge · ৬ অক্টোবর ২০২৬; স্বাস্থ্য মন্ত্রণালয়ের হাসপাতাল-শয্যা নির্দেশ ও মাঠ হাসপাতাল বিবেচনার প্রতিবেদন",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/hospitals-told-add-beds-amid-dengue-surge-4291526"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Ten deaths and 1,996 admissions: Bangladesh must publish district-by-district dengue-response results.",
+          "excerpt": "The government says it has expanded beds, testing and supplies after 10 dengue deaths and 1,996 admissions in 24 hours. Those claims now need public, district-level results.",
+          "imageAlt": "Editorial illustration about public accountability in Bangladesh dengue response",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Preparedness is measurable: publish beds, referrals, supplies and mosquito-control results by district and hospital."
+        },
+        "de": {
+          "title": "Zehn Tote und 1.996 Aufnahmen: Bangladesch muss Ergebnisse der Dengue-Abwehr nach Bezirken veröffentlichen.",
+          "excerpt": "Nach zehn Dengue-Todesfällen und 1.996 Klinikaufnahmen in 24 Stunden verweist die Regierung auf mehr Betten, Tests und Material. Diese Zusagen brauchen öffentliche Ergebnisse je Bezirk.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft in Bangladeschs Dengue-Reaktion",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Vorsorge ist messbar: Betten, Überweisungen, Vorräte und Mückenbekämpfung nach Bezirk und Krankenhaus veröffentlichen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 85,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a clearly identified follow-up to the 8 September dengue accountability editorial. DGHS’s 6 October dashboard records 10 deaths, 1,996 new admissions, 281 deaths and 90,356 admissions for 2026. Ajker Patrika independently reports the daily bulletin and geographic distribution. BSS sets out the government’s strongest response: additional beds, wards, testing, supplies, training and a 0.31 percent case-fatality claim. TBS independently documents current pressure and capacity constraints in named hospitals outside Dhaka, while the Daily Star independently reports the ministry’s direction to increase beds. The article does not claim that the outbreak proves misconduct, that every hospital was overcrowded, or that any individual is responsible for a death. Its conclusion is limited to a proportionate disclosure and measurement demand.",
+        "governmentPosition": "The government says it has expanded dengue wards and beds, ensured diagnostic kits, medicines and intravenous fluids, assigned staff, trained clinicians and maintained a lower reported case-fatality rate than in the previous three years. It says additional wards and a possible DMCH field hospital are being arranged in response to rising demand.",
+        "findings": [
+          "DGHS’s 6 October dashboard records 10 deaths and 1,996 admissions in the preceding 24 hours, with 281 deaths and 90,356 admissions in 2026 to that date.",
+          "Ajker Patrika independently reported the DGHS bulletin and the distribution of that day’s admissions and deaths.",
+          "BSS reported the government’s hospital-capacity, supply and staff measures and its 0.31 percent case-fatality claim.",
+          "TBS independently reported pressure at named hospitals in Chattogram and Mymensingh and expert calls for stronger local mosquito control and treatment capacity beyond Dhaka.",
+          "The available evidence does not establish criminality, negligence by a particular official, or a uniform national hospital condition; none is alleged.",
+          "A unified public dashboard for admissions, beds, referrals, supply status, mosquito-control outputs and anonymised mortality review is a proportionate, verifiable accountability remedy."
+        ],
+        "claimMatrix": {
+          "dghsDailyAndCumulativeCounts": "VERIFIED FACT — HIGH — DGHS dashboard for 6 October 2026; independently reported by Ajker Patrika.",
+          "governmentCapacityMeasures": "REPORTED OFFICIAL POSITION — HIGH — BSS reports hospital and DGHS officials’ statements; presented as the government response, not as independently audited performance.",
+          "hospitalPressureAtNamedFacilities": "REPORTED FACT — HIGH — TBS’s dated reporting from named hospitals; the article confines the claim to those reported facilities and date.",
+          "caseFatalityRate": "REPORTED FACT / CALCULATION — HIGH — BSS gives 0.31 percent; 281 divided by 90,356 is approximately 0.311 percent. It is not treated as a complete measure of prevention or disease burden.",
+          "individualNegligenceOrNationalSystemFailure": "UNVERIFIED — NOT ASSERTED — no patient-level investigation, causal analysis or nationwide capacity audit was found by the cutoff.",
+          "editorialConclusion": "ANALYSIS — HIGH — public, aggregated operational indicators would make preparedness claims testable without exposing patient identities."
+        },
+        "seoTitle": "ডেঙ্গু প্রস্তুতির জেলা-হাসপাতাল হিসাব চাই",
+        "metaDescription": "২৪ ঘণ্টায় ১০ ডেঙ্গু মৃত্যু ও ১,৯৯৬ ভর্তি। সরকার শয্যা ও চিকিৎসাসামগ্রী বাড়ানোর কথা বলছে; এবার জেলা-হাসপাতালভিত্তিক ফল প্রকাশ জরুরি।",
+        "categories": [
+          "জনস্বাস্থ্য",
+          "স্থানীয় সরকার",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "ডেঙ্গু",
+          "ডিজিএইচএস",
+          "স্বাস্থ্য মন্ত্রণালয়",
+          "হাসপাতাল শয্যা",
+          "মশক নিয়ন্ত্রণ",
+          "রেফারেল",
+          "জনস্বাস্থ্য",
+          "স্থানীয় সরকার",
+          "স্বচ্ছতা",
+          "জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/dengue-october-response-disclosure-2026"
+    },
+    {
       "id": "nctb-textbook-procurement-disclosure-2026",
       "slug": "nctb-textbook-procurement-disclosure-2026",
       "status": "published",
