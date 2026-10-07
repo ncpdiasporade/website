@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-07T08:42:48.327Z",
+  "updatedAt": "2026-10-07T16:32:32.828Z",
   "items": [
+    {
+      "id": "facebook-germany-122208456866921031",
+      "facebookId": "122208456866921031",
+      "status": "published",
+      "date": "৭ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-07T10:41:05+0000",
+      "badge": "ভিডিও",
+      "title": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "excerpt": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "sourceCaption": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208456866921031",
+      "mediaType": "video",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122208456866921031.jpg",
+      "imageAlt": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122208339800921031",
       "facebookId": "122208339800921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122207934458921031.jpg",
       "imageAlt": "অন্তর্বর্তীকালীন সরকার যদি এত অল্প সময়ের মধ্যেই প্রবাসীদের ভোটাধিকার নিশ্চিত করার উদ্যোগ নিতে পারে, তাহলে বর্তমান…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122207833388921031",
-      "facebookId": "122207833388921031",
-      "status": "published",
-      "date": "৪ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-03T23:31:52+0000",
-      "badge": "প্রবাসী ইস্যু",
-      "title": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর…",
-      "excerpt": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর আনুষ্ঠানিক বিবৃতি। দেশে ফিরে একজন প্রবাসীর প্রথম অনুভূতি হোক— “আমি আমার দেশে ফিরেছি।”",
-      "sourceCaption": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর আনুষ্ঠানিক বিবৃতি।\n\nদেশে ফিরে একজন প্রবাসীর প্রথম অনুভূতি হোক—\n“আমি আমার দেশে ফিরেছি।”\n\n#Probashi #AirportService #ncpdiasporaalliancegermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207833388921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122207833388921031.jpg",
-      "imageAlt": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর…",
       "managedBy": "facebook-sync"
     },
     {
@@ -298,7 +298,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70991,
+      "viewCount": 70992,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
