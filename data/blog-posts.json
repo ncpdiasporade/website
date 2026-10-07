@@ -1,6 +1,276 @@
 {
   "items": [
     {
+      "id": "biman-airbus-contract-disclosure-2026",
+      "slug": "biman-airbus-contract-disclosure-2026",
+      "status": "published",
+      "tag": "রাষ্ট্রীয় প্রতিষ্ঠান ও জবাবদিহি",
+      "title": "১০ এয়ারবাস কেনার চুক্তি হলো, কিন্তু দাম-ঋণ-ঝুঁকির হিসাব এখনও প্রকাশ হয়নি",
+      "date": "৮ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-08T00:27:52+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "বিমান বাংলাদেশ এয়ারলাইন্স ১০টি এয়ারবাস কিনতে চুক্তি করেছে। বহর বাড়ানোর যুক্তি আছে, কিন্তু রাষ্ট্রীয় এই সিদ্ধান্তের দাম, ঋণ, কিস্তি, গ্যারান্টি ও রুটভিত্তিক আয়-ব্যয়ের হিসাব জনগণের সামনে নেই।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability for Biman Bangladesh Airlines aircraft procurement",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "১০টি উড়োজাহাজের ঘোষণা নয়, চুক্তির দাম, অর্থায়ন ও লাভজনক রুটের প্রকাশ্য হিসাবই এখন জবাবদিহির পরীক্ষা",
+      "facebookCaption": "বিমান ১০টি এয়ারবাস কেনার চুক্তি করেছে। বহর বাড়ানোর প্রয়োজন নিয়ে বিতর্ক হতে পারে, কিন্তু চুক্তির দাম, ঋণের শর্ত, কিস্তি, রাষ্ট্রীয় গ্যারান্টি ও রুটভিত্তিক ব্যবসায়িক হিসাব প্রকাশ ছাড়া জনগণ ঝুঁকিটা মাপতে পারবে না।",
+      "facts": [
+        {
+          "value": "১০টি",
+          "label": "৭ অক্টোবর এয়ারবাসের সঙ্গে স্বাক্ষরিত দৃঢ় অর্ডারের উড়োজাহাজ: চারটি A350-900 ও ছয়টি A321neo"
+        },
+        {
+          "value": "৩৫টি",
+          "label": "বাসসের প্রতিবেদন অনুযায়ী এয়ারবাস ও বোয়িং মিলিয়ে বিমানের ঘোষিত ক্রয়-পাইপলাইনের উড়োজাহাজ"
+        },
+        {
+          "value": "২০%",
+          "label": "বেসামরিক বিমান পরিবহনমন্ত্রীর ভাষ্য অনুযায়ী বাংলাদেশের যাত্রীবাজারে বিমানের বর্তমান অংশ"
+        },
+        {
+          "value": "প্রকাশ হয়নি",
+          "label": "এয়ারবাসের ৭ অক্টোবরের বিজ্ঞপ্তি ও সমসাময়িক স্বাধীন প্রতিবেদনে ১০ উড়োজাহাজের চুক্তিমূল্য বা অর্থায়ন-শর্ত নেই"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "বিমান বাংলাদেশ এয়ারলাইন্স ৭ অক্টোবর চারটি A350-900 ও ছয়টি A321neo কিনতে এয়ারবাসের সঙ্গে দৃঢ় চুক্তি করেছে। এটি কেবল বিমানবন্দরের ছবি তোলার অনুষ্ঠান নয়। রাষ্ট্রের মালিকানাধীন একটি সংস্থা আরও ১০টি উড়োজাহাজ নেওয়ার দায় নিয়েছে, অথচ চুক্তিমূল্য, ঋণের সুদ, কিস্তির সময়সূচি, রাষ্ট্রীয় গ্যারান্টি এবং দেরি বা বাতিলের শর্ত জনসমক্ষে জানানো হয়নি। বড় বহর চাইতে পারে বাংলাদেশ; অন্ধকারে বড় অঙ্কের দায় নেওয়া চাইতে পারে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রথম সত্যটি পরিষ্কার। এয়ারবাস নিজেই ৭ অক্টোবরের বিজ্ঞপ্তিতে অর্ডারকে firm order বলেছে। বাসস এবং bdnews24.com একই দিনে স্বাক্ষরের খবর, উড়োজাহাজের ধরন ও উপস্থিত কর্মকর্তাদের তথ্য জানিয়েছে। ফলে এটি গুজব, ইচ্ছাপত্র বা কেবল আলোচনা নয়। কিন্তু দ্বিতীয় সত্যটিও সমান পরিষ্কার: এই ১০টির জন্য কত টাকা দিতে হবে এবং কার টাকায় দিতে হবে, তা কোনো পক্ষ প্রকাশ করেনি। স্বাধীন বিমান চলাচলবিষয়ক সংবাদমাধ্যম AeroTime-ও লিখেছে, এয়ারবাস ও বিমান কেউই মূল্য জানায়নি।"
+        },
+        {
+          "type": "heading",
+          "text": "সংক্ষেপে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "চুক্তিতে আছে চারটি দীর্ঘপাল্লার A350-900 এবং ছয়টি স্বল্প বা মাঝারি দূরত্বের A321neo।",
+            "বাসসের হিসাবে এই অর্ডারের পর এয়ারবাস ও বোয়িং মিলিয়ে বিমানের ঘোষিত ক্রয়-পাইপলাইন ৩৫টি উড়োজাহাজে দাঁড়াল।",
+            "এয়ারবাসের সরকারি বিজ্ঞপ্তি উড়োজাহাজের ধরন ও সম্ভাব্য নেটওয়ার্কের কথা বলেছে, কিন্তু মূল্য, ঋণদাতা, সুদ, অগ্রিম অর্থ বা পরিশোধের সময়সূচি বলেনি।",
+            "সরকারের বক্তব্য হলো বহর বাড়িয়ে বাজারের বড় অংশ নেওয়া ও নতুন গন্তব্যে যাওয়া। এই লক্ষ্য পরীক্ষা করার জন্যই চুক্তির পূর্ণ অর্থনৈতিক হিসাব প্রকাশ জরুরি।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "সরকার কী সিদ্ধান্ত নিয়েছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাসসের ৭ অক্টোবরের প্রতিবেদনে বলা হয়েছে, এয়ারবাসের সঙ্গে চুক্তিতে চারটি ওয়াইড-বডি A350-900 ও ছয়টি ন্যারো-বডি A321neo আছে। এয়ারবাসও একই বিন্যাস নিশ্চিত করেছে। বাসস বলছে, সরবরাহ ২০৩০ থেকে শুরু হওয়ার কথা, যদিও মন্ত্রী আগাম সরবরাহের অনুরোধ করেছেন। অর্থাৎ আজকের সিদ্ধান্তের ফল অনেক পরে আসবে, কিন্তু অর্থনৈতিক দায়ের সিদ্ধান্ত এখনই নেওয়া হয়েছে। দীর্ঘ সময়ের এমন প্রতিশ্রুতিতে নথি প্রকাশ আরও জরুরি, কম নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি একা কোনো অর্ডার নয়। বাসস বলেছে, এর আগে ২০২৬ সালে বোয়িংয়ের সঙ্গে দুই দফা চুক্তিতে ২৫টি উড়োজাহাজ যুক্ত হয়েছে। প্রথম ১৪টির জন্য ৩ দশমিক ৭ বিলিয়ন মার্কিন ডলারের কথা প্রতিবেদনে আছে; পরে ১১টির ব্যয় প্রায় ২ দশমিক ৭ বিলিয়ন ডলার হতে পারে বলেছিলেন মন্ত্রী। বোয়িংয়ের ৩০ এপ্রিলের নিজস্ব বিজ্ঞপ্তিও প্রথম ১৪টির ধরন নিশ্চিত করে। পুরোনো চুক্তির ঘোষিত অঙ্ক যোগ করলেই নতুন এয়ারবাস চুক্তির অজানা মূল্য তুচ্ছ হয়ে যায় না; বরং ৩৫টি উড়োজাহাজের সামগ্রিক দায় দেখার প্রয়োজন আরও বড় হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বেসামরিক বিমান পরিবহন ও পর্যটনমন্ত্রী রশিদুজ্জামান মিলাত বাসসকে বলেছেন, বাংলাদেশে যাত্রীবাজারের প্রায় ২০ শতাংশ এখন বিমানের দখলে এবং বহর বাড়ালে সক্ষমতা ও বাজার হিস্যা বাড়বে। বিমানের চেয়ারম্যান রুমি এ হোসেন এয়ারবাসের বিজ্ঞপ্তিতে ক্রমবর্ধমান ভ্রমণবাজার, প্রবাসী বাংলাদেশি এবং নতুন আন্তর্জাতিক রুটের সম্ভাবনাকে বহর বাড়ানোর ভিত্তি বলেছেন। এয়ারবাস বলছে, A350 উত্তর আমেরিকা, ইউরোপ ও মধ্যপ্রাচ্যের রুটে এবং A321neo আঞ্চলিক ও মাঝারি দূরত্বের রুটে কাজে লাগতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই যুক্তিকে খারিজ করার কারণ নেই। ভালো উড়োজাহাজ, নির্ভরযোগ্য সময়সূচি ও সঠিক রুট থাকলে রাষ্ট্রীয় বিমান সংস্থা যাত্রীকে বিকল্প দিতে পারে। এয়ারবাসের জ্বালানি দক্ষতার দাবি এবং দুটি আকারের উড়োজাহাজ নেওয়ার পরিকল্পনাও কাগজে-কলমে অযৌক্তিক নয়। কিন্তু উড়োজাহাজের প্রযুক্তিগত গুণ আর রাষ্ট্রের পক্ষে চুক্তিটি ভালো আর্থিক সিদ্ধান্ত—এক কথা নয়। দ্বিতীয় প্রশ্নটির উত্তর দেয় কেবল প্রকাশ্য হিসাব।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যাটা কোথায়?"
+        },
+        {
+          "type": "paragraph",
+          "text": "দাম না জানা মানে শুধু একটি সংখ্যা না জানা নয়। জনগণ জানে না কত অগ্রিম দিতে হবে, ঋণ নিলে সুদ ও মুদ্রা-ঝুঁকি কত, পরিশোধের দায় কার, রপ্তানি ঋণ বা রাষ্ট্রীয় গ্যারান্টি আছে কি না, প্রশিক্ষণ ও রক্ষণাবেক্ষণ সহায়তা মূল্যের মধ্যে আছে কি না, কিংবা বিলম্বে ক্ষতিপূরণ কী। এই প্রশ্নগুলোর একটিও এয়ারবাসের প্রকাশ্য বিজ্ঞপ্তিতে নেই। বাসসের স্বাক্ষর-সংবাদেও নেই। bdnews24.com চুক্তির ধরন ও উড়োজাহাজের সক্ষমতা জানিয়েছে, কিন্তু মূল্য বা অর্থায়নের তথ্য দেয়নি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার বা কোম্পানি বাণিজ্যিক গোপনীয়তার কথা বলতে পারে। দরকষাকষির সময় কিছু তথ্য সাময়িকভাবে গোপন রাখা স্বাভাবিক। কিন্তু স্বাক্ষরের পরে রাষ্ট্রীয় প্রতিষ্ঠানের বহু-বছরের দায়ের ক্ষেত্রে একেবারে কিছুই না বলা গ্রহণযোগ্য মানদণ্ড হতে পারে না। প্রতিটি কারিগরি দর-কষাকষির নথি প্রকাশের দাবি এখানে করা হচ্ছে না। প্রয়োজন হলো চুক্তির মোট মূল্য বা মূল্যসীমা, অর্থায়নের উৎস, সুদ ও মেয়াদ, সরকারি গ্যারান্টি, সরবরাহ-সময়সূচি, প্রশিক্ষণ-রক্ষণাবেক্ষণের বাধ্যবাধকতা এবং যেসব শর্তে জনগণের অর্থ ঝুঁকিতে পড়বে সেগুলোর প্রকাশ।"
+        },
+        {
+          "type": "heading",
+          "text": "দাম জানলে যে প্রশ্নগুলোর উত্তর পাওয়া যেত"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি উড়োজাহাজের তালিকামূল্য দিয়ে বাস্তব চুক্তিমূল্য ধরে নেওয়া ভুল। ছাড়, ইঞ্জিনের নির্বাচন, কেবিন বিন্যাস, খুচরা যন্ত্রাংশ, প্রশিক্ষণ, রক্ষণাবেক্ষণ সহায়তা, ঋণের সুদ ও মুদ্রা-বিনিময়—সব মিলিয়ে প্রকৃত দায় বদলে যায়। সে কারণেই এই লেখাও পুরোনো তালিকামূল্য ধরে নতুন চুক্তির দাম অনুমান করছে না। কিন্তু ঠিক এই কারণেই সরকারকে নিজের চুক্তির সারাংশ প্রকাশ করতে হবে। মূল্য গোপন রেখে কম দাম হয়েছে বা ভালো অর্থায়ন মিলেছে—দুই দাবির কোনোটিই নাগরিক যাচাই করতে পারেন না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে তিনটি সহজ পরীক্ষার কথা বলা যায়। প্রথমত, উড়োজাহাজ আসার আগে সংশ্লিষ্ট রুটে পর্যাপ্ত যাত্রী ও কার্গো চাহিদা আছে কি না। দ্বিতীয়ত, বিমান যে ভাড়ায় আসন বিক্রি করতে পারবে, তাতে জ্বালানি, কর্মী, রক্ষণাবেক্ষণ, বিমানবন্দর ফি ও অর্থায়ন ব্যয় মেটানো যাবে কি না। তৃতীয়ত, চাহিদা কমে গেলে, ডেলিভারি পিছোলে বা টাকার বিপরীতে ডলারের দাম বাড়লে দায় কতটা বদলাবে। এই পরীক্ষাগুলো কোনো গোপন রাষ্ট্রীয় কৌশল নয়; বড় রাষ্ট্রীয় বাণিজ্যিক সিদ্ধান্তের ন্যূনতম পরীক্ষা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "চুক্তির পূর্ণ কপি প্রকাশ করা আইনগতভাবে সম্ভব না হলেও সংসদীয় তদারকি এড়ানোর অজুহাত নেই। বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয় সংসদীয় স্থায়ী কমিটির কাছে গোপন বাণিজ্যিক অংশ বাদ দিয়ে ঝুঁকি-বিবরণ দিতে পারে। এরপর কমিটি মোট দায়, অর্থায়ন ও বাস্তবায়নের বিষয়ে প্রকাশ্য সুপারিশ দিতে পারে। নাগরিকের অধিকার প্রতিটি দর-কষাকষির শব্দ জানা নয়; নাগরিকের অধিকার তার নামে নেওয়া অর্থনৈতিক দায়ের আকার ও শর্ত জানা।"
+        },
+        {
+          "type": "heading",
+          "text": "তথ্য কী বলছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এয়ারবাসের প্রেস বিজ্ঞপ্তি অর্ডারের দৃঢ়তা নিশ্চিত করে, কিন্তু কোনো মূল্য দেয় না। এটি নির্মাতার নিজের দাবি ও পণ্যের তথ্যের উৎস; তাই এর দক্ষতা-সংক্রান্ত দাবিকে প্রতিশ্রুতি হিসেবেই দেখা উচিত, সঞ্চয় হিসেবে নয়। bdnews24.com স্বাক্ষর ও উড়োজাহাজের ধরন স্বাধীনভাবে নিশ্চিত করেছে। বাসস সরকারপক্ষের বাজার-হিস্যা, ডেলিভারি এবং বোয়িং-চুক্তির ঘোষিত অঙ্ক তুলে ধরেছে। এই তিন ধরনের সূত্র একসঙ্গে একটি সীমিত কিন্তু গুরুত্বপূর্ণ সিদ্ধান্তে পৌঁছাতে দেয়: ক্রয়ের সিদ্ধান্ত সত্য, বহর সম্প্রসারণের লক্ষ্যও প্রকাশিত, কিন্তু জনস্বার্থে প্রয়োজনীয় আর্থিক শর্ত প্রকাশিত নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সতর্কতার সীমাও জরুরি। আমাদের হাতে এমন কোনো নথি নেই যা বলে চুক্তিতে অনিয়ম, অতিরিক্ত মূল্য, ঘুষ বা লোকসান নিশ্চিত। এমন অভিযোগ এই লেখার বিষয়ও নয়। আবার কোনো প্রকাশ্য পূর্ণ আর্থিক মডেলও পাওয়া যায়নি যা দিয়ে বলা যাবে ১০টি উড়োজাহাজ লাভজনক হবেই বা লোকসান করবেই। প্রমাণ যেখানে থামে, সিদ্ধান্তও সেখানে থামতে হবে। কিন্তু তথ্য না প্রকাশের কারণে জনগণ সেই হিসাব যাচাই করতে পারছে না—এটি নিজেই একটি জবাবদিহির ঘাটতি।"
+        },
+        {
+          "type": "heading",
+          "text": "আগের সিদ্ধান্তের সঙ্গে তুলনা"
+        },
+        {
+          "type": "paragraph",
+          "text": "৩০ এপ্রিলের ১৪টি বোয়িং উড়োজাহাজের চুক্তিকে বোয়িং তাদের সবচেয়ে বড় বিমান অর্ডার বলেছিল। পরে বাসসের হিসাব অনুযায়ী আরও ১১টি বোয়িং যোগ হয়েছে। নতুন এয়ারবাস চুক্তি তাই ছোট আলাদা সিদ্ধান্ত নয়; এটি একই বছরের বড় বহর-বৃদ্ধির তৃতীয় অংশ। বিভিন্ন কোম্পানি, ভিন্ন ডেলিভারি বছর এবং ভিন্ন উড়োজাহাজের কারণে শুধু ঘোষিত ডলার অঙ্ক যোগ করে চূড়ান্ত খরচ বলা ঠিক হবে না। তবু রাষ্ট্রের সামনে একটিই প্রশ্ন: ৩৫টি উড়োজাহাজের বহর কবে, কোন রুটে, কত আসন পূরণ করে, কত আয় এনে এবং কত ঋণ শোধ করে টেকসই হবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তুলনা সরকারের বিরুদ্ধে পুরোনো ও নতুন কোনো পক্ষের রাজনৈতিক পয়েন্ট স্কোরিং নয়। এটি একই সরকারের নেওয়া ধারাবাহিক আর্থিক প্রতিশ্রুতিকে একই খাতায় রাখার দাবি। আগের ১৪ বোয়িংয়ের ক্ষেত্রে নির্মাতা ও সরকার উড়োজাহাজের ধরন ঘোষণা করেছে। নতুন ১০ এয়ারবাসের ক্ষেত্রেও তা হয়েছে। কিন্তু জনগণের দরকার চুক্তিভিত্তিক একটি একীভূত টেবিল: প্রতিটি অর্ডারের মূল্য, মূল্যছাড় থাকলে তার প্রকৃতি, অর্থদাতা, মুদ্রা, সুদ, পরিশোধের বছর, ডেলিভারি এবং রুটভিত্তিক ব্যবসায়িক লক্ষ্য।"
+        },
+        {
+          "type": "heading",
+          "text": "স্বচ্ছতা মানে সিদ্ধান্ত থামিয়ে দেওয়া নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বচ্ছতার দাবি উড়োজাহাজ কেনা বন্ধ করার দাবি নয়। উল্টোভাবে বললে, সময়মতো প্রকাশিত তথ্য সিদ্ধান্তকে শক্তিশালীও করতে পারে। সরকার যদি দেখাতে পারে যে অর্থায়নের শর্ত প্রতিযোগিতামূলক, রুট নির্বাচন তথ্যভিত্তিক, প্রশিক্ষণ ও রক্ষণাবেক্ষণ প্রস্তুত, আর সম্ভাব্য ধাক্কা সামলানোর ব্যবস্থা আছে, তাহলে জনআস্থা বাড়বে। কেবল অনুষ্ঠানের ভাষণ দিয়ে সেই আস্থা কেনা যায় না। ফলাফল মাপার সূচক, মাসিক অগ্রগতি এবং খরচের দায় প্রকাশ করেই তা অর্জন করতে হয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানেই রাষ্ট্রীয় প্রতিষ্ঠানের সঙ্গে ব্যক্তিমালিকানার কোম্পানির পার্থক্য। বেসরকারি কোম্পানির ভুল বিনিয়োগে মালিক ও ঋণদাতারা আগে ক্ষতিগ্রস্ত হন। রাষ্ট্রীয় প্রতিষ্ঠানের ব্যর্থতায় সেবার মান, বাজেট, বৈদেশিক মুদ্রা ও ভবিষ্যৎ সরকারি সহায়তার প্রশ্ন আসে। তাই বিমানের বোর্ড, মন্ত্রণালয় ও অর্থায়ন-সংশ্লিষ্ট সংস্থাগুলোর দায়িত্বও বেশি। সাফল্যের সম্ভাবনা দেখানো তাদের অধিকার; ঝুঁকির বিবরণ দেওয়া তাদের বাধ্যবাধকতা।"
+        },
+        {
+          "type": "heading",
+          "text": "কার লাভ, কার ঝুঁকি?"
+        },
+        {
+          "type": "paragraph",
+          "text": "পরিকল্পনা সফল হলে প্রবাসী যাত্রী, ব্যবসায়ী, পর্যটক এবং দেশের রপ্তানিকারকরা বেশি সংযোগ ও প্রতিযোগিতার সুবিধা পেতে পারেন। বিমানও বিদেশি এয়ারলাইনের কাছে হারানো বাজারের অংশ ফেরত পেতে পারে। কিন্তু পরিকল্পনা ব্যর্থ হলে ঝুঁকিটা শুধু কোম্পানির বোর্ডরুমে আটকে থাকবে না। রাষ্ট্রীয় মালিকানার কারণে ঋণ, বৈদেশিক মুদ্রার দায়, ব্যবস্থাপনা ব্যয় অথবা পুনঃঅর্থায়নের চাপ শেষ পর্যন্ত করদাতা ও জনসেবার বাজেটের ওপর পড়তে পারে। এই কারণেই বাজার-হিস্যা বাড়ানোর বক্তব্যের পাশে নগদ প্রবাহ ও ঝুঁকির হিসাব চাই।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি কতটা টেকে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিমানের ২০ শতাংশ বাজার-হিস্যা বাড়ানোর লক্ষ্য যুক্তিসঙ্গত হতে পারে, কিন্তু সেটি ফলাফল নয়। বড় উড়োজাহাজ কেনা মানেই যাত্রী বাড়বে না; রুট, সময়সূচি, দাম, সেবা, কার্গো, মেরামত সক্ষমতা এবং দক্ষ ব্যবস্থাপনা একসঙ্গে কাজ করতে হয়। এয়ারবাসের ২৫ শতাংশ পর্যন্ত দক্ষতার দাবি পুরোনো প্রজন্মের প্রতিযোগী উড়োজাহাজের সঙ্গে তুলনা; এটি বিমানের ভবিষ্যৎ লাভের গ্যারান্টি নয়। সরকার যদি সত্যিই এই সিদ্ধান্তকে বাণিজ্যিকভাবে শক্ত বলে মনে করে, তাহলে সংক্ষিপ্ত রুটভিত্তিক চাহিদা-অনুমান ও লাভ-ক্ষতির সংবেদনশীলতা প্রকাশে তার ভয় পাওয়ার কথা নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন কী প্রকাশ করতে হবে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "৩০ দিনের মধ্যে বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয়কে এয়ারবাস-চুক্তির মোট মূল্য বা যাচাইযোগ্য মূল্যসীমা, অর্থায়নের উৎস, সুদ, মেয়াদ ও কিস্তির কাঠামো প্রকাশ করতে হবে।",
+            "বিমানকে ৩৫টি ঘোষিত উড়োজাহাজের একীভূত তালিকা দিতে হবে: উড়োজাহাজের ধরন, সরবরাহের বছর, চুক্তির দায়, প্রশিক্ষণ ও রক্ষণাবেক্ষণের খরচ, এবং যে রুটের জন্য পরিকল্পনা করা হয়েছে।",
+            "রাষ্ট্রীয় গ্যারান্টি, মুদ্রা-ঝুঁকি, অগ্রিম অর্থ, বাতিল বা বিলম্বের জরিমানা এবং পুনঃঅর্থায়নের সম্ভাবনা থাকলে তার সারাংশ সংসদীয় স্থায়ী কমিটির কাছে জমা ও প্রকাশ করতে হবে।",
+            "প্রতি ছয় মাসে যাত্রী, কার্গো, সময়ানুবর্তিতা, উড়োজাহাজ ব্যবহার, রুটভিত্তিক আয়-ব্যয় এবং ডেলিভারি অগ্রগতির প্রকাশ্য প্রতিবেদন দিতে হবে।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "উপসংহার"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের জাতীয় বিমান সংস্থার আধুনিক বহর দরকার হতে পারে। এয়ারবাস কেনাও ভুল প্রমাণিত হয়েছে—এমন কোনো তথ্য এখন নেই। কিন্তু সঠিক সিদ্ধান্ত হওয়ার দাবিও নথিহীনভাবে মেনে নেওয়া যাবে না। ১০টি উড়োজাহাজের নাম প্রকাশ করে ১০টি আর্থিক প্রশ্ন আড়াল করা উন্নয়ন নয়; সেটি জনগণকে অন্ধ বিশ্বাস করতে বলা। চুক্তির দাম, ঋণ, গ্যারান্টি, ডেলিভারি ও লাভজনক রুটের হিসাব প্রকাশ করুন। তখনই বোঝা যাবে বিমান সত্যিই ডানা মেলছে, নাকি রাষ্ট্রের ঘাড়ে অদেখা দায় বাড়ছে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Airbus · Biman Bangladesh Airlines places firm order for A350-900 and A321neo Airbus aircraft · ৭ অক্টোবর ২০২৬; ১০টি উড়োজাহাজের দৃঢ় অর্ডার, ধরন ও নির্মাতার অবস্থান",
+          "url": "https://www.airbus.com/en/newsroom/press-releases/2026-10-biman-bangladesh-airlines-places-firm-order-for-a350-900-and-a321neo-airbus-aircraft"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা (বাসস) · Biman signs Airbus deal to acquire ten aircraft · ৭ অক্টোবর ২০২৬; সরকারের বাজার-হিস্যা, সরবরাহ ও আগের বোয়িং-চুক্তি বিষয়ে অবস্থান",
+          "url": "https://www.bssnews.net/news-flash/432426"
+        },
+        {
+          "label": "bdnews24.com · Bangladesh signs deal with Airbus to buy 10 aircraft as European push bears fruit · ৭ অক্টোবর ২০২৬; স্বাক্ষর ও উড়োজাহাজের বিন্যাসের স্বাধীন প্রতিবেদন",
+          "url": "https://bdnews24.com/business/xfrc3v10jp"
+        },
+        {
+          "label": "AeroTime · Biman Bangladesh places firm order for 10 Airbus jets · ৭ অক্টোবর ২০২৬; চুক্তিমূল্য প্রকাশ না হওয়ার স্বাধীন যাচাই",
+          "url": "https://www.aerotime.aero/articles/biman-bangladesh-places-firm-order-for-10-airbus-jets"
+        },
+        {
+          "label": "Boeing · Biman Bangladesh Airlines Orders 14 Boeing 787 Dreamliner and 737 MAX Jets · ৩০ এপ্রিল ২০২৬; প্রথম ১৪টি বোয়িং অর্ডারের প্রাথমিক নির্মাতা-নথি",
+          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Biman-Bangladesh-Airlines-Orders-14-Boeing-787-Dreamliner-and-737-MAX-Jets/default.aspx"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Biman’s Airbus order needs public price and financing terms",
+          "excerpt": "Biman has signed for ten Airbus aircraft. Fleet growth may be justified, but the public still needs the price, financing, repayment, guarantees and route-level business case for this state-owned commitment.",
+          "imageAlt": "Editorial illustration about public accountability for Biman Bangladesh Airlines aircraft procurement",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A ten-aircraft order needs a public price, financing plan, state-risk disclosure and route-level business case."
+        },
+        "de": {
+          "title": "Bimans Airbus-Auftrag braucht öffentliche Preis- und Finanzierungsdaten",
+          "excerpt": "Biman hat zehn Airbus-Flugzeuge bestellt. Flottenwachstum kann sinnvoll sein, doch Preis, Finanzierung, Rückzahlung, Garantien und die Wirtschaftlichkeit nach Route müssen öffentlich sein.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft bei der Flugzeugbeschaffung von Biman Bangladesh Airlines",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Ein Auftrag über zehn Flugzeuge braucht öffentlich einsehbare Preis-, Finanzierungs-, Risiko- und Routenrechnungen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 87,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "The 7 October Airbus order is directly confirmed by Airbus and independently reported by BSS and bdnews24.com. AeroTime independently reports that neither party disclosed the price. BSS documents the government's case for expansion, the 20 percent market-share claim, the expected 2030 delivery start and the stated 35-aircraft pipeline. The article does not allege corruption, overpricing, loss-making operations or an unlawful process. It identifies a bounded, testable accountability gap: public terms for a state-owned carrier's long-term financial commitment are absent.",
+        "governmentPosition": "The Civil Aviation and Tourism Minister says the expansion will help Biman increase capacity and market share from about 20 percent of Bangladesh's passenger market. Biman and Airbus say the A350 and A321neo combination will support long-haul, regional and medium-haul network expansion, including North America, Europe and the Middle East. The editorial accepts that expansion may be commercially justified, but concludes that price, financing, state-risk and route-business-case disclosure is necessary to test that claim.",
+        "findings": [
+          "Airbus, BSS and bdnews24.com confirm the 7 October agreement for four A350-900 and six A321neo aircraft.",
+          "Airbus's release and contemporaneous independent reporting provide no contract price, financing source, repayment schedule, public guarantee or cancellation-term disclosure.",
+          "AeroTime explicitly reports that neither Airbus nor Biman disclosed the price of the ten-aircraft order.",
+          "BSS reports a 35-aircraft combined Boeing-Airbus pipeline, while its reported earlier Boeing figures total approximately US$6.4 billion; the new Airbus commitment is not assigned a value in the article.",
+          "No evidence located by the cutoff establishes corruption, overpricing, illegality or future profitability; none is asserted.",
+          "A public summary of contract value, financing, risk allocation, delivery and route-level performance is a proportionate remedy for a state-owned enterprise commitment."
+        ],
+        "claimMatrix": {
+          "airbusOrderAndAircraftTypes": "VERIFIED FACT — HIGH — Airbus primary release; independently corroborated by BSS and bdnews24.com.",
+          "deliveryExpectation": "REPORTED OFFICIAL POSITION — HIGH — BSS reports expected delivery from 2030 and the minister's request for earlier delivery; it is not presented as a contractual guarantee.",
+          "marketShareAndExpansionRationale": "REPORTED GOVERNMENT POSITION — HIGH — BSS attributes the approximately 20 percent market-share statement and expansion rationale to the minister; it is not treated as an independently audited performance measure.",
+          "priceAndFinancingDisclosure": "VERIFIED ABSENCE IN PUBLIC ANNOUNCEMENTS — HIGH — Airbus release and BSS/bdnews24.com reports contain no price or financing terms; AeroTime explicitly reports that neither party disclosed the price.",
+          "boeingCommitmentContext": "REPORTED FACT — HIGH — BSS gives the earlier announced Boeing amounts and Boeing confirms the first 14-aircraft order; amounts are not combined with the undisclosed Airbus price.",
+          "corruptionOverpricingIllegalityOrProfitability": "UNVERIFIED — NOT ASSERTED — no contract text, audit, procurement finding or financial model establishing any of these claims was found by the cutoff.",
+          "editorialConclusion": "ANALYSIS — HIGH — publication of material financial and operational terms is a proportionate test of a state-owned carrier's claimed public benefit."
+        },
+        "seoTitle": "বিমানের এয়ারবাস চুক্তির দাম ও ঋণের হিসাব চাই",
+        "metaDescription": "বিমান ১০টি এয়ারবাস কিনতে চুক্তি করেছে। বহর বাড়ানোর যুক্তি থাকলেও দাম, ঋণ, কিস্তি, গ্যারান্টি ও রুটভিত্তিক লাভ-ক্ষতির তথ্য প্রকাশ ছাড়া জনগণ ঝুঁকি মাপতে পারবে না।",
+        "categories": [
+          "রাষ্ট্রীয় প্রতিষ্ঠান",
+          "সরকারি জবাবদিহি",
+          "বেসামরিক বিমান চলাচল"
+        ],
+        "tags": [
+          "বিমান বাংলাদেশ এয়ারলাইন্স",
+          "এয়ারবাস",
+          "A350-900",
+          "A321neo",
+          "রাষ্ট্রীয় প্রতিষ্ঠান",
+          "সরকারি ক্রয়",
+          "রাষ্ট্রীয় গ্যারান্টি",
+          "বেসামরিক বিমান পরিবহন",
+          "ঋণ",
+          "জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/biman-airbus-contract-disclosure-2026"
+    },
+    {
       "id": "radiotherapy-machines-delivery-disclosure-2026",
       "slug": "radiotherapy-machines-delivery-disclosure-2026",
       "status": "published",
