@@ -1,6 +1,239 @@
 {
   "items": [
     {
+      "id": "chattogram-port-media-prior-approval-disclosure-follow-up-2026",
+      "slug": "chattogram-port-media-prior-approval-disclosure-follow-up-2026",
+      "status": "published",
+      "tag": "বন্দরনীতি ও জবাবদিহি",
+      "title": "বন্দরের নিরাপত্তা চাই, কিন্তু সংবাদে আগাম অনুমতি কেন—চট্টগ্রাম বন্দর কর্তৃপক্ষকে লিখিত সীমা প্রকাশ করতে হবে",
+      "date": "৭ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-07T04:29:26+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "চট্টগ্রাম বন্দর কর্তৃপক্ষ ছবি, ভিডিও ও কার্যক্রমসংক্রান্ত তথ্য প্রকাশে আগাম অনুমতির নির্দেশ দিয়েছে। নিরাপত্তার প্রয়োজন বাস্তব; কিন্তু কোন তথ্য গোপন, কোন আইনে, কত দিন ও কার অনুমতিতে—লিখিত সীমা প্রকাশ না হলে জনস্বার্থের সংবাদ ঝুঁকিতে পড়ে।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability and information access at a Bangladeshi port",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "বন্দরের নিরাপত্তা রক্ষা জরুরি; কিন্তু নিরাপত্তার নামে সংবাদে আগাম অনুমতির খোলা চেক নয়",
+      "facebookCaption": "চট্টগ্রাম বন্দর কর্তৃপক্ষ ছবি, ভিডিও ও কার্যক্রমসংক্রান্ত তথ্য আগাম অনুমতি ছাড়া প্রকাশ না করতে বলেছে। সংবেদনশীল স্থাপনার নিরাপত্তা অবশ্যই রক্ষা করতে হবে। কিন্তু কোন তথ্য গোপন, কোন আইনি আদেশে, কত দিন এবং কার সিদ্ধান্তে—সেটি প্রকাশ না করলে জনস্বার্থের সংবাদ ও বন্দর পরিচালনা নিয়ে জবাবদিহি দুটোই সংকুচিত হবে।",
+      "facts": [
+        {
+          "value": "৬ অক্টোবর",
+          "label": "সিপিএ সচিব স্বাক্ষরিত বিজ্ঞপ্তির কথা BSS ও TBS-এর প্রতিবেদনে প্রকাশিত হয়"
+        },
+        {
+          "value": "বন্দর আইন, ধারা ১২",
+          "label": "বন্দর সীমানার স্থান ও স্থাপনাকে সংরক্ষিত বন্দর এলাকা বলে; ধারা নিজে সংবাদ প্রকাশে আগাম অনুমতির বিধান বলে না"
+        },
+        {
+          "value": "Official Secrets Act, 3A",
+          "label": "নিষিদ্ধ বা সরকার-নোটিফাইড এলাকার ছবি বা প্রকাশে লিখিত সরকারি অনুমতি ও নির্দিষ্ট আদেশের কাঠামো দেয়"
+        },
+        {
+          "value": "তথ্য অধিকার আইন, ধারা ৪ ও ৭",
+          "label": "তথ্য পাওয়ার অধিকার দেয়, আবার নিরাপত্তা ও নির্দিষ্ট ক্ষতির ক্ষেত্রে ব্যতিক্রমও রাখে"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "চট্টগ্রাম বন্দর দেশের প্রধান সমুদ্রবন্দর। সেই বন্দরের নিরাপত্তা দুর্বল হলে আমদানি-রপ্তানি, শ্রমিক, জাহাজ এবং জাতীয় অর্থনীতি—সবই ঝুঁকিতে পড়ে। তাই কী পয়েন্ট ইনস্টলেশন, নজরদারি ব্যবস্থা বা নিরাপত্তার নকশা প্রকাশ করা যাবে না, এ কথা স্বাভাবিক ও প্রয়োজনীয়। কিন্তু ৬ অক্টোবর চট্টগ্রাম বন্দর কর্তৃপক্ষ যে বিজ্ঞপ্তির কথা জানিয়েছে, সেখানে ছবি, ভিডিও, স্কেচ এবং বন্দর কার্যক্রমসংক্রান্ত তথ্য প্রকাশে আগাম অনুমতির কথা বলা হয়েছে। এখানেই প্রশ্নটি কঠিন: নিরাপত্তার জন্য নির্দিষ্ট সুরক্ষা দরকার, নাকি জনস্বার্থের সংবাদ প্রকাশের আগে কর্তৃপক্ষের ছাড়পত্র?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ সংবাদ সংস্থা ও দ্য বিজনেস স্ট্যান্ডার্ড—দুইটি পৃথক প্রতিবেদনে সিপিএর সচিব সৈয়দ রেফায়েত হামিম স্বাক্ষরিত বিজ্ঞপ্তির কথা এসেছে। BSS বলেছে, নিরাপত্তা ব্যবস্থা, সংরক্ষিত এলাকা, নজরদারির সক্ষমতা, স্থাপনার বিন্যাস ও পরিচালনাগত তথ্য সামাজিক যোগাযোগমাধ্যম, অনলাইন প্ল্যাটফর্ম বা গণমাধ্যমে আগাম অনুমতি ছাড়া প্রকাশকে বেআইনি বলা হয়েছে। TBS-এর প্রতিবেদনে নিরাপত্তা, যোগাযোগব্যবস্থা, জাহাজ ও কার্গো হ্যান্ডলিং, সংরক্ষিত এলাকা এবং অবকাঠামোর ছবি-ভিডিও বা তথ্যের কথাও আছে। একই সঙ্গে আইনগত ব্যবস্থার সতর্কতার কথাও বলা হয়েছে। এই সম্পাদকীয় ওই প্রতিবেদিত বিজ্ঞপ্তির পূর্ণ মূলপাঠ হাতে না পেয়ে কোনো ব্যক্তির বিরুদ্ধে অভিযোগ করছে না। কিন্তু এমন ব্যাপক নির্দেশের সীমানা স্পষ্ট করা কর্তৃপক্ষের দায়।"
+        },
+        {
+          "type": "callout",
+          "text": "সংবেদনশীল নিরাপত্তা-তথ্য গোপন রাখা আর বন্দরের সব জনস্বার্থের সংবাদে আগাম অনুমতি চাওয়া এক কথা নয়। কোনটি কোনটি, সেটিই সিপিএকে লিখিতভাবে জানাতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "এটি এনসিটি স্বচ্ছতা বিতর্কের পরের ঘটনা"
+        },
+        {
+          "type": "paragraph",
+          "text": "১ অক্টোবর সরকার নিউমুরিং কনটেইনার টার্মিনাল পরিচালনায় ১৫ বছরের কনসেশন চুক্তির খসড়া অনুমোদন দিয়েছে। সে সময় আমাদের সম্পাদকীয়ের প্রশ্ন ছিল চুক্তির অপারেটর, রাজস্ব, বিনিয়োগ, ঝুঁকি, মাশুল ও শ্রমিক সুরক্ষার শর্ত প্রকাশ করা হবে কি না। ৬ অক্টোবরের বিজ্ঞপ্তি সেই পুরোনো প্রশ্নকে নতুন মাত্রা দিয়েছে। এই নির্দেশ প্রমাণ করে না যে এনসিটি চুক্তি বা বন্দর পরিচালনায় অনিয়ম হয়েছে—এমন দাবি করার কোনো প্রমাণ নেই। কিন্তু যে সময়ে বড় একটি বন্দর-ব্যবস্থাপনা চুক্তির শর্ত নিয়ে প্রকাশ্য প্রশ্ন আছে, সে সময়ে তথ্য ও ছবির ওপর বিস্তৃত আগাম-অনুমতির ভাষা স্বাভাবিকভাবেই জনপর্যবেক্ষণ সংকুচিত হওয়ার আশঙ্কা তৈরি করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পক্ষে শক্তিশালী যুক্তিটিও পরিষ্কার। বন্দর চত্বরে নিরাপত্তার স্পর্শকাতর এলাকা আছে। কার্গো চলাচল, জাহাজের অবস্থান, নিরাপত্তা ক্যামেরা, প্রবেশপথ, যোগাযোগব্যবস্থা কিংবা বিশেষ স্থাপনার বিস্তারিত প্রকাশ অপরাধী বা শত্রুভাবাপন্ন পক্ষকে সুবিধা দিতে পারে। BSS-এর ভাষ্য অনুযায়ী সিপিএ ঠিক এই নিরাপত্তা ও জাতীয় স্বার্থের কথাই বলেছে। এই যুক্তিকে হালকা করে দেখার সুযোগ নেই। সংবাদমাধ্যমের স্বাধীনতার অর্থ কোনো নিরাপত্তা মানদণ্ড ছাড়াই সবকিছু প্রকাশের অধিকার নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "আইন কী বলে, আর কী বলে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "চট্টগ্রাম বন্দর কর্তৃপক্ষ আইন, ২০২২-এর ১২ ধারায় বন্দরের সুষ্ঠু পরিচালনা ও জনসাধারণের প্রবেশ নিয়ন্ত্রণের স্বার্থে বন্দর সীমানার সব স্থান ও স্থাপনাকে ‘সংরক্ষিত বন্দর এলাকা’ বলা হয়েছে। এটি প্রবেশ নিয়ন্ত্রণের একটি স্পষ্ট ক্ষমতা। কিন্তু ধারাটির পাঠে ছবি, ভিডিও বা জনস্বার্থের সংবাদ প্রকাশে সবার জন্য আগাম অনুমতির আলাদা বিধান নেই। তাই কেবল ‘সংরক্ষিত এলাকা’ শব্দটি দিয়ে সংবাদ প্রকাশের সব প্রশ্নের নিষ্পত্তি হয় না। কর্তৃপক্ষ যদি অন্য আইন, বিধি বা নির্দেশের ওপর নির্ভর করে থাকে, সেই নির্দিষ্ট ভিত্তি প্রকাশ করা দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "Official Secrets Act, 1923-এর ৩এ ধারা আরও নির্দিষ্ট কাঠামো দেয়। সেখানে নিষিদ্ধ স্থান বা সরকার কর্তৃক নিরাপত্তার স্বার্থে নোটিফাই করা এলাকার ছবি, স্কেচ, নকশা বা উপস্থাপনায় সরকারের বা সরকারের পক্ষে দেওয়া লিখিত অনুমতির কথা আছে। সেই অনুমতির অধীনে তৈরি উপকরণ প্রকাশের আগে অনুমোদনের জন্য সাধারণ বা বিশেষ আদেশ করার ব্যবস্থাও আছে। অর্থাৎ আইনে নিরাপত্তার জন্য শক্ত ক্ষমতা আছে, কিন্তু সেটি নিষিদ্ধ বা নোটিফাই করা এলাকা, লিখিত অনুমতি এবং নির্দিষ্ট আদেশের সঙ্গে বাঁধা। এই ধারার ভিত্তিতে কোনো সুনির্দিষ্ট সরকারি নোটিফিকেশন বা আদেশ আছে কি না, থাকলে তার নম্বর ও পরিধি কী—সেটিই এখন প্রকাশ করা উচিত।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তথ্য অধিকার আইন, ২০০৯-এর ৪ ধারা নাগরিকের তথ্য পাওয়ার অধিকার স্বীকার করে এবং কর্তৃপক্ষকে তথ্য দিতে বাধ্য করে। একই আইনের ৭ ধারায় জাতীয় নিরাপত্তা, অপরাধ প্রতিরোধ, ব্যক্তিগত নিরাপত্তা, তদন্ত এবং কিছু বাণিজ্যিক গোপনীয়তাসহ নির্দিষ্ট ব্যতিক্রম আছে। আইনটি তাই নিরাপত্তা ও উন্মুক্ততার মধ্যে কোনো একপেশে পছন্দ নয়; বরং কোন তথ্য প্রকাশে বাস্তব ক্ষতি হবে তার সুনির্দিষ্ট পরীক্ষা চায়। সংবাদে আগাম অনুমতির একটি বিস্তৃত নির্দেশ সেই পরীক্ষাকে বদলে দিলে তা কেন প্রয়োজন, কতটুকু প্রয়োজন এবং কোথায় শেষ—জনগণকে তা জানা দরকার।"
+        },
+        {
+          "type": "heading",
+          "text": "লিখিত সীমা প্রকাশ করলে কার লাভ"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্পষ্ট নিয়ম প্রথমে সিপিএরই সুরক্ষা। বন্দর এলাকায় দায়িত্ব পালনরত কর্মকর্তা, নিরাপত্তাকর্মী বা কর্মীরা যদি জানেন কোন ছবি বা নথি সত্যিই নিষিদ্ধ, তাহলে তারা অনুমাননির্ভরভাবে সাংবাদিক বা ব্যবহারকারীর কাজ আটকে দেবেন না। একইভাবে সংবাদকর্মী জানবেন কোন তথ্য প্রকাশের আগে যাচাই বা অনুমতির প্রয়োজন, কোন তথ্য সরাসরি জনস্বার্থে প্রকাশযোগ্য, এবং জরুরি কোনো ঘটনায় কাকে লিখিতভাবে জানাতে হবে। অস্পষ্ট নির্দেশে এই দুই পক্ষই অনিশ্চয়তায় পড়ে; পরে বিরোধ হলে সিদ্ধান্তটি নথি ও নিয়মের বদলে ব্যক্তির বিবেচনার ওপর দাঁড়ায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই স্বচ্ছতা ব্যবসায়ীরও স্বার্থ রক্ষা করে। বন্দর দিয়ে পণ্য আনা-নেওয়া করা প্রতিষ্ঠানকে জাহাজের সারি, পণ্য খালাসের গতি, গেটের বিলম্ব, ধর্মঘট, আবহাওয়াজনিত বিঘ্ন বা সেবার পরিবর্তন সম্পর্কে নির্ভরযোগ্য তথ্য জানতে হয়। এসব তথ্যের কোনো অংশ নিরাপত্তাসংবেদনশীল হলে কর্তৃপক্ষ সেটি সীমিত করতে পারে। কিন্তু নিরাপত্তা তথ্য ও সেবার বাস্তব অবস্থা এক করে ফেললে বাজারে গুজব বাড়ে, ব্যয় ও বিলম্বের দায় নির্ণয় কঠিন হয়, আর জনগণ বুঝতে পারে না কোন সংকট বাস্তব আর কোনটি অস্বচ্ছতার ফল। নিয়মিত পরিসংখ্যান ও নির্দিষ্ট নিরাপত্তা ব্যতিক্রম একসঙ্গে চালু রাখা সম্ভব।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সবচেয়ে গুরুত্বপূর্ণ বিষয় হলো প্রক্রিয়ার ন্যায্যতা। অনুমতির সিদ্ধান্ত যদি কোনো সংবাদ বা গবেষণাকে আটকে দিতে পারে, তাহলে আবেদন, সিদ্ধান্ত, প্রত্যাখ্যানের কারণ ও পুনর্বিবেচনার ধাপ লিখিত হওয়া দরকার। সিপিএ চাইলে সীমিত সময়ের মধ্যে উত্তর দেওয়ার দায়িত্বপ্রাপ্ত কর্মকর্তা নির্ধারণ করতে পারে, নিরাপত্তার আপত্তি থাকলে কেবল আপত্তিকর অংশ বাদ দিয়ে বাকি তথ্য প্রকাশের ব্যবস্থা করতে পারে, এবং আপিলের জন্য আলাদা কর্তৃপক্ষ রাখতে পারে। এতে নিরাপত্তা ছাড় নয়; বরং নিরাপত্তার সিদ্ধান্তও যাচাইযোগ্য হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যা কোথায়: সংজ্ঞাহীন সতর্কতা"
+        },
+        {
+          "type": "paragraph",
+          "text": "‘কার্যক্রমসংক্রান্ত তথ্য’ বা ‘অবকাঠামো’—এ ধরনের শব্দের পরিসর খুব বড়। এগুলো কি শুধু সিসিটিভির অবস্থান, প্রবেশ-কোড, নিরাপত্তা পরিকল্পনা ও সীমিত কেপিআই এলাকার নকশা বোঝায়? নাকি জাহাজজট, কনটেইনার হ্যান্ডলিং, দুর্ঘটনা, শ্রমিকের নিরাপত্তা, দূষণ, পণ্য খালাসের বিলম্ব, দরপত্র, টার্মিনাল-ইজারা বা সরকারি সিদ্ধান্ত নিয়ে প্রতিবেদনও এতে পড়ে? মূল বিজ্ঞপ্তির পূর্ণ পাঠ ও বাস্তব প্রয়োগের নির্দেশনা প্রকাশ না হলে সাংবাদিক, শ্রমিক, ব্যবসায়ী এবং সাধারণ নাগরিক কেউই এই সীমা বুঝতে পারবেন না। অনিশ্চয়তার এই অবস্থাই অনেক সময় প্রকাশের আগেই আত্মসংযম তৈরি করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ধরা যাক, কোনো প্রতিবেদক বন্দরের বাইরে থেকে জাহাজজটের ছবি তুললেন, অথবা অনুমোদিত স্থানে দাঁড়িয়ে শ্রমিকের নিরাপত্তা নিয়ে তথ্য সংগ্রহ করলেন। আবার কোনো গবেষক প্রকাশ্য দরপত্র, রাজস্ব বা টার্মিনাল চুক্তির তথ্য বিশ্লেষণ করলেন। এসব কাজের কোন অংশে নতুন নির্দেশটি প্রযোজ্য, আর কোন অংশে নয়—সে উত্তর না থাকলে আইন মানার ইচ্ছাই যথেষ্ট নয়। একেক কর্মকর্তা একেক ব্যাখ্যা দিলে একই তথ্য কারও জন্য অনুমোদিত আর কারও জন্য নিষিদ্ধ হয়ে যেতে পারে। রাষ্ট্রীয় ক্ষমতার ব্যবহার এমন অনিশ্চয়তার ওপর চলা উচিত নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "TBS-এর প্রতিবেদনে সামুদ্রিক আইন বিশেষজ্ঞের বক্তব্য এসেছে যে আন্তর্জাতিক নিরাপত্তা বিধি সংবেদনশীল তথ্য ও গুরুত্বপূর্ণ এলাকায় প্রবেশ নিয়ন্ত্রণ করতে বলে, কিন্তু বন্দরসংক্রান্ত প্রতিটি ছবি বা পরিচালনাগত তথ্যকে আপনা থেকেই গোপন করে না। এটিকে চূড়ান্ত আইনি সিদ্ধান্ত হিসেবে নেওয়া যাবে না। তবে একটি দরকারি নীতি মনে করিয়ে দেয়: সুরক্ষার দাবি যত শক্ত হবে, তার সীমা ও যুক্তিও তত নির্দিষ্ট হতে হবে। সিপিএর বিজ্ঞপ্তি যে আইনসংগত নয়—এই রায় আমরা দিচ্ছি না। পূর্ণ আদেশ, প্রযোজ্য নোটিফিকেশন এবং প্রয়োগের নথি ছাড়া এমন রায় দেওয়া দায়িত্বহীন হবে। আমাদের দাবি ছোট কিন্তু জরুরি: কর্তৃপক্ষ নিজেই সেই নথি প্রকাশ করুক।"
+        },
+        {
+          "type": "heading",
+          "text": "কর্তৃপক্ষের সামনে সাতটি নির্দিষ্ট প্রশ্ন"
+        },
+        {
+          "type": "list",
+          "items": [
+            "৬ অক্টোবরের বিজ্ঞপ্তির পূর্ণ বাংলা ও ইংরেজি পাঠ, স্মারক নম্বর, তারিখ এবং প্রাপকের তালিকা কি আজই ওয়েবসাইটে প্রকাশ করা হবে?",
+            "কোন কোন স্থান, নথি, ছবি, ভিডিও ও পরিচালনাগত তথ্যকে সংবেদনশীল বলা হচ্ছে—তালিকাটি কি প্রকাশ করা হবে?",
+            "Official Secrets Act-এর ৩এ ধারার জন্য কোন সরকারি নোটিফিকেশন, নিষিদ্ধ-এলাকা ঘোষণা বা সাধারণ/বিশেষ আদেশ প্রযোজ্য—তার নম্বর ও তারিখ কী?",
+            "চট্টগ্রাম বন্দর কর্তৃপক্ষ আইন, ২০২২-এর ১২ ধারার বাইরে সংবাদ প্রকাশে আগাম অনুমতির কোন বিধি বা প্রবিধান সিপিএ প্রয়োগ করছে?",
+            "জাহাজজট, কার্গো বিলম্ব, দুর্ঘটনা, শ্রমিকের নিরাপত্তা, দূষণ, দরপত্র ও কনসেশন চুক্তি নিয়ে প্রতিবেদন কি এই অনুমতির আওতায় পড়বে না—এ নিশ্চয়তা কি দেওয়া হবে?",
+            "অনুমতি চাইলে কোন কর্মকর্তা কত কার্যদিবসে সিদ্ধান্ত দেবেন, না বললে কারণ ও আপিলের পথ কী—এটি কি প্রকাশ করা হবে?",
+            "নিরাপত্তা ঝুঁকি ছাড়া প্রকাশিত প্রতিবেদনের বিরুদ্ধে এই নির্দেশ ব্যবহার করা হবে না—এ প্রতিশ্রুতি কি বন্দর কর্তৃপক্ষ দেবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "খোলা নিয়মই নিরাপত্তার সহায়ক"
+        },
+        {
+          "type": "paragraph",
+          "text": "বন্দর কর্তৃপক্ষের জন্য সবচেয়ে যুক্তিসঙ্গত পথ হলো নির্দেশ প্রত্যাহারের নাটক নয়, তার আইনসম্মত ও সুনির্দিষ্ট সংস্করণ প্রকাশ করা। একটি জনসম্মুখে পাওয়া যায় এমন নিরাপত্তা-তথ্য তালিকা করা যেতে পারে: কোন জায়গায় ছবি তোলা নিষিদ্ধ, কোন প্রযুক্তিগত তথ্য প্রকাশ করা যাবে না, জরুরি পরিস্থিতিতে কীভাবে রিপোর্ট করা হবে, আর কোন জনস্বার্থের তথ্য নিয়মিত প্রকাশ্য থাকবে। একই সঙ্গে একটি দ্রুত, লিখিত অনুমতি প্রক্রিয়া দরকার, যাতে সংবাদ বা গবেষণা অযথা আটকে না যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এনসিটি কনসেশন, বন্দরের রাজস্ব, টার্মিনাল কর্মদক্ষতা, দুর্ঘটনা, পরিবেশ, শ্রমিকের নিরাপত্তা এবং সরকারি ক্রয়—এসব জনস্বার্থের বিষয়। এগুলো নিয়ে যাচাইযোগ্য তথ্য প্রকাশ করা কোনো নিরাপত্তা দুর্বলতা নয়। বরং অস্বচ্ছতার কারণে গুজব বাড়ে, ভুল তথ্য ছড়ায় এবং প্রকৃত নিরাপত্তা-ঝুঁকিও আড়ালে থাকে। নির্দিষ্ট নিরাপত্তা সীমা মেনে প্রকাশ্য তথ্যের প্রবাহ বজায় রাখাই একটি পরিণত বন্দরের পরিচয়।"
+        },
+        {
+          "type": "heading",
+          "text": "শেষ কথা"
+        },
+        {
+          "type": "paragraph",
+          "text": "চট্টগ্রাম বন্দরকে নিরাপদ রাখা সরকারের দায়িত্ব, এবং সেই দায়িত্ব পালনে সিপিএর প্রয়োজনীয় ক্ষমতা থাকা উচিত। কিন্তু ক্ষমতার ভাষা যদি এত বিস্তৃত হয় যে কোন তথ্য জনস্বার্থে প্রকাশযোগ্য আর কোনটি সত্যিই নিরাপত্তাসংবেদনশীল—তা অস্পষ্ট হয়ে যায়, তাহলে নিরাপত্তা নয়, জবাবদিহিই দুর্বল হয়। ৬ অক্টোবরের নির্দেশের পূর্ণ পাঠ, আইনি ভিত্তি, নির্দিষ্ট সীমা এবং আপিলের পথ প্রকাশ করাই এখন সিপিএর প্রথম পরীক্ষা। এনসিটি চুক্তির শর্ত যেমন আলোতে আসা দরকার, তেমনি সেই চুক্তি ও বন্দর পরিচালনা নিয়ে সংবাদ করার অধিকারও অন্ধকারে ফেলা যাবে না। নথি প্রকাশ করলে সিপিএ তার নিরাপত্তা-দায়িত্বের সীমাও স্পষ্ট করতে পারবে, আর নাগরিকরাও বুঝতে পারবেন কোন তথ্য লুকোনো নয়, কোনটি সত্যিই সুরক্ষিত রাখা দরকার। এই সরল স্বচ্ছতাই বন্দরকে একসঙ্গে নিরাপদ, কার্যকর এবং জবাবদিহিমূলক রাখার সবচেয়ে বাস্তব পথ। বাস্তবায়নের অগ্রগতি, নিরাপত্তা ব্যতিক্রম এবং প্রত্যাখ্যাত অনুমতির সমষ্টিগত সংখ্যা মাসে একবার প্রকাশ করলে এই প্রতিশ্রুতি কাগজে সীমাবদ্ধ থাকবে না। এতে সাংবাদিক, ব্যবহারকারী ও নিরাপত্তা কর্মকর্তার জন্য একই লিখিত মানদণ্ড কার্যকর হবে এবং অপ্রয়োজনীয় বিরোধ কমবে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা (BSS) · Ctg port bans unauthorized photography, video recording · ৬ অক্টোবর ২০২৬",
+          "url": "https://www.bssnews.net/others/431973"
+        },
+        {
+          "label": "The Business Standard · Ctg Port warns media against publishing information, photos without permission · ৬ অক্টোবর ২০২৬",
+          "url": "https://www.tbsnews.net/bangladesh/ctg-port-warns-media-against-publishing-information-photos-without-permission-1564806"
+        },
+        {
+          "label": "Laws of Bangladesh · চট্টগ্রাম বন্দর কর্তৃপক্ষ আইন, ২০২২, ধারা ১০–১২",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-1404.html"
+        },
+        {
+          "label": "Laws of Bangladesh · Official Secrets Act, 1923, section 3A",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-132/section-print-6995.html"
+        },
+        {
+          "label": "Laws of Bangladesh · তথ্য অধিকার আইন, ২০০৯, ধারা ৪ ও ৭",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-1011.html"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Port security is necessary, but why require prior approval for reporting?",
+          "excerpt": "The Chattogram Port Authority has directed prior approval for publishing certain images, videos and operational information. Security is necessary, but the legal scope, criteria and remedy must be public.",
+          "imageAlt": "Editorial illustration about public accountability and information access at a Bangladeshi port",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Port security requires clear safeguards, not an undefined prior-approval barrier to public-interest reporting."
+        },
+        "de": {
+          "title": "Hafensicherheit ist nötig – warum aber eine Vorabgenehmigung für Berichte?",
+          "excerpt": "Die Chattogram Port Authority verlangt für bestimmte Bilder, Videos und Betriebsinformationen eine vorherige Genehmigung. Sicherheit ist nötig, doch Rechtsgrundlage, Grenzen und Rechtsmittel müssen öffentlich sein.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft und Informationszugang in einem Hafen in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Hafensicherheit braucht klare Regeln, keine unbestimmte Vorabfreigabe für Berichte im öffentlichen Interesse."
+        }
+      },
+      "automation": {
+        "evidenceScore": 84,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a fresh 6 October follow-up to the 1 October NCT-concession transparency editorial, not a retelling of the concession decision. BSS and The Business Standard independently report the CPA release, its prior-approval language and the stated security rationale. Primary Laws of Bangladesh texts verify the narrower statutory framework: Port Authority Act section 12 concerns restricted-port status and public access; Official Secrets Act section 3A concerns prohibited or government-notified areas, written permit and specified orders; the RTI Act provides both a right to information and defined security exceptions. The editorial does not assert that the CPA directive is unlawful, that it targets NCT coverage, or that any port wrongdoing has occurred. It calls for publication of the full directive, legal basis, scope and remedy.",
+        "governmentPosition": "CPA says the directive protects key installations, restricted areas, security arrangements and operational systems at the country’s primary maritime gateway. BSS reports the authority’s position that the security of critical infrastructure is tied to national interests and that unauthorized circulation of sensitive material can trigger action under applicable law. This is the strongest and legitimate security case; the editorial accepts the need to protect genuinely sensitive information while testing whether a broad prior-approval formulation has publicly defined legal limits.",
+        "findings": [
+          "BSS and TBS independently reported on 6 October that CPA issued a directive requiring prior permission for specified photographs, videos and information relating to port security and operations; both attribute it to a release signed by CPA Secretary Syed Refayet Hamim.",
+          "The reports describe overlapping but broad categories, including security measures, restricted areas, surveillance capability, facility layouts, operational information, communications, vessel and cargo handling, and infrastructure.",
+          "Section 12 of the Chattogram Port Authority Act 2022 classifies places and installations inside port boundaries as restricted port areas for orderly operation and public-access control. It does not by its text create a general prior-approval rule for all reporting or publication.",
+          "Official Secrets Act section 3A provides a distinct framework for photographs or representations of prohibited places or areas notified by government in the interests of Bangladesh’s security, requiring written permission and allowing publication controls by general or special order.",
+          "The Right to Information Act recognises an information right while listing specific exceptions for national security, public safety, investigations and other harms. It supports a precise, harm-based approach rather than an undefined category of information.",
+          "No original CPA directive, notification or order number establishing the precise scope was located in the sources reviewed by the research cutoff. The article treats that absence as a disclosure question, not evidence of illegality or improper motive.",
+          "The proportionate accountability remedy is publication of the directive and its legal basis, an enumerated sensitive-information list, a time-bound permission and appeal process, and an explicit safeguard for public-interest reporting outside defined security risks."
+        ],
+        "claimMatrix": {
+          "directiveAndScope": "REPORTED FACT — HIGH — BSS and TBS independently report the CPA release and its stated categories; no full original text is asserted as directly reviewed.",
+          "governmentSecurityRationale": "REPORTED OFFICIAL POSITION — HIGH — BSS reports CPA’s security and national-interest justification; treated as the strongest case for the directive.",
+          "portActSection12": "VERIFIED FACT — HIGH — official Laws of Bangladesh text classifies port-boundary places and installations as restricted port areas for orderly management and public-access control.",
+          "officialSecretsActSection3A": "VERIFIED FACT — HIGH — official Laws of Bangladesh text sets a written-permit framework for prohibited or government-notified places and specified publication controls.",
+          "rtiActBalance": "VERIFIED FACT — HIGH — official Laws of Bangladesh text establishes both the information right and enumerated exceptions.",
+          "directiveIllegalityOrMotive": "UNVERIFIED — NOT ASSERTED — full directive, any linked notification and implementation record were not located; no claim of censorship motive or unlawful action is made.",
+          "editorialConclusion": "ANALYSIS — HIGH — public legal limits, clear categories and remedy are proportionate safeguards that protect both genuine port security and public-interest scrutiny."
+        },
+        "seoTitle": "চট্টগ্রাম বন্দরে সংবাদে আগাম অনুমতি কেন?",
+        "metaDescription": "চট্টগ্রাম বন্দর কর্তৃপক্ষ ছবি, ভিডিও ও তথ্য প্রকাশে আগাম অনুমতির নির্দেশ দিয়েছে। নিরাপত্তার প্রয়োজন মেনেই আইনি সীমা, সংবেদনশীল তথ্যের তালিকা ও আপিলের পথ প্রকাশ চাই।",
+        "categories": [
+          "বন্দরনীতি",
+          "তথ্য অধিকার",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "চট্টগ্রাম বন্দর",
+          "চট্টগ্রাম বন্দর কর্তৃপক্ষ",
+          "সিপিএ",
+          "তথ্য অধিকার",
+          "সংবাদমাধ্যমের স্বাধীনতা",
+          "বন্দর নিরাপত্তা",
+          "Official Secrets Act",
+          "নিউমুরিং কনটেইনার টার্মিনাল",
+          "এনসিটি",
+          "সরকারি জবাবদিহি"
+        ]
+      },
+      "sharePath": "blog/chattogram-port-media-prior-approval-disclosure-follow-up-2026"
+    },
+    {
       "id": "kushtia-ncp-attack-complaint-status-public-inquiry-2026",
       "slug": "kushtia-ncp-attack-complaint-status-public-inquiry-2026",
       "status": "published",
