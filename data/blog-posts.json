@@ -1,6 +1,242 @@
 {
   "items": [
     {
+      "id": "treasury-bond-buyback-public-cost-account-2026",
+      "slug": "treasury-bond-buyback-public-cost-account-2026",
+      "sharePath": "blog/treasury-bond-buyback-public-cost-account-2026",
+      "status": "published",
+      "tag": "রাষ্ট্রীয় ঋণ ও জবাবদিহি",
+      "title": "১,৭১৬ কোটি টাকার বন্ড ফেরত নিল সরকার—সাশ্রয়ের পূর্ণ হিসাব প্রকাশ এখন জরুরি",
+      "date": "৮ অক্টোবর ২০২৬",
+      "publishedAt": "2026-10-08T20:28:38+02:00",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "excerpt": "সরকার মেয়াদ শেষের আগে ১,৭১৬ কোটি টাকার ট্রেজারি বন্ড কিনে নিয়েছে। উদ্যোগটি যৌক্তিক হতে পারে, কিন্তু গ্রহণমূল্য, সুদ, সাশ্রয় ও নতুন ঋণের হিসাব ছাড়া করদাতারা ফল যাচাই করতে পারবেন না।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about public accountability for Bangladesh government treasury-bond debt management",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "বন্ড আগে কিনে নেওয়া সাশ্রয় হবে কি না, তা কুপন হার দেখে নয়—গ্রহণমূল্য, অর্জিত সুদ ও পরের ঋণের খরচ মিলিয়ে প্রকাশ্য হিসাবেই বোঝা যাবে",
+      "facebookCaption": "সরকার ১,৭১৬ কোটি টাকার ট্রেজারি বন্ড মেয়াদের আগে কিনে নিয়েছে। এটি ভালো ঋণ-ব্যবস্থাপনা হতে পারে, কিন্তু গ্রহণমূল্য, অর্জিত সুদ, প্রকৃত সাশ্রয় এবং পরের ঋণের খরচ প্রকাশ না হলে করদাতার যাচাই অসম্পূর্ণ থাকবে।",
+      "facts": [
+        {
+          "value": "১,৭১৬.১৪ কোটি টাকা",
+          "label": "৮ অক্টোবরের নিলামে গৃহীত দুই বছর মেয়াদি ট্রেজারি বন্ডের দর"
+        },
+        {
+          "value": "৫৬টি বিড",
+          "label": "বাংলাদেশ ব্যাংকের তথ্য উদ্ধৃত করে দ্য ডেইলি স্টারের প্রতিবেদনে মোট জমা পড়া দরপ্রস্তাব"
+        },
+        {
+          "value": "১২.৩০%",
+          "label": "BD0926191026 নম্বর বন্ডের বার্ষিক কুপন হার এবং ৬ নভেম্বর ২০২৬ মেয়াদপূর্তির সরকারি সিকিউরিটিজ-তথ্য"
+        },
+        {
+          "value": "৬,৬৬৫.৫৮ কোটি টাকা",
+          "label": "৮ অক্টোবরের সরকারি সিকিউরিটিজ বাজার-তথ্যে দেখানো বন্ডটির বকেয়া মূলধন"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "সরকার ৮ অক্টোবর মেয়াদ শেষের প্রায় এক মাস আগে ১ হাজার ৭১৬ কোটি ১৪ লাখ টাকার দুই বছর মেয়াদি ট্রেজারি বন্ড কিনে নিয়েছে। বাংলাদেশ ব্যাংক এটিকে দায় ব্যবস্থাপনার নতুন বাজারভিত্তিক পদ্ধতি হিসেবে তুলে ধরেছে। নতুন পদ্ধতি খারাপ নয়। চড়া সুদের পুরোনো ঋণ কম খরচে বদলানো গেলে করদাতার সুবিধাই হওয়ার কথা। কিন্তু এই সুবিধা ঘোষণায় নয়, হিসাবের পাতায় প্রমাণিত হতে হবে। এখনো সেই হিসাব জনসমক্ষে নেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "মূল প্রশ্নটি সহজ। সরকার কোন গড় দরে বন্ড কিনল, তার সঙ্গে কত অর্জিত সুদ দিল, সব মিলিয়ে কত নগদ ব্যয় হলো, আর ওই ঋণের জায়গায় পরে কত সুদে কত টাকা ধার নেবে? এই চারটি সংখ্যা ছাড়া ‘সুদ সাশ্রয়’ কথাটি পরীক্ষা করা যায় না। বাংলাদেশ ব্যাংক নিলাম সফল হওয়ার তথ্য দিয়েছে, দ্য ডেইলি স্টারও ৫৬টি দরপ্রস্তাবের বিপরীতে ১ হাজার ৭১৬ কোটি ১৪ লাখ টাকার বিড গৃহীত হওয়ার কথা জানিয়েছে। কিন্তু জনগণের হাতে এখনো এমন একটি ফলাফল-সারণি নেই, যেখানে নিলামের প্রকৃত ব্যয় ও ভবিষ্যৎ দায় পাশাপাশি দেখা যায়।"
+        },
+        {
+          "type": "callout",
+          "text": "মেয়াদের আগে বন্ড কেনা নিজে থেকে অপচয় নয়। কিন্তু কুপন হার ১২.৩০ শতাংশ বললেই কত সাশ্রয় হলো জানা যায় না। গ্রহণমূল্য, অর্জিত সুদ, সময়ের ব্যবধান এবং বিকল্প ঋণের খরচ প্রকাশ না করলে সাশ্রয়ের দাবিটি যাচাইয়ের বাইরে থেকে যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "যে বন্ডটি কেনা হলো, তার অঙ্ক কী বলছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের সরকারি সিকিউরিটিজ প্ল্যাটফর্মে বন্ডটির পরিচয় BD0926191026। এটি ৬ নভেম্বর ২০২৪ ইস্যু হওয়া দুই বছর মেয়াদি বন্ড। মেয়াদ শেষ হওয়ার কথা ৬ নভেম্বর ২০২৬। কুপন হার বছরে ১২.৩০ শতাংশ। ৮ অক্টোবরের বাজার-তথ্যে বকেয়া পরিমাণ ৬ হাজার ৬৬৫ কোটি ৫৮ লাখ টাকা দেখানো হয়েছে। অর্থাৎ গৃহীত ১ হাজার ৭১৬ কোটি ১৪ লাখ টাকা বকেয়া অঙ্কের প্রায় ২৫.৭ শতাংশ। এটি কোনো ব্যর্থতার প্রমাণ নয়। কারণ সরকার আগেই বলেছিল, সব প্রস্তাব গ্রহণ করার বাধ্যবাধকতা নেই এবং দাম বাজারে নির্ধারিত হবে। কিন্তু এই আংশিক গ্রহণের কারণই এখন প্রকাশ করা দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নিলামের আগের ঘোষণায় লক্ষ্য ছিল প্রায় ৬ হাজার ৬৬৭ কোটি টাকার বন্ড পুনঃক্রয়। দ্য বিজনেস স্ট্যান্ডার্ড এবং ফিন্যান্সিয়াল এক্সপ্রেস জানিয়েছিল, এটি বহু বছর পর সরকারি সিকিউরিটিজ পুনঃক্রয়ের উদ্যোগ এবং প্রতিযোগিতামূলক রিভার্স অকশনের মাধ্যমে দাম নির্ধারিত হওয়ার কথা। বাজারের অংশগ্রহণকারীরা যে দামে বিক্রি করতে রাজি, সরকার তার মধ্যে গ্রহণযোগ্য দর বাছাই করে। ফলে পরিকল্পিত অঙ্কের সবটা না নেওয়া স্বাভাবিক হতে পারে। কিন্তু কোন সীমামূল্যে দর গ্রহণ করা হলো, গৃহীত বিডের ওজনভিত্তিক গড় ফলন কত, আর কী কারণে বাকি বিড বাদ পড়ল—এই প্রশ্নগুলোর সরকারি উত্তর দরকার।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি গ্রহণযোগ্য, কিন্তু সেটি সম্পূর্ণ পরীক্ষা চায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের ভাষ্য হলো, দায় ব্যবস্থাপনা কার্যক্রম বা লায়াবিলিটি ম্যানেজমেন্ট অপারেশনের মাধ্যমে সরকারি ঋণের মেয়াদবিন্যাস আরও ভারসাম্যপূর্ণ হবে, ভবিষ্যৎ অর্থায়নে নমনীয়তা বাড়বে এবং ঋণের খরচ ও ঝুঁকি সামলানোর সুযোগ তৈরি হবে। দ্য ডেইলি স্টারের প্রতিবেদনে বাংলাদেশ ব্যাংকের এক কর্মকর্তার বক্তব্য এসেছে: এক মাস আগে কিনে নেওয়ায় ওই এক মাসের সুদ দিতে হবে না। এই যুক্তির বাস্তব ভিত্তি আছে। কোনো উচ্চ-কুপন বন্ড কম দামে বা গ্রহণযোগ্য ব্যয়ে তুলে নিয়ে, পরে কম খরচে অর্থায়ন করা গেলে রাষ্ট্রের দায় কমতে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তবে সরকারি যুক্তি মানার অর্থ অন্ধভাবে ফল ধরে নেওয়া নয়। বন্ড আগাম কিনলে সরকার কেবল মূলধন ফেরত দেয় না। সফল বিক্রেতাকে গৃহীত মূল্য এবং নিষ্পত্তির দিন পর্যন্ত জমা হওয়া সুদও দিতে হয়। আবার বন্ডটি তুলে নেওয়ার পরে রাষ্ট্র যদি নতুন বন্ড ইস্যু করে, তাহলে সেই নতুন বন্ডের সুদ, মেয়াদ ও ঝুঁকিও হিসাবের অংশ। বাজারদর যদি অভিহিত মূল্যের চেয়ে বেশি হয়, তবে আগাম কেনার তাৎক্ষণিক খরচ বাড়তে পারে। বিপরীতে পুরোনো ১২.৩০ শতাংশের তুলনায় কম খরচে নতুন ঋণ সম্ভব হলে দীর্ঘমেয়াদে লাভ হতে পারে। কোনটি ঘটেছে, তা অনুমান করে বলা দায়িত্বশীলতা নয়। নথি প্রকাশ করাই একমাত্র পথ।"
+        },
+        {
+          "type": "heading",
+          "text": "কুপন হার আর বাস্তব সাশ্রয় এক জিনিস নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানেই প্রচারের ভাষা ও সরকারি হিসাবের মধ্যে পার্থক্য। ১২.৩০ শতাংশ কুপন হলো বন্ড ইস্যুর সময় প্রতিশ্রুত বার্ষিক সুদ। সেটি দেখেই বলা যায় না, ১ হাজার ৭১৬ কোটি টাকা আগে ফেরত নেওয়ায় কত টাকা বাঁচল। সঠিক হিসাবের জন্য অন্তত চারটি উপাদান দরকার: গৃহীত বন্ডের মুখমূল্য, নিলামে দেওয়া প্রকৃত মূল্য, শেষ কুপন-তারিখ থেকে নিষ্পত্তি পর্যন্ত অর্জিত সুদ, এবং ওই নগদ অর্থের বদলে ভবিষ্যতে নেওয়া ঋণের কার্যকর সুদ। এগুলো থেকে প্রশাসনিক ব্যয় বা প্রাসঙ্গিক ফি বাদ দিয়ে নিট সাশ্রয় দেখাতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের ৮ অক্টোবরের বাজার-তথ্যে এই বন্ডের অবশিষ্ট মেয়াদ খুব কম এবং বাজারের ফলন কুপনের নিচে দেখা যাচ্ছে। এটুকু থেকে সম্ভাব্য সাশ্রয়ের দিকটি বোঝা যায়, চূড়ান্ত ফল নয়। নিলামে কোন দরগুলো গৃহীত হলো, সরকারি কোষাগার ঠিক কত পরিশোধ করবে এবং পরের অর্থায়ন কোন ক্যালেন্ডারে হবে—এসব ছাড়া কোনো সম্পাদকীয়র পক্ষে সাশ্রয়ের অঙ্ক ঘোষণা করা ঠিক হবে না। তাই আমরা কোনো নির্দিষ্ট সাশ্রয়ের সংখ্যা বলছি না। সরকারেরও বলা উচিত নয়, যতক্ষণ না পূর্ণ সারণি প্রকাশ করে।"
+        },
+        {
+          "type": "heading",
+          "text": "ফলাফলের সারণি ছাড়া জনস্বার্থের পরীক্ষাও অসম্পূর্ণ"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি স্বচ্ছ ফলাফল-সারণি বানানো জটিল কিছু নয়। প্রথম সারিতে থাকবে গৃহীত বন্ডের মুখমূল্য। দ্বিতীয় সারিতে থাকবে বিনিয়োগকারীদের দেওয়া দরের ভিত্তিতে সরকারের পরিশোধ করা মূল্য। তৃতীয় সারিতে থাকবে শেষ সুদ প্রদানের পর থেকে নিষ্পত্তি পর্যন্ত অর্জিত সুদ। এই তিনটি যোগ করলে আজকের নগদ ব্যয় বোঝা যাবে। তারপর একই টেবিলে রাখতে হবে এই বন্ডটি স্বাভাবিকভাবে ৬ নভেম্বর পর্যন্ত থাকলে কত সুদ বাকি ছিল এবং বাইব্যাকের পরে সেই নগদ ঘাটতি মেটাতে সরকার কী নতুন ঋণ নিয়েছে বা নেবে। এই তুলনা ছাড়া ‘চড়া সুদ থেকে বেরিয়ে আসা’ একটি আকর্ষণীয় বাক্য, কিন্তু জনঅর্থের হিসাব নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নিষ্পত্তির সময়টিও গুরুত্বপূর্ণ। ফিন্যান্সিয়াল এক্সপ্রেসের নিলাম-পূর্ব প্রতিবেদনে ১২ অক্টোবরকে সেটেলমেন্ট-তারিখ বলা হয়েছিল। ৮ অক্টোবরের নিলাম আর ১২ অক্টোবরের অর্থপরিশোধের মধ্যে কী দামে কোন পরিমাণ বন্ড ফেরত আসছে, সেটি তখন চূড়ান্ত হবে। তাই আগাম সব দর প্রকাশ করে বাজারের কৌশল নষ্ট করার কথা বলা হচ্ছে না। নিষ্পত্তি সম্পন্ন হওয়ার পরে সংক্ষিপ্ত ফল প্রকাশে সেই ঝুঁকি থাকে না। বরং পরে তথ্য গোপন রাখলে বাজারও বুঝতে পারে না, ভবিষ্যৎ নিলামে সরকারের গ্রহণযোগ্যতার সীমা ও নীতির উদ্দেশ্য কী ছিল।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার চাইলে আরও একটি সূচক প্রকাশ করতে পারে: কত টাকার দায় সত্যিই বাতিল হলো এবং কত টাকার দায় শুধু এক মেয়াদ থেকে আরেক মেয়াদে সরল। একটি বন্ড আগাম তুলে নিয়ে সঙ্গে সঙ্গে নতুন বন্ড ইস্যু করলে নগদ ব্যয়, সুদের হার এবং মেয়াদ—তিনটি আলাদা বিষয়। ছোট মেয়াদের ঋণকে দীর্ঘ মেয়াদে সরালে তাৎক্ষণিক চাপ কমতে পারে, কিন্তু মোট সুদ বাড়তেও পারে। আবার কম ফলনের নতুন ঋণ দিয়ে বেশি কুপনের পুরোনো দায় বদলালে উল্টো ফল হতে পারে। নীতির বিচার তাই এক দিনের শিরোনামে নয়, পরের কয়েক মাসের প্রকাশিত নগদপ্রবাহে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সংসদেরও ভূমিকা আছে। অর্থ মন্ত্রণালয় সম্পর্কিত স্থায়ী কমিটি এবং সরকারি হিসাব-সংশ্লিষ্ট তদারকি কাঠামোর কাছে দায় ব্যবস্থাপনার নিয়মিত প্রতিবেদন যাওয়া উচিত। তাতে নিলামের বাণিজ্যিক গোপনীয়তা রক্ষা করে সামষ্টিক অঙ্ক, অনুমোদনের ভিত্তি এবং বাস্তব ফল জানানো সম্ভব। নীতি সফল হলে এই স্বচ্ছতা সরকারের পক্ষেই প্রমাণ হবে। নীতি প্রত্যাশামতো না চললে শুরুতেই সংশোধনের সুযোগ তৈরি হবে। দুই ক্ষেত্রেই গোপনীয়তার চেয়ে প্রকাশ্য পরিমাপ জনস্বার্থে ভালো।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই প্রকাশনায় অন্তত আগের ও পরের অবস্থার তুলনা থাকতে হবে। বাইব্যাকের আগে ওই নির্দিষ্ট বন্ডে বকেয়া মূলধন কত ছিল, বাইব্যাকের পরে কত থাকল, একই সপ্তাহে অন্য কোনো সরকারি সিকিউরিটিজে কত নতুন দায় নেওয়া হলো, এবং মোট সরকারি সিকিউরিটিজ দায়ের গড় মেয়াদ কীভাবে বদলাল—এই চারটি রেখা দেখালেই নাগরিক বুঝতে পারবেন এটি দায় কমানো, দায় পুনর্বিন্যাস, নাকি কেবল নগদপ্রবাহের সময় বদলানো। অর্থ মন্ত্রণালয়ের ঋণ ব্যবস্থাপনা ক্যালেন্ডার এবং বাংলাদেশ ব্যাংকের নিলামফল একই সারণিতে বসালে এই পরীক্ষা আরও সহজ হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "ব্যাংকের তারল্য বাড়লে সেই অর্থ কোথায় যাবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই নিলামের আরেকটি উদ্দেশ্য বাজারে তারল্য বাড়ানো। বন্ডধারী ব্যাংক বা আর্থিক প্রতিষ্ঠান আগাম নগদ পেলে তারা নতুন সরকারি কাগজ কিনতে পারে, বেসরকারি খাতে ঋণ দিতে পারে অথবা নগদ ধরে রাখতে পারে। কোনটি হবে, সেটি গুরুত্বপূর্ণ জনস্বার্থের প্রশ্ন। ট্রেজারি বাজারে ফলন কমানো সরকারের জন্য সুবিধাজনক হতে পারে। কিন্তু একই সময়ে ব্যাংকগুলোর অতিরিক্ত নগদ যদি উৎপাদনশীল ঋণে না যায়, তাহলে বাস্তব অর্থনীতির লাভ সীমিত থাকবে। তাই দায় ব্যবস্থাপনার সঙ্গে ঋণপ্রবাহের তথ্যও মিলিয়ে দেখতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের উচিত এই বাইব্যাককে শুধু এক দিনের নিলাম হিসেবে না দেখে মাসভিত্তিক প্রকাশ্য প্রতিবেদনের সূচনা করা। প্রতিবেদনে থাকবে কত বন্ড আগাম কেনা হলো, কোন বন্ডের গড় কুপন কত, গ্রহণমূল্য ও অর্জিত সুদ কত, কত পুরোনো দায় বাতিল হলো, কত নতুন দায় নেওয়া হলো, এবং পুরো কার্যক্রমে নিট সুদ-সাশ্রয় বা অতিরিক্ত ব্যয় কত। অংশগ্রহণকারীর নাম প্রকাশ সব ক্ষেত্রে প্রয়োজনীয় নাও হতে পারে, কিন্তু ধরনভিত্তিক তথ্য—ব্যাংক, আর্থিক প্রতিষ্ঠান, ব্যক্তি বা অন্য বিনিয়োগকারী—প্রকাশ করা সম্ভব এবং বাজারের প্রভাব বুঝতে তা জরুরি।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন অর্থ মন্ত্রণালয় ও বাংলাদেশ ব্যাংকের কাছে ছয়টি জবাব"
+        },
+        {
+          "type": "list",
+          "items": [
+            "১ হাজার ৭১৬ কোটি ১৪ লাখ টাকার গৃহীত বন্ডের ওজনভিত্তিক গড় মূল্য ও ফলন কত ছিল?",
+            "মুখমূল্যের বাইরে অর্জিত সুদসহ নিষ্পত্তির দিনে মোট কত নগদ পরিশোধ হবে?",
+            "প্রায় ৬ হাজার ৬৬৭ কোটি টাকার ঘোষিত পুনঃক্রয়-সীমার তুলনায় প্রায় এক-চতুর্থাংশ গ্রহণের কারণ কী?",
+            "কোন মানদণ্ডে কোন বিড গ্রহণ বা প্রত্যাখ্যান করা হলো, এবং নিলাম কমিটির সিদ্ধান্তের সংক্ষিপ্ত সারাংশ কোথায়?",
+            "এই নগদ পরিশোধের পরে ২০২৬-২৭ অর্থবছরে কত নতুন ট্রেজারি বিল বা বন্ড ইস্যু হবে, কোন মেয়াদে এবং কোন অনুমানিত খরচে?",
+            "প্রতিটি ভবিষ্যৎ বাইব্যাকের পরে নিট সুদ-সাশ্রয়, ঝুঁকি ও তারল্যের প্রভাব কি নিয়মিত প্রকাশ করা হবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "নতুন পদ্ধতির বৈধতা আসে খোলা ফলাফল থেকে"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের সরকারি ঋণ ব্যবস্থাপনায় বাজারভিত্তিক নতুন উপকরণ দরকার হতে পারে। পুরোনো, বেশি সুদের দায় কমানোও সঠিক পদক্ষেপ হতে পারে। এই সম্পাদকীয় তার বিরোধিতা করছে না। বরং বলছে, ভালো সিদ্ধান্তের বিশ্বাসযোগ্যতা তৈরি হয় যখন সরকার সেই সিদ্ধান্তের সম্পূর্ণ খরচ, বিকল্প এবং ফলাফল দেখায়। বন্ড আগে কিনে নেওয়ার সিদ্ধান্তকে তখনই সফল বলা যাবে, যখন পরের প্রকাশিত হিসাব দেখাবে যে রাষ্ট্র সত্যিই কম খরচে, কম ঝুঁকিতে এবং স্বচ্ছভাবে ঋণ সামলেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "অর্থ মন্ত্রণালয় ও বাংলাদেশ ব্যাংকের সামনে কাজটি কঠিন নয়। ১২ অক্টোবরের নিষ্পত্তির পর সাত কার্যদিবসের মধ্যে একটি জনসাধারণের ফলাফল-নোট প্রকাশ করা হোক। সেখানে মূল্য, অর্জিত সুদ, প্রভাবিত দায়, বিকল্প অর্থায়ন এবং অনুমানিত নিট ফল আলাদা করে লেখা থাকুক। এরপর ত্রৈমাসিক ভিত্তিতে দেখা হোক, পূর্বাভাসের সঙ্গে বাস্তব সাশ্রয় মিলেছে কি না। করদাতার টাকা দিয়ে নেওয়া আর্থিক সিদ্ধান্তে ‘বিশ্বাস করুন’ যথেষ্ট নয়। যাচাই করার মতো হিসাব চাই।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ ব্যাংক · দায় ব্যবস্থাপনা কার্যক্রমে দুই বছর মেয়াদি ট্রেজারি বন্ড পুনঃক্রয় সংক্রান্ত প্রেস রিলিজ · ৮ অক্টোবর ২০২৬",
+          "url": "https://www.bb.org.bd/en/index.php/mediaroom/press_release"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক GSOM · BD0926191026 বন্ডের ৮ অক্টোবরের মেয়াদ, কুপন, বাজার-ফলন ও বকেয়া অঙ্ক",
+          "url": "https://gsom.bb.org.bd/index.php/tbond"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · Govt buys back Tk 1,716 crore treasury bonds ahead of maturity · ৮ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/business/news/govt-buys-back-tk-1716-crore-treasury-bonds-ahead-maturity-4293756"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড · Exit costly T-bonds: Govt's new plan to ease interest burden · ৬ অক্টোবর ২০২৬",
+          "url": "https://www.tbsnews.net/economy/banking/exit-costly-t-bonds-govts-new-plan-ease-interest-burden-1563896"
+        },
+        {
+          "label": "দ্য ফিন্যান্সিয়াল এক্সপ্রেস · Buyback of govt securities resumes after 17 years · ৬ অক্টোবর ২০২৬",
+          "url": "https://today.thefinancialexpress.com.bd/last-page/buyback-of-govt-securities-resumes-after-17-years-1791224372?amp=true"
+        }
+      ],
+      "automation": {
+        "evidenceScore": 90,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "Bangladesh Bank confirms that a two-year Treasury-bond buyback under its Liability Management Operation was conducted on 8 October. The Daily Star independently reports the accepted value of Tk1,716.14 crore, 56 bids worth Tk2,016.14 crore and the Bank's rationale. TBS and Financial Express independently documented the pre-auction design, the Tk6,666.58–6,667 crore targeted issue, the 12.30 percent coupon, competitive reverse-auction method, settlement structure and stated policy rationale. Bangladesh Bank's GSOM data independently verifies the ISIN, 6 November 2026 maturity, 12.30 percent coupon and Tk66,665.80 million outstanding amount. The editorial does not allege impropriety, loss, illegality, manipulation or a specific saving. It makes the bounded, testable case that the accepted price, accrued interest, accepted-yield distribution and replacement-financing effects must be disclosed before any public saving can be assessed.",
+        "governmentPosition": "Bangladesh Bank says the first market-based buyback is intended to balance the maturity structure of government debt, increase flexibility in future financing and improve management of borrowing cost and risk. It says future buybacks will depend on market conditions, liquidity, investor demand and the structure of government borrowing. The editorial accepts that early retirement of high-coupon debt can be sound policy, while requiring the financial result to be published.",
+        "findings": [
+          "Bangladesh Bank lists a press release on 8 October for the two-year Treasury-bond buyback under its Liability Management Operation, and its GSOM platform identifies the affected security as BD0926191026.",
+          "The Daily Star reports 56 bids worth Tk2,016.14 crore and acceptance of Tk1,716.14 crore. It attributes the decision and the explanation of first-use, maturity balancing and future debt-management flexibility to Bangladesh Bank.",
+          "Bangladesh Bank GSOM data show that BD0926191026 was issued on 6 November 2024, matures on 6 November 2026, carries a 12.30 percent coupon and had Tk66,665.80 million outstanding on 8 October.",
+          "TBS and Financial Express documented before the auction that the government could accept less than the approximately Tk6,667 crore targeted amount, and that a reverse auction would set accepted prices.",
+          "A 12.30 percent coupon is not itself a calculation of net fiscal saving. The accepted price, accrued interest, transaction cost and subsequent financing terms are necessary to calculate a public saving or cost.",
+          "No evidence located by the cutoff establishes corruption, illegality, a loss, market manipulation or an incorrect official statement. None is asserted.",
+          "A prompt public result note and subsequent quarterly reconciliation are proportionate accountability measures for a new state debt-management operation."
+        ],
+        "claimMatrix": {
+          "buybackEventAndSecurity": "VERIFIED FACT — HIGH — Bangladesh Bank press-release index and GSOM security data; independently corroborated by The Daily Star.",
+          "acceptedAmountAndBidCount": "REPORTED FACT — HIGH — The Daily Star attributes Tk1,716.14 crore accepted from 56 bids worth Tk2,016.14 crore to Bangladesh Bank's press release.",
+          "couponMaturityAndOutstandingAmount": "VERIFIED FACT — HIGH — Bangladesh Bank GSOM data identify BD0926191026, its issue and maturity dates, 12.30 percent coupon and Tk66,665.80 million outstanding amount.",
+          "governmentRationale": "REPORTED OFFICIAL POSITION — HIGH — Bangladesh Bank's stated debt-maturity, flexibility, cost and risk-management rationale as reported by The Daily Star and described in the Bank's release.",
+          "netSavingOrLoss": "UNVERIFIED — NOT ASSERTED — public reporting located by the cutoff does not supply the accepted-price distribution, accrued-interest total, transaction cost or replacement-financing outcome needed for a net calculation.",
+          "corruptionIllegalityManipulationOrLoss": "UNVERIFIED — NOT ASSERTED — no audit, court finding, regulator finding or verified evidence establishes any such claim.",
+          "editorialConclusion": "ANALYSIS — HIGH — publishing the settlement and replacement-financing account is a proportionate condition for public evaluation of the claimed benefit."
+        },
+        "seoTitle": "ট্রেজারি বন্ড বাইব্যাক: সাশ্রয়ের খোলা হিসাব চাই",
+        "metaDescription": "সরকার মেয়াদের আগে ১,৭১৬ কোটি টাকার ট্রেজারি বন্ড কিনেছে। গ্রহণমূল্য, অর্জিত সুদ, সাশ্রয় ও নতুন ঋণের খরচ প্রকাশ ছাড়া করদাতারা ফল যাচাই করতে পারবেন না।",
+        "categories": [
+          "রাষ্ট্রীয় ঋণ",
+          "বাংলাদেশ ব্যাংক",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "ট্রেজারি বন্ড",
+          "বাংলাদেশ ব্যাংক",
+          "দায় ব্যবস্থাপনা",
+          "সরকারি ঋণ",
+          "বন্ড বাইব্যাক",
+          "সুদের খরচ",
+          "জনঅর্থ",
+          "অর্থ মন্ত্রণালয়",
+          "স্বচ্ছতা",
+          "জবাবদিহি"
+        ]
+      },
+      "translations": {
+        "en": {
+          "title": "Bangladesh bought back Tk1,716 crore in bonds. The full savings account must be public.",
+          "excerpt": "The government repurchased Tk1,716 crore in Treasury bonds before maturity. The move may be sound, but taxpayers need the accepted price, accrued interest, savings and replacement-borrowing account.",
+          "imageAlt": "Editorial illustration about public accountability for Bangladesh government treasury-bond debt management",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "An early Treasury-bond buyback may be sound debt management, but taxpayers need the accepted price, accrued interest and replacement-borrowing account."
+        },
+        "de": {
+          "title": "Bangladesch kaufte Anleihen für 1.716 Crore Taka zurück. Die vollständige Ersparnisrechnung muss öffentlich werden.",
+          "excerpt": "Die Regierung kaufte Staatsanleihen über 1.716 Crore Taka vor Fälligkeit zurück. Das kann sinnvoll sein, doch Preis, Stückzinsen, Ersparnis und Ersatzfinanzierung müssen öffentlich sein.",
+          "imageAlt": "Redaktionelle Illustration über öffentliche Rechenschaft bei Bangladeschs staatlichem Treasury-Bond-Schuldenmanagement",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Ein früher Rückkauf von Staatsanleihen kann sinnvoll sein, doch Preis, Stückzinsen und Ersatzfinanzierung müssen für Steuerzahlende offenliegen."
+        }
+      }
+    },
+    {
       "id": "nct-dp-world-signed-contract-disclosure-update-2026",
       "slug": "nct-dp-world-signed-contract-disclosure-update-2026",
       "sharePath": "blog/nct-dp-world-signed-contract-disclosure-update-2026",
