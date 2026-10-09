@@ -1,6 +1,280 @@
 {
   "items": [
     {
+      "id": "bangladesh-internal-audit-manual-public-results-2026",
+      "slug": "bangladesh-internal-audit-manual-public-results-2026",
+      "sharePath": "blog/bangladesh-internal-audit-manual-public-results-2026",
+      "tag": "জনঅর্থ ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "৯ অক্টোবর ২০২৬",
+      "title": "নতুন অডিট ম্যানুয়াল ঘোষণা যথেষ্ট নয়—মন্ত্রণালয়ভিত্তিক ফল প্রকাশ করতে হবে",
+      "excerpt": "অভ্যন্তরীণ অডিটের নতুন ম্যানুয়াল ও তিন বছরের রোডম্যাপের কথা বলছে সরকার। কিন্তু কোন ঝুঁকি ধরা পড়ল, কী সংশোধন হলো এবং কার দায়িত্ব—তার খোলা হিসাব ছাড়া এটি কাগুজে সংস্কারই থাকবে।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about Bangladesh public-sector internal audit, public money and accountability",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "অডিট ম্যানুয়ালের আসল পরীক্ষা কভারে নয়: কোন ঝুঁকি ধরা পড়ল, কোন টাকা বা কাজ বাঁচল, কোন কর্মকর্তা কত দিনে জবাব দিলেন এবং ফলটি জনগণ দেখতে পেল কি না",
+      "facebookCaption": "অভ্যন্তরীণ অডিটের নতুন ম্যানুয়াল ঘোষণা হয়েছে। এখন মন্ত্রণালয়ভিত্তিক ঝুঁকি, অডিট-পর্যবেক্ষণ, সংশোধনের সময়সীমা ও অগ্রগতির খোলা হিসাব প্রকাশ করতে হবে—নইলে জনঅর্থ সুরক্ষার প্রতিশ্রুতি কাগজেই থাকবে।",
+      "publishedAt": "2026-10-09T22:35:45+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "৮–১০ অক্টোবর ২০২৬",
+          "label": "ফিন্যান্স ডিভিশনের অভ্যন্তরীণ অডিট প্রাতিষ্ঠানিকীকরণবিষয়ক কর্মশালার সময়"
+        },
+        {
+          "value": "৩ বছর",
+          "label": "স্থায়ী অভ্যন্তরীণ অডিট ইউনিট বা অধিদপ্তর গঠনের প্রস্তাবিত ধাপভিত্তিক রোডম্যাপ"
+        },
+        {
+          "value": "৩০০ পর্যবেক্ষণ",
+          "label": "এলজিইডির ঝুঁকিভিত্তিক অডিট রূপান্তরে প্রতিবেদিত পর্যবেক্ষণের সংখ্যা"
+        },
+        {
+          "value": "দুই দপ্তর",
+          "label": "ফেব্রুয়ারি ২০২৬-এর বিশ্বব্যাংক স্ট্যাটাস রিপোর্টে পূর্ববর্তী ম্যানুয়াল অনুযায়ী অডিট রিপোর্ট দেওয়া হয়েছিল বলে যে ন্যূনতম অগ্রগতির উল্লেখ আছে"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা · Stronger internal audit to protect public money, improve service delivery · ৯ অক্টোবর ২০২৬",
+          "url": "https://www.bssnews.net/news/432926"
+        },
+        {
+          "label": "ফিন্যান্স ডিভিশন SPFMS · Newsletter January–March 2026: Stakeholders Review New Internal Audit Charter Based on Global Standards · ২০২৬",
+          "url": "https://spfms.gov.bd/uploads/publications/ef90854e-31ea-4b69-8573-e790f4d078af.pdf"
+        },
+        {
+          "label": "বিশ্বব্যাংক · Bangladesh Strengthening PFM Program to Enable Service Delivery (P167491), Implementation Status & Results Report · ফেব্রুয়ারি ২০২৬",
+          "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099101925142039807"
+        },
+        {
+          "label": "বিশ্বব্যাংক · Bangladesh Strengthening PFM Program to Enable Service Delivery (P167491), Implementation Status & Results Report · ২০২৬",
+          "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099120623151541807"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "সংক্ষেপে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি দপ্তরে ঝুঁকিভিত্তিক অভ্যন্তরীণ অডিট চালুর জন্য সংশোধিত ২০২৬ মডেল চার্টার ও ম্যানুয়াল উন্মোচনের কথা জানিয়েছে ফিন্যান্স ডিভিশন। এটি প্রয়োজনীয় পদক্ষেপ। কিন্তু প্রয়োজনীয় মানেই যথেষ্ট নয়। যে অডিটে কোন ঝুঁকি ধরা পড়ল, কোন অনিয়ম বা অপচয় ঠেকানো গেল, কোন সুপারিশ কে কত দিনে বাস্তবায়ন করল এবং কোথায় কাজ থেমে আছে—সেই ফল নাগরিক দেখতে না পেলে নতুন ম্যানুয়াল জনঅর্থ রক্ষার প্রমাণ হবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "৯ অক্টোবরের সরকারি সংবাদভিত্তিক প্রতিবেদনে বলা হয়েছে, ৮ থেকে ১০ অক্টোবর গাজীপুরে ফিন্যান্স ডিভিশনের SPFMS কর্মসূচির কর্মশালায় নতুন চার্টার ও ম্যানুয়াল তুলে ধরা হয়েছে। একই প্রতিবেদনে স্থায়ী অডিট ইউনিট বা অধিদপ্তর গঠনের তিন বছরের রোডম্যাপকে প্রশাসনিক অনুমোদনসাপেক্ষ প্রস্তাব বলা হয়েছে। এখানেই মূল কথা: প্রস্তাব, প্রশিক্ষণ ও ম্যানুয়াল সংস্কারের সঙ্গে বাস্তব প্রতিষ্ঠান, স্বাধীন কাজের পরিবেশ এবং ফল প্রকাশকে গুলিয়ে ফেললে জবাবদিহি আবারও ভবিষ্যৎকালের প্রতিশ্রুতিতে আটকে যাবে।"
+        },
+        {
+          "type": "callout",
+          "text": "অভ্যন্তরীণ অডিট কোনো সংবাদ সম্মেলনের ফল নয়। এর ফল হলো—ঝুঁকি শনাক্ত, দায়িত্ব নির্ধারণ, সংশোধন, সময়সীমা এবং সেই অগ্রগতির প্রকাশ্য রেকর্ড।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার কী ঘোষণা করেছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফিন্যান্স ডিভিশনের কর্মশালার প্রতিবেদনে সংশোধিত মডেল রিস্ক-বেইজড ইন্টারনাল অডিট চার্টার ও ম্যানুয়ালকে ২০২৪ সালের আন্তর্জাতিক অভ্যন্তরীণ অডিট মানদণ্ডের সঙ্গে সামঞ্জস্যপূর্ণ বলা হয়েছে। এতে অডিটরের দায়িত্ব, কাজের পরিধি ও রিপোর্টিংয়ের কাঠামো স্পষ্ট করার কথা আছে। প্রস্তাবিত ব্যবস্থায় অডিটররা কার্যগতভাবে সংশ্লিষ্ট অভ্যন্তরীণ অডিট কমিটির কাছে এবং প্রশাসনিকভাবে সচিব বা প্রধান হিসাবরক্ষণ কর্মকর্তার কাছে রিপোর্ট করবেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রতিবেদনটি আরও বলে, মন্ত্রণালয় ও বিভাগজুড়ে স্থায়ী অডিট ইউনিট বা অধিদপ্তর গড়তে তিন ধাপের একটি পরিকল্পনা করা হয়েছে। সেখানে নিয়োগবিধি, দক্ষ জনবল, প্রশিক্ষণ, বাজেট, ডিজিটাল নজরদারি এবং iBAS++-এর সঙ্গে সংযোগের কথা এসেছে। স্বাস্থ্য, প্রাথমিক শিক্ষা, সড়ক ও জনপথ, এলজিইডির মতো বড় ব্যয়ের দপ্তরগুলো তাদের অভিজ্ঞতাও তুলে ধরেছে। এগুলো কেবল প্রযুক্তিগত বিবরণ নয়; এগুলোই বলে দেয় সংস্কারটি এখনও কতখানি জনবল, অনুমোদন ও বাস্তব ক্ষমতার ওপর নির্ভরশীল।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের যুক্তিটি সরল এবং গ্রহণযোগ্য: ক্ষতি হয়ে যাওয়ার পরে শুধু হিসাব মেলানো যথেষ্ট নয়; কেনার প্রক্রিয়া, চুক্তি, ভূমি অধিগ্রহণ, জনবল, তথ্যপ্রযুক্তি ও সেবাদানের ঝুঁকি আগেই শনাক্ত করতে হবে। কর্মশালার প্রতিবেদনে বলা হয়েছে, স্থায়ী কাঠামো ও স্বাধীন তদারকি অস্থায়ী দায়িত্বে চলা দুর্বল ব্যবস্থাকে বদলাতে পারে। ফিন্যান্স সেক্রেটারিও বলেছেন, লক্ষ্য হলো কার্যকর ও টেকসই জনঅর্থ ব্যবস্থাপনা। এই লক্ষ্যকে অস্বীকার করার কারণ নেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশ্বব্যাংকের ফেব্রুয়ারি ২০২৬-এর স্ট্যাটাস রিপোর্টও দেখায় যে অভ্যন্তরীণ অডিটকে বড় ব্যয়ের সংস্থাগুলোতে ঝুঁকিভিত্তিক করার উদ্যোগ বহুদিনের। ওই রিপোর্টে আগের মডেল চার্টার ও ম্যানুয়াল ফিন্যান্স ডিভিশন থেকে সংশ্লিষ্ট দপ্তরে জারি হয়েছিল এবং অন্তত দুই নির্বাচিত দপ্তরে সেই কাঠামো অনুযায়ী অডিট রিপোর্ট প্রধান ও প্রধান হিসাবরক্ষণ কর্মকর্তার কাছে দেওয়া হয়েছিল বলে উল্লেখ আছে। অর্থাৎ নতুন সংস্করণটি শূন্য থেকে শুরু নয়; আগের বাস্তবায়নের ঘাটতি ও শেখার জায়গাগুলো প্রকাশ করে এগোনোর সুযোগ।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যাটা কোথায়?"
+        },
+        {
+          "type": "paragraph",
+          "text": "সমস্যা ম্যানুয়াল থাকার মধ্যে নয়; সমস্যা হলো ম্যানুয়ালকে ফল ধরে নেওয়া। সরকার নিজেই বলছে, স্থায়ী অডিট ইউনিটের রোডম্যাপ প্রশাসনিক অনুমোদনসাপেক্ষ। অর্থাৎ কোথায় কত পদ সৃষ্টি হবে, কবে নিয়োগ হবে, অডিট কমিটি কতবার বসবে, তারা কত পর্যবেক্ষণ নিষ্পত্তি করবে এবং কোন দপ্তর জবাব না দিলে কী হবে—এসবের কাজ এখনও সম্পন্ন বাস্তবতা হিসেবে দেখানো যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি অডিট ইউনিটের সবচেয়ে বড় পরীক্ষা তার লেখা রিপোর্টের সংখ্যা নয়, রিপোর্টের পর কী বদলাল। কোনো মন্ত্রণালয়ের ক্রয়ঝুঁকি ধরা পড়লে দরপত্র বা চুক্তিতে কী সংশোধন হলো? ভূমি অধিগ্রহণে দুর্বলতা ধরা পড়লে ক্ষতিগ্রস্ত মানুষ সময়মতো প্রতিকার পেলেন কি? হাসপাতালের ওষুধ বা যন্ত্রপাতিতে ঝুঁকি ধরা পড়লে সেবার ঘাটতি কমল কি? এই প্রশ্নগুলোর উত্তর না থাকলে ‘রিস্ক-বেইজড’ শব্দটি কেবল প্রশাসনিক অলংকার হয়ে থাকবে।"
+        },
+        {
+          "type": "heading",
+          "text": "তথ্য কী বলছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "কর্মশালার প্রতিবেদনের তথ্যই বাস্তবায়নের বাধা স্পষ্ট করে। এলজিইডি ৭৮টি ব্যয়কেন্দ্র নিয়ে কাজ করে ৩০০টি পর্যবেক্ষণ তৈরি করেছে, কিন্তু অস্থায়ী জনবল, দক্ষতার ঘাটতি ও স্থায়ী অর্গানোগ্রামের অভাবের কথা বলেছে। সড়ক ও জনপথ বিভাগ ছয়টি রিপোর্ট সম্পন্ন করার পাশাপাশি ক্রয়, চুক্তি, ভূমি অধিগ্রহণ, জনবল ও ডিজিটাল ব্যবস্থার দুর্বলতা চিহ্নিত করেছে। পূর্ত বিভাগও অনিষ্পন্ন পর্যবেক্ষণ, শূন্য পদ ও দুর্বল সমন্বয়ের কথা তুলেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এগুলো কোনো অপরাধের রায় নয়। কোনো নির্দিষ্ট কর্মকর্তা বা ঠিকাদারের বিরুদ্ধে দুর্নীতির প্রমাণও নয়। বরং এগুলো সংশ্লিষ্ট দপ্তরগুলোর নিজেদের আলোচনায় উঠে আসা প্রাতিষ্ঠানিক দুর্বলতা। তাই সৎ প্রতিক্রিয়া হওয়া উচিত আরও তথ্য প্রকাশ করা, কম নয়। কোন পর্যবেক্ষণে আর্থিক প্রভাব কত, কোনটিতে ব্যবস্থাপনা জবাব দিয়েছে, কোনটিতে তদন্ত বা পুনরুদ্ধার দরকার, এবং কোনটি নির্ধারিত সময় পেরিয়েছে—এই তথ্য প্রকাশ করলে দপ্তরগুলোও প্রমাণ করতে পারবে যে তারা সমস্যাকে ঢাকেনি।"
+        },
+        {
+          "type": "heading",
+          "text": "আগের উদ্যোগের সঙ্গে তুলনা"
+        },
+        {
+          "type": "paragraph",
+          "text": "SPFMS-এর জানুয়ারি–মার্চ ২০২৬ নিউজলেটারে দেখা যায়, সংশোধিত চার্টার ও ম্যানুয়াল নিয়ে অংশীজনদের পর্যালোচনা তখনই চলছিল। সেখানে আন্তর্জাতিক মানদণ্ডের সঙ্গে সামঞ্জস্য, স্বাধীনতা, শাসনকাঠামো, ঝুঁকি ব্যবস্থাপনা এবং মূল্য সংযোজনের কথা বলা হয়। একই বছরের বিশ্বব্যাংক রিপোর্টে আগের চার্টার ও ম্যানুয়াল জারি এবং সীমিত সংখ্যক দপ্তরে রিপোর্টিংয়ের উল্লেখ রয়েছে। তাই অক্টোবরে নতুন ম্যানুয়াল উন্মোচনকে প্রথম অর্জন বলা যাবে না; এটি চলমান সংস্কারের একটি নতুন ধাপ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তুলনা সরকারকে ছোট করার জন্য নয়। বরং আগের ধাপের হিসাব ছাড়া নতুন ধাপ মাপা যায় না। আগে যে দুই দপ্তরে রিপোর্ট দেওয়া হয়েছিল, সেসব রিপোর্টের কত সুপারিশ সময়মতো পূরণ হলো, কতটি বাকি, কেন বাকি এবং নতুন সংস্করণে সেই বাধা কীভাবে কাটবে—এই উত্তর প্রকাশ না করলে ‘উন্নতি’ শব্দটির পরীক্ষাই অসম্পূর্ণ থেকে যাবে।"
+        },
+        {
+          "type": "heading",
+          "text": "কার লাভ, কার ক্ষতি?"
+        },
+        {
+          "type": "paragraph",
+          "text": "কার্যকর অভ্যন্তরীণ অডিটে প্রথম লাভবান হওয়ার কথা সাধারণ মানুষের। স্কুলে বরাদ্দকৃত টাকা সময়মতো খরচ হলো কি না, হাসপাতালে কেনা সরঞ্জাম ব্যবহারযোগ্য কি না, সড়কের কাজ চুক্তি অনুযায়ী হলো কি না, ত্রাণ বা ভাতার তালিকায় ভুল আছে কি না—এই প্রশ্নগুলো শুরুতেই ধরা পড়লে সেবা পাওয়ার সম্ভাবনা বাড়ে। সৎ কর্মকর্তা ও সৎ দপ্তরও লাভবান হন, কারণ নথি ও সময়সীমা তাদের সঠিক কাজ দেখানোর সুযোগ দেয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ক্ষতি হয় সেই ব্যবস্থার, যেখানে ফাইলের অস্বচ্ছতা, অস্থায়ী দায়িত্ব ও অনিষ্পন্ন পর্যবেক্ষণ সুবিধা তৈরি করে। কিন্তু এখানেও সাবধানতা জরুরি: একটি পর্যবেক্ষণ মানেই আর্থিক আত্মসাৎ নয়। অডিটের কাজ হলো ঝুঁকি ও নিয়ন্ত্রণের দুর্বলতা শনাক্ত করা; অপরাধের সিদ্ধান্তের জন্য আলাদা তদন্ত ও যথাযথ আইনগত প্রক্রিয়া লাগে। এই সীমা মানলেই অডিটকে রাজনৈতিক অস্ত্র না বানিয়ে জনস্বার্থের হাতিয়ার করা সম্ভব।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি কতটা টেকে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "নতুন মানদণ্ড, স্থায়ী পদ এবং ঝুঁকিভিত্তিক কাজের পক্ষে সরকারের যুক্তি টেকে। পুরোনো, শুধু ঘটনার পরে হিসাব দেখা পদ্ধতির বদলে আগাম ঝুঁকি ধরার দরকার আছে। কিন্তু ‘স্বাধীনতা’ ও ‘কার্যকারিতা’ কেবল চার্টারে লিখলে আসে না। অডিট কমিটির বৈঠকের সময়সূচি, রিপোর্ট পাওয়ার পর ব্যবস্থাপনার জবাবের সময়সীমা, অনিষ্পন্ন সুপারিশের দায় এবং সংশোধনের ফল মাপার পদ্ধতি প্রকাশ করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার বলতে পারে সব অডিট রিপোর্ট প্রকাশ করলে সংবেদনশীল তথ্য বা চলমান প্রক্রিয়ার ক্ষতি হতে পারে। সেই যুক্তিও কিছু ক্ষেত্রে গ্রহণযোগ্য। কিন্তু সংবেদনশীল নথি গোপন রাখার মানে সারসংক্ষেপও গোপন রাখা নয়। দপ্তরভিত্তিক ঝুঁকির ধরন, পর্যবেক্ষণের সংখ্যা, আর্থিক প্রভাবের পরিসর, জবাবের অবস্থা, সংশোধনের সময়সীমা এবং বিলম্বের কারণ প্রকাশ করা যায়। এতে নিরাপত্তা বা ব্যক্তিগত তথ্যের ক্ষতি না করেও নাগরিক জানতে পারেন রাষ্ট্র নিজের ভুল থেকে শিখছে কি না।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন কী প্রকাশ করতে হবে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "প্রতিটি মন্ত্রণালয় ও অগ্রাধিকারপ্রাপ্ত দপ্তরে স্থায়ী অডিট ইউনিট গঠনের তারিখ, অনুমোদিত পদ, পূরণ হওয়া পদ এবং দায়িত্বপ্রাপ্ত কর্মকর্তার দপ্তর।",
+            "ত্রৈমাসিকভাবে অডিট কমিটির বৈঠক, বিবেচিত রিপোর্ট, গৃহীত সিদ্ধান্ত এবং অনিষ্পন্ন সুপারিশের সংখ্যা।",
+            "পর্যবেক্ষণকে ব্যক্তি বা প্রতিষ্ঠানের নাম প্রকাশ না করেও ঝুঁকির ধরন, আর্থিক প্রভাবের পরিসর ও সংশোধন-অগ্রগতিসহ একটি প্রকাশ্য ড্যাশবোর্ডে তোলা।",
+            "অগ্রাধিকারের বড় ব্যয়ের দপ্তরগুলোতে আগের চার্টার অনুযায়ী তৈরি রিপোর্টের সুপারিশগুলোর পূর্ণাঙ্গ অবস্থা এবং নতুন ম্যানুয়াল কী পরিবর্তন আনছে তার তুলনা।",
+            "যে সুপারিশ নির্ধারিত সময় পেরিয়েও বাস্তবায়িত হয়নি, তার কারণ, পরের সময়সীমা এবং কোন কর্তৃপক্ষ জবাবদিহি করবেন তার প্রকাশ।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "বড় ছবিটা কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশে জবাবদিহির বড় সংকট কেবল নিয়মের অভাব নয়; নিয়ম কাজ করল কি না তা জানার অধিকারও সীমিত। অডিট রিপোর্ট ফাইলের মধ্যে থাকলে, কমিটি নথি না চাইলে এবং সংশোধনের সময়সীমা প্রকাশ না হলে নাগরিকের হাতে থাকে শুধু আশ্বাস। নতুন ম্যানুয়াল সেই ব্যবধান কমানোর সুযোগ দিয়েছে। কিন্তু সুযোগকে ফল বলে ঘোষণা করা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফিন্যান্স ডিভিশন যদি সত্যিই অভ্যন্তরীণ অডিটকে জনঅর্থ রক্ষার ব্যবস্থায় বদলাতে চায়, তবে প্রথম বছরেই মাপার মতো লক্ষ্য দিতে হবে। কত দপ্তরে স্থায়ী ইউনিট হলো, কত ঝুঁকি চিহ্নিত হলো, কত সুপারিশ বাস্তবায়িত হলো, কত ক্ষেত্রে টাকা বা সময় বাঁচল এবং কত সিদ্ধান্তের কারণে সেবা ঠিক হলো—এই পাঁচটি উত্তর নিয়মিত প্রকাশ পেলে সংস্কারের বিশ্বাসযোগ্যতা তৈরি হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "কার্যকর অডিটের ন্যূনতম নিয়ম"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রথম নিয়ম হলো, অডিট পরিকল্পনা ঝুঁকির সঙ্গে মিলতে হবে। যে দপ্তরে বড় ক্রয়, বড় অবকাঠামো, বিপুল উপকারভোগী বা জটিল তথ্যব্যবস্থা আছে, সেখানে একই ধরনের বার্ষিক কাগুজে পরীক্ষা যথেষ্ট নয়। অডিট কমিটিকে শুরুতেই বলতে হবে কোন ঝুঁকিকে কেন অগ্রাধিকার দেওয়া হয়েছে। পরে একই তালিকায় দেখাতে হবে কোন ঝুঁকি সত্যি ছিল, কোনটি কমেছে এবং কোনটি বাড়ছে। এতে দপ্তর জানবে যে অডিট আকস্মিক শাস্তি নয়, আগে থেকে চিহ্নিত জনস্বার্থের কাজ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্বিতীয় নিয়ম হলো, ব্যবস্থাপনার জবাবের সময়সীমা বাধ্যতামূলক করতে হবে। একটি পর্যবেক্ষণ পাঠিয়ে বছরের পর বছর উত্তর না পাওয়া কোনো অডিট নয়। পর্যবেক্ষণ পাওয়ার ৩০ দিনের মধ্যে প্রাথমিক জবাব, ৯০ দিনের মধ্যে সংশোধন-পরিকল্পনা এবং নির্ধারিত সময় পেরোলে কমিটির সামনে ব্যাখ্যার নীতি করা যায়। সব ক্ষেত্রে একই সময় লাগবে না, কিন্তু ব্যতিক্রমের কারণ লিখিত ও প্রকাশ্য না হলে বিলম্বই নিয়ম হয়ে যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তৃতীয় নিয়ম হলো, অডিট আর বহিঃনিরীক্ষাকে পরস্পরের বিকল্প ভাবা যাবে না। অভ্যন্তরীণ অডিটের কাজ ঝুঁকি আগে ধরা ও ব্যবস্থাপনার সংশোধন তদারক করা। বহিঃনিরীক্ষা ও আইনগত তদন্তের আলাদা দায়িত্ব আছে। এই বিভাজন পরিষ্কার থাকলে কেউ অভ্যন্তরীণ পর্যবেক্ষণকে অপরাধের সাজা বলে চালাতে পারবে না, আবার কেউ গুরুতর ঝুঁকিকে ‘অভ্যন্তরীণ বিষয়’ বলে ধামাচাপাও দিতে পারবে না। জনস্বার্থের তথ্য ও যথাযথ প্রক্রিয়া—দুটিই একসঙ্গে রক্ষা করা সম্ভব।"
+        },
+        {
+          "type": "heading",
+          "text": "উপসংহার"
+        },
+        {
+          "type": "paragraph",
+          "text": "নতুন অডিট ম্যানুয়ালকে আমরা বাতিল করছি না। বরং এটিকে কাজে লাগানোর জন্যই কঠোর মানদণ্ড চাইছি। সরকার যে দুর্বলতার কথা নিজেই স্বীকার করেছে—অস্থায়ী জনবল, শূন্য পদ, অনিষ্পন্ন পর্যবেক্ষণ, দুর্বল সমন্বয় ও অনুমোদন-নির্ভর কাঠামো—তার জবাব কেবল আরও একটি কর্মশালা নয়। জবাব হলো সময়বদ্ধ প্রতিষ্ঠান, স্বাধীনভাবে কাজের সুযোগ, সংশোধনের ক্ষমতা এবং জনগণের সামনে ফলাফলের হিসাব।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আগামী ৯০ দিনের মধ্যে ফিন্যান্স ডিভিশনের উচিত অগ্রাধিকারপ্রাপ্ত প্রতিটি দপ্তরের জন্য একটি প্রকাশ্য বাস্তবায়ন তালিকা দেওয়া। সেখানে পদ, কমিটি, রিপোর্ট, অনিষ্পন্ন সুপারিশ ও পরের সময়সীমা থাকবে। ছয় মাস পরে সেই তালিকার পরিবর্তনের ইতিহাসও প্রকাশ করতে হবে। এটাই নতুন ম্যানুয়ালের প্রথম বাস্তব পরীক্ষা। সরকারি অর্থের পাহারায় কভারের নকশা নয়, খোলা ফলাফলই শেষ কথা।"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "A new audit manual is not enough: ministries must publish results",
+          "excerpt": "The government has announced a revised internal-audit manual and a three-year roadmap. Without public results, corrective deadlines and responsible offices, it remains paper reform.",
+          "imageAlt": "Editorial illustration about Bangladesh public-sector internal audit, public money and accountability",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Bangladesh has announced a revised internal-audit manual. Ministries must now publish risks, findings, correction deadlines and progress, or public-money protection will remain a promise on paper."
+        },
+        "de": {
+          "title": "Ein neues Audit-Handbuch reicht nicht: Ministerien müssen Ergebnisse veröffentlichen",
+          "excerpt": "Die Regierung hat ein überarbeitetes internes Audit-Handbuch und einen Dreijahresplan angekündigt. Ohne öffentliche Ergebnisse, Fristen und Zuständigkeiten bleibt es Papierreform.",
+          "imageAlt": "Redaktionelle Illustration über interne Prüfungen im öffentlichen Sektor Bangladeschs, öffentliche Mittel und Rechenschaftspflicht",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Bangladesch hat ein überarbeitetes internes Audit-Handbuch angekündigt. Ministerien müssen nun Risiken, Befunde, Korrekturfristen und Fortschritte veröffentlichen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 86,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "The 8–10 October workshop, revised 2026 model charter/manual, proposed three-year institutional roadmap and department-level constraints are reported in the contemporaneous BSS account of the Finance Division programme. Finance Division SPFMS material verifies that revision work was already under way in early 2026. Two World Bank P167491 implementation reports independently establish that an earlier charter/manual had already been issued and that limited internal-audit reporting had begun, making this a defensible accountability test of implementation rather than an allegation of wrongdoing. The editorial does not assert corruption, illegality, loss, recovered money or completed reform.",
+        "governmentPosition": "Finance Division says the revised charter and manual will align public-sector internal audit with the 2024 global standards, clarify reporting and strengthen independence. Its programme proposes permanent internal-audit structures, staffing, training, resources, digital monitoring and iBAS++ links. The editorial accepts that risk-based internal audit is needed and that some detailed reports may require confidentiality, but concludes that aggregate findings, action status and deadlines must still be public.",
+        "findings": [
+          "Finance Division's October workshop presented a revised 2026 model risk-based internal-audit charter and manual and discussed a proposed three-year institutional roadmap.",
+          "The roadmap is described as subject to administrative approval, so permanent units, staffing and enforcement cannot be treated as completed outcomes.",
+          "The contemporaneous programme account records practical constraints including temporary staffing, vacancies, limited expertise, weak coordination and unresolved observations in high-spending agencies.",
+          "World Bank P167491 reports show that an earlier charter/manual had already been issued and that reporting had started in two selected departments; the October announcement is a new stage, not proof of first-time implementation or success.",
+          "No source located by the cutoff establishes corruption, illegality, financial loss, recovery of money or personal liability. None is asserted.",
+          "A public quarterly register of units, observations by risk type, response status, corrective deadlines and overdue items is a proportionate accountability safeguard that can preserve sensitive details."
+        ],
+        "claimMatrix": {
+          "octoberWorkshopAndRevisedManual": "REPORTED OFFICIAL FACT — HIGH — BSS contemporaneous account of the Finance Division/SPFMS workshop and released programme details.",
+          "roadmapAndImplementationDependencies": "REPORTED OFFICIAL FACT — HIGH — BSS says the three-phase plan is subject to administrative approval and identifies staffing, budget and resource requirements.",
+          "departmentLevelConstraints": "REPORTED FACT — HIGH — BSS attributes specific audit observations and capacity constraints to LGED, PWD, DPE, DGHS and RHD presentations.",
+          "priorCharterManualAndLimitedReporting": "VERIFIED INSTITUTIONAL CONTEXT — HIGH — World Bank P167491 February 2026 implementation-status report.",
+          "revisionProcess": "VERIFIED PRIMARY CONTEXT — HIGH — Finance Division SPFMS January–March 2026 newsletter documents stakeholder review of the revised materials.",
+          "corruptionIllegalityLossRecoveryOrPersonalFault": "UNVERIFIED — NOT ASSERTED — no audit finding, court ruling, investigation outcome or quantified recovery located by the cutoff establishes these claims.",
+          "editorialConclusion": "ANALYSIS — HIGH — publishing aggregate audit results, correction status and deadlines is a proportionate test of a public-finance reform without compromising sensitive case material."
+        },
+        "seoTitle": "নতুন অডিট ম্যানুয়াল: ফলাফলের খোলা হিসাব চাই",
+        "metaDescription": "নতুন অভ্যন্তরীণ অডিট ম্যানুয়াল এসেছে। কিন্তু মন্ত্রণালয়ভিত্তিক ঝুঁকি, সুপারিশ, সংশোধনের সময়সীমা ও ফল প্রকাশ ছাড়া জনঅর্থ সুরক্ষার দাবি যাচাই করা যাবে না।",
+        "categories": [
+          "জনঅর্থ",
+          "অভ্যন্তরীণ অডিট",
+          "সরকারি জবাবদিহি"
+        ],
+        "tags": [
+          "ফিন্যান্স ডিভিশন",
+          "অভ্যন্তরীণ অডিট",
+          "জনঅর্থ",
+          "SPFMS",
+          "ঝুঁকিভিত্তিক অডিট",
+          "এলজিইডি",
+          "সড়ক ও জনপথ",
+          "স্বচ্ছতা",
+          "অডিট কমিটি",
+          "জবাবদিহি"
+        ]
+      }
+    },
+    {
       "id": "rajuk-audit-plot-allocation-public-accountability-2026",
       "slug": "rajuk-audit-plot-allocation-public-accountability-2026",
       "sharePath": "blog/rajuk-audit-plot-allocation-public-accountability-2026",
