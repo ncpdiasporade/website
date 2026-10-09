@@ -1,6 +1,256 @@
 {
   "items": [
     {
+      "id": "srb-extortion-list-case-outcome-disclosure-2026",
+      "slug": "srb-extortion-list-case-outcome-disclosure-2026",
+      "sharePath": "blog/srb-extortion-list-case-outcome-disclosure-2026",
+      "tag": "আইনশৃঙ্খলা ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১০ অক্টোবর ২০২৬",
+      "title": "এসআরবি-তালিকায় ৩,৫৮৬ নাম—তালিকা নয়, মামলা ও ফলের খোলা হিসাব চাই",
+      "excerpt": "এসআরবির মহাপরিচালক একটি তালিকা তৈরির কথা নিশ্চিত করেছেন। কিন্তু নামের সংখ্যা অপরাধ প্রমাণ করে না; কোন অভিযোগে কী মামলা, কত তদন্ত, কত নিষ্পত্তি—সেই যাচাইযোগ্য হিসাব প্রকাশই নতুন বাহিনীর প্রথম পরীক্ষা।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about Bangladesh public safety, case records and accountability",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "একটি গোয়েন্দা বা পুলিশি তালিকা শুরু মাত্র। ন্যায়বিচারের পরীক্ষা হলো অভিযোগের ভিত্তি, মামলার অগ্রগতি, অধিকার-সুরক্ষা এবং প্রকাশ্য ফল।",
+      "facebookCaption": "এসআরবি-তালিকায় ৩,৫৮৬ নামের কথা এসেছে। কিন্তু তালিকাভুক্ত হওয়া অপরাধের রায় নয়। নতুন বাহিনীকে এখন অভিযোগের ধরন, মামলা, তদন্ত, খালাস বা শাস্তির ফল এবং ভুল তালিকা সংশোধনের নিয়ম প্রকাশ করতে হবে।",
+      "publishedAt": "2026-10-10T01:42:44+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "৩,৫৮৬ জন",
+          "label": "১০ সেপ্টেম্বর পর্যন্ত তৈরি বলে প্রতিবেদিত এসআরবির ১৫ ব্যাটালিয়নের ‘আলোচিত সন্ত্রাসী, চাঁদাবাজ ও ছিনতাইকারী’ তালিকায় নামের সংখ্যা"
+        },
+        {
+          "value": "১,০৬৮ জন",
+          "label": "এসআরবি-৭ ও এসআরবি-১১ এলাকার তালিকাভুক্ত নামের প্রতিবেদিত মোট সংখ্যা"
+        },
+        {
+          "value": "১৫ সেপ্টেম্বর ২০২৬",
+          "label": "বাংলাদেশ গেজেটে স্পেশাল রেসপন্স ব্যাটালিয়ন আইন, ২০২৬ প্রকাশের তারিখ"
+        },
+        {
+          "value": "৩ মাস",
+          "label": "সম্পাদকীয় প্রস্তাবে অভিযোগ-নিষ্পত্তি ও মামলার সমষ্টিগত খতিয়ান প্রকাশের সময়সীমা"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সরকারী মুদ্রণালয় · ২০২৬ সনের ১০৯ নং আইন: স্পেশাল রেসপন্স ব্যাটালিয়ন (SRB) আইন, ২০২৬ · ১৫ সেপ্টেম্বর ২০২৬",
+          "url": "https://www.dpp.gov.bd/bgpress/bangla/index.php/document/get_extraordinary/62964"
+        },
+        {
+          "label": "bdnews24.com · ‘চাঁদাবাজ বেশি শিল্পাঞ্চলে, আর কী আছে এসআরবির তালিকায়?’ · ১০ অক্টোবর ২০২৬",
+          "url": "https://bangla.bdnews24.com/bangladesh/rzfl9sb0as"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা · ‘Govt issues gazette renaming RAB as SRB with restructured authority’ · ১৬ সেপ্টেম্বর ২০২৬",
+          "url": "https://www.bssnews.net/others/425274"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘Former Khilkhet BNP leader arrested over alleged auto-rickshaw extortion’ · ৪ অক্টোবর ২০২৬",
+          "url": "https://online91.thedailystar.net/news/crime-justice/news/former-khilkhet-bnp-leader-arrested-over-alleged-auto-rickshaw-extortion-4290306"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড · ‘SRB detains BNP leader over extortion allegations’ · ৫ অক্টোবর ২০২৬",
+          "url": "https://www.tbsnews.net/bangladesh/crime/srb-detains-bnp-leader-over-extortion-allegations-1563721"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "তালিকার সংখ্যাই শেষ কথা নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্পেশাল রেসপন্স ব্যাটালিয়ন বা এসআরবির ১৫টি ব্যাটালিয়নের একটি তালিকায় ৩ হাজার ৫৮৬ জনের নাম আছে বলে ১০ অক্টোবর bdnews24.com জানিয়েছে। প্রতিবেদনের ভাষায়, তালিকাটি ১০ সেপ্টেম্বর পর্যন্ত তৈরি এবং এতে ‘আলোচিত সন্ত্রাসী, চাঁদাবাজ ও ছিনতাইকারী’ হিসেবে চিহ্নিত ব্যক্তিদের তথ্য রাখা হয়েছে। এসআরবির মহাপরিচালক মো. আহসান হাবীব পলাশ তালিকা তৈরির বিষয়টি নিশ্চিত করে বলেছেন, বিভিন্ন আইনশৃঙ্খলা ও গোয়েন্দা সংস্থার তথ্য নিয়ে এটি তৈরি হচ্ছে এবং রাজনৈতিক পরিচয় বিবেচনায় নেওয়া হচ্ছে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তথ্যের জনস্বার্থ স্পষ্ট। চাঁদাবাজি ব্যবসা, শ্রমিক, ছোট পরিবহন-মালিক ও সাধারণ মানুষের নিরাপত্তার ওপর সরাসরি চাপ ফেলে। কিন্তু এখানেই একটি কঠিন সীমারেখা মানতে হবে: পুলিশি বা গোয়েন্দা তালিকায় নাম থাকা অপরাধ প্রমাণের সমান নয়। আদালতের রায়, যাচাইযোগ্য মামলা-নথি ও ন্যায্য প্রক্রিয়া ছাড়া কাউকে অপরাধী বলা যায় না। নতুন নামে চলা বাহিনী যদি এই পার্থক্যটি নিজেই ঝাপসা করে, তাহলে অপরাধ দমনের সঙ্গে নাগরিক অধিকারও ঝুঁকিতে পড়বে।"
+        },
+        {
+          "type": "callout",
+          "text": "তালিকা অপরাধ দমনের সূচনা হতে পারে; প্রমাণ, মামলা, ন্যায্য বিচার ও প্রকাশ্য ফল ছাড়া তা জবাবদিহির শেষ কথা হতে পারে না।"
+        },
+        {
+          "type": "heading",
+          "text": "নতুন আইনের প্রতিশ্রুতি এখন মাঠের পরীক্ষায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৫ সেপ্টেম্বর সরকারি গেজেটে প্রকাশিত স্পেশাল রেসপন্স ব্যাটালিয়ন আইন, ২০২৬ র‍্যাবের জায়গায় এসআরবিকে বাংলাদেশ পুলিশের অধীন বিশেষায়িত ইউনিট হিসেবে প্রতিষ্ঠা করেছে। সরকারি গেজেটের নথি আইনটির অস্তিত্ব ও প্রকাশের তারিখ নিশ্চিত করে। বাসসের গেজেট-সংক্রান্ত প্রতিবেদনে বলা হয়, পুরোনো বাহিনীর জনবল, সম্পদ, নথি, চুক্তি ও দায় নতুন ইউনিটে গেছে এবং নতুন আইনের লক্ষ্য হিসেবে স্বচ্ছতা, নজরদারি ও কার্যকর জবাবদিহির কথাও বলা হয়েছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের শক্তিশালী যুক্তিটিও অস্বীকার করার সুযোগ নেই। সংগঠিত অপরাধ, অস্ত্র, মানবপাচার বা চাঁদাবাজির বিরুদ্ধে তথ্যভিত্তিক বিশেষায়িত অভিযান দরকার। পুরোনো জনবল ও সরঞ্জাম এক দিনে বাতিল করলে সক্ষমতার শূন্যতা তৈরি হতে পারে। তাই সরকার বাহিনীকে রেখে আইনগত কাঠামো বদলেছে। কিন্তু সেই সিদ্ধান্তের অবধারিত পাল্টা প্রশ্ন হলো: পুরোনো সম্পদ ও ক্ষমতা স্থানান্তরিত হলে নতুন জবাবদিহির প্রমাণ কোথায় দেখা যাবে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "উত্তরটি কোনো সংবাদ সম্মেলনের বাক্যে নয়, ফলের খাতায় থাকতে হবে। নতুন বাহিনী কতটি যাচাইকৃত অভিযোগ পেয়েছে, কতজনের বিরুদ্ধে নিয়মিত মামলা হয়েছে, কতটি তদন্তে প্রমাণ পাওয়া যায়নি, কতজনকে ভুল তথ্য বা অপর্যাপ্ত প্রমাণের কারণে তালিকা থেকে বাদ দেওয়া হয়েছে এবং কতটি অভিযোগে আদালত কী সিদ্ধান্ত দিয়েছেন—এই তথ্য ছাড়া ৩,৫৮৬ সংখ্যাটি জননিরাপত্তার মানচিত্র নয়; এটি শুধু একটি অপ্রকাশিত প্রশাসনিক তালিকার সংখ্যা।"
+        },
+        {
+          "type": "heading",
+          "text": "দুই ধরনের তথ্য আলাদা না করলে অন্যায় হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "bdnews24.com-এর প্রতিবেদনে এসআরবি-৭ ও এসআরবি-১১ এলাকার তালিকায় ১ হাজার ৬৮ নামের কথা এসেছে। অঞ্চলভিত্তিক সংখ্যার এমন পার্থক্য শিল্পাঞ্চল, বন্দর, পরিবহন ও স্থানীয় অপরাধের ঝুঁকি বোঝার কাজে লাগতে পারে। কিন্তু প্রকাশিত প্রতিবেদনে সম্পূর্ণ তালিকা, অভিযোগের শ্রেণি, তথ্যের উৎসের মান, শেষ যাচাইয়ের তারিখ, সংশ্লিষ্ট মামলা নম্বর বা নিষ্পত্তির অবস্থা নেই। তাই এই সংখ্যা থেকে কোনো এলাকার সব মানুষ, কোনো সংগঠন, কিংবা তালিকাভুক্ত কোনো ব্যক্তির অপরাধ সম্পর্কে সিদ্ধান্ত টানা অনৈতিক হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "স্বতন্ত্র সংবাদ প্রতিবেদনগুলো দেখায় যে এসআরবি কিছু ঘটনায় আটক ব্যক্তিদের থানা-পুলিশের কাছে দিয়েছে এবং আইনগত ব্যবস্থার কথা বলেছে। ৪ অক্টোবর খিলক্ষেতের একটি ঘটনায় দ্য ডেইলি স্টার পুলিশ ও এসআরবি কর্মকর্তার বক্তব্যে একজন সাবেক স্থানীয় বিএনপি নেতাকে আটকের খবর দেয়; সেখানে অভিযোগ ও পুলিশি নথির কথা এসেছে, রায়ের কথা নয়। ৫ অক্টোবর দ্য বিজনেস স্ট্যান্ডার্ড আরেক বিএনপি নেতাকে আটকের ঘটনায় এসআরবি ও থানা-পুলিশের বক্তব্য তুলে ধরে এবং জানায় আইনগত প্রক্রিয়া চলছিল। এই দুই প্রতিবেদন তালিকার সামগ্রিক সংখ্যা যাচাই করে না। তবে তারা একটি জরুরি বিষয় দেখায়: আটক, অভিযোগ, মামলা, তদন্ত ও দণ্ড—প্রতিটি ধাপ আলাদা এবং প্রতিটির আলাদা নথি দরকার।"
+        },
+        {
+          "type": "heading",
+          "text": "তথ্যভিত্তিক তালিকারও ন্যায্যতার নিয়ম আছে"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি তথ্যভিত্তিক তালিকা ব্যবহারের ন্যূনতম নিয়ম থাকা দরকার। প্রথমত, তথ্য কত পুরোনো, কোন সংস্থা দিয়েছে এবং কী কারণে ঝুঁকির সংকেত ধরা হয়েছে, তার অভ্যন্তরীণ রেকর্ড থাকতে হবে। দ্বিতীয়ত, একটি নামের সঙ্গে অভিযোগের ধরন, ঘটনার স্থান ও সময়, জিডি বা মামলার সম্পর্ক থাকলে তা আলাদা করে যাচাই করতে হবে। তৃতীয়ত, তথ্য দুর্বল হলে বা নতুন প্রমাণে ভুল ধরা পড়লে নাম সরানোর বাধ্যতামূলক পদ্ধতি থাকতে হবে। চতুর্থত, তালিকা কোনো বাহিনীর জন্য লক্ষ্য ঠিক করার উপকরণ হতে পারে, কিন্তু শাস্তির বিকল্প হতে পারে না। শাস্তি নির্ধারণের জায়গা আইন ও আদালত।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পার্থক্যটি কেবল মানবাধিকারের ভাষা নয়; এটি কার্যকর অপরাধ দমনেরও শর্ত। পুরোনো, ভুল বা রাজনৈতিকভাবে দূষিত তথ্যের ওপর অভিযান চালালে আসল অপরাধী সতর্ক হয়ে যায়, নিরীহ মানুষের আস্থা ভেঙে যায় এবং সাক্ষীরা তথ্য দিতে ভয় পান। বিপরীতে, যাচাইয়ের নিয়ম দৃশ্যমান হলে মানুষ জানেন যে অভিযোগ জানানো অর্থপূর্ণ এবং মিথ্যা তথ্য দিলে সেটিও ধরা পড়বে। তাই একটি নির্ভুল তালিকা বানাতে যতটা গোয়েন্দা সক্ষমতা দরকার, তার চেয়ে কম নয় সংশোধন ও পর্যালোচনার সক্ষমতা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এসআরবির মহাপরিচালক বলেছেন, রাজনৈতিক পরিচয় দেখা হচ্ছে না। এই প্রতিশ্রুতির পরীক্ষাও সংখ্যায় করা যায়। প্রতিটি ব্যাটালিয়ন থেকে কতটি অভিযোগ এসেছে, কতটি প্রাথমিক যাচাইয়ে টেকেনি, কতটি মামলা হয়েছে এবং কতটি শেষ পর্যন্ত আদালতে গেছে—এগুলো পরিচয় প্রকাশ না করেই প্রকাশ করা সম্ভব। কোনো রাজনৈতিক দলের নাম না বলেও বাহিনী দেখাতে পারে যে একই প্রমাণের মান সবার জন্য প্রয়োগ হচ্ছে। আর যদি রাজনৈতিক প্রভাবের অভিযোগ ওঠে, অভিযোগ-নিষ্পত্তি কাঠামোর স্বাধীন পর্যালোচনার সারসংক্ষেপ সেই সন্দেহ কমাতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদীয় নজরদারি শুধু আইন পাসে শেষ নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "এসআরবি আইন পাস হয়েছে এবং গেজেটে প্রকাশিত হয়েছে। কিন্তু সংসদের কাজ আইন পাসের সঙ্গে শেষ হয় না। স্বরাষ্ট্র মন্ত্রণালয়-সম্পর্কিত সংসদীয় কমিটির সামনে বছরে অন্তত চারবার ব্যাটালিয়নভিত্তিক সমষ্টিগত তথ্য যাওয়ার ব্যবস্থা করা উচিত। সেখানে থাকবে অভিযোগের সংখ্যা, গ্রেপ্তার ও হস্তান্তর, মামলা, চার্জশিট, চূড়ান্ত প্রতিবেদন, বিচারিক অগ্রগতি, নাগরিক অভিযোগ এবং সদস্যের বিরুদ্ধে শৃঙ্খলামূলক ব্যবস্থার তথ্য। সংবেদনশীল অপারেশন বা ব্যক্তিগত তথ্য গোপন রাখা যাবে, কিন্তু ফলের সংখ্যা গোপন রাখার কারণ নেই।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে বিরোধী দল, এনসিপিসহ ছোট দল এবং সরকারপক্ষের সদস্যদের ভূমিকা একই রকম গুরুত্বপূর্ণ। আইনশৃঙ্খলা নিয়ে প্রশ্ন তোলা কোনো দলের প্রতি অনুগ্রহ বা বিরোধিতা নয়; এটি সংসদের সাংবিধানিক দায়িত্ব। ক্ষমতাসীনদের জন্যও এই প্রকাশনা উপকারী, কারণ সাফল্যের দাবি তখন কেবল বক্তৃতায় নয়, যাচাইযোগ্য ফলাফলে দাঁড়াবে। আর বিরোধী সদস্যদের জন্য সুযোগ হলো অভিযোগকে স্লোগানে না নামিয়ে নথি, সময়সীমা ও ফলের ভিত্তিতে সরকারের জবাব চাওয়া।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জননিরাপত্তার তথ্য প্রকাশের একটি বাস্তব সীমাও আছে। কোনো চলমান অভিযান, গোপন সূত্র, ভুক্তভোগীর পরিচয় বা সাক্ষীর নিরাপত্তা ঝুঁকিতে ফেলে এমন তথ্য প্রকাশ করা উচিত নয়। সম্পাদকের এই দাবিও তা নয়। দাবি হলো পর্যায়ভিত্তিক সমষ্টিগত হিসাব: কত অভিযোগ এল, কতটি যাচাই হলো, কতটি মামলা পর্যন্ত গেল, কতটি প্রমাণ না থাকায় বন্ধ হলো, এবং কতটি নাগরিক অভিযোগের নিষ্পত্তি হলো। গোপনীয়তার প্রয়োজনকে অস্বচ্ছতার অজুহাত বানানো যাবে না, আবার স্বচ্ছতার দাবিকে তদন্ত ভাঙার অজুহাতও বানানো যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আইনশৃঙ্খলা রক্ষার কাজকে রাজনৈতিক পরিচয়ের বাইরে রাখার মহাপরিচালকের বক্তব্য তাই সঠিক নীতি, কিন্তু নীতি তখনই বিশ্বাসযোগ্য হয় যখন তার ফলও সমানভাবে দেখা যায়। তালিকাভুক্ত কারও রাজনৈতিক পরিচয় প্রকাশ করে অপমান করা যাবে না। আবার রাজনৈতিক প্রভাবশালী কেউ হলে তার বিরুদ্ধে আইনগত পদক্ষেপ থেমে আছে কি না, সেটিও গোপন রাখা যাবে না। একই নিয়ম, একই প্রমাণের মান এবং একই পরিণতি—এটাই নতুন বাহিনীর ন্যূনতম পরীক্ষা।"
+        },
+        {
+          "type": "heading",
+          "text": "যে খোলা হিসাব এখনই দেওয়া সম্ভব"
+        },
+        {
+          "type": "paragraph",
+          "text": "এসআরবিকে ব্যক্তিগত তথ্য, সাক্ষীর পরিচয় বা চলমান অভিযানের কৌশল প্রকাশ করতে বলা হচ্ছে না। কিন্তু জনস্বার্থে একটি ত্রৈমাসিক সমষ্টিগত প্রতিবেদন প্রকাশ করা সম্পূর্ণ সম্ভব। জেলা বা ব্যাটালিয়নভিত্তিক মোট অভিযোগ, অভিযোগের ধরন, যাচাই শেষে তালিকায় বহাল থাকা ও বাদ পড়া নামের সংখ্যা, থানায় হস্তান্তর, এজাহার, চার্জশিট, চূড়ান্ত প্রতিবেদন, আদালতের নিষ্পত্তি এবং অভিযোগ-নিষ্পত্তি কমিটির কাজ—এসব পরিচয়-গোপন রেখেও প্রকাশ করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এতে অভিযানের ক্ষমতা কমবে না; বরং শক্ত হবে। ব্যবসায়ী জানবেন কোথায় অভিযোগ বেশি এবং কোথায় পুলিশের সাড়া দরকার। নাগরিক জানবেন একটি ‘তালিকা’ কীভাবে যাচাইয়ে যায়। সাংবাদিক ও সংসদীয় কমিটি সংখ্যা মিলিয়ে দেখতে পারবেন। আর যাঁদের বিরুদ্ধে ভুল বা পুরোনো তথ্য আছে, তাঁরা জানবেন সংশোধনের জন্য কোথায় আবেদন করবেন, কত দিনে জবাব পাবেন এবং সেই সিদ্ধান্তের পুনর্বিবেচনার পথ কী।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রকাশের ধরনও আগেই ঠিক করা যায়। প্রতি তিন মাসে একটি সংক্ষিপ্ত অনলাইন ড্যাশবোর্ডে ব্যাটালিয়ন ও জেলার নাম, অভিযোগের প্রধান ধরন এবং অগ্রগতির ধাপ দেওয়া যেতে পারে। বছর শেষে স্বরাষ্ট্র মন্ত্রণালয় একটি বিশ্লেষণী প্রতিবেদন প্রকাশ করতে পারে, যেখানে কোন এলাকায় চাঁদাবাজির অভিযোগ বেড়েছে বা কমেছে, কোথায় মামলা এগোয়নি, কোন থানায় সমন্বয়ের ঘাটতি ছিল এবং কী সংশোধনী নেওয়া হয়েছে—তার ব্যাখ্যা থাকবে। কাঁচা সংখ্যা যথেষ্ট নয়; সংখ্যার অর্থ, সীমাবদ্ধতা ও পরের পদক্ষেপও বলতে হবে। এটি এখনই করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই ব্যবস্থার একটি সরাসরি নাগরিক লাভ আছে। ক্ষুদ্র দোকানদার, পরিবহনশ্রমিক, শিল্পকারখানার মালিক বা ভাড়াটে কেউ যদি চাঁদাবাজির শিকার হন, তাঁরা জানতে পারবেন কোথায় অভিযোগ করবেন এবং অভিযোগটি নিছক একটি ফাইলে হারিয়ে যাচ্ছে কি না। আবার যাঁর বিরুদ্ধে ভুল তথ্য গেছে, তাঁরও পরিচয়-ক্ষতিকে স্থায়ী হতে না দিয়ে সংশোধনের সুযোগ থাকবে। অপরাধ প্রতিরোধ ও ন্যায়বিচার—দুটোরই শুরু হলো রাষ্ট্রের তথ্যকে জবাবদিহির উপযোগী করা।"
+        },
+        {
+          "type": "heading",
+          "text": "স্বরাষ্ট্র মন্ত্রণালয় ও এসআরবির কাছে ছয়টি প্রশ্ন"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "৩,৫৮৬ নামের প্রতিবেদিত তালিকাটি কোন তারিখে, কোন মানদণ্ডে এবং কতবার যাচাই করা হয়েছে?",
+            "তালিকার কতটি নামের সঙ্গে নির্দিষ্ট জিডি, এজাহার, মামলা নম্বর বা আদালতের নথি যুক্ত আছে?",
+            "কতজনকে যাচাই শেষে বাদ দেওয়া হয়েছে, এবং ভুল বা পুরোনো তথ্য সংশোধনের লিখিত প্রক্রিয়া কী?",
+            "এসআরবির হাতে আটক ব্যক্তিদের কতজনকে নিয়মিত মামলায় গ্রেপ্তার দেখানো হয়েছে, কতজনকে ছেড়ে দেওয়া হয়েছে এবং কতজনের বিষয়ে তদন্ত চলছে?",
+            "আইনে যে অভিযোগ-নিষ্পত্তি ও নজরদারির কথা বলা হয়েছে, তার প্রথম ত্রৈমাসিক প্রতিবেদন কবে প্রকাশ হবে?",
+            "ব্যাটালিয়নভিত্তিক অপরাধের ঝুঁকি, মামলা ও নিষ্পত্তির সমষ্টিগত তথ্য কি সংসদীয় কমিটি ও জনগণের জন্য নিয়মিত উন্মুক্ত করা হবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "নাম বদলের নয়, ফলের পরীক্ষা"
+        },
+        {
+          "type": "paragraph",
+          "text": "চাঁদাবাজির বিরুদ্ধে কার্যকর পদক্ষেপ জরুরি। এ কথা বলার জন্য কোনো দ্বিধা থাকা উচিত নয়। কিন্তু চাঁদাবাজি ঠেকানোর নামে অস্বচ্ছ তালিকা স্থায়ী করে দিলে, বা অভিযোগ আর প্রমাণকে এক করে ফেললে, নতুন বাহিনী পুরোনো অবিশ্বাসই বহন করবে। সন্ত্রাসী বা চাঁদাবাজের বিরুদ্ধে শক্ত ব্যবস্থা এবং নিরপরাধ মানুষের ন্যায্য সুরক্ষা পরস্পরের প্রতিপক্ষ নয়। ভালো আইনশৃঙ্খলা ব্যবস্থা দুটিই করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এসআরবির সামনে এখন একটি সহজ, মাপা যায় এমন কাজ আছে। আগামী ৯০ দিনের মধ্যে তারা তালিকা ও অভিযান থেকে কতটি অভিযোগ যাচাই হলো, কতটি মামলায় গেল, কতটি প্রমাণের অভাবে বন্ধ হলো, কতটি অভিযোগে বিচারিক অগ্রগতি আছে এবং নাগরিক অভিযোগ কীভাবে নিষ্পত্তি হলো—তার সমষ্টিগত খতিয়ান প্রকাশ করুক। তাহলেই বোঝা যাবে নতুন আইন কেবল পরিচয়ের বদল নয়, ন্যায্য ও ফলভিত্তিক জননিরাপত্তার শুরু।"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "SRB’s reported 3,586-name list needs public case outcomes",
+          "excerpt": "The SRB director general confirmed that a list is being compiled. A name on such a list is not proof of guilt: the new force must publish aggregate case, review and outcome data.",
+          "imageAlt": "Editorial illustration about Bangladesh public safety, case records and accountability",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A reported SRB list contains 3,586 names. Listing is not a criminal verdict. The new force must publish aggregate data on allegations, cases, reviews, outcomes and correction procedures."
+        },
+        "de": {
+          "title": "Die gemeldete SRB-Liste mit 3.586 Namen braucht öffentliche Fallresultate",
+          "excerpt": "Der SRB-Direktor hat bestätigt, dass eine Liste erstellt wird. Ein Eintrag beweist keine Schuld: Die neue Einheit muss aggregierte Daten zu Fällen, Prüfungen und Ergebnissen veröffentlichen.",
+          "imageAlt": "Redaktionelle Illustration zu öffentlicher Sicherheit, Fallakten und Rechenschaftspflicht in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Eine gemeldete SRB-Liste enthält 3.586 Namen. Ein Listeneintrag ist kein Schuldspruch. Die neue Einheit muss aggregierte Angaben zu Vorwürfen, Fällen, Prüfungen, Ergebnissen und Korrekturen veröffentlichen."
+        }
+      },
+      "automation": {
+        "evidenceScore": 85,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a clearly identified implementation follow-up to the September SRB-law coverage, not a duplicate. A contemporaneous bdnews24.com report says a 15-battalion list prepared through 10 September contains 3,586 names and records the SRB director general confirming that the list is being compiled from law-enforcement and intelligence information without regard to political affiliation. The official Government Press gazette verifies that the SRB Act, 2026 was published on 15 September. BSS reports the government’s stated transparency, oversight and accountability rationale for the transition. The Daily Star and The Business Standard independently corroborate recent SRB operations but are used only to show that arrest, allegation, police handover, case and verdict are distinct stages; the article does not treat either arrest or listing as guilt and names no listed person.",
+        "governmentPosition": "The government says SRB is a specialised police unit needed to combat serious and organised crime while maintaining operational capacity through transferred personnel and assets. Its official account of the gazetted law says the framework is intended to strengthen transparency, oversight and effective accountability. The SRB director general says the reported list is compiled from law-enforcement and intelligence information and political identity is not considered.",
+        "findings": [
+          "A bdnews24.com report published on 10 October says an SRB list prepared through 10 September contains 3,586 names across 15 battalions; the director general confirmed that a list is being compiled.",
+          "The reported total is not a court finding, charge sheet, conviction or verified measure of extortion prevalence. The article labels it as a reported administrative list and does not identify listed people.",
+          "The Government Press records publication of the Special Response Battalion Act, 2026 as Law No. 109 on 15 September, establishing the current statutory framework for SRB.",
+          "Independent reports of two recent SRB detentions support the need to distinguish allegation, arrest, police handover, formal case, investigation and verdict. They do not corroborate the 3,586 total and are not presented as doing so.",
+          "A quarterly aggregate disclosure of verification, cases, outcomes, removals and complaint handling is a proportionate accountability safeguard that can protect witnesses, investigations and personal data."
+        ],
+        "claimMatrix": {
+          "srbActAndGazetteDate": "VERIFIED FACT — HIGH — Bangladesh Government Press lists Special Response Battalion (SRB) Act, 2026 as Law No. 109, published 15 September 2026.",
+          "reportedListAndDirectorGeneralConfirmation": "REPORTED FACT — HIGH — bdnews24.com report of 10 October 2026, including direct confirmation from the SRB director general that the list is being compiled from law-enforcement and intelligence information.",
+          "reportedTotalAndRegionalBreakdown": "REPORTED FACT — HIGH — the 3,586 total and 1,068 figure are attributed solely to bdnews24.com’s analysis of the reported list; no claim is made that the entire underlying list is public or independently audited.",
+          "recentIndividualOperations": "REPORTED FACT — HIGH — Daily Star and The Business Standard independently report recent SRB detentions and police handovers; allegations remain allegations and no conviction is asserted.",
+          "guiltOfAnyListedPerson": "UNVERIFIED — NOT ASSERTED — listing, arrest or police intelligence does not establish criminal responsibility.",
+          "editorialConclusion": "ANALYSIS — HIGH — aggregate, privacy-protective case and outcome reporting is a proportionate way to test the law’s stated transparency and accountability aims."
+        },
+        "seoTitle": "এসআরবি তালিকা: মামলা ও ফলের খোলা হিসাব চাই",
+        "metaDescription": "এসআরবি-তালিকায় ৩,৫৮৬ নামের প্রতিবেদন এসেছে। তালিকাভুক্তি অপরাধের রায় নয়; অভিযোগ, মামলা, তদন্ত, ফল ও ভুল সংশোধনের নিয়ম প্রকাশ জরুরি।",
+        "categories": [
+          "আইনশৃঙ্খলা",
+          "প্রাতিষ্ঠানিক জবাবদিহি",
+          "নাগরিক অধিকার"
+        ],
+        "tags": [
+          "এসআরবি",
+          "স্পেশাল রেসপন্স ব্যাটালিয়ন",
+          "চাঁদাবাজি",
+          "আইনশৃঙ্খলা",
+          "পুলিশ জবাবদিহি",
+          "মামলার তথ্য",
+          "নাগরিক অধিকার",
+          "সরকারি গেজেট",
+          "স্বচ্ছতা",
+          "বাংলাদেশ পুলিশ"
+        ]
+      }
+    },
+    {
       "id": "bangladesh-internal-audit-manual-public-results-2026",
       "slug": "bangladesh-internal-audit-manual-public-results-2026",
       "sharePath": "blog/bangladesh-internal-audit-manual-public-results-2026",
