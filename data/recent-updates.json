@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-09T09:08:52.809Z",
+  "updatedAt": "2026-10-09T16:15:38.815Z",
   "items": [
+    {
+      "id": "facebook-germany-122208838526921031",
+      "facebookId": "122208838526921031",
+      "status": "published",
+      "date": "৯ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-09T11:00:19+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "নতুন কার্যক্রমের আপডেট",
+      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
+      "sourceCaption": "#JusticeForHadi",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208838526921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122208838526921031.jpg",
+      "imageAlt": "নতুন কার্যক্রমের আপডেট",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122208714752921031",
       "facebookId": "122208714752921031",
@@ -99,24 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122208145346921031.jpg",
       "imageAlt": "স্থানীয় পর্যায়ে প্রবাসীদের অংশগ্রহণ বদলে দিতে পারে বাংলাদেশের সামগ্রিক চিত্র।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122207943494921031",
-      "facebookId": "122207943494921031",
-      "status": "published",
-      "date": "৪ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-04T13:52:16+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
-      "excerpt": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
-      "sourceCaption": "কুষ্টিয়ায় লালন শাহের মাজারে এনসিপির মুখ্য সমন্বয়ক নাসীরুদ্দীন পাটওয়ারীর ওপর হামলা করেছে বিএনপির সন্ত্রাসীরা।",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207943494921031",
-      "mediaType": "text",
-      "isReel": false,
-      "featured": false,
       "managedBy": "facebook-sync"
     },
     {
