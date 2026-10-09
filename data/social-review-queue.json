@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T22:07:05.052Z",
+  "updatedAt": "2026-10-09T16:16:17.746Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6159,6 +6159,45 @@
           "description": "আওয়ামীলীগের সাথে রিকন্সলেশন এর কোন সুযোগ নাই, কারন তার স/ন্ত্রা/সী, জ/ঙ্গী কার্যক্রম চালিয়েছে।\n\nআওয়ামীলীগের সাথে রিকন্সলেশন এর কোন সুযোগ নাই, কারন তার স/ন্ত্রা/সী, জ/ঙ্গী কার্যক্রম চালিয়েছে। - ফরিদুল হক #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/2550663615440542/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122208714752921031-d844b353b1-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122208838526921031-d59925f324",
+      "sourceType": "facebook",
+      "sourceId": "122208838526921031",
+      "sourceKey": "facebook:germany:122208838526921031",
+      "sourceFingerprint": "d59925f32472ca04f265af71d21e4f5bc5eb6a8666a8d568fedcf6308a4424ba",
+      "sourceCreatedAt": "2026-10-09T11:00:19+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208838526921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-09T16:16:17.746Z",
+      "updatedAt": "2026-10-09T16:16:17.746Z",
+      "title": "#JusticeForHadi",
+      "excerpt": "#JusticeForHadi",
+      "sourceCaption": "#JusticeForHadi",
+      "image": "img/social/germany/fb-122208838526921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "#JusticeForHadi\nhttps://www.facebook.com/122195961254921031/posts/122208838526921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122208838526921031-d59925f324-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "#JusticeForHadi",
+          "description": "#JusticeForHadi\n\n#JusticeForHadi\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122208838526921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122208838526921031-d59925f324-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
