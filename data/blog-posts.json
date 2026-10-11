@@ -1,6 +1,272 @@
 {
   "items": [
     {
+      "id": "family-card-national-data-collection-verification-disclosure-2026",
+      "slug": "family-card-national-data-collection-verification-disclosure-2026",
+      "sharePath": "blog/family-card-national-data-collection-verification-disclosure-2026",
+      "tag": "সামাজিক সুরক্ষা ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১১ অক্টোবর ২০২৬",
+      "title": "ফ্যামিলি কার্ডের তথ্য সংগ্রহ শুরু: এবার যাচাই, ভুল-সংশোধন ও তথ্য সুরক্ষার খোলা নিয়ম চাই",
+      "excerpt": "১২ অক্টোবর থেকে দেশজুড়ে ফ্যামিলি কার্ডের তথ্য নেওয়া শুরু হচ্ছে। পাইলটের যাচাই-ফল দেখিয়েছে, জাতীয় বিস্তারের আগে কার তথ্য নেওয়া হবে, কীভাবে মিলিয়ে দেখা হবে এবং ভুল হলে কী প্রতিকার—এসব প্রকাশ জরুরি।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about social-protection data, verification and public accountability in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "সামাজিক সুরক্ষার তথ্যভাণ্ডার মানুষের অধিকার রক্ষা করতে পারে। কিন্তু কার তথ্য নেওয়া হবে, কে দেখবে, কীভাবে সিদ্ধান্ত হবে এবং ভুল কীভাবে শোধরাবে—তা প্রকাশ্য না হলে একই ব্যবস্থা মানুষকে বাদও দিতে পারে।",
+      "facebookCaption": "১২ অক্টোবর থেকে ফ্যামিলি কার্ডের দেশব্যাপী তথ্য সংগ্রহ শুরু হচ্ছে। পাইলটে যাচাই করা ৩৫,৮৪৪ কার্ডের মধ্যে ৬,৪৮৭ জনকে নিয়ম অনুযায়ী অযোগ্য পাওয়া গিয়েছিল বলে দ্য ডেইলি স্টার জানিয়েছে। তাই জাতীয় বিস্তারের আগে তথ্যের তালিকা, যাচাইয়ের ফল, ভুল-সংশোধন ও অভিযোগের খোলা নিয়ম প্রকাশ করা দরকার।",
+      "publishedAt": "2026-10-11T15:30:00+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "১২ অক্টোবর ২০২৬",
+          "label": "বাসসের প্রতিবেদনে ঘোষিত দেশব্যাপী থানা ও পরিবার-তথ্য সংগ্রহ শুরুর তারিখ"
+        },
+        {
+          "value": "৩৫,৮৪৪ জন",
+          "label": "দ্য ডেইলি স্টারের ভাষ্য অনুযায়ী পাইলটে যাঁদের তথ্য অর্থ মন্ত্রণালয় যাচাই করতে পেরেছিল"
+        },
+        {
+          "value": "৬,৪৮৭ জন",
+          "label": "একই প্রতিবেদনে পাইলটের যাচাইয়ে প্রযোজ্য মানদণ্ডে অযোগ্য পাওয়া কার্ডধারীর সংখ্যা; এটি অপরাধ বা জালিয়াতির রায় নয়"
+        },
+        {
+          "value": "১৮.১%",
+          "label": "৩৫,৮৪৪ যাচাইকৃত কার্ডের বিপরীতে ৬,৪৮৭-এর হিসাব; সম্পাদকীয় পুনর্গণনা"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা · ‘আগামীকাল থেকে ফ্যামিলি কার্ডের তথ্য সংগ্রহ শুরু, মসজিদ-মন্দির-গির্জায় প্রচারণার নির্দেশ’ · ১১ অক্টোবর ২০২৬",
+          "url": "https://www.bssnews.net/bangla/news-flash/348994"
+        },
+        {
+          "label": "সমাজকল্যাণ মন্ত্রণালয় · ‘ফ্যামিলি কার্ড কর্মসূচি সংক্রান্ত প্রজ্ঞাপন, ২০২৬’ · ২০ আগস্ট ২০২৬",
+          "url": "https://msw.gov.bd/pages/policies/%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%AA%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC-gphz2e-6a92e55ac640346be3ae9272"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড · ‘Income, assets, living standards to determine who will get Family Card’ · ২০ জুন ২০২৬",
+          "url": "https://www.tbsnews.net/economy/income-assets-living-standards-determine-who-will-get-family-card-1467481"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘Anomalies found in Family Card pilot’ · ২৮ এপ্রিল ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/anomalies-found-family-card-pilot-4162456"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘Govt to assess impact of Family Card allowances: finance minister’ · ১৫ জুন ২০২৬",
+          "url": "https://www.thedailystar.net/business/news/govt-assess-impact-family-card-allowances-finance-minister-4199381"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "এটি শুধু নাম লেখার কাজ নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "১২ অক্টোবর থেকে সারা দেশে ফ্যামিলি কার্ডের জন্য থানা ও পরিবারভিত্তিক তথ্য সংগ্রহ শুরুর কথা জানিয়েছে বাংলাদেশ সংবাদ সংস্থা। বাসসের ১১ অক্টোবরের প্রতিবেদনে বলা হয়েছে, প্রশিক্ষিত ও পরিচয়পত্রধারী কর্মীরা বাড়ি বাড়ি গিয়ে পরিবারের অবস্থা জানবেন এবং সেই তথ্যের ভিত্তিতে কোন পরিবার বেশি সহায়তা প্রয়োজন তা নির্ধারণ করা হবে। একই প্রতিবেদনে ‘ফ্যামিলি কার্ড থানা তথ্যভাণ্ডারের তথ্য সংগ্রহ নির্দেশিকা, ২০২৬’ প্রণয়নের কথাও আছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সরকারের উদ্দেশ্যটি ন্যায্য। প্রকৃত দরিদ্র পরিবারকে পৌঁছানো, একই মানুষকে একাধিক সুবিধা পাওয়ার সুযোগ কমানো এবং দালালের প্রভাব ঠেকানো দরকার। কিন্তু এই কাজটি কেবল একটি ফরম পূরণ নয়। কার আয়, সম্পদ, পারিবারিক অবস্থা ও সরকারি সুবিধার তথ্য সংগ্রহ হবে, তা থেকে কারা সহায়তা পাবেন আর কারা বাদ পড়বেন—সেটি নির্ধারিত হবে। এমন রাষ্ট্রীয় সিদ্ধান্তে মানুষের জানার অধিকারও সমান গুরুত্বপূর্ণ।"
+        },
+        {
+          "type": "callout",
+          "text": "তথ্য দিয়ে সহায়তা বাছাই করা যায়; কিন্তু নিয়ম, যাচাই ও আপিলের পথ গোপন থাকলে একই তথ্য মানুষকে ভুলভাবে বাদও দিতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "পাইলটের হিসাব জাতীয় বিস্তারের আগে কী শেখায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "জাতীয় তথ্য সংগ্রহের ঠিক আগে পাইলটের একটি ফল উপেক্ষা করার সুযোগ নেই। দ্য ডেইলি স্টার ২৮ এপ্রিল অর্থ মন্ত্রণালয়ের পাওয়া তথ্যের ভিত্তিতে জানায়, পাইলটে ৩৭ হাজার ৮০০ ফ্যামিলি কার্ড দেওয়া হয়েছিল। এর মধ্যে ৩৫ হাজার ৮৪৪ জনের তথ্য যাচাই করা সম্ভব হয় এবং ৬ হাজার ৪৮৭ কার্ডধারীকে কর্মসূচির নির্ধারিত মানদণ্ডে অযোগ্য পাওয়া যায়। প্রতিবেদনে সরকারি চাকরিজীবী, পেনশনভোগী, সঞ্চয়পত্রধারী, টিসিবি কার্ডধারী ও অন্য সামাজিক সুরক্ষা সুবিধাভোগীসহ বিভিন্ন শ্রেণির কথা এসেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই ৬ হাজার ৪৮৭ জনকে অপরাধী বলা যাবে না, জালিয়াতিও বলা যাবে না। প্রতিবেদনটি এমন কোনো রায় দেয় না। এটি কেবল দেখায় যে বাছাইয়ের নিয়ম প্রয়োগ করলে পাইলটের একটি বড় অংশ কর্মসূচির যোগ্যতার সঙ্গে মেলেনি। যাচাইকৃত ৩৫ হাজার ৮৪৪-এর বিপরীতে ৬ হাজার ৪৮৭ হিসাব করলে অনুপাত দাঁড়ায় প্রায় ১৮ দশমিক ১ শতাংশ। এই পুনর্গণনা কোনো নতুন সরকারি পরিসংখ্যান নয়; প্রকাশিত দুই সংখ্যার সরল ভাগ।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানেই সরকারের নিজের বক্তব্যের সঙ্গে মিলিয়ে দেখার প্রয়োজন। একই প্রতিবেদনে অর্থমন্ত্রী আমীর খসরু মাহমুদ চৌধুরী পাইলটের ভুলকে ‘এক শতাংশেরও কম’ বলে বর্ণনা করেছিলেন এবং দ্রুত সংশোধনের কথা বলেন। ভুলের সংজ্ঞা, গণনার ভিত্তি কিংবা কোন সংখ্যাকে হর ধরা হয়েছে—এগুলো পরিষ্কার না হলে ১৮ দশমিক ১ শতাংশের প্রতিবেদিত যোগ্যতা-অমিল এবং ‘এক শতাংশেরও কম’ বক্তব্য একসঙ্গে বোঝা যায় না। জাতীয় পর্যায়ে যাওয়ার আগে এই ফারাকের ব্যাখ্যা প্রকাশ করা সরকারেরই স্বার্থে।"
+        },
+        {
+          "type": "heading",
+          "text": "যে তথ্যভাণ্ডার গড়া হচ্ছে, তার ক্ষমতাও বড়"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য বিজনেস স্ট্যান্ডার্ডের ২০ জুনের প্রতিবেদনে সমাজকল্যাণ মন্ত্রণালয়ের খসড়া বাস্তবায়ন নীতিমালার কথা এসেছে। সেখানে প্রক্সি মিনস টেস্ট বা পিএমটি পদ্ধতিতে আয়, পেশা, সম্পদ ও জীবনযাত্রার সূচক থেকে একটি স্কোর তৈরির প্রস্তাব ছিল। প্রতিবেদনে আরও বলা হয়, তথ্য যাচাইয়ে জাতীয় পরিচয়পত্র, জাতীয় রাজস্ব বোর্ড, বিআরটিএ, ভূমি, জন্ম ও মৃত্যু নিবন্ধন এবং বাণিজ্যিক ব্যাংকের তথ্যভাণ্ডারের সঙ্গে ডিজিটাল সংযোগের পরিকল্পনা আছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "খসড়ার পরিকল্পনা চূড়ান্তভাবে কী রূপ পেয়েছে, তা আলাদা প্রশ্ন। কিন্তু নীতির দিকটি পরিষ্কার: ফ্যামিলি কার্ডের সিদ্ধান্ত শুধু মাঠকর্মীর পর্যবেক্ষণে থামবে না; একাধিক সরকারি ও আর্থিক তথ্য মিলিয়ে করা হতে পারে। তাই ১২ অক্টোবরের তথ্য সংগ্রহের সঙ্গে নাগরিকের জন্য কমপক্ষে চারটি তথ্যও দৃশ্যমান হওয়া উচিত—কোন কোন তথ্য নেওয়া হচ্ছে, কোন দপ্তরের সঙ্গে কেন মিলিয়ে দেখা হবে, কে তথ্য ব্যবহার করতে পারবে এবং কোন সময়ের পর তা মুছে বা হালনাগাদ করা হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "রাষ্ট্রের কাছে দরিদ্র মানুষের তথ্য থাকাই সমস্যা নয়। বরং সঠিক তথ্য ছাড়া ভাতা ভুল হাতে যেতে পারে। সমস্যা হয় যখন মানুষ জানেন না তাঁদের তথ্যের ওপর কী সিদ্ধান্ত নেওয়া হলো, ভুল ধরা পড়লে কার কাছে যাবেন, এবং তথ্য নেওয়ার সময় প্রতারক থেকে কীভাবে নিরাপদ থাকবেন। বাসসের প্রতিবেদনে অর্থ চাওয়া হলে বিশ্বাস না করতে ও ১০৯৮ নম্বরে জানানোর বার্তা আছে। এটি দরকারি সতর্কতা। কিন্তু একটি ফোন নম্বর কোনো পূর্ণাঙ্গ অভিযোগ-নিষ্পত্তি ব্যবস্থা নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "স্কোর সিদ্ধান্তকে সহায়তা করতে পারে, তার বিকল্প হতে পারে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রক্সি মিনস টেস্টের মূল কথা হলো কয়েকটি দৃশ্যমান সূচক মিলিয়ে আর্থিক দুর্বলতার একটি আনুমানিক চিত্র তৈরি করা। এটি সঠিকভাবে তৈরি ও পরীক্ষা করা হলে স্থানীয় প্রভাব কমাতে সহায়তা করতে পারে। কিন্তু একটি পদ্ধতিগত স্কোর কোনো পরিবারের পুরো জীবন জানে না। অসুস্থতা, হঠাৎ কাজ হারানো, ঋণের বোঝা, দুর্যোগে ক্ষতি, ভাড়াবাড়ির অনিশ্চয়তা বা পরিবারের সদস্যের বিশেষ প্রয়োজন একই সংখ্যায় ধরা নাও পড়তে পারে। তাই স্কোরকে চূড়ান্ত রায় বানানো ন্যায্য হবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের উচিত নয় পিএমটির সূত্র বা প্রতারণা শনাক্তের সব কারিগরি ব্যবস্থা এমনভাবে প্রকাশ করা, যাতে অসাধু লোক তা ফাঁকি দেওয়ার কৌশল শিখে ফেলে। কিন্তু সূত্র গোপন রাখার অর্থ এই নয় যে সিদ্ধান্তও অন্ধকারে থাকবে। একজন আবেদনকারী অন্তত জানবেন কোন তথ্যের কারণে তাঁর পরিবার বাদ পড়েছে, কোন তথ্য ভুল বলে মনে হলে কী দলিল দেবেন, এবং একটি স্বাধীন পর্যালোচনায় কত দিনের মধ্যে উত্তর পাবেন। এতে অ্যালগরিদমের গোপনীয়তা নয়, নাগরিকের ন্যায্যতা সুরক্ষিত হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিশেষ করে যেসব পরিবারে নারীপ্রধান, প্রতিবন্ধী ব্যক্তি, প্রবীণ, ক্ষুদ্র জাতিসত্তার সদস্য বা মৌসুমি কাজের ওপর নির্ভরশীল মানুষ আছেন, তাঁদের অবস্থাকে কেবল স্থাবর সম্পদ দেখে বিচার করা বিপজ্জনক হতে পারে। দ্য বিজনেস স্ট্যান্ডার্ডের প্রতিবেদনে পার্বত্য চট্টগ্রাম ও সমতলের ক্ষুদ্র জাতিসত্তার পরিবারের জন্য স্কোরে সমন্বয়ের প্রস্তাবের কথা আছে। প্রস্তাবটি বাস্তবায়িত হয়েছে কি না, এবং হলে কেমনভাবে, তা প্রকাশ করা দরকার। সমতা মানে সবাইকে একরকম সংখ্যা দেওয়া নয়; সমতা মানে বাস্তব পার্থক্য বিবেচনায় নিয়ে একই ন্যায্যতার মান প্রয়োগ করা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পাইলটের ঘটনাও এই কারণেই গুরুত্বপূর্ণ। যাচাইয়ে অযোগ্য পাওয়া মানুষের মধ্যে কেউ হয়তো ভুল তথ্য দিয়েছেন, কেউ হয়তো পুরোনো তথ্যের কারণে অন্য সুবিধার তালিকায় ছিলেন, আবার কারও ক্ষেত্রে সরকারি নথির ভুল বা সময়ের ব্যবধান থাকতে পারে। প্রকাশিত খবর থেকে প্রতিটি ঘটনার কারণ জানা যায় না। তাই ৬ হাজার ৪৮৭ সংখ্যাকে রাজনৈতিক আক্রমণের হাতিয়ার করা ঠিক নয়। কিন্তু কারণগুলো সমষ্টিগতভাবে না জানলে সরকারও বুঝবে না সমস্যাটি কোথায়—তথ্য সংগ্রহে, ডেটাবেস মিলিয়ে দেখায়, যোগ্যতার নিয়মে, নাকি অভিযোগ সংশোধনে।"
+        },
+        {
+          "type": "heading",
+          "text": "তথ্য সুরক্ষার দায়কে পরে ঠেলে দেওয়া যাবে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাড়ি বাড়ি তথ্য নেওয়া শুরু হলে কর্মীরা মানুষের পরিবার, আয়-রোজগার, সম্পদ ও সহায়তার প্রয়োজন সম্পর্কে এমন তথ্য পাবেন যা প্রকাশ হলে ক্ষতি হতে পারে। তথ্য চাওয়ার সময় তাই পরিবারকে সহজ ভাষায় বলা উচিত—কোন তথ্য বাধ্যতামূলক, কোনটি ঐচ্ছিক, তথ্য কোন দপ্তরে যাবে, কত দিন থাকবে, কারা দেখতে পারবেন এবং অননুমোদিত ব্যবহার হলে কোথায় অভিযোগ করা যাবে। পরিচয়পত্র দেখানো জরুরি, কিন্তু সেটি তথ্য-ব্যবহারের সম্মতি বা নিরাপত্তার বিকল্প নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে ‘যত বেশি তথ্য, তত ভালো’ নীতি সঠিক নয়। যে তথ্য যোগ্যতা যাচাইয়ের জন্য দরকার নেই, তা নেওয়ার যুক্তি নেই। আবার যেটি দরকার, তা ভুল হাতে পড়া বা অনির্দিষ্টকালের জন্য জমা থাকার ঝুঁকি কমাতে হবে। কেন্দ্রীয় নিবন্ধনে তথ্য পাঠানোর আগে মাঠকর্মীর যন্ত্রে কী সুরক্ষা থাকবে, তথ্য আদান-প্রদানের নথি রাখা হবে কি না, এবং প্রকল্প শেষ হলে অপ্রয়োজনীয় কপি কীভাবে মুছবে—এসব প্রশাসনিক খুঁটিনাটি নয়। এগুলোই মানুষের বিশ্বাসের ভিত্তি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাসসের প্রতিবেদনে মসজিদ, মন্দির, প্যাগোডা ও গির্জার মাধ্যমে প্রচারের কথা এসেছে। দুর্বল বা বিচ্ছিন্ন মানুষের কাছে সরকারি বার্তা পৌঁছাতে স্থানীয় প্রতিষ্ঠান সহায়ক হতে পারে। তবে প্রচারের মাধ্যম আর সুবিধা বাছাইয়ের মানদণ্ড এক নয়। সহায়তা পাওয়ার অধিকার ধর্মীয় পরিচয়, উপাসনালয়ে যাওয়া বা কোনো স্থানীয় প্রভাবশালীর সুপারিশের ওপর নির্ভর করতে পারে না। সরকারকে শুরুতেই স্পষ্ট বলতে হবে যে তথ্য সংগ্রহ ও আপিলের পথ সবার জন্য একই এবং কোনো ধর্মীয় বা রাজনৈতিক পরিচয় সেখানে ব্যবহৃত হবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "মানুষকে শুধু সতর্ক করে দিলেই প্রতারণা ঠেকে না। প্রতিটি এলাকায় যাচাইযোগ্য কর্মী-তালিকা, সরকারি ওয়েবসাইটে বা এসএমএসে পরিচয় মিলিয়ে দেখার সহজ ব্যবস্থা, অর্থ না চাওয়ার স্পষ্ট ঘোষণা এবং অভিযোগের পর দ্রুত প্রতিক্রিয়া দরকার। কেউ টাকা চাইলে বা তথ্য নিতে এসে সন্দেহজনক আচরণ করলে ১০৯৮-এ জানাতে বলা হয়েছে—এটি কার্যকর করতে হলে কত অভিযোগ এল, কতটিতে ব্যবস্থা হলো এবং কত সময়ে হলো, সেই ফলও প্রকাশ করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই প্রকাশনা জটিল নয়। মাসে একবার একটি পরিচয়-গোপন ড্যাশবোর্ডে উপজেলা ও জেলাভিত্তিক তথ্যসংগ্রহের অগ্রগতি, অসম্পূর্ণ ফরম, যাচাইয়ে অমিল, প্রাথমিকভাবে নির্বাচিত ও বাদ পড়া পরিবার, অভিযোগ, আপিল এবং সংশোধিত সিদ্ধান্ত দেখানো যায়। সংখ্যার সঙ্গে সংক্ষিপ্ত ব্যাখ্যা থাকবে—কোন অমিল পুরোনো নথির কারণে, কোনটি নতুন যাচাইয়ে মিটেছে, আর কোন বিষয়ে নীতিগত সিদ্ধান্ত লাগবে। ভুলের প্রধান কারণ প্রকাশ করা বাধ্যতামূলক হওয়া উচিত। এতে মানুষ শুধু ফল নয়, ফল তৈরির প্রক্রিয়াটিও দেখতে পারবেন।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের অবস্থানকে পরীক্ষার জায়গায় নিতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার আগেই বলেছে, বাছাইয়ে দলীয় প্রভাব থাকবে না এবং নিয়মিত তথ্য হালনাগাদ করে অযোগ্যকে বাদ ও যোগ্যকে অন্তর্ভুক্ত করা হবে। ১৫ জুন দ্য ডেইলি স্টারকে অর্থমন্ত্রী বলেন, ভাতার অর্থ মানুষের স্বাস্থ্য ও শিক্ষাজীবনে ফল দিচ্ছে কি না তা দেখতে প্রভাব মূল্যায়ন করা হবে; একই প্রতিবেদনে সামাজিক কল্যাণমন্ত্রী জাতীয় পরিচয়পত্রভিত্তিক যাচাই ও চার বছর পরপর পুনর্মূল্যায়নের কথা বলেন। এগুলো কাগজে সঠিক অঙ্গীকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু জাতীয় পর্যায়ের পরীক্ষায় অঙ্গীকার যথেষ্ট নয়। এবার ফল প্রকাশ করতে হবে। প্রতিটি জেলা থেকে কত পরিবারে তথ্য নেওয়া হলো, কতটি ফরম অসম্পূর্ণ ছিল, কতটি তথ্য অন্য সরকারি নথির সঙ্গে মেলেনি, কত পরিবার প্রাথমিকভাবে বাদ পড়ল, কতটি আপিলে সিদ্ধান্ত বদলাল এবং কত দিনে অভিযোগের জবাব দেওয়া হলো—এই হিসাব নাম-পরিচয় প্রকাশ না করেই দেওয়া যায়। এতে ব্যক্তিগত গোপনীয়তা ভাঙে না; বরং বাছাইয়ের ন্যায়সংগততা যাচাই করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে স্থানীয় পর্যায়ের রাজনৈতিক প্রভাব ঠেকানোও জরুরি। পাইলটের যোগ্যতা-অমিল প্রমাণ করে না যে কোনো নির্দিষ্ট দলের কেউ সুবিধা নিয়েছে। তবু এটি দেখায়, ঘোষণা, পরিচিতি বা স্থানীয় সুপারিশ একা যথেষ্ট যাচাই নয়। পিএমটি স্কোর, সরকারি নথি মিলিয়ে দেখা এবং মানুষের সংশোধনের অধিকার—এই তিনটি স্তর কাজ না করলে দেশের সবচেয়ে বড় সামাজিক সুরক্ষা তথ্যভাণ্ডারও পুরোনো বাদ পড়া ও ভুল অন্তর্ভুক্তির পুনরাবৃত্তি করবে।"
+        },
+        {
+          "type": "heading",
+          "text": "এখন যে সাতটি জবাব দরকার"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "‘ফ্যামিলি কার্ড থানা তথ্যভাণ্ডারের তথ্য সংগ্রহ নির্দেশিকা, ২০২৬’-এর পূর্ণ পাঠ ও তথ্য-ফরম কবে জনসমক্ষে দেওয়া হবে?",
+            "তথ্যসংগ্রহকারীর পরিচয় যাচাই, প্রশিক্ষণ, তদারকি ও ভুয়া পরিচয়ে তথ্য নেওয়া ঠেকানোর লিখিত ব্যবস্থা কী?",
+            "জাতীয় পরিচয়পত্র, কর, ভূমি, যানবাহন, জন্মনিবন্ধন বা ব্যাংকের তথ্য মিলিয়ে দেখার চূড়ান্ত নিয়ম কোনটি, এবং কোন তথ্য কোন কাজে ব্যবহার হবে?",
+            "প্রাথমিকভাবে অযোগ্য ঘোষিত পরিবার কীভাবে স্কোর, তথ্যের উৎস ও সিদ্ধান্তের কারণ জানতে পারবে?",
+            "তথ্য ভুল হলে বা পরিবারের অবস্থা বদলালে সংশোধনের আবেদন কোথায়, কত দিনে এবং কার স্বাধীন পর্যালোচনায় নিষ্পত্তি হবে?",
+            "জেলাভিত্তিক বাছাই, বাদ পড়া, আপিল ও নিষ্পত্তির পরিচয়-গোপন সমষ্টিগত ফলাফল কি প্রতি মাসে প্রকাশ করা হবে?",
+            "পাইলটে প্রতিবেদিত ৬ হাজার ৪৮৭ যোগ্যতা-অমিল এবং মন্ত্রীর ‘এক শতাংশেরও কম’ মূল্যায়নের মধ্যে পার্থক্যের সরকারি ব্যাখ্যা কী?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "সহায়তার মর্যাদা রক্ষার শর্ত হলো খোলা হিসাব"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফ্যামিলি কার্ডের লক্ষ্য যদি সত্যিই দরিদ্র মানুষের হাতে সহায়তা পৌঁছানো হয়, তাহলে একটি পরিবার ভুলভাবে বাদ পড়লে সেটি কেবল ডেটার ভুল নয়; খাবার, ওষুধ, পড়াশোনা ও সম্মানের ক্ষতি। আবার যাঁর পাওয়ার কথা নয় তিনি সুবিধা নিলে সীমিত সরকারি অর্থ আরেকজনের কাছ থেকে সরে যায়। এই দুই অন্যায়ের সমাধান একই: যাচাইয়ের নিয়ম, পুনরীক্ষণ ও আপিলকে প্রকাশ্য করা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের জন্যও এটি সুযোগ। তথ্য সংগ্রহ শুরু হওয়ার দিনেই সমাজকল্যাণ মন্ত্রণালয় পূর্ণ নির্দেশিকা, নাগরিকের তথ্য-অধিকার, অভিযোগের সময়সীমা এবং জেলাভিত্তিক ফল প্রকাশের ক্যালেন্ডার দিতে পারে। এতে কর্মসূচির লক্ষ্য দুর্বল হবে না; উল্টো প্রতারক, দালাল ও রাজনৈতিক প্রভাবের বিরুদ্ধে সুরক্ষা শক্ত হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ফ্যামিলি কার্ডকে দয়ার তালিকা বানালে মানুষ অনুগ্রহের অপেক্ষায় থাকবেন। অধিকারভিত্তিক সামাজিক সুরক্ষা বানাতে হলে মানুষকে জানতে দিতে হবে কেন তাঁরা নির্বাচিত বা বাদ পড়লেন, কীভাবে ভুল শোধরাবেন এবং রাষ্ট্র তাঁদের তথ্য কতটা সুরক্ষিত রাখবে। ১২ অক্টোবরের তথ্য সংগ্রহ তাই কর্মসূচির শুরু হতে পারে। জবাবদিহির শুরু হবে তখনই, যখন সরকার সিদ্ধান্তের পথটিও জনতার সামনে খুলে দেবে।"
+        }
+      ],
+      "automation": {
+        "evidenceScore": 89,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a distinct, time-sensitive follow-up to earlier Family Card coverage: BSS reported on 11 October that nationwide household and thana-level data collection will begin on 12 October under a named 2026 instruction. The central editorial argument is limited to disclosure, verification, correction and data-governance safeguards. It relies on the current government announcement, the Social Welfare Ministry’s published 2026 notification, and independent reporting on the proposed scoring/data-matching design and the pilot’s reported verification results. It does not accuse a person, party or programme of fraud, and it labels the pilot finding as a reported eligibility mismatch rather than criminal conduct.",
+        "governmentPosition": "The government says trained, credentialed workers will collect accurate household information so assistance reaches families with greater need; it warns people not to pay anyone for enrolment. Ministers say selection will be free of partisan influence, records will be updated, ineligible recipients will be removed, eligible families added and the programme’s effect assessed. The finance minister described pilot errors as minor and said they would be corrected.",
+        "findings": [
+          "BSS reported on 11 October that nationwide thana and household data collection begins on 12 October and that a 2026 collection instruction has been prepared.",
+          "The Ministry of Social Welfare lists a Family Card Programme Notification, 2026, published on 20 August, confirming a current official policy instrument exists.",
+          "The Business Standard reported that the June draft proposed PMT-based scoring and digital checks against several state and financial databases; the article does not state this draft is the final nationwide rule.",
+          "The Daily Star reported that 6,487 of 35,844 verifiable pilot cardholders did not meet programme criteria. This is an eligibility finding, not proof of fraud or wrongdoing, and the arithmetic ratio is 18.1 percent.",
+          "The finance minister’s public characterisation of pilot mistakes as below one percent requires an official reconciliation with the reported verification figures before the nationwide exercise can be independently assessed.",
+          "Publishing the collection rule, decision reasons, correction route, privacy controls and anonymised district-level outcomes is a proportionate safeguard that preserves both social-protection delivery and personal privacy."
+        ],
+        "claimMatrix": {
+          "nationalCollectionStart": "VERIFIED FACT — HIGH — BSS reported on 11 October 2026 that nationwide thana and household data collection begins on 12 October, citing a 8 October Ministry of Social Welfare letter.",
+          "currentOfficialProgrammeInstrument": "VERIFIED FACT — HIGH — Ministry of Social Welfare policy index lists Family Card Programme Notification, 2026, published 20 August 2026.",
+          "proposedScoringAndDataMatching": "REPORTED FACT — HIGH — The Business Standard’s 20 June report attributes PMT scoring and proposed database connections to the ministry’s draft implementation policy; it is not represented as the final nationwide rule.",
+          "pilotVerificationFinding": "REPORTED FACT — HIGH — The Daily Star reports finance ministry findings of 6,487 ineligible cardholders among 35,844 whose information it could verify; no criminality is inferred.",
+          "eighteenPointOnePercent": "VERIFIED CALCULATION — HIGH — 6,487 divided by 35,844 equals 0.1810, rounded to 18.1 percent.",
+          "governmentResponse": "REPORTED FACT — HIGH — The Daily Star attributes the government’s commitments on assessment, updating and correction to the finance and social welfare ministers; it also reports the finance minister’s below-one-percent characterisation of errors.",
+          "absenceOfPublishedFullNewInstruction": "UNVERIFIED — NOT ASSERTED — the article calls for publication of the named collection instruction; it does not claim conclusively that no full text exists anywhere.",
+          "editorialConclusion": "ANALYSIS — HIGH — public procedural safeguards and anonymised outcome reporting are proportionate to a nationwide programme that collects household data and determines access to assistance."
+        },
+        "seoTitle": "ফ্যামিলি কার্ড: যাচাই ও ভুল-সংশোধনের নিয়ম চাই",
+        "metaDescription": "১২ অক্টোবর ফ্যামিলি কার্ডের তথ্য সংগ্রহ শুরু। পাইলটের যাচাই-ফল সামনে রেখে তথ্যের ব্যবহার, ভুল-সংশোধন, আপিল ও জেলা ফলের খোলা নিয়ম প্রকাশ জরুরি।",
+        "categories": [
+          "সামাজিক সুরক্ষা",
+          "ডেটা জবাবদিহি",
+          "সরকারি সেবা"
+        ],
+        "tags": [
+          "ফ্যামিলি কার্ড",
+          "সামাজিক সুরক্ষা",
+          "তথ্য সংগ্রহ",
+          "প্রক্সি মিনস টেস্ট",
+          "উপকারভোগী নির্বাচন",
+          "ডেটা সুরক্ষা",
+          "অভিযোগ প্রতিকার",
+          "সমাজকল্যাণ মন্ত্রণালয়",
+          "স্বচ্ছতা",
+          "বাংলাদেশ"
+        ]
+      },
+      "translations": {
+        "en": {
+          "title": "Family Card data collection starts: publish verification and correction rules",
+          "excerpt": "Nationwide Family Card data collection begins on 12 October. Pilot verification figures make disclosure of data use, errors, appeals and correction procedures essential before expansion.",
+          "imageAlt": "Editorial illustration about social-protection data, verification and public accountability in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Nationwide Family Card data collection begins on 12 October. A reported pilot verification finding of 6,487 ineligible cardholders among 35,844 checked makes public rules for data use, verification, correction and appeals essential."
+        },
+        "de": {
+          "title": "Datenerhebung für Family Card beginnt: Regeln für Prüfung und Korrektur offenlegen",
+          "excerpt": "Am 12. Oktober beginnt die landesweite Datenerhebung für die Family Card. Die Prüfergebnisse des Piloten machen klare Regeln zu Datennutzung, Fehlern, Widerspruch und Korrektur unverzichtbar.",
+          "imageAlt": "Redaktionelle Illustration zu Sozialschutzdaten, Prüfung und öffentlicher Rechenschaftspflicht in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Am 12. Oktober beginnt die landesweite Datenerhebung für die Family Card. Ein berichtetes Pilot-Ergebnis mit 6.487 nicht berechtigten Karteninhabern unter 35.844 geprüften Fällen verlangt öffentliche Regeln zu Datennutzung, Prüfung, Korrektur und Widerspruch."
+        }
+      }
+    },
+    {
       "id": "youth-development-exam-probe-public-report-2026",
       "slug": "youth-development-exam-probe-public-report-2026",
       "sharePath": "blog/youth-development-exam-probe-public-report-2026",
