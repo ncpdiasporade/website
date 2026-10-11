@@ -1,6 +1,239 @@
 {
   "items": [
     {
+      "id": "youth-development-exam-probe-public-report-2026",
+      "slug": "youth-development-exam-probe-public-report-2026",
+      "sharePath": "blog/youth-development-exam-probe-public-report-2026",
+      "tag": "নিয়োগ ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১১ অক্টোবর ২০২৬",
+      "title": "৩ লাখ ১৯ হাজার প্রার্থীর পরীক্ষা থামল—তদন্তের পূর্ণ ফল প্রকাশ এখন বাধ্যতামূলক",
+      "excerpt": "যুব উন্নয়ন অধিদপ্তরের ২৪২ পদের পরীক্ষা প্রশ্নপত্র সামাজিক মাধ্যমে ছড়ানোর অভিযোগে শেষ মুহূর্তে স্থগিত হয়েছে। অভিযোগ প্রমাণিত না হলেও, তিন কর্মদিবসের তদন্তের পদ্ধতি ও ফল প্রকাশ ছাড়া নিয়োগব্যবস্থার আস্থা ফিরবে না।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about Bangladesh public recruitment, examination records and accountability",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "শেষ মুহূর্তে পরীক্ষা স্থগিত করা সঠিক সতর্কতা হতে পারে। কিন্তু প্রকৃত জবাবদিহি হবে—কী ঘটেছে, কার দায়িত্ব ছিল এবং কী বদলাবে—তার প্রকাশ্য প্রমাণে।",
+      "facebookCaption": "৩ লাখ ১৯ হাজার প্রার্থীর জন্য নির্ধারিত যুব উন্নয়ন নিয়োগ পরীক্ষা শেষ মুহূর্তে স্থগিত হয়েছে। প্রশ্ন ফাঁস প্রমাণিত কি না, সেটি তদন্ত বলবে; কিন্তু তদন্তের শর্ত, প্রমাণ, দায় ও প্রতিরোধের পরিকল্পনা প্রকাশ করা এখন সরকারের বাধ্যবাধকতা।",
+      "publishedAt": "2026-10-11T08:41:28+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "২৪২ পদ",
+          "label": "সহকারী উপজেলা যুব উন্নয়ন কর্মকর্তা পদে নির্ধারিত নিয়োগ"
+        },
+        {
+          "value": "৩,১৯,০০০ প্রার্থী",
+          "label": "বাসসের প্রতিবেদনে প্রত্যাশিত পরীক্ষার্থীর সংখ্যা"
+        },
+        {
+          "value": "৯৫ কেন্দ্র",
+          "label": "ঢাকায় নির্ধারিত পরীক্ষাকেন্দ্রের সংখ্যা"
+        },
+        {
+          "value": "৩ কর্মদিবস",
+          "label": "তদন্ত প্রতিবেদন দেওয়ার মন্ত্রণালয়-ঘোষিত সময়সীমা"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা · Assistant Upazila Youth Development Officer recruitment exam postponed, probe committee formed · ১০ অক্টোবর ২০২৬",
+          "url": "https://www.bssnews.net/others/433210"
+        },
+        {
+          "label": "bdnews24.com · যুব উন্নয়নের নিয়োগ পরীক্ষা: প্রশ্ন ফাঁসের অভিযোগ তদন্তে কমিটি গঠন · ১০ অক্টোবর ২০২৬",
+          "url": "https://bangla.bdnews24.com/bangladesh/k58q9qwvcb"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · Youth development officer recruitment exam postponed amid question leak allegations · ১০ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/news/news/youth-development-officer-recruitment-exam-postponed-amid-question-leak-allegations-4294961"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · Question leak derails exam, sparks protests · ১১ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/question-leak-derails-exam-sparks-protests-4295631"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "২৪২টি সরকারি পদের জন্য ৩ লাখ ১৯ হাজার মানুষ প্রস্তুতি নিয়েছেন, কেন্দ্রে গেছেন বা যাওয়ার পথে ছিলেন। ১০ অক্টোবর সকাল ১১টার পরীক্ষা শুরুর প্রায় এক ঘণ্টা আগে সেটি স্থগিত করা হলো। যুব উন্নয়ন অধিদপ্তর বলছে, প্রশ্নপত্র সামাজিক যোগাযোগমাধ্যমে ছড়ানোর খবর তাদের নজরে আসে; যুব ও ক্রীড়া মন্ত্রণালয় তদন্ত কমিটি করেছে। এই সিদ্ধান্তে একটি জরুরি সতর্কতা ছিল, কিন্তু এখানেই সরকারের দায় শেষ নয়। তিন কর্মদিবসের তদন্তের ফল, প্রমাণ এবং সংশোধনী ব্যবস্থা প্রকাশ না হলে পরীক্ষার্থীদের ক্ষতি শুধু এক দিনের হবে না—রাষ্ট্রীয় নিয়োগের ওপর আস্থার ক্ষতি দীর্ঘ হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে ভাষার শুদ্ধতা খুব জরুরি। প্রশ্নপত্র ‘ফাঁস’ হয়েছে—এটি এখনো চূড়ান্ত তদন্ত-সিদ্ধ সত্য নয়। যা নিশ্চিত: সহকারী উপজেলা যুব উন্নয়ন কর্মকর্তা পদের পরীক্ষাটি হওয়ার কথা ছিল; তা স্থগিত করা হয়েছে; মন্ত্রণালয় বলেছে প্রশ্নপত্র সামাজিক মাধ্যমে প্রকাশের বিষয়টি তাদের নজরে এসেছে; এবং তদন্ত কমিটি গঠিত হয়েছে। বাসস জানিয়েছে, বিভাগটি সিদ্ধান্তটিকে স্বচ্ছতা রক্ষা ও বিতর্কিত পরীক্ষার ফল প্রকাশ না করার পদক্ষেপ হিসেবে ব্যাখ্যা করেছে। এই সম্পাদকীয় কোনো প্রার্থী, কর্মকর্তা বা প্রতিষ্ঠানকে দোষী ঘোষণা করছে না। আমাদের দাবি আরও সহজ: যে অভিযোগে এত বড় একটি সরকারি পরীক্ষা থামল, তার যাচাইযোগ্য ফল জনগণ জানবে।"
+        },
+        {
+          "type": "callout",
+          "text": "পরীক্ষা স্থগিত করা সতর্ক সিদ্ধান্ত হতে পারে; কিন্তু তদন্ত গোপন থাকলে সেটি স্বচ্ছতার প্রমাণ নয়, কেবল সংকট সামলানোর ঘোষণা হয়ে থাকে।"
+        },
+        {
+          "type": "heading",
+          "text": "একটি স্থগিত পরীক্ষা আসলে কত মানুষের ক্ষতি"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংখ্যাটি ছোট নয়। বাসসের প্রতিবেদনে ৯৫টি কেন্দ্রে ৩ লাখ ১৯ হাজার পরীক্ষার্থীর কথা এসেছে। ১১তম গ্রেডের ২৪২টি পদের এই পরীক্ষার জন্য মানুষের সময়, যাতায়াতের খরচ, থাকার ব্যয়, প্রস্তুতির টাকা এবং কাজ বা পড়াশোনা থেকে নেওয়া ছুটি—সবই জড়িত। দ্য ডেইলি স্টার জানিয়েছে, অনেক প্রার্থী ঢাকার বাইরে থেকে এসেছিলেন এবং স্থগিতের পর বিভিন্ন সড়কে বিক্ষোভ হয়। এই ভোগান্তি কোনো ‘অনিবার্য কারণ’ কথাটিতে মুছে যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "অবশ্য সরকারের যুক্তিটিও শক্তিশালী এবং গ্রহণযোগ্য: সন্দেহের মধ্যে পরীক্ষা চালিয়ে ফল প্রকাশ করলে নিয়োগের ন্যায্যতা নিয়ে আরও বড় সংকট হতো। বাসসকে যুব উন্নয়ন অধিদপ্তরের মহাপরিচালক বলেছেন, বিতর্কের মধ্যে ফল প্রকাশ সমীচীন নয় এবং পরীক্ষা শুরুর আগেই স্থগিত করায় বড় আর্থিক অপচয় এড়ানো গেছে। এটি যুক্তিসঙ্গত প্রতিরক্ষা। কিন্তু এর পরের প্রশ্নটি আরও কঠিন: প্রশ্নপত্র কেন্দ্রগুলোতে পৌঁছানোর পর সামাজিক মাধ্যমে ছড়ানোর খবর এলে, সেই খবরের সত্যতা যাচাই, তথ্যের উৎস শনাক্ত এবং পরীক্ষা-নিরাপত্তার নিয়ন্ত্রণগুলো আগেই কোথায় ছিল?"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি সুষ্ঠু নিয়োগপরীক্ষা কেবল প্রশ্ন ছাপা ও কেন্দ্র খোলার কাজ নয়। প্রশ্ন তৈরির পর কার কাছে গেছে, কোন সিল বা ডিজিটাল ফাইলে ছিল, কোন সময় কোন দায়িত্বশীল ব্যক্তি তা গ্রহণ করেছেন, কেন্দ্র পর্যন্ত কীভাবে গেছে এবং পরীক্ষার আগে কোনো অননুমোদিত কপি তৈরি হয়েছে কি না—এই পুরো হেফাজত-শৃঙ্খল বা চেইন অব কাস্টডি নথিভুক্ত থাকার কথা। কোনো স্তরে ফাঁক থাকলে সেটি ব্যক্তির অপরাধ প্রমাণের আগে একটি প্রক্রিয়াগত ব্যর্থতা। আর কোনো ফাঁক না থাকলে সেটিও প্রমাণসহ বলা দরকার। গুজব আর সত্য আলাদা করার দায়িত্ব রাষ্ট্রের; প্রার্থীদের ওপর সন্দেহের বোঝা চাপিয়ে দেওয়া নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এ কারণেই তদন্তের মান কেবল ‘কমিটি বসেছে’ দিয়ে মাপা যাবে না। কমিটিকে আগে স্থির করতে হবে, তারা কোন উপাদানকে প্রমাণ হিসেবে গণ্য করবে। সামাজিক মাধ্যমে ঘুরে বেড়ানো একটি ছবি বা পিডিএফ আসল প্রশ্নপত্রের ছবি কি না, তার উত্তর দিতে হবে ফাইলের উৎস, তৈরি ও ছড়ানোর সময়, সংশ্লিষ্ট ফোন বা অ্যাকাউন্টের তথ্য এবং প্রকৃত প্রশ্নপত্রের সঙ্গে তুলনা করে। কোনো ছবি পরীক্ষার আগের হলেও সেটি সম্পূর্ণ প্রশ্ন ছিল, আংশিক ছিল, পুরোনো ছিল নাকি বানানো ছিল—এই পার্থক্যগুলো ফল নির্ধারণ করে। এই পার্থক্য না জেনে ‘ফাঁস’ শব্দটি ব্যবহার করা যেমন অন্যায়, তেমনি এমন অভিযোগে পরীক্ষা থামিয়ে পরে ফল গোপন রাখাও জবাবদিহি নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রার্থীদের প্রতিও রাষ্ট্রের একটি আলাদা দায় আছে। পরীক্ষা স্থগিতের আগে তারা কী তথ্য পেয়েছেন, পরে তাদের কীভাবে নতুন সময় জানানো হবে, এবং একই প্রবেশপত্র বা কেন্দ্রের নিয়ম থাকবে কি না—এসবকে প্রাতিষ্ঠানিকভাবে এক জায়গায় প্রকাশ করতে হবে। দ্য ডেইলি স্টারের প্রতিবেদন অনুযায়ী, স্থগিতের পর বিভিন্ন সড়কে যানজট ও বিক্ষোভ হয়েছিল। এর অর্থ শুধু ক্ষুব্ধ প্রার্থীর সংখ্যা নয়; রোগী, কর্মজীবী, শিক্ষার্থী এবং জরুরি সেবার ব্যবহারকারীরাও সেই ব্যবস্থাপনা ব্যর্থতার খরচ বহন করেছেন। তাই তদন্তে পরীক্ষার নিরাপত্তার পাশাপাশি শেষ মুহূর্তের যোগাযোগ ও কেন্দ্র-সমন্বয়ের ব্যর্থতাও দেখা উচিত।"
+        },
+        {
+          "type": "heading",
+          "text": "শুধু দায়ী ব্যক্তি নয়, দায়ী পদ্ধতিও চিহ্নিত করতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার যদি শুধু একজন কর্মচারী বা অজ্ঞাত ‘চক্র’কে দায়ী করে আর পদ্ধতির দুর্বলতা না বদলায়, তবে পরের পরীক্ষাতেও একই ঝুঁকি থাকবে। একটি নিয়োগপরীক্ষার নিরাপত্তায় প্রশ্ন প্রস্তুতকারী, মুদ্রণ বা ডেটা-প্রসেসিং, পরিবহন, ট্রেজারি বা সংরক্ষণস্থল, কেন্দ্র কর্তৃপক্ষ এবং যোগাযোগ ব্যবস্থার আলাদা আলাদা ভূমিকা থাকে। তদন্তে প্রমাণ না মিললে কাউকে সাজা দেওয়া চলবে না। কিন্তু কোথায় নথি অসম্পূর্ণ ছিল, কোথায় দুইজনের বদলে একজনের হাতে নিয়ন্ত্রণ ছিল, কোথায় সময়-লাগানো রেকর্ড অনুপস্থিত ছিল, অথবা কোথায় তথ্য যাচাইয়ের ব্যবস্থা ধীর ছিল—এসব প্রকাশ করে সংশোধন করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পুনঃপরীক্ষার নিরাপত্তা পরিকল্পনায় তাই তিনটি জিনিস দৃশ্যমান হওয়া দরকার। প্রথমটি, দায়িত্বের বিভাজন: প্রশ্ন তৈরির, পরিবহনের এবং কেন্দ্র খোলার ক্ষমতা একই ব্যক্তি বা ছোট গোষ্ঠীর হাতে যেন না থাকে। দ্বিতীয়টি, যাচাইয়ের চিহ্ন: প্রতিটি প্যাকেট, হস্তান্তর ও খোলার সময় কে উপস্থিত ছিলেন তার লিখিত সময়রেখা থাকতে হবে। তৃতীয়টি, জরুরি প্রতিক্রিয়া: কোনো অভিযোগ এলে সত্যতা যাচাই ও প্রার্থীদের অবহিত করার জন্য আগে থেকে দায়িত্বপ্রাপ্ত দল ও সময়সীমা থাকতে হবে। এতে কোনো গোপন প্রশ্ন প্রকাশ করতে হয় না; বরং সাধারণ মানুষ জানে যে নিরাপত্তার ন্যূনতম কাঠামোটি আছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের জন্য এটি সুযোগও বটে। দ্রুত, নিরপেক্ষ ও প্রকাশযোগ্য তদন্ত দেখাতে পারলে তারা প্রমাণ করতে পারবে যে সন্দেহের মুখে পরীক্ষা চালিয়ে না যাওয়ার সিদ্ধান্তটি কেবল রাজনৈতিক ক্ষতি কমানোর চেষ্টা ছিল না, বরং সমান সুযোগের পক্ষে প্রশাসনিক সিদ্ধান্ত। উল্টোভাবে, সময়সীমা পেরিয়ে রিপোর্ট চাপা থাকলে বা পুনঃপরীক্ষার আগে কী বদলানো হলো তা না জানালে সন্দেহ আরও বাড়বে। আস্থা দাবি করা যায় না; নথি, সময়সীমা ও ফল দেখিয়ে অর্জন করতে হয়।"
+        },
+        {
+          "type": "heading",
+          "text": "তদন্ত কমিটির সময়সীমা আছে, তাই প্রকাশের সময়সীমাও থাকা চাই"
+        },
+        {
+          "type": "paragraph",
+          "text": "bdnews24.com-এর প্রতিবেদনে মন্ত্রণালয়ের বিজ্ঞপ্তির বরাতে বলা হয়েছে, পাঁচ সদস্যের তদন্ত কমিটিকে তিন কর্মদিবসের মধ্যে রিপোর্ট দিতে বলা হয়েছে। কমিটিতে মন্ত্রণালয়, জনপ্রশাসন এবং অধিদপ্তরের প্রতিনিধিত্ব রয়েছে। সময়সীমা নির্ধারণ একটি ভালো শুরু। তবে রিপোর্ট মন্ত্রণালয়ের টেবিলে জমা হওয়ার পর জনতার জন্য কী প্রকাশ হবে, তার কোনো স্পষ্ট প্রতিশ্রুতি ওই ঘোষণায় দেখা যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানেই জবাবদিহির পরীক্ষা। পূর্ণ তদন্ত নথিতে ব্যক্তিগত ফোন নম্বর, কেন্দ্রের নিরাপত্তা বিন্যাস বা চলমান ফৌজদারি অনুসন্ধানের তথ্য থাকতে পারে—সেগুলো প্রকাশ করা দরকার নেই। কিন্তু একটি জনসমক্ষে দেওয়ার মতো সারসংক্ষেপ অবশ্যই সম্ভব। তাতে অভিযোগের উৎস ও সময়, ডিজিটাল উপকরণের সত্যতা যাচাইয়ের পদ্ধতি, প্রশ্নের সঙ্গে কথিত কপির মিল বা অমিল, প্রশ্ন তৈরির-ছাপার-বিতরণের দায়িত্বের ধাপ, কোন নিয়ন্ত্রণ ব্যর্থ হয়েছে, এবং কার বিরুদ্ধে কী প্রশাসনিক বা আইনগত পদক্ষেপ নেওয়া হয়েছে—এসব থাকতে হবে। অভিযোগ অসত্য হলে সেটিও স্পষ্ট ভাষায় বলতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তদন্তের ফল প্রকাশের সঙ্গে আরেকটি তথ্যও দিতে হবে: স্থগিতের সিদ্ধান্ত কখন নেওয়া হয় এবং কোন কোন কেন্দ্রে প্রার্থীদের কীভাবে জানানো হয়। পরীক্ষা শুরুর মাত্র আগে স্থগিত হওয়ায় যে বিপুল ভোগান্তি হয়েছে, তার দায়কে কেবল সামাজিক মাধ্যমের ওপর ঠেলে দেওয়া যাবে না। প্রশাসনের সতর্কবার্তা পৌঁছানো, কেন্দ্র ব্যবস্থাপনা এবং বিকল্প যোগাযোগের ব্যবস্থা—এসবও সরকারি সক্ষমতার অংশ।"
+        },
+        {
+          "type": "heading",
+          "text": "১৬ অক্টোবরের পুনঃপরীক্ষা নতুন পরীক্ষা—পুরোনো ব্যবস্থার পুনরাবৃত্তি নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য ডেইলি স্টার ১১ অক্টোবর জানিয়েছে, অধিদপ্তরের সংবাদ বিজ্ঞপ্তিতে পুনঃনির্ধারিত পরীক্ষার সম্ভাব্য সময় ১৬ অক্টোবর বিকেল ৩টা বলা হয়েছে। এই তারিখ তখনই অর্থবহ হবে, যখন নতুন প্রশ্নপত্র, নতুন হেফাজত-পরিকল্পনা এবং প্রার্থীদের জন্য নির্ভরযোগ্য তথ্যবিতরণ নিশ্চিত করা হবে। শুধু তারিখ এগিয়ে দিলেই আগের সংকটের উত্তর হয় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "পুনঃপরীক্ষার আগে অধিদপ্তরের উচিত অন্তত পাঁচটি ব্যবহারিক কাজ প্রকাশ্যে জানানো। প্রথমত, নতুন প্রশ্নপত্র কখন থেকে কার হেফাজতে থাকবে এবং কে কে সেই হেফাজতের রেকর্ডে স্বাক্ষর করবেন। দ্বিতীয়ত, কেন্দ্রগুলোতে পৌঁছানোর সময় পর্যন্ত প্যাকেট ও ডিজিটাল উপকরণ কীভাবে নজরদারিতে থাকবে। তৃতীয়ত, কোনো সন্দেহজনক অনলাইন কপি পাওয়া গেলে কোন স্বাধীন প্রযুক্তিগত পরীক্ষায় তার উৎস ও সময় যাচাই হবে। চতুর্থত, সব প্রার্থীকে স্থগিত, নতুন সময় ও কেন্দ্রসংক্রান্ত তথ্য এসএমএস, ওয়েবসাইট ও কেন্দ্র-নোটিশে একযোগে কখন পাঠানো হবে। পঞ্চমত, বাইরে থেকে আসা প্রার্থীদের ভোগান্তি কমাতে আগের প্রবেশপত্র চলবে কি না এবং কেন্দ্র বদলাবে কি না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এসব প্রশ্ন কোনো বিলাসী স্বচ্ছতা-আবদার নয়। ৩ লাখের বেশি মানুষকে একদিনে পরীক্ষায় ডাকা মানে রাষ্ট্র তাদের সময় নেওয়ার ক্ষমতা প্রয়োগ করছে। বিনিময়ে রাষ্ট্রের ন্যূনতম কর্তব্য হলো পরীক্ষাটি সমান সুযোগে আয়োজন করা এবং সংকট হলে নির্ভুল তথ্য দেওয়া। ‘স্বচ্ছতা’ শব্দটি তখনই বিশ্বাসযোগ্য, যখন তা আগে থেকে নির্ধারিত প্রক্রিয়া, সময়-লাগানো নথি এবং পরে যাচাইযোগ্য ফলের মধ্যে দেখা যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "মন্ত্রণালয় ও অধিদপ্তরের কাছে সাতটি সরাসরি প্রশ্ন"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "প্রশ্নপত্র সামাজিক মাধ্যমে ছড়ানোর তথ্য প্রথম কোন সময়, কোন সরকারি চ্যানেলে এবং কোন প্রমাণসহ পাওয়া যায়?",
+            "তদন্ত কমিটির শর্তাবলি কী, এবং তারা ডিজিটাল কপি বা স্ক্রিনশটের সত্যতা কীভাবে যাচাই করবে?",
+            "প্রশ্ন তৈরির পর থেকে ৯৫টি কেন্দ্রে পৌঁছানো পর্যন্ত কারা কোন ধাপে হেফাজতে ছিলেন?",
+            "কথিত অনলাইন কপি ও প্রকৃত প্রশ্নপত্রের মিল বা অমিল নিয়ে কি একটি প্রকাশযোগ্য সারসংক্ষেপ দেওয়া হবে?",
+            "তিন কর্মদিবস শেষে কোন তারিখে তদন্তের সারসংক্ষেপ, সিদ্ধান্ত ও প্রতিরোধমূলক ব্যবস্থা জনসমক্ষে আসবে?",
+            "প্রমাণিত অনিয়ম থাকলে দায়িত্বশীল ব্যক্তি বা প্রতিষ্ঠানের বিরুদ্ধে কোন প্রশাসনিক ও আইনগত পদক্ষেপ নেওয়া হবে?",
+            "১৬ অক্টোবরের সম্ভাব্য পুনঃপরীক্ষার আগে নতুন প্রশ্নপত্র, নিরাপত্তা ও প্রার্থীদের যোগাযোগের কোন কোন বদল কার্যকর হবে?"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "রায়ের আগে প্রমাণ, প্রমাণের পরে দায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "অভিযোগ উঠলেই কাউকে অপরাধী বলা যায় না। একই কারণে, ‘তদন্ত চলছে’ বলে রাষ্ট্রও অনির্দিষ্ট সময় দায় এড়িয়ে যেতে পারে না। এই ঘটনায় সঠিক মানদণ্ড দুই দিকেই সমান: অভিযোগের সত্যতা নিরপেক্ষভাবে যাচাই হবে; আর তদন্তে যা পাওয়া যাবে, তা নাগরিকের বোঝার মতো করে প্রকাশ হবে। অভিযোগ ভুল প্রমাণিত হলে গুজব প্রতিরোধে কী করা হবে তাও জানাতে হবে। অভিযোগ সত্য প্রমাণিত হলে দায়ী ব্যক্তিদের নাম, পদ, শাস্তি এবং ভবিষ্যৎ প্রতিরোধব্যবস্থা প্রকাশ করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তদন্তের সব উপাদান প্রকাশ করা সম্ভব বা সমীচীন নাও হতে পারে। কিন্তু ব্যক্তিগত তথ্য ও অনুসন্ধানের সংবেদনশীল অংশ বাদ দিয়েও মন্ত্রণালয় একটি তারিখযুক্ত নোটে বলতে পারে: কোন তথ্য তারা পেয়েছে, কোন তথ্য যাচাই হয়নি, কোন নথি সংরক্ষণ করা হয়েছে, কোন সংস্থাকে সহায়তা চাওয়া হয়েছে এবং পরের প্রশাসনিক সিদ্ধান্ত কখন হবে। এমন নোট প্রার্থীদেরও গুজবের বদলে নির্ভরযোগ্য সরকারি সূত্র দেবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "যুব ও ক্রীড়া মন্ত্রণালয় এবং যুব উন্নয়ন অধিদপ্তরের সামনে এখন একটি মাপা যায় এমন পরীক্ষা। তিন কর্মদিবসের প্রতিশ্রুত সময় শেষ হওয়ার সঙ্গে সঙ্গে তারা তদন্তের প্রকাশযোগ্য সারাংশ, পুনঃপরীক্ষার নিরাপত্তা পরিকল্পনা এবং প্রার্থীদের জন্য একক তথ্যকেন্দ্র দিক। তাতেই বোঝা যাবে ১০ অক্টোবরের স্থগিতাদেশ ছিল কেবল তাৎক্ষণিক ক্ষতি সামলানো, নাকি সরকারি নিয়োগে ন্যায্যতার বাস্তব সংস্কার।"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "A 319,000-candidate exam halted: publish the inquiry findings",
+          "excerpt": "A 242-post youth-development recruitment exam was halted over reports that questions circulated online. The allegation is not yet proven, but the inquiry’s methods and findings must be public.",
+          "imageAlt": "Editorial illustration about Bangladesh public recruitment, examination records and accountability",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A youth-development recruitment exam for 319,000 expected candidates was halted at the last minute. Whether a leak occurred is for the inquiry to establish; its evidence, accountability and prevention plan must be public."
+        },
+        "de": {
+          "title": "Prüfung für 319.000 Bewerber gestoppt: Ermittlungsbericht offenlegen",
+          "excerpt": "Eine Einstellungsprüfung für 242 Stellen wurde nach Berichten über online verbreitete Fragen gestoppt. Der Vorwurf ist nicht bewiesen, doch Methode und Ergebnis der Untersuchung müssen öffentlich werden.",
+          "imageAlt": "Redaktionelle Illustration zu öffentlicher Einstellung, Prüfungsunterlagen und Rechenschaftspflicht in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Eine Einstellungsprüfung der Jugendförderung mit 319.000 erwarteten Bewerbern wurde kurzfristig gestoppt. Ob ein Leak vorlag, muss die Untersuchung klären; Belege, Verantwortung und Präventionsplan gehören an die Öffentlichkeit."
+        }
+      },
+      "automation": {
+        "evidenceScore": 84,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a new, high-impact government-accountability event, not a duplicate. BSS directly reports the Department of Youth Development’s stated reason for postponement, scale of the examination and government response; bdnews24.com reports the ministry notice, five-member committee and three-working-day deadline; The Daily Star independently corroborates the last-minute postponement, candidates’ disruption and the later reported tentative rescheduling. The article does not assert that a leak occurred, identify a suspect, or attribute culpability before the inquiry. Its central conclusion is limited to a proportionate disclosure obligation after a mass public recruitment examination was halted.",
+        "governmentPosition": "The Department of Youth Development says it postponed the examination before it began to protect transparency, avoid publishing a result amid controversy and prevent substantial financial waste. The Ministry of Youth and Sports formed an inquiry committee to investigate the reported online circulation of questions; the department says legal action will follow if responsibility is established.",
+        "findings": [
+          "The 10 October examination for 242 Assistant Upazila Youth Development Officer posts was cancelled shortly before its 11:00am start after reports that questions had circulated on social media.",
+          "BSS reports 319,000 expected candidates and 95 Dhaka centres; the scale makes prompt, accurate public communication a material public-service obligation.",
+          "The Ministry of Youth and Sports formed a five-member inquiry committee with a three-working-day reporting deadline, according to bdnews24.com’s report of the ministry notice.",
+          "The available reporting does not establish whether a leaked copy was authentic, who caused any compromise, or whether any individual is culpable; the article expressly does not make those claims.",
+          "A privacy- and investigation-safe public summary can disclose the inquiry method, factual finding, responsible process failure, action taken and the safeguards for a rescheduled exam."
+        ],
+        "claimMatrix": {
+          "examPostponementAndScale": "VERIFIED FACT — HIGH — BSS reports the 10 October postponement, 242 posts, 11:00am scheduled start, 319,000 expected candidates and 95 centres; Daily Star independently confirms the last-minute postponement and 95 centres.",
+          "questionsCirculatedOnline": "REPORTED FACT — HIGH — the ministry notice, as reported by bdnews24.com, says the matter of questions being published on social media came to its attention; BSS reports allegations of circulation. Authenticity is not asserted.",
+          "inquiryAndDeadline": "VERIFIED FACT — HIGH — bdnews24.com reports a ministry notice establishing a five-member inquiry committee and a three-working-day deadline; BSS independently confirms formation of a high-level inquiry committee.",
+          "questionLeakOrIndividualCulpability": "UNVERIFIED — NOT ASSERTED — no published inquiry finding, forensic validation or legal determination was available at the research cutoff.",
+          "editorialConclusion": "ANALYSIS — HIGH — releasing a safe public summary of a time-bound inquiry and rescheduling safeguards is proportionate to the scale of a halted public recruitment examination."
+        },
+        "seoTitle": "যুব উন্নয়ন পরীক্ষা: তদন্তের ফল প্রকাশ জরুরি",
+        "metaDescription": "২৪২ পদের যুব উন্নয়ন নিয়োগ পরীক্ষা শেষ মুহূর্তে স্থগিত। প্রশ্ন ফাঁস প্রমাণিত কি না, তিন কর্মদিবসের তদন্তের পদ্ধতি, ফল ও পুনঃপরীক্ষার নিরাপত্তা প্রকাশ করতে হবে।",
+        "categories": [
+          "সরকারি নিয়োগ",
+          "প্রাতিষ্ঠানিক জবাবদিহি",
+          "যুব অধিকার"
+        ],
+        "tags": [
+          "যুব উন্নয়ন অধিদপ্তর",
+          "নিয়োগ পরীক্ষা",
+          "প্রশ্নপত্র",
+          "তদন্ত কমিটি",
+          "সরকারি চাকরি",
+          "পরীক্ষার নিরাপত্তা",
+          "স্বচ্ছতা",
+          "জবাবদিহি",
+          "যুব ও ক্রীড়া মন্ত্রণালয়"
+        ]
+      }
+    },
+    {
       "id": "srb-extortion-list-case-outcome-disclosure-2026",
       "slug": "srb-extortion-list-case-outcome-disclosure-2026",
       "sharePath": "blog/srb-extortion-list-case-outcome-disclosure-2026",
