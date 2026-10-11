@@ -1,6 +1,252 @@
 {
   "items": [
     {
+      "id": "bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
+      "slug": "bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
+      "sharePath": "blog/bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
+      "tag": "ব্যাংকিং ও জনঅর্থ",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১২ অক্টোবর ২০২৬",
+      "title": "পাঁচ বছরে ৩ লাখ কোটি, আট বছরে ৪.৮ লাখ কোটি: ব্যাংক বাঁচাতে করদাতার টাকা চাইলে উদ্ধার পরিকল্পনার খোলা হিসাব চাই",
+      "excerpt": "বাংলাদেশ ব্যাংকের গভর্নর বলেছেন, দুর্বল ব্যাংক খাত সামলাতে বছরে ৬০ হাজার কোটি টাকা করে পাঁচ থেকে আট বছর জাতীয় বাজেট থেকে চাওয়া হয়েছে। এটি এখনো খসড়া প্রস্তাব, অনুমোদিত বরাদ্দ নয়। এত বড় দায় করদাতার ওপর চাপানোর আগে ক্ষতি, উদ্ধার, শর্ত ও দায়ীদের বিরুদ্ধে পদক্ষেপের প্রকাশ্য হিসাব চাই।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about Bangladesh banking reform, public money and accountability",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "আমানতকারীর সুরক্ষা জরুরি। কিন্তু ব্যাংক উদ্ধারের নামে করদাতার টাকা গেলে ক্ষতি, উদ্ধার, শর্ত, মালিকানা ও দায়ীদের বিরুদ্ধে পদক্ষেপের হিসাবও জনগণের সামনে থাকতে হবে।",
+      "facebookCaption": "বাংলাদেশ ব্যাংকের গভর্নর বলেছেন, দুর্বল ব্যাংক খাত সামলাতে বছরে ৬০ হাজার কোটি টাকা করে পাঁচ থেকে আট বছর জাতীয় বাজেট থেকে চেয়ে খসড়া প্রস্তাব দেওয়া হয়েছে। আমানতকারীর টাকা ফেরত দেওয়া জরুরি। কিন্তু ৩ থেকে ৪.৮ লাখ কোটি টাকার সম্ভাব্য দায়ে কোন ব্যাংক কত পাবে, বিনিময়ে কী সংস্কার হবে, কত টাকা উদ্ধার হবে এবং কার বিরুদ্ধে কী ব্যবস্থা চলছে—এসবের খোলা হিসাব ছাড়া জনসম্মতি চাওয়া যায় না।",
+      "publishedAt": "2026-10-12T00:42:00+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "৬০,০০০ কোটি টাকা/বছর",
+          "label": "বাংলাদেশ ব্যাংকের গভর্নরের ভাষ্য অনুযায়ী জাতীয় বাজেট থেকে চাওয়া খসড়া বার্ষিক সহায়তার অঙ্ক; এটি অনুমোদিত বরাদ্দ নয়"
+        },
+        {
+          "value": "৩–৪.৮ লাখ কোটি টাকা",
+          "label": "পাঁচ ও আট বছরের সম্ভাব্য মোট অঙ্ক: ৬০,০০০ কোটি × ৫ এবং × ৮; এটি সম্পাদকীয়ের সরল গাণিতিক হিসাব"
+        },
+        {
+          "value": "৩২.২৬%",
+          "label": "বাংলাদেশ ব্যাংকের H1FY27 মুদ্রানীতি বিবৃতিতে মার্চ ২০২৬ শেষে মোট খেলাপি ঋণের অনুপাত"
+        },
+        {
+          "value": "২০,০০০ কোটি টাকা",
+          "label": "বাংলাদেশ ব্যাংকের H1FY27 বিবৃতিতে একীভূত সম্মিলিত ইসলামী ব্যাংকে সরকারি মূলধন-সঞ্চারের উল্লেখ"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ ব্যাংক · Monetary Policy Statement: H1FY27 · ব্যাংক সংস্কার, খেলাপি ঋণ ও সরকারি মূলধন-সঞ্চার · সেপ্টেম্বর ২০২৬",
+          "url": "https://www.bb.org.bd/monetaryactivity/mps/mps_h1fy27.pdf"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড · ‘Banking sector recovery requires Tk60,000cr annually for 5-8 years: Governor’ · ১০ অক্টোবর ২০২৬",
+          "url": "https://www.tbsnews.net/economy/banking/banking-sector-recovery-requires-tk60000cr-annually-5-8-years-governor-1568051"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘Tk 60,000cr of taxpayers’ money needed annually for up to 8yrs: BB’ · ১১ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/tk-60000cr-taxpayers-money-needed-annually-8yrs-bb-4295536"
+        },
+        {
+          "label": "ইউএনবি · ‘Tk 60,000cr annually needed for 5-8 yrs to rebuild banking sector: Governor’ · ১১ অক্টোবর ২০২৬",
+          "url": "https://unb.com.bd/category/Business/tk-60000cr-annually-needed-for-5-8-yrs-to-rebuild-banking-sector-governor/197483"
+        },
+        {
+          "label": "বাংলাদেশ ব্যাংক লাইব্রেরি · ১১ অক্টোবরের সংবাদ-ক্লিপ তালিকা · গভর্নরের ব্যাংক-পুনরুদ্ধার বক্তব্যের রেকর্ড · দেখা হয়েছে ১২ অক্টোবর ২০২৬",
+          "url": "https://www.bb.org.bd/bblibrary/index.php/bblibrary/newsclip"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "এটি ব্যাংক উদ্ধারের প্রস্তাব, কিন্তু জনসম্মতি ছাড়া করদাতার বিল নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "দুর্বল ব্যাংকের আমানতকারীকে টাকা ফেরত দেওয়া রাষ্ট্রের দায়িত্ব। সেই দায়িত্ব এড়ানোর কথা বলা হচ্ছে না। কিন্তু বাংলাদেশ ব্যাংকের গভর্নর মো. মোস্তাকুর রহমানের ভাষ্য অনুযায়ী, ব্যাংক খাতের ক্ষতি সামলাতে আগামী পাঁচ থেকে আট বছর জাতীয় বাজেট থেকে বছরে ৬০ হাজার কোটি টাকা করে চেয়ে সরকারকে একটি খসড়া প্রস্তাব দেওয়া হয়েছে। পাঁচ বছরে হিসাবটি ৩ লাখ কোটি টাকা, আট বছরে ৪ লাখ ৮০ হাজার কোটি টাকা। এই অঙ্কের অর্থ একটাই: ব্যর্থ ব্যাংক, দুর্বল তদারকি এবং অতীতের অনিয়মের বোঝার একটি বড় অংশ শেষ পর্যন্ত সাধারণ নাগরিকের কর ও সরকারি ব্যয়ের ওপর এসে পড়তে পারে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রথম সতর্কতা জরুরি: এটি এখনো অনুমোদিত বাজেট বরাদ্দ বা চূড়ান্ত উদ্ধার-প্যাকেজ নয়। গভর্নর বলেছেন, এটি সরকারের কাছে পাঠানো খসড়া প্রস্তাব। সেই পার্থক্য লুকিয়ে নতুন দায়কে সম্পন্ন সিদ্ধান্ত বলা ভুল হবে। কিন্তু খসড়া বলেই বিষয়টি ছোট নয়। বরং এখনই জনসমক্ষে নথি, বিকল্প ও শর্ত রাখার সময়। পরে বরাদ্দ হয়ে গেলে জনগণের কাছে শুধু বিল পেশ করার চেয়ে আগে হিসাব দেখানোই গণতান্ত্রিক পথ।"
+        },
+        {
+          "type": "callout",
+          "text": "আমানতকারীর সুরক্ষা অপরিহার্য। কিন্তু উদ্ধার-তহবিলের প্রতিটি টাকার বিপরীতে কোন ব্যাংক কী শর্ত মানবে, কী সম্পদ বিক্রি হবে, কত ঋণ উদ্ধার হবে এবং কার বিরুদ্ধে কী পদক্ষেপ চলবে—এসব না জানিয়ে করদাতার টাকা চাওয়া জবাবদিহি নয়।"
+        },
+        {
+          "type": "heading",
+          "text": "সংখ্যাগুলো কী বলছে?"
+        },
+        {
+          "type": "paragraph",
+          "text": "গভর্নরের বক্তব্যটি হালকা কোনো চাপ নয়। দ্য বিজনেস স্ট্যান্ডার্ড ও ইউএনবি ১০ অক্টোবরের একই অনুষ্ঠানের খবর দিয়েছে। দ্য ডেইলি স্টার ১১ অক্টোবর লিখেছে, পূর্ণ আট বছর সহায়তা চললে মোট অঙ্ক দাঁড়াবে ৪ লাখ ৮০ হাজার কোটি টাকা; পাঁচ বছরে ৩ লাখ কোটি। আমরা ওই গুণটিই পুনরায় করেছি: ৬০,০০০ কোটি গুণ ৫ সমান ৩,০০,০০০ কোটি, আর গুণ ৮ সমান ৪,৮০,০০০ কোটি। এখানে কোনো অনুমান যোগ করা হয়নি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের নিজের H1FY27 মুদ্রানীতি বিবৃতি দেখায়, মার্চ ২০২৬ শেষে মোট খেলাপি ঋণের অনুপাত ছিল ৩২.২৬ শতাংশ। একই বিবৃতিতে ব্যাংকটি বলেছে, পাঁচটি শরিয়াহভিত্তিক ঋণদাতাকে একীভূত করে সম্মিলিত ইসলামী ব্যাংক গঠনের সঙ্গে সরকার ২০ হাজার কোটি টাকা মূলধন দিয়েছে। অর্থাৎ সরকারি টাকা ঢোকার প্রশ্নটি ভবিষ্যতের কেবল তাত্ত্বিক বিতর্ক নয়; একটি বড় মূলধন-সঞ্চার ইতিমধ্যে নথিতে আছে। আর ব্যাংকের ভাষ্য অনুযায়ী, দুর্বল প্রতিষ্ঠানের ঝুঁকি, তারল্য-সংকট ও শ্রেণিকৃত ঋণ উৎপাদনশীল খাতে ঋণপ্রবাহকেও চাপে ফেলছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংবাদ-প্রতিবেদনগুলো জুন শেষে খেলাপি ঋণের অঙ্ক ৬ লাখ ৬ হাজার ৫৫৫ কোটি টাকা এবং অনুপাত ৩২.৭৮ শতাংশ বলেছে। এই সংখ্যাটি আমরা সরকারি নথির সরাসরি সারণি না পেয়ে প্রতিবেদনভিত্তিক তথ্য হিসেবেই ব্যবহার করছি। মার্চের ৩২.২৬ শতাংশটি বাংলাদেশ ব্যাংকের প্রকাশিত বিবৃতিতে আছে। দুই সময়ের সংখ্যা এক করে নতুন প্রবণতার দাবি করা ঠিক হবে না। তবে দুটোই যে বিপদের মাত্রা দেখায়, সেটি অস্বীকারের জায়গা নেই।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার ও কেন্দ্রীয় ব্যাংকের শক্তিশালী যুক্তি কী?"
+        },
+        {
+          "type": "paragraph",
+          "text": "সবচেয়ে শক্তিশালী যুক্তিটি বাস্তব: ব্যাংক ভেঙে পড়লে ক্ষতিগ্রস্ত হন আগে ছোট আমানতকারী, বেতনভোগী, অবসরপ্রাপ্ত মানুষ এবং ছোট ব্যবসা। আমানত আটকে থাকলে শুধু ব্যক্তির সঞ্চয় নয়, বাজারে লেনদেন ও কর্মসংস্থানও ক্ষতিগ্রস্ত হয়। এই কারণে আমানতকারীর অধিকার রক্ষা এবং পদ্ধতিগত সংক্রমণ ঠেকাতে রাষ্ট্রের সহায়তা প্রয়োজন হতে পারে। গভর্নরও বলেছেন, প্রস্তাবের উদ্দেশ্য আমানতকারীর টাকা ফেরত দেওয়া; বিভিন্ন অনিয়মের সঙ্গে জড়িতদের বিরুদ্ধে আইনি পদক্ষেপ চলছে বলেও তিনি দাবি করেছেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ ব্যাংকের মুদ্রানীতি বিবৃতিতে সংস্কারের কয়েকটি পথও আছে: সম্পদ-মান যাচাই, ঝুঁকিভিত্তিক তদারকি, প্রত্যাশিত ঋণ-ক্ষতি পদ্ধতিতে যাওয়া, ব্যাংক রেজল্যুশন ও আমানত সুরক্ষার কাঠামো ব্যবহার। সেই নথিতে বলা হয়েছে, খেলাপি সম্পদ সরানোর জন্য প্রস্তাবিত কাঠামোর লক্ষ্য করদাতার টাকা ব্যবহার না করা। এ অবস্থানে একটি নীতিগত প্রশ্ন তৈরি হয়: যদি সম্পদ উদ্ধার, শেয়ারহোল্ডারের ক্ষতি বহন, ব্যবস্থাপনা বদল ও রেজল্যুশন তহবিলের পথ থাকে, তবে বছরে ৬০ হাজার কোটি টাকার বাজেট-দাবিতে প্রতিটি ধাপের ভূমিকা আলাদা করে দেখাতে হবে। তা না হলে জনগণ বুঝবে না কোন ঘাটতি সত্যিই অনিবার্য, আর কোনটি দ্রুত ও সুশাসিত উদ্ধার দিয়ে কমানো সম্ভব।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যা তহবিলের ধারণায় নয়, অন্ধ তহবিলের ঝুঁকিতে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি অর্থ দিয়ে ব্যাংক বাঁচানো সব পরিস্থিতিতে ভুল নয়। কিন্তু শর্তহীন পুনঃমূলধনীকরণ ভুল প্রণোদনা তৈরি করে। কোনো মালিক, পরিচালক বা ব্যবস্থাপক জানলে যে ক্ষতির শেষ প্রান্তে রাষ্ট্র এসে মূলধন দেবে, তাহলে ঝুঁকি নেওয়ার দায় দুর্বল হয়। যারাই অপরাধ করে থাকুক, তাদের বিরুদ্ধে আইনি প্রক্রিয়া চলবে—এই আশ্বাস যথেষ্ট নয়। নাগরিকের দরকার মামলা নম্বর, সম্পদ জব্দের অবস্থা, অর্থ উদ্ধারের পরিমাণ, দায়ী পরিচালকদের অপসারণ এবং পরের কিস্তি ছাড়ার আগে কোন মাপকাঠি পূরণ করতে হবে তার তালিকা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে অতীতের দায় ও বর্তমান সরকারের দায় আলাদা করে দেখা দরকার। ব্যাংক খাতের বহু ক্ষতি আগের সময়ের ঋণ-অনিয়ম ও দুর্বল তদারকির ফল হতে পারে। কিন্তু বর্তমান সরকারের দায়িত্ব কমে না। কারণ এখন তারাই বাজেট থেকে অর্থ দিতে, কোন ব্যাংককে বাঁচাতে, কার অধিকার ক্ষুণ্ন না করে পুনর্গঠন করতে এবং কার বিরুদ্ধে কী মামলা এগোবে তা ঠিক করবে। উত্তরাধিকারসূত্রে পাওয়া সংকট জনগণের ওপর অন্ধভাবে চাপানোর লাইসেন্স নয়; বরং নথিভিত্তিক ও কঠোর সংস্কারের বাধ্যবাধকতা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আরেকটি বিপদ হলো একই ৬০ হাজার কোটি সংখ্যার ভিন্ন অর্থ গুলিয়ে ফেলা। বাংলাদেশ ব্যাংকের H1FY27 বিবৃতিতে ৬০ হাজার কোটি টাকার একটি উদ্দীপনা ও পুনঃঅর্থায়ন প্যাকেজের কথা আছে, যার ৪১ হাজার কোটি উদ্বৃত্ত তারল্য থেকে এবং ১৯ হাজার কোটি কেন্দ্রীয় ব্যাংকের নিজস্ব উৎস থেকে আসার কথা। সেটি শিল্প, কৃষি ও ক্ষুদ্র-মাঝারি উদ্যোগে ঋণপ্রবাহ বাড়ানোর প্যাকেজ। গভর্নরের সর্বশেষ বক্তব্যের ৬০ হাজার কোটি হলো ব্যাংক খাতের ক্ষতি সামলাতে সম্ভাব্য বার্ষিক বাজেট-সহায়তার খসড়া দাবি। অঙ্ক একই হলেও উদ্দেশ্য, উৎস ও ঝুঁকি এক নয়। সরকারকে এ দুই হিসাব এক পৃষ্ঠায় আলাদা করে প্রকাশ করতে হবে।"
+        },
+        {
+          "type": "heading",
+          "text": "কার সুরক্ষা, কার দায়—দুটিই স্পষ্ট হতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "একটি উদ্ধার পরিকল্পনায় সবার অবস্থান এক নয়। ক্ষুদ্র আমানতকারী তাঁর সঞ্চয় নিরাপদে ফেরত পাওয়ার অধিকার রাখেন। তিনি ব্যাংকের পরিচালনা পর্ষদ বাছেননি, বড় ঋণ অনুমোদন করেননি, সম্পদ-মান যাচাইও করেননি। তাঁর জন্য দ্রুত, সহজ এবং বৈষম্যহীন পরিশোধের পথ থাকা উচিত। একই কথা সত্য ছোট ব্যবসা ও কর্মচারীর ক্ষেত্রেও, যাদের বেতন বা চলতি মূলধন ব্যাংকে আটকে থাকতে পারে। এই কারণেই আমানতকারীর সুরক্ষাকে আমরা কোনো ‘বেলআউট’ বিতর্কে ঠেলে দিতে চাই না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু মালিক, পরিচালক, বড় ঋণগ্রহীতা এবং ব্যর্থ ব্যবস্থাপনার অবস্থান আলাদা। জনঅর্থের সহায়তা পাওয়ার আগেই তাদের ক্ষতি বহনের নিয়ম প্রকাশ করতে হবে। কার শেয়ার কতটা মূল্য হারাল, কার ভোটাধিকার স্থগিত হলো, কোন সম্পর্কিত ঋণ নতুন করে যাচাই হলো, কোন সম্পদ বিক্রির পরিকল্পনা আছে, কোন পরিচালক ভবিষ্যতে পদে থাকতে পারবেন না—এসব না বললে সৎ আমানতকারী ও ঝুঁকি তৈরিকারী একই সুরক্ষা পান। সেটি ন্যায়সঙ্গত নয়, আর ভবিষ্যতের জন্যও বিপজ্জনক সংকেত।"
+        },
+        {
+          "type": "paragraph",
+          "text": "করদাতার পরিচয়ও কেবল আয়করদাতা কয়েকজন নাগরিকের মধ্যে সীমিত নয়। বাজেটের অর্থ কমলে বা নতুন রাজস্ব তুললে তার প্রভাব পড়ে ভ্যাট, সেবা, সামাজিক সুরক্ষা, অবকাঠামো ও স্থানীয় উন্নয়নে। দ্য ডেইলি স্টারকে গভর্নর বলেছেন, শেষ পর্যন্ত ভোক্তাই করের বোঝা বহন করেন। তাই বড় উদ্ধার-ব্যয়ের আলোচনায় ‘সরকারের টাকা’ বলা যথেষ্ট নয়; এটি মানুষের সেবার সঙ্গে বিনিময়যোগ্য অর্থ। ৬০ হাজার কোটি টাকা বছরে দেওয়ার আগে সরকারকে বলতে হবে কোন ব্যয় কমবে না, কোন রাজস্ব বাড়বে না, আর কোনো নতুন ঋণ নেওয়া হবে কি না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সংসদীয় নজরদারির প্রয়োজনও সরাসরি। সরকার যদি শেষ পর্যন্ত খসড়াটি গ্রহণ করে, তাহলে কেবল বার্ষিক বাজেটের একটি অস্পষ্ট লাইনে অঙ্ক রাখলে চলবে না। অর্থ মন্ত্রণালয় ও বাংলাদেশ ব্যাংককে অর্থ, ব্যাংকিং এবং সরকারি হিসাব-সম্পর্কিত সংসদীয় কমিটির কাছে ব্যাংকভিত্তিক ঝুঁকির গোপনীয়তাসুরক্ষিত সারাংশ দিতে হবে। এরপর কমিটির প্রশ্ন, সুপারিশ এবং বাস্তবায়নের অগ্রগতি প্রকাশ করা উচিত। জনঅর্থের বহু-বছরের প্রতিশ্রুতি একবার অনুমোদিত হলে পরের সরকারগুলোর হাতও বাঁধে; তাই প্রথম সিদ্ধান্তের সময়েই তদারকির কাঠামো শক্ত হওয়া দরকার।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকার চাইলে কাজটি ধাপে ধাপে করতে পারে। প্রথম ধাপে সম্পদ-মান যাচাই ও আমানত-সুরক্ষার জরুরি ব্যবস্থার প্রকাশযোগ্য ফল দিক। দ্বিতীয় ধাপে প্রতিটি ব্যাংকের জন্য সীমিত ও সময়বদ্ধ সহায়তা, পরিচালনা সংস্কার এবং উদ্ধার-লক্ষ্য নির্ধারণ করুক। তৃতীয় ধাপে স্বাধীন নিরীক্ষার পরে পরের কিস্তি ছাড়ুক। এমন ধাপ থাকলে জরুরি সহায়তা বিলম্বিত হবে না, আবার ব্যর্থ প্রতিষ্ঠানও অনন্তকাল জনটাকায় টিকে থাকবে না। ব্যাংক উদ্ধার তখন আর রাজনৈতিক প্রতিশ্রুতি থাকবে না; যাচাইযোগ্য জনচুক্তি হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পরীক্ষায় তথ্যের ভাষাও গুরুত্বপূর্ণ। ‘পুনরুদ্ধার’, ‘পুনঃমূলধনীকরণ’, ‘তারল্য সহায়তা’, ‘উদ্দীপনা’ ও ‘আমানত সুরক্ষা’ এক জিনিস নয়। তারল্য-সংকট সাময়িক নগদ ঘাটতি হতে পারে; মূলধন-ঘাটতি মানে ক্ষতি শোষণের সক্ষমতার সমস্যা; আর পুনঃঅর্থায়ন নতুন ঋণপ্রবাহের ব্যবস্থা। একটি ব্যাংক কোন সমস্যায় কত সহায়তা পাচ্ছে, সেটি না জানালে সঠিক ওষুধের ফলও যাচাই করা যায় না। কেন্দ্রীয় ব্যাংক ও অর্থ মন্ত্রণালয়ের যৌথ নথিতে তাই প্রতিটি সহায়তার ধরন, সুদ বা মুনাফার শর্ত, ফেরতযোগ্যতা, সময়সীমা এবং ঝুঁকির দায় স্পষ্ট ভাষায় থাকতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সময়সীমাও প্রকাশ্য প্রতিশ্রুতির অংশ। পাঁচ থেকে আট বছর মানে এক অর্থবছরের জরুরি ব্যবস্থা নয়। তাই প্রথম বছরেই শেষ লক্ষ্য, প্রতি বছরের মধ্যবর্তী লক্ষ্য এবং ব্যর্থ হলে সহায়তা থামানোর নিয়ম লিখতে হবে। নাগরিক তখন কেবল ব্যয়ের অঙ্ক নয়, সংস্কারের অগ্রগতিকেও মাপতে পারবেন।"
+        },
+        {
+          "type": "heading",
+          "text": "কোন তথ্য প্রকাশ না হলে জনগণ সিদ্ধান্ত নিতে পারবে না"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "খসড়া প্রস্তাবের পূর্ণ পাঠ: কোন ব্যাংক, কত মূলধন, কত বছর এবং কোন শর্তে সহায়তা পাবে।",
+            "ব্যাংকভিত্তিক সম্পদ-মান যাচাইয়ের প্রকাশযোগ্য সারাংশ: মূলধন-ঘাটতি, খেলাপি ঋণ, তারল্য-ঘাটতি ও আমানতকারীর ঝুঁকি।",
+            "প্রতি কিস্তির আগে উদ্ধার-লক্ষ্য: ঋণ আদায়, সম্পদ জব্দ ও বিক্রি, দায়ী ব্যক্তি বা প্রতিষ্ঠানের বিরুদ্ধে মামলার অগ্রগতি।",
+            "লোকসান-ভাগের নিয়ম: শেয়ারহোল্ডার, পরিচালক ও ব্যবস্থাপনা কতটা ক্ষতি বহন করছে এবং রাষ্ট্র কতটা নিচ্ছে।",
+            "ত্রৈমাসিক জন-ড্যাশবোর্ড: বরাদ্দ, ব্যয়, আমানত পরিশোধ, উদ্ধার এবং সংস্কার-শর্ত পূরণের ফল।"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এই তালিকা কোনো অযৌক্তিক গোপন নথি চাওয়া নয়। চলমান তদন্তের সাক্ষ্য, ব্যক্তিগত ব্যাংক-তথ্য বা মামলা কৌশল প্রকাশ করা প্রয়োজন নেই। কিন্তু সামগ্রিক ঘাটতি, সরকারি অর্থের পরিমাণ, শর্ত, নিরীক্ষা-সারাংশ, উদ্ধারের অগ্রগতি ও দায়বদ্ধতার ফল প্রকাশ করা যায়। অন্যথায় ‘আমানত রক্ষা’ নামের সঠিক লক্ষ্যটি অস্বচ্ছ বরাদ্দের আড়াল হয়ে যেতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "আগে নথি, তারপর টাকা"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই মুহূর্তে সঠিক রাজনৈতিক অবস্থান আমানতকারীর বিপক্ষে দাঁড়ানো নয়। সঠিক অবস্থান হলো—আমানতকারীর সুরক্ষা নিশ্চিত করতে হবে, কিন্তু যারা ব্যর্থতা বা অনিয়মের দায় বহন করবে তাদের নামহীন রেখে নয়; সরকারি টাকা দিতে হলে খালি চেক লিখে নয়। বাংলাদেশ ব্যাংকের গভর্নর যে অঙ্কের কথা বলেছেন, তা নিজেই প্রমাণ করে এটি সাধারণ প্রশাসনিক সিদ্ধান্ত নয়। এটি সম্ভাব্য বহু-বছরের জনঅর্থের দায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের সামনে এখন সহজ কিন্তু কঠিন পরীক্ষা: খসড়া প্রস্তাব প্রকাশ করুন, স্বাধীন মূল্যায়নের সারাংশ দিন, ব্যাংকভিত্তিক শর্ত বলুন এবং প্রতি তিন মাসে ফল জানান। তাতে বোঝা যাবে উদ্ধার-প্যাকেজ আমানতকারীর ন্যায্য সুরক্ষা, নাকি পুরোনো ব্যর্থতার নতুন জনবিল। করদাতার টাকা শেষ বিকল্প হতে পারে। সেটি প্রথমে সত্য, তারপর স্বচ্ছ, এবং সবশেষে শর্তযুক্ত হতে হবে।"
+        }
+      ],
+      "automation": {
+        "evidenceScore": 88,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a new government-accountability development, distinct from the earlier coverage of banking data and monetary policy. The Bangladesh Bank governor’s 10 October public statement that a draft proposal seeks Tk60,000 crore per year for five to eight years is independently reported by The Business Standard, The Daily Star and UNB. Bangladesh Bank’s H1FY27 Monetary Policy Statement independently documents the March 2026 NPL ratio, a prior Tk20,000 crore government capital injection, bank-resolution measures and a separate Tk60,000 crore stimulus. The article labels the new proposal as draft rather than approved, separates it from the stimulus, treats the governor’s allegations as his statements, includes the strongest depositor-protection rationale, and makes a proportionate public-disclosure demand.",
+        "governmentPosition": "The governor says the proposed support is intended to protect depositors and repair structural bank damage, while legal action against responsible parties is under way. Bangladesh Bank’s H1FY27 Monetary Policy Statement says it is applying asset-quality review, risk-based supervision, resolution tools and enhanced depositor protection; it records a prior Tk20,000 crore public capital injection into Sammilito Islami Bank.",
+        "findings": [
+          "The reported Tk60,000 crore yearly budget request is a draft proposal, not an approved allocation or final rescue plan.",
+          "The five- and eight-year totals of Tk3 lakh crore and Tk4.8 lakh crore are direct arithmetic from the reported annual amount.",
+          "Bangladesh Bank’s September H1FY27 statement places the March 2026 gross NPL ratio at 32.26% and records the Tk20,000 crore government capital injection into Sammilito Islami Bank.",
+          "The official statement separately describes a Tk60,000 crore stimulus/refinancing package, so the article explicitly distinguishes that package from the new reported annual budget-support proposal.",
+          "Depositor protection can justify public intervention, but an unpublished multi-year draft needs bank-level conditions, recovery targets and public reporting before it becomes a taxpayer commitment."
+        ],
+        "claimMatrix": {
+          "draftAnnualRequest": "REPORTED FACT — HIGH — The Business Standard, The Daily Star and UNB independently report the governor’s 10 October statement that a draft proposal seeks Tk60,000 crore annually for five to eight years; no public draft document was located by the research cutoff.",
+          "fiveAndEightYearTotals": "VERIFIED CALCULATION — HIGH — Tk60,000 crore × 5 = Tk300,000 crore; Tk60,000 crore × 8 = Tk480,000 crore.",
+          "marchNplRatio": "VERIFIED FACT — HIGH — Bangladesh Bank H1FY27 Monetary Policy Statement reports a 32.26% gross NPL ratio in March 2026.",
+          "priorCapitalInjection": "VERIFIED FACT — HIGH — Bangladesh Bank H1FY27 Monetary Policy Statement records a Tk20,000 crore government capital injection for Sammilito Islami Bank.",
+          "juneNplAmount": "REPORTED FACT — HIGH — TBS and The Daily Star report Tk606,555 crore and a 32.78% ratio at end-June 2026, citing Bangladesh Bank data; it is clearly attributed and not combined with the March official figure to infer a trend.",
+          "governorAllegationsAndLegalAction": "ATTRIBUTED OFFICIAL POSITION — HIGH — reported directly by TBS, The Daily Star and UNB; the article does not treat the governor’s characterisation or legal-action claim as a court finding.",
+          "editorialConclusion": "ANALYSIS — HIGH — full publication of the draft, bank-level conditions, loss-sharing, recovery targets and quarterly reporting is a proportionate accountability condition for any public recapitalisation."
+        },
+        "seoTitle": "ব্যাংক উদ্ধারে করদাতার টাকায় খোলা হিসাব চাই",
+        "metaDescription": "বাংলাদেশ ব্যাংকের খসড়া প্রস্তাবে বছরে ৬০ হাজার কোটি টাকা চাওয়া হয়েছে বলে গভর্নর জানিয়েছেন। অনুমোদনের আগে ক্ষতি, উদ্ধার, শর্ত ও দায়ীদের হিসাব প্রকাশ চাই।",
+        "categories": [
+          "ব্যাংকিং",
+          "জনঅর্থ",
+          "প্রাতিষ্ঠানিক জবাবদিহি"
+        ],
+        "tags": [
+          "বাংলাদেশ ব্যাংক",
+          "ব্যাংক উদ্ধার",
+          "আমানতকারী",
+          "খেলাপি ঋণ",
+          "জাতীয় বাজেট",
+          "করদাতা",
+          "সম্মিলিত ইসলামী ব্যাংক",
+          "পুনঃমূলধনীকরণ",
+          "ব্যাংক রেজল্যুশন",
+          "জবাবদিহি"
+        ]
+      },
+      "translations": {
+        "en": {
+          "title": "Tk3-4.8 lakh crore bank rescue: taxpayers need the full account",
+          "excerpt": "Bangladesh Bank’s governor says a draft proposal seeks Tk60,000 crore a year for five to eight years to repair weak banks. It is not yet an approved allocation. Before taxpayers assume such a liability, the losses, recovery plan, conditions and accountability steps must be public.",
+          "imageAlt": "Editorial illustration about Bangladesh banking reform, public money and accountability",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Protecting depositors is essential. A reported draft request for Tk60,000 crore a year for five to eight years must come with published terms, bank-level conditions, recovery targets and accountability for those responsible."
+        },
+        "de": {
+          "title": "Bankenrettung von 3 bis 4,8 Lakh Crore Taka: volle Rechenschaft vor Steuergeld",
+          "excerpt": "Der Gouverneur der Bangladesh Bank sagt, ein Entwurf beantrage fünf bis acht Jahre lang jährlich 60.000 Crore Taka für schwache Banken. Es ist noch keine bewilligte Ausgabe. Vor einer solchen Belastung müssen Verluste, Rückgewinnung, Bedingungen und Verantwortlichkeit öffentlich sein.",
+          "imageAlt": "Redaktionelle Illustration zu Bankenreform, öffentlichen Mitteln und Rechenschaftspflicht in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Der Schutz von Einlegern ist notwendig. Ein gemeldeter Entwurf über jährlich 60.000 Crore Taka für fünf bis acht Jahre braucht veröffentlichte Bedingungen, bankbezogene Vorgaben, Rückgewinnungsziele und Rechenschaft der Verantwortlichen."
+        }
+      }
+    },
+    {
       "id": "panchagarh-prison-ration-disciplinary-order-public-record-2026",
       "slug": "panchagarh-prison-ration-disciplinary-order-public-record-2026",
       "sharePath": "blog/panchagarh-prison-ration-disciplinary-order-public-record-2026",
