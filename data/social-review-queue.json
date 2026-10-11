@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T16:16:17.746Z",
+  "updatedAt": "2026-10-11T20:20:11.060Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6198,6 +6198,45 @@
           "description": "#JusticeForHadi\n\n#JusticeForHadi\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122208838526921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122208838526921031-d59925f324-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209249082921031-ed218c315d",
+      "sourceType": "facebook",
+      "sourceId": "122209249082921031",
+      "sourceKey": "facebook:germany:122209249082921031",
+      "sourceFingerprint": "ed218c315df939ec765faa480c5504d6decbff2a9e7bfb24387b27344e00a373",
+      "sourceCreatedAt": "2026-10-11T20:00:34+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1382875090502197/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-11T20:20:11.059Z",
+      "updatedAt": "2026-10-11T20:20:11.059Z",
+      "title": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়।",
+      "excerpt": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়। আগে রাজনীতিবিদরা শুধু ভোটের আগে হাত জোড় করতো, তারপর ভুলে যেত। বাংলাদেশের রাজনীতিতে এর আগে কখনো কোনো নেতাকে মানুষ ঘরের মানুষ ভাবতে পারেনি। এটাই এনসিপির দেড় বছরের অর্জন, এটাই বড় পরিবর্তন। - মনিরা শারমিন #ncpdagermany",
+      "sourceCaption": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়। আগে রাজনীতিবিদরা শুধু ভোটের আগে হাত জোড় করতো, তারপর ভুলে যেত। বাংলাদেশের রাজনীতিতে এর আগে কখনো কোনো নেতাকে মানুষ ঘরের মানুষ ভাবতে পারেনি। এটাই এনসিপির দেড় বছরের অর্জন, এটাই বড় পরিবর্তন। - মনিরা শারমিন #ncpdagermany",
+      "image": "img/social/germany/fb-122209249082921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়। হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে…\nhttps://www.facebook.com/reel/1382875090502197/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209249082921031-ed218c315d-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়,…",
+          "description": "হাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়।\n\nহাসনাত প্রচারণায় গেলে মায়েরা মনে করে ঘরের ছেলেটা, নাহিদকে দেখে গায়ে হাত বুলিয়ে দেয়, মাথায় হাত বুলিয়ে দোয়া করে দেয়। আগে রাজনীতিবিদরা শুধু ভোটের আগে হাত জোড় করতো, তারপর ভুলে যেত। বাংলাদেশের রাজনীতিতে এর আগে কখনো কোনো নেতাকে মানুষ ঘরের মানুষ ভাবতে পারেনি। এটাই এনসিপির দেড় বছরের অর্জন, এটাই বড় পরিবর্তন। - মনিরা শারমিন #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/1382875090502197/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209249082921031-ed218c315d-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
