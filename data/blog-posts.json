@@ -1,6 +1,243 @@
 {
   "items": [
     {
+      "id": "rooftop-solar-target-public-progress-account-2026",
+      "slug": "rooftop-solar-target-public-progress-account-2026",
+      "sharePath": "blog/rooftop-solar-target-public-progress-account-2026",
+      "tag": "জ্বালানি নীতি ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১২ অক্টোবর ২০২৬",
+      "title": "৪,০০০ মেগাওয়াটের লক্ষ্য, কিন্তু অগ্রগতির পূর্ণ তথ্য নেই: সৌরবিদ্যুতে এখন মাসিক খোলা হিসাব চাই",
+      "excerpt": "সংসদীয় কমিটি ছাদভিত্তিক সৌরবিদ্যুতের গ্রিডে সরবরাহের বিস্তারিত তথ্য ও লিখিত উত্তর চেয়েছে। সরকারের নতুন কৌশলপত্র উচ্চাভিলাষী লক্ষ্য দিয়েছে, আবার পুরোনো বাস্তবায়ন-ঘাটতির কথাও স্বীকার করেছে। তাই ঘোষণা নয়, প্রকল্প, অর্থ, গ্রিড-সরবরাহ ও ব্যয়ের মাসিক খোলা হিসাব এখন জরুরি।",
+      "image": "img/blog/governance-analysis.svg",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "imageAlt": "Editorial illustration about Bangladesh rooftop solar policy, public data and accountability",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "সৌরবিদ্যুতের লক্ষ্য গুরুত্বপূর্ণ। কিন্তু ঘোষিত মেগাওয়াটকে জনস্বার্থের ফল বলতে হলে প্রকল্প, ব্যয়, গ্রিডে সরবরাহ ও অগ্রগতির মাসিক হিসাব প্রকাশ করতে হবে।",
+      "facebookCaption": "সংসদীয় কমিটি ছাদভিত্তিক সৌরবিদ্যুতের গ্রিডে সরবরাহের বিস্তারিত হিসাব ও লিখিত উত্তর চেয়েছে। সরকারের কৌশলপত্র ২০৩০ সালের বড় লক্ষ্য দেখায়, আবার বিনিয়োগ, অর্থায়ন ও সমন্বয়ের পুরোনো ঘাটতির কথাও স্বীকার করে। এখন দরকার প্রতিটি প্রকল্পের ব্যয়, অবস্থান, উৎপাদন ও গ্রিডে সরবরাহের মাসিক খোলা তথ্য।",
+      "publishedAt": "2026-10-12T11:29:46+02:00",
+      "status": "published",
+      "facts": [
+        {
+          "value": "১০,৪৫০ মেগাওয়াট",
+          "label": "বিদ্যুৎ বিভাগের ২০২৬–২০৩০ নবায়নযোগ্য জ্বালানি কৌশলপত্রে ২০৩০ সালের লক্ষ্যমাত্রা"
+        },
+        {
+          "value": "৫,৫০০ মেগাওয়াট",
+          "label": "সরকারি কৌশলপত্র ও SREDA-সমর্থিত কর্মসূচিতে ২০৩০ পর্যন্ত ছাদভিত্তিক সৌরবিদ্যুতের লক্ষ্য"
+        },
+        {
+          "value": "৪,০০০ মেগাওয়াট",
+          "label": "দ্য ডেইলি স্টারের প্রতিবেদন অনুযায়ী আগামী ফেব্রুয়ারির মধ্যে যোগের কথা বলা সৌরবিদ্যুৎ লক্ষ্য; এটি স্বাধীন সংবাদসূত্রে প্রকাশিত তথ্য"
+        },
+        {
+          "value": "মাসিক রিপোর্ট",
+          "label": "১১ অক্টোবরের বৈঠকে সংসদীয় কমিটির চাওয়া অগ্রগতি-রিপোর্ট ও প্রকল্পভিত্তিক ব্যয়ের তথ্য"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বিদ্যুৎ বিভাগ · জাতীয় নবায়নযোগ্য জ্বালানি উন্নয়ন কৌশলপত্র (২০২৬–২০৩০) · জুলাই ২০২৬",
+          "url": "https://powerdivision.gov.bd/pages/files/6a6af7ab33abb83ff10be25f"
+        },
+        {
+          "label": "বিদ্যুৎ বিভাগ · জাতীয় রুফটপ সোলার কর্মসূচির নথি ও বাস্তবায়ন নির্দেশিকা · ১১ অক্টোবর ২০২৬ হালনাগাদ",
+          "url": "https://powerdivision.gov.bd/pages/static-pages/694032be35ce18e1c0561a07"
+        },
+        {
+          "label": "SREDA/Power Division · Sustainable Energy Idea Contest 2026 · ২০৩০ সালের ১০,৪৫০ মেগাওয়াট ও ৫,৫০০ মেগাওয়াট রুফটপ লক্ষ্যের সরকারি উপস্থাপনা · দেখা হয়েছে ১২ অক্টোবর ২০২৬",
+          "url": "https://seideacontest2026.sreda.gov.bd/"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘JS body questions 4,000MW solar power target’ · ১১ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/js-body-questions-4000mw-solar-power-target-4295591"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার · ‘Can the new strategy achieve Bangladesh’s renewable energy targets?’ · ১১ অক্টোবর ২০২৬",
+          "url": "https://www.thedailystar.net/slow-reads/big-picture/news/can-the-new-strategy-achieve-bangladeshs-renewable-energy-targets-4295226"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "ঘোষণা নয়, গ্রিডে পৌঁছানো বিদ্যুতের হিসাব"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের সৌরবিদ্যুতের প্রশ্নে এখন সবচেয়ে জরুরি খবরটি কোনো নতুন প্রতিশ্রুতি নয়। বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়-সম্পর্কিত সংসদীয় স্থায়ী কমিটি ১১ অক্টোবরের প্রথম বৈঠকেই মন্ত্রণালয়ের কাছে জানতে চেয়েছে, ছাদভিত্তিক সৌরব্যবস্থা আসলে কত বিদ্যুৎ জাতীয় গ্রিডে দিচ্ছে। কমিটি পরের বৈঠকে বিস্তারিত তথ্য ও প্রশ্নগুলোর লিখিত উত্তর চেয়েছে। এই দাবি স্বাভাবিক সংসদীয় কাজ, কিন্তু এর তাৎপর্য বড়: যে কর্মসূচিকে দেশের জ্বালানি নিরাপত্তার গুরুত্বপূর্ণ পথ বলা হচ্ছে, তার ফল মাপার মৌলিক তথ্যই এখন প্রকাশ্যে স্পষ্ট নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের লক্ষ্য ছোট নয়। বিদ্যুৎ বিভাগের জুলাইয়ের জাতীয় নবায়নযোগ্য জ্বালানি উন্নয়ন কৌশলপত্র ২০৩০ সালের মধ্যে নবায়নযোগ্য উৎস থেকে ১০ হাজার ৪৫০ মেগাওয়াট সক্ষমতার পরিকল্পনা দিয়েছে। এর মধ্যে ছাদভিত্তিক সৌরবিদ্যুতের অংশ ৫ হাজার ৫০০ মেগাওয়াট। একই সরকারি কর্মসূচি ২০৩০ সালে বিদ্যুতের ২০ শতাংশ নবায়নযোগ্য উৎস থেকে এবং জ্বালানি সাশ্রয়ে ১৫ শতাংশ উন্নতির লক্ষ্য তুলে ধরেছে। এই লক্ষ্য দেশের আমদানি-নির্ভর জ্বালানির চাপ কমাতে সহায়ক হতে পারে। তাই লক্ষ্যটি ব্যর্থ হোক, এমন কোনো জনস্বার্থ নেই। জনস্বার্থ হলো লক্ষ্যটি সত্যি সত্যি বাস্তবায়িত হচ্ছে কি না, তার যাচাইযোগ্য হিসাব পাওয়া।"
+        },
+        {
+          "type": "callout",
+          "text": "সৌরবিদ্যুতের একটি ঘোষিত মেগাওয়াট আর গ্রিডে মাপা, নিয়মিত সরবরাহ করা মেগাওয়াট এক জিনিস নয়। নাগরিকের অধিকার হলো দুটির আলাদা হিসাব দেখা।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের নিজের নথিই কেন প্রকাশ্য মাপকাঠি দাবি করে"
+        },
+        {
+          "type": "paragraph",
+          "text": "কৌশলপত্রটি শুধু আশাবাদী ভাষা নয়। এতে বিদ্যুৎ বিভাগ স্পষ্ট বলেছে, আগের উচ্চাভিলাষী নবায়নযোগ্য লক্ষ্য থাকা সত্ত্বেও বিনিয়োগবান্ধব পরিবেশ, সহায়ক নীতি, প্রয়োজনীয় অর্থায়ন ও প্রশাসনিক সমন্বয়ের ঘাটতির কারণে কাঙ্ক্ষিত অগ্রগতি হয়নি। নথিটি এটিও বলেছে যে ২০২৮ সালের জুলাইয়ে মধ্যবর্তী মূল্যায়ন হবে এবং বাস্তবায়নের সঙ্গে কৌশলপত্র নিয়মিত হালনাগাদ করা হবে। এই স্বীকারোক্তি গুরুত্বপূর্ণ। কারণ এতে বোঝা যায় সমস্যাটি কেবল সূর্যের আলো বা প্রযুক্তির নয়; সিদ্ধান্ত, অর্থ এবং প্রতিষ্ঠানগুলোর সমন্বয়েরও।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পক্ষে শক্তিশালী যুক্তিও আছে। ছাদভিত্তিক সৌরব্যবস্থা জমির চাপ কমায়, দিনের বেলায় বিতরণব্যবস্থার ওপর চাপ নামাতে পারে এবং বাড়তি বিদ্যুৎ গ্রিডে দেওয়ার সুযোগ তৈরি করে। বিদ্যুৎ বিভাগ রুফটপ কর্মসূচির জন্য প্রণোদনার ব্যাখ্যা, পরিপত্র, নেট মিটারিং নির্দেশিকা ও বাস্তবায়ন গাইডলাইন প্রকাশ করেছে। নতুন কৌশলপত্রে গ্রিড আধুনিকায়ন, অর্থায়ন, জ্বালানি দক্ষতা ও ন্যায়সঙ্গত রূপান্তরের কথাও আছে। এগুলোকে অস্বীকার করার কারণ নেই। নথি থাকা এবং কিছু নীতিগত পদক্ষেপ নেওয়া বাস্তব অগ্রগতি।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু ভালো নীতির মূল্য শেষ পর্যন্ত তার ফলেই। একটি গাইডলাইন কতজন পড়লেন, কতটি প্রকল্প উদ্বোধন হলো বা কত মেগাওয়াটের প্রস্তাব হলো—এসব দিয়ে গ্রাহকের বিদ্যুৎ খরচ, রাষ্ট্রের জ্বালানি আমদানি বা গ্রিডের নির্ভরযোগ্যতা বিচার করা যায় না। বিচার করতে হয় সংযোগ পাওয়া ব্যবস্থা, কার্যকর উৎপাদন, উদ্বৃত্ত বিদ্যুতের গ্রিডে প্রবাহ, অর্থ পরিশোধ, কারিগরি ত্রুটি ও বন্ধ হয়ে যাওয়া ব্যবস্থার তথ্য দিয়ে। সংসদীয় কমিটি যে সেই তথ্য চেয়েছে, সেটিই এখন সঠিক পরীক্ষা।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদীয় প্রশ্নে যে ফাঁকটি দেখা গেল"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্য ডেইলি স্টারের ১১ অক্টোবরের প্রতিবেদন অনুযায়ী, কমিটির বৈঠকে মন্ত্রণালয়ের কর্মকর্তারা রুফটপ সৌর প্রণোদনা কর্মসূচির অগ্রগতির নির্দিষ্ট তথ্য দিতে পারেননি। তাঁরা প্রতিদিন প্রায় ২ মেগাওয়াট গ্রিডে যোগ হওয়ার কথা বলেছেন, কিন্তু সেই হিসাবের সমর্থনে বিস্তারিত উপাত্ত দেননি। একই প্রতিবেদনে কমিটির সদস্য হাসনাত আবদুল্লাহ মন্ত্রণালয়ের তথ্যের উদ্ধৃতি দিয়ে বলেছেন, আগের ৩০ দিনে ৬০ মেগাওয়াট যোগ হয়েছে; আর আগামী ফেব্রুয়ারির মধ্যে ৪ হাজার মেগাওয়াট যোগের সরকারি লক্ষ্য রয়েছে। এই সংখ্যা ও সময়সীমা আমরা স্বাধীন সংবাদসূত্রে প্রকাশিত তথ্য হিসেবেই নিচ্ছি, সরকারি পরিসংখ্যানের চূড়ান্ত বিকল্প হিসেবে নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তবু এখানেই জবাবদিহির প্রশ্নটি ধারালো। যদি কর্মকর্তারা প্রতিদিন প্রায় ২ মেগাওয়াটের কথা বলেন, তবে কোন বিতরণ কোম্পানির কোন এলাকায় কত সংযোগ হয়েছে, কত উৎপাদন মিটারে ধরা পড়েছে, কত ইউনিট উদ্বৃত্ত বিদ্যুৎ কেনা হয়েছে এবং কত অর্থ পরিশোধ হয়েছে—এগুলো দেখানো কঠিন হওয়ার কথা নয়। আর যদি তথ্য আছে কিন্তু বৈঠকে প্রস্তুত ছিল না, সেটিও ব্যবস্থাপনার দুর্বলতা। একটি জাতীয় কর্মসূচির অবস্থান জানার জন্য সংসদ সদস্যকে পরের বৈঠক পর্যন্ত অপেক্ষা করতে হলে সাধারণ নাগরিকের তথ্য পাওয়ার অবস্থাটা কেমন, সে প্রশ্ন এড়ানো যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এটি কোনো ব্যক্তির বিরুদ্ধে অসদাচরণের অভিযোগ নয়। কমিটিও কাউকে অপরাধী বলেনি। বরং কমিটি তথ্য, মাসিক অগ্রগতি-রিপোর্ট, সৌর প্যানেল ও ইনভার্টার আমদানির ঋণপত্রের তথ্য, এবং প্রকল্পভিত্তিক ব্যয়-বিবরণ চেয়েছে। এই পদ্ধতিই সঠিক। কারণ অস্বচ্ছতা থাকলেই দুর্নীতি প্রমাণ হয় না, কিন্তু অস্বচ্ছতা থাকলে ভুল ব্যয়, ব্যর্থ প্রকল্প ও ভুল লক্ষ্যমাত্রা সময়মতো ধরা পড়ে না। জনগণের টাকা, আমদানি সুবিধা বা রাষ্ট্রীয় প্রণোদনা জড়িত থাকলে তথ্য লুকিয়ে রাখার সুযোগ আরও কম হওয়া উচিত।"
+        },
+        {
+          "type": "heading",
+          "text": "লক্ষ্য ও বাস্তবতার মধ্যে কোন তথ্যগুলো দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি কৌশলপত্রে বর্তমান স্থাপিত বিদ্যুৎ-উৎপাদন সক্ষমতা প্রায় ২৯ হাজার মেগাওয়াট, গ্রীষ্মের সর্বোচ্চ চাহিদা ১৮ হাজার মেগাওয়াটের বেশি এবং নবায়নযোগ্য উৎসে প্রায় ২ হাজার মেগাওয়াট সক্ষমতার কথা আছে। একই নথি ২০৩০ সালে চাহিদা ২৪ থেকে ২৫ হাজার মেগাওয়াটে পৌঁছাতে পারে বলেছে। এই সংখ্যাগুলো সম্ভাবনা যেমন দেখায়, তেমনি পরিকল্পনার মানদণ্ডও স্থির করে। সরকারি ভাষায় ক্ষমতা আছে বললেই চলবে না; সেই ক্ষমতা কোথায় বসানো, কখন চালু, কতক্ষণ চলে, গ্রিড কতটা গ্রহণ করে এবং মানুষের জন্য এর খরচ কত—এসবও দেখাতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই জায়গায় একটি সাধারণ ভুল এড়ানো দরকার। স্থাপিত সক্ষমতা, বাস্তব উৎপাদন এবং গ্রিডে সরবরাহ আলাদা সূচক। রোদ না থাকলে সৌর প্যানেল উৎপাদন করবে না, ব্যাটারি বা গ্রিড ব্যবস্থাপনা লাগবে, আবার কোনো ব্যবস্থার নামমাত্র সক্ষমতা থাকলেও সংযোগ বা রক্ষণাবেক্ষণের সমস্যায় তা ব্যবহার না-ও হতে পারে। এই বাস্তবতাকে অজুহাত বানানো যাবে না; বরং এ কারণেই সরকারকে প্রযুক্তিভিত্তিক আলাদা হিসাব দিতে হবে। কত মেগাওয়াট স্থাপিত, কত মেগাওয়াট চালু, কত কিলোওয়াট-ঘণ্টা গ্রিডে গেছে এবং কোন খাতে কত টাকা ব্যয় হয়েছে—এক সারিতে না থাকলে পরিকল্পনা যাচাই করা অসম্ভব।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পার্থক্যের সঙ্গে অর্থের হিসাবও জড়িত। ছাদে প্যানেল বসানো অনেক পরিবার, প্রতিষ্ঠান ও ব্যবসার জন্য প্রথম বিনিয়োগ। নেট মিটারিংয়ে উদ্বৃত্ত বিদ্যুতের হিসাব, বিলের সমন্বয় এবং পাওনা পরিশোধ বিলম্বিত বা দুর্বোধ্য হলে মানুষ কর্মসূচিতে আস্থা হারাবে। আবার আমদানি-সুবিধা, ঋণ বা প্রণোদনা থাকলে রাষ্ট্রেরও জানতে হবে কারা সুবিধা পেলেন এবং তার বিনিময়ে কী ফল এল। প্রণোদনা খারাপ বিষয় নয়; ঠিক নকশার প্রণোদনা পরিচ্ছন্ন জ্বালানির বাজার গড়তে পারে। কিন্তু ফলের বদলে শুধু আবেদন, অনুমোদন বা সরঞ্জাম আমদানির সংখ্যা দেখানো হলে জনঅর্থের কার্যকারিতা যাচাই করা যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "গ্রাহকের স্বার্থও এখানে কেন্দ্রীয়। দিনের বেলায় স্থানীয়ভাবে উৎপাদিত বিদ্যুৎ বিতরণব্যবস্থার চাপ কমাতে পারলে তার সুফল নির্ভরযোগ্য সরবরাহ ও ব্যয়-সাশ্রয়ে দেখা উচিত। কিন্তু কোথায় কতটা চাপ কমল, লোডশেডিং বা ভোল্টেজের সমস্যায় কী পরিবর্তন হলো, এবং গ্রিড সংযোগের জন্য গ্রাহককে কত দিন অপেক্ষা করতে হলো—এগুলো না জানলে নীতি বাস্তবে কাকে সাহায্য করছে বোঝা যায় না। শুধু রাজধানী বা বড় শিল্পপ্রতিষ্ঠানের তথ্য দিয়ে জাতীয় সাফল্যের দাবি করাও গ্রহণযোগ্য হবে না। জেলা, গ্রাহকের ধরন এবং বিতরণ কোম্পানিভিত্তিক তথ্য দিলে বৈষম্য ও বাধাগুলোও ধরা পড়বে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "ডেটা প্রকাশের আরেকটি লাভ হলো ভুল ধরার সুযোগ। কোনো মাসে উৎপাদন কমে গেলে তার কারণ হতে পারে মৌসুম, যন্ত্রপাতি, মিটার, সংযোগ বা বিল পরিশোধের জট। সেই কারণ আলাদা না করলে সমাধানও হয় না। প্রকল্পের অগ্রগতি লাল-হলুদ-সবুজ রঙে দেখিয়ে থেমে গেলে প্রশাসন নিজের সমস্যাই দেখতে পায় না। বরং একটি খোলা সারণিতে অনুমোদন-তারিখ, সংযোগ-তারিখ, সক্ষমতা, মাসিক উৎপাদন, গ্রিডে বিক্রি, বকেয়া এবং সমস্যার ধরন থাকলে ব্যর্থ প্রকল্প আগেই উদ্ধার করা যায়। সরকারের জন্যও এটি আত্মরক্ষার ব্যবস্থা: ভালো ফল হলে একই তথ্য দিয়ে অতিরঞ্জন ছাড়াই সাফল্য প্রমাণ করা যাবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "জ্বালানি রূপান্তরে আন্তর্জাতিক অর্থায়ন ও বেসরকারি বিনিয়োগের কথা সরকার বলছে। বিনিয়োগকারীরও দরকার স্থিতিশীল নিয়ম এবং বিশ্বাসযোগ্য ফলের তথ্য। বারবার নীতি বদল, সংযোগে অনিশ্চয়তা বা পেমেন্টের অস্বচ্ছতা থাকলে কাগজে বড় লক্ষ্য থাকলেও অর্থ আসে না। বিদ্যুৎ বিভাগের কৌশলপত্র যে অর্থায়ন ও সমন্বয়ের ঘাটতির কথা বলেছে, তার প্রতিকার তাই শুধু নতুন সভা নয়। কোন সংস্থা কোন সময়সীমায় কোন অনুমতি দেবে, সংযোগের মানদণ্ড কী এবং বিরোধ হলে প্রতিকার কোথায়—এসবের প্রকাশ্য অগ্রগতি দরকার। মাসিক ড্যাশবোর্ড সেই বড় শাসন-সমস্যার পূর্ণ সমাধান নয়, কিন্তু সমস্যাকে অদৃশ্য রাখার সুযোগ কমায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রকাশ্য তথ্যের অর্থ কেবল সমালোচনার সুযোগ নয়, শেখারও সুযোগ। যে জেলা, প্রতিষ্ঠান বা বিতরণ কোম্পানি দ্রুত ও ন্যায্যভাবে সংযোগ দিতে পারছে, তার পদ্ধতি অন্যরা নিতে পারবে। যে জায়গায় উদ্যোগ থেমে আছে, সেখানে নাগরিক, ব্যবসায়ী ও স্থানীয় প্রশাসন নির্দিষ্ট বাধাটি দেখাতে পারবেন। অন্ধকারে কেবল দোষারোপ বাড়ে; খোলা হিসাব সমস্যার ঠিকানা দেখায়।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদকে এখন যে ছয়টি উত্তর নিতে হবে"
+        },
+        {
+          "type": "list",
+          "items": [
+            "প্রতি বিতরণ কোম্পানি ও জেলাভিত্তিক কত রুফটপ সৌরক্ষমতা সংযুক্ত, কতটি ব্যবস্থা চালু এবং কতটি অচল?",
+            "গত ১২ মাসে মাসভিত্তিক কত কিলোওয়াট-ঘণ্টা উদ্বৃত্ত বিদ্যুৎ গ্রিডে গেছে এবং গ্রাহককে কত টাকা দেওয়া হয়েছে?",
+            "আগামী ফেব্রুয়ারির ৪ হাজার মেগাওয়াট লক্ষ্যটি কোন নথিতে, কোন প্রকল্পে এবং কোন অর্থায়নে দাঁড়িয়ে আছে?",
+            "প্যানেল, ইনভার্টার ও ব্যাটারির আমদানি-সুবিধা বা ঋণপত্রের বিপরীতে কত প্রকল্প সত্যি সংযোগ পেয়েছে?",
+            "প্রতিটি বড় প্রকল্পে অনুমোদিত ব্যয়, বাস্তব ব্যয়, ঠিকাদার বা বাস্তবায়নকারী, নির্ধারিত সময় এবং বর্তমান অগ্রগতি কত?",
+            "২০২৮ সালের মধ্যবর্তী মূল্যায়নের আগেই কোন মাসিক সূচক প্রকাশ হবে এবং তথ্য ভুল হলে কে সংশোধনের দায় নেবে?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "এই প্রশ্নগুলোর উত্তর পাওয়ার জন্য নতুন আইন, নতুন কমিশন বা দীর্ঘ ভাষণের দরকার নেই। বিদ্যুৎ বিভাগ, SREDA, বিতরণ কোম্পানি ও প্রকল্প বাস্তবায়নকারী সংস্থার কাছে তথ্য থাকার কথা। একটি একক অনলাইন ড্যাশবোর্ডে মাসভিত্তিক তথ্য দিলে সংসদ, সংবাদমাধ্যম, গবেষক, বিনিয়োগকারী এবং গ্রাহক একই তথ্য থেকে অগ্রগতি মিলিয়ে দেখতে পারবেন। প্রকল্পের বাণিজ্যিক গোপনীয়তার প্রয়োজন থাকলে চুক্তির সংবেদনশীল অংশ বাদ দেওয়া যায়, কিন্তু মোট ব্যয়, সক্ষমতা, অবস্থান, সময়সীমা ও গ্রিডে সরবরাহ গোপন রাখার যুক্তি দুর্বল।"
+        },
+        {
+          "type": "heading",
+          "text": "সৌরবিদ্যুতের পক্ষে থাকা মানে অন্ধ সমর্থন নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশের জন্য পরিচ্ছন্ন ও সাশ্রয়ী বিদ্যুতের পথ খোলা জরুরি। বিদেশি জ্বালানির দাম ও সরবরাহের ধাক্কা যখন বাজার, পরিবহন ও শিল্পে পড়ে, তখন দেশীয় নবায়নযোগ্য উৎস বাড়ানো কৌশলগত প্রয়োজন। সরকারের নতুন কৌশলপত্র এই প্রয়োজনটি ঠিকভাবেই চিহ্নিত করেছে। কিন্তু অতীতের ঘাটতির কথা তার নিজের নথিই বলছে। সেই অভিজ্ঞতার পরে আবার শুধু লক্ষ্যমাত্রার পোস্টার বানানো যাবে না। বাস্তবায়নের প্রতিটি ধাপ নাগরিকের সামনে আনতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংসদীয় কমিটির প্রথম বৈঠকের প্রশ্নটি তাই স্বাগত। তথ্য চাওয়া বিরোধিতা নয়; তথ্য না চাওয়াই ব্যর্থতার সুযোগ তৈরি করে। মন্ত্রণালয়কে পরের বৈঠকে কেবল পাওয়ারপয়েন্ট নয়, যাচাইযোগ্য ডেটাসেট দিতে হবে। কমিটিকেও সেই উত্তর প্রকাশ করতে হবে এবং তিন মাস পরে একই সূচকে অগ্রগতি মেলাতে হবে। লক্ষ্য পূরণ হলে সরকার প্রাপ্য কৃতিত্ব পাবে। না হলে কোথায় অর্থ, সংযোগ, জমি, যন্ত্রপাতি বা ব্যবস্থাপনায় বাধা, তা সময় থাকতে ঠিক করা যাবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আমাদের সম্পাদকীয় অবস্থান সরল: সৌরবিদ্যুতের লক্ষ্য রক্ষা করতে হলে ঘোষণার মর্যাদা ডেটা দিয়ে অর্জন করতে হবে। ১০ হাজার ৪৫০ মেগাওয়াটের পথ শুরু হোক প্রতিটি মাসের খোলা হিসাব দিয়ে। কোন প্রকল্পে কত টাকা, কত ক্ষমতা, কত উৎপাদন এবং কত বিদ্যুৎ গ্রিডে গেল—এই চারটি সংখ্যা নিয়মিত প্রকাশ হলেই নাগরিক বুঝবেন পরিকল্পনা এগোচ্ছে, নাকি কেবল কাগজে বাড়ছে।"
+        }
+      ],
+      "automation": {
+        "evidenceScore": 85,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a distinct government-accountability development: on 11 October the parliamentary standing committee requested detailed rooftop-solar grid-supply data, written answers, monthly progress reports and project-cost information. It is not a duplicate of any existing catalogue item. The Power Division’s July 2026 strategy is a primary source for the targets, the implementation gaps it acknowledges and its 2028 review commitment. The Power Division’s rooftop-programme page and the SREDA/Power Division programme independently establish the programme documents and the 2030 targets. The Daily Star reports the committee meeting, including the ministry’s stated daily addition and the reported February target; those figures are explicitly attributed, not presented as independently verified official statistics. The draft gives the government’s strongest case for rooftop solar, names no misconduct, distinguishes capacity from output and demands proportionate public disclosure.",
+        "governmentPosition": "The government’s strategy presents renewable energy as a way to reduce imported-fuel dependence, improve energy security and lower long-run costs. It provides a 2030 framework of 10,450MW renewable capacity, including 5,500MW rooftop solar, and the Power Division has published rooftop-solar incentives, net-metering guidance and implementation documents. At the committee meeting, ministry officials reportedly said about 2MW was being added to the grid daily; the committee requested supporting detail and written responses.",
+        "findings": [
+          "The Power Division’s July 2026 strategy targets 10,450MW renewable capacity by 2030, including 5,500MW rooftop solar, and identifies investment, policy, financing and coordination gaps behind prior underperformance.",
+          "The strategy sets a July 2028 mid-term review, making a public monthly implementation baseline practical and consistent with the government’s own framework.",
+          "The parliamentary committee requested detailed rooftop-solar grid-supply figures, written answers, monthly progress reports and project-cost information on 11 October.",
+          "The reported 4,000MW February goal and 60MW over the previous 30 days are attributed to the committee meeting as reported by The Daily Star; they are not substituted for an official published statistics series.",
+          "Public project, cost, connection, output and grid-supply data would allow the public to judge results without prejudging individual officials or contractors."
+        ],
+        "claimMatrix": {
+          "strategyAndTargets": "VERIFIED FACT — HIGH — Power Division’s July 2026 National Renewable Energy Development Strategy and SREDA/Power Division programme list the 10,450MW total and 5,500MW rooftop targets for 2030.",
+          "implementationGaps": "VERIFIED FACT — HIGH — the Power Division strategy says prior targets did not achieve desired progress because of gaps in investment environment, policy support, financing and administrative coordination.",
+          "committeeRequests": "REPORTED FACT — HIGH — The Daily Star’s 11 October report says the parliamentary committee requested detailed grid-supply data, written answers, monthly reports and cost breakdowns. The Parliament Library’s October e-clipping record independently identifies the committee’s 11 October renewable-energy coverage.",
+          "dailyAndMonthlyAdditions": "REPORTED FACT — HIGH — The Daily Star attributes roughly 2MW daily and 60MW in 30 days to ministry officials and committee member Hasnat Abdullah. The article labels these as reported, not as an official series.",
+          "needForDashboard": "ANALYSIS — HIGH — a monthly public dataset is a proportionate accountability mechanism for a national programme with published targets, incentives and public-interest costs.",
+          "misconduct": "NO ASSERTION — no corruption, illegality or individual misconduct is alleged or implied."
+        },
+        "seoTitle": "সৌরবিদ্যুতের লক্ষ্য পূরণে মাসিক খোলা হিসাব চাই",
+        "metaDescription": "সংসদীয় কমিটি রুফটপ সৌরবিদ্যুতের গ্রিড-সরবরাহের বিস্তারিত তথ্য চেয়েছে। লক্ষ্য পূরণে প্রকল্প, ব্যয়, উৎপাদন ও গ্রিডের মাসিক খোলা হিসাব জরুরি।",
+        "categories": [
+          "জ্বালানি নীতি",
+          "সংসদীয় নজরদারি",
+          "প্রাতিষ্ঠানিক জবাবদিহি"
+        ],
+        "tags": [
+          "রুফটপ সোলার",
+          "সৌরবিদ্যুৎ",
+          "বিদ্যুৎ বিভাগ",
+          "SREDA",
+          "জাতীয় গ্রিড",
+          "সংসদীয় কমিটি",
+          "নবায়নযোগ্য জ্বালানি",
+          "জ্বালানি নিরাপত্তা",
+          "প্রকল্প ব্যয়",
+          "জবাবদিহি"
+        ]
+      },
+      "translations": {
+        "en": {
+          "title": "A 4,000MW solar target needs a public monthly progress account",
+          "excerpt": "A parliamentary committee has asked for detailed rooftop-solar grid-supply data and written answers. Bangladesh’s new strategy sets ambitious targets while acknowledging past implementation gaps. The public now needs monthly project, cost, output and grid-supply data—not another announcement.",
+          "imageAlt": "Editorial illustration about Bangladesh rooftop solar policy, public data and accountability",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "The parliamentary committee has demanded detailed rooftop-solar grid data and written answers. Targets matter, but every project’s cost, output and actual grid supply must be public each month."
+        },
+        "de": {
+          "title": "Ein 4.000-MW-Solarziel braucht einen öffentlichen Monatsbericht",
+          "excerpt": "Ein Parlamentsausschuss verlangt detaillierte Daten zur Einspeisung von Dachsolarstrom und schriftliche Antworten. Bangladeschs neue Strategie setzt hohe Ziele und räumt frühere Umsetzungsdefizite ein. Nötig sind monatliche Daten zu Projekten, Kosten, Erzeugung und Netzeinspeisung.",
+          "imageAlt": "Redaktionelle Illustration zu Dachsolarpolitik, öffentlichen Daten und Rechenschaftspflicht in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Der Parlamentsausschuss fordert detaillierte Daten zu Dachsolarstrom im Netz. Ziele zählen, doch Kosten, Erzeugung und tatsächliche Einspeisung jedes Projekts müssen monatlich öffentlich sein."
+        }
+      }
+    },
+    {
       "id": "bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
       "slug": "bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
       "sharePath": "blog/bangladesh-bank-taxpayer-recapitalisation-draft-public-account-2026",
