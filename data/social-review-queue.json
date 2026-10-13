@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T17:59:30.430Z",
+  "updatedAt": "2026-10-13T00:44:49.053Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6315,6 +6315,45 @@
           "description": "দেশের অর্থনীতির অন্যতম চালিকাশক্তি প্রবাসীদের পাঠানো রেমিট্যান্স।\n\nদেশের অর্থনীতির অন্যতম চালিকাশক্তি প্রবাসীদের পাঠানো রেমিট্যান্স। বৈদেশিক মুদ্রার রিজার্ভ শক্তিশালী রাখতে যাঁদের অবদান এত গুরুত্বপূর্ণ, নিজের এলাকার জনপ্রতিনিধি নির্বাচনে তাঁদের অংশগ্রহণের সুযোগ থাকবে না কেন? দেশের অর্থনীতিতে প্রবাসীদের অবদান আছে, দেশের সিদ্ধান্তেও তাঁদের অংশগ্রহণ নিশ্চিত করতে হবে। আসন্ন স্থানীয় সরকার নির্বাচনে প্রবাস থেকে ভোট দেওয়ার ব্যবস্থা নিশ্চিত করা সময়ের দাবি। #প্রবাসীদের_ভোটাধিকার #diasporavotingrights\n\nবিস্তারিত: https://www.facebook.com/reel/1815542369463167/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209359866921031-5d56dd457a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209434068921031-42da0c4c0b",
+      "sourceType": "facebook",
+      "sourceId": "122209434068921031",
+      "sourceKey": "facebook:germany:122209434068921031",
+      "sourceFingerprint": "42da0c4c0b4258882b6c1c25a8b28f8fc6755b871749e806aa6514a3b315d886",
+      "sourceCreatedAt": "2026-10-12T21:58:43+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1834493051304034/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-13T00:44:49.052Z",
+      "updatedAt": "2026-10-13T00:44:49.053Z",
+      "title": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪",
+      "excerpt": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪",
+      "sourceCaption": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪",
+      "image": "img/social/germany/fb-122209434068921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪\nhttps://www.facebook.com/reel/1834493051304034/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209434068921031-42da0c4c0b-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ…",
+          "description": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪\n\nচুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪\n\nবিস্তারিত: https://www.facebook.com/reel/1834493051304034/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209434068921031-42da0c4c0b-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
