@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-12T17:58:58.136Z",
+  "updatedAt": "2026-10-13T00:44:07.328Z",
   "items": [
+    {
+      "id": "facebook-germany-122209434068921031",
+      "facebookId": "122209434068921031",
+      "status": "published",
+      "date": "১২ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-12T21:58:43+0000",
+      "badge": "ভিডিও",
+      "title": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ",
+      "excerpt": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ 🇩🇪",
+      "sourceCaption": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ\n\n#hasnatabdullah #ncp #germany🇩🇪",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1834493051304034/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122209434068921031.jpg",
+      "imageAlt": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122209359866921031",
       "facebookId": "122209359866921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122208714752921031.jpg",
       "imageAlt": "আওয়ামীলীগের সাথে রিকন্সলেশন এর কোন সুযোগ নাই, কারন তার স/ন্ত্রা/সী, জ/ঙ্গী কার্যক্রম চালিয়েছে।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122208456866921031",
-      "facebookId": "122208456866921031",
-      "status": "published",
-      "date": "৭ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-07T10:41:05+0000",
-      "badge": "ভিডিও",
-      "title": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
-      "excerpt": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
-      "sourceCaption": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122208456866921031",
-      "mediaType": "video",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122208456866921031.jpg",
-      "imageAlt": "আজ শহীদ আবরার ফাহাদের ৭ম শাহাদাতবার্ষিকী",
       "managedBy": "facebook-sync"
     },
     {
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70993,
+      "viewCount": 70994,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
