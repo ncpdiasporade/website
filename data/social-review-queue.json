@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T00:44:49.053Z",
+  "updatedAt": "2026-10-13T07:45:53.100Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6354,6 +6354,45 @@
           "description": "চুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪\n\nচুয়েট ভিসি ছাত্রদলের গুন্ডা নিয়ে রুমের তালা ভাঙছে, তিনি নির্লজ্জ — হাসনাত আব্দুল্লাহ #hasnatabdullah #ncp #germany🇩🇪\n\nবিস্তারিত: https://www.facebook.com/reel/1834493051304034/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209434068921031-42da0c4c0b-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209483286921031-4bd85ecc47",
+      "sourceType": "facebook",
+      "sourceId": "122209483286921031",
+      "sourceKey": "facebook:germany:122209483286921031",
+      "sourceFingerprint": "4bd85ecc47ccbf6c6623b5a7dfb5cc0f0ed1fc46e48fd044d4125f0c311640a2",
+      "sourceCreatedAt": "2026-10-13T06:26:16+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209483286921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-13T07:45:53.100Z",
+      "updatedAt": "2026-10-13T07:45:53.100Z",
+      "title": "Father of BAL. #standwithdryunus",
+      "excerpt": "Father of BAL. #standwithdryunus",
+      "sourceCaption": "Father of BAL. #standwithdryunus",
+      "image": "img/social/germany/fb-122209483286921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "Father of BAL. #standwithdryunus\nhttps://www.facebook.com/122195961254921031/posts/122209483286921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209483286921031-4bd85ecc47-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "Father of BAL. #standwithdryunus",
+          "description": "Father of BAL. #standwithdryunus\n\nFather of BAL. #standwithdryunus\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209483286921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209483286921031-4bd85ecc47-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
