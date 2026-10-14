@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-14T11:57:23.992Z",
+  "updatedAt": "2026-10-14T17:14:09.482Z",
   "items": [
+    {
+      "id": "facebook-germany-122209657514921031",
+      "facebookId": "122209657514921031",
+      "status": "published",
+      "date": "১৪ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-14T13:43:56+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে।",
+      "excerpt": "সেই দামেও সিলিন্ডার পাওয়া যাচ্ছে না। - নাহিদ ইসলাম",
+      "sourceCaption": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে। সেই দামেও সিলিন্ডার পাওয়া যাচ্ছে না।\n\n- নাহিদ ইসলাম\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209657514921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122209657514921031.jpg",
+      "imageAlt": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122209544834921031",
       "facebookId": "122209544834921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122209359866921031.jpg",
       "imageAlt": "দেশের অর্থনীতির অন্যতম চালিকাশক্তি প্রবাসীদের পাঠানো রেমিট্যান্স।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122209332224921031",
-      "facebookId": "122209332224921031",
-      "status": "published",
-      "date": "১২ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-12T07:30:28+0000",
-      "badge": "আয়োজন",
-      "title": "ইউনিয়ন পরিষদ (ইউপি) নির্বাচনের রোডম্যাপ ঘোষণা করেছে নির্বাচন কমিশন (ইসি)।",
-      "excerpt": "ঘোষিত রোডম্যাপ অনুযায়ী, পাঁচ ধাপে ভোটগ্রহণ অনুষ্ঠিত হবে। প্রথম ধাপে ভোটগ্রহণ অনুষ্ঠিত হবে ২১ জানুয়ারি। এরপর দ্বিতীয় ধাপের ভোটগ্রহণ হবে ৪ ফেব্রুয়ারি।",
-      "sourceCaption": "ইউনিয়ন পরিষদ (ইউপি) নির্বাচনের রোডম্যাপ ঘোষণা করেছে নির্বাচন কমিশন (ইসি)।\n\nঘোষিত রোডম্যাপ অনুযায়ী, পাঁচ ধাপে ভোটগ্রহণ অনুষ্ঠিত হবে। প্রথম ধাপে ভোটগ্রহণ অনুষ্ঠিত হবে ২১ জানুয়ারি। এরপর দ্বিতীয় ধাপের ভোটগ্রহণ হবে ৪ ফেব্রুয়ারি। ২৯ এপ্রিল হবে তৃতীয় ধাপের। \n\nআর চতুর্থ ও পঞ্চম ধাপের ভোটগ্রহণ যথাক্রমে অনুষ্ঠিত হবে ১৩ ও ২৭ মে।\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209332224921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122209332224921031.jpg",
-      "imageAlt": "ইউনিয়ন পরিষদ (ইউপি) নির্বাচনের রোডম্যাপ ঘোষণা করেছে নির্বাচন কমিশন (ইসি)।",
       "managedBy": "facebook-sync"
     },
     {
