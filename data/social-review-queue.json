@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T15:04:25.300Z",
+  "updatedAt": "2026-10-15T22:22:38.140Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6627,6 +6627,45 @@
           "description": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany\n\nশারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209795478921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209795478921031-8db35877aa-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209832126921031-cb8f62ead2",
+      "sourceType": "facebook",
+      "sourceId": "122209832126921031",
+      "sourceKey": "facebook:germany:122209832126921031",
+      "sourceFingerprint": "cb8f62ead2795e2542a2597986b6dbff911261dd184073cfc59684ec83cab67c",
+      "sourceCreatedAt": "2026-10-15T19:25:07+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209832126921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-15T22:22:38.139Z",
+      "updatedAt": "2026-10-15T22:22:38.139Z",
+      "title": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে।",
+      "excerpt": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে। - নাহিদ ইসলাম #ncpdagermany",
+      "sourceCaption": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে। - নাহিদ ইসলাম #ncpdagermany",
+      "image": "img/social/germany/fb-122209832126921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে। ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে। -…\nhttps://www.facebook.com/122195961254921031/posts/122209832126921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209832126921031-cb8f62ead2-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা…",
+          "description": "ইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে।\n\nইতোমধ্যে সারা দেশে দলের নেতাকর্মীদের সনাতন ধর্মাবলম্বীদের পূজা উদযাপনে সর্বাত্মক সহযোগিতা করার নির্দেশনা দেওয়া হয়েছে। - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209832126921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209832126921031-cb8f62ead2-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
