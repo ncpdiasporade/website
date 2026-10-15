@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T17:14:51.925Z",
+  "updatedAt": "2026-10-15T09:59:10.291Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6510,6 +6510,45 @@
           "description": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে।\n\n১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে। সেই দামেও সিলিন্ডার পাওয়া যাচ্ছে না। - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209657514921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209657514921031-7e056e064a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209761236921031-bac53df28a",
+      "sourceType": "facebook",
+      "sourceId": "122209761236921031",
+      "sourceKey": "facebook:germany:122209761236921031",
+      "sourceFingerprint": "bac53df28abbb8391019735b16fc79b0e4c385b8fc174e7604b7793e984eb520",
+      "sourceCreatedAt": "2026-10-15T08:20:43+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209761236921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-15T09:59:10.291Z",
+      "updatedAt": "2026-10-15T09:59:10.291Z",
+      "title": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।",
+      "excerpt": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে! #ncpdagermany",
+      "sourceCaption": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে! #ncpdagermany",
+      "image": "img/social/germany/fb-122209761236921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। ৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে! #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122209761236921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209761236921031-bac53df28a-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।",
+          "description": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।\n\n৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209761236921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209761236921031-bac53df28a-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
