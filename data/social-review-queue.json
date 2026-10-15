@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T09:59:10.291Z",
+  "updatedAt": "2026-10-15T15:04:25.300Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6549,6 +6549,84 @@
           "description": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।\n\n৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209761236921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209761236921031-bac53df28a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209793204921031-8b252d999e",
+      "sourceType": "facebook",
+      "sourceId": "122209793204921031",
+      "sourceKey": "facebook:germany:122209793204921031",
+      "sourceFingerprint": "8b252d999e73248a1b6378449c6167811bc816a781fb86d908b55e5a7b0e4183",
+      "sourceCreatedAt": "2026-10-15T13:12:29+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209793204921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-15T15:04:24.718Z",
+      "updatedAt": "2026-10-15T15:04:24.718Z",
+      "title": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা",
+      "excerpt": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা",
+      "sourceCaption": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা",
+      "image": "img/social/germany/fb-122209793204921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা\nhttps://www.facebook.com/122195961254921031/posts/122209793204921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209793204921031-8b252d999e-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা",
+          "description": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা\n\nশারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209793204921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209793204921031-8b252d999e-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122209795478921031-8db35877aa",
+      "sourceType": "facebook",
+      "sourceId": "122209795478921031",
+      "sourceKey": "facebook:germany:122209795478921031",
+      "sourceFingerprint": "8db35877aa02c4550f7ba9136aaf258fbe31dabacbf089f86122b2e55a2da6ab",
+      "sourceCreatedAt": "2026-10-15T13:27:38+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209795478921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-15T15:04:25.300Z",
+      "updatedAt": "2026-10-15T15:04:25.300Z",
+      "title": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany",
+      "excerpt": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany",
+      "sourceCaption": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany",
+      "image": "img/social/germany/fb-122209795478921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122209795478921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122209795478921031-8db35877aa-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা…",
+          "description": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany\n\nশারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা রাজধানীর বাংলামোটর কেন্দ্রীয় কার্যালয় #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122209795478921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122209795478921031-8db35877aa-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
