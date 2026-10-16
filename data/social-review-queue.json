@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T21:13:49.234Z",
+  "updatedAt": "2026-10-16T23:38:41.793Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6744,6 +6744,45 @@
           "description": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।\n\nবাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ। শুক্রবার রাতে ফেইসবুক পোস্টে তিনি এ মন্তব্য করেন। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/reel/869695589499116/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122209990208921031-b19564e03e-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122210016968921031-3edc8f3797",
+      "sourceType": "facebook",
+      "sourceId": "122210016968921031",
+      "sourceKey": "facebook:germany:122210016968921031",
+      "sourceFingerprint": "3edc8f37973047d0f16f9eaaac49985dbc5bcd02e70da4bfb6b5b94a39a5f485",
+      "sourceCreatedAt": "2026-10-16T22:12:41+0000",
+      "sourceUrl": "https://www.facebook.com/reel/4226556317478042/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-16T23:38:41.792Z",
+      "updatedAt": "2026-10-16T23:38:41.792Z",
+      "title": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
+      "excerpt": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।” #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
+      "sourceCaption": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।” #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
+      "image": "img/social/germany/fb-122210016968921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। “দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে…\nhttps://www.facebook.com/reel/4226556317478042/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122210016968921031-3edc8f3797-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ…",
+          "description": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।\n\n“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।” #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/4226556317478042/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122210016968921031-3edc8f3797-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
