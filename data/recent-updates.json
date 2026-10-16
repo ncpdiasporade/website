@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-16T17:26:51.023Z",
+  "updatedAt": "2026-10-16T21:13:11.253Z",
   "items": [
+    {
+      "id": "facebook-germany-122209990208921031",
+      "facebookId": "122209990208921031",
+      "status": "published",
+      "date": "১৬ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-16T17:51:26+0000",
+      "badge": "ভিডিও",
+      "title": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।",
+      "excerpt": "শুক্রবার রাতে ফেইসবুক পোস্টে তিনি এ মন্তব্য করেন।",
+      "sourceCaption": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।\n\nশুক্রবার রাতে ফেইসবুক পোস্টে তিনি এ মন্তব্য করেন। \n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/869695589499116/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122209990208921031.jpg",
+      "imageAlt": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122209960238921031",
       "facebookId": "122209960238921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122209761236921031.jpg",
       "imageAlt": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122209657514921031",
-      "facebookId": "122209657514921031",
-      "status": "published",
-      "date": "১৪ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-14T13:43:56+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে।",
-      "excerpt": "সেই দামেও সিলিন্ডার পাওয়া যাচ্ছে না। - নাহিদ ইসলাম",
-      "sourceCaption": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে। সেই দামেও সিলিন্ডার পাওয়া যাচ্ছে না।\n\n- নাহিদ ইসলাম\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209657514921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122209657514921031.jpg",
-      "imageAlt": "১২০০ টাকার এলপিজি সিলিন্ডারের দাম বাড়িয়ে ১৮০০ টাকা করেছে।",
       "managedBy": "facebook-sync"
     },
     {
