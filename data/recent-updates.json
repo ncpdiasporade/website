@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-16T21:13:11.253Z",
+  "updatedAt": "2026-10-16T23:38:10.609Z",
   "items": [
+    {
+      "id": "facebook-germany-122210016968921031",
+      "facebookId": "122210016968921031",
+      "status": "published",
+      "date": "১৭ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-16T22:12:41+0000",
+      "badge": "ভিডিও",
+      "title": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
+      "excerpt": "এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।”",
+      "sourceCaption": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।”\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/4226556317478042/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122210016968921031.jpg",
+      "imageAlt": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122209990208921031",
       "facebookId": "122209990208921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122209793204921031.jpg",
       "imageAlt": "শারদীয় দুর্গাপূজা উপলক্ষে সনাতনী নেতৃবৃন্দের সাথে এনসিপি নেতৃবৃন্দের শুভেচ্ছা বিনিময় সভা",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122209761236921031",
-      "facebookId": "122209761236921031",
-      "status": "published",
-      "date": "১৫ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-15T08:20:43+0000",
-      "badge": "জুলাই",
-      "title": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।",
-      "excerpt": "এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে!",
-      "sourceCaption": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে। এটা মূলত জাতির সাথে একটা প্রতারণার সামিল যেমনটা সরকার করেছে জুলাই সনদ আর গনভোট নিয়ে!\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122209761236921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122209761236921031.jpg",
-      "imageAlt": "৭ মাসেই জনগণকে দেওয়া প্রতিশ্রুতি থেকে পুরোপুরি সরে এসেছে।",
       "managedBy": "facebook-sync"
     },
     {
