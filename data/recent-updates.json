@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-18T14:36:48.823Z",
+  "updatedAt": "2026-10-18T18:08:20.772Z",
   "items": [
+    {
+      "id": "facebook-germany-122210295482921031",
+      "facebookId": "122210295482921031",
+      "status": "published",
+      "date": "১৮ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-18T14:38:17+0000",
+      "badge": "ভিডিও",
+      "title": "“সরকারের মুখে জুলাই গণ-অভ্যুত্থানের কথা থাকলেও তাদের অন্তরে কার্যক্রম নিষিদ্ধ লীগ রয়েছে”!",
+      "excerpt": "“সরকার রাষ্ট্র সংস্কারের পরিবর্তে ক্ষমতাকেন্দ্রিক ব্যবসা, দুর্নীতি ও নিষিদ্ধ লীগকে পুনর্বাসনের পথে হাঁটছে। জুলাই গণহ/ত্যার বিচারও দায়সারা বিষয়ে পরিণত হয়েছে।” - হাসনাত আব্দুল্লাহ",
+      "sourceCaption": "“সরকারের মুখে জুলাই গণ-অভ্যুত্থানের কথা থাকলেও তাদের অন্তরে কার্যক্রম নিষিদ্ধ লীগ রয়েছে”!\n\n“সরকার রাষ্ট্র সংস্কারের পরিবর্তে ক্ষমতাকেন্দ্রিক ব্যবসা, দুর্নীতি ও নিষিদ্ধ লীগকে পুনর্বাসনের পথে হাঁটছে। জুলাই গণহ/ত্যার বিচারও দায়সারা বিষয়ে পরিণত হয়েছে।”\n\n- হাসনাত আব্দুল্লাহ \n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/2007706276573811/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122210295482921031.jpg",
+      "imageAlt": "“সরকারের মুখে জুলাই গণ-অভ্যুত্থানের কথা থাকলেও তাদের অন্তরে কার্যক্রম নিষিদ্ধ লীগ রয়েছে”!",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122210271968921031",
       "facebookId": "122210271968921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122210078684921031.jpg",
       "imageAlt": "গতকাল থেকে শুরু হয়েছে বাংলাদেশসহ সারাবিশ্বের হিন্দু সম্প্রদায়ের অন্যতম প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজা।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122210016968921031",
-      "facebookId": "122210016968921031",
-      "status": "published",
-      "date": "১৭ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-16T22:12:41+0000",
-      "badge": "ভিডিও",
-      "title": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
-      "excerpt": "এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।”",
-      "sourceCaption": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে। এ ধরনের ঘটনা সামনে এলে সংসদে ও রাজপথে কথা বলবে এনসিপি।”\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/4226556317478042/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122210016968921031.jpg",
-      "imageAlt": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67349,
+      "viewCount": 67350,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
