@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T01:05:51.209Z",
+  "updatedAt": "2026-10-18T14:37:19.913Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -6939,6 +6939,45 @@
           "description": "অবিলম্বে গণভোটের রায় বাস্তবায়ন ও সংবিধান সংস্কার পরিষদ গঠনসহ তিন দফা দাবি জানিয়েছে জাতীয় নাগরিক পার্টি (এনসিপি)।\n\nঅবিলম্বে গণভোটের রায় বাস্তবায়ন ও সংবিধান সংস্কার পরিষদ গঠনসহ তিন দফা দাবি জানিয়েছে জাতীয় নাগরিক পার্টি (এনসিপি)। জুলাই সনদ স্বাক্ষরের বর্ষপূর্তি উপলক্ষে আয়োজিত এক জরুরি সংবাদ সম্মেলনে দলটির পক্ষ থেকে এসব দাবি জানানো হয়। এনসিপির সদস্যসচিব আখতার হোসেন একদলীয় সংবিধান সংশোধন কমিটিতে এনসিপি অংশ নেবে না জানিয়ে বলেন, অবিলম্বে গণভোটের রায় বাস্তবায়ন করতে হবে। একদলীয় সংবিধান সংশোধন কমিটি বিলুপ্ত করে অবিলম্বে সংবিধান সংস্কার পরিষদ গঠন করতে হবে। একদলীয় সংবিধান সংশোধন কমিটিতে এনসিপি যাবে না। এ নিয়ে বিভ্রান্ত না হওয়ার আহ্বান। #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/954569983945057/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122210192150921031-694fae6d59-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122210271968921031-f1af75a159",
+      "sourceType": "facebook",
+      "sourceId": "122210271968921031",
+      "sourceKey": "facebook:germany:122210271968921031",
+      "sourceFingerprint": "f1af75a15955873bd9c6e6ce78c37cea169da9aaddf13922815da4b66e5236a0",
+      "sourceCreatedAt": "2026-10-18T11:43:02+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122210271968921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-18T14:37:19.913Z",
+      "updatedAt": "2026-10-18T14:37:19.913Z",
+      "title": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany",
+      "excerpt": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany",
+      "sourceCaption": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany",
+      "image": "img/social/germany/fb-122210271968921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122210271968921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122210271968921031-f1af75a159-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany",
+          "description": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany\n\nজাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী... #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122210271968921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122210271968921031-f1af75a159-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
