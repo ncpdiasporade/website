@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-18T11:11:01.755Z",
+  "updatedAt": "2026-10-18T14:36:48.823Z",
   "items": [
+    {
+      "id": "facebook-germany-122210271968921031",
+      "facebookId": "122210271968921031",
+      "status": "published",
+      "date": "১৮ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-18T11:43:02+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী...",
+      "excerpt": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী...",
+      "sourceCaption": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী...\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122210271968921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122210271968921031.jpg",
+      "imageAlt": "জাতীয় সংসদের সরকার দলীয় চিফ হুইপের বাণী চিরন্তনী...",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122210192150921031",
       "facebookId": "122210192150921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122210016968921031.jpg",
       "imageAlt": "“দেশের কোনো সম্প্রদায়ের মানুষ ধর্মীয় পরিচয়ের কারণে বৈষম্যের শিকার হলে এনসিপি তার প্রতিবাদ করবে।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122209990208921031",
-      "facebookId": "122209990208921031",
-      "status": "published",
-      "date": "১৬ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-16T17:51:26+0000",
-      "badge": "ভিডিও",
-      "title": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।",
-      "excerpt": "শুক্রবার রাতে ফেইসবুক পোস্টে তিনি এ মন্তব্য করেন।",
-      "sourceCaption": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।\n\nশুক্রবার রাতে ফেইসবুক পোস্টে তিনি এ মন্তব্য করেন। \n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/869695589499116/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122209990208921031.jpg",
-      "imageAlt": "বাংলাদেশ এখন ‘ফরেন ফ্রেন্ডস ক্লাবের’ অধীনে পরিচালিত হচ্ছে বলে মন্তব্য করেছেন হাসনাত আবদুল্লাহ।",
       "managedBy": "facebook-sync"
     },
     {
