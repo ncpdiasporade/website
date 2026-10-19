@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T18:08:51.461Z",
+  "updatedAt": "2026-10-19T16:04:39.335Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7017,6 +7017,45 @@
           "description": "“সরকারের মুখে জুলাই গণ-অভ্যুত্থানের কথা থাকলেও তাদের অন্তরে কার্যক্রম নিষিদ্ধ লীগ রয়েছে”!\n\n“সরকারের মুখে জুলাই গণ-অভ্যুত্থানের কথা থাকলেও তাদের অন্তরে কার্যক্রম নিষিদ্ধ লীগ রয়েছে”! “সরকার রাষ্ট্র সংস্কারের পরিবর্তে ক্ষমতাকেন্দ্রিক ব্যবসা, দুর্নীতি ও নিষিদ্ধ লীগকে পুনর্বাসনের পথে হাঁটছে। জুলাই গণহ/ত্যার বিচারও দায়সারা বিষয়ে পরিণত হয়েছে।” - হাসনাত আব্দুল্লাহ #ncpdagermany #ncp #ncpbangladesh #ncpda_germany\n\nবিস্তারিত: https://www.facebook.com/reel/2007706276573811/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122210295482921031-345ba0c6f7-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122210454032921031-d83e09c707",
+      "sourceType": "facebook",
+      "sourceId": "122210454032921031",
+      "sourceKey": "facebook:germany:122210454032921031",
+      "sourceFingerprint": "d83e09c707d889b9434e34aa8b2708b47f9f3593961059235a6429d4c686795a",
+      "sourceCreatedAt": "2026-10-19T14:30:09+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1870509710603695/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-19T16:04:39.334Z",
+      "updatedAt": "2026-10-19T16:04:39.334Z",
+      "title": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।",
+      "excerpt": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য। কেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।” - সারজিস আলম #ncpdagermany #ncp #ncpbangladesh #ncpda_germany",
+      "sourceCaption": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য। কেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।” - সারজিস আলম #ncpdagermany #ncp #ncpbangladesh #ncpda_germany",
+      "image": "img/social/germany/fb-122210454032921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য। “মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য। কেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।” - সারজিস আলম #ncpdagermany #ncp #ncpbangladesh #ncpda_germany\nhttps://www.facebook.com/reel/1870509710603695/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122210454032921031-d83e09c707-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।",
+          "description": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।\n\n“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য। কেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।” - সারজিস আলম #ncpdagermany #ncp #ncpbangladesh #ncpda_germany\n\nবিস্তারিত: https://www.facebook.com/reel/1870509710603695/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122210454032921031-d83e09c707-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
