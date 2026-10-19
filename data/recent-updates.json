@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-19T07:51:27.970Z",
+  "updatedAt": "2026-10-19T15:38:58.973Z",
   "items": [
+    {
+      "id": "facebook-germany-122210454032921031",
+      "facebookId": "122210454032921031",
+      "status": "published",
+      "date": "১৯ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-19T14:30:09+0000",
+      "badge": "ভিডিও",
+      "title": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।",
+      "excerpt": "কেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।”",
+      "sourceCaption": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।\nকেন্দ্র থেকে তৃণমূল এখান থেকে শিক্ষা নিবে সেই প্রত্যাশা করি।”\n\n- সারজিস আলম \n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1870509710603695/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122210454032921031.jpg",
+      "imageAlt": "“মাননীয় প্রধানমন্ত্রীর এই সাহসী সিদ্ধান্ত সাধুবাদ যোগ্য।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122210295482921031",
       "facebookId": "122210295482921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122210129402921031.jpg",
       "imageAlt": "প্রবাসীদের অধিকার, মর্যাদা ও ভবিষ্যৎ নিরাপত্তায় এনসিপির গুরুত্বপূর্ণ অঙ্গীকার!",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122210078684921031",
-      "facebookId": "122210078684921031",
-      "status": "published",
-      "date": "১৭ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-17T09:41:23+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "গতকাল থেকে শুরু হয়েছে বাংলাদেশসহ সারাবিশ্বের হিন্দু সম্প্রদায়ের অন্যতম প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজা।",
-      "excerpt": "এ উপলক্ষ্যে দেশের হিন্দু সম্প্রদায় তথা সনাতন ধর্মাবলম্বীদের এনসিপি জানাচ্ছে শারদীয় শুভেচ্ছা।",
-      "sourceCaption": "গতকাল থেকে শুরু হয়েছে বাংলাদেশসহ সারাবিশ্বের হিন্দু সম্প্রদায়ের অন্যতম প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজা। এ উপলক্ষ্যে দেশের হিন্দু সম্প্রদায় তথা সনাতন ধর্মাবলম্বীদের এনসিপি জানাচ্ছে শারদীয় শুভেচ্ছা।\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122210078684921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122210078684921031.jpg",
-      "imageAlt": "গতকাল থেকে শুরু হয়েছে বাংলাদেশসহ সারাবিশ্বের হিন্দু সম্প্রদায়ের অন্যতম প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজা।",
       "managedBy": "facebook-sync"
     },
     {
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 70998,
+      "viewCount": 70999,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
