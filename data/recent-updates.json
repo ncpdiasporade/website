@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-25T06:11:05.312Z",
+  "updatedAt": "2026-10-25T11:35:44.003Z",
   "items": [
+    {
+      "id": "facebook-germany-122211365378921031",
+      "facebookId": "122211365378921031",
+      "status": "published",
+      "date": "২৫ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-25T10:32:20+0000",
+      "badge": "প্রবাসী ইস্যু",
+      "title": "আজ শুভ প্রবারণা পূর্ণিমা।",
+      "excerpt": "বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময় অভিনন্দন।",
+      "sourceCaption": "আজ শুভ প্রবারণা পূর্ণিমা। বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময় অভিনন্দন।\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211365378921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122211365378921031.jpg",
+      "imageAlt": "আজ শুভ প্রবারণা পূর্ণিমা।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122211246158921031",
       "facebookId": "122211246158921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122210968730921031.jpg",
       "imageAlt": "আইন শৃঙ্খলার অবনতি, দ্রব্যমূল্যের ঊর্ধ্বগতি, জ্বালানি তেলের মূল্যবৃদ্ধি এবং রাষ্ট্রীয় প্রতিষ্ঠান দলীয়করণের প্রতিবাদে…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122210918594921031",
-      "facebookId": "122210918594921031",
-      "status": "published",
-      "date": "২২ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-22T12:25:00+0000",
-      "badge": "ভিডিও",
-      "title": "বিরোধী রাজনৈতিক দলের ওপর গোয়েন্দা সংস্থা দিয়ে নজরদারি চালানোর বার্তা অত্যন্ত বিপজ্জনক।",
-      "excerpt": "রাষ্ট্রীয় বাহিনীকে তাদের মৌলিক দায়িত্ব থেকে সরিয়ে বিরোধী দলের পেছনে লাগানো এবং নজরদারি প্রযুক্তির অপব্যবহার ফ্যাসিবাদী চরিত্রের বহিঃপ্রকাশ। এমন কর্মকাণ্ড অতীতের স্বৈরাচারী শাসনামলের কথা স্মরণ করিয়ে দেয়।",
-      "sourceCaption": "বিরোধী রাজনৈতিক দলের ওপর গোয়েন্দা সংস্থা দিয়ে নজরদারি চালানোর বার্তা অত্যন্ত বিপজ্জনক। \n\nরাষ্ট্রীয় বাহিনীকে তাদের মৌলিক দায়িত্ব থেকে সরিয়ে বিরোধী দলের পেছনে লাগানো এবং নজরদারি প্রযুক্তির অপব্যবহার ফ্যাসিবাদী চরিত্রের বহিঃপ্রকাশ। এমন কর্মকাণ্ড অতীতের স্বৈরাচারী শাসনামলের কথা স্মরণ করিয়ে দেয়।\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1782077166211352/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122210918594921031.jpg",
-      "imageAlt": "বিরোধী রাজনৈতিক দলের ওপর গোয়েন্দা সংস্থা দিয়ে নজরদারি চালানোর বার্তা অত্যন্ত বিপজ্জনক।",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67359,
+      "viewCount": 67360,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
