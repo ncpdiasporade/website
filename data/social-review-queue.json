@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T16:37:35.144Z",
+  "updatedAt": "2026-10-25T11:36:11.453Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7368,6 +7368,45 @@
           "description": "এনসিপির সুপার সিক্সটিন (Super 16)!\n\nএনসিপির সুপার সিক্সটিন (Super 16)! যাঁদের হাতে নতুন বাংলাদেশের রাজনৈতিক রূপরেখা ও কর্মপরিকল্পনা বাস্তবায়নের দায়িত্ব। পুরোনো বন্দোবস্ত ভাঙার অঙ্গীকারে এগিয়ে যাক এনসিপি, এগিয়ে যাক বাংলাদেশ! 🇧🇩 #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/2182267586035745/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122211246158921031-343be6fccb-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122211365378921031-0d998eb466",
+      "sourceType": "facebook",
+      "sourceId": "122211365378921031",
+      "sourceKey": "facebook:germany:122211365378921031",
+      "sourceFingerprint": "0d998eb4664ef749d059bf2fbc6860f91ec2702daad4611bbd455b22c01b2206",
+      "sourceCreatedAt": "2026-10-25T10:32:20+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211365378921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-25T11:36:11.453Z",
+      "updatedAt": "2026-10-25T11:36:11.453Z",
+      "title": "আজ শুভ প্রবারণা পূর্ণিমা।",
+      "excerpt": "আজ শুভ প্রবারণা পূর্ণিমা। বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময় অভিনন্দন। #ncpdagermany",
+      "sourceCaption": "আজ শুভ প্রবারণা পূর্ণিমা। বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময় অভিনন্দন। #ncpdagermany",
+      "image": "img/social/germany/fb-122211365378921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "আজ শুভ প্রবারণা পূর্ণিমা। আজ শুভ প্রবারণা পূর্ণিমা। বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময়…\nhttps://www.facebook.com/122195961254921031/posts/122211365378921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122211365378921031-0d998eb466-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "আজ শুভ প্রবারণা পূর্ণিমা।",
+          "description": "আজ শুভ প্রবারণা পূর্ণিমা।\n\nআজ শুভ প্রবারণা পূর্ণিমা। বৌদ্ধ সম্প্রদায়ের অন্যতম প্রধান এই ধর্মীয় উৎসব উপলক্ষে জাতীয় নাগরিক পার্টি - এনসিপি এবং NCP Diaspora Alliance - Germany’র পক্ষ থেকে সকল বৌদ্ধ ধর্মাবলম্বীকে আন্তরিক শুভেচ্ছা ও মৈত্রীয়ময় অভিনন্দন। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211365378921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122211365378921031-0d998eb466-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
