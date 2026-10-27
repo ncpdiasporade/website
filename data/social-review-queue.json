@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T14:19:07.192Z",
+  "updatedAt": "2026-10-27T00:28:37.559Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7641,6 +7641,45 @@
           "description": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।\n\nগঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211522482921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122211522482921031-0ad41050f8-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122211583952921031-5f1b39ed23",
+      "sourceType": "facebook",
+      "sourceId": "122211583952921031",
+      "sourceKey": "facebook:germany:122211583952921031",
+      "sourceFingerprint": "5f1b39ed2311b836e88709cef62a437b1e78b715bc86e5d119da9fcfc70fa169",
+      "sourceCreatedAt": "2026-10-26T22:23:26+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211583952921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-27T00:28:37.559Z",
+      "updatedAt": "2026-10-27T00:28:37.559Z",
+      "title": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany",
+      "excerpt": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany",
+      "sourceCaption": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany",
+      "image": "img/social/germany/fb-122211583952921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122211583952921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122211583952921031-5f1b39ed23-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany",
+          "description": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany\n\nএনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211583952921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122211583952921031-5f1b39ed23-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
