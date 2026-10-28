@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T00:28:37.559Z",
+  "updatedAt": "2026-10-28T09:44:35.447Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7680,6 +7680,45 @@
           "description": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany\n\nএনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন- #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211583952921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122211583952921031-5f1b39ed23-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122211787346921031-ee855e80b8",
+      "sourceType": "facebook",
+      "sourceId": "122211787346921031",
+      "sourceKey": "facebook:germany:122211787346921031",
+      "sourceFingerprint": "ee855e80b889e57e541b4aed412fa25d28cdac6b4ee80eafca8e55880fedb031",
+      "sourceCreatedAt": "2026-10-28T07:27:29+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211787346921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-28T09:44:35.446Z",
+      "updatedAt": "2026-10-28T09:44:35.447Z",
+      "title": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি…",
+      "excerpt": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি দলীয় সংসদ সদস্য আবদুল আজিজের বড় ছেলে নূরুজ্জামান। #ncpdagermany",
+      "sourceCaption": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি দলীয় সংসদ সদস্য আবদুল আজিজের বড় ছেলে নূরুজ্জামান। #ncpdagermany",
+      "image": "img/social/germany/fb-122211787346921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি… নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা…\nhttps://www.facebook.com/122195961254921031/posts/122211787346921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122211787346921031-ee855e80b8-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা…",
+          "description": "নাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি…\n\nনাটোর জেলার ছাত্রদল নেতা ও জুলাই যো/দ্ধা শাকিল ইসলামকে কু/পিয়ে ও পিটিয়ে হ/ত্যার ঘটনায় করা মামলার আসামী নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপি দলীয় সংসদ সদস্য আবদুল আজিজের বড় ছেলে নূরুজ্জামান। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211787346921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122211787346921031-ee855e80b8-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
