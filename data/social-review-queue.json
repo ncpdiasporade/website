@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T08:33:02.770Z",
+  "updatedAt": "2026-10-29T21:10:08.687Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7836,6 +7836,45 @@
           "description": "নাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা যায়, জুলাই সনদের বাস্তবায়ন…\n\nনাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা যায়, জুলাই সনদের বাস্তবায়ন ঠেকানো যায় আর আজীবন ক্ষমতায় থাকার বন্দোবস্ত করা যায়—সেই হিসাব-নিকাশ নিয়ে! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122211972470921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122211972470921031-30d244ce66-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122212061294921031-ebdbb0737e",
+      "sourceType": "facebook",
+      "sourceId": "122212061294921031",
+      "sourceKey": "facebook:germany:122212061294921031",
+      "sourceFingerprint": "ebdbb0737ed1f1ef5de17f92e0b4c93a096f8cf41e88e9069747a2a5c2ffdabb",
+      "sourceCreatedAt": "2026-10-29T19:40:24+0000",
+      "sourceUrl": "https://www.facebook.com/reel/2126981728694605/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-29T21:10:08.687Z",
+      "updatedAt": "2026-10-29T21:10:08.687Z",
+      "title": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
+      "excerpt": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। #ncpdagermany #ncp #ncpbangladesh #ncpda",
+      "sourceCaption": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। #ncpdagermany #ncp #ncpbangladesh #ncpda",
+      "image": "img/social/germany/fb-122212061294921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। #ncpdagermany #ncp #ncpbangladesh #ncpda\nhttps://www.facebook.com/reel/2126981728694605/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122212061294921031-ebdbb0737e-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
+          "description": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।\n\nআগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। #ncpdagermany #ncp #ncpbangladesh #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/2126981728694605/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122212061294921031-ebdbb0737e-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
