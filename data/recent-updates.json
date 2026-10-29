@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-29T16:10:01.962Z",
+  "updatedAt": "2026-10-29T21:09:41.242Z",
   "items": [
+    {
+      "id": "facebook-germany-122212061294921031",
+      "facebookId": "122212061294921031",
+      "status": "published",
+      "date": "২৯ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-29T19:40:24+0000",
+      "badge": "ভিডিও",
+      "title": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
+      "excerpt": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
+      "sourceCaption": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/2126981728694605/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122212061294921031.jpg",
+      "imageAlt": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122211972470921031",
       "facebookId": "122211972470921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122211583952921031.jpg",
       "imageAlt": "এনসিপির আহ্বায়ক নাহিদ ইসলাম বলেন-",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122211522482921031",
-      "facebookId": "122211522482921031",
-      "status": "published",
-      "date": "২৬ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-26T13:47:04+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।",
-      "excerpt": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।",
-      "sourceCaption": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211522482921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122211522482921031.jpg",
-      "imageAlt": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।",
       "managedBy": "facebook-sync"
     },
     {
@@ -321,7 +321,7 @@
       "sourceUrl": "https://www.facebook.com/reel/1579837809918839/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 76839,
+      "viewCount": 76840,
       "featured": false,
       "image": "img/social/germany/fb-1579837809918839.jpg",
       "imageAlt": "আমাদের Akhter Hossen 🫡",
