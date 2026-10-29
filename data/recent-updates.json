@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-29T01:51:55.955Z",
+  "updatedAt": "2026-10-29T08:32:33.779Z",
   "items": [
+    {
+      "id": "facebook-germany-122211972470921031",
+      "facebookId": "122211972470921031",
+      "status": "published",
+      "date": "২৯ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-29T08:16:11+0000",
+      "badge": "জুলাই",
+      "title": "নাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা…",
+      "excerpt": "নাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা যায়, জুলাই সনদের বাস্তবায়ন ঠেকানো যায় আর আজীবন ক্ষমতায় থাকার বন্দোবস্ত করা যায়—সেই হিসাব-নিকাশ নিয়ে!",
+      "sourceCaption": "নাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা যায়, জুলাই সনদের বাস্তবায়ন ঠেকানো যায় আর আজীবন ক্ষমতায় থাকার বন্দোবস্ত করা যায়—সেই হিসাব-নিকাশ নিয়ে!\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211972470921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122211972470921031.jpg",
+      "imageAlt": "নাগরিকের নিরাপত্তা আজ প্রতিদিনই প্রশ্নবিদ্ধ হচ্ছে, অথচ আমাদের স্বরাষ্ট্রমন্ত্রী ব্যস্ত আছেন কীভাবে সংবিধান সংস্কার করা…",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122211928382921031",
       "facebookId": "122211928382921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122211522482921031.jpg",
       "imageAlt": "গঠিত হলো হলো জাতীয় স্বেচ্ছাসেবক শক্তি।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122211519212921031",
-      "facebookId": "122211519212921031",
-      "status": "published",
-      "date": "২৬ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-26T13:19:01+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "এনসিপির পুনর্গঠিত কমিটির সহ-সম্পাদকীয় প্যানেল:-",
-      "excerpt": "এনসিপির পুনর্গঠিত কমিটির সহ-সম্পাদকীয় প্যানেল:-",
-      "sourceCaption": "এনসিপির পুনর্গঠিত কমিটির সহ-সম্পাদকীয় প্যানেল:-\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211519212921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122211519212921031.jpg",
-      "imageAlt": "এনসিপির পুনর্গঠিত কমিটির সহ-সম্পাদকীয় প্যানেল:-",
       "managedBy": "facebook-sync"
     },
     {
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 71009,
+      "viewCount": 71010,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
