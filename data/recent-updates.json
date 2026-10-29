@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-28T21:40:41.215Z",
+  "updatedAt": "2026-10-29T01:51:55.955Z",
   "items": [
+    {
+      "id": "facebook-germany-122211928382921031",
+      "facebookId": "122211928382921031",
+      "status": "published",
+      "date": "২৯ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-28T23:43:43+0000",
+      "badge": "ভিডিও",
+      "title": "“তোমরা হয়তো যাইবা ভুলে, খুনি হাসিনার ইতিহাস”",
+      "excerpt": "“সেই মায়ে রাখবো মনে, যে ছুঁইছে পোলার লাশ।” জুলাইয়ে পুলিশের গুলিতে শরীরের ৭০% paralyse হয়ে যাওয়া সন্তানের মায়ের আর্তনাদ।",
+      "sourceCaption": "“তোমরা হয়তো যাইবা ভুলে, খুনি হাসিনার ইতিহাস”\n“সেই মায়ে রাখবো মনে, যে ছুঁইছে পোলার লাশ।”\n\nজুলাইয়ে পুলিশের গুলিতে শরীরের ৭০% paralyse হয়ে যাওয়া সন্তানের মায়ের আর্তনাদ। \n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1130028709879386/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122211928382921031.jpg",
+      "imageAlt": "“তোমরা হয়তো যাইবা ভুলে, খুনি হাসিনার ইতিহাস”",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122211810026921031",
       "facebookId": "122211810026921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122211519212921031.jpg",
       "imageAlt": "এনসিপির পুনর্গঠিত কমিটির সহ-সম্পাদকীয় প্যানেল:-",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122211502058921031",
-      "facebookId": "122211502058921031",
-      "status": "published",
-      "date": "২৬ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-26T10:05:37+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "Asif Mahmud Shojib Bhuyain প্রধান এবং Monira Sharmin কে উপ-প্রধান করে গঠিত হলো ডায়াস্পোরা-বিষয়ক উপ-কমিটি:-",
-      "excerpt": "Asif Mahmud Shojib Bhuyain প্রধান এবং Monira Sharmin কে উপ-প্রধান করে গঠিত হলো ডায়াস্পোরা-বিষয়ক উপ-কমিটি:-",
-      "sourceCaption": "Asif Mahmud Shojib Bhuyain প্রধান এবং Monira Sharmin কে উপ-প্রধান করে গঠিত হলো ডায়াস্পোরা-বিষয়ক উপ-কমিটি:-",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122211502058921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122211502058921031.jpg",
-      "imageAlt": "Asif Mahmud Shojib Bhuyain প্রধান এবং Monira Sharmin কে উপ-প্রধান করে গঠিত হলো ডায়াস্পোরা-বিষয়ক উপ-কমিটি:-",
       "managedBy": "facebook-sync"
     },
     {
