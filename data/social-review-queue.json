@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T21:10:08.687Z",
+  "updatedAt": "2026-10-30T14:13:45.206Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -7875,6 +7875,84 @@
           "description": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।\n\nআগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা। #ncpdagermany #ncp #ncpbangladesh #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/2126981728694605/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122212061294921031-ebdbb0737e-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122212141520921031-2c8d64c694",
+      "sourceType": "facebook",
+      "sourceId": "122212141520921031",
+      "sourceKey": "facebook:germany:122212141520921031",
+      "sourceFingerprint": "2c8d64c69401bb3299e6628d22dbffb1a1a4cc24752720fa9c5010cade12e924",
+      "sourceCreatedAt": "2026-10-30T10:18:12+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122212141520921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-30T14:13:44.707Z",
+      "updatedAt": "2026-10-30T14:13:44.708Z",
+      "title": "নতুন ভিডিও আপডেট",
+      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
+      "sourceCaption": null,
+      "image": "img/social/germany/fb-122212141520921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "নতুন ভিডিও আপডেট অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।\nhttps://www.facebook.com/122195961254921031/posts/122212141520921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122212141520921031-2c8d64c694-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "নতুন ভিডিও আপডেট",
+          "description": "নতুন ভিডিও আপডেট\n\nঅফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122212141520921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122212141520921031-2c8d64c694-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122212159910921031-461448256b",
+      "sourceType": "facebook",
+      "sourceId": "122212159910921031",
+      "sourceKey": "facebook:germany:122212159910921031",
+      "sourceFingerprint": "461448256b695cee2fa460ff545dc61dd26034ba4380ef6038024d7634affdb4",
+      "sourceCreatedAt": "2026-10-30T12:29:54+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1467845335229490/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-10-30T14:13:45.205Z",
+      "updatedAt": "2026-10-30T14:13:45.205Z",
+      "title": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে…",
+      "excerpt": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে সমাপ্ত হলো এনসিপির আজকের গণবিক্ষোভ কর্মসূচি। #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
+      "sourceCaption": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে সমাপ্ত হলো এনসিপির আজকের গণবিক্ষোভ কর্মসূচি। #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda",
+      "image": "img/social/germany/fb-122212159910921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে… জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব…\nhttps://www.facebook.com/reel/1467845335229490/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122212159910921031-461448256b-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক…",
+          "description": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে…\n\nজুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে স্লোগানের মধ্য দিয়ে সফলভাবে সমাপ্ত হলো এনসিপির আজকের গণবিক্ষোভ কর্মসূচি। #ncpdagermany #ncp #ncpbangladesh #ncpda_germany #ncpda\n\nবিস্তারিত: https://www.facebook.com/reel/1467845335229490/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122212159910921031-461448256b-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
