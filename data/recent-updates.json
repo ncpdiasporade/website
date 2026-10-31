@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-10-31T17:46:06.463Z",
+  "updatedAt": "2026-10-31T21:38:27.494Z",
   "items": [
+    {
+      "id": "facebook-germany-122212384574921031",
+      "facebookId": "122212384574921031",
+      "status": "published",
+      "date": "৩১ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-31T19:06:51+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
+      "excerpt": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
+      "sourceCaption": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি\n\n#ncp",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122212384574921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122212384574921031.jpg",
+      "imageAlt": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122212350854921031",
       "facebookId": "122212350854921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122212141520921031.jpg",
       "imageAlt": "নতুন ভিডিও আপডেট",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122212061294921031",
-      "facebookId": "122212061294921031",
-      "status": "published",
-      "date": "২৯ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-29T19:40:24+0000",
-      "badge": "ভিডিও",
-      "title": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
-      "excerpt": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
-      "sourceCaption": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।\n\n#ncpdagermany #ncp #ncpbangladesh #ncpda",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/2126981728694605/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122212061294921031.jpg",
-      "imageAlt": "আগামীকাল শাহবাগে গণবিক্ষোভ সমাবেশ উপলক্ষে জনাব আখতার হোসেনের বার্তা।",
       "managedBy": "facebook-sync"
     },
     {
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 71015,
+      "viewCount": 71017,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
