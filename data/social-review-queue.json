@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T21:38:52.543Z",
+  "updatedAt": "2026-11-01T15:14:56.883Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8109,6 +8109,45 @@
           "description": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি #ncp\n\nএনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি #ncp\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122212384574921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122212384574921031-54fc51551f-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122212558844921031-c72031172d",
+      "sourceType": "facebook",
+      "sourceId": "122212558844921031",
+      "sourceKey": "facebook:germany:122212558844921031",
+      "sourceFingerprint": "c72031172dabbf24ba374d48a9b788abade5f9b6cab4905111af450549686a8a",
+      "sourceCreatedAt": "2026-11-01T15:04:24+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1160111856436930/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-01T15:14:56.882Z",
+      "updatedAt": "2026-11-01T15:14:56.882Z",
+      "title": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti",
+      "excerpt": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti",
+      "sourceCaption": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti",
+      "image": "img/social/germany/fb-122212558844921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti\nhttps://www.facebook.com/reel/1160111856436930/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122212558844921031-c72031172d-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti",
+          "description": "‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti\n\n‘বেকারদের চাকরি দে নইলে গদি ছাইড়া দে।’ #Bangladesh #Dhaka #NCP #JuboShokti\n\nবিস্তারিত: https://www.facebook.com/reel/1160111856436930/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122212558844921031-c72031172d-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
