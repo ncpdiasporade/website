@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-01T07:36:36.364Z",
+  "updatedAt": "2026-11-01T15:14:32.519Z",
   "items": [
+    {
+      "id": "facebook-germany-122212558844921031",
+      "facebookId": "122212558844921031",
+      "status": "published",
+      "date": "১ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-01T15:04:24+0000",
+      "badge": "ভিডিও",
+      "title": "‘বেকারদের চাকরি দে",
+      "excerpt": "নইলে গদি ছাইড়া দে।’",
+      "sourceCaption": "‘বেকারদের চাকরি দে\nনইলে গদি ছাইড়া দে।’\n\n#Bangladesh #Dhaka #NCP #JuboShokti",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/1160111856436930/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122212558844921031.jpg",
+      "imageAlt": "‘বেকারদের চাকরি দে",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122212384574921031",
       "facebookId": "122212384574921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122212159910921031.jpg",
       "imageAlt": "জুলাই গণঅভ্যুত্থানের মহানায়ক, এক দফার ঘোষক ও জাতীয় নাগরিক পার্টি (এনসিপি)-এর আহ্বায়ক জনাব নাহিদ ইসলামের বজ্রকণ্ঠে…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122212141520921031",
-      "facebookId": "122212141520921031",
-      "status": "published",
-      "date": "৩০ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-30T10:18:12+0000",
-      "badge": "ভিডিও",
-      "title": "নতুন ভিডিও আপডেট",
-      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
-      "sourceCaption": "",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122212141520921031",
-      "mediaType": "video",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122212141520921031.jpg",
-      "imageAlt": "নতুন ভিডিও আপডেট",
       "managedBy": "facebook-sync"
     },
     {
