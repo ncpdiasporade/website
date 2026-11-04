@@ -1849,43 +1849,6 @@
       text-underline-offset: 3px;
     }
 
-    #join .form-panel {
-      position: relative;
-      isolation: isolate;
-      overflow: hidden;
-    }
-    #join .form-panel::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-      background: url("img/july/selected/august-02-salute-orchid-chakma.webp") center / cover no-repeat;
-      opacity: .11;
-      filter: grayscale(.28) saturate(.88) contrast(1.04);
-      -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.28) 26%, #000 58%, #000 100%);
-      mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.28) 26%, #000 58%, #000 100%);
-      transform: scale(1.06);
-      transform-origin: center;
-      pointer-events: none;
-    }
-    #join .form-panel > * {
-      position: relative;
-      z-index: 1;
-    }
-    html.motion-ready #join .form-panel::before {
-      opacity: 0;
-      filter: grayscale(.7) saturate(.58) blur(7px);
-      clip-path: inset(0 0 100% 0);
-      transform: scale(1.12) translateY(20px);
-    }
-    html.motion-ready #join.motion-visible .form-panel.visible::before {
-      opacity: .11;
-      filter: grayscale(.28) saturate(.88) contrast(1.04) blur(0);
-      clip-path: inset(0 0 0 0);
-      transform: scale(1.06) translateY(0);
-      transition: opacity 1.25s .16s ease, filter 1.4s .08s ease, clip-path 1.4s .06s cubic-bezier(.16,1,.3,1), transform 1.4s .06s cubic-bezier(.16,1,.3,1);
-    }
-
     .eyebrow {
       display: inline-flex; align-items: center; gap: 8px;
       padding: 6px 13px; border-radius: 999px;
@@ -3496,171 +3459,211 @@
     /* ══════════════════════════════════════════
        JOIN FORM
     ══════════════════════════════════════════ */
-    .join-grid { display: grid; grid-template-columns: 400px 1fr; gap: 34px; align-items: start; }
-
-    .join-aside {
-      padding: 34px; border-radius: var(--r-xl);
-      background: linear-gradient(155deg, var(--green-900) 0%, var(--green-700) 100%);
-      color: #fff; position: sticky; top: 102px;
+    .membership-section {
+      background: radial-gradient(ellipse at 10% 5%, #e2efe5, transparent 56%), var(--surface);
+      scroll-margin-top: var(--nav-h);
+    }
+    .membership-card {
+      display: grid;
+      grid-template-columns: minmax(0, .84fr) minmax(0, 1.16fr);
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--r-xl);
       overflow: hidden;
-      display: flex; flex-direction: column; justify-content: center;
+      box-shadow: var(--shadow-md);
     }
-    .join-aside::before {
-      content: "";
-      position: absolute; width: 260px; height: 260px;
-      top: -90px; right: -70px; border-radius: 50%;
-      background: radial-gradient(circle, rgba(255,255,255,.1) 0%, transparent 65%);
-    }
-    .join-aside .eyebrow { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.13); color: rgba(255,255,255,.8); }
-    .join-aside .eyebrow::before { background: #6dfcb4; }
-    .join-aside h2 {
-      font-family: var(--font-display);
-      font-size: 2.25rem; font-weight: 900;
-      line-height: 1.04; letter-spacing: 0;
-      color: #fff; margin-bottom: 12px;
-    }
-    .join-aside > p {
-      font-family: var(--font-ui); font-size: .93rem; font-weight: 300;
-      line-height: 1.72; color: rgba(255,255,255,.7); margin-bottom: 18px;
-    }
-
-    .perks { display: grid; gap: 9px; }
-    .perk {
-      display: grid; grid-template-columns: 40px 1fr;
-      gap: 10px; align-items: start;
-      padding: 12px; border-radius: 14px;
-      background: rgba(255,255,255,.07);
-      border: 1px solid rgba(255,255,255,.09);
-      transition: background .2s;
-    }
-    .perk:hover { background: rgba(255,255,255,.11); }
-    .perk-icon {
-      width: 40px; height: 40px; border-radius: 11px;
-      display: grid; place-items: center;
-      background: rgba(255,255,255,.11);
-    }
-    .perk-icon svg { width: 17px; height: 17px; stroke: rgba(255,255,255,.86); fill: none; stroke-width: 2; }
-    .perk strong { display: block; font-family: var(--font-ui); font-size: .89rem; font-weight: 600; color: #fff; margin-bottom: 1px; }
-    .perk span { display: block; font-family: var(--font-ui); font-size: .84rem; font-weight: 300; line-height: 1.6; color: rgba(255,255,255,.7); }
-
-    .gdpr-note {
-      margin-top: 16px; padding: 14px 15px;
-      border-radius: 12px; background: rgba(255,255,255,.07);
-      border: 1px solid rgba(255,255,255,.11);
-      display: grid; grid-template-columns: 18px 1fr; gap: 11px;
-      font-family: var(--font-ui); font-size: .85rem; font-weight: 300;
-      color: rgba(255,255,255,.72); line-height: 1.68; align-items: start;
-    }
-    .gdpr-note svg { width: 18px; height: 18px; fill: rgba(255,255,255,.55); margin-top: 2px; }
-
-    .form-panel {
-      padding: 36px; border-radius: var(--r-xl);
-      background: var(--white); border: 1.5px solid var(--border);
-      box-shadow: var(--shadow-lg);
-    }
-    .form-panel-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 18px;
-      margin-bottom: 24px;
-    }
-    .form-intro {
-      max-width: 460px;
-    }
-    .form-panel h3 {
-      font-family: var(--font-display); font-size: 1.75rem; font-weight: 900;
-      color: var(--ink-950); margin-bottom: 9px; letter-spacing: 0;
-    }
-    .form-panel > p,
-    .form-intro > p {
+    .membership-intro, .membership-guide {
+      min-width: 0;
+      padding: clamp(26px, 4.2vw, 54px);
       font-family: var(--font-ui);
-      font-size: .96rem;
-      font-weight: 300;
-      color: var(--ink-500);
-      line-height: 1.72;
-      margin-bottom: 0;
     }
-    .form-intro .registration-link { margin-top: 12px; }
-
-    .registration-qr-card {
-      width: min(100%, 228px);
-      flex-shrink: 0;
-      padding: 14px;
-      border-radius: 20px;
-      background: linear-gradient(180deg, #f6fbf8 0%, #e6f2eb 100%);
-      border: 1px solid rgba(13,97,48,.12);
-      box-shadow: var(--shadow-sm);
+    .membership-intro {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: var(--white);
+      background:
+        repeating-radial-gradient(circle at 108% -7%, transparent 0 31px, rgba(205,255,221,.075) 32px 33px, transparent 34px 54px),
+        linear-gradient(150deg, #0b4e2b 0%, #073a22 46%, #052618 100%);
     }
-    .registration-qr-card .qr-label {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 11px;
-      border-radius: 999px;
-      background: rgba(13,97,48,.08);
-      color: var(--green-700);
-      font-family: var(--font-mono);
-      font-size: 9px;
-      letter-spacing: .14em;
-      text-transform: uppercase;
+    .membership-intro .eyebrow {
+      background: rgba(255,255,255,.08);
+      border-color: rgba(255,255,255,.24);
+      color: #d7fae2;
+    }
+    .membership-intro .eyebrow::before { background: var(--green-300); }
+    .membership-intro h2 {
+      max-width: 14ch;
+      margin: 20px 0 14px;
+      font-family: var(--font-display);
+      font-size: clamp(2.35rem, 4.65vw, 4.35rem);
+      font-weight: 800;
+      line-height: 1.06;
+      letter-spacing: -.026em;
+    }
+    .membership-intro > p {
+      max-width: 35ch;
+      color: #e0f0e6;
+      font-size: 1rem;
+      line-height: 1.66;
+    }
+    .membership-action {
+      display: grid;
+      justify-items: start;
+      gap: 9px;
+      margin: 26px 0 32px;
+    }
+    .membership-action .registration-link {
+      justify-content: space-between;
+      gap: 18px;
+      padding: 12px 20px;
+      min-height: 48px;
+      max-width: 100%;
+      font-size: .95rem;
+      white-space: normal;
+      text-decoration: none;
+    }
+    .membership-action .registration-link:focus-visible {
+      outline: 2px solid var(--green-200);
+      outline-offset: 4px;
+    }
+    .membership-action small {
+      color: #d3e8da;
+      font-size: .84rem;
+    }
+    .membership-activities {
+      width: 100%;
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid rgba(213,246,224,.25);
+    }
+    .membership-activities h3 {
       margin-bottom: 10px;
+      color: #b4ecc7;
+      font-size: .84rem;
+      font-weight: 700;
     }
-    .registration-qr-frame {
+    .membership-activities ul {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding-inline-start: 19px;
+      color: #f1fbf4;
+      font-size: .94rem;
+      line-height: 1.45;
+    }
+    .membership-activities li::marker { color: var(--green-300); }
+
+    .membership-guide {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(160deg, #fff 55%, #f7fbf8);
+      color: var(--ink-900);
+    }
+    .membership-guide > h3 {
+      margin-bottom: 18px;
+      font-family: var(--font-display);
+      font-size: clamp(1.58rem, 2.5vw, 2.25rem);
+      font-weight: 800;
+      line-height: 1.14;
+    }
+    .membership-steps { list-style: none; margin: 0; padding: 0; }
+    .membership-steps li {
+      display: grid;
+      grid-template-columns: 39px minmax(0, 1fr);
+      gap: 13px;
+      align-items: start;
+      padding: 13px 0;
+      border-top: 1px solid var(--border);
+    }
+    .membership-step-number {
       display: grid;
       place-items: center;
-      /*padding: 10px;*/
-      border-radius: 16px;
-      background: #fff;
-      border: 1px solid rgba(13,97,48,.08);
-      /*margin-bottom: 10px;*/
-      aspect-ratio: 1 / 1;
+      aspect-ratio: 1;
+      border-radius: 12px;
+      background: #e7f4ea;
+      color: #175335;
+      font-family: var(--font-mono);
+      font-size: .76rem;
+      font-weight: 600;
     }
-    .registration-qr-card img {
+    .membership-guide h4 {
+      font-size: 1rem;
+      font-weight: 750;
+      line-height: 1.38;
+    }
+    .membership-guide p {
+      margin-top: 3px;
+      color: var(--ink-500);
+      font-size: .93rem;
+      line-height: 1.58;
+    }
+    .membership-support {
+      display: grid;
+      grid-template-columns: 102px minmax(0, 1fr);
+      align-items: center;
+      gap: 17px;
+      margin-top: auto;
+      padding: 15px;
+      border: 1px solid #dcebe0;
+      border-radius: var(--r-md);
+      background: #edf6ef;
+    }
+    .membership-qr {
+      margin: 0;
+      color: #295039;
+      font-size: .73rem;
+      font-weight: 650;
+      line-height: 1.35;
+      text-align: center;
+    }
+    .membership-qr img {
       display: block;
-      width: 100%;
+      width: 96px;
       max-width: 100%;
       height: auto;
-      aspect-ratio: 1 / 1;
-      object-fit: contain;
-      background: #fff;
-      border-radius: 10px;
-      margin: 0 auto;
-      image-rendering: crisp-edges;
-      image-rendering: pixelated;
+      margin: 0 auto 5px;
+      border-radius: 8px;
+      background: var(--white);
     }
-    .registration-qr-card strong {
-      display: block;
-      font-family: var(--font-ui);
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--ink-950);
-      margin-bottom: 4px;
-    }
-    .registration-qr-card p {
-      font-family: var(--font-ui);
-      font-size: .85rem;
-      font-weight: 300;
-      color: var(--ink-500);
-      line-height: 1.62;
-    }
-    .scan-tips {
+    .membership-help-links {
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 10px;
+      column-gap: 14px;
+      margin-top: 5px;
     }
-    .scan-tips span {
+    .membership-help-links a {
       display: inline-flex;
       align-items: center;
-      padding: 5px 9px;
-      border-radius: 999px;
-      background: #fff;
-      border: 1px solid rgba(13,97,48,.08);
-      font-family: var(--font-ui);
-      font-size: .78rem;
-      font-weight: 500;
-      color: var(--green-700);
+      min-height: 32px;
+      color: #145333;
+      font-size: .84rem;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    html[lang="bn"] .membership-card {
+      --font-display: var(--font-body);
+      --font-ui: var(--font-body);
+    }
+    html[lang="bn"] .membership-intro h2 {
+      max-width: 100%;
+      font-size: clamp(2.25rem, 3.7vw, 3.65rem);
+      line-height: 1.14;
+    }
+
+    @media (max-width: 860px) {
+      .membership-card { grid-template-columns: minmax(0, 1fr); }
+      .membership-intro h2 { max-width: 18ch; }
+      .membership-intro > p { max-width: 54ch; }
+    }
+    @media (max-width: 480px) {
+      .membership-card { border-radius: var(--r-lg); }
+      .membership-intro, .membership-guide { padding: 23px 19px; }
+      .membership-action { width: 100%; }
+      .membership-action .registration-link { width: 100%; }
+      .membership-support { grid-template-columns: minmax(0, 1fr); }
+      .membership-qr { display: none; }
     }
 
     /* ══════════════════════════════════════════
@@ -3812,16 +3815,13 @@
       .hero-grid  { grid-template-columns: 1fr; }
       .hero-panel { max-width: 560px; }
       .about-grid { grid-template-columns: 1fr; }
-      .join-grid  { grid-template-columns: 1fr; }
-      .join-aside { position: static; }
       .gallery-stage { grid-template-columns: 1fr; }
       .resource-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     }
     @media (max-width: 760px) {
       .hero-h1 { font-size: 3.3rem; }
       .section-h { font-size: 2.35rem; }
-      .uprising-title,
-      .join-aside h2 { font-size: 2rem; }
+      .uprising-title { font-size: 2rem; }
       .gallery-stage-copy h3 { font-size: 1.72rem; }
       .quote-panel blockquote { font-size: 1.05rem; }
     }
@@ -3835,7 +3835,6 @@
       .footer-grid { grid-template-columns: 1fr 1fr; }
       .gallery-stage-media { min-height: 340px; }
       .gallery-thumb { flex-basis: 206px; min-height: 158px; }
-      .form-panel-head { flex-direction: column; }
       .announcement-shell { grid-template-columns: minmax(240px, 320px) minmax(0, 1fr); }
       .announcement-media { min-height: 420px; }
     }
@@ -3846,7 +3845,6 @@
       .footer-grid { grid-template-columns: 1fr; }
       .section { padding: 64px 0; }
       .section-head { margin-bottom: 28px; }
-      .form-panel, .join-aside { padding: 24px; border-radius: var(--r-lg); }
       .timeline { --tl-axis: 7px; }
       .tl-track { top: 12px; bottom: 20px; left: var(--tl-axis); }
       .tl-item {
@@ -3903,7 +3901,6 @@
       .gallery-stage-link { font-size: .76rem; padding: 7px 10px; }
       .gallery-thumb { flex-basis: 184px; min-height: 148px; border-radius: 16px; }
       .gallery-thumb-content { padding: 10px 10px 12px; }
-      .registration-qr-card { display: none; }
       .blog-modal { padding: 12px; }
       .blog-modal-panel {
         max-height: 92svh;
@@ -4045,11 +4042,8 @@
       .btn-cta { justify-content: center; width: 100%; padding: 14px 18px; }
       .section { padding: 52px 0; }
       .section-h,
-      .uprising-title,
-      .join-aside h2 { font-size: clamp(1.85rem, 9vw, 2.05rem); line-height: 1.12; }
+      .uprising-title { font-size: clamp(1.85rem, 9vw, 2.05rem); line-height: 1.12; }
       .section-sub { font-size: .95rem; }
-      .form-panel,
-      .join-aside { padding: 20px; }
       .update-card,
       .blog-card,
       .pillar,
@@ -4520,12 +4514,6 @@
       .july-visual-section .section-head::after { opacity: .65; transform: scaleX(1); }
       .july-visual-section .section-memory::after { display: none; }
       html.motion-ready .announcement-media img { filter: none; transform: none; }
-      html.motion-ready #join .form-panel::before {
-        opacity: .11;
-        filter: grayscale(.28) saturate(.88) contrast(1.04);
-        clip-path: inset(0 0 0 0);
-        transform: scale(1.06);
-      }
     }
   </style>
 </head>
@@ -5086,82 +5074,71 @@
     </div>
   </section>
 
-  <section class="section july-visual-section july-photo-section" id="join">
+  <section class="section membership-section" id="join" aria-labelledby="membership-title">
     <div class="container">
-      <div class="join-grid">
-        <aside class="join-aside reveal">
+      <div class="membership-card reveal">
+        <div class="membership-intro">
           <div class="eyebrow">সদস্যপদ</div>
-          <h2>জার্মানি চ্যাপ্টারের সঙ্গে যুক্ত হোন</h2>
-          <p>সদস্য হিসেবে কমিউনিটি উদ্যোগ, নীতি-আলোচনা, স্বেচ্ছাসেবা ও প্রবাসী অধিকারভিত্তিক কার্যক্রমে নিয়মিতভাবে অংশ নিতে পারবেন।</p>
+          <h2 id="membership-title">জার্মানি চ্যাপ্টারে যোগ দিন</h2>
+          <p>জার্মানির বাংলাদেশি কমিউনিটির সঙ্গে যুক্ত হোন। স্থানীয় উদ্যোগ, স্বেচ্ছাসেবা ও প্রবাসী অধিকার নিয়ে কাজ করার সুযোগ পাবেন।</p>
 
-          <div class="perks">
-            <div class="perk">
-              <div class="perk-icon">
-                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-              </div>
-              <div>
-                <strong>কর্মসূচি ও আলোচনায় অংশগ্রহণ</strong>
-                <span>কমিউনিটি সভা, তথ্য অধিবেশন ও বিশেষ উদ্যোগে সরাসরি যুক্ত থাকার সুযোগ।</span>
-              </div>
-            </div>
-            <div class="perk">
-              <div class="perk-icon">
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-              </div>
-              <div>
-                <strong>ডায়াসপোরা নেটওয়ার্ক</strong>
-                <span>জার্মানি ও অন্যান্য দেশের সদস্য, পেশাজীবী এবং উদ্যোগের সঙ্গে সংযোগ।</span>
-              </div>
-            </div>
-            <div class="perk">
-              <div class="perk-icon">
-                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-              <div>
-                <strong>প্রবাসী অধিকার নিয়ে কাজ</strong>
-                <span>ভোট, নাগরিক সেবা ও প্রতিনিধিত্বের প্রশ্নে তথ্যভিত্তিক উদ্যোগের অংশ হোন।</span>
-              </div>
-            </div>
-            <div class="perk">
-              <div class="perk-icon">
-                <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-              </div>
-              <div>
-                <strong>জ্ঞান ও দক্ষতার অবদান</strong>
-                <span>নিজের পেশাগত অভিজ্ঞতা ও ধারণাকে বাস্তব কমিউনিটি উদ্যোগে রূপ দিন।</span>
-              </div>
-            </div>
+          <div class="membership-action">
+            <a class="btn-pill btn-primary registration-link" href="https://forms.gle/NLs1GfFHVPjxwYd66" rel="noreferrer">
+              <span>সদস্যপদের আবেদন করুন</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <small>আবেদন ফর্মটি Google Forms-এ খুলবে।</small>
           </div>
 
-          <div class="gdpr-note">
-            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <div>সদস্যপদের আবেদন Google Forms-এ জমা হবে। তথ্য সংশোধন বা মুছে দেওয়ার অনুরোধ ইমেইলে জানাতে পারবেন। <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;">Google-এর গোপনীয়তা নীতি</a></div>
+          <div class="membership-activities">
+            <h3>যেসব কাজে অংশ নিতে পারেন</h3>
+            <ul>
+              <li>কমিউনিটি সভা ও স্বেচ্ছাসেবা</li>
+              <li>ভোট ও প্রবাসী অধিকার নিয়ে আলোচনা</li>
+              <li>প্রবাসীদের সঙ্গে জ্ঞান ও অভিজ্ঞতা বিনিময়</li>
+            </ul>
           </div>
-        </aside>
+        </div>
 
-        <div class="form-panel reveal">
-          <div class="form-panel-head">
-            <div class="form-intro">
-              <h3>সদস্য নিবন্ধন ফর্ম</h3>
-              <p>সদস্যপদের আবেদন করতে নিবন্ধন ফর্মটি খুলুন।</p>
-              <a class="btn-pill btn-primary registration-link" href="https://forms.gle/NLs1GfFHVPjxwYd66" rel="noreferrer">Google Forms-এ নিবন্ধন করুন →</a>
+        <div class="membership-guide">
+          <h3>আবেদনের তিন ধাপ</h3>
+          <ol class="membership-steps" role="list">
+            <li>
+              <span class="membership-step-number" aria-hidden="true">01</span>
+              <div>
+                <h4>প্রয়োজনীয় তথ্য প্রস্তুত রাখুন</h4>
+                <p>ইংরেজিতে পূর্ণ নাম, বর্তমান শহর, বয়সের গ্রুপ, শিক্ষাগত যোগ্যতা, ইমেইল ও দেশের কোডসহ হোয়াটসঅ্যাপ নম্বর লাগবে।</p>
+              </div>
+            </li>
+            <li>
+              <span class="membership-step-number" aria-hidden="true">02</span>
+              <div>
+                <h4>ফর্ম পূরণ করুন</h4>
+                <p>তথ্য ব্যবহারের সম্মতিটি পড়ুন এবং আবশ্যিক ঘরগুলো পূরণ করুন। প্রোফাইল লিংক ও রাজনৈতিক সংশ্লিষ্টতার তথ্য দেওয়া ঐচ্ছিক।</p>
+              </div>
+            </li>
+            <li>
+              <span class="membership-step-number" aria-hidden="true">03</span>
+              <div>
+                <h4>জমা দেওয়ার বার্তা দেখুন</h4>
+                <p>ফর্ম জমা হয়েছে কি না, Google Forms-এর নিশ্চিতকরণ বার্তা দেখে নিন।</p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="membership-support">
+            <figure class="membership-qr">
+              <img src="img/logo/registration.png" alt="সদস্য নিবন্ধনের QR কোড" width="320" height="320" loading="lazy">
+              <figcaption>ফোনে ফর্ম খুলতে স্ক্যান করুন</figcaption>
+            </figure>
+            <div class="membership-help">
+              <h4>সহায়তা ও গোপনীয়তা</h4>
+              <p>ফর্ম খুলতে সমস্যা হলে বা তথ্য সংশোধন বা মুছে ফেলতে চাইলে আমাদের ইমেইল করুন।</p>
+              <div class="membership-help-links">
+                <a href="mailto:ncpdiasporade@gmail.com">ইমেইলে যোগাযোগ</a>
+                <a href="https://policies.google.com/privacy" rel="noreferrer">Google-এর গোপনীয়তা নীতি</a>
+              </div>
             </div>
-
-            <aside class="registration-qr-card" aria-label="সদস্য নিবন্ধনের QR কোড">
-              <!-- <span class="qr-label">Registration QR</span> -->
-              <div class="registration-qr-frame">
-                <img src="img/logo/registration.png" alt="সদস্য নিবন্ধনের QR কোড" loading="lazy" width="320" height="320" />
-              </div>
-              <!--
-              <strong>মোবাইলে দ্রুত নিবন্ধন</strong>
-              <p>ইভেন্ট, কমিউনিটি মিটআপ বা শেয়ারযোগ্য পোস্টে এই QR ব্যবহার করে সদস্যপদ ফর্ম এক স্ক্যানে খোলা যাবে।</p>
-              <div class="scan-tips">
-                <span>ফোনে স্ক্যান করুন</span>
-                <span>বন্ধুকে শেয়ার করুন</span>
-                <span>দ্রুত সাইন-আপ</span>
-              </div>
-            -->
-            </aside>
           </div>
         </div>
       </div>
@@ -5219,6 +5196,6 @@
     </div>
   </footer>
 
-  <script src="js/bootstrap.js?v=20261104-hosted-registration" defer></script>
+  <script src="js/bootstrap.js?v=20261104-membership-guide" defer></script>
 </body>
 </html>
