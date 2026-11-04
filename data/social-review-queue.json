@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T18:01:50.772Z",
+  "updatedAt": "2026-11-04T23:43:21.040Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8304,6 +8304,45 @@
           "description": "দক্ষিণ কোরিয়ায় ICAPP-এর ১৩তম সাধারণ অধিবেশনে এনসিপির চার সদস্যের প্রতিনিধিদলের অংশগ্রহণ দক্ষিণ কোরিয়ার রাজধানী সিউলে অনুষ্ঠিত ইন্টারন্যাশনাল…\n\nদক্ষিণ কোরিয়ায় ICAPP-এর ১৩তম সাধারণ অধিবেশনে এনসিপির চার সদস্যের প্রতিনিধিদলের অংশগ্রহণ দক্ষিণ কোরিয়ার রাজধানী সিউলে অনুষ্ঠিত ইন্টারন্যাশনাল কনফারেন্স অব এশিয়ান পলিটিক্যাল পার্টিজ (ICAPP)-এর ১৩তম সাধারণ অধিবেশনে জাতীয় নাগরিক পার্টি (এনসিপি)-এর চার সদস্যের একটি প্রতিনিধিদল অংশগ্রহণ করেছে। প্রতিনিধিদলে ছিলেন জাতীয় নাগরিক পার্টি (এনসিপি)-এর সিনিয়র যুগ্ম আহ্বায়ক নাসীরুদ্দীন পাটওয়ারী, সিনিয়র যুগ্ম সদস্যসচিব আসিফ মাহমুদ সজীব ভূঁইয়া, যুগ্ম আহ্বায়ক মনিরা শারমিন এবং যুগ্ম সদস্যসচিব আলাউদ্দীন মোহাম্মদ। এই অধিবেশনে এশিয়ার বিভিন্ন দেশের রাজনৈতিক দলগুলোর প্রতিনিধিরা অংশগ্রহণ করছেন। এ সম্মেলনে এনসিপির প্রতিনিধিদলের অংশগ্রহণের মধ্য দিয়ে আঞ্চলিক রাজনৈতিক সংলাপ, পারস্পরিক সহযোগিতা এবং আন্তর্জাতিক পরিসরে…\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122213079608921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122213079608921031-94f574bc24-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122213117756921031-ea6cf2a696",
+      "sourceType": "facebook",
+      "sourceId": "122213117756921031",
+      "sourceKey": "facebook:germany:122213117756921031",
+      "sourceFingerprint": "ea6cf2a696eb5e08bc42a8b1386ea440f9caf069c73ffc6052a4584940f6614c",
+      "sourceCreatedAt": "2026-11-04T19:08:21+0000",
+      "sourceUrl": "https://www.facebook.com/reel/2680464502372574/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-04T23:43:21.039Z",
+      "updatedAt": "2026-11-04T23:43:21.039Z",
+      "title": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp",
+      "excerpt": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp",
+      "sourceCaption": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp",
+      "image": "img/social/germany/fb-122213117756921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp\nhttps://www.facebook.com/reel/2680464502372574/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122213117756921031-ea6cf2a696-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp",
+          "description": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp\n\nএই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp\n\nবিস্তারিত: https://www.facebook.com/reel/2680464502372574/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122213117756921031-ea6cf2a696-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
