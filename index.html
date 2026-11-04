@@ -3527,6 +3527,34 @@
       outline: 2px solid var(--green-200);
       outline-offset: 4px;
     }
+    @media (prefers-reduced-motion: no-preference) {
+      .membership-intro.visible > h2,
+      .membership-intro.visible > p {
+        animation: membership-intro-enter .55s var(--ease-out) both;
+      }
+      .membership-intro.visible > p { animation-delay: .07s; }
+
+      .membership-action.visible .registration-link::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(110deg, transparent 20%, rgba(255,255,255,.24) 48%, transparent 76%);
+        pointer-events: none;
+        animation: membership-link-highlight .72s .14s ease-out both;
+      }
+      .registration-link [aria-hidden="true"] { transition: transform .22s var(--ease-out); }
+      .registration-link:is(:hover, :focus-visible) [aria-hidden="true"] { transform: translate(3px, -3px); }
+
+      @keyframes membership-intro-enter {
+        from { opacity: .72; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes membership-link-highlight {
+        from { opacity: 0; transform: translateX(-100%); }
+        28% { opacity: 1; }
+        to { opacity: 0; transform: translateX(100%); }
+      }
+    }
     .membership-action small {
       color: #d3e8da;
       font-size: .84rem;
@@ -5058,7 +5086,7 @@
 
   <section class="section membership-section" id="join" aria-labelledby="membership-title">
     <div class="container">
-      <div class="membership-card reveal">
+      <div class="membership-card">
         <div class="membership-intro">
           <div class="eyebrow">সদস্যপদ</div>
           <h2 id="membership-title">জার্মানি চ্যাপ্টারে যোগ দিন</h2>
@@ -5159,6 +5187,6 @@
     </div>
   </footer>
 
-  <script src="js/bootstrap.js?v=20261104-membership-copy" defer></script>
+  <script src="js/bootstrap.js?v=20261104-membership-motion" defer></script>
 </body>
 </html>

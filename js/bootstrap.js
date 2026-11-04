@@ -6,7 +6,7 @@
 
   const assets = [
     'js/i18n.js?v=20261104-membership-copy',
-    'js/site.js?v=20261104-membership-captcha'
+    'js/site.js?v=20261104-membership-motion'
   ];
 
   function loadScript(source) {

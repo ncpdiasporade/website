@@ -290,7 +290,7 @@ function initMobileMenu() {
    MODULE: SCROLL REVEAL
 ───────────────────────────────────────── */
 function initScrollReveal() {
-  const targets = $$('.reveal, .stagger-children');
+  const targets = $$('.reveal, .stagger-children, .membership-intro, .membership-action');
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
