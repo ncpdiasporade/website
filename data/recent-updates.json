@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-04T17:59:40.697Z",
+  "updatedAt": "2026-11-04T23:42:56.061Z",
   "items": [
+    {
+      "id": "facebook-germany-122213117756921031",
+      "facebookId": "122213117756921031",
+      "status": "published",
+      "date": "৪ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-04T19:08:21+0000",
+      "badge": "ভিডিও",
+      "title": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম",
+      "excerpt": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম",
+      "sourceCaption": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম\n\n#ncpdagermany #ncp",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/2680464502372574/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122213117756921031.jpg",
+      "imageAlt": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122213079608921031",
       "facebookId": "122213079608921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122212558844921031.jpg",
       "imageAlt": "‘বেকারদের চাকরি দে",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122212384574921031",
-      "facebookId": "122212384574921031",
-      "status": "published",
-      "date": "৩১ অক্টোবর, ২০২৬",
-      "createdAt": "2026-10-31T19:06:51+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
-      "excerpt": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
-      "sourceCaption": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি\n\n#ncp",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122212384574921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122212384574921031.jpg",
-      "imageAlt": "এনসিপি অস্ট্রেলিয়া চ্যাপ্টারের কমিটি সংক্রান্ত বিভ্রান্তি নিরসনে প্রেস বিজ্ঞপ্তি",
       "managedBy": "facebook-sync"
     },
     {
