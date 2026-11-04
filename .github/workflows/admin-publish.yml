@@ -27,6 +27,7 @@ jobs:
       PUBLISHER_RESULTS_PATH: ${{ github.workspace }}/.publisher-tmp/results.json
       PUBLISHER_CALLBACK_TOKEN: ${{ secrets.PUBLISHER_CALLBACK_TOKEN }}
       PUBLISHER_ADMIN_URL: ${{ vars.PUBLISHER_ADMIN_URL }}
+      PUBLISHER_PUBLICATION_ID: ${{ inputs.publication_id }}
       PUBLISHER_RETRY_PLATFORM: ${{ inputs.retry_platform }}
       SOCIAL_ADMIN_MODE: 'true'
     steps:
@@ -37,7 +38,12 @@ jobs:
           fetch-depth: 0
 
       - name: Validate private bridge configuration
+        id: bridge
         run: |
+          if [[ ! "$PUBLISHER_PUBLICATION_ID" =~ ^[A-Za-z0-9_-]+$ ]]; then
+            echo "Invalid publication ID." >&2
+            exit 1
+          fi
           if [ -z "$PUBLISHER_ADMIN_URL" ] || [ -z "$PUBLISHER_CALLBACK_TOKEN" ]; then
             echo "The private publisher bridge is not configured." >&2
             exit 1
@@ -49,7 +55,7 @@ jobs:
           curl --fail-with-body --silent --show-error \
             --retry 3 --retry-all-errors \
             -H "Authorization: Bearer $PUBLISHER_CALLBACK_TOKEN" \
-            "$PUBLISHER_ADMIN_URL/api/internal/publications/${{ inputs.publication_id }}" \
+            "$PUBLISHER_ADMIN_URL/api/internal/publications/${PUBLISHER_PUBLICATION_ID}" \
             -o "$PUBLISHER_PAYLOAD_PATH"
 
       - name: Set up Node.js
@@ -81,7 +87,7 @@ jobs:
           fi
           git config user.name "ncpda-publisher[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Publish approved admin content ${{ inputs.publication_id }}"
+          git commit -m "Publish approved admin content ${PUBLISHER_PUBLICATION_ID}"
           git pull --rebase origin main
           git push origin main
 
@@ -114,7 +120,7 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "ncpda-publisher[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Reconcile Facebook publication ${{ inputs.publication_id }}"
+          git commit -m "Reconcile Facebook publication ${PUBLISHER_PUBLICATION_ID}"
           git pull --rebase origin main
           git push origin main
 
@@ -122,14 +128,14 @@ jobs:
         run: npm run validate
 
       - name: Report private delivery outcomes
-        if: always()
+        if: ${{ always() && steps.bridge.outcome == 'success' }}
         env:
           JOB_STATUS: ${{ job.status }}
         run: |
           mkdir -p "$(dirname "$PUBLISHER_RESULTS_PATH")"
           if [ ! -s "$PUBLISHER_RESULTS_PATH" ]; then
             jq -n --slurpfile payload "$PUBLISHER_PAYLOAD_PATH" \
-              --arg id "${{ inputs.publication_id }}" --arg status "$JOB_STATUS" --arg retry "$PUBLISHER_RETRY_PLATFORM" '
+              --arg id "${PUBLISHER_PUBLICATION_ID}" --arg status "$JOB_STATUS" --arg retry "$PUBLISHER_RETRY_PLATFORM" '
               ($payload[0].publication.deliveries // []) as $existing |
               (if $retry != "" then [$retry] else [$existing[] | select(.status as $state | ["PUBLISHING","READY","FAILED","BLOCKED","NOT_CONFIGURED","MANUAL"] | index($state)) | .platform] end) as $selected |
               {publicationId:$id,deliveries:((if ($selected|length) == 0 then ["website"] else $selected end) | unique | map({platform:.,status:"FAILED",error:("Workflow " + $status)}))}' \
@@ -140,4 +146,5 @@ jobs:
             -H "Authorization: Bearer $PUBLISHER_CALLBACK_TOKEN" \
             -H "Content-Type: application/json" \
             --data-binary "@$PUBLISHER_RESULTS_PATH" \
+            --output /dev/null \
             "$PUBLISHER_ADMIN_URL/api/internal/results"

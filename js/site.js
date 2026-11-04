@@ -1792,64 +1792,6 @@ function initGallery() {
 }
 
 /* ─────────────────────────────────────────
-   MODULE: FORM SUBMISSION
-───────────────────────────────────────── */
-function initForm() {
-  const form      = $('#membershipForm');
-  const statusEl  = $('#status');
-  const submitBtn = $('#submitBtn');
-  if (!form || !statusEl || !submitBtn) return;
-
-  function setLoading(loading) {
-    submitBtn.disabled = loading;
-    submitBtn.classList.toggle('loading', loading);
-  }
-
-  function showStatus(type, message) {
-    statusEl.className = 'status-msg ' + type;
-    statusEl.textContent = message;
-    statusEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-
-  function clearStatus() {
-    statusEl.className = 'status-msg';
-    statusEl.textContent = '';
-  }
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      showStatus('error', t('অনুগ্রহ করে সব আবশ্যিক তথ্য পূরণ করুন এবং তথ্য ব্যবহারের সম্মতিটি নিশ্চিত করুন।'));
-      return;
-    }
-
-    clearStatus();
-    setLoading(true);
-
-    try {
-      const res = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' },
-      });
-
-      if (!res.ok) throw new Error('Network response not ok');
-
-      showStatus('success', t('✅ ধন্যবাদ! আপনার নিবন্ধন সফল হয়েছে। আমরা শীঘ্রই যোগাযোগ করব।'));
-      form.reset();
-    } catch {
-      showStatus('error', t('❌ কিছু একটা ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন বা সরাসরি ইমেইল করুন: ncpdiasporade@gmail.com'));
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  form.addEventListener('submit', handleSubmit);
-}
-
-/* ─────────────────────────────────────────
    MODULE: SMOOTH NAV LINKS
 ───────────────────────────────────────── */
 function initSmoothScroll() {
@@ -1916,7 +1858,6 @@ function init() {
     initJulyResources,
     initRecentUpdates,
     initBlog,
-    initForm,
     initSmoothScroll
   ].forEach(runSafely);
 }

@@ -6,7 +6,7 @@
 
   const assets = [
     'js/i18n.js?v=20260911-ncp-documents',
-    'js/site.js?v=20260909-blog-arrows'
+    'js/site.js?v=20261104-membership-captcha'
   ];
 
   function loadScript(source) {

@@ -28,7 +28,7 @@ Open `http://localhost:3000` after starting the preview server.
 - `data/blog-posts.json`: blog articles and source lists
 - `index.html`: layout, fallback content, styles, and browser-side rendering
 
-Use `status: "draft"` to keep an item out of the published interface. Keep every factual update linked to its original source.
+Keep unpublished drafts in the private publishing system. Files committed to this public repository can be read directly, including entries hidden from the interface by `status: "draft"`. Keep every factual update linked to its original source.
 
 ## Search visibility and multilingual landing pages
 

@@ -1,0 +1,13 @@
+# Build only public website content on GitHub Pages.
+exclude:
+  - scripts/
+  - prompts/
+  - start_server.py
+  - package.json
+  - package-lock.json
+  - social-feed.config.json
+  - social-publishing.config.json
+  - data/social-review-queue.json
+  - data/social-publishing-state.json
+  - data/blog-agent-review-queue.json
+  - data/blog-agent-runs.json
