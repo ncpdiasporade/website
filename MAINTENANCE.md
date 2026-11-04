@@ -53,7 +53,7 @@ Manage pauses, schedule changes, and run results from the Codex **Scheduled** vi
 
 ## Privacy and membership submissions
 
-The membership form sends data through FormSubmit to the organization's email and links to FormSubmit's privacy notice. Do not promise storage or deletion practices that the organization cannot actually guarantee. Handle correction or deletion requests sent to `ncpdiasporade@gmail.com` promptly and document the internal retention policy before expanding data collection.
+The membership section links to the organization's hosted Google Form and Google's privacy policy. Keep the registration link and QR code pointed at the same form. Handle correction or deletion requests sent to `ncpdiasporade@gmail.com` promptly and document the internal retention policy before expanding data collection.
 
 ## Publish
 

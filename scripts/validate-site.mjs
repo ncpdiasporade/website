@@ -34,11 +34,14 @@ for (const id of ['home', 'july-36', 'announcements', 'uprising', 'about', 'pill
   if (!markup.includes(`id="${id}"`)) errors.push(`index.html: missing #${id}`);
 }
 if (!markup.includes('data-update-filter="featured"')) errors.push('index.html: missing featured updates filter');
-if (!html.includes('<script src="js/bootstrap.js?v=20261104-registration-link" defer></script>')) {
+if (!markup.includes('href="https://forms.gle/NLs1GfFHVPjxwYd66"') || /<form\b/i.test(markup) || !markup.includes("form-action 'none'")) {
+  errors.push('index.html: membership registration must link to the hosted form and block homepage form submissions');
+}
+if (!html.includes('<script src="js/bootstrap.js?v=20261104-hosted-registration" defer></script>')) {
   errors.push('index.html: missing cache-versioned deferred site interaction script');
 }
 const bootstrapScript = fs.readFileSync(path.join(rootDir, 'js/bootstrap.js'), 'utf8');
-for (const source of ['js/i18n.js?v=20261104-registration-link', 'js/site.js?v=20261104-membership-captcha']) {
+for (const source of ['js/i18n.js?v=20261104-hosted-registration', 'js/site.js?v=20261104-membership-captcha']) {
   if (!bootstrapScript.includes(source)) errors.push(`js/bootstrap.js: missing ordered runtime asset ${source}`);
 }
 if (!bootstrapScript.includes("root.classList.add('motion-ready')") || !bootstrapScript.includes("root.classList.add('page-ready')") || !bootstrapScript.includes('fonts.googleapis.com/css2')) {
