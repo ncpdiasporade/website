@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T23:43:21.040Z",
+  "updatedAt": "2026-11-05T15:30:19.454Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8343,6 +8343,45 @@
           "description": "এই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp\n\nএই আন্দোলনের সহিংসতা শুরু করেছে বিএনপি নিজেই: নাহিদ ইসলাম #ncpdagermany #ncp\n\nবিস্তারিত: https://www.facebook.com/reel/2680464502372574/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122213117756921031-ea6cf2a696-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122213257748921031-7a57fce109",
+      "sourceType": "facebook",
+      "sourceId": "122213257748921031",
+      "sourceKey": "facebook:germany:122213257748921031",
+      "sourceFingerprint": "7a57fce1099aa6cab69f5448caa14d4f7ff531225f0478f87cf3fc4eba8a835d",
+      "sourceCreatedAt": "2026-11-05T11:08:25+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122213257748921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-05T15:30:19.453Z",
+      "updatedAt": "2026-11-05T15:30:19.454Z",
+      "title": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে জনাব…",
+      "excerpt": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে জনাব তারেক রহমান লন্ডন থেকে ঢাকায় এসেছেন” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "sourceCaption": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে জনাব তারেক রহমান লন্ডন থেকে ঢাকায় এসেছেন” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "image": "img/social/germany/fb-122213257748921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে জনাব… “কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে…\nhttps://www.facebook.com/122195961254921031/posts/122213257748921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122213257748921031-7a57fce109-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস…",
+          "description": "“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে…\n\n“কিভাবে দেশ থেকে দুর্নীতি করবে, কিভাবে লুটপাট করবে, কিভাবে চাদাবাজি করবে, কিভাবে সন্ত্রাস কায়েম করবে, কিভাবে দখলদারিত্ব করবে সেই পরিকল্পনা নিয়ে জনাব তারেক রহমান লন্ডন থেকে ঢাকায় এসেছেন” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122213257748921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122213257748921031-7a57fce109-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
