@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T22:01:55.611Z",
+  "updatedAt": "2026-11-06T02:31:24.834Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8460,6 +8460,45 @@
           "description": "‘বাংলাদেশে যেই নৈরাজ্য চলমান রয়েছে, যে গুম-খুন চলছে—এই সবকিছুর ব্যর্থতা নিয়ে স্বরাষ্ট্রমন্ত্রীকে পদত্যাগ করতে হবে।\n\n‘বাংলাদেশে যেই নৈরাজ্য চলমান রয়েছে, যে গুম-খুন চলছে—এই সবকিছুর ব্যর্থতা নিয়ে স্বরাষ্ট্রমন্ত্রীকে পদত্যাগ করতে হবে। জ্বালানি মন্ত্রীকে পদত্যাগ করতে হবে। নতুবা বাংলাদেশের সর্বত্রই আমরা মিছিল করব এবং সেই মিছিল নিয়ে আমরা জনাব তারেক রহমানকে ঘেরাও করে আমাদের দাবি আদায় করে ছাড়বো, ইনশাআল্লাহ।’ - নাহিদ ইসলাম আহবায়ক, এনসিপি #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122213359460921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122213359460921031-bd02e2c486-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122213376320921031-82b37226cc",
+      "sourceType": "facebook",
+      "sourceId": "122213376320921031",
+      "sourceKey": "facebook:germany:122213376320921031",
+      "sourceFingerprint": "82b37226cce55efc90ac12bca37db32271fe282ba0db2e470153b8af7bab395f",
+      "sourceCreatedAt": "2026-11-05T23:28:15+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122213376320921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-06T02:31:24.833Z",
+      "updatedAt": "2026-11-06T02:31:24.833Z",
+      "title": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "excerpt": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "sourceCaption": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "image": "img/social/germany/fb-122213376320921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122213376320921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122213376320921031-82b37226cc-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ…",
+          "description": "“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany\n\n“সালাহউদ্দিন সাহেবের কাছে আমাদের কোনো মতামত দেওয়ার কিছু নাই, উনি কে মতামত চাওয়ার?” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122213376320921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122213376320921031-82b37226cc-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
