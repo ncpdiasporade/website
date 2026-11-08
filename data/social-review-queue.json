@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T19:45:24.608Z",
+  "updatedAt": "2026-11-08T23:45:33.621Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8928,6 +8928,45 @@
           "description": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।\n\nজাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214038834921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214038834921031-be2fda55f3-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214060416921031-29715262ea",
+      "sourceType": "facebook",
+      "sourceId": "122214060416921031",
+      "sourceKey": "facebook:germany:122214060416921031",
+      "sourceFingerprint": "29715262eacfeffabd0e83ae2af382f3949b6c34f4bd9418e384b3ca606ad293",
+      "sourceCreatedAt": "2026-11-08T21:01:23+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214060416921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-08T23:45:33.621Z",
+      "updatedAt": "2026-11-08T23:45:33.621Z",
+      "title": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany…",
+      "excerpt": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany #hasnatabdullah",
+      "sourceCaption": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany #hasnatabdullah",
+      "image": "img/social/germany/fb-122214060416921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany… “২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ…\nhttps://www.facebook.com/122195961254921031/posts/122214060416921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214060416921031-29715262ea-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত…",
+          "description": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany…\n\n“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214060416921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214060416921031-29715262ea-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
