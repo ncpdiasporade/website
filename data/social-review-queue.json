@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T07:26:14.315Z",
+  "updatedAt": "2026-11-08T19:45:24.608Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8889,6 +8889,45 @@
           "description": "“দল হিসেবে আওয়ামী লীগকে বিচারের মুখোমুখি করতে হবে।\n\n“দল হিসেবে আওয়ামী লীগকে বিচারের মুখোমুখি করতে হবে। বিচার শেষে কারা অপরাধী, কারা অপরাধী নন, তা নির্ধারণ করবে আদালত ও বিচারব্যবস্থা। এরপর আওয়ামী লীগের ভবিষ্যৎ রাজনৈতিক প্রাসঙ্গিকতা নিয়ে সিদ্ধান্ত আসবে।” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122213891018921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122213891018921031-5d179bbe3c-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214038834921031-be2fda55f3",
+      "sourceType": "facebook",
+      "sourceId": "122214038834921031",
+      "sourceKey": "facebook:germany:122214038834921031",
+      "sourceFingerprint": "be2fda55f34a9c63b6e80ebb1c6f37dc9cb94649bd5725d384fc6e4f36511cbb",
+      "sourceCreatedAt": "2026-11-08T17:34:59+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214038834921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-08T19:45:24.608Z",
+      "updatedAt": "2026-11-08T19:45:24.608Z",
+      "title": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।",
+      "excerpt": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। #ncpdagermany",
+      "sourceCaption": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। #ncpdagermany",
+      "image": "img/social/germany/fb-122214038834921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214038834921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214038834921031-be2fda55f3-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন…",
+          "description": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।\n\nজাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214038834921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214038834921031-be2fda55f3-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
