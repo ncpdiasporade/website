@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-08T00:40:24.706Z",
+  "updatedAt": "2026-11-08T07:25:45.613Z",
   "items": [
+    {
+      "id": "facebook-germany-122213891018921031",
+      "facebookId": "122213891018921031",
+      "status": "published",
+      "date": "৮ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-08T00:43:13+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "“দল হিসেবে আওয়ামী লীগকে বিচারের মুখোমুখি করতে হবে।",
+      "excerpt": "বিচার শেষে কারা অপরাধী, কারা অপরাধী নন, তা নির্ধারণ করবে আদালত ও বিচারব্যবস্থা। এরপর আওয়ামী লীগের ভবিষ্যৎ রাজনৈতিক প্রাসঙ্গিকতা নিয়ে সিদ্ধান্ত আসবে।” - হাসনাত আবদুল্লাহ",
+      "sourceCaption": "“দল হিসেবে আওয়ামী লীগকে বিচারের মুখোমুখি করতে হবে। বিচার শেষে কারা অপরাধী, কারা অপরাধী নন, তা নির্ধারণ করবে আদালত ও বিচারব্যবস্থা। এরপর আওয়ামী লীগের ভবিষ্যৎ রাজনৈতিক প্রাসঙ্গিকতা নিয়ে সিদ্ধান্ত আসবে।”\n\n- হাসনাত আবদুল্লাহ\nজ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি\n\n#ncpdagermany #hasnatabdullah",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122213891018921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122213891018921031.jpg",
+      "imageAlt": "“দল হিসেবে আওয়ামী লীগকে বিচারের মুখোমুখি করতে হবে।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122213857814921031",
       "facebookId": "122213857814921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122213687744921031.jpg",
       "imageAlt": "দক্ষিণ কোরিয়ার সিউলে ICAPP সম্মেলনে এনসিপি, বিএনপি ও জামায়াতে ইসলামীর নেতৃবৃন্দের সৌহার্দ্যপূর্ণ মুহূর্ত।",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122213666498921031",
-      "facebookId": "122213666498921031",
-      "status": "published",
-      "date": "৭ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-06T23:46:46+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "“সরকারের প্ল্যানটা চমৎকার!",
-      "excerpt": "দাম বাড়াতে সরকারি সিদ্ধান্তই যথেষ্ট, মজুরি বাড়াতে লাগে আন্দোলন। আর সেই আন্দোলনে প্রাণ গেলে, তার দায় নেবে কে?” - নাসিরুদ্দিন পাটোয়ারী",
-      "sourceCaption": "“সরকারের প্ল্যানটা চমৎকার! দাম বাড়াতে সরকারি সিদ্ধান্তই যথেষ্ট, মজুরি বাড়াতে লাগে আন্দোলন। আর সেই আন্দোলনে প্রাণ গেলে, তার দায় নেবে কে?”\n\n-  নাসিরুদ্দিন পাটোয়ারী \nজ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122213666498921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122213666498921031.jpg",
-      "imageAlt": "“সরকারের প্ল্যানটা চমৎকার!",
       "managedBy": "facebook-sync"
     },
     {
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.facebook.com/reel/2378818559257521/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 71024,
+      "viewCount": 71025,
       "featured": false,
       "image": "img/social/germany/fb-2378818559257521.jpg",
       "imageAlt": "বাংলাদেশের বর্তমান অবস্থা..",
