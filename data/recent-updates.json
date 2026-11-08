@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-08T15:15:10.228Z",
+  "updatedAt": "2026-11-08T19:44:55.309Z",
   "items": [
+    {
+      "id": "facebook-germany-122214038834921031",
+      "facebookId": "122214038834921031",
+      "status": "published",
+      "date": "৮ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-08T17:34:59+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।",
+      "excerpt": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।",
+      "sourceCaption": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214038834921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122214038834921031.jpg",
+      "imageAlt": "জাতীয় নারী শক্তি, ঢাকা মহানগর দক্ষিণ ও উত্তর-এর নবগঠিত কমিটির নেতৃবৃন্দকে আন্তরিক অভিনন্দন ও শুভেচ্ছা।",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122213891018921031",
       "facebookId": "122213891018921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122213764124921031.jpg",
       "imageAlt": "৭ নভেম্বরের সিপাহী-জনতার অভ্যুত্থান থেকে শিক্ষা নিয়ে গণভোটের রায় অনুযায়ী সংবিধান সংস্কার পরিষদ গঠনের আহ্বান",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122213687744921031",
-      "facebookId": "122213687744921031",
-      "status": "published",
-      "date": "৭ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-07T01:27:38+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "দক্ষিণ কোরিয়ার সিউলে ICAPP সম্মেলনে এনসিপি, বিএনপি ও জামায়াতে ইসলামীর নেতৃবৃন্দের সৌহার্দ্যপূর্ণ মুহূর্ত।",
-      "excerpt": "দক্ষিণ কোরিয়ার সিউলে ICAPP সম্মেলনে এনসিপি, বিএনপি ও জামায়াতে ইসলামীর নেতৃবৃন্দের সৌহার্দ্যপূর্ণ মুহূর্ত।",
-      "sourceCaption": "দক্ষিণ কোরিয়ার সিউলে ICAPP সম্মেলনে এনসিপি, বিএনপি ও জামায়াতে ইসলামীর নেতৃবৃন্দের সৌহার্দ্যপূর্ণ মুহূর্ত।\n\n#ncpdagermany #ncp #bangladesh",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122213687744921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122213687744921031.jpg",
-      "imageAlt": "দক্ষিণ কোরিয়ার সিউলে ICAPP সম্মেলনে এনসিপি, বিএনপি ও জামায়াতে ইসলামীর নেতৃবৃন্দের সৌহার্দ্যপূর্ণ মুহূর্ত।",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67364,
+      "viewCount": 67365,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
