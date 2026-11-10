@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T23:45:33.621Z",
+  "updatedAt": "2026-11-10T01:35:15.530Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -8967,6 +8967,123 @@
           "description": "“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany…\n\n“২০২৪ সালের গণ-অভ্যুত্থানের মধ্য দিয়ে দেশ ‘বাকশাল টু’ থেকে মুক্তি পেয়েছে” - হাসনাত আবদুল্লাহ জ্যেষ্ঠ যুগ্ম আহ্বায়ক, এনসিপি #ncpdagermany #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214060416921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214060416921031-29715262ea-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214209360921031-fb6287bb79",
+      "sourceType": "facebook",
+      "sourceId": "122214209360921031",
+      "sourceKey": "facebook:germany:122214209360921031",
+      "sourceFingerprint": "fb6287bb790bc4a1633617f480f8c336d1fdada0c1021da854c1f862fde2fbea",
+      "sourceCreatedAt": "2026-11-09T21:01:02+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214209360921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T01:35:14.973Z",
+      "updatedAt": "2026-11-10T01:35:14.974Z",
+      "title": "“হাসিনা আসুক এবং তার বিচার হোক।",
+      "excerpt": "“হাসিনা আসুক এবং তার বিচার হোক। কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।” — হাসনাত আবদুল্লাহ সিনিয়র যুগ্ম আহ্বায়ক জাতীয় নাগরিক পার্টি (এনসিপি) #ncpdagermany",
+      "sourceCaption": "“হাসিনা আসুক এবং তার বিচার হোক। কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।” — হাসনাত আবদুল্লাহ সিনিয়র যুগ্ম আহ্বায়ক জাতীয় নাগরিক পার্টি (এনসিপি) #ncpdagermany",
+      "image": "img/social/germany/fb-122214209360921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“হাসিনা আসুক এবং তার বিচার হোক। “হাসিনা আসুক এবং তার বিচার হোক। কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।” — হাসনাত আবদুল্লাহ সিনিয়র যুগ্ম আহ্বায়ক জাতীয় নাগরিক পার্টি (এনসিপি) #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214209360921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214209360921031-fb6287bb79-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“হাসিনা আসুক এবং তার বিচার হোক।",
+          "description": "“হাসিনা আসুক এবং তার বিচার হোক।\n\n“হাসিনা আসুক এবং তার বিচার হোক। কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।” — হাসনাত আবদুল্লাহ সিনিয়র যুগ্ম আহ্বায়ক জাতীয় নাগরিক পার্টি (এনসিপি) #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214209360921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214209360921031-fb6287bb79-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214214448921031-0b7e155ff9",
+      "sourceType": "facebook",
+      "sourceId": "122214214448921031",
+      "sourceKey": "facebook:germany:122214214448921031",
+      "sourceFingerprint": "0b7e155ff9c09822fb988ecb6f6411e22619bbc9913e101b563c46573d749601",
+      "sourceCreatedAt": "2026-11-09T21:55:57+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214214448921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T01:35:15.260Z",
+      "updatedAt": "2026-11-10T01:35:15.260Z",
+      "title": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany",
+      "excerpt": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany",
+      "sourceCaption": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany",
+      "image": "img/social/germany/fb-122214214448921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214214448921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214214448921031-0b7e155ff9-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany",
+          "description": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany\n\nনাহিদ ইসলামের স্পষ্ট বার্তাঃ- #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214214448921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214214448921031-0b7e155ff9-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214216068921031-8e832392aa",
+      "sourceType": "facebook",
+      "sourceId": "122214216068921031",
+      "sourceKey": "facebook:germany:122214216068921031",
+      "sourceFingerprint": "8e832392aa87159f2a7833b0300fb0d6a7f166d6807aad01fa36965cdfd4bdd8",
+      "sourceCreatedAt": "2026-11-09T22:19:52+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214216068921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T01:35:15.530Z",
+      "updatedAt": "2026-11-10T01:35:15.530Z",
+      "title": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany",
+      "excerpt": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany",
+      "sourceCaption": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany",
+      "image": "img/social/germany/fb-122214216068921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214216068921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214216068921031-8e832392aa-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany",
+          "description": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany\n\nমুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214216068921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214216068921031-8e832392aa-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
