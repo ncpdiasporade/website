@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-10T17:54:35.433Z",
+  "updatedAt": "2026-11-10T23:25:33.061Z",
   "items": [
+    {
+      "id": "facebook-germany-122214383192921031",
+      "facebookId": "122214383192921031",
+      "status": "published",
+      "date": "১০ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-10T22:35:22+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?",
+      "excerpt": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?",
+      "sourceCaption": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214383192921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122214383192921031.jpg",
+      "imageAlt": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122214329234921031",
       "facebookId": "122214329234921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122214214448921031.jpg",
       "imageAlt": "নাহিদ ইসলামের স্পষ্ট বার্তাঃ-",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122214209360921031",
-      "facebookId": "122214209360921031",
-      "status": "published",
-      "date": "৯ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-09T21:01:02+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "“হাসিনা আসুক এবং তার বিচার হোক।",
-      "excerpt": "কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।” — হাসনাত আবদুল্লাহ সিনিয়র যুগ্ম আহ্বায়ক",
-      "sourceCaption": "“হাসিনা আসুক এবং তার বিচার হোক। কিন্তু মাথায় রাখতে হবে, হাসিনা কখনোই আসবে না।”\n\n— হাসনাত আবদুল্লাহ\nসিনিয়র যুগ্ম আহ্বায়ক\nজাতীয় নাগরিক পার্টি (এনসিপি)\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214209360921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122214209360921031.jpg",
-      "imageAlt": "“হাসিনা আসুক এবং তার বিচার হোক।",
       "managedBy": "facebook-sync"
     },
     {
@@ -321,7 +321,7 @@
       "sourceUrl": "https://www.facebook.com/reel/1579837809918839/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 76846,
+      "viewCount": 76847,
       "featured": false,
       "image": "img/social/germany/fb-1579837809918839.jpg",
       "imageAlt": "আমাদের Akhter Hossen 🫡",
