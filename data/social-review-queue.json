@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T01:35:15.530Z",
+  "updatedAt": "2026-11-10T17:55:18.543Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9084,6 +9084,123 @@
           "description": "মুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany\n\nমুজিববাদ মুর্দাবাদ মুর্দাবাদ মুজিববাদ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214216068921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214216068921031-8e832392aa-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214304916921031-d9bc42de64",
+      "sourceType": "facebook",
+      "sourceId": "122214304916921031",
+      "sourceKey": "facebook:germany:122214304916921031",
+      "sourceFingerprint": "d9bc42de64f61c68551b11e875e403f6238afa2cf9bb333d43c06ed041e86370",
+      "sourceCreatedAt": "2026-11-10T12:18:12+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214304916921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T17:55:17.599Z",
+      "updatedAt": "2026-11-10T17:55:17.599Z",
+      "title": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে।",
+      "excerpt": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে। #ncpdagermany",
+      "sourceCaption": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে। #ncpdagermany",
+      "image": "img/social/germany/fb-122214304916921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে। অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে। #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214304916921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214304916921031-d9bc42de64-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে।",
+          "description": "অবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে।\n\nঅবিলম্বে হামলাকারী সন্ত্রা*সীদের গ্রেপ্তার করতে হবে। #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214304916921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214304916921031-d9bc42de64-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214319280921031-e79615183c",
+      "sourceType": "facebook",
+      "sourceId": "122214319280921031",
+      "sourceKey": "facebook:germany:122214319280921031",
+      "sourceFingerprint": "e79615183ccd776130c58d131fe5bd8b013b0dac4eee6c48702f0baa4afb782c",
+      "sourceCreatedAt": "2026-11-10T14:30:55+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214319280921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T17:55:18.067Z",
+      "updatedAt": "2026-11-10T17:55:18.067Z",
+      "title": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে।",
+      "excerpt": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” - আসিফ মাহমুদ সজীব ভূঁইয়া জ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি #ncpdagermany",
+      "sourceCaption": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” - আসিফ মাহমুদ সজীব ভূঁইয়া জ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি #ncpdagermany",
+      "image": "img/social/germany/fb-122214319280921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। “ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” - আসিফ মাহমুদ সজীব ভূঁইয়া জ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214319280921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214319280921031-e79615183c-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে।",
+          "description": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে।\n\n“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” - আসিফ মাহমুদ সজীব ভূঁইয়া জ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214319280921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214319280921031-e79615183c-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214329234921031-0aef8409df",
+      "sourceType": "facebook",
+      "sourceId": "122214329234921031",
+      "sourceKey": "facebook:germany:122214329234921031",
+      "sourceFingerprint": "0aef8409df5e854bf84f8b1100bce1c8f68efb7b7bd9d72998c29de7a05448de",
+      "sourceCreatedAt": "2026-11-10T15:26:34+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214329234921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T17:55:18.543Z",
+      "updatedAt": "2026-11-10T17:55:18.543Z",
+      "title": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক,…",
+      "excerpt": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক, জাতীয় নারীশক্তি #ncpdagermany #ncp",
+      "sourceCaption": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক, জাতীয় নারীশক্তি #ncpdagermany #ncp",
+      "image": "img/social/germany/fb-122214329234921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক,… “এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে…\nhttps://www.facebook.com/122195961254921031/posts/122214329234921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214329234921031-0aef8409df-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে…",
+          "description": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক,…\n\n“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক, জাতীয় নারীশক্তি #ncpdagermany #ncp\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214329234921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214329234921031-0aef8409df-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
