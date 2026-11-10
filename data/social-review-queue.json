@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T17:55:18.543Z",
+  "updatedAt": "2026-11-10T23:26:04.127Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9201,6 +9201,45 @@
           "description": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক,…\n\n“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।” - ডা. মাহমুদা মিতু আহ্বায়ক, জাতীয় নারীশক্তি #ncpdagermany #ncp\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214329234921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214329234921031-0aef8409df-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214383192921031-5dfeaed693",
+      "sourceType": "facebook",
+      "sourceId": "122214383192921031",
+      "sourceKey": "facebook:germany:122214383192921031",
+      "sourceFingerprint": "5dfeaed69321a3e64287744f376819c59d928458c0642da41323badab294d625",
+      "sourceCreatedAt": "2026-11-10T22:35:22+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214383192921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-10T23:26:04.126Z",
+      "updatedAt": "2026-11-10T23:26:04.127Z",
+      "title": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?",
+      "excerpt": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো? #ncpdagermany",
+      "sourceCaption": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো? #ncpdagermany",
+      "image": "img/social/germany/fb-122214383192921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো? বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো? #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122214383192921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214383192921031-5dfeaed693-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?",
+          "description": "বিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো?\n\nবিএনপি সরকারের চাঁদা আর ঘুষের সংজ্ঞা জানেন তো? #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214383192921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214383192921031-5dfeaed693-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
