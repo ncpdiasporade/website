@@ -38,7 +38,9 @@ The canonical search identities are **NCP Diaspora Alliance Germany**, **NCP Ger
 
 ## Automatic Facebook posts, pinned items, Reels, and Events
 
-`.github/workflows/sync-facebook.yml` runs once every hour and can also be started manually from GitHub Actions. It fetches recent posts and Page videos through the Meta Graph API, converts long captions into a concise context-first excerpt, caches stable image/video thumbnails in `img/social/`, detects one pinned post per Page, ranks Reels by the view count returned by Meta, validates the result, and commits the update to `main`. The website shows at most 10 cards in `সব আপডেট`, one pinned Germany item followed by one pinned NCP item in `ফিচার্ড`, and up to six top-viewed Reels in `ভিডিও`.
+`.github/workflows/sync-facebook.yml` is scheduled hourly and can also be started manually from GitHub Actions. It fetches posts and videos through the Meta Graph API, caches thumbnails, ranks Reels by view count, and publishes the validated results to `main`. In `ফিচার্ড`, up to three featured Germany posts appear in Facebook order, followed by any featured National Citizen Party post.
+
+Automatic changes to the Germany selection require Meta to return the Page's ordered featured posts. If Meta cannot provide that list, the sync retains the last verified selection. To refresh it manually, update the Germany `featuredPostIds` array in `social-feed.config.json` in Facebook order and run **Sync official Facebook updates**.
 
 `.github/workflows/sync-facebook-events.yml` runs once every 24 hours. It reads upcoming Events from the NCP Diaspora Alliance Germany Page (with recent Page-post Event attachments as an API fallback), caches the Event cover in `img/events/`, updates `data/announcements.json`, and publishes the nearest upcoming Event in `কর্মসূচি`.
 
@@ -55,7 +57,6 @@ Variables:
 
 - `NCPDA_GERMANY_PAGE_ID` (optional; defaults to `ncpdagermany`)
 - `NCP_PAGE_ID` (optional; defaults to `1NationalCitizenParty`)
-- `NCPDA_GERMANY_FEATURED_POST_URLS` (optional fallback; put the current Germany pinned-post permalink first)
 - `NCP_FEATURED_POST_URLS` (optional fallback; put the current NCP pinned-post permalink first)
 - `NCPDA_GERMANY_EVENT_URLS` (optional fallback; add current Facebook Event permalinks when Meta does not expose the Page Events edge)
 - `META_GRAPH_VERSION` (optional; defaults to the version in `social-feed.config.json`)
@@ -79,7 +80,7 @@ npm run generate:blog-previews
 npm run validate
 ```
 
-The website's `ফিচার্ড` filter shows only Facebook-linked items marked as pinned. If Meta does not expose a Page's pinned state, the sync preserves the last verified pinned item; the optional pinned-post URL variable can explicitly identify it. If more than one URL is supplied for a Page, the first matching permalink wins. The older singular `NCPDA_GERMANY_FEATURED_POST_URL` and `NCP_FEATURED_POST_URL` variables remain supported for compatibility. Pinned items and top-viewed Reels are retained even when they are older than the newest chronological feed items. Video cards always link to Facebook; large video files are not stored in Git.
+Featured posts and top-viewed Reels can appear even when they are older than the newest feed items. Video cards link to Facebook.
 
 ## Publishing
 

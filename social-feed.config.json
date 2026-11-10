@@ -18,14 +18,12 @@
       "pageId": "ncpdagermany",
       "pageIdEnv": "NCPDA_GERMANY_PAGE_ID",
       "tokenEnv": "NCPDA_GERMANY_PAGE_ACCESS_TOKEN",
-      "featuredPostUrlsEnv": "NCPDA_GERMANY_FEATURED_POST_URLS",
-      "featuredPostUrlEnv": "NCPDA_GERMANY_FEATURED_POST_URL",
-      "featuredPostIdsEnv": "NCPDA_GERMANY_FEATURED_POST_IDS",
+      "mirrorPageFeatured": true,
       "maxFeaturedItems": 3,
       "featuredPostIds": [
-        "122197201634921031",
-        "122197194434921031",
-        "122184264350921031"
+        "122207833388921031",
+        "122204184662921031",
+        "122197194434921031"
       ],
       "sourceName": "NCP Diaspora Alliance Germany",
       "pageUrl": "https://www.facebook.com/ncpdagermany/",

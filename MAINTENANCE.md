@@ -37,7 +37,7 @@ Manual fallback:
 1. Add the item at the top of `data/recent-updates.json`.
 2. Set `sourceKey` to `germany` or `ncp`.
 3. Set `mediaType` to `text`, `image`, or `video`.
-4. Set `featured: true` only when that exact item is the Page's pinned post. Only one pinned item per Page is allowed. When Meta does not expose that state, put the verified pinned permalink first in `NCPDA_GERMANY_FEATURED_POST_URLS` or `NCP_FEATURED_POST_URLS`.
+4. For Germany, use the `featuredPostIds` array in `social-feed.config.json` to record the verified Facebook selection in order if the API cannot read it. Set `featured: true` and the matching `featuredOrder` in the site data if publishing the fallback manually. For the National Citizen Party Page, the `NCP_FEATURED_POST_URLS` variable provides the permalink fallback.
 5. For a Reel or video, use a preview image, retain the Meta view count when available, and link `sourceUrl` to the original Facebook video.
 6. Keep the excerpt under roughly 340 characters and preserve the post's actual meaning.
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:25:33.061Z",
+  "updatedAt": "2026-11-10T23:45:38.932Z",
   "items": [
     {
       "id": "facebook-germany-122214383192921031",
@@ -122,6 +122,48 @@
       "managedBy": "facebook-sync"
     },
     {
+      "id": "facebook-germany-122207833388921031",
+      "facebookId": "122207833388921031",
+      "status": "published",
+      "date": "৪ অক্টোবর, ২০২৬",
+      "createdAt": "2026-10-03T23:31:52+0000",
+      "badge": "প্রবাসী ইস্যু",
+      "title": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর…",
+      "excerpt": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর আনুষ্ঠানিক বিবৃতি। দেশে ফিরে একজন প্রবাসীর প্রথম অনুভূতি হোক— “আমি আমার দেশে ফিরেছি।”",
+      "sourceCaption": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর আনুষ্ঠানিক বিবৃতি।\n\nদেশে ফিরে একজন প্রবাসীর প্রথম অনুভূতি হোক—\n“আমি আমার দেশে ফিরেছি।”\n\n#Probashi #AirportService #ncpdiasporaalliancegermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122207833388921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": true,
+      "image": "img/social/germany/fb-122207833388921031.jpg",
+      "imageAlt": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে প্রবাসীদের ভোগান্তি ও সেবার ঘাটতি নিয়ে NCP Diaspora Alliance Germany-এর…",
+      "managedBy": "facebook-sync",
+      "featuredOrder": 1
+    },
+    {
+      "id": "facebook-germany-122204184662921031",
+      "facebookId": "122204184662921031",
+      "status": "published",
+      "date": "১১ সেপ্টেম্বর, ২০২৬",
+      "createdAt": "2026-09-11T21:50:50+0000",
+      "badge": "প্রবাসী ইস্যু",
+      "title": "দেশ থেকে দূরে—দায়িত্ব থেকে নয়।",
+      "excerpt": "জার্মানিতে অর্জিত আপনার জ্ঞান, দক্ষতা ও অভিজ্ঞতা শুধু ব্যক্তিগত সাফল্যের গল্প নয়—এগুলো নতুন বাংলাদেশের পথচলায় শক্তি হয়ে উঠতে পারে। পরিবর্তনের অপেক্ষা নয়। নিজের অংশগ্রহণেই পরিবর্তন গড়ে তুলুন।",
+      "sourceCaption": "দেশ থেকে দূরে—দায়িত্ব থেকে নয়। 🇧🇩\n\nজার্মানিতে অর্জিত আপনার জ্ঞান, দক্ষতা ও অভিজ্ঞতা শুধু ব্যক্তিগত সাফল্যের গল্প নয়—এগুলো নতুন বাংলাদেশের পথচলায় শক্তি হয়ে উঠতে পারে।\n\nপরিবর্তনের অপেক্ষা নয়।\nনিজের অংশগ্রহণেই পরিবর্তন গড়ে তুলুন।\n\nNCP Diaspora Alliance Germany-এর সঙ্গে যুক্ত হয়ে প্রবাস থেকেই দেশের ভবিষ্যৎ নির্মাণে সক্রিয় ভূমিকা রাখুন। আপনার একটি সিদ্ধান্ত, একটি উদ্যোগ, একটি কণ্ঠ—বাংলাদেশের জন্য তৈরি করতে পারে নতুন সম্ভাবনা।\n\nআজই যুক্ত হোন।\nকারণ নতুন বাংলাদেশ গড়ার যাত্রায় আপনারও দায়িত্ব আছে, আপনারও ভূমিকা আছে।\n\n🔗 Registration Link:\nhttps://forms.gle/ZympVHDNjvuJ58Fg9\n\n🌐 আমাদের সম্পর্কে বিস্তারিত জানতে ভিজিট করুন:\nncpdagermany.de\n\n#ncpdagermany #NCP #Bangladesh #DiasporaForBangladesh #NewBangladesh #প্রবাস",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122204184662921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": true,
+      "image": "img/social/germany/fb-122204184662921031.jpg",
+      "imageAlt": "দেশ থেকে দূরে—দায়িত্ব থেকে নয়।",
+      "managedBy": "facebook-sync",
+      "featuredOrder": 2
+    },
+    {
       "id": "facebook-germany-122197201634921031",
       "facebookId": "122197201634921031",
       "status": "published",
@@ -136,11 +178,10 @@
       "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122197201634921031",
       "mediaType": "image",
       "isReel": false,
-      "featured": true,
+      "featured": false,
       "image": "img/social/germany/fb-122197201634921031.jpg",
       "imageAlt": "\"জুলাইয়ের রক্ত, প্রবাসীদের দায়বদ্ধতা এবং নতুন বাংলাদেশের স্বপ্ন — এই তিনের মিলনেই আমাদের সংগঠিত যাত্রা।\"",
-      "managedBy": "facebook-sync",
-      "featuredOrder": 1
+      "managedBy": "facebook-sync"
     },
     {
       "id": "facebook-germany-122197194434921031",
@@ -161,7 +202,7 @@
       "image": "img/social/germany/fb-122197194434921031.jpg",
       "imageAlt": "ধন্যবাদ জুলাইয়ের ইমাম Nahid Islam ❤️",
       "managedBy": "facebook-sync",
-      "featuredOrder": 2
+      "featuredOrder": 3
     },
     {
       "id": "ncp-election-manifesto-2026",
@@ -216,11 +257,10 @@
       "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122184264350921031",
       "mediaType": "image",
       "isReel": false,
-      "featured": true,
+      "featured": false,
       "image": "img/social/germany/fb-122184264350921031.jpg",
       "imageAlt": "গত ৩০ এপ্রিল জার্মানিতে বাংলাদেশ দূতাবাস, বার্লিন কর্তৃক মহান স্বাধীনতা ও জাতীয় দিবস ২০২৬ উপলক্ষে একটি গুরুত্বপূর্ণ…",
-      "managedBy": "facebook-sync",
-      "featuredOrder": 3
+      "managedBy": "facebook-sync"
     },
     {
       "id": "facebook-germany-video-26579957611639020",

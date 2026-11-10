@@ -24,6 +24,8 @@ const requiredSourceKeys = new Set(
 );
 const successfulSources = new Set();
 const featuredResolvedSources = new Set();
+const pageFeaturedOrder = new Map();
+const metaFeatured = { ...existing.metaFeatured };
 const videoMetricsFailures = new Set();
 const configuredFeaturedUrls = new Map();
 const configuredFeaturedIds = new Map();
@@ -217,8 +219,8 @@ function facebookId(value) {
 
 function configuredUrlsFor(page) {
   const values = String(
-    process.env[page.featuredPostUrlsEnv]
-      || process.env[page.featuredPostUrlEnv]
+    (page.featuredPostUrlsEnv && process.env[page.featuredPostUrlsEnv])
+      || (page.featuredPostUrlEnv && process.env[page.featuredPostUrlEnv])
       || ''
   )
     .split(/[\n,]+/)
@@ -230,7 +232,7 @@ function configuredUrlsFor(page) {
 
 function configuredIdsFor(page) {
   const values = String(
-    process.env[page.featuredPostIdsEnv]
+    (page.featuredPostIdsEnv && process.env[page.featuredPostIdsEnv])
       || (Array.isArray(page.featuredPostIds) ? page.featuredPostIds.join(',') : '')
   )
     .split(/[\s,]+/)
@@ -498,10 +500,32 @@ async function fetchPageVideos(page, pageId, token) {
   }
 }
 
+async function fetchFeaturedPosts(page, pageId, fields, token) {
+  const edges = page.mirrorPageFeatured ? ['featured_posts', 'pinned_posts'] : ['pinned_posts'];
+  for (const edge of edges) {
+    try {
+      const limit = page.mirrorPageFeatured ? page.maxFeaturedItems : 5;
+      const payload = await graphRequest(page, pageId, edge, fields, token, limit);
+      if (!Array.isArray(payload.data) || payload.data.some((post) => !post?.id)) {
+        throw new Error(`Meta returned an invalid ${edge} response.`);
+      }
+      return payload.data;
+    } catch (error) {
+      if (page.mirrorPageFeatured) console.warn(error.message);
+    }
+  }
+  return null;
+}
+
 async function fetchPageContent(page) {
   const configuredToken = process.env[page.tokenEnv];
   configuredUrlsFor(page);
-  configuredIdsFor(page);
+  const fallbackIds = configuredIdsFor(page);
+  if (page.mirrorPageFeatured) {
+    const snapshot = metaFeatured[page.key];
+    const savedIds = snapshot?.fallbackIds?.join(',') === fallbackIds.join(',') ? snapshot.ids : fallbackIds;
+    pageFeaturedOrder.set(page.key, savedIds);
+  }
   if (!configuredToken) {
     console.warn(`Skipping ${page.sourceName}: ${page.tokenEnv} is not configured.`);
     return { posts: [], videos: [] };
@@ -529,9 +553,13 @@ async function fetchPageContent(page) {
     throw error;
   }
 
-  try {
-    const payload = await graphRequest(page, pageId, 'pinned_posts', baseFields, token, 5);
-    const pinnedPosts = Array.isArray(payload.data) ? payload.data : [];
+  const pinnedPosts = await fetchFeaturedPosts(page, pageId, baseFields, token);
+  if (pinnedPosts !== null) {
+    if (page.mirrorPageFeatured) {
+      const ids = pinnedPosts.map((post) => facebookId(post.id));
+      pageFeaturedOrder.set(page.key, ids);
+      metaFeatured[page.key] = { ids, fallbackIds };
+    }
     const postsById = new Map(posts.map((post) => [post.id, post]));
     for (const post of pinnedPosts) {
       postsById.set(post.id, {
@@ -543,7 +571,7 @@ async function fetchPageContent(page) {
     }
     posts = [...postsById.values()];
     featuredResolved = true;
-  } catch {
+  } else if (!page.mirrorPageFeatured) {
     try {
       const payload = await graphRequest(page, pageId, 'posts', `${baseFields},is_pinned`, token);
       const pinAwarePosts = Array.isArray(payload.data) ? payload.data : [];
@@ -565,9 +593,11 @@ async function fetchPageContent(page) {
     } catch {
       console.warn(`${page.sourceName}: Meta did not expose pinned state; using the configured featured permalink or the last verified item.`);
     }
+  } else {
+    console.warn(`${page.sourceName}: Meta did not return the Page's ordered featured posts; keeping the last verified selection.`);
   }
 
-  const configuredIds = configuredFeaturedIds.get(page.key) || [];
+  const configuredIds = pageFeaturedOrder.get(page.key) ?? fallbackIds;
   if (!featuredResolved && configuredIds.length) {
     const postsById = new Map(posts.map((post) => [post.id, post]));
     let resolvedCount = 0;
@@ -608,7 +638,7 @@ async function fetchPageContent(page) {
 async function normalizePost(post, page) {
   const attachment = firstAttachment(post);
   const mediaType = mediaTypeFor(attachment);
-  const markedFeatured = hasFeaturedMarker(post.message);
+  const markedFeatured = !page.mirrorPageFeatured && hasFeaturedMarker(post.message);
   const eventCopy = rokteJulyCopy(post.message);
   const title = eventCopy?.title || captionTitle(post.message, attachment, mediaType);
   const excerpt = eventCopy?.excerpt || captionExcerpt(post.message, title, attachment);
@@ -789,6 +819,7 @@ const preserved = (existing.items || []).filter((item) => {
 
   const configured = configuredFeaturedUrls.get(item.sourceKey) || [];
   if (configured.includes(canonicalUrl(item.sourceUrl))) return true;
+  if (pageFeaturedOrder.get(item.sourceKey)?.includes(item.facebookId)) return true;
   return item.featured === true && !featuredResolvedSources.has(item.sourceKey);
 });
 
@@ -809,8 +840,17 @@ const featuredItems = [];
 const featuredCandidatesByPage = new Map();
 for (const page of config.pages) {
   const candidates = sortedCandidates.filter((item) => item.sourceKey === page.key);
-  const configured = configuredFeaturedUrls.get(page.key) || [];
   const configuredIds = configuredFeaturedIds.get(page.key) || [];
+  if (page.mirrorPageFeatured) {
+    const ids = pageFeaturedOrder.get(page.key) ?? [];
+    const candidatesById = new Map(candidates.map((item) => [item.facebookId, item]));
+    featuredCandidatesByPage.set(page.key, [...new Set(ids)]
+      .map((id) => candidatesById.get(id))
+      .filter(Boolean));
+    continue;
+  }
+
+  const configured = configuredFeaturedUrls.get(page.key) || [];
   const ordered = [];
 
   const detected = candidates
@@ -870,6 +910,7 @@ const items = sortedCandidates.filter((item) => selectedIds.has(item.id));
 for (const item of items) delete item.featuredRank;
 
 const output = { updatedAt: new Date().toISOString(), items };
+if (Object.keys(metaFeatured).length) output.metaFeatured = metaFeatured;
 fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
 videoArchive.version = 1;
 videoArchive.updatedAt = new Date().toISOString();
