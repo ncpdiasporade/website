@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-11T22:02:59.829Z",
+  "updatedAt": "2026-11-12T03:03:09.158Z",
   "items": [
+    {
+      "id": "facebook-germany-122214544622921031",
+      "facebookId": "122214544622921031",
+      "status": "published",
+      "date": "১২ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-11T23:07:41+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’",
+      "excerpt": "— হাসনাত আবদুল্লাহ",
+      "sourceCaption": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ \n\n— হাসনাত আবদুল্লাহ\n\n#hasnatabdullah",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214544622921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122214544622921031.jpg",
+      "imageAlt": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122214533270921031",
       "facebookId": "122214533270921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122214329234921031.jpg",
       "imageAlt": "“এই সরকারের সময়ে আওয়ামী লীগের আগুন সন্ত্রাসে প্রাণ যাওয়ার পর স্বরাষ্ট্রমন্ত্রীর চেয়ারে বসে থাকার বৈধতা থাকে না।”",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122214319280921031",
-      "facebookId": "122214319280921031",
-      "status": "published",
-      "date": "১০ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-10T14:30:55+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে।",
-      "excerpt": "মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” - আসিফ মাহমুদ সজীব ভূঁইয়া জ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি",
-      "sourceCaption": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে। মিডিয়ার ফ্যাসিবাদ দূর হবে কবে?” \n\n- আসিফ মাহমুদ সজীব ভূঁইয়া\nজ্যেষ্ঠ যুগ্ম সদস্যসচিব, এনসিপি\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214319280921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122214319280921031.jpg",
-      "imageAlt": "“ধর্মঘট মাঠে নাই, মিডিয়ায় আছে।",
       "managedBy": "facebook-sync"
     },
     {
