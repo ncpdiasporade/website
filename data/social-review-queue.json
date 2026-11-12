@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T22:03:41.705Z",
+  "updatedAt": "2026-11-12T03:03:36.077Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9357,6 +9357,45 @@
           "description": "“এভাবে যদি কণ্ঠরোধ করা যাবে ভেবে থাকিস, তাহলে ভুল।\n\n“এভাবে যদি কণ্ঠরোধ করা যাবে ভেবে থাকিস, তাহলে ভুল। আগুনের পথ পাড়ি দিয়ে নিজের কাজ করে যাব।” #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214533270921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214533270921031-48cdd329f0-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214544622921031-bb5c79bdcd",
+      "sourceType": "facebook",
+      "sourceId": "122214544622921031",
+      "sourceKey": "facebook:germany:122214544622921031",
+      "sourceFingerprint": "bb5c79bdcd03810d248e85d3547fb6cfdae46e7fc75754da25778f6ad13b86dd",
+      "sourceCreatedAt": "2026-11-11T23:07:41+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214544622921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-12T03:03:36.076Z",
+      "updatedAt": "2026-11-12T03:03:36.077Z",
+      "title": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah",
+      "excerpt": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah",
+      "sourceCaption": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah",
+      "image": "img/social/germany/fb-122214544622921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah\nhttps://www.facebook.com/122195961254921031/posts/122214544622921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214544622921031-bb5c79bdcd-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah",
+          "description": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah\n\nবাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214544622921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214544622921031-bb5c79bdcd-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
