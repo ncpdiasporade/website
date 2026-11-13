@@ -1,6 +1,270 @@
 {
   "items": [
     {
+      "id": "biman-audit-objections-public-deadline-tracker-accountability-2026",
+      "slug": "biman-audit-objections-public-deadline-tracker-accountability-2026",
+      "status": "published",
+      "tag": "রাষ্ট্রীয় প্রতিষ্ঠান ও জবাবদিহি",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "১৩ নভেম্বর ২০২৬",
+      "title": "বিমানের ১১১ অডিট আপত্তি: কমিটি সময় বেঁধেছে, এবার প্রকাশ্য অগ্রগতি-তালিকা চাই",
+      "excerpt": "বিমানের ১৯৯৬–২০২১ সময়ের ১১১টি অনিষ্পন্ন অডিট আপত্তিতে প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা জড়িত বলে সংসদীয় কমিটিকে জানানো হয়েছে। কমিটি রিপোর্ট চেয়েছে; এখন কোন আপত্তিতে কত টাকা উদ্ধার, কোন নথি পাওয়া গেল এবং কার বিরুদ্ধে কী ব্যবস্থা হলো—তার প্রকাশ্য মাসিক হিসাব দরকার।",
+      "image": "img/blog/governance-analysis.svg",
+      "sharePath": "blog/biman-audit-objections-public-deadline-tracker-accountability-2026",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "publishedAt": "2026-11-13T08:25:00+01:00",
+      "imageAlt": "Editorial illustration about public-enterprise audit accountability, public funds and transparent reporting in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "সংসদীয় কমিটি সময়সীমা দিয়েছে; এখন বিমানের অডিট আপত্তি, টাকা উদ্ধার ও ব্যবস্থা নেওয়ার প্রমাণ জনসমক্ষে চাই",
+      "facebookCaption": "বিমানের ১১১টি অনিষ্পন্ন অডিট আপত্তিতে প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা জড়িত বলে সংসদীয় কমিটিকে জানানো হয়েছে। কমিটি নির্দিষ্ট সময়সীমায় নথি ও পরিকল্পনা চেয়েছে। এবার প্রতিটি আপত্তির অবস্থা, উদ্ধার হওয়া টাকা এবং দায় নির্ধারণের অগ্রগতি প্রকাশ্য ড্যাশবোর্ডে দিতে হবে।",
+      "facts": [
+        {
+          "value": "১১১টি",
+          "label": "১৯৯৬ থেকে ২০২১ সময়ের বিমানের অনিষ্পন্ন অডিট আপত্তির সংখ্যা, যা সংসদীয় কমিটির বৈঠকে জানানো হয়"
+        },
+        {
+          "value": "প্রায় ৭৫৩.৫০ কোটি টাকা",
+          "label": "ওই অনিষ্পন্ন অডিট আপত্তিগুলোর সঙ্গে জড়িত অর্থের পরিমাণ বলে কমিটিকে জানানো হয়"
+        },
+        {
+          "value": "৮টি",
+          "label": "৪৫টি অর্থ-উদ্ধারসংক্রান্ত আপত্তির মধ্যে যে কটিতে বৈধ ব্যাংক বিবরণী না থাকায় বিমানের নিষ্পত্তির দাবি অডিট বিভাগ গ্রহণ করেনি"
+        },
+        {
+          "value": "৭ দিন–১ মাস",
+          "label": "সাবর সংক্রান্ত যৌথ প্রতিবেদন, নথি, তদন্ত ও অডিট আপত্তি নিষ্পত্তি-পরিকল্পনার জন্য কমিটির বিভিন্ন সময়সীমা"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "বিমান বাংলাদেশ এয়ারলাইন্সের ১১১টি অনিষ্পন্ন অডিট আপত্তিতে প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা জড়িত—১০ নভেম্বর সংসদীয় কমিটিকে দেওয়া এই তথ্য কোনো ছোট প্রশাসনিক খুঁটিনাটি নয়। এটি বহু বছরের রাষ্ট্রীয় অর্থব্যবস্থার এমন হিসাব, যার শেষ পাতাটি এখনো লেখা হয়নি। কমিটি নথি, তদন্ত ও টাকা উদ্ধারের পরিকল্পনা চেয়েছে। সেটি দরকারি পদক্ষেপ। কিন্তু দপ্তর থেকে দপ্তরে কাগজ ঘোরা জবাবদিহি নয়; জনতার সামনে ফল দেখাতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রশ্নটি সরাসরি: এক মাসের মধ্যে যে পরিকল্পনা চাওয়া হয়েছে, তার কোন অংশ বাস্তবায়িত হলো? কোন অডিট আপত্তি নিষ্পত্তি হলো, কত টাকা সত্যিই রাষ্ট্রীয় হিসাবে জমা পড়ল, কোন নথি মেলেনি, আর তদন্তে কার দায়িত্ব কোথায় নির্ধারিত হলো? বিমান রাষ্ট্রের মালিকানাধীন প্রতিষ্ঠান। তাই তার হিসাব জনগণের অগোচরে রাখার সুযোগ নেই।"
+        },
+        {
+          "type": "callout",
+          "text": "অডিট আপত্তি অপরাধ প্রমাণ বা কারও চূড়ান্ত দোষসিদ্ধি নয়। কিন্তু বছরের পর বছর আপত্তি অনিষ্পন্ন থাকা, বৈধ নথি দেখাতে না পারা এবং সময়সীমাবদ্ধ তদন্তের প্রয়োজন হওয়া—এসবই প্রকাশ্য অগ্রগতি-তালিকার যথেষ্ট কারণ।"
+        },
+        {
+          "type": "heading",
+          "text": "১০ নভেম্বরের বৈঠকে কী জানা গেল?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ সংবাদ সংস্থা (বাসস) সংসদ সচিবালয়ের সংবাদবিজ্ঞপ্তির ভিত্তিতে জানায়, সরকারি প্রতিষ্ঠান-সংক্রান্ত সংসদীয় স্থায়ী কমিটি বিমানের আর্থিক অনিয়ম, রাজস্ব ক্ষতি, ক্রয় ও পরিচালনা-সংক্রান্ত প্রশ্ন এবং লোকসানি রুটের বিষয় পর্যালোচনা করেছে। বৈঠকে বলা হয়, ১৯৯৬ থেকে ২০২১ সময়ের ১১১টি অমীমাংসিত অডিট আপত্তির সঙ্গে প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা জড়িত। দ্য বিজনেস স্ট্যান্ডার্ড ও ঢাকা ট্রিবিউনও একই বৈঠক ও মূল অঙ্কের স্বাধীন প্রতিবেদন করেছে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে সময়সীমাটিও গুরুত্বপূর্ণ। কমিটি এক মাসের মধ্যে অডিট আপত্তি নিষ্পত্তি, বকেয়া অর্থ উদ্ধার এবং সংশ্লিষ্ট মামলা ও আইনি প্রক্রিয়ার অগ্রগতিসহ সময়বদ্ধ কর্মপরিকল্পনা চেয়েছে। অর্থাৎ কমিটি শুধু অসন্তোষ প্রকাশ করেনি; ফল দেওয়ার তারিখও বেঁধে দিয়েছে। এখন সেই ফল প্রকাশ না হলে নির্দেশটি আরেকটি সভার কার্যবিবরণীতে আটকে যাবে।"
+        },
+        {
+          "type": "heading",
+          "text": "অঙ্কটি কী বলে, আর কী বলে না"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা শুনলে স্বাভাবিকভাবেই প্রশ্ন ওঠে—সব টাকাই কি হারিয়েছে? উত্তরটি এত সরল নয়। অডিট আপত্তিতে সম্ভাব্য অনিয়ম, অপর্যাপ্ত প্রমাণ, ভুল হিসাব, অনাদায়ী পাওনা বা নীতিভঙ্গের প্রশ্ন থাকতে পারে। অডিট আপত্তির অঙ্ককে আদালতের রায় বা চূড়ান্ত ক্ষতি বলা ঠিক হবে না। এই পার্থক্যটি মানতে হবে, কারণ ন্যায্য জবাবদিহি অনুমান দিয়ে নয়, নথি দিয়ে চলে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তবু অঙ্কটি হালকা করে দেখার উপায় নেই। বাসসের প্রতিবেদনে বলা হয়েছে, অর্থ উদ্ধারের সঙ্গে সম্পর্কিত ৪৫টি আপত্তির মধ্যে আটটিতে বিমান যে নিষ্পত্তির দাবি করেছিল, অডিট বিভাগ বৈধ ব্যাংক বিবরণী না থাকায় তা গ্রহণ করেনি। আটটি আপত্তি মানেই আটটি অপরাধ—এমন সিদ্ধান্ত এখানে নেই। কিন্তু টাকা উদ্ধারের দাবি প্রমাণে ব্যাংক নথি লাগবে, এটাই স্বাভাবিক মানদণ্ড। সেই নথি না থাকলে সংশ্লিষ্ট আপত্তির বর্তমান অবস্থা প্রকাশ করা জরুরি।"
+        },
+        {
+          "type": "heading",
+          "text": "পুরোনো বিমান, সফটওয়্যার ও কার্গো: তিনটি আলাদা পরীক্ষা"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটি দুটি ১৫ বছর বয়সী ড্যাশ-৮ উড়োজাহাজের বিষয়ও তোলে। সংবাদবিজ্ঞপ্তির ভাষ্য অনুযায়ী, লিজের মেয়াদ শেষে এগুলো কেনা হয়েছিল, যদিও বিমানের ক্রয়নীতিতে পুরোনো উড়োজাহাজ কেনার সুযোগ ছিল না বলে কমিটিতে আলোচনা হয়। কমিটি তৎকালীন বোর্ড ও ক্রয়-কমিটির সদস্যদের তালিকা ১৫ দিন থেকে এক মাসের মধ্যে দিতে এবং সংশ্লিষ্ট ব্যয় ও নথি অডিটরদের কাছে ১৫ দিনের মধ্যে জমা দিতে বলেছে। এখানে কারও নাম প্রকাশ হয়নি, আর কোনো ব্যক্তির দায়ও প্রতিষ্ঠিত হয়নি। সুতরাং প্রতিবেদনের আগেই কাউকে দোষী বলা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্বিতীয় প্রশ্নটি ডিজিটাল রাজস্বের। কমিটির বৈঠকে অডিটের তথ্য হিসেবে বলা হয়, আন্তর্জাতিক ফ্লাইটে ইকোনমি থেকে বিজনেস ক্লাসে উন্নীত করতে অতিরিক্ত অর্থ নেওয়া হলেও তা বিমানের হিসাব ব্যবস্থায় না ঢোকার অভিযোগ আছে। এ কারণে মহাহিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয় তথ্যপ্রযুক্তি নিরীক্ষা শুরু করেছে এবং জুলাই থেকে অক্টোবরের তথ্য দিতে বলা হয়েছে। এটি প্রমাণিত রাজস্ব চুরি নয়; এটি নিরীক্ষাধীন সম্ভাব্য ফাঁক। কিন্তু এই ধরনের ফাঁক বন্ধ করতে কত রেকর্ড মিলেছে, কতটি লেনদেন যাচাই হয়েছে এবং কী নিয়ন্ত্রণ বসানো হলো—সেটিই জনতার জানার বিষয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তৃতীয় প্রশ্ন কার্গো ও সেবা-চুক্তির। সাবর নামের যাত্রীসেবা-ব্যবস্থা সরবরাহকারীকে চুক্তির সব কাজ না পেয়েও পুরো অর্থ দেওয়া হয়েছে কি না, সে বিষয়ে বিমান ও অডিট বিভাগকে সাত দিনের মধ্যে যৌথ লিখিত প্রতিবেদন দিতে বলা হয়েছে। আবার কোভিডের সময় ঢাকা–গুয়াংজু চার্টার কার্গো ফ্লাইটে ভাড়া কম দেখিয়ে অতিরিক্ত অর্থ সরকারি কোষাগারে না যাওয়ার অভিযোগে এক মাসে অভ্যন্তরীণ তদন্তের নির্দেশ দেওয়া হয়েছে। এই অভিযোগগুলোর সত্যতা এখনো তদন্ত ও নথি-পরীক্ষার বিষয়। তাই এখন প্রয়োজন অভিযোগের ভাষা নয়, ফলের ভাষা।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকার ও বর্তমান ব্যবস্থাপনার শক্তিশালী বক্তব্য"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পক্ষে সবচেয়ে গুরুত্বপূর্ণ কথাটি এসেছে কমিটির চেয়ারম্যান ও প্রধান হুইপ নুরুল ইসলাম মনির কাছ থেকে। দ্য ডেইলি স্টারকে তিনি বলেছেন, আর্থিক অব্যবস্থাপনার বড় অংশ আগের প্রশাসনগুলোর সিদ্ধান্ত থেকে এসেছে; একই সঙ্গে বর্তমান ব্যবস্থাপনা সমস্যা ঠিক করার চেষ্টা করছে এবং সেই চেষ্টা উৎসাহ দেওয়া উচিত। এই বক্তব্য উপেক্ষা করার কারণ নেই। ১৯৯৬–২০২১ সময়ের আপত্তির দায় বর্তমান সরকার বা বর্তমান ব্যবস্থাপনার ওপর সরাসরি চাপানো সৎ বিশ্লেষণ হবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিমানের সাম্প্রতিক আর্থিক চিত্রেও একটি বাস্তবতা আছে। দ্য ডেইলি স্টার ৪ নভেম্বর সংসদীয় কমিটির সামনে উপস্থাপিত হিসাবের ভিত্তিতে জানায়, ২০২৫–২৬ অর্থবছরে বিমান ৮২২ কোটি ৩৪ লাখ টাকা নিট মুনাফার কথা জানিয়েছে; তবে সেই মুনাফা নিরীক্ষাসাপেক্ষ। মুনাফা হলে সেটি ইতিবাচক। কিন্তু মুনাফা পুরোনো অডিট আপত্তির উত্তর নয়। একটি প্রতিষ্ঠান একই সঙ্গে লাভও করতে পারে, আবার পুরোনো অনিষ্পন্ন দায় ও দুর্বল নিয়ন্ত্রণও বহন করতে পারে।"
+        },
+        {
+          "type": "heading",
+          "text": "সমস্যাটা কোথায়?"
+        },
+        {
+          "type": "paragraph",
+          "text": "সমস্যা কেবল অতীতে কী ঘটেছিল তা নয়; সমস্যা হলো বর্তমানের জবাব দেওয়ার পদ্ধতি। সংসদীয় কমিটি তথ্য চাইলেই নাগরিক জানতে পারে না, তথ্য পাওয়া গেল কি না। অভ্যন্তরীণ তদন্তের নির্দেশ হলেই বোঝা যায় না, তদন্ত স্বাধীনভাবে হলো কি না। ‘উদ্ধার করা হয়েছে’ বললেই বোঝা যায় না, কোন হিসাব থেকে কত টাকা রাষ্ট্রীয় কোষাগারে গেছে। আগের আটটি আপত্তিতে বৈধ ব্যাংক বিবরণী না থাকার ঘটনাই দেখায় কেন শুধু মৌখিক আশ্বাস যথেষ্ট নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিমানের নিজস্ব সরকারি ওয়েবসাইটে অভিযোগ প্রতিকার ও তথ্য অধিকার-সংক্রান্ত পৃষ্ঠা আছে। এই কাঠামো থাকা ভালো। কিন্তু বড় অডিট আপত্তির ক্ষেত্রে আলাদা করে আবেদন করিয়ে তথ্য খুঁজতে বলা জনস্বার্থের মানদণ্ড হতে পারে না। সংসদীয় কমিটির সময়সীমাবদ্ধ নির্দেশ, অডিট বিভাগ, রাষ্ট্রীয় অর্থ এবং রাষ্ট্রায়ত্ত বিমান সংস্থা—এই চারটি উপাদান মিললে প্রকাশ্য স্বতঃপ্রণোদিত তথ্য দেওয়াই সঠিক পথ।"
+        },
+        {
+          "type": "heading",
+          "text": "কার লাভ, কার ক্ষতি?"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিমানের হিসাবকে শুধু বিমানের হিসাব ভাবলে ভুল হবে। রাষ্ট্রায়ত্ত সংস্থার ব্যর্থ নিয়ন্ত্রণের খরচ শেষ পর্যন্ত বহন করে কয়েকটি পক্ষ। যাত্রী খারাপ সেবা, বিলম্ব বা সীমিত প্রতিযোগিতার ক্ষতি পায়। সৎ ঠিকাদার বা সেবা-সরবরাহকারী সন্দেহ ও অস্পষ্টতার বাজারে পিছিয়ে পড়ে। আর রাষ্ট্রীয় অর্থের অপচয় বা রাজস্ব ঘাটতি হলে সেই চাপ করদাতা ও অন্য সরকারি সেবার ওপর পড়ে। সব অডিট আপত্তি যে অপচয়, তা বলা যাচ্ছে না; কিন্তু কোনটি অপচয় নয়, কোনটি উদ্ধার হয়েছে এবং কোনটি মামলায় আছে—এসব না জানলে জনস্বার্থের হিসাব অসম্পূর্ণ থাকে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "একই কারণে সৎ বর্তমান কর্মকর্তাদেরও প্রকাশ্য তথ্য থেকে লাভ আছে। তারা যদি পুরোনো নথি জোগাড় করেন, দুর্বল পদ্ধতি বদলান এবং অর্থ উদ্ধারের প্রমাণ দেন, তাহলে সব ব্যর্থতার সঙ্গে তাদের এক কাতারে দাঁড়াতে হবে না। অস্বচ্ছতা বরং সবার ওপর একই সন্দেহ ফেলে। বর্তমান ব্যবস্থাপনার জন্য তাই সবচেয়ে ভালো প্রতিরক্ষা বক্তব্য নয়, যাচাইযোগ্য কাজের তালিকা।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদীয় নজরদারির পরীক্ষা এখন"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংসদীয় কমিটির কাজ শুধু বৈঠকে প্রশ্ন করা নয়; উত্তর পাওয়ার পর সেই উত্তরের মান যাচাই করাও তার দায়িত্ব। ১০ নভেম্বরের সিদ্ধান্তে কয়েকটি আলাদা সময়সীমা আছে বলে এবার পরীক্ষাটিও নির্দিষ্ট। সাত দিনের যৌথ প্রতিবেদন কি জমা পড়ল? ১৫ দিনের নথি কি অডিটরদের দেওয়া হলো? এক মাসের কর্মপরিকল্পনায় কি ১১১টি আপত্তির আলাদা অবস্থান আছে? উত্তরগুলো ‘চলমান’ শব্দে ঢেকে রাখা যাবে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটির চেয়ারম্যান বলেছেন বর্তমান ব্যবস্থাপনার উদ্যোগকে উৎসাহ দিতে হবে। ঠিক তাই। কিন্তু উৎসাহের সঙ্গে যাচাই না থাকলে সংসদীয় কমিটি ক্ষমতাবান প্রতিষ্ঠানের প্রচার বিভাগে পরিণত হওয়ার ঝুঁকি নেয়। আবার প্রতিটি পুরোনো সিদ্ধান্ত বর্তমান কর্মকর্তার ওপর চাপালে ন্যায্যতা থাকে না। সঠিক ভারসাম্য হলো: অতীতের দায় তদন্তে নির্ধারিত হবে, আর বর্তমানের দায় হবে তদন্ত, উদ্ধার ও প্রকাশের সময়সীমা মানা।"
+        },
+        {
+          "type": "heading",
+          "text": "প্রকাশ্যতা মানে সব নথি অনলাইনে তুলে দেওয়া নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "বিমান চাইলে বাণিজ্যিক গোপনীয়তা, চলমান মামলা বা ব্যক্তিগত তথ্যের কথা বলতে পারে। এসব ক্ষেত্রে সীমাবদ্ধতা বাস্তব। কিন্তু সীমাবদ্ধতা পুরো অগ্রগতি গোপন রাখার লাইসেন্স নয়। চুক্তির সংবেদনশীল অংশ বা ব্যক্তিগত পরিচয় আড়াল করেও আপত্তির নম্বর, অর্থের পরিমাণ, তদন্তের ধাপ, নির্ধারিত তারিখ, উদ্ধার হওয়া অর্থ এবং নিষ্পত্তির কারণ প্রকাশ করা যায়। জনগণের প্রয়োজন প্রতিটি কাগজের কপি নয়; প্রয়োজন এমন সারাংশ, যাতে সরকারি দাবিটি স্বাধীনভাবে পরীক্ষা করা যায়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই পার্থক্যটি বিশেষ জরুরি, কারণ নিবন্ধটি কারও বিরুদ্ধে আগে থেকে শাস্তির দাবি করছে না। বিপরীতভাবে, নথি প্রকাশ হলে নির্দোষ ব্যক্তি বা সঠিক সিদ্ধান্তও পরিষ্কার হবে। গোপনীয়তার আড়ালে কেবল সন্দেহ বাড়ে; যাচাইযোগ্য সারাংশ প্রকাশ হলে অভিযোগ, জবাব ও সিদ্ধান্ত—তিনটিই একই মানদণ্ডে দেখা যায়।"
+        },
+        {
+          "type": "heading",
+          "text": "করণীয়: এক পৃষ্ঠার প্রতিশ্রুতি নয়, যাচাইযোগ্য তালিকা"
+        },
+        {
+          "type": "list",
+          "items": [
+            "বিমান ও বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয় এক মাসের কর্মপরিকল্পনা প্রকাশ করুক: ১১১টি আপত্তির নম্বর, বছর, বিষয়, জড়িত অর্থ, বর্তমান অবস্থা এবং পরবর্তী সময়সীমা সেখানে থাকুক।",
+            "যে অর্থ উদ্ধারের দাবি করা হবে, তার জন্য নিরীক্ষায় গ্রহণযোগ্য প্রমাণের ধরন ও রাষ্ট্রীয় হিসাবে জমার তারিখ প্রকাশ করা হোক। ব্যক্তিগত বা বাণিজ্যিক গোপনীয়তা থাকলে প্রয়োজনীয় অংশ আড়াল করা যেতে পারে; অঙ্ক ও ফল গোপন নয়।",
+            "দুটি ড্যাশ-৮, সাবর চুক্তি, সফটওয়্যার নিরীক্ষা ও ঢাকা–গুয়াংজু কার্গো তদন্তের জন্য কমিটি-নির্ধারিত আলাদা সময়সীমা, দায়িত্বপ্রাপ্ত দপ্তর এবং পাওয়া নথির অবস্থা প্রকাশ করা হোক।",
+            "তদন্ত শেষে কারও বিরুদ্ধে প্রশাসনিক বা আইনি পদক্ষেপ না নেওয়া হলে তার কারণও লিখিতভাবে জানাতে হবে। দায় না পাওয়াও একটি ফল; কিন্তু সেই ফলের পক্ষে নথি থাকতে হবে।",
+            "সংসদীয় কমিটি পরের বৈঠকে একটি প্রকাশ্য অগ্রগতি-সারণি গ্রহণ করুক এবং তার সারাংশ সংসদ সচিবালয়ের ওয়েবসাইটে প্রকাশ করুক।"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "উপসংহার"
+        },
+        {
+          "type": "paragraph",
+          "text": "কমিটির ১০ নভেম্বরের নির্দেশকে ছোট করে দেখার সুযোগ নেই। পুরোনো সিদ্ধান্তের নথি চাওয়া, সম্ভাব্য রাজস্ব ফাঁক পরীক্ষা করা এবং সময় বেঁধে কর্মপরিকল্পনা চাওয়া—এগুলো প্রয়োজনীয় সংসদীয় নজরদারি। বর্তমান ব্যবস্থাপনা যদি সত্যিই পুরোনো জট খুলতে চায়, তাহলে প্রকাশ্য হিসাব তাদের কাজকে দুর্বল নয়, শক্তিশালী করবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু একটি রাষ্ট্রীয় প্রতিষ্ঠানের জন্য ‘রিপোর্ট দিতে বলা হয়েছে’ শেষ কথা হতে পারে না। এক মাস পরে নাগরিকের হাতে থাকতে হবে যাচাইযোগ্য উত্তর: কোন আপত্তি মিটল, কত টাকা উদ্ধার হলো, কোন অভিযোগের তদন্ত এগোল, কোন নথি পাওয়া গেল না, এবং কোথায় দায় নির্ধারণ হলো। বিমানের আকাশে উড়োজাহাজ উড়বে; তার আর্থিক হিসাবও ততটাই পরিষ্কারভাবে উড়তে হবে জনসমক্ষে।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — ‘JS committee orders probe into Biman irregularities, seeks accountability’, ১০ নভেম্বর ২০২৬ (সংসদ সচিবালয়ের সংবাদবিজ্ঞপ্তির ভিত্তিতে)",
+          "url": "https://www.bssnews.net/news/444099"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড — ‘Biman's Dash-8 purchase, Tk753cr audit objections draw parliamentary scrutiny’, ১০ নভেম্বর ২০২৬",
+          "url": "https://www.tbsnews.net/economy/aviation/bimans-dash-8-purchase-tk753cr-audit-objections-draw-parliamentary-scrutiny-1598791"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — ‘JS panel seeks action on Biman audit findings’, ১১ নভেম্বর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/js-panel-seeks-action-biman-audit-findings-4320731"
+        },
+        {
+          "label": "ঢাকা ট্রিবিউন — ‘Parliamentary committee seeks list of officials involved in Biman corruption’, ১০ নভেম্বর ২০২৬",
+          "url": "https://www.dhakatribune.com/bangladesh/424254/parliamentary-committee-seeks-list-of-officials"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — ‘Tk 822cr profit, unpaid bills Tk 7,000cr’, ৪ নভেম্বর ২০২৬",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/tk-822cr-profit-unpaid-bills-tk-7000cr-4315021"
+        },
+        {
+          "label": "বিমান বাংলাদেশ এয়ারলাইন্স — অনলাইন অভিযোগ প্রতিকার তথ্য",
+          "url": "https://biman.gov.bd/pages/static-pages/6922e0a1933eb65569e27e97"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Biman’s 111 audit objections need a public deadline tracker",
+          "excerpt": "Parliament was told that Biman Bangladesh Airlines has 111 unresolved audit objections involving about Tk 753.50 crore from 1996–2021. The committee set reporting deadlines; the public now needs a verifiable tracker of recoveries, records and accountability action.",
+          "imageAlt": "Editorial illustration about public-enterprise audit accountability, public funds and transparent reporting in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "A parliamentary committee has set deadlines over Biman’s 111 unresolved audit objections. Publish the status of each objection, verified recoveries and accountability action."
+        },
+        "de": {
+          "title": "Bei Bimans 111 Prüfungsbeanstandungen braucht es einen öffentlichen Fristenplan",
+          "excerpt": "Dem Parlament wurde mitgeteilt, dass bei Biman Bangladesh Airlines 111 ungelöste Prüfungsbeanstandungen aus den Jahren 1996–2021 mit rund 753,50 Crore Taka bestehen. Der Ausschuss setzte Fristen; die Öffentlichkeit braucht nun eine überprüfbare Übersicht über Rückforderungen, Unterlagen und Folgemassnahmen.",
+          "imageAlt": "Redaktionelle Illustration über die Rechenschaftspflicht staatlicher Unternehmen, öffentliche Mittel und transparente Berichte in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Ein Parlamentsausschuss hat Fristen für Bimans 111 ungelöste Prüfungsbeanstandungen gesetzt. Der Status jeder Beanstandung, belegte Rückforderungen und Folgemassnahmen müssen veröffentlicht werden."
+        }
+      },
+      "automation": {
+        "evidenceScore": 89,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a new, time-bound parliamentary accountability development after the previous weekly cycle. A Parliament Secretariat release reported by the state news agency records the committee’s 10 November directives and deadlines. The Business Standard, The Daily Star and Dhaka Tribune independently corroborate the central audit-objection total, scrutiny of two former leased Dash-8 aircraft and requests for records. The article treats all allegations as audit or investigation matters, not findings of individual guilt, and includes the committee chair’s account that much mismanagement is inherited and current management is addressing it.",
+        "governmentPosition": "Committee chair and Chief Whip Nurul Islam Moni told The Daily Star that much of the financial mismanagement stemmed from earlier administrations, while current management is working to address inherited problems and should be encouraged. Biman’s reported FY2025–26 profit is also acknowledged as a positive but audit-subject development. The editorial does not assign historic responsibility to the current government; it asks the current authorities to prove their corrective work with public records.",
+        "findings": [
+          "On 10 November 2026, the Parliamentary Standing Committee on Public Undertakings reviewed 111 unresolved Biman audit objections involving about Tk 753.50 crore for 1996–2021 and requested a one-month time-bound action plan.",
+          "The committee sought documents and named outputs on several separate matters: two formerly leased Dash-8 aircraft, an IT audit of passenger-revenue systems, a Sabre passenger-service-system report and an internal cargo-flight inquiry.",
+          "An audit objection is not a criminal conviction or proof that a particular person is guilty; the article keeps every unresolved allegation in that status.",
+          "The current government cannot fairly be assigned responsibility for all older decisions, but it is responsible for whether current deadlines, document requests, recovery claims and accountability measures are disclosed and followed through.",
+          "A public tracker listing the audit objection, status, evidence of recovery, deadline and result would make the committee’s oversight testable without compromising legally protected personal or commercial information."
+        ],
+        "claimMatrix": {
+          "auditObjectionTotal": "VERIFIED FACT — HIGH — BSS reports the Parliament Secretariat release stating 111 unresolved audit objections involving about Tk 753.50 crore for 1996–2021; TBS, The Daily Star and Dhaka Tribune independently report the same core total.",
+          "deadlinesAndDirections": "VERIFIED FACT — HIGH — BSS and independent reports specify the requested one-month action plan, 15-day to one-month document/list deadlines, seven-day joint report and one-month cargo inquiry.",
+          "dash8AndRevenueMatters": "AUDIT/COMMITTEE ALLEGATIONS — HIGH — reported as issues under review and audit, never as established individual wrongdoing.",
+          "currentManagementResponse": "REPORTED GOVERNMENT POSITION — HIGH — The Daily Star attributes the inherited-problem account and support for corrective work to committee chair Nurul Islam Moni.",
+          "fy2025_26Profit": "REPORTED FINANCIAL POSITION — HIGH — The Daily Star reports Tk 822.34 crore net profit presented to a parliamentary committee and expressly notes that it remains subject to audit.",
+          "publicTrackerDemand": "ANALYSIS — HIGH — publication of statuses, evidence and outcomes is a proportionate transparency requirement for a state-owned enterprise and does not prejudge liability."
+        },
+        "seoTitle": "বিমানের ১১১ অডিট আপত্তির প্রকাশ্য হিসাব চাই",
+        "metaDescription": "বিমানের ১১১টি অনিষ্পন্ন অডিট আপত্তিতে প্রায় ৭৫৩ কোটি ৫০ লাখ টাকা জড়িত। সংসদীয় কমিটি সময় বেঁধেছে; এবার উদ্ধার, নথি ও দায় নির্ধারণের প্রকাশ্য হিসাব চাই।",
+        "categories": [
+          "রাষ্ট্রীয় প্রতিষ্ঠান",
+          "সরকারি জবাবদিহি",
+          "জনঅর্থ"
+        ],
+        "tags": [
+          "বিমান বাংলাদেশ এয়ারলাইন্স",
+          "অডিট আপত্তি",
+          "সংসদীয় কমিটি",
+          "জনঅর্থ",
+          "মহাহিসাব নিরীক্ষক",
+          "জবাবদিহি",
+          "রাষ্ট্রায়ত্ত প্রতিষ্ঠান",
+          "বেসামরিক বিমান পরিবহন",
+          "স্বচ্ছতা",
+          "ড্যাশ-৮"
+        ]
+      }
+    },
+    {
       "id": "measles-vaccine-inquiry-public-report-accountability-2026",
       "slug": "measles-vaccine-inquiry-public-report-accountability-2026",
       "status": "published",
