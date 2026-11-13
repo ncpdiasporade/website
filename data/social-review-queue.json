@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T01:09:04.322Z",
+  "updatedAt": "2026-11-13T22:41:05.181Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9474,6 +9474,45 @@
           "description": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah!\n\nশুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! 💚 আপনার সুস্বাস্থ্য, দীর্ঘায়ু এবং মানুষের কল্যাণে কাজ করার শক্তি ও সাফল্য কামনা করছি। NCP Diaspora Alliance Germany-এর পক্ষ থেকে আন্তরিক শুভেচ্ছা ও ভালোবাসা। #ncpdagermany #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214677960921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214677960921031-ef6f98f57a-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214807140921031-8826475966",
+      "sourceType": "facebook",
+      "sourceId": "122214807140921031",
+      "sourceKey": "facebook:germany:122214807140921031",
+      "sourceFingerprint": "8826475966cd3ff5b0b5723117c576d3d04c3885f12cd64a4707a22b30cf63d9",
+      "sourceCreatedAt": "2026-11-13T20:40:41+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214807140921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-13T22:41:05.180Z",
+      "updatedAt": "2026-11-13T22:41:05.180Z",
+      "title": "নতুন ভিডিও আপডেট",
+      "excerpt": "অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।",
+      "sourceCaption": null,
+      "image": "img/social/germany/fb-122214807140921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "নতুন ভিডিও আপডেট অফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।\nhttps://www.facebook.com/122195961254921031/posts/122214807140921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214807140921031-8826475966-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "নতুন ভিডিও আপডেট",
+          "description": "নতুন ভিডিও আপডেট\n\nঅফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214807140921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214807140921031-8826475966-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
