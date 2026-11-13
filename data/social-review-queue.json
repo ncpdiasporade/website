@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T03:03:36.077Z",
+  "updatedAt": "2026-11-13T01:09:04.322Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9396,6 +9396,84 @@
           "description": "বাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah\n\nবাংলাদেশের ভবিষ্যৎ রাজনীতি হবে ‘উইদাউট আওয়ামী লীগ’ — হাসনাত আবদুল্লাহ #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214544622921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122214544622921031-bb5c79bdcd-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214663374921031-8be6bb88ee",
+      "sourceType": "facebook",
+      "sourceId": "122214663374921031",
+      "sourceKey": "facebook:germany:122214663374921031",
+      "sourceFingerprint": "8be6bb88eee5671ed8b667cc61b6beefdb40b8aed2ff2412570f425e2384f5ee",
+      "sourceCreatedAt": "2026-11-12T21:08:07+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214663374921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-13T01:09:03.808Z",
+      "updatedAt": "2026-11-13T01:09:03.808Z",
+      "title": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক,…",
+      "excerpt": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "sourceCaption": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany",
+      "image": "img/social/germany/fb-122214663374921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক,… “যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে,…\nhttps://www.facebook.com/122195961254921031/posts/122214663374921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214663374921031-8be6bb88ee-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে,…",
+          "description": "“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক,…\n\n“যদি আমাদের মানবাধিকার না থাকে এবং শত্রুর মানবাধিকার নিয়ে এই সরকারের বেশি কনসার্ন থাকে, তাহলে আমাদেরকে আমাদের পথ দেখতে হবে।” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214663374921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214663374921031-8be6bb88ee-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122214677960921031-ef6f98f57a",
+      "sourceType": "facebook",
+      "sourceId": "122214677960921031",
+      "sourceKey": "facebook:germany:122214677960921031",
+      "sourceFingerprint": "ef6f98f57a06c058966a7e0ef670ad1fe2c4bfd8f95bbea25242688f77bdce75",
+      "sourceCreatedAt": "2026-11-12T23:19:12+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214677960921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-13T01:09:04.322Z",
+      "updatedAt": "2026-11-13T01:09:04.322Z",
+      "title": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah!",
+      "excerpt": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! 💚 আপনার সুস্বাস্থ্য, দীর্ঘায়ু এবং মানুষের কল্যাণে কাজ করার শক্তি ও সাফল্য কামনা করছি। NCP Diaspora Alliance Germany-এর পক্ষ থেকে আন্তরিক শুভেচ্ছা ও ভালোবাসা। #ncpdagermany #hasnatabdullah",
+      "sourceCaption": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! 💚 আপনার সুস্বাস্থ্য, দীর্ঘায়ু এবং মানুষের কল্যাণে কাজ করার শক্তি ও সাফল্য কামনা করছি। NCP Diaspora Alliance Germany-এর পক্ষ থেকে আন্তরিক শুভেচ্ছা ও ভালোবাসা। #ncpdagermany #hasnatabdullah",
+      "image": "img/social/germany/fb-122214677960921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! 💚 আপনার সুস্বাস্থ্য, দীর্ঘায়ু এবং মানুষের কল্যাণে কাজ করার শক্তি ও সাফল্য কামনা করছি। NCP Diaspora Alliance Germany-এর পক্ষ থেকে আন্তরিক শুভেচ্ছা…\nhttps://www.facebook.com/122195961254921031/posts/122214677960921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122214677960921031-ef6f98f57a-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah!",
+          "description": "শুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah!\n\nশুভ জন্মদিন, জনতার ক্যাপ্টেন Hasnat Abdullah! 💚 আপনার সুস্বাস্থ্য, দীর্ঘায়ু এবং মানুষের কল্যাণে কাজ করার শক্তি ও সাফল্য কামনা করছি। NCP Diaspora Alliance Germany-এর পক্ষ থেকে আন্তরিক শুভেচ্ছা ও ভালোবাসা। #ncpdagermany #hasnatabdullah\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122214677960921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122214677960921031-ef6f98f57a-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
