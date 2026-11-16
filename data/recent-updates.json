@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-16T02:45:41.940Z",
+  "updatedAt": "2026-11-16T11:27:56.027Z",
   "items": [
+    {
+      "id": "facebook-germany-122215146008921031",
+      "facebookId": "122215146008921031",
+      "status": "published",
+      "date": "১৬ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-16T07:42:21+0000",
+      "badge": "ভিডিও",
+      "title": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না”",
+      "excerpt": "- নাহিদ ইসলাম আহ্বায়ক, এনসিপি",
+      "sourceCaption": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না”\n\n- নাহিদ ইসলাম \nআহ্বায়ক, এনসিপি \n\n#ncpdagermany #ncp #ncpbangladesh #nahidislam",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/reel/29050368074662550/",
+      "mediaType": "video",
+      "isReel": true,
+      "featured": false,
+      "image": "img/social/germany/fb-122215146008921031.jpg",
+      "imageAlt": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না”",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122215106306921031",
       "facebookId": "122215106306921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122215054328921031.jpg",
       "imageAlt": "মানবতাবিরোধী অপরাধের মামলায় কারাগারে থাকা সাবেক সেনা কর্মকর্তা মেজর জেনারেল (অব.) জিয়াউল আহসানকে ডান্ডাবেড়ি ও…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122214959390921031",
-      "facebookId": "122214959390921031",
-      "status": "published",
-      "date": "১৪ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-14T21:39:21+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "আগামীর নতুন বাংলাদেশের স্বপ্নদ্রষ্টা",
-      "excerpt": "বাংলাদেশের নেতা নাহিদ ইসলাম ❤️",
-      "sourceCaption": "আগামীর নতুন বাংলাদেশের স্বপ্নদ্রষ্টা\nআমাদের নেতা\nবাংলাদেশের নেতা\n\n নাহিদ ইসলাম ❤️\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122214959390921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122214959390921031.jpg",
-      "imageAlt": "আগামীর নতুন বাংলাদেশের স্বপ্নদ্রষ্টা",
       "managedBy": "facebook-sync"
     },
     {
