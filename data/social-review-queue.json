@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T11:28:49.027Z",
+  "updatedAt": "2026-11-16T22:08:18.722Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9903,6 +9903,123 @@
           "description": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\n\n“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\n\nবিস্তারিত: https://www.facebook.com/reel/29050368074662550/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122215146008921031-48acffbf86-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122215179890921031-a1a11e736f",
+      "sourceType": "facebook",
+      "sourceId": "122215179890921031",
+      "sourceKey": "facebook:germany:122215179890921031",
+      "sourceFingerprint": "a1a11e736fe65d1fa884b4444cff2f845ff0e28bc0c57697734de005187439bb",
+      "sourceCreatedAt": "2026-11-16T13:49:39+0000",
+      "sourceUrl": "https://www.facebook.com/reel/1655821292864759/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-16T22:08:17.617Z",
+      "updatedAt": "2026-11-16T22:08:17.617Z",
+      "title": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh",
+      "excerpt": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh",
+      "sourceCaption": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh",
+      "image": "img/social/germany/fb-122215179890921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh\nhttps://www.facebook.com/reel/1655821292864759/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122215179890921031-a1a11e736f-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam…",
+          "description": "“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh\n\n“সমতার ভিত্তিতে হবে বন্ধুত্ব” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #nahidislam #ncp #ncpbangladesh\n\nবিস্তারিত: https://www.facebook.com/reel/1655821292864759/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122215179890921031-a1a11e736f-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122215205204921031-e971f3cce6",
+      "sourceType": "facebook",
+      "sourceId": "122215205204921031",
+      "sourceKey": "facebook:germany:122215205204921031",
+      "sourceFingerprint": "e971f3cce61f4f829ce05f0dbb117e6713d360324e5ef3da7ede95b66e81ea32",
+      "sourceCreatedAt": "2026-11-16T16:09:07+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122215205204921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-16T22:08:18.196Z",
+      "updatedAt": "2026-11-16T22:08:18.197Z",
+      "title": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত…",
+      "excerpt": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত বিপ্লবী গণসংবর্ধনায় আপনাকে সাদর আমন্ত্রণ। ভেন্যু: The Mayfair Venue 1078–1082 High Road, Romford, RM6 4BD England, United Kingdom #ncpdagermany #nahidislam",
+      "sourceCaption": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত বিপ্লবী গণসংবর্ধনায় আপনাকে সাদর আমন্ত্রণ। ভেন্যু: The Mayfair Venue 1078–1082 High Road, Romford, RM6 4BD England, United Kingdom #ncpdagermany #nahidislam",
+      "image": "img/social/germany/fb-122215205204921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত… জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের…\nhttps://www.facebook.com/122195961254921031/posts/122215205204921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122215205204921031-e971f3cce6-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের…",
+          "description": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত…\n\nজুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী বাংলাদেশিদের পক্ষ থেকে আয়োজিত বিপ্লবী গণসংবর্ধনায় আপনাকে সাদর আমন্ত্রণ। ভেন্যু: The Mayfair Venue 1078–1082 High Road, Romford, RM6 4BD England, United Kingdom #ncpdagermany #nahidislam\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122215205204921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122215205204921031-e971f3cce6-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122215246766921031-3695eb52d8",
+      "sourceType": "facebook",
+      "sourceId": "122215246766921031",
+      "sourceKey": "facebook:germany:122215246766921031",
+      "sourceFingerprint": "3695eb52d80d8859fb9ff32ac64c8ddfd1c64f8fe4d4cf7567e5fc557253069b",
+      "sourceCreatedAt": "2026-11-16T21:44:44+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122215246766921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-16T22:08:18.722Z",
+      "updatedAt": "2026-11-16T22:08:18.722Z",
+      "title": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত…",
+      "excerpt": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত আবদুল্লাহকে! সংসদ অধিবেশন শেষে সাংবাদিকদের সাথে আলাপকালে তিনি ক্ষোভ প্রকাশ করে জানান, সংসদে গঠনমূলক সমালোচনা ও জাতীয় সংকট নিয়ে বিরোধীদলীয় সদস্যদের আলোচনার সুযোগ দেওয়া হচ্ছে না। অথচ প্রধানমন্ত্রীর প্রশংসা করে কবিতা আবৃত্তির জন্য ঠিকই সময় বরাদ্দ থাকে। তার মতে, দেশের তৈরি পোশাক (গার্মেন্টস) খাতের চলমান অস্থিরতা, শ্রমিকদের বেতন বৈষম্য, গ্যাস সংকট এবং মালিকপক্ষের ভোগান্তির মতো গুরুত্বপূর্ণ অর্থনৈতিক বিষয়গুলো কার্যতালিকা থেকে বাদ দেওয়া হচ্ছে। জাতীয় তাৎপর্যপূর্ণ ইস্যু এড়িয়ে সংসদে তুলনামূলক কম গুরুত্বপূর্ণ বিষয় নিয়ে আলোচনা করে সংসদকে অকার্যকর করে রাখা হচ্ছে বলেও তিনি অভিযোগ করেন। #ncpdagermany #hasnatabdullah",
+      "sourceCaption": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত আবদুল্লাহকে! সংসদ অধিবেশন শেষে সাংবাদিকদের সাথে আলাপকালে তিনি ক্ষোভ প্রকাশ করে জানান, সংসদে গঠনমূলক সমালোচনা ও জাতীয় সংকট নিয়ে বিরোধীদলীয় সদস্যদের আলোচনার সুযোগ দেওয়া হচ্ছে না। অথচ প্রধানমন্ত্রীর প্রশংসা করে কবিতা আবৃত্তির জন্য ঠিকই সময় বরাদ্দ থাকে। তার মতে, দেশের তৈরি পোশাক (গার্মেন্টস) খাতের চলমান অস্থিরতা, শ্রমিকদের বেতন বৈষম্য, গ্যাস সংকট এবং মালিকপক্ষের ভোগান্তির মতো গুরুত্বপূর্ণ অর্থনৈতিক বিষয়গুলো কার্যতালিকা থেকে বাদ দেওয়া হচ্ছে। জাতীয় তাৎপর্যপূর্ণ ইস্যু এড়িয়ে সংসদে তুলনামূলক কম গুরুত্বপূর্ণ বিষয় নিয়ে আলোচনা করে সংসদকে অকার্যকর করে রাখা হচ্ছে বলেও তিনি অভিযোগ করেন। #ncpdagermany #hasnatabdullah",
+      "image": "img/social/germany/fb-122215246766921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত… জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে…\nhttps://www.facebook.com/122195961254921031/posts/122215246766921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122215246766921031-3695eb52d8-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯…",
+          "description": "জাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত…\n\nজাতীয় সংসদে জনগুরুত্বপূর্ণ ইস্যুতে কথা বলার জন্য আজ মাত্র একটি সম্পূরক প্রশ্ন করতে ১৯ মিনিট ধরে হাত তুলে দাঁড়িয়ে থাকতে হয়েছে সংসদ সদস্য হাসনাত আবদুল্লাহকে! সংসদ অধিবেশন শেষে সাংবাদিকদের সাথে আলাপকালে তিনি ক্ষোভ প্রকাশ করে জানান, সংসদে গঠনমূলক সমালোচনা ও জাতীয় সংকট নিয়ে বিরোধীদলীয় সদস্যদের আলোচনার সুযোগ দেওয়া হচ্ছে না। অথচ প্রধানমন্ত্রীর প্রশংসা করে কবিতা আবৃত্তির জন্য ঠিকই সময় বরাদ্দ থাকে। তার মতে, দেশের তৈরি পোশাক (গার্মেন্টস) খাতের চলমান অস্থিরতা, শ্রমিকদের বেতন বৈষম্য, গ্যাস সংকট এবং মালিকপক্ষের ভোগান্তির মতো গুরুত্বপূর্ণ অর্থনৈতিক বিষয়গুলো কার্যতালিকা থেকে বাদ দেওয়া হচ্ছে। জাতীয় তাৎপর্যপূর্ণ ইস্যু এড়িয়ে সংসদে তুলনামূলক কম গুরুত্বপূর্ণ বিষয় নিয়ে আলোচনা করে সংসদকে অকার্যকর করে রাখা হচ্ছে…\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122215246766921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122215246766921031-3695eb52d8-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
