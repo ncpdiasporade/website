@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T02:46:07.134Z",
+  "updatedAt": "2026-11-16T11:28:49.027Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -9864,6 +9864,45 @@
           "description": "“শুধু নির্বাচনের দিয়ে সেই গভীর কাঠামোগত সমস্যার সমাধান হবে না যা জুলাই বিপ্লবের জন্ম দিয়েছিল” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp…\n\n“শুধু নির্বাচনের দিয়ে সেই গভীর কাঠামোগত সমস্যার সমাধান হবে না যা জুলাই বিপ্লবের জন্ম দিয়েছিল” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\n\nবিস্তারিত: https://www.facebook.com/reel/1027993230342394/\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122215106306921031-581b0bcad9-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122215146008921031-48acffbf86",
+      "sourceType": "facebook",
+      "sourceId": "122215146008921031",
+      "sourceKey": "facebook:germany:122215146008921031",
+      "sourceFingerprint": "48acffbf86a89b94fadde8a323bf4f642d93f8f7b2288f889f5c66b1ec4439ae",
+      "sourceCreatedAt": "2026-11-16T07:42:21+0000",
+      "sourceUrl": "https://www.facebook.com/reel/29050368074662550/",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-16T11:28:49.027Z",
+      "updatedAt": "2026-11-16T11:28:49.027Z",
+      "title": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam",
+      "excerpt": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam",
+      "sourceCaption": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam",
+      "image": "img/social/germany/fb-122215146008921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\nhttps://www.facebook.com/reel/29050368074662550/\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122215146008921031-48acffbf86-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি…",
+          "description": "“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\n\n“সরকারের পতন হলেই একটি বিপ্লব পূর্ণতা পায় না” - নাহিদ ইসলাম আহ্বায়ক, এনসিপি #ncpdagermany #ncp #ncpbangladesh #nahidislam\n\nবিস্তারিত: https://www.facebook.com/reel/29050368074662550/\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122215146008921031-48acffbf86-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }

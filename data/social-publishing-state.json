@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initializedAt": "2026-07-29T23:33:52.876Z",
-  "updatedAt": "2026-11-16T02:46:07.134Z",
+  "updatedAt": "2026-11-16T11:28:49.027Z",
   "knownSources": {
     "facebook:germany:1579837809918839": "6be924c9803ab5ee3b3801b0641fae64426c0b2f9137051c1b1918ed1d28492e",
     "facebook:germany:2378818559257521": "4663a00c31718646891757df89fcd6fbd52a560b61e50b9ada77e510fcbe23a6",
@@ -275,7 +275,8 @@
     "facebook:germany:122215085180921031": "056defa1da46b9b54d8ab3287b1ceae0991564fe276473379cb1cdb38acd259c",
     "facebook:germany:122215099064921031": "c7c4a129fac1acefd766d0ce2340cb45bccba1cb1ba6a7fa6452fb65a0cf0da6",
     "facebook:germany:122215102184921031": "ed2a8b725d5a32b30493aca40d7e068a983af30e8dabf1dda73917d489069624",
-    "facebook:germany:122215106306921031": "581b0bcad92a6b8d387f2ffaf3f9461f056f07a9a2b5946023bdbb4d90d42232"
+    "facebook:germany:122215106306921031": "581b0bcad92a6b8d387f2ffaf3f9461f056f07a9a2b5946023bdbb4d90d42232",
+    "facebook:germany:122215146008921031": "48acffbf86a89b94fadde8a323bf4f642d93f8f7b2288f889f5c66b1ec4439ae"
   },
   "publications": []
 }
