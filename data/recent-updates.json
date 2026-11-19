@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-18T22:02:08.967Z",
+  "updatedAt": "2026-11-19T03:32:36.166Z",
   "items": [
+    {
+      "id": "facebook-germany-122215545320921031",
+      "facebookId": "122215545320921031",
+      "status": "published",
+      "date": "১৯ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-18T23:05:11+0000",
+      "badge": "জুলাই",
+      "title": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
+      "excerpt": "জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” - বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊",
+      "sourceCaption": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।”\n\n- বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122215545320921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122215545320921031.jpg",
+      "imageAlt": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122215262468921031",
       "facebookId": "122215262468921031",
@@ -97,26 +117,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122215205204921031.jpg",
       "imageAlt": "জুলাই গণঅভ্যুত্থানের মহানায়ক ও এক দফার ঘোষক, মাননীয় সংসদ সদস্য জনাব নাহিদ ইসলামের যুক্তরাজ্য সফর উপলক্ষে প্রবাসী…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122215179890921031",
-      "facebookId": "122215179890921031",
-      "status": "published",
-      "date": "১৬ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-16T13:49:39+0000",
-      "badge": "ভিডিও",
-      "title": "“সমতার ভিত্তিতে হবে বন্ধুত্ব”",
-      "excerpt": "- নাহিদ ইসলাম আহ্বায়ক, এনসিপি",
-      "sourceCaption": "“সমতার ভিত্তিতে হবে বন্ধুত্ব”\n\n- নাহিদ ইসলাম\nআহ্বায়ক, এনসিপি \n\n#ncpdagermany #nahidislam #ncp #ncpbangladesh",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/reel/1655821292864759/",
-      "mediaType": "video",
-      "isReel": true,
-      "featured": false,
-      "image": "img/social/germany/fb-122215179890921031.jpg",
-      "imageAlt": "“সমতার ভিত্তিতে হবে বন্ধুত্ব”",
       "managedBy": "facebook-sync"
     },
     {
