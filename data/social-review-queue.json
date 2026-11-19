@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T04:31:38.486Z",
+  "updatedAt": "2026-11-19T03:33:00.781Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -10137,6 +10137,45 @@
           "description": "নতুন কার্যক্রমের আপডেট\n\nঅফিসিয়াল ফেসবুক পেজে নতুন আপডেট প্রকাশিত হয়েছে। বিস্তারিত জানতে মূল পোস্টটি দেখুন।\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122215262468921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122215262468921031-64078ab501-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122215545320921031-45f08fa94c",
+      "sourceType": "facebook",
+      "sourceId": "122215545320921031",
+      "sourceKey": "facebook:germany:122215545320921031",
+      "sourceFingerprint": "45f08fa94c5c54300acc567c27f481a6e050047adec2bb82c6d2e4ba511c1da7",
+      "sourceCreatedAt": "2026-11-18T23:05:11+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122215545320921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-19T03:33:00.780Z",
+      "updatedAt": "2026-11-19T03:33:00.781Z",
+      "title": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
+      "excerpt": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” - বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊ #ncpdagermany",
+      "sourceCaption": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” - বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊ #ncpdagermany",
+      "image": "img/social/germany/fb-122215545320921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? “আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” -…\nhttps://www.facebook.com/122195961254921031/posts/122215545320921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122215545320921031-45f08fa94c-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
+          "description": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?\n\n“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” - বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊ #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122215545320921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122215545320921031-45f08fa94c-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
