@@ -1,6 +1,248 @@
 {
   "items": [
     {
+      "id": "public-procurement-rules-deprived-bidder-public-criteria-accountability-2026",
+      "slug": "public-procurement-rules-deprived-bidder-public-criteria-accountability-2026",
+      "status": "published",
+      "tag": "জনঅর্থ ও সরকারি ক্রয়",
+      "author": "সম্পাদকীয় ডেস্ক",
+      "date": "২০ নভেম্বর ২০২৬",
+      "title": "সরকারি ক্রয়ে ‘বঞ্চিত’ কে: নতুন বিধিতে উত্তরটি প্রকাশ্য না হলে স্বচ্ছতা হবে না",
+      "excerpt": "সংসদ সরকারি ক্রয়ে নতুন ও ছোট দরদাতার সুযোগ বাড়ানোর সংশোধনী পাস করেছে। এখন খসড়া বিধি নিয়ে মতামত চলছে। ‘বঞ্চিত’ পরিচয়ের যাচাই, ব্যতিক্রমী শর্ত ও অভিযোগের ফল প্রকাশ্য না হলে ভালো উদ্দেশ্যও পক্ষপাতের পথে যেতে পারে।",
+      "image": "img/blog/governance-analysis.svg",
+      "sharePath": "blog/public-procurement-rules-deprived-bidder-public-criteria-accountability-2026",
+      "shareImage": "img/blog/governance-analysis-share.jpg",
+      "shareImageWidth": 1200,
+      "shareImageHeight": 630,
+      "publishedAt": "2026-11-20T11:44:15+01:00",
+      "imageAlt": "Editorial illustration about transparent public procurement, fair competition and accountable spending in Bangladesh",
+      "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+      "license": "NCPDA editorial asset — reusable site artwork; retained source attribution.",
+      "imageSourceUrl": "https://ncpdagermany.de/img/blog/governance-analysis.svg",
+      "featuredImageText": "নতুন দরদাতার দরজা খুলুক, কিন্তু ‘বঞ্চিত’ পরিচয় ও ব্যতিক্রমী শর্তের সিদ্ধান্ত প্রকাশ্য প্রমাণ ছাড়া নয়",
+      "facebookCaption": "সরকারি ক্রয়ে নতুন, ক্ষুদ্র ও নারী উদ্যোক্তার অংশগ্রহণ বাড়ানো দরকার। কিন্তু ‘বঞ্চিত’ পরিচয়ের যাচাই, ব্যতিক্রমী যোগ্যতা-শর্ত এবং অভিযোগ নিষ্পত্তির ফল প্রকাশ্যে না থাকলে সেই ভালো উদ্দেশ্যই পক্ষপাতের সুযোগ হবে। BPPA-র খসড়া বিধি নিয়ে ৩০ নভেম্বর পর্যন্ত মতামত দেওয়া যাচ্ছে।",
+      "facts": [
+        {
+          "value": "১৬ নভেম্বর",
+          "label": "জাতীয় সংসদে পাবলিক প্রকিউরমেন্ট (দ্বিতীয় সংশোধন) বিল, ২০২৬ পাস হওয়ার তারিখ"
+        },
+        {
+          "value": "১৯ নভেম্বর",
+          "label": "BPPA খসড়া পাবলিক প্রকিউরমেন্ট বিধিমালা, ২০২৬ প্রকাশ করে মতামত চাওয়ার তারিখ"
+        },
+        {
+          "value": "৩০ নভেম্বর",
+          "label": "BPPA-কে খসড়া বিধি নিয়ে মতামত পাঠানোর ঘোষিত শেষ তারিখ"
+        },
+        {
+          "value": "১৬৬ পৃষ্ঠা",
+          "label": "BPPA প্রকাশিত খসড়া পাবলিক প্রকিউরমেন্ট বিধিমালার পৃষ্ঠাসংখ্যা"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "সরকারি ক্রয়ে পুরোনো বড় ঠিকাদারের একচেটিয়া প্রভাব ভাঙতে নতুন, ক্ষুদ্র ও নারী উদ্যোক্তাকে সুযোগ দেওয়া দরকার। এ কথায় বিতর্ক নেই। কিন্তু সুযোগ দেওয়ার নামে রাষ্ট্র যদি ‘বঞ্চিত’ নামে একটি নতুন সুবিধাপ্রাপকের দরজা খোলে, তাহলে প্রথম প্রশ্নটি আরও কঠিন হয়: কে বঞ্চিত, কোন নথিতে তা প্রমাণ হবে, আর কে সেই সিদ্ধান্ত যাচাই করবে? উত্তরটি গোপন থাকলে প্রতিযোগিতা বাড়বে না; নতুন ধরনের পছন্দের তালিকা তৈরি হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "১৬ নভেম্বর জাতীয় সংসদ পাবলিক প্রকিউরমেন্ট (দ্বিতীয় সংশোধন) বিল, ২০২৬ পাস করেছে। ১৯ নভেম্বর বাংলাদেশ পাবলিক প্রকিউরমেন্ট অথরিটি (BPPA) তার ভিত্তিতে প্রস্তাবিত পাবলিক প্রকিউরমেন্ট বিধিমালা, ২০২৬-এর খসড়া প্রকাশ করে ৩০ নভেম্বর পর্যন্ত জনমত চেয়েছে। এই সময়টিই সিদ্ধান্তের আসল পরীক্ষা। আইন পাসের পর বিধি শুধু দপ্তরের কারিগরি কাগজ নয়; এখানেই ঠিক হবে কারা কীভাবে সরকারি অর্থের প্রতিযোগিতায় ঢুকবে, কার যোগ্যতা শিথিল হবে, আর আপত্তি হলে নাগরিক কী দেখতে পাবেন।"
+        },
+        {
+          "type": "callout",
+          "text": "নতুন দরদাতার জন্য দরজা খোলা জনস্বার্থের কাজ। কিন্তু ‘বঞ্চিত’ পরিচয়, ব্যতিক্রমী যোগ্যতা-শর্ত এবং অভিযোগের ফল যদি নাম-তারিখ-কারণসহ প্রকাশ্য না হয়, তবে স্বচ্ছতার প্রতিশ্রুতি যাচাই করার উপায় থাকবে না।"
+        },
+        {
+          "type": "heading",
+          "text": "সংসদে কী পাস হলো, আর বিতর্কটি কোথায়"
+        },
+        {
+          "type": "paragraph",
+          "text": "বাংলাদেশ সংবাদ সংস্থা জানায়, সংশোধনী বিলের লক্ষ্য হিসেবে সরকার স্বচ্ছতা, জবাবদিহি, সমান আচরণ ও উন্মুক্ত প্রতিযোগিতার কথা বলেছে। একই সঙ্গে নতুন নিবন্ধিত ব্যক্তি ও উদীয়মান উদ্যোক্তাকে অযৌক্তিক যোগ্যতার শর্তে ঠেকিয়ে রাখা যাবে না। দীর্ঘ অভিজ্ঞতা, বড় বার্ষিক লেনদেন, সরকারি প্রতিষ্ঠানের সঙ্গে আগের কাজ বা একক বড় চুক্তি সম্পাদনের অভিজ্ঞতাকে বাধ্যতামূলক যোগ্যতা করা যাবে না—এমন বিধানের কথা স্বাধীনভাবে দ্য ডেইলি স্টারও রিপোর্ট করেছে। নিয়মটি সঠিক দিকে যেতে পারে। ছোট প্রতিষ্ঠানের সক্ষমতা প্রমাণের পথ বড় প্রতিষ্ঠানের অনুকরণে বন্ধ করে রাখা ন্যায্য নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "কিন্তু একই বিলে নতুন, মাইক্রো ও ক্ষুদ্র, নারী এবং ‘বঞ্চিত’ দরদাতার অংশগ্রহণের জন্য বিশেষ ব্যবস্থা ও সীমিত দরপত্রে যোগ্যতা শিথিলের সুযোগ রাখা হয়েছে। এখানে ‘বঞ্চিত’ শব্দটি কেবল সহানুভূতির ভাষা নয়; এটি সরকারি চুক্তিতে বাস্তব সুবিধার দরজা হতে পারে। তাই সংজ্ঞা অস্পষ্ট থাকলে কর্তৃপক্ষের ব্যক্তিগত বা রাজনৈতিক পছন্দ ঢুকে পড়ার ঝুঁকি তৈরি হয়। ঝুঁকি মানেই অনিয়ম প্রমাণিত—এ কথা নয়। বরং ঝুঁকি চিহ্নিত থাকার কারণেই আগাম সুরক্ষা বসাতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সংসদে NCP-এর সদস্যসচিব ও এমপি আখতার হোসেন এই প্রশ্নটি তুলেছেন। দ্য ডেইলি স্টারের প্রতিবেদন অনুযায়ী, তিনি জানতে চান, ‘বঞ্চিত’ শ্রেণি যুক্ত হলে স্বচ্ছতা কীভাবে নিশ্চিত হবে; তাঁর আশঙ্কা ছিল, বাস্তবায়নের সময় এটি রাজনৈতিকভাবে পছন্দের সুবিধাভোগীর শ্রেণিতে পরিণত হতে পারে। এটি কোনো দলীয় স্লোগান নয়, বরং আইনের প্রয়োগযোগ্যতা নিয়ে সুনির্দিষ্ট সংসদীয় প্রশ্ন। বিরোধী সদস্যরা বিলটি জনমত নেওয়া বা বাছাই কমিটিতে পাঠানোর দাবিও করেছিলেন; তা গৃহীত হয়নি। NCP-এর কাজটি তাই গুরুত্বপূর্ণ: সুবিধাবঞ্চিত উদ্যোক্তার অংশগ্রহণের বিরোধিতা নয়, সুবিধা বাছাইয়ের নিয়মের প্রকাশ্যতা দাবি করা।"
+        },
+        {
+          "type": "heading",
+          "text": "সরকারের যুক্তি শুনতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের বক্তব্যও উপেক্ষা করার নয়। অর্থ ও পরিকল্পনামন্ত্রী আমির খসরু মাহমুদ চৌধুরী সংসদে বলেছেন, উদ্দেশ্য কাউকে স্বয়ংক্রিয় সুবিধা দেওয়া নয়; আগে সুযোগ না পাওয়া মানুষদের অংশগ্রহণের পথ তৈরি করা। তিনি আরও বলেন, পর্যালোচনা কমিটিতে বেসরকারি খাতের প্রতিনিধিও আছে এবং বিধি প্রণয়নের সময় সংসদে ওঠা কিছু পরামর্শ বিবেচনা করা যেতে পারে। BPPA-র ১৯ নভেম্বরের কর্মশালাতেও পরিকল্পনা প্রতিমন্ত্রী বহু-পক্ষের মতামত নিয়ে বিধি চূড়ান্ত করার কথা বলেছেন। BPPA জানিয়েছে, তারা খসড়া বিধি প্রকাশ করেছে এবং আরও পরামর্শ নেবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই যুক্তির শক্তি আছে। বহু বছর ধরে দরপত্রের অভিজ্ঞতা, বড় লেনদেন বা পুরোনো সরকারি কাজের শর্ত নতুন ব্যবসাকে শুরুতেই বাদ দিতে পারে। দেশীয় শিল্প, ক্ষুদ্র উদ্যোগ ও নারী উদ্যোক্তার অংশগ্রহণ বাড়ানো অর্থনীতির জন্যও যুক্তিসঙ্গত লক্ষ্য। সব দরপত্রে একই মাপের পূর্ব-অভিজ্ঞতা চাইলে প্রতিযোগিতা কাগজে থাকে, বাজারে নয়। সরকার যে খসড়া বিধি প্রকাশ করেছে, সেটিও অন্তত একটি গুরুত্বপূর্ণ জানালা খুলেছে: বিধি কার্যকর হওয়ার আগে নাগরিক ও ব্যবসায়ীরা লিখিত মত দিতে পারবেন।"
+        },
+        {
+          "type": "heading",
+          "text": "তবু বিধিতে কোন চারটি উত্তর বাধ্যতামূলক"
+        },
+        {
+          "type": "paragraph",
+          "text": "প্রথমত, ‘বঞ্চিত’ পরিচয়ের মাপদণ্ড আইন বা বিধিতে এমনভাবে লিখতে হবে, যাতে কোনো কর্মকর্তার ব্যক্তিগত বিবেচনা একমাত্র ভিত্তি না হয়। নিবন্ধন, পূর্বের দরপত্রে অংশগ্রহণ, চুক্তি না পাওয়ার ইতিহাস এবং সংশ্লিষ্ট ঘোষণাপত্র—কোন প্রমাণ লাগবে, তা আগে থেকেই জানা থাকতে হবে। শুধু ‘সুযোগ পায়নি’ বলা যথেষ্ট নয়; কারণ সুযোগ না পাওয়ার কারণ দক্ষতার অভাব, দরপত্র না করা, নাকি বৈষম্য—এ তিনটি এক বিষয় নয়।"
+        },
+        {
+          "type": "paragraph",
+          "text": "দ্বিতীয়ত, বিশেষ সুবিধা বা যোগ্যতা শিথিল করা হলে প্রতিটি সিদ্ধান্তের কারণ ও সময়সীমা ই-জিপি বা BPPA-র উন্মুক্ত পাতায় প্রকাশ করতে হবে। কোন প্রতিষ্ঠান কোন দরপত্রে কোন শর্ত থেকে ছাড় পেল, কোন কর্তৃপক্ষ অনুমোদন দিল এবং কত দিনের জন্য সেই সুবিধা কার্যকর—এগুলো গোপন বাণিজ্যিক তথ্য নয়; এগুলো সরকারি সিদ্ধান্তের ন্যূনতম রেকর্ড। ব্যতিক্রম প্রকাশ না করলে সাধারণ নিয়মের সমতা প্রমাণ করা যায় না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "তৃতীয়ত, সীমিত দরপত্র ও জরুরি ক্রয়ের ক্ষেত্রে প্রকৃত প্রতিযোগিতা ও মূল্য যাচাইয়ের তথ্য আলাদা করে প্রকাশ করতে হবে। খসড়া বিধিমালার ১৬৬ পৃষ্ঠা দেখায়, এটি ছোটখাটো প্রশাসনিক পরিবর্তন নয়; পণ্য, কাজ, সেবা, মূল্যায়ন, অভিযোগ ও চুক্তি-বাস্তবায়নের বহু স্তরকে ছোঁয়া কাঠামো। তাই ‘জরুরি’ বা ‘সীমিত’ শব্দের আড়ালে কে ডাক পেল, কতজন ডাক পেল, কার দর কত ছিল, কাকে কেন বাছা হলো—সেই সংক্ষিপ্ত বিবরণ সময়মতো না দেখালে পরের অডিটের জন্য অপেক্ষা ছাড়া উপায় থাকে না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "চতুর্থত, অভিযোগ ও আপিলের ফল প্রকাশযোগ্য হতে হবে। সরকার বলেছে, পর্যালোচনা কমিটিতে বেসরকারি খাতের প্রতিনিধি আছে। প্রতিনিধিত্ব গুরুত্বপূর্ণ, কিন্তু সেটি ফলের বিকল্প নয়। কতটি অভিযোগ এল, কত দিনে নিষ্পত্তি হলো, কতটি সিদ্ধান্ত বদলাল, কোন ধরনের ভুল সবচেয়ে বেশি ধরা পড়ল—এই সমষ্টিগত তথ্য মাসে মাসে প্রকাশ হলে বোঝা যাবে ব্যবস্থা কাজ করছে কি না। ব্যক্তিগত বা বাণিজ্যিক গোপনীয়তা রক্ষা করে এই পরিসংখ্যান ও কারণসংক্ষেপ প্রকাশ করা সম্ভব।"
+        },
+        {
+          "type": "heading",
+          "text": "স্বচ্ছতা মানে শুধু ওয়েবসাইটে দরপত্র রাখা নয়"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি দপ্তর অনেক সময় দরপত্র বিজ্ঞপ্তি প্রকাশ করাকেই স্বচ্ছতার পুরো প্রমাণ মনে করে। কিন্তু বিজ্ঞপ্তি দেখা আর সিদ্ধান্ত যাচাই করা এক কথা নয়। একটি নতুন প্রতিষ্ঠান দরপত্রে অংশ নিতে পারল কি না, তার যোগ্যতার শর্ত শেষ মুহূর্তে বদলাল কি না, কোনো প্রতিষ্ঠান বিশেষ সুবিধা পেল কি না, বা অভিযোগ করার পর কী উত্তর পেল—এসব না জানলে শুধু বিজ্ঞপ্তির তালিকা দিয়ে জবাবদিহি হয় না। সরকারি ক্রয়ের প্রতিটি পর্যায়ে এমন তথ্য থাকতে হবে, যাতে পরে নয়, সিদ্ধান্তের সময়ই নাগরিক, প্রতিদ্বন্দ্বী দরদাতা ও সাংবাদিক প্রশ্ন তুলতে পারেন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই কারণে অনলাইন রেকর্ডে কেবল বিজয়ীর নাম থাকলে চলবে না। দরপত্রের আনুমানিক মূল্য, অংশগ্রহণকারী দরদাতার সংখ্যা, মূল্যায়নের প্রধান মানদণ্ড, বাতিলের কারণ, অনুমোদিত ব্যতিক্রম এবং চূড়ান্ত চুক্তিমূল্য—কমপক্ষে এগুলো খুঁজে পাওয়া উচিত। বড় ও জটিল ক্রয়ে বিস্তারিত তথ্যের প্রয়োজন আরও বেশি। এতে কোনো কর্মকর্তাকে আগে থেকেই দোষী বলা হয় না। বরং পরিষ্কার রেকর্ড সৎ কর্মকর্তা ও বৈধ ব্যবসাকেও সুরক্ষা দেয়, কারণ সিদ্ধান্তের কারণ নথিতে থাকে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "নতুন সংশোধনের যে অংশটি দীর্ঘ অভিজ্ঞতা বা বড় লেনদেনকে বাধ্যতামূলক শর্ত না করার কথা বলে, সেটি স্বয়ংক্রিয়ভাবে অযোগ্য প্রতিষ্ঠানকে চুক্তি দেওয়ার অনুমতি নয়। কাজের প্রকৃতি, ঝুঁকি ও জটিলতার সঙ্গে সামঞ্জস্য রেখে বিশেষ যোগ্যতা চাওয়া যেতে পারে—এ কথাও সংবাদ প্রতিবেদনে এসেছে। তাই বিধির আসল কাজ দুই দিক একসঙ্গে ধরা: ছোট প্রতিষ্ঠানের জন্য কৃত্রিম দেয়াল ভাঙা এবং ঝুঁকিপূর্ণ কাজের ক্ষেত্রে বাস্তব সক্ষমতা পরীক্ষা করা। একটি দিক বাদ পড়লে হয় পুরোনোদের একচেটিয়া অবস্থান থাকবে, নয়তো জনসেবা ও জনঅর্থ ঝুঁকিতে পড়বে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এই ভারসাম্যের জায়গাতেই লিখিত কারণ সবচেয়ে গুরুত্বপূর্ণ। কোনো হাসপাতালের যন্ত্রপাতি, সেতুর কাজ বা তথ্যব্যবস্থার জন্য বিশেষ দক্ষতা লাগলে কর্তৃপক্ষ তা লিখে বোঝাক। আবার সাধারণ সরবরাহ বা ছোট কাজের ক্ষেত্রে অপ্রাসঙ্গিক বড় টার্নওভার কিংবা বিদেশি অভিজ্ঞতার শর্ত চাপালে সেটিও লিখে ব্যাখ্যা করতে হোক। একই নিয়ম সবার জন্য দৃশ্যমান হলে উদ্যোক্তারা আগে থেকেই বুঝবেন কী তৈরি করতে হবে; কর্মকর্তারাও পরে ‘বিবেচনা’ শব্দের আড়ালে নিয়ম বদলাতে পারবেন না।"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারের পর্যালোচনা ব্যবস্থার কথাও এখানে পরীক্ষা হবে। মন্ত্রী বলেছেন, বেসরকারি খাতের প্রতিনিধি থাকার কারণে আপিল-প্রক্রিয়ায় যথেষ্ট স্বচ্ছতা থাকবে। সেই বক্তব্যের বাস্তব পরীক্ষা খুব সহজ: পর্যালোচনার সদস্যদের ভূমিকা, স্বার্থের সম্ভাব্য সংঘাত-ঘোষণা, সিদ্ধান্তের সময় এবং কারণসংক্ষেপ প্রকাশ করুন। সিদ্ধান্ত বদলালে কেন বদলাল, না বদলালে কেন বদলাল না—তা জানা গেলে প্রতিনিধিত্ব কথার বাইরে গিয়ে প্রতিষ্ঠানগত আস্থা তৈরি করবে। অদৃশ্য পর্যালোচনা আস্থা তৈরি করে না, দৃশ্যমান যুক্তি করে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আরেকটি সতর্কতা দরকার। ‘বঞ্চিত’ শব্দটি প্রকৃত বৈষম্যের শিকার ব্যবসায়ী বা উদ্যোক্তাকে সাহায্য করার জন্য ব্যবহার হতে পারে। কিন্তু সেই শব্দের নৈতিক আবেদনকে প্রমাণের বিকল্প বানানো যাবে না। যাঁরা বাস্তবে সুযোগ থেকে বাদ পড়েছেন, তাঁদের অধিকার রক্ষার সবচেয়ে ভালো পদ্ধতিও স্বচ্ছ মাপকাঠি। অস্পষ্ট সুবিধা শেষ পর্যন্ত সবচেয়ে সংগঠিত ও ক্ষমতার কাছাকাছি গোষ্ঠীর দখলে যাওয়ার আশঙ্কা বাড়ায়; এতে যাঁদের জন্য নীতি, তাঁরাই আবার পিছিয়ে পড়েন।"
+        },
+        {
+          "type": "paragraph",
+          "text": "BPPA-র খোলা পরামর্শপ্রক্রিয়াকে তাই আনুষ্ঠানিকতা হতে দেওয়া যাবে না। প্রাপ্ত মতামতের সংখ্যা, কারা কোন মূল প্রশ্ন তুলেছেন, এবং কোন প্রস্তাব চূড়ান্ত বিধিতে নেওয়া বা না নেওয়া হলো—সেটির সংক্ষিপ্ত প্রকাশ্য উত্তর থাকলে ৩০ নভেম্বরের পরও নাগরিকরা এই সংস্কারের পথ অনুসরণ করতে পারবেন।"
+        },
+        {
+          "type": "heading",
+          "text": "ভালো লক্ষ্যকে যাচাইযোগ্য নিয়মে নামাতে হবে"
+        },
+        {
+          "type": "paragraph",
+          "text": "সরকারি ক্রয়ের আইনকে শুধু দুর্নীতির ভাষায় পড়লে ভুল হবে। এটি বাজারে কার সুযোগ হবে, রাষ্ট্র কী দামে কী মানের কাজ পাবে, এবং করের টাকা কে কীভাবে ব্যয় করবে—তার আইন। নতুন উদ্যোক্তার জন্য অযৌক্তিক বাধা কমানো তাই সংস্কার। কিন্তু সেই সংস্কারের মাপকাঠি যদি অস্পষ্ট থাকে, তবে একই আইন নতুন প্রতিযোগিতা তৈরি করার বদলে নতুন মধ্যস্থতাকারী তৈরি করতে পারে। দ্য বিজনেস স্ট্যান্ডার্ডের প্রতিবেদনে অর্থনীতিবিদ ও সুশাসন বিশেষজ্ঞদের যে পক্ষপাতের আশঙ্কার কথা এসেছে, সেটি চূড়ান্ত রায় নয়; সেটি বিধি লেখার আগে নেওয়ার মতো সতর্কবার্তা।"
+        },
+        {
+          "type": "paragraph",
+          "text": "এখানে NCP-এর সংসদীয় প্রশ্নকে গুরুত্ব দিতে হবে, কারণ প্রশ্নটি জনঅর্থের। ‘বঞ্চিত’ শ্রেণি থাকলে তার যাচাইয়ের স্বাধীন ও লিখিত পদ্ধতি কোথায়? ব্যতিক্রমী যোগ্যতা-শর্তের অনুমোদন কে দেয়? দরপত্র, মূল্যায়ন ও আপিলের কোন তথ্য কখন প্রকাশ হবে? এসব প্রশ্নের উত্তর বিধিতে থাকলে সরকারও সুরক্ষিত থাকবে; ভালো উদ্যোগকে রাজনৈতিক পক্ষপাতের অভিযোগ থেকে রক্ষা করার সবচেয়ে ভালো উপায় হলো সিদ্ধান্তের প্রমাণ খুলে দেওয়া।"
+        },
+        {
+          "type": "heading",
+          "text": "৩০ নভেম্বরের আগে যা করা দরকার"
+        },
+        {
+          "type": "paragraph",
+          "text": "BPPA মতামত চাওয়ার সময়সীমা ৩০ নভেম্বর পর্যন্ত রেখেছে। এর আগে পরিকল্পনা মন্ত্রণালয় ও BPPA-কে চারটি প্রকাশ্য অঙ্গীকার করতে হবে: ‘বঞ্চিত’ পরিচয়ের নির্দিষ্ট মাপদণ্ড ও প্রমাণের তালিকা; প্রতিটি ছাড় বা বিশেষ ব্যবস্থার অনলাইন সিদ্ধান্ত-রেকর্ড; সীমিত ও জরুরি ক্রয়ের প্রতিযোগিতা ও মূল্যতথ্যের সময়মতো প্রকাশ; এবং অভিযোগের ফল নিয়ে মাসিক সারসংক্ষেপ। সঙ্গে খসড়া বিধিতে পাওয়া মন্তব্য, গ্রহণ বা বর্জনের কারণ এবং চূড়ান্ত পরিবর্তনের তালিকাও প্রকাশ করতে হবে।"
+        },
+        {
+          "type": "paragraph",
+          "text": "আইন পাস হয়ে গেছে বলে আলোচনা শেষ নয়। বরং এখনই সেই জায়গা, যেখানে ভালো উদ্দেশ্যকে খোলা নিয়মে বাঁধা যায়। নতুন ব্যবসা ও বঞ্চিত উদ্যোক্তার সুযোগ বাড়ুক—এটাই কাম্য। কিন্তু সরকারি চুক্তির দরজা কার জন্য খুলল, কার জন্য বন্ধ রইল এবং কেন, সে প্রশ্নের জবাব নথিতে না থাকলে ‘স্বচ্ছতা’ শব্দটি কেবল বিলের ভূমিকায় থাকবে। জনঅর্থের ব্যবস্থায় তার চেয়ে বেশি দরকার।"
+        }
+      ],
+      "sources": [
+        {
+          "label": "বাংলাদেশ পাবলিক প্রকিউরমেন্ট অথরিটি (BPPA) — ‘Public comments are invited on the draft of the Proposed Public Procurement Rules, 2026’, ১৯ নভেম্বর ২০২৬",
+          "url": "https://www.bppa.gov.bd/media-communication/news-1590.html"
+        },
+        {
+          "label": "বাংলাদেশ পাবলিক প্রকিউরমেন্ট অথরিটি (BPPA) — প্রস্তাবিত পাবলিক প্রকিউরমেন্ট বিধিমালা, ২০২৬-এর খসড়া (১৬৬ পৃষ্ঠা), ১৯ নভেম্বর ২০২৬",
+          "url": "https://bppa.gov.bd/upload/publication/2026-11-19-12-13-30-Draft-of-the-proposed--PPR-2026.pdf"
+        },
+        {
+          "label": "বাংলাদেশ পাবলিক প্রকিউরমেন্ট অথরিটি (BPPA) — ‘State Minister stresses wider consultation on proposed PPR, 2026’, ১৯ নভেম্বর ২০২৬",
+          "url": "https://www.bppa.gov.bd/media-communication/news-1591.html"
+        },
+        {
+          "label": "বাংলাদেশ সংবাদ সংস্থা — ‘Public Procurement (2nd amendment) Bill, 2026 passes in JS’, ১৬ নভেম্বর ২০২৬",
+          "url": "https://www.bssnews.net/js-session/446624"
+        },
+        {
+          "label": "দ্য ডেইলি স্টার — ‘Parliament passes procurement bill barring restrictive eligibility criteria’, ১৬ নভেম্বর ২০২৬",
+          "url": "https://www.thedailystar.net/news/governance/parliament/news/parliament-passes-procurement-bill-barring-restrictive-eligibility-criteria-4325616"
+        },
+        {
+          "label": "দ্য বিজনেস স্ট্যান্ডার্ড — ‘Govt eases tender rules for “deprived” bidders under amended procurement law’, ১৭ নভেম্বর ২০২৬",
+          "url": "https://www.tbsnews.net/bangladesh/law-order/govt-eases-tender-rules-deprived-bidders-under-amended-procurement-law-1604876"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Who counts as ‘deprived’ in public procurement? The new rules need a public answer",
+          "excerpt": "Parliament has expanded access for newer and smaller bidders, while BPPA is consulting on the implementing rules. The criteria, exceptions and appeal outcomes must be public to keep a good reform from becoming discretionary patronage.",
+          "imageAlt": "Editorial illustration about transparent public procurement, fair competition and accountable spending in Bangladesh",
+          "imageCredit": "NCP Diaspora Alliance Germany editorial-analysis artwork; not a photograph of a real event.",
+          "facebookCaption": "Opening procurement to newer, smaller and women entrepreneurs is necessary. But the criteria for ‘deprived’ bidders, exceptional qualifications and appeal outcomes must be public."
+        },
+        "de": {
+          "title": "Wer gilt bei öffentlichen Vergaben als ‚benachteiligt‘? Die neuen Regeln brauchen eine öffentliche Antwort",
+          "excerpt": "Das Parlament hat den Zugang für neue und kleinere Bieter erweitert; BPPA konsultiert nun die Ausführungsregeln. Kriterien, Ausnahmen und Beschwerdeergebnisse müssen öffentlich sein, damit eine gute Reform nicht zu willkürlicher Begünstigung wird.",
+          "imageAlt": "Redaktionelle Illustration über transparente öffentliche Beschaffung, fairen Wettbewerb und rechenschaftspflichtige Ausgaben in Bangladesch",
+          "imageCredit": "Redaktionelle Analysegrafik von NCP Diaspora Alliance Germany; kein Foto eines realen Ereignisses.",
+          "facebookCaption": "Der Zugang für neue, kleinere und von Frauen geführte Unternehmen ist nötig. Kriterien für ‚benachteiligte‘ Bieter, Ausnahmen und Beschwerdeergebnisse müssen aber öffentlich sein."
+        }
+      },
+      "automation": {
+        "evidenceScore": 90,
+        "confidence": "HIGH",
+        "factCheckStatus": "PASS",
+        "classification": "READY TO PUBLISH",
+        "researchReason": "This is a distinct, time-bound accountability development after the 13 November weekly cycle: Parliament passed the Public Procurement (Second Amendment) Bill on 16 November and BPPA opened the 166-page implementing-rules draft for written public comment on 19 November. BPPA is the primary source for the consultation, deadline and draft. BSS records the parliamentary passage and government response; The Daily Star and The Business Standard independently corroborate the central provisions and the opposition/NCP concern about discretionary treatment. The editorial does not allege corruption or claim that any category has been misused; it argues for verifiable safeguards before the rules are finalised.",
+        "governmentPosition": "The government says the amendment is intended to widen participation rather than automatically benefit anyone. Finance and Planning Minister Amir Khosru Mahmud Chowdhury said private-sector representatives sit on the review committee and some proposals may be considered in the rules. BPPA and the State Minister for Planning have published the draft rules, invited feedback through 30 November and said further consultation will take place. The editorial accepts the goal of lowering unjustified barriers for new firms while testing whether the safeguards will be public and auditable.",
+        "findings": [
+          "Parliament passed the Public Procurement (Second Amendment) Bill, 2026 on 16 November; reporting identifies provisions against unnecessarily restrictive eligibility conditions for new firms and emerging entrepreneurs.",
+          "The bill provides for special measures for new, micro and small, women and disadvantaged bidders. The published reporting records parliamentary concern, including from NCP MP Akhter Hossen, about how the disadvantaged category can be protected from discretion.",
+          "On 19 November BPPA published a 166-page proposed Public Procurement Rules, 2026 draft and set 30 November as the deadline for written public comments.",
+          "Neither the sources nor this editorial establish that a bidder has received an improper benefit. The risk discussed is prospective: opaque eligibility, exceptions or review outcomes would make equal treatment impossible to verify.",
+          "Public criteria, a reasoned online record of exceptions and aggregate appeal outcomes are proportionate accountability safeguards that would protect both bidders and the reform's stated objectives."
+        ],
+        "claimMatrix": {
+          "billPassageAndPurpose": "VERIFIED FACT — HIGH — BSS reports the 16 November parliamentary passage, government objectives and stated special measures; The Daily Star independently reports the passage and core eligibility provisions.",
+          "ncpParliamentaryPosition": "REPORTED FACT — HIGH — The Daily Star attributes the defined concern about the ‘deprived persons’ category to NCP MP Akhter Hossen; it is presented as his parliamentary position, not as independently proven misuse.",
+          "rulesConsultation": "VERIFIED FACT — HIGH — BPPA's 19 November notice publishes the draft rules and requests feedback by 30 November; BPPA's contemporaneous workshop notice confirms further consultation.",
+          "draftLength": "VERIFIED FACT — HIGH — the BPPA-hosted draft PDF has 166 pages.",
+          "misuseRisk": "ANALYSIS — HIGH — no actual abuse is alleged; the conclusion is that opaque criteria or exemptions would prevent public verification and create a foreseeable discretion risk.",
+          "publicSafeguards": "ANALYSIS/RECOMMENDATION — HIGH — publication of criteria, decisions and aggregate review outcomes is a specific, proportionate accountability response to the law's stated transparency objective."
+        },
+        "seoTitle": "সরকারি ক্রয়ে ‘বঞ্চিত’ কে: প্রকাশ্য মানদণ্ড চাই",
+        "metaDescription": "সরকারি ক্রয়ের নতুন বিধিতে ‘বঞ্চিত’ দরদাতা কে, তার যাচাই ও ব্যতিক্রমী শর্তের কারণ প্রকাশ্য না হলে স্বচ্ছতার প্রতিশ্রুতি সত্যিকারভাবে পরীক্ষা করা যাবে না।",
+        "categories": [
+          "সরকারি জবাবদিহি",
+          "জনঅর্থ",
+          "সংসদ ও আইন"
+        ],
+        "tags": [
+          "পাবলিক প্রকিউরমেন্ট",
+          "সরকারি ক্রয়",
+          "BPPA",
+          "দরপত্র",
+          "স্বচ্ছতা",
+          "জবাবদিহি",
+          "NCP",
+          "আখতার হোসেন",
+          "ক্ষুদ্র উদ্যোক্তা",
+          "সংসদ"
+        ]
+      }
+    },
+    {
       "id": "biman-audit-objections-public-deadline-tracker-accountability-2026",
       "slug": "biman-audit-objections-public-deadline-tracker-accountability-2026",
       "status": "published",
