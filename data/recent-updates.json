@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-21T23:20:54.519Z",
+  "updatedAt": "2026-11-22T06:54:10.240Z",
   "items": [
+    {
+      "id": "facebook-germany-122216017574921031",
+      "facebookId": "122216017574921031",
+      "status": "published",
+      "date": "২২ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-22T01:00:14+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে",
+      "excerpt": "জবাবদিহি করতে হবে।”",
+      "sourceCaption": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে\nজবাবদিহি করতে হবে।”\n\n#ncpdagermany",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122216017574921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122216017574921031.jpg",
+      "imageAlt": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122216007854921031",
       "facebookId": "122216007854921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122215693016921031.jpg",
       "imageAlt": "জুলাই গণঅভ্যুত্থানের অন্যতম সমন্বয়ক ও জাতীয় স্বেচ্ছাসেবক শক্তির আহ্বায়ক মাহিন সরকারের বাড়িতে নিষিদ্ধ লীগের…",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122215545320921031",
-      "facebookId": "122215545320921031",
-      "status": "published",
-      "date": "১৯ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-18T23:05:11+0000",
-      "badge": "জুলাই",
-      "title": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
-      "excerpt": "জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।” - বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊",
-      "sourceCaption": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য? জুলাইয়ের ঐক্য রয়েছে। সেই ঐক্য কোনো দলের সঙ্গে নয়, সেই ঐক্য বাংলাদেশের জনগণের সঙ্গে।”\n\n- বাংলাদেশের নেতা নাহিদ ইসলাম ✊✊✊\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122215545320921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122215545320921031.jpg",
-      "imageAlt": "“আপনি সংস্কার করবেন না, আপনি বিচার করবেন না, আপনার সঙ্গে কিসের জাতীয় ঐক্য?",
       "managedBy": "facebook-sync"
     },
     {
@@ -258,7 +258,7 @@
       "sourceUrl": "https://www.facebook.com/reel/847006725092269/",
       "mediaType": "video",
       "isReel": true,
-      "viewCount": 67380,
+      "viewCount": 67381,
       "featured": false,
       "image": "img/social/germany/fb-847006725092269.jpg",
       "imageAlt": "গণঅভ্যুত্থানের মহানায়ক কে?",
