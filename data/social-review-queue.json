@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T23:21:25.222Z",
+  "updatedAt": "2026-11-22T06:54:46.524Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -10371,6 +10371,45 @@
           "description": "“শেখ হাসিনার বিরুদ্ধে দেওয়া রায় কার্যকর হলে আওয়ামী লীগ সরকারের আমলে নির্যাতনের শিকার ব্যক্তিদের ন্যায়বিচার পাওয়ার পথ তৈরি হবে।” - নাহিদ ইসলাম…\n\n“শেখ হাসিনার বিরুদ্ধে দেওয়া রায় কার্যকর হলে আওয়ামী লীগ সরকারের আমলে নির্যাতনের শিকার ব্যক্তিদের ন্যায়বিচার পাওয়ার পথ তৈরি হবে।” - নাহিদ ইসলাম #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122216007854921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122216007854921031-7b273a81dd-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122216017574921031-d2152fb551",
+      "sourceType": "facebook",
+      "sourceId": "122216017574921031",
+      "sourceKey": "facebook:germany:122216017574921031",
+      "sourceFingerprint": "d2152fb551a3f9475ac0a930184157d49c891d79f0d6c98c63388802d0b96d27",
+      "sourceCreatedAt": "2026-11-22T01:00:14+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122216017574921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-22T06:54:46.523Z",
+      "updatedAt": "2026-11-22T06:54:46.524Z",
+      "title": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany",
+      "excerpt": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany",
+      "sourceCaption": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany",
+      "image": "img/social/germany/fb-122216017574921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany\nhttps://www.facebook.com/122195961254921031/posts/122216017574921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122216017574921031-d2152fb551-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও…",
+          "description": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany\n\n“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে জবাবদিহি করতে হবে।” #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122216017574921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122216017574921031-d2152fb551-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
