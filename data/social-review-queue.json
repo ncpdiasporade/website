@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T02:49:25.139Z",
+  "updatedAt": "2026-11-23T12:52:36.247Z",
   "items": [
     {
       "id": "facebook-122197517390921031-ddd78d972e",
@@ -10605,6 +10605,45 @@
           "description": "🔥 বীর চট্টলায় আসছেন এনসিপির শীর্ষ চার নেতা!\n\n🔥 বীর চট্টলায় আসছেন এনসিপির শীর্ষ চার নেতা! জুলাই গণঅভ্যুত্থানের অন্যতম ঐতিহাসিক স্থান চট্টগ্রামের নিউমার্কেট মোড় থেকে শুরু হবে জাতীয় নাগরিক পার্টি (এনসিপি)-এর বিক্ষোভ মিছিল। মিছিলে অংশ নেবেন: * হাসনাত আবদুল্লাহ * নাসীরুদ্দীন পাটওয়ারী * সারজিস আলম * সালেহ উদ্দিন সিফাত 📍 স্থান: নিউমার্কেট মোড়, চট্টগ্রাম 🕒 সময়: বিকেল ৩টা চট্টগ্রাম মহানগরের এনসিপির সকল নেতাকর্মী ও নেতৃবৃন্দকে যথাসময়ে উপস্থিত থাকার আহ্বান জানানো হচ্ছে। ইনকিলাব জিন্দাবাদ! #ncpdagermany\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122216152670921031\n\n#NCPDAGermany #BangladeshDiaspora",
           "mediaPaths": [
             "img/social/outbound/facebook-122216152670921031-9c3a20a8bb-tiktok.jpg"
+          ],
+          "blockReason": "production-approval-required"
+        }
+      }
+    },
+    {
+      "id": "facebook-122216218916921031-38fd242bf6",
+      "sourceType": "facebook",
+      "sourceId": "122216218916921031",
+      "sourceKey": "facebook:germany:122216218916921031",
+      "sourceFingerprint": "38fd242bf656a737f428510503fe39a48e0c8bfd6cdcc405cbf50f85c3e21b38",
+      "sourceCreatedAt": "2026-11-23T12:04:43+0000",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122216218916921031",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "approval": "automatic",
+      "approvalStatus": "not-required",
+      "status": "pending",
+      "createdAt": "2026-11-23T12:52:36.247Z",
+      "updatedAt": "2026-11-23T12:52:36.247Z",
+      "title": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "excerpt": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "sourceCaption": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "image": "img/social/germany/fb-122216218916921031.jpg",
+      "imageCredit": null,
+      "imageSourceUrl": null,
+      "platforms": {
+        "x": {
+          "status": "draft-ready",
+          "attempts": 0,
+          "text": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-\nhttps://www.facebook.com/122195961254921031/posts/122216218916921031\n#NCPDAGermany",
+          "mediaPath": "img/social/outbound/facebook-122216218916921031-38fd242bf6-x.jpg"
+        },
+        "tiktok": {
+          "status": "blocked",
+          "attempts": 0,
+          "title": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+          "description": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-\n\nপ্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-\n\nবিস্তারিত: https://www.facebook.com/122195961254921031/posts/122216218916921031\n\n#NCPDAGermany #BangladeshDiaspora",
+          "mediaPaths": [
+            "img/social/outbound/facebook-122216218916921031-38fd242bf6-tiktok.jpg"
           ],
           "blockReason": "production-approval-required"
         }
