@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-23T02:48:54.801Z",
+  "updatedAt": "2026-11-23T12:51:56.545Z",
   "items": [
+    {
+      "id": "facebook-germany-122216218916921031",
+      "facebookId": "122216218916921031",
+      "status": "published",
+      "date": "২৩ নভেম্বর, ২০২৬",
+      "createdAt": "2026-11-23T12:04:43+0000",
+      "badge": "জার্মানি চ্যাপ্টার",
+      "title": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "excerpt": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "sourceCaption": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "sourceKey": "germany",
+      "sourceName": "NCP Diaspora Alliance Germany",
+      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122216218916921031",
+      "mediaType": "image",
+      "isReel": false,
+      "featured": false,
+      "image": "img/social/germany/fb-122216218916921031.jpg",
+      "imageAlt": "প্রধানমন্ত্রীর সঙ্গে বৈঠকে এনসিপি:-",
+      "managedBy": "facebook-sync"
+    },
     {
       "id": "facebook-germany-122216152670921031",
       "facebookId": "122216152670921031",
@@ -99,26 +119,6 @@
       "featured": false,
       "image": "img/social/germany/fb-122216088416921031.jpg",
       "imageAlt": "“জাতীয় ঐক‍্যের প্রথম পদক্ষেপ, এক দলীয় সংবিধান সংশোধন কমিটি বাতিল করে অবিলম্বে সংস্কার পরিষদের শপথ গ্রহণ করতে হবে।”",
-      "managedBy": "facebook-sync"
-    },
-    {
-      "id": "facebook-germany-122216017574921031",
-      "facebookId": "122216017574921031",
-      "status": "published",
-      "date": "২২ নভেম্বর, ২০২৬",
-      "createdAt": "2026-11-22T01:00:14+0000",
-      "badge": "জার্মানি চ্যাপ্টার",
-      "title": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে",
-      "excerpt": "জবাবদিহি করতে হবে।”",
-      "sourceCaption": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে\nজবাবদিহি করতে হবে।”\n\n#ncpdagermany",
-      "sourceKey": "germany",
-      "sourceName": "NCP Diaspora Alliance Germany",
-      "sourceUrl": "https://www.facebook.com/122195961254921031/posts/122216017574921031",
-      "mediaType": "image",
-      "isReel": false,
-      "featured": false,
-      "image": "img/social/germany/fb-122216017574921031.jpg",
-      "imageAlt": "“বিএনপি যদি সত্যিকার অর্থে জাতীয় ঐক্য চায়, তাহলে আগে নিজেদের ভুল স্বীকার করতে হবে ও জনগণের কাছে",
       "managedBy": "facebook-sync"
     },
     {
